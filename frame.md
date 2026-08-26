@@ -4,34 +4,46 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1015` · 2026-08-26 19:08 UTC
+`FRAME #1016` · 2026-08-26 19:11 UTC
 
 ---
 
-## ▶ Turn
+## ▶ Concurrent agency
 
-### TURN OWNER — **COMPANY**
+### YOU — **0 waiting** · COMPANY — **3 owed**
 
-—
+**Latest move:** You approved the 5ET Welcome Experience Services Agreement. · 2026-08-26 18:45:57 UTC
+
+**Company owes next:** [5ET Welcome Experience Services Agreement](Operations/_work/approvals/contract-proposal-5et-welcome-experience-services-agreement.md) — Apply the approved proposal, record the outcome, and settle the obligation.
 
 ```
-█
-█ you
-▁ company · — turns · —
+█▁▁▁▁▁▁▁▁
+█ latest move · 18:45
+▁ world · 8 ticks · 26 min   (frames #1008 → #1016)
 ```
 
 | | |
 |---|---:|
-| Turns elapsed on this turn | **—** |
-| Held for | — |
-| Turns responded but unsettled | 0 |
-| Decisions waiting | 27 |
+| World ticks since latest move | **8** |
+| Time since latest move | 26 min |
+| Company obligations | 3 (7 raw records) |
+| Waiting on you | 0 |
+
+---
+
+## ⇢ Company owes — 3
+
+| Obligation | Records | Next action |
+|---|---:|---|
+| [5ET Welcome Experience Services Agreement](Operations/_work/approvals/contract-proposal-5et-welcome-experience-services-agreement.md) | 2 | Apply the approved proposal, record the outcome, and settle the obligation. |
+| [Review seed crystallisation support amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) | 4 | Reconcile the response and settle the obligation. |
+| [Set Up Paid Consulting Engagement — AlphaSights](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) | 1 | Use the source correspondence to bootstrap the consulting-engagement process. Obtain the client legal entity, billing details, purchase-order or engagement paperwork and service date before preparing the final sales order or invoice. Drafts remain under Mandip's control; do not send or accept external terms automatically. |
 
 ---
 
 ## ⚑ Waiting on you — 0
 
-Nothing presented and unanswered. The company owns the turn.
+Nothing is waiting on you. The company may still have work to do.
 
 ---
 
@@ -117,4 +129,4 @@ Nothing presented and unanswered. The company owns the turn.
 | 08-25 10:16 | **you** | Responded · O.453 |
 | 08-25 09:46 | company | Cue published · O.453 |
 
-<sub>Rendered from the repo at frame #1015 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1016 · immediate mode, no client state</sub>
