@@ -4,7 +4,7 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1000` · 2026-08-26 18:25 UTC
+`FRAME #1001` · 2026-08-26 18:28 UTC
 
 ---
 
@@ -15,15 +15,15 @@
 6 human turn(s) awaiting company settlement · since 2026-08-26 18:12:56 UTC
 
 ```
-█▁▁▁▁
+█▁▁▁▁▁
 █ you · turn opened 18:12
-▁ company · 4 turns · 13 min   (frames #996 → #1000)
+▁ company · 5 turns · 16 min   (frames #996 → #1001)
 ```
 
 | | |
 |---|---:|
-| Turns elapsed on this turn | **4** |
-| Held for | 13 min |
+| Turns elapsed on this turn | **5** |
+| Held for | 16 min |
 | Turns responded but unsettled | 6 |
 | Decisions waiting | 25 |
 
@@ -116,4 +116,4 @@ Nothing presented and unanswered. The company owns the turn.
 | 08-25 09:16 | **you** | Responded · O.452 |
 | 08-25 09:14 | company | Cue published · O.452 |
 
-<sub>Rendered from the repo at frame #1000 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1001 · immediate mode, no client state</sub>

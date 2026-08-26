@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1000.md" style="font-size:11px; color:#5f6368;">#1000</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1001.md" style="font-size:11px; color:#5f6368;">#1001</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -25,7 +25,7 @@
 
 ## Last Tick
 
-**[Tick #1000](_pipeline/reports/tick-1000.md)** · 2026-08-26 18:25 UTC · manual · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1001](_pipeline/reports/tick-1001.md)** · 2026-08-26 18:28 UTC · manual · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -181,16 +181,16 @@ Blocked on a human answer — not staleness.
 
 ### Pipeline
 
-**Total Ticks**: 1000
+**Total Ticks**: 1001
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-08-26 19:25 | 0 new, 0 synced |
-| github-sync | 🟢 Yes | ✅ ok | 2026-08-26 19:25 | 0 synced |
-| stream-deck | ⚪ No | ✅ ok | 2026-08-26 19:25 | 0 copied, 0 noise, 0 hal |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-08-26 19:28 | 0 new, 0 synced |
+| github-sync | 🟢 Yes | ✅ ok | 2026-08-26 19:28 | 0 synced |
+| stream-deck | ⚪ No | ✅ ok | 2026-08-26 19:28 | 0 copied, 0 noise, 0 hal |
 | processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
-| whatsapp | 🟢 Yes | ✅ ok | 2026-08-26 19:25 | 0 processed, 0 failed |
+| whatsapp | 🟢 Yes | ✅ ok | 2026-08-26 19:28 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
 | hostinger | ⚪ No | — | — | — |
 | store-email | 🟢 Yes | — | — | — |
@@ -201,11 +201,11 @@ Blocked on a human answer — not staleness.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-08-26 19:28](_pipeline/logs/2026-08-26_19-28.md) | 47s | [✓](_pipeline/logs/2026-08-26_19-28.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_19-28.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_19-28.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_19-28.md#processor-progress) 0 progressed | $0.0000 | ~0.019g |
 | [2026-08-26 19:25](_pipeline/logs/2026-08-26_19-25.md) | 43s | [✓](_pipeline/logs/2026-08-26_19-25.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_19-25.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_19-25.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_19-25.md#processor-progress) 0 progressed | $0.0000 | ~0.018g |
 | [2026-08-26 19:23](_pipeline/logs/2026-08-26_19-23.md) | 45s | [✓](_pipeline/logs/2026-08-26_19-23.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_19-23.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_19-23.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_19-23.md#processor-progress) 0 progressed | $0.0000 | ~0.019g |
 | [2026-08-26 19:22](_pipeline/logs/2026-08-26_19-22.md) | 41s | [✓](_pipeline/logs/2026-08-26_19-22.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_19-22.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_19-22.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_19-22.md#processor-progress) 0 progressed | $0.0000 | ~0.017g |
 | [2026-08-26 19:18](_pipeline/logs/2026-08-26_19-18.md) | 45s | [✓](_pipeline/logs/2026-08-26_19-18.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_19-18.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_19-18.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_19-18.md#processor-progress) 0 progressed | $0.0000 | ~0.019g |
-| [2026-08-26 19:15](_pipeline/logs/2026-08-26_19-15.md) | 46s | [✓](_pipeline/logs/2026-08-26_19-15.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_19-15.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_19-15.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_19-15.md#processor-progress) 0 progressed | $0.0000 | ~0.019g |
 
 ### Source Topology
 
@@ -248,8 +248,8 @@ flowchart TD
 | [Github Issue Sync](Operations/_contracts/github-issue-sync.README.md) | Operations | per-tick | — | ⚪ No |
 | [Icloud Email Import](Operations/_contracts/icloud-email-import.README.md) | Operations | per-tick | — | ⚪ No |
 | [Impact Cascade](Operations/_contracts/impact-cascade.README.md) | Operations | per-tick | 2026-08-25 11:40 | ⚪ No |
-| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-08-26 19:25 | 🟢 Yes |
-| [Mailroom](Operations/_contracts/mailroom.README.md) | Operations | per-tick | 2026-08-26 19:25 | 🟢 Yes |
+| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-08-26 19:28 | 🟢 Yes |
+| [Mailroom](Operations/_contracts/mailroom.README.md) | Operations | per-tick | 2026-08-26 19:28 | 🟢 Yes |
 | [Seed Crystallisation](Operations/_contracts/seed-crystallisation.README.md) | Operations | per-tick | 2026-08-24 15:27 | 🟢 Yes |
 | [Stack Improvement](Operations/_contracts/stack-improvement.README.md) | Operations | weekly | — | ⚪ No |
 | [Voice Note Import Contract](Operations/_contracts/voice-note-import-contract.README.md) | Operations | per-tick | 2026-08-06 14:00 | ⚪ No |
