@@ -5,75 +5,200 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#0E1621">
-<title>5et — Frame #954</title>
+<title>5et Frame #955</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&display=swap">
 <style>
-:root{--ground:#0E1621;--panel:#16212E;--edge:#26374A;--ink:#DDE7F0;--muted:#7B8EA4;
---dim:#55677B;--player:#F2A03D;--company:#4FC3D9;--companyd:#245A67;
+:root{--ground:#0E1621;--panel:#16212E;--panel2:#1B2836;--edge:#26374A;--edge2:#33506B;
+--ink:#DDE7F0;--muted:#7B8EA4;--dim:#55677B;--player:#F2A03D;--playerd:#7A5426;
+--company:#4FC3D9;--companyd:#245A67;--critical:#E5646B;--ok:#6BCB8B;--lock:#5A6E85;
 --fd:"Chakra Petch",system-ui,sans-serif;--fb:"IBM Plex Sans",system-ui,sans-serif;
 --fm:"IBM Plex Mono",ui-monospace,monospace}
 *{box-sizing:border-box}
-body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--fb);
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--fb);font-size:15px;
 line-height:1.55;-webkit-font-smoothing:antialiased}
-.wrap{max-width:520px;margin:0 auto;padding:28px 18px 56px;display:flex;flex-direction:column;gap:20px}
-.lbl{font-family:var(--fd);font-weight:600;font-size:10px;letter-spacing:.18em;
+.wrap{max-width:1080px;margin:0 auto;padding:20px 16px 72px;display:flex;flex-direction:column;gap:18px}
+.clip{clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,12px 100%,0 calc(100% - 12px))}
+.panel{background:var(--panel);border:1px solid var(--edge)}
+.lbl{font-family:var(--fd);font-weight:600;font-size:10.5px;letter-spacing:.16em;
 text-transform:uppercase;color:var(--dim)}
 .num{font-family:var(--fm);font-variant-numeric:tabular-nums}
-header{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
-header h1{font-family:var(--fd);font-weight:700;font-size:14px;letter-spacing:.22em;
+.mast{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.mast h1{font-family:var(--fd);font-weight:700;font-size:15px;letter-spacing:.22em;
 text-transform:uppercase;margin:0;color:var(--muted)}
-header .f{font-family:var(--fm);font-size:14px;color:var(--company)}
-.panel{background:var(--panel);border:1px solid var(--edge);padding:20px;
-clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,12px 100%,0 calc(100% - 12px))}
-.turn .val{font-family:var(--fd);font-weight:700;font-size:clamp(30px,10vw,42px);line-height:1;
-letter-spacing:.05em;text-transform:uppercase;color:var(--player)}
-.turn .sub{font-size:13px;color:var(--muted);margin-top:6px}
-.marks{display:flex;align-items:flex-end;gap:2px;height:30px;margin:18px 0 10px}
+.mast h1 b{color:var(--ink)}
+.frame-id{display:flex;align-items:baseline;gap:8px}
+.frame-id .n{font-family:var(--fm);font-weight:600;font-size:15px;color:var(--company)}
+.turn{padding:20px;display:flex;flex-direction:column;gap:16px;
+background:linear-gradient(180deg,#152532 0%,var(--panel) 100%)}
+.turn.you{border-color:var(--playerd)}
+.turn.company{border-color:var(--companyd)}
+.turn-top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.who{display:flex;flex-direction:column;gap:4px}
+.who .val{font-family:var(--fd);font-weight:700;font-size:clamp(30px,8vw,44px);line-height:1;
+letter-spacing:.04em;text-transform:uppercase}
+.turn.you .who .val{color:var(--player)}
+.turn.company .who .val{color:var(--company)}
+.who .sub{font-size:13px;color:var(--muted)}
+.since{display:flex;flex-direction:column;gap:4px;align-items:flex-end;text-align:right}
+.since .big{font-family:var(--fm);font-weight:600;font-size:clamp(26px,7vw,38px);line-height:1}
+.since .cap{font-size:12px;color:var(--muted);max-width:22ch}
+.marks{display:flex;align-items:flex-end;gap:2px;height:34px}
 .mk{flex:1 1 auto;min-width:2px;border-radius:1px}
-.mk.co{background:var(--companyd);height:42%}
+.mk.co{background:var(--companyd);height:40%}
 .mk.pl{background:var(--player);height:100%;box-shadow:0 0 10px rgba(242,160,61,.5)}
-.stats{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--edge);border:1px solid var(--edge)}
-.stat{background:var(--panel);padding:13px 15px;display:flex;flex-direction:column;gap:3px}
-.stat .k{font-size:11.5px;color:var(--muted)}
-.stat .v{font-size:21px;font-weight:600}
-.unit{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:11px 0;
-border-bottom:1px solid var(--edge)}
-.unit:last-of-type{border-bottom:0}
+.legend{display:flex;gap:16px;flex-wrap:wrap}
+.key{display:flex;align-items:center;gap:6px;font-size:11.5px;color:var(--muted)}
+.sw{width:9px;height:9px;border-radius:1px;display:inline-block}
+.grid{display:grid;gap:18px;grid-template-columns:1fr}
+@media(min-width:820px){.grid.two{grid-template-columns:1fr 1fr}}
+.card{padding:16px 18px;display:flex;flex-direction:column;gap:14px}
+.card h2{font-family:var(--fd);font-weight:600;font-size:12px;letter-spacing:.16em;
+text-transform:uppercase;margin:0;color:var(--muted);display:flex;align-items:center;
+justify-content:space-between;gap:10px}
+.card h2 .tag{font-family:var(--fm);letter-spacing:0;font-size:11px;color:var(--dim);text-transform:none}
+.rows{display:flex;flex-direction:column;gap:0}
+.row{display:flex;align-items:center;gap:12px;padding:11px 0;border-bottom:1px solid var(--edge)}
+.row:last-child{border-bottom:0}
+.row .idx{font-family:var(--fm);font-size:11px;color:var(--dim);width:18px;flex:none}
+.row .nm{flex:1;font-size:13.5px;min-width:0}
+.row .nm a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--edge2)}
+.row .nm a:hover,.row .nm a:focus-visible{color:var(--company);border-color:var(--company)}
+.st{font-family:var(--fd);font-size:10px;font-weight:600;letter-spacing:.12em;
+text-transform:uppercase;padding:3px 8px;border:1px solid var(--lock);color:var(--lock);white-space:nowrap}
+.st.next{border-color:var(--playerd);color:var(--player)}
+.st.open{border-color:var(--critical);color:var(--critical)}
+.meta{font-family:var(--fm);font-size:11.5px;color:var(--muted)}
+.unit{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:11px 0;border-bottom:1px solid var(--edge)}
+.unit:last-child{border-bottom:0}
 .unit .nm{font-size:13.5px}
-.unit .cnt{font-family:var(--fm);font-size:12px;color:var(--muted)}
-.bar{grid-column:1/-1;height:4px;background:#1B2836;display:block}
-.bar i{display:block;height:100%;background:var(--company)}
-footer{font-size:11.5px;color:var(--dim);text-align:center;line-height:1.6}
+.unit .cnt{font-family:var(--fm);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.bar{grid-column:1/-1;height:5px;background:var(--panel2);display:flex;overflow:hidden}
+.bar i{display:block;height:100%}
+.bar .a{background:var(--company)}
+.bar .d{background:var(--companyd)}
+.ev{display:grid;grid-template-columns:auto auto 1fr;gap:12px;align-items:baseline;padding:8px 0;
+border-bottom:1px solid var(--edge);font-size:13px}
+.ev:last-child{border-bottom:0}
+.ev .t{font-family:var(--fm);font-size:11.5px;color:var(--dim);white-space:nowrap}
+.ev .w{font-family:var(--fd);font-size:9.5px;font-weight:600;letter-spacing:.12em;
+text-transform:uppercase;padding:2px 6px;white-space:nowrap}
+.ev .w.pl{color:var(--player);border:1px solid var(--playerd)}
+.ev .w.co{color:var(--company);border:1px solid var(--companyd)}
+a:focus-visible{outline:2px solid var(--company);outline-offset:2px}
+footer{border-top:1px solid var(--edge);padding-top:14px;display:flex;justify-content:space-between;
+gap:12px;flex-wrap:wrap;font-size:11.5px;color:var(--dim)}
+.frame-content{display:none}
+body.unlocked .frame-content{display:block}
+.login{min-height:100vh;display:grid;place-items:center;padding:24px}
+body.unlocked .login{display:none}
+.login-card{width:min(100%,380px);padding:28px;display:flex;flex-direction:column;gap:18px;
+background:linear-gradient(180deg,#152532 0%,var(--panel) 100%);border-color:var(--companyd)}
+.login-card h1{font-family:var(--fd);font-size:24px;letter-spacing:.16em;text-transform:uppercase;margin:0}
+.login-card p{color:var(--muted);margin:0}
+.login-card form{display:flex;flex-direction:column;gap:12px}
+.login-card input,.login-card button,.logout{font:inherit;border:1px solid var(--edge2);border-radius:0}
+.login-card input{width:100%;padding:12px;background:var(--ground);color:var(--ink)}
+.login-card button,.logout{padding:10px 14px;background:var(--companyd);color:var(--ink);cursor:pointer}
+.login-error{min-height:1.5em;color:var(--critical);font-size:12px}
+.logout{font-size:11px;padding:5px 9px;background:transparent;color:var(--muted)}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header><h1>5et</h1><span class="f">#954</span>
-    <span class="lbl num">2026-08-26 14:56 UTC</span></header>
-
-  <section class="panel turn">
-    <span class="lbl">Turn</span>
-    <div class="val">Director</div>
-    <div class="sub">held 1 d 4 h · 60 turns</div>
-    <div class="marks"><i class="mk pl"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i></div>
-  </section>
-
-  <div class="stats">
-    <div class="stat"><span class="k">Awaiting the director</span><span class="v num">3</span></div>
-    <div class="stat"><span class="k">Decisions waiting</span><span class="v num">24</span></div>
-    <div class="stat"><span class="k">Active work</span><span class="v num">50</span></div>
-    <div class="stat"><span class="k">Completed</span><span class="v num">489</span></div>
-  </div>
-
-  <section class="panel">
-    <span class="lbl">Load by function</span>
-    <div style="margin-top:12px"><div class="unit"><span class="nm">Accounts</span><span class="cnt">2 / 13</span><span class="bar"><i class="a" style="width:13%"></i></span></div><div class="unit"><span class="nm">Compliance</span><span class="cnt">9 / 13</span><span class="bar"><i class="a" style="width:41%"></i></span></div><div class="unit"><span class="nm">Operations</span><span class="cnt">32 / 452</span><span class="bar"><i class="a" style="width:7%"></i></span></div><div class="unit"><span class="nm">People</span><span class="cnt">6 / 1</span><span class="bar"><i class="a" style="width:86%"></i></span></div><div class="unit"><span class="nm">Services</span><span class="cnt">1 / 10</span><span class="bar"><i class="a" style="width:9%"></i></span></div></div>
-  </section>
-
-  <footer>Public view — counts and states only.<br>
-  Regenerated every tick. Immediate mode.</footer>
+<main class="login"><section class="panel clip login-card"><span class="lbl">5et operating system</span><h1>Frame</h1><p>Enter the passcode to open the current company frame.</p><form id="login-form"><label class="lbl" for="passcode">Passcode</label><input id="passcode" name="passcode" type="password" autocomplete="current-password" autofocus><button type="submit">Open frame</button><span class="login-error" id="login-error" role="alert"></span></form></section></main>
+<div class="frame-content"><div class="wrap">
+<div class="mast"><h1>5et · <b>Frame</b></h1><div class="frame-id"><span class="lbl">Frame</span><span class="n">#955</span><span class="lbl num">2026-08-26 15:12 UTC</span><button class="logout" id="logout" type="button">Lock</button></div></div>
+<section class="panel clip turn you">
+<div class="turn-top"><div class="who"><span class="lbl">Turn owner</span><span class="val">You</span><span class="sub">3 question(s) presented, unanswered · since 2026-08-25 10:18:37 UTC</span></div>
+<div class="since"><span class="lbl">Turns elapsed</span><span class="big num">61</span><span class="cap">held 1 d 5 h · frames #894 → #955</span></div></div>
+<div class="marks" aria-label="One director turn against 61 company turns"><i class="mk pl"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i></div>
+<div class="legend"><span class="key"><i class="sw" style="background:var(--player)"></i>you · 1 turn</span><span class="key"><i class="sw" style="background:var(--company)"></i>company · 61 turns · 1 d 5 h</span><span class="key">24 decisions waiting</span><span class="key">5 turns unsettled</span></div>
+</section>
+<div class="grid two">
+<section class="panel clip card"><h2>Waiting on you <span class="tag">3</span></h2><div class="rows">
+<div class="row"><span class="meta">08-24 21:30</span><span class="nm"><a href="Operations/_work/O.448-Answer-support-question-for-seed-crystallisation.md">O.448-Answer-support-question-for-seed-crystallisation</a></span><span class="st next">your move</span></div>
+<div class="row"><span class="meta">08-25 08:08</span><span class="nm"><a href="Operations/_work/O.451-Review-seed-crystallisation-support-amendment.md">O.451-Review-seed-crystallisation-support-amendment</a></span><span class="st next">your move</span></div>
+<div class="row"><span class="meta">08-25 10:18</span><span class="nm"><a href="Operations/_work/O.455-Review-seed-crystallisation-support-amendment.md">O.455-Review-seed-crystallisation-support-amendment</a></span><span class="st next">your move</span></div>
+</div></section>
+<section class="panel clip card"><h2>Gate tracks <span class="tag">3 case(s)</span></h2><div class="rows">
+<div class="row"><span class="nm"><b>seed_crystallisation</b> <span class="meta">authorized-awaiting-application</span></span><span class="meta">O.440</span></div>
+<div class="row"><span class="idx">01</span><span class="nm">Verify recovery through the governed supervised trial before proposing resumption.</span><span class="st next">next</span></div>
+<div class="row"><span class="nm"><b>pipeline — commit scope</b> <span class="meta">verify</span></span><span class="meta">O.459</span></div>
+<div class="row"><span class="idx">01</span><span class="nm">Observe three real ticks before narrowing the prefix list</span><span class="st next">next</span></div>
+<div class="row"><span class="idx">02</span><span class="nm">Audit Phases 1–5 writers for explicit staging; record which rely on prefix staging</span><span class="st">locked</span></div>
+<div class="row"><span class="idx">03</span><span class="nm">Verify across three real ticks before removing any prefix</span><span class="st">locked</span></div>
+<div class="row"><span class="idx">04</span><span class="nm">Open IE.002 once verified, and resolve RP-1</span><span class="st">locked</span></div>
+<div class="row"><span class="nm"><b>pipeline — ingest materiality</b> <span class="meta">verify</span></span><span class="meta">O.460</span></div>
+<div class="row"><span class="idx">01</span><span class="nm">Review `_pipeline/skipped.jsonl` after three business days for wrongly skipped material mail</span><span class="st next">next</span></div>
+<div class="row"><span class="idx">02</span><span class="nm">Audit the store-dash mailbox filter for the same inverted `noreply@` rule</span><span class="st">locked</span></div>
+<div class="row"><span class="idx">03</span><span class="nm">Backfill check — search the mailbox for transactional mail dropped before this fix</span><span class="st">locked</span></div>
+<div class="row"><span class="idx">04</span><span class="nm">Consider the same materiality test for the WhatsApp and drop-folder paths</span><span class="st">locked</span></div>
+</div></section>
 </div>
+<section class="panel clip card"><h2>Open review points <span class="tag">13</span></h2><div class="rows">
+<div class="row"><span class="nm"><a href="Operations/_contracts/pipeline.REVIEW.md">RP-2: The company turn has no completion criterion</a></span><span class="meta">pipeline</span><span class="st open">open</span></div>
+<div class="row"><span class="nm"><a href="Operations/_contracts/pipeline.REVIEW.md">RP-3: Support wrappers are created without an idempotency check</a></span><span class="meta">pipeline</span><span class="st open">open</span></div>
+<div class="row"><span class="nm"><a href="Operations/_contracts/pipeline.REVIEW.md">RP-4: Human response reconciliation waits for the schedule</a></span><span class="meta">pipeline</span><span class="st open">open</span></div>
+<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-1: Require a no-op for unchanged inputs</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
+<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-2: Validate source provenance before mutation</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
+<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-3: Exclude generated outputs from research inputs</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
+<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-4: Implement inductive analysis as contracted</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
+<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-8: Index seed counts do not match the themes</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
+<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-9: Theme files grow without bound</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
+<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-5: Bound autonomous mutation</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
+<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-6: Replace retry-on-breach with containment</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
+<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-7: Define supervised trial and promotion evidence</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
+<div class="row"><span class="nm"><a href="Operations/_contracts/voice-note-import-contract.REVIEW.md">RP-1: Recital overpromises relative to obligations</a></span><span class="meta">voice-note-import-contract</span><span class="st open">open</span></div>
+</div></section>
+<div class="grid two">
+<section class="panel clip card"><h2>Units <span class="tag">56 active · 489 done</span></h2><div class="rows">
+<div class="unit"><span class="nm">🔄 <a href="Accounts/dashboard.md">Accounts</a></span><span class="cnt">2 active · 13 done</span><span class="bar"><i class="a" style="width:13%"></i><i class="d" style="width:87%"></i></span></div>
+<div class="unit"><span class="nm">⚠️ <a href="Compliance/dashboard.md">Compliance</a></span><span class="cnt">9 active · 13 done</span><span class="bar"><i class="a" style="width:41%"></i><i class="d" style="width:59%"></i></span></div>
+<div class="unit"><span class="nm">⚠️ <a href="Operations/dashboard.md">Operations</a></span><span class="cnt">32 active · 452 done</span><span class="bar"><i class="a" style="width:7%"></i><i class="d" style="width:93%"></i></span></div>
+<div class="unit"><span class="nm">⚠️ <a href="People/dashboard.md">People</a></span><span class="cnt">6 active · 1 done</span><span class="bar"><i class="a" style="width:86%"></i><i class="d" style="width:14%"></i></span></div>
+<div class="unit"><span class="nm">🔄 <a href="Services/dashboard.md">Services</a></span><span class="cnt">1 active · 10 done</span><span class="bar"><i class="a" style="width:9%"></i><i class="d" style="width:91%"></i></span></div>
+<div class="unit"><span class="nm">✅ <a href="projects/blockvey/README.md">blockvey</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
+<div class="unit"><span class="nm">⚠️ <a href="projects/chess/README.md">chess</a></span><span class="cnt">4 active · 0 done</span><span class="bar"><i class="a" style="width:100%"></i><i class="d" style="width:0%"></i></span></div>
+<div class="unit"><span class="nm">🔄 <a href="projects/game/README.md">game</a></span><span class="cnt">1 active · 0 done</span><span class="bar"><i class="a" style="width:100%"></i><i class="d" style="width:0%"></i></span></div>
+<div class="unit"><span class="nm">✅ <a href="projects/golf/README.md">golf</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
+<div class="unit"><span class="nm">✅ <a href="projects/hyperscaler/README.md">hyperscaler</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
+<div class="unit"><span class="nm">✅ <a href="projects/irontec/README.md">irontec</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
+<div class="unit"><span class="nm">🔄 <a href="projects/mylang/README.md">mylang</a></span><span class="cnt">1 active · 0 done</span><span class="bar"><i class="a" style="width:100%"></i><i class="d" style="width:0%"></i></span></div>
+<div class="unit"><span class="nm">✅ <a href="projects/myos/README.md">myos</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
+</div></section>
+<section class="panel clip card"><h2>Turn log</h2><div class="rows">
+<div class="ev"><span class="t">08-25 10:23</span><span class="w co">co</span><span>Turn settled · O.455</span></div>
+<div class="ev"><span class="t">08-25 10:18</span><span class="w co">co</span><span>Cue published · O.455</span></div>
+<div class="ev"><span class="t">08-25 10:17</span><span class="w co">co</span><span>Question prepared · O.455</span></div>
+<div class="ev"><span class="t">08-25 10:16</span><span class="w pl">you</span><span>Responded · O.453</span></div>
+<div class="ev"><span class="t">08-25 09:46</span><span class="w co">co</span><span>Cue published · O.453</span></div>
+<div class="ev"><span class="t">08-25 09:45</span><span class="w co">co</span><span>Question prepared · O.453</span></div>
+<div class="ev"><span class="t">08-25 09:16</span><span class="w pl">you</span><span>Responded · O.452</span></div>
+<div class="ev"><span class="t">08-25 09:14</span><span class="w co">co</span><span>Cue published · O.452</span></div>
+</div></section>
+</div>
+<footer><span>Generated by the pipeline at frame #955 · immediate mode</span><span class="num">document view: <a href="frame.md" style="color:var(--muted)">frame.md</a></span></footer>
+</div></div>
+<script>
+const key = "5et-frame-unlocked";
+const unlock = () => { document.body.classList.add("unlocked"); document.getElementById("passcode").value = ""; };
+if (localStorage.getItem(key) === "yes") unlock();
+document.getElementById("login-form").addEventListener("submit", event => {
+  event.preventDefault();
+  if (document.getElementById("passcode").value === "5et") {
+    localStorage.setItem(key, "yes");
+    document.getElementById("login-error").textContent = "";
+    unlock();
+  } else {
+    document.getElementById("login-error").textContent = "Passcode not recognised.";
+  }
+});
+document.getElementById("logout").addEventListener("click", () => {
+  localStorage.removeItem(key);
+  document.body.classList.remove("unlocked");
+  document.getElementById("passcode").focus();
+});
+</script>
 </body>
 </html>
