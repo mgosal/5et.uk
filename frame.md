@@ -4,7 +4,7 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1020` · 2026-08-26 19:23 UTC
+`FRAME #1021` · 2026-08-26 19:26 UTC
 
 ---
 
@@ -17,16 +17,16 @@
 **Company owes next:** [5ET Welcome Experience Services Agreement](Operations/_work/approvals/contract-proposal-5et-welcome-experience-services-agreement.md) — Apply the approved proposal, record the outcome, and settle the obligation.
 
 ```
-█▃▃▃▃▃█▃▃▃▃▃▃▃
+█▃▃▃▃▃█▃▃▃▃▃▃▃▃
 █ latest move · 18:45
-▁–█ tick-report activity · 13 reports · 38 min   (frames #1008 → #1020)
+▁–█ tick-report activity · 14 reports · 41 min   (frames #1008 → #1021)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **13** |
-| Time since latest move | 38 min |
+| Tick reports since latest move | **14** |
+| Time since latest move | 41 min |
 | Company obligations | 3 (7 raw records) |
 | Waiting on you | 0 |
 
@@ -97,13 +97,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 57 active · 490 done
+## ▦ Functions — 58 active · 490 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⚠️ | [Compliance](Compliance/dashboard.md) | 9 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 33 | 452 | `█▁▁▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 34 | 452 | `█▁▁▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [blockvey](projects/blockvey/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -130,4 +130,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 08-25 10:16 | **you** | Responded · O.453 |
 | 08-25 09:46 | company | Cue published · O.453 |
 
-<sub>Rendered from the repo at frame #1020 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1021 · immediate mode, no client state</sub>
