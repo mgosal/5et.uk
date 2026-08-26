@@ -4,7 +4,7 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #971` · 2026-08-26 17:01 UTC
+`FRAME #972` · 2026-08-26 17:04 UTC
 
 ---
 
@@ -15,14 +15,14 @@
 3 question(s) presented, unanswered · since 2026-08-25 10:18:37 UTC
 
 ```
-█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁  +17 more
+█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁  +18 more
 █ you · turn opened 10:18
-▁ company · 77 turns · 1 d 6 h   (frames #894 → #971)
+▁ company · 78 turns · 1 d 6 h   (frames #894 → #972)
 ```
 
 | | |
 |---|---:|
-| Turns elapsed on this turn | **77** |
+| Turns elapsed on this turn | **78** |
 | Held for | 1 d 6 h |
 | Turns responded but unsettled | 5 |
 | Decisions waiting | 24 |
@@ -120,4 +120,4 @@
 | 08-25 09:16 | **you** | Responded · O.452 |
 | 08-25 09:14 | company | Cue published · O.452 |
 
-<sub>Rendered from the repo at frame #971 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #972 · immediate mode, no client state</sub>
