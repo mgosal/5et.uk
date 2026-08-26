@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#0E1621">
-<title>5et Frame #963</title>
+<meta name="5et-frame" content="964">
+<title>5et Frame #964</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&display=swap">
@@ -30,6 +31,12 @@ text-transform:uppercase;margin:0;color:var(--muted)}
 .mast h1 b{color:var(--ink)}
 .frame-id{display:flex;align-items:baseline;gap:8px}
 .frame-id .n{font-family:var(--fm);font-weight:600;font-size:15px;color:var(--company)}
+.live-status{display:inline-flex;align-items:center;gap:5px;font-family:var(--fm);font-size:10px;
+color:var(--company);text-transform:uppercase;letter-spacing:.08em}
+.live-status::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;
+box-shadow:0 0 8px currentColor}
+.live-status.syncing{color:var(--player)}
+.live-status.offline{color:var(--dim)}
 .turn{padding:20px;display:flex;flex-direction:column;gap:16px;
 background:linear-gradient(180deg,#152532 0%,var(--panel) 100%)}
 .turn.you{border-color:var(--playerd)}
@@ -114,12 +121,12 @@ text-decoration:none;box-sizing:border-box;transition:background .15s ease,borde
 <body>
 <main class="login"><section class="panel clip login-card"><span class="lbl">5et operating system</span><h1>Frame</h1><p>Enter the passcode to open the current company frame.</p><form id="login-form"><label class="lbl" for="passcode">Passcode</label><input id="passcode" name="passcode" type="password" autocomplete="current-password" autofocus><button type="submit">Open frame</button><span class="login-error" id="login-error" role="alert"></span></form><a class="brand-button login-brand" href="fiveet://install?owner=mgosal&amp;repo=5et&amp;path=frame.md" aria-label="Open frame.md in 5ET" title="Open frame.md in 5ET"><svg viewBox="0 0 86 40" role="img" aria-hidden="true"><path d="M3 3h26v7H11v6h17v21H3v-7h17v-7H3V3z"/><path d="M34 3h21v7H42v6h11v7H42v7h13v7H34V3z"/><path d="M59 3h24v7h-8v27h-8V10h-8V3z"/></svg></a></section></main>
 <div class="frame-content"><div class="wrap">
-<div class="mast"><h1>5et · <b>Frame</b></h1><div class="frame-id"><span class="lbl">Frame</span><span class="n">#963</span><span class="lbl num">2026-08-26 16:28 UTC</span><a class="brand-button" href="fiveet://install?owner=mgosal&amp;repo=5et&amp;path=frame.md" aria-label="Open frame.md in 5ET" title="Open frame.md in 5ET"><svg viewBox="0 0 86 40" role="img" aria-hidden="true"><path d="M3 3h26v7H11v6h17v21H3v-7h17v-7H3V3z"/><path d="M34 3h21v7H42v6h11v7H42v7h13v7H34V3z"/><path d="M59 3h24v7h-8v27h-8V10h-8V3z"/></svg></a><button class="logout" id="logout" type="button">Lock</button></div></div>
+<div class="mast"><h1>5et · <b>Frame</b></h1><div class="frame-id"><span class="lbl">Frame</span><span class="n">#964</span><span class="lbl num">2026-08-26 16:31 UTC</span><span class="live-status" id="live-status" aria-live="polite">live</span><a class="brand-button" href="fiveet://install?owner=mgosal&amp;repo=5et&amp;path=frame.md" aria-label="Open frame.md in 5ET" title="Open frame.md in 5ET"><svg viewBox="0 0 86 40" role="img" aria-hidden="true"><path d="M3 3h26v7H11v6h17v21H3v-7h17v-7H3V3z"/><path d="M34 3h21v7H42v6h11v7H42v7h13v7H34V3z"/><path d="M59 3h24v7h-8v27h-8V10h-8V3z"/></svg></a><button class="logout" id="logout" type="button">Lock</button></div></div>
 <section class="panel clip turn you">
 <div class="turn-top"><div class="who"><span class="lbl">Turn owner</span><span class="val">You</span><span class="sub">3 question(s) presented, unanswered · since 2026-08-25 10:18:37 UTC</span></div>
-<div class="since"><span class="lbl">Turns elapsed</span><span class="big num">69</span><span class="cap">held 1 d 6 h · frames #894 → #963</span></div></div>
-<div class="marks" aria-label="One director turn against 69 company turns"><i class="mk pl"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i></div>
-<div class="legend"><span class="key"><i class="sw" style="background:var(--player)"></i>you · 1 turn</span><span class="key"><i class="sw" style="background:var(--company)"></i>company · 69 turns · 1 d 6 h</span><span class="key">24 decisions waiting</span><span class="key">5 turns unsettled</span></div>
+<div class="since"><span class="lbl">Turns elapsed</span><span class="big num">70</span><span class="cap">held 1 d 6 h · frames #894 → #964</span></div></div>
+<div class="marks" aria-label="One director turn against 70 company turns"><i class="mk pl"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i><i class="mk co"></i></div>
+<div class="legend"><span class="key"><i class="sw" style="background:var(--player)"></i>you · 1 turn</span><span class="key"><i class="sw" style="background:var(--company)"></i>company · 70 turns · 1 d 6 h</span><span class="key">24 decisions waiting</span><span class="key">5 turns unsettled</span></div>
 </section>
 <div class="grid two">
 <section class="panel clip card"><h2>Waiting on you <span class="tag">3</span></h2><div class="rows">
@@ -184,12 +191,17 @@ text-decoration:none;box-sizing:border-box;transition:background .15s ease,borde
 <div class="ev"><span class="t">08-25 09:14</span><span class="w co">co</span><span>Cue published · O.452</span></div>
 </div></section>
 </div>
-<footer><span>Generated by the pipeline at frame #963 · immediate mode</span><span class="num">5ET · document view</span></footer>
+<footer><span>Generated by the pipeline at frame #964 · immediate mode</span><span class="num">5ET · document view</span></footer>
 </div></div>
 <script>
 const key = "5et-frame-unlocked";
 const unlock = () => { document.body.classList.add("unlocked"); document.getElementById("passcode").value = ""; };
 if (localStorage.getItem(key) === "yes") unlock();
+const savedScroll = sessionStorage.getItem("5et-frame-scroll");
+if (savedScroll !== null) {
+  sessionStorage.removeItem("5et-frame-scroll");
+  requestAnimationFrame(() => scrollTo(0, Number(savedScroll) || 0));
+}
 document.getElementById("login-form").addEventListener("submit", event => {
   event.preventDefault();
   if (document.getElementById("passcode").value === "5") {
@@ -204,6 +216,40 @@ document.getElementById("logout").addEventListener("click", () => {
   localStorage.removeItem(key);
   document.body.classList.remove("unlocked");
   document.getElementById("passcode").focus();
+});
+
+const currentFrame = document.querySelector('meta[name="5et-frame"]').content;
+const liveStatus = document.getElementById("live-status");
+const frameURL = `${location.origin}${location.pathname}`;
+let checking = false;
+async function checkForFrame() {
+  if (checking || document.hidden) return;
+  checking = true;
+  try {
+    const response = await fetch(`${frameURL}?_5et=${Date.now()}`, {cache: "no-store"});
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const nextDocument = new DOMParser().parseFromString(await response.text(), "text/html");
+    const nextFrame = nextDocument.querySelector('meta[name="5et-frame"]')?.content;
+    if (nextFrame && nextFrame !== currentFrame) {
+      liveStatus.textContent = `frame ${nextFrame}`;
+      liveStatus.className = "live-status syncing";
+      sessionStorage.setItem("5et-frame-scroll", String(scrollY));
+      location.replace(`${frameURL}?frame=${encodeURIComponent(nextFrame)}`);
+      return;
+    }
+    liveStatus.textContent = "live";
+    liveStatus.className = "live-status";
+  } catch (error) {
+    liveStatus.textContent = "reconnecting";
+    liveStatus.className = "live-status offline";
+  } finally {
+    checking = false;
+  }
+}
+setInterval(checkForFrame, 30000);
+addEventListener("focus", checkForFrame);
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) checkForFrame();
 });
 </script>
 </body>
