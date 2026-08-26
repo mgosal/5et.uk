@@ -4,36 +4,34 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1006` · 2026-08-26 18:41 UTC
+`FRAME #1007` · 2026-08-26 18:45 UTC
 
 ---
 
 ## ▶ Turn
 
-### TURN OWNER — **YOU**
+### TURN OWNER — **COMPANY**
 
-1 active question(s) presented and unanswered · since 2026-08-26 18:42:18 UTC
+7 human turn(s) awaiting company settlement · since 2026-08-26 18:45:57 UTC
 
 ```
 █
-█ you · turn opened 18:42
-▁ company · 0 turns · 0 min   (frames #1006 → #1006)
+█ you · turn opened 18:45
+▁ company · 0 turns · 0 min   (frames #1007 → #1007)
 ```
 
 | | |
 |---|---:|
 | Turns elapsed on this turn | **0** |
 | Held for | 0 min |
-| Turns responded but unsettled | 6 |
+| Turns responded but unsettled | 7 |
 | Decisions waiting | 26 |
 
 ---
 
-## ⚑ Waiting on you — 1
+## ⚑ Waiting on you — 0
 
-| Since | Question |
-|---|---|
-| 08-26 18:42 | [contract-proposal-5et-welcome-experience-services-agreement](Operations/_work/approvals/contract-proposal-5et-welcome-experience-services-agreement.md) |
+Nothing presented and unanswered. The company owns the turn.
 
 ---
 
@@ -110,6 +108,7 @@
 
 | Time | Who | Event |
 |---|---|---|
+| 08-26 18:45 | **you** | Responded · contract |
 | 08-26 18:42 | company | Cue published · contract |
 | 08-26 18:42 | company | Question prepared · contract |
 | 08-25 10:23 | company | Turn settled · O.455 |
@@ -117,6 +116,5 @@
 | 08-25 10:17 | company | Question prepared · O.455 |
 | 08-25 10:16 | **you** | Responded · O.453 |
 | 08-25 09:46 | company | Cue published · O.453 |
-| 08-25 09:45 | company | Question prepared · O.453 |
 
-<sub>Rendered from the repo at frame #1006 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1007 · immediate mode, no client state</sub>
