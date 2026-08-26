@@ -4,7 +4,7 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1024` · 2026-08-26 19:34 UTC
+`FRAME #1025` · 2026-08-26 19:37 UTC
 
 ---
 
@@ -17,16 +17,16 @@
 **Company owes next:** [5ET Welcome Experience Services Agreement](Operations/_work/approvals/contract-proposal-5et-welcome-experience-services-agreement.md) — Apply the approved proposal, record the outcome, and settle the obligation.
 
 ```
-█▃▃▃▃▃█▃▃▃▃▃▃▃▃▃▄▃
+█▃▃▃▃▃█▃▃▃▃▃▃▃▃▃▄▃▃
 █ latest move · 18:45
-▁–█ tick-report activity · 17 reports · 49 min   (frames #1008 → #1024)
+▁–█ tick-report activity · 18 reports · 52 min   (frames #1008 → #1025)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **17** |
-| Time since latest move | 49 min |
+| Tick reports since latest move | **18** |
+| Time since latest move | 52 min |
 | Company obligations | 3 (7 raw records) |
 | Waiting on you | 0 |
 
@@ -130,4 +130,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 08-25 10:16 | **you** | Responded · O.453 |
 | 08-25 09:46 | company | Cue published · O.453 |
 
-<sub>Rendered from the repo at frame #1024 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1025 · immediate mode, no client state</sub>
