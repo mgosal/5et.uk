@@ -4,7 +4,7 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1007` · 2026-08-26 18:45 UTC
+`FRAME #1008` · 2026-08-26 18:48 UTC
 
 ---
 
@@ -17,13 +17,13 @@
 ```
 █
 █ you · turn opened 18:45
-▁ company · 0 turns · 0 min   (frames #1007 → #1007)
+▁ company · 0 turns · 3 min   (frames #1008 → #1008)
 ```
 
 | | |
 |---|---:|
 | Turns elapsed on this turn | **0** |
-| Held for | 0 min |
+| Held for | 3 min |
 | Turns responded but unsettled | 7 |
 | Decisions waiting | 26 |
 
@@ -117,4 +117,4 @@ Nothing presented and unanswered. The company owns the turn.
 | 08-25 10:16 | **you** | Responded · O.453 |
 | 08-25 09:46 | company | Cue published · O.453 |
 
-<sub>Rendered from the repo at frame #1007 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1008 · immediate mode, no client state</sub>
