@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#071018">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="5ET">
+  <title>5ET · Company OS</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <section class="gate" id="gate">
+    <div class="gate-card cut">
+      <svg class="gate-logo" viewBox="0 0 86 40" aria-label="5ET">
+        <path d="M3 3h26v7H11v6h17v21H3v-7h17v-7H3V3z"/>
+        <path d="M34 3h21v7H42v6h11v7H42v7h13v7H34V3z"/>
+        <path d="M59 3h24v7h-8v27h-8V10h-8V3z"/>
+      </svg>
+      <p class="eyebrow">Company operating system</p>
+      <h1>Enter the frame</h1>
+      <p class="muted">Your company is waiting behind this screen.</p>
+      <form id="gate-form">
+        <label for="passcode">Passcode</label>
+        <input id="passcode" type="password" inputmode="numeric" autocomplete="current-password">
+        <button type="submit">Start</button>
+        <span class="error" id="gate-error" role="alert"></span>
+      </form>
+    </div>
+  </section>
+
+  <div class="app" id="app" hidden>
+    <header class="topbar">
+      <button class="logo-button" id="home-button" aria-label="Open frame">
+        <svg viewBox="0 0 86 40" aria-hidden="true">
+          <path d="M3 3h26v7H11v6h17v21H3v-7h17v-7H3V3z"/>
+          <path d="M34 3h21v7H42v6h11v7H42v7h13v7H34V3z"/>
+          <path d="M59 3h24v7h-8v27h-8V10h-8V3z"/>
+        </svg>
+      </button>
+      <div class="identity">
+        <strong id="screen-title">Frame</strong>
+        <span id="screen-subtitle">Company OS</span>
+      </div>
+      <div class="connection" id="connection" aria-live="polite"><i></i><span>live</span></div>
+    </header>
+
+    <nav class="tabs" aria-label="Company applications">
+      <button class="tab active" data-resource="frame.md"><span>◈</span>Frame</button>
+      <button class="tab" data-resource="dashboard.md"><span>▦</span>Dashboard</button>
+    </nav>
+
+    <main id="viewport" tabindex="-1">
+      <div class="loading-card cut"><span class="loader"></span>Loading company state…</div>
+    </main>
+
+    <button class="install-prompt" id="install-button" hidden>＋ Add 5ET to Home Screen</button>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+<!-- 🤖 Last AI edit: 2026-08-26 18:05 · gpt-5 · ~30k in / ~10k out · ~$0.45
+     Log: ../../../Compliance/_data/ai-observability-log.md#session-20260826-pwa-frame-renderer -->
+</html>

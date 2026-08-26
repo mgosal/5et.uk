@@ -1,0 +1,20 @@
+{
+  "id": "/app/",
+  "name": "5ET Company OS",
+  "short_name": "5ET",
+  "description": "Render a living company from its committed Markdown frame.",
+  "start_url": "/app/",
+  "scope": "/app/",
+  "display": "standalone",
+  "background_color": "#071018",
+  "theme_color": "#071018",
+  "_ai_observability": "Last AI edit: 2026-08-26 18:05 · gpt-5 · session-20260826-pwa-frame-renderer",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
