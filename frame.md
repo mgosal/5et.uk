@@ -4,7 +4,7 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1025` · 2026-08-26 19:37 UTC
+`FRAME #1026` · 2026-08-26 19:40 UTC
 
 ---
 
@@ -12,22 +12,22 @@
 
 ### YOU — **0 waiting** · COMPANY — **3 owed**
 
-**Latest move:** You approved the 5ET Welcome Experience Services Agreement. · 2026-08-26 18:45:57 UTC
+**Latest move:** You responded to Review seed crystallisation support amendment. · 2026-08-25 10:16:21 UTC
 
-**Company owes next:** [5ET Welcome Experience Services Agreement](Operations/_work/approvals/contract-proposal-5et-welcome-experience-services-agreement.md) — Apply the approved proposal, record the outcome, and settle the obligation.
+**Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█▃▃▃▃▃█▃▃▃▃▃▃▃▃▃▄▃▃
-█ latest move · 18:45
-▁–█ tick-report activity · 18 reports · 52 min   (frames #1008 → #1025)
+█▃▃▃▃▄▃▃▃▃▃▃▄▃▃▃▃▃▃▃▃▃▃▇▃▃▃▄▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃█▃▃▃▃▃▃▃▃▃▄▃▃▃
+█ latest move · 10:16
+▁–█ tick-report activity · 60 reports · 1 d 9 h   (frames #967 → #1026)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **18** |
-| Time since latest move | 52 min |
-| Company obligations | 3 (7 raw records) |
+| Tick reports since latest move | **60** |
+| Time since latest move | 1 d 9 h |
+| Company obligations | 3 (6 raw records) |
 | Waiting on you | 0 |
 
 ---
@@ -36,7 +36,7 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 | Obligation | Records | Next action |
 |---|---:|---|
-| [5ET Welcome Experience Services Agreement](Operations/_work/approvals/contract-proposal-5et-welcome-experience-services-agreement.md) | 2 | Apply the approved proposal, record the outcome, and settle the obligation. |
+| [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 | [Review seed crystallisation support amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) | 4 | Reconcile the response and settle the obligation. |
 | [Set Up Paid Consulting Engagement — AlphaSights](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) | 1 | Use the source correspondence to bootstrap the consulting-engagement process. Obtain the client legal entity, billing details, purchase-order or engagement paperwork and service date before preparing the final sales order or invoice. Drafts remain under Mandip's control; do not send or accept external terms automatically. |
 
@@ -121,6 +121,7 @@ Nothing is waiting on you. The company may still have work to do.
 
 | Time | Who | Event |
 |---|---|---|
+| 08-26 19:40 | company | Turn settled · contract |
 | 08-26 18:45 | **you** | Responded · contract |
 | 08-26 18:42 | company | Cue published · contract |
 | 08-26 18:42 | company | Question prepared · contract |
@@ -128,6 +129,5 @@ Nothing is waiting on you. The company may still have work to do.
 | 08-25 10:18 | company | Cue published · O.455 |
 | 08-25 10:17 | company | Question prepared · O.455 |
 | 08-25 10:16 | **you** | Responded · O.453 |
-| 08-25 09:46 | company | Cue published · O.453 |
 
-<sub>Rendered from the repo at frame #1025 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1026 · immediate mode, no client state</sub>
