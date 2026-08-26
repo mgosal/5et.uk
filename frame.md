@@ -4,7 +4,7 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #995` · 2026-08-26 18:12 UTC
+`FRAME #996` · 2026-08-26 18:15 UTC
 
 ---
 
@@ -15,14 +15,14 @@
 3 question(s) presented, unanswered · since 2026-08-25 10:18:37 UTC
 
 ```
-█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁  +41 more
+█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁  +42 more
 █ you · turn opened 10:18
-▁ company · 101 turns · 1 d 7 h   (frames #894 → #995)
+▁ company · 102 turns · 1 d 7 h   (frames #894 → #996)
 ```
 
 | | |
 |---|---:|
-| Turns elapsed on this turn | **101** |
+| Turns elapsed on this turn | **102** |
 | Held for | 1 d 7 h |
 | Turns responded but unsettled | 5 |
 | Decisions waiting | 26 |
@@ -87,7 +87,7 @@
 
 ---
 
-## ▦ Functions — 57 active · 489 done
+## ▦ Functions — 56 active · 490 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
@@ -95,7 +95,7 @@
 | ⚠️ | [Compliance](Compliance/dashboard.md) | 9 | 13 | `████▁▁▁▁▁▁` |
 | ⚠️ | [Operations](Operations/dashboard.md) | 32 | 452 | `█▁▁▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
-| 🔄 | [Services](Services/dashboard.md) | 2 | 10 | `██▁▁▁▁▁▁▁▁` |
+| 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [blockvey](projects/blockvey/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ⚠️ | [chess](projects/chess/README.md) | 4 | 0 | `██████████` |
 | 🔄 | [game](projects/game/README.md) | 1 | 0 | `██████████` |
@@ -120,4 +120,4 @@
 | 08-25 09:16 | **you** | Responded · O.452 |
 | 08-25 09:14 | company | Cue published · O.452 |
 
-<sub>Rendered from the repo at frame #995 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #996 · immediate mode, no client state</sub>
