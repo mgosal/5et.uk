@@ -4,38 +4,34 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #996` · 2026-08-26 18:15 UTC
+`FRAME #998` · 2026-08-26 18:22 UTC
 
 ---
 
 ## ▶ Turn
 
-### TURN OWNER — **YOU**
+### TURN OWNER — **COMPANY**
 
-3 question(s) presented, unanswered · since 2026-08-25 10:18:37 UTC
+6 human turn(s) awaiting company settlement · since 2026-08-26 18:12:56 UTC
 
 ```
-█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁  +42 more
-█ you · turn opened 10:18
-▁ company · 102 turns · 1 d 7 h   (frames #894 → #996)
+█▁▁
+█ you · turn opened 18:12
+▁ company · 2 turns · 9 min   (frames #996 → #998)
 ```
 
 | | |
 |---|---:|
-| Turns elapsed on this turn | **102** |
-| Held for | 1 d 7 h |
-| Turns responded but unsettled | 5 |
-| Decisions waiting | 26 |
+| Turns elapsed on this turn | **2** |
+| Held for | 9 min |
+| Turns responded but unsettled | 6 |
+| Decisions waiting | 25 |
 
 ---
 
-## ⚑ Waiting on you — 3
+## ⚑ Waiting on you — 0
 
-| Since | Question |
-|---|---|
-| 08-24 21:30 | [O.448-Answer-support-question-for-seed-crystallisation](Operations/_work/O.448-Answer-support-question-for-seed-crystallisation.md) |
-| 08-25 08:08 | [O.451-Review-seed-crystallisation-support-amendment](Operations/_work/O.451-Review-seed-crystallisation-support-amendment.md) |
-| 08-25 10:18 | [O.455-Review-seed-crystallisation-support-amendment](Operations/_work/O.455-Review-seed-crystallisation-support-amendment.md) |
+Nothing presented and unanswered. The company owns the turn.
 
 ---
 
@@ -120,4 +116,4 @@
 | 08-25 09:16 | **you** | Responded · O.452 |
 | 08-25 09:14 | company | Cue published · O.452 |
 
-<sub>Rendered from the repo at frame #996 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #998 · immediate mode, no client state</sub>

@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-996.md" style="font-size:11px; color:#5f6368;">#996</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-998.md" style="font-size:11px; color:#5f6368;">#998</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -25,7 +25,7 @@
 
 ## Last Tick
 
-**[Tick #996](_pipeline/reports/tick-996.md)** · 2026-08-26 18:15 UTC · manual · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #998](_pipeline/reports/tick-998.md)** · 2026-08-26 18:22 UTC · manual · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -62,6 +62,28 @@
 - 🧭 [O.465](Operations/_work/O.465-research-corpus-residual-repair.md) — **Research Corpus Residual Repair**
   - Continue the company-owned turn.
 
+## Turn
+
+- **Owner**: COMPANY
+- **Since**: 2026-08-26T18:12:56.073931+00:00
+- **Detail**: 6 human turn(s) awaiting company settlement
+- **Responded but unsettled**: 6
+
+### Waiting on You (0)
+
+Nothing presented and unanswered.
+
+### Company Owes (6)
+
+| Since | Turn |
+|---|---|
+| 2026-08-24T19:29:25.015064+00:00 | [O.446-Review-seed-crystallisation-support-amendment](Operations/_work/O.446-Review-seed-crystallisation-support-amendment.md) |
+| 2026-08-25T08:02:18.159899+00:00 | [O.449-AI-Agent-Development-Platforms-consultation](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) |
+| 2026-08-25T08:02:54.417964+00:00 | [O.450-Review-seed-crystallisation-support-amendment](Operations/_work/O.450-Review-seed-crystallisation-support-amendment.md) |
+| 2026-08-25T09:16:21.678859+00:00 | [O.452-Review-seed-crystallisation-support-amendment](Operations/_work/O.452-Review-seed-crystallisation-support-amendment.md) |
+| 2026-08-25T10:16:21.736285+00:00 | [O.453-Review-seed-crystallisation-support-amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) |
+| 2026-08-26T18:12:56.073931+00:00 | [replay-2026-08-26-18-55-27](_pipeline/turns/replay-2026-08-26-18-55-27.md) |
+
 ## Health
 
 | Function | Status | Active | Waiting | Done |
@@ -95,7 +117,7 @@ pie title Active Status Distribution
 
 ## Attention
 
-### Decisions Waiting (26)
+### Decisions Waiting (25)
 
 Blocked on a human answer — not staleness.
 
@@ -112,7 +134,6 @@ Blocked on a human answer — not staleness.
 | Contract proposal | Sales Workflow Formalization | Awaiting approval | [View](Operations/_work/approvals/contract-proposal-sales-workflow-formalization.md) |
 | Contract proposal | SDLC Process Review Services Agreement | Awaiting approval | [View](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) |
 | Contract proposal | Support Amendment — Seed Crystallisation | Awaiting approval | [View](Operations/_work/approvals/contract-proposal-seed_crystallisation-support-amendment.md) |
-| Contract proposal | Service Registration Services Agreement | Blocked — missing prerequisites — `pipeline.README.md` | [View](Operations/_work/approvals/contract-proposal-service-registration-services-agreement.md) |
 | Contract proposal | WhatsApp Digest Processing Services Agreement | Blocked — missing prerequisites — `../People/_data/people.md` | [View](Operations/_work/approvals/contract-proposal-whatsapp-digest-processing-services-agreement.md) |
 | Review point | pipeline RP-2 | The company turn has no completion criterion | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | pipeline RP-3 | Support wrappers are created without an idempotency check | [View](Operations/_contracts/pipeline.REVIEW.md) |
@@ -160,16 +181,16 @@ Blocked on a human answer — not staleness.
 
 ### Pipeline
 
-**Total Ticks**: 996
+**Total Ticks**: 998
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-08-26 19:15 | 0 new, 0 synced |
-| github-sync | 🟢 Yes | ✅ ok | 2026-08-26 19:16 | 0 synced |
-| stream-deck | ⚪ No | ✅ ok | 2026-08-26 19:16 | 0 copied, 0 noise, 0 hal |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-08-26 19:22 | 0 new, 0 synced |
+| github-sync | 🟢 Yes | ✅ ok | 2026-08-26 19:22 | 0 synced |
+| stream-deck | ⚪ No | ✅ ok | 2026-08-26 19:22 | 0 copied, 0 noise, 0 hal |
 | processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
-| whatsapp | 🟢 Yes | ✅ ok | 2026-08-26 19:16 | 0 processed, 0 failed |
+| whatsapp | 🟢 Yes | ✅ ok | 2026-08-26 19:22 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
 | hostinger | ⚪ No | — | — | — |
 | store-email | 🟢 Yes | — | — | — |
@@ -180,11 +201,11 @@ Blocked on a human answer — not staleness.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-08-26 19:22](_pipeline/logs/2026-08-26_19-22.md) | 41s | [✓](_pipeline/logs/2026-08-26_19-22.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_19-22.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_19-22.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_19-22.md#processor-progress) 0 progressed | $0.0000 | ~0.017g |
+| [2026-08-26 19:18](_pipeline/logs/2026-08-26_19-18.md) | 45s | [✓](_pipeline/logs/2026-08-26_19-18.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_19-18.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_19-18.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_19-18.md#processor-progress) 0 progressed | $0.0000 | ~0.019g |
 | [2026-08-26 19:15](_pipeline/logs/2026-08-26_19-15.md) | 46s | [✓](_pipeline/logs/2026-08-26_19-15.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_19-15.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_19-15.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_19-15.md#processor-progress) 0 progressed | $0.0000 | ~0.019g |
 | [2026-08-26 19:12](_pipeline/logs/2026-08-26_19-12.md) | 47s | [✓](_pipeline/logs/2026-08-26_19-12.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_19-12.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_19-12.md#processor-discover) 1 processed, 0 created | [✓](_pipeline/logs/2026-08-26_19-12.md#processor-progress) 0 progressed | $0.0000 | ~0.019g |
 | [2026-08-26 19:09](_pipeline/logs/2026-08-26_19-09.md) | 47s | [✓](_pipeline/logs/2026-08-26_19-09.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_19-09.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_19-09.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_19-09.md#processor-progress) 0 progressed | $0.0000 | ~0.019g |
-| [2026-08-26 19:06](_pipeline/logs/2026-08-26_19-06.md) | 122s | [✓](_pipeline/logs/2026-08-26_19-06.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_19-06.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_19-06.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_19-06.md#processor-progress) 0 progressed | $0.0000 | ~0.051g |
-| [2026-08-26 19:03](_pipeline/logs/2026-08-26_19-03.md) | 45s | [✓](_pipeline/logs/2026-08-26_19-03.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_19-03.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_19-03.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_19-03.md#processor-progress) 0 progressed | $0.0000 | ~0.019g |
 
 ### Source Topology
 
@@ -227,8 +248,8 @@ flowchart TD
 | [Github Issue Sync](Operations/_contracts/github-issue-sync.README.md) | Operations | per-tick | — | ⚪ No |
 | [Icloud Email Import](Operations/_contracts/icloud-email-import.README.md) | Operations | per-tick | — | ⚪ No |
 | [Impact Cascade](Operations/_contracts/impact-cascade.README.md) | Operations | per-tick | 2026-08-25 11:40 | ⚪ No |
-| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-08-26 19:16 | 🟢 Yes |
-| [Mailroom](Operations/_contracts/mailroom.README.md) | Operations | per-tick | 2026-08-26 19:16 | 🟢 Yes |
+| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-08-26 19:22 | 🟢 Yes |
+| [Mailroom](Operations/_contracts/mailroom.README.md) | Operations | per-tick | 2026-08-26 19:22 | 🟢 Yes |
 | [Seed Crystallisation](Operations/_contracts/seed-crystallisation.README.md) | Operations | per-tick | 2026-08-24 15:27 | 🟢 Yes |
 | [Stack Improvement](Operations/_contracts/stack-improvement.README.md) | Operations | weekly | — | ⚪ No |
 | [Voice Note Import Contract](Operations/_contracts/voice-note-import-contract.README.md) | Operations | per-tick | 2026-08-06 14:00 | ⚪ No |
