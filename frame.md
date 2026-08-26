@@ -4,34 +4,36 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1005` · 2026-08-26 18:38 UTC
+`FRAME #1006` · 2026-08-26 18:41 UTC
 
 ---
 
 ## ▶ Turn
 
-### TURN OWNER — **COMPANY**
+### TURN OWNER — **YOU**
 
-6 human turn(s) awaiting company settlement · since 2026-08-26 18:12:56 UTC
+1 active question(s) presented and unanswered · since 2026-08-26 18:42:18 UTC
 
 ```
-█▁▁▁▁▁▁▁▁▁
-█ you · turn opened 18:12
-▁ company · 9 turns · 26 min   (frames #996 → #1005)
+█
+█ you · turn opened 18:42
+▁ company · 0 turns · 0 min   (frames #1006 → #1006)
 ```
 
 | | |
 |---|---:|
-| Turns elapsed on this turn | **9** |
-| Held for | 26 min |
+| Turns elapsed on this turn | **0** |
+| Held for | 0 min |
 | Turns responded but unsettled | 6 |
-| Decisions waiting | 25 |
+| Decisions waiting | 26 |
 
 ---
 
-## ⚑ Waiting on you — 0
+## ⚑ Waiting on you — 1
 
-Nothing presented and unanswered. The company owns the turn.
+| Since | Question |
+|---|---|
+| 08-26 18:42 | [contract-proposal-5et-welcome-experience-services-agreement](Operations/_work/approvals/contract-proposal-5et-welcome-experience-services-agreement.md) |
 
 ---
 
@@ -63,10 +65,11 @@ Nothing presented and unanswered. The company owns the turn.
 
 ---
 
-## ✕ Open review points — 13
+## ✕ Open review points — 14
 
 | Contract | Point | Status |
 |---|---|---|
+| [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-5: Contract proposals bypass the canonical attention stream | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-2: The company turn has no completion criterion | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-3: Support wrappers are created without an idempotency check | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-4: Human response reconciliation waits for the schedule | open |
@@ -107,13 +110,13 @@ Nothing presented and unanswered. The company owns the turn.
 
 | Time | Who | Event |
 |---|---|---|
+| 08-26 18:42 | company | Cue published · contract |
+| 08-26 18:42 | company | Question prepared · contract |
 | 08-25 10:23 | company | Turn settled · O.455 |
 | 08-25 10:18 | company | Cue published · O.455 |
 | 08-25 10:17 | company | Question prepared · O.455 |
 | 08-25 10:16 | **you** | Responded · O.453 |
 | 08-25 09:46 | company | Cue published · O.453 |
 | 08-25 09:45 | company | Question prepared · O.453 |
-| 08-25 09:16 | **you** | Responded · O.452 |
-| 08-25 09:14 | company | Cue published · O.452 |
 
-<sub>Rendered from the repo at frame #1005 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1006 · immediate mode, no client state</sub>
