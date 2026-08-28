@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1033.md" style="font-size:11px; color:#5f6368;">#1033</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1034.md" style="font-size:11px; color:#5f6368;">#1034</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -25,13 +25,13 @@
 
 ## Last Tick
 
-**[Tick #1033](_pipeline/reports/tick-1033.md)** · 2026-08-26 20:00 UTC · manual · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1034](_pipeline/reports/tick-1034.md)** · 2026-08-28 13:25 UTC · manual · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
 - No durable work-item changes in this tick.
 
-<details><summary>Inspected without change (17)</summary>
+<details><summary>Inspected without change (18)</summary>
 
 - [A.005](Accounts/_work/A.005-privacy-screen-protector.md) — A.005-privacy-screen-protector
 - [A.011](Accounts/_work/A.011-Retail-Receipt.md) — A.011-Retail-Receipt
@@ -50,6 +50,7 @@
 - [O.458](Operations/_work/O.458-Supply-chain-constraints-on-hardware-procurement.md) — O.458-Supply-chain-constraints-on-hardware-procurement
 - [O.462](Operations/_work/O.462-Wire-Cortex-local-inference-path.md) — O.462-Wire-Cortex-local-inference-path
 - [O.463](Operations/_work/O.463-Inference-tier-field-and-tier-grouped-execution.md) — O.463-Inference-tier-field-and-tier-grouped-execution
+- [O.468](Operations/_work/O.468-Register-for-St-James-AI-Tech-Related-event.md) — O.468-Register-for-St-James-AI-Tech-Related-event
 
 </details>
 
@@ -64,19 +65,17 @@
 
 ## Agency
 
-- **Waiting on you**: 1
+- **Waiting on you**: 0
 - **Company obligations**: 3
 - **Raw unsettled records**: 6
 - **Latest move at**: 2026-08-25T10:16:21.736285+00:00
 - **Latest move**: You responded to Review seed crystallisation support amendment.
 - **Latest move evidence**: All right. First of all, that was a very nice uh intro um to the problem space. But I think this might be a duplicate. Um I'm not sure whether we've already handled the the contract side or is this a downstream action of the of the other authorization that I provided earlier today.
-- **Latest move tick**: 974
+- **Latest move tick**: 975
 
-### Waiting on You (1)
+### Waiting on You (0)
 
-| Since | Question |
-|---|---|
-| 2026-08-26T19:43:52.587496+00:00 | [contract-proposal-commercial-terms-review-services-agreement](Operations/_work/approvals/contract-proposal-commercial-terms-review-services-agreement.md) |
+Nothing presented and unanswered.
 
 ### Company Owes (3)
 
@@ -90,7 +89,6 @@
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#974](_pipeline/reports/tick-974.md) | 45.8s | 17 | 0 | 0 | 0 |
 | [#975](_pipeline/reports/tick-975.md) | 44.8s | 17 | 0 | 0 | 0 |
 | [#976](_pipeline/reports/tick-976.md) | 43.2s | 17 | 0 | 0 | 0 |
 | [#977](_pipeline/reports/tick-977.md) | 46.2s | 17 | 0 | 0 | 0 |
@@ -150,6 +148,7 @@
 | [#1031](_pipeline/reports/tick-1031.md) | 45.7s | 17 | 0 | 0 | 0 |
 | [#1032](_pipeline/reports/tick-1032.md) | 118.9s | 17 | 0 | 0 | 0 |
 | [#1033](_pipeline/reports/tick-1033.md) | 47.8s | 17 | 0 | 0 | 0 |
+| [#1034](_pipeline/reports/tick-1034.md) | 160.1s | 18 | 1 | 0 | 0 |
 
 ## Health
 
@@ -157,10 +156,10 @@
 |----------|--------|--------|---------|------|
 | [Accounts](Accounts/dashboard.md) | 🔄 | 2 | 0 | 13 |
 | [Compliance](Compliance/dashboard.md) | ⚠️ | 9 | 0 | 13 |
-| [Operations](Operations/dashboard.md) | ⚠️ | 35 | 0 | 452 |
+| [Operations](Operations/dashboard.md) | ⚠️ | 36 | 0 | 452 |
 | [People](People/dashboard.md) | ⚠️ | 6 | 0 | 1 |
 | [Services](Services/dashboard.md) | 🔄 | 1 | 0 | 11 |
-| **Total** | | **53** | **0** | **490** |
+| **Total** | | **54** | **0** | **490** |
 
 ### Work Item Distribution
 
@@ -168,7 +167,7 @@
 pie title Active Work Items by Function
     "Accounts" : 2
     "Compliance" : 9
-    "Operations" : 35
+    "Operations" : 36
     "People" : 6
     "Services" : 1
 ```
@@ -178,19 +177,18 @@ pie title Active Work Items by Function
 ```mermaid
 pie title Active Status Distribution
     "in-progress" : 12
-    "open" : 40
+    "open" : 41
     "submitted" : 1
 ```
 
 ## Attention
 
-### Decisions Waiting (26)
+### Decisions Waiting (25)
 
 Blocked on a human answer — not staleness.
 
 | Kind | Subject | Detail | Link |
 |------|---------|--------|------|
-| Contract proposal | Commercial Terms Review Services Agreement | Awaiting approval | [View](Operations/_work/approvals/contract-proposal-commercial-terms-review-services-agreement.md) |
 | Contract proposal | Communication Archival Services Agreement | Blocked — missing prerequisites — `../Compliance/privacy.README.md`, `../Compliance/confidentiality.README.md` | [View](Operations/_work/approvals/contract-proposal-communication-archival-services-agreement.md) |
 | Contract proposal | Documentation Synthesis Contract | Awaiting approval | [View](Operations/_work/approvals/contract-proposal-documentation-synthesis-contract.md) |
 | Contract proposal | Hardware and Software Procurement Services Agreement | Blocked — missing prerequisites — `../HR/README.md`, `../Operations/_data/assets.md` | [View](Operations/_work/approvals/contract-proposal-hardware-and-software-procurement-services-agreement.md) |
@@ -221,44 +219,45 @@ Blocked on a human answer — not staleness.
 
 | Function | Item | Reason | Link |
 |----------|------|--------|------|
-| Accounts | The Fox & Hounds, Whittlebury — Business | Open 91 days | [A.011](Accounts/_work/A.011-Retail-Receipt.md) |
-| Compliance | Register for Corporation Tax | Open 103 days | [C.004.1](Compliance/_work/C.004.1-Register-for-corporation-tax.md) |
-| Compliance | Assess VAT registration requirement | Open 103 days | [C.004.2](Compliance/_work/C.004.2-Assess-VAT-registration.md) |
-| Compliance | virtual-office-service-address.md | Open 95 days | [C.015](Compliance/_work/C.015-virtual-office-service-addressmd.md) |
-| Compliance | ICO Data Protection Fee Direct Debit Con | Open 63 days | [C.017](Compliance/_work/C.017-ICO-Data-Protection-Fee-Direct-Debit-Confirmation.md) |
-| Compliance | BYOD Policy Review and Compliance | Open 61 days | [C.021](Compliance/_work/C.021-BYOD-Policy-Review-and-Compliance.md) |
-| Compliance | Health and Safety compliance process imp | Open 58 days | [C.028](Compliance/_work/C.028-Health-and-Safety-compliance-process-implementation.md) |
-| Compliance | EU AI Act Article 52 Compliance | Open 58 days | [C.029](Compliance/_work/C.029-EU-AI-Act-Article-52-Compliance.md) |
-| Compliance | Compliance: Employment Rights Act s.1 co | Open 58 days | [C.034](Compliance/_work/C.034-Compliance-Employment-Rights-Act-s1-contract.md) |
-| Operations | Apple Developer Program Enrollment | Open 51 days | [O.008](Operations/_work/O.008-Apple-Developer-Program-Enrollment.md) |
-| Operations | Migrate Winston app to Ema Next | Open 47 days | [O.009](Operations/_work/O.009-Migrate-Winston-app-to-Ema-Next.md) |
-| Operations | Integration of courier services into SPI | Open 29 days | [P.003](Operations/_work/P.003-Integration-of-courier-services-into-SPINE.md) |
-| Operations | RightStore Nimbus Proposal V2 Review | Open 26 days | [P.004](Operations/_work/P.004-RightStore-Nimbus-Proposal-V2-Review.md) |
-| Operations | RightStore by Nimbus deck development | Open 26 days | [P.005](Operations/_work/P.005-RightStore-by-Nimbus-deck-development.md) |
-| Operations | IBIS system overview for Christie & Co | Open 22 days | [P.006](Operations/_work/P.006-IBIS-system-overview-for-Christie-Co.md) |
-| Operations | Project prioritization and competitor re | Open 22 days | [P.007](Operations/_work/P.007-Project-prioritization-and-competitor-research.md) |
-| People | H.002 — Tech Toast Attendee Outreach | Open 50 days | [H.002](People/_work/H.002-tech-toast-attendee-outreach.md) |
-| People | Review compensation and workload distrib | Open 47 days | [H.003](People/_work/H.003-Review-compensation-and-workload-distribution.md) |
-| People | People Development and Learning Framewor | Open 43 days | [H.004](People/_work/H.004-People-Development-and-Learning-Framework.md) |
-| People | Onboarding and Integration of James Lowm | Open 42 days | [H.005](People/_work/H.005-Onboarding-and-Integration-of-James-Lowman-CEO.md) |
-| People | CEO recruitment update: James Lowman wit | Open 27 days | [H.006](People/_work/H.006-CEO-recruitment-update-James-Lowman-withdrawal.md) |
-| People | Potential CEO candidate: Ilann Hepworth | Open 27 days | [H.007](People/_work/H.007-Potential-CEO-candidate-Ilann-Hepworth.md) |
-| Services | Nimbus platform access and subscription  | Open 58 days | [S.018](Services/_work/S.018-Nimbus-platform-access-and-subscription-management.md) |
+| Accounts | The Fox & Hounds, Whittlebury — Business | Open 93 days | [A.011](Accounts/_work/A.011-Retail-Receipt.md) |
+| Compliance | Register for Corporation Tax | Open 105 days | [C.004.1](Compliance/_work/C.004.1-Register-for-corporation-tax.md) |
+| Compliance | Assess VAT registration requirement | Open 105 days | [C.004.2](Compliance/_work/C.004.2-Assess-VAT-registration.md) |
+| Compliance | virtual-office-service-address.md | Open 97 days | [C.015](Compliance/_work/C.015-virtual-office-service-addressmd.md) |
+| Compliance | ICO Data Protection Fee Direct Debit Con | Open 65 days | [C.017](Compliance/_work/C.017-ICO-Data-Protection-Fee-Direct-Debit-Confirmation.md) |
+| Compliance | BYOD Policy Review and Compliance | Open 63 days | [C.021](Compliance/_work/C.021-BYOD-Policy-Review-and-Compliance.md) |
+| Compliance | Health and Safety compliance process imp | Open 60 days | [C.028](Compliance/_work/C.028-Health-and-Safety-compliance-process-implementation.md) |
+| Compliance | EU AI Act Article 52 Compliance | Open 60 days | [C.029](Compliance/_work/C.029-EU-AI-Act-Article-52-Compliance.md) |
+| Compliance | Compliance: Employment Rights Act s.1 co | Open 60 days | [C.034](Compliance/_work/C.034-Compliance-Employment-Rights-Act-s1-contract.md) |
+| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 15 days | [I.004](Operations/_work/I.004-WhatsApp-digest-JatinMandipKash-2026-08-12.md) |
+| Operations | Apple Developer Program Enrollment | Open 53 days | [O.008](Operations/_work/O.008-Apple-Developer-Program-Enrollment.md) |
+| Operations | Migrate Winston app to Ema Next | Open 49 days | [O.009](Operations/_work/O.009-Migrate-Winston-app-to-Ema-Next.md) |
+| Operations | Integration of courier services into SPI | Open 31 days | [P.003](Operations/_work/P.003-Integration-of-courier-services-into-SPINE.md) |
+| Operations | RightStore Nimbus Proposal V2 Review | Open 28 days | [P.004](Operations/_work/P.004-RightStore-Nimbus-Proposal-V2-Review.md) |
+| Operations | RightStore by Nimbus deck development | Open 28 days | [P.005](Operations/_work/P.005-RightStore-by-Nimbus-deck-development.md) |
+| Operations | IBIS system overview for Christie & Co | Open 24 days | [P.006](Operations/_work/P.006-IBIS-system-overview-for-Christie-Co.md) |
+| Operations | Project prioritization and competitor re | Open 24 days | [P.007](Operations/_work/P.007-Project-prioritization-and-competitor-research.md) |
+| People | H.002 — Tech Toast Attendee Outreach | Open 52 days | [H.002](People/_work/H.002-tech-toast-attendee-outreach.md) |
+| People | Review compensation and workload distrib | Open 49 days | [H.003](People/_work/H.003-Review-compensation-and-workload-distribution.md) |
+| People | People Development and Learning Framewor | Open 45 days | [H.004](People/_work/H.004-People-Development-and-Learning-Framework.md) |
+| People | Onboarding and Integration of James Lowm | Open 44 days | [H.005](People/_work/H.005-Onboarding-and-Integration-of-James-Lowman-CEO.md) |
+| People | CEO recruitment update: James Lowman wit | Open 29 days | [H.006](People/_work/H.006-CEO-recruitment-update-James-Lowman-withdrawal.md) |
+| People | Potential CEO candidate: Ilann Hepworth | Open 29 days | [H.007](People/_work/H.007-Potential-CEO-candidate-Ilann-Hepworth.md) |
+| Services | Nimbus platform access and subscription  | Open 60 days | [S.018](Services/_work/S.018-Nimbus-platform-access-and-subscription-management.md) |
 
 ## Detail
 
 ### Pipeline
 
-**Total Ticks**: 1033
+**Total Ticks**: 1034
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-08-26 21:00 | 0 new, 0 synced |
-| github-sync | 🟢 Yes | ✅ ok | 2026-08-26 21:00 | 0 synced |
-| stream-deck | ⚪ No | ✅ ok | 2026-08-26 21:00 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-08-28 14:25 | 5 new, 5 synced |
+| github-sync | 🟢 Yes | ✅ ok | 2026-08-28 14:25 | 0 synced |
+| stream-deck | ⚪ No | ✅ ok | 2026-08-28 14:25 | 3 copied, 0 noise, 0 hal |
+| processor-discover | 🟢 Yes | ✅ ok | — | 14 processed, 1 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
-| whatsapp | 🟢 Yes | ✅ ok | 2026-08-26 21:00 | 0 processed, 0 failed |
+| whatsapp | 🟢 Yes | ✅ ok | 2026-08-28 14:25 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
 | hostinger | ⚪ No | — | — | — |
 | store-email | 🟢 Yes | — | — | — |
@@ -269,11 +268,11 @@ Blocked on a human answer — not staleness.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-08-28 14:25](_pipeline/logs/2026-08-28_14-25.md) | 160s | [✓](_pipeline/logs/2026-08-28_14-25.md#icloud-email) 5 new, 5 synced | [✓](_pipeline/logs/2026-08-28_14-25.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-28_14-25.md#processor-discover) 14 processed, 1 created | [✓](_pipeline/logs/2026-08-28_14-25.md#processor-progress) 0 progressed | $0.0000 | ~0.067g |
 | [2026-08-26 21:00](_pipeline/logs/2026-08-26_21-00.md) | 48s | [✓](_pipeline/logs/2026-08-26_21-00.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_21-00.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_21-00.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_21-00.md#processor-progress) 0 progressed | $0.0000 | ~0.020g |
 | [2026-08-26 20:57](_pipeline/logs/2026-08-26_20-57.md) | 119s | [✓](_pipeline/logs/2026-08-26_20-57.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_20-57.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_20-57.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_20-57.md#processor-progress) 0 progressed | $0.0000 | ~0.050g |
 | [2026-08-26 20:56](_pipeline/logs/2026-08-26_20-56.md) | 46s | [✓](_pipeline/logs/2026-08-26_20-56.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_20-56.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_20-56.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_20-56.md#processor-progress) 0 progressed | $0.0000 | ~0.019g |
 | [2026-08-26 20:52](_pipeline/logs/2026-08-26_20-52.md) | 41s | [✓](_pipeline/logs/2026-08-26_20-52.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_20-52.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_20-52.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_20-52.md#processor-progress) 0 progressed | $0.0000 | ~0.017g |
-| [2026-08-26 20:49](_pipeline/logs/2026-08-26_20-49.md) | 45s | [✓](_pipeline/logs/2026-08-26_20-49.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-08-26_20-49.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-08-26_20-49.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-08-26_20-49.md#processor-progress) 0 progressed | $0.0000 | ~0.019g |
 
 ### Source Topology
 
@@ -316,8 +315,8 @@ flowchart TD
 | [Github Issue Sync](Operations/_contracts/github-issue-sync.README.md) | Operations | per-tick | — | ⚪ No |
 | [Icloud Email Import](Operations/_contracts/icloud-email-import.README.md) | Operations | per-tick | — | ⚪ No |
 | [Impact Cascade](Operations/_contracts/impact-cascade.README.md) | Operations | per-tick | 2026-08-25 11:40 | ⚪ No |
-| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-08-26 21:00 | 🟢 Yes |
-| [Mailroom](Operations/_contracts/mailroom.README.md) | Operations | per-tick | 2026-08-26 21:00 | 🟢 Yes |
+| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-08-28 14:25 | 🟢 Yes |
+| [Mailroom](Operations/_contracts/mailroom.README.md) | Operations | per-tick | 2026-08-28 14:25 | 🟢 Yes |
 | [Seed Crystallisation](Operations/_contracts/seed-crystallisation.README.md) | Operations | per-tick | 2026-08-24 15:27 | 🟢 Yes |
 | [Stack Improvement](Operations/_contracts/stack-improvement.README.md) | Operations | weekly | — | ⚪ No |
 | [Voice Note Import Contract](Operations/_contracts/voice-note-import-contract.README.md) | Operations | per-tick | 2026-08-06 14:00 | ⚪ No |
@@ -335,7 +334,7 @@ flowchart TD
 | [car-personality](projects/car-personality/README.md) | ✅ | 0 | 0 | 0 |
 | [chess](projects/chess/README.md) | ⚠️ | 4 | 0 | 0 |
 | [cv-builder](projects/cv-builder/README.md) | ✅ | 0 | 0 | 0 |
-| [ema-sa](projects/ema-sa/README.md) | ⏸️ | 26 | 1 | 0 |
+| [ema-sa](projects/ema-sa/README.md) | ⏸️ | 27 | 1 | 0 |
 | [game](projects/game/README.md) | 🔄 | 1 | 0 | 0 |
 | [golf](projects/golf/README.md) | ✅ | 0 | 0 | 0 |
 | [home-information-pack](projects/home-information-pack/README.md) | ✅ | 0 | 0 | 0 |
@@ -355,8 +354,35 @@ flowchart TD
 
 | Metric | Value |
 |--------|-------|
-| Notes | 1135 |
+| Notes | 1191 |
 | Themes | 21 |
 | Coverage | 10.9% |
 
 📊 [Full Knowledge Report](_knowledge/research/report.md)
+
+### Gate Tracks (3)
+
+| Case | Phase | Item | # | Gate |
+|---|---|---|---:|---|
+| seed_crystallisation | authorized-awaiting-application | [O.440](Operations/_work/O.440-contract-support-seed-crystallisation.md) | 1 | Verify recovery through the governed supervised trial before proposing resumption. |
+| pipeline — commit scope | verify | [O.459](Operations/_work/O.459-pipeline-commit-scope.md) | 1 | Observe three real ticks before narrowing the prefix list |
+| pipeline — commit scope | verify | [O.459](Operations/_work/O.459-pipeline-commit-scope.md) | 2 | Audit Phases 1–5 writers for explicit staging; record which rely on prefix staging |
+| pipeline — commit scope | verify | [O.459](Operations/_work/O.459-pipeline-commit-scope.md) | 3 | Verify across three real ticks before removing any prefix |
+| pipeline — commit scope | verify | [O.459](Operations/_work/O.459-pipeline-commit-scope.md) | 4 | Open IE.002 once verified, and resolve RP-1 |
+| pipeline — ingest materiality | verify | [O.460](Operations/_work/O.460-ingest-filter-discarded-order-confirmation.md) | 1 | Review `_pipeline/skipped.jsonl` after three business days for wrongly skipped material mail |
+| pipeline — ingest materiality | verify | [O.460](Operations/_work/O.460-ingest-filter-discarded-order-confirmation.md) | 2 | Audit the store-dash mailbox filter for the same inverted `noreply@` rule |
+| pipeline — ingest materiality | verify | [O.460](Operations/_work/O.460-ingest-filter-discarded-order-confirmation.md) | 3 | Backfill check — search the mailbox for transactional mail dropped before this fix |
+| pipeline — ingest materiality | verify | [O.460](Operations/_work/O.460-ingest-filter-discarded-order-confirmation.md) | 4 | Consider the same materiality test for the WhatsApp and drop-folder paths |
+
+### Agency Log (8)
+
+| At | Who | Event |
+|---|---|---|
+| 2026-08-28 13:25 | company | Turn settled · contract |
+| 2026-08-26 20:04 | you | Responded · contract |
+| 2026-08-26 19:43 | company | Cue published · contract |
+| 2026-08-26 19:43 | company | Question prepared · contract |
+| 2026-08-26 19:40 | company | Turn settled · contract |
+| 2026-08-26 18:45 | you | Responded · contract |
+| 2026-08-26 18:42 | company | Cue published · contract |
+| 2026-08-26 18:42 | company | Question prepared · contract |
