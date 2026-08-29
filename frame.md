@@ -4,22 +4,22 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1040` · 2026-08-29 12:58 UTC
+`FRAME #1041` · 2026-08-29 13:15 UTC
 
 ---
 
 ## ▶ Concurrent agency
 
-### YOU — **1 waiting** · COMPANY — **3 owed**
+### YOU — **0 waiting** · COMPANY — **3 owed**
 
 **Latest move:** You responded to Review seed crystallisation support amendment. · 2026-08-25 10:16:21 UTC
 
 **Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█▃▃▃▃▃▃▃▃▇▃▃▃▄▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃█▃▃▃▃▃▃▃▃▃▄▃▃▃▃▃▃▃▃▄▃▅▁▇▄▄▄▃
+█▃▃▃▃▃▃▃▇▃▃▃▄▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃█▃▃▃▃▃▃▃▃▃▄▃▃▃▃▃▃▃▃▄▃▅▁▇▄▄▄▃█
 █ latest move · 10:16
-▁–█ tick-report activity · 60 reports · 4 d 2 h   (frames #981 → #1040)
+▁–█ tick-report activity · 60 reports · 4 d 2 h   (frames #982 → #1041)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -28,7 +28,7 @@ grey routine · cyan durable pipeline output · purple LLM work
 | Tick reports since latest move | **60** |
 | Time since latest move | 4 d 2 h |
 | Company obligations | 3 (6 raw records) |
-| Waiting on you | 1 |
+| Waiting on you | 0 |
 
 ---
 
@@ -42,11 +42,9 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 ---
 
-## ⚑ Waiting on you — 1
+## ⚑ Waiting on you — 0
 
-| Since | Question |
-|---|---|
-| 08-29 12:59 | [contract-proposal-psc-identity-verification-readme-md](Operations/_work/approvals/contract-proposal-psc-identity-verification-readme-md.md) |
+Nothing is waiting on you. The company may still have work to do.
 
 ---
 
@@ -99,13 +97,13 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 ---
 
-## ▦ Functions — 60 active · 491 done
+## ▦ Functions — 61 active · 491 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 9 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 36 | 453 | `█▁▁▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 37 | 453 | `█▁▁▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [blockvey](projects/blockvey/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -123,13 +121,13 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 | Time | Who | Event |
 |---|---|---|
+| 08-29 13:15 | company | Turn settled · contract |
+| 08-29 13:00 | **you** | Responded · contract |
 | 08-29 12:59 | company | Cue published · contract |
 | 08-29 12:59 | company | Question prepared · contract |
 | 08-29 12:47 | company | Turn settled · contract |
 | 08-29 12:43 | **you** | Responded · contract |
 | 08-29 12:42 | company | Cue published · contract |
 | 08-29 12:42 | company | Question prepared · contract |
-| 08-29 12:23 | company | Turn settled · contract |
-| 08-29 11:25 | **you** | Responded · contract |
 
-<sub>Rendered from the repo at frame #1040 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1041 · immediate mode, no client state</sub>
