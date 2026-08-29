@@ -4,38 +4,39 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1037` · 2026-08-29 12:23 UTC
+`FRAME #1038` · 2026-08-29 12:42 UTC
 
 ---
 
 ## ▶ Concurrent agency
 
-### YOU — **0 waiting** · COMPANY — **3 owed**
+### YOU — **0 waiting** · COMPANY — **4 owed**
 
-**Latest move:** You responded to Review seed crystallisation support amendment. · 2026-08-25 10:16:21 UTC
+**Latest move:** You approved the Property Data Integration Services Agreement. · 2026-08-29 12:43:29 UTC
 
-**Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
+**Company owes next:** [Property Data Integration Services Agreement](Operations/_work/approvals/contract-proposal-property-data-integration-services-agreement.md) — Apply the approved proposal, record the outcome, and settle the obligation.
 
 ```
-█▄▃▃▃▃▃▃▃▃▃▃▇▃▃▃▄▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃█▃▃▃▃▃▃▃▃▃▄▃▃▃▃▃▃▃▃▄▃▅▁▇▄
-█ latest move · 10:16
-▁–█ tick-report activity · 60 reports · 4 d 2 h   (frames #978 → #1037)
+█
+█ latest move · 12:43
+▁–█ tick-report activity · 0 reports · 0 min   (frames #1038 → #1038)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **60** |
-| Time since latest move | 4 d 2 h |
-| Company obligations | 3 (6 raw records) |
+| Tick reports since latest move | **0** |
+| Time since latest move | 0 min |
+| Company obligations | 4 (7 raw records) |
 | Waiting on you | 0 |
 
 ---
 
-## ⇢ Company owes — 3
+## ⇢ Company owes — 4
 
 | Obligation | Records | Next action |
 |---|---:|---|
+| [Property Data Integration Services Agreement](Operations/_work/approvals/contract-proposal-property-data-integration-services-agreement.md) | 1 | Apply the approved proposal, record the outcome, and settle the obligation. |
 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 | [Review seed crystallisation support amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) | 4 | Reconcile the response and settle the obligation. |
 | [Set Up Paid Consulting Engagement — AlphaSights](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) | 1 | Use the source correspondence to bootstrap the consulting-engagement process. Obtain the client legal entity, billing details, purchase-order or engagement paperwork and service date before preparing the final sales order or invoice. Drafts remain under Mandip's control; do not send or accept external terms automatically. |
@@ -76,7 +77,7 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ✕ Open review points — 13
+## ✕ Open review points — 14
 
 | Contract | Point | Status |
 |---|---|---|
@@ -93,6 +94,7 @@ Nothing is waiting on you. The company may still have work to do.
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-5: Bound autonomous mutation | open — awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-6: Replace retry-on-breach with containment | open — awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-7: Define supervised trial and promotion evidence | open — awaiting supervised trial |
+| [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-2: The contract cannot leave trial, and says so to no one | open |
 
 ---
 
@@ -120,13 +122,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 | Time | Who | Event |
 |---|---|---|
+| 08-29 12:43 | **you** | Responded · contract |
+| 08-29 12:42 | company | Cue published · contract |
+| 08-29 12:42 | company | Question prepared · contract |
 | 08-29 12:23 | company | Turn settled · contract |
 | 08-29 11:25 | **you** | Responded · contract |
 | 08-29 11:24 | company | Cue published · contract |
 | 08-29 11:24 | company | Question prepared · contract |
 | 08-28 13:25 | company | Turn settled · contract |
-| 08-26 20:04 | **you** | Responded · contract |
-| 08-26 19:43 | company | Cue published · contract |
-| 08-26 19:43 | company | Question prepared · contract |
 
-<sub>Rendered from the repo at frame #1037 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1038 · immediate mode, no client state</sub>
