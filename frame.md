@@ -4,7 +4,7 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1034` · 2026-08-28 13:25 UTC
+`FRAME #1035` · 2026-08-28 20:38 UTC
 
 ---
 
@@ -17,16 +17,16 @@
 **Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█▃▃▃▄▃▃▃▃▃▃▃▃▃▃▇▃▃▃▄▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃█▃▃▃▃▃▃▃▃▃▄▃▃▃▃▃▃▃▃▄▃▅
+█▃▃▄▃▃▃▃▃▃▃▃▃▃▇▃▃▃▄▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃█▃▃▃▃▃▃▃▃▃▄▃▃▃▃▃▃▃▃▄▃▅▁
 █ latest move · 10:16
-▁–█ tick-report activity · 60 reports · 3 d 3 h   (frames #975 → #1034)
+▁–█ tick-report activity · 60 reports · 3 d 10 h   (frames #976 → #1035)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 3 d 3 h |
+| Time since latest move | 3 d 10 h |
 | Company obligations | 3 (6 raw records) |
 | Waiting on you | 0 |
 
@@ -76,7 +76,7 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ✕ Open review points — 14
+## ✕ Open review points — 13
 
 | Contract | Point | Status |
 |---|---|---|
@@ -93,17 +93,16 @@ Nothing is waiting on you. The company may still have work to do.
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-5: Bound autonomous mutation | open — awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-6: Replace retry-on-breach with containment | open — awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-7: Define supervised trial and promotion evidence | open — awaiting supervised trial |
-| [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-1: Recital overpromises relative to obligations | open |
 
 ---
 
-## ▦ Functions — 60 active · 490 done
+## ▦ Functions — 60 active · 491 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⚠️ | [Compliance](Compliance/dashboard.md) | 9 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 36 | 452 | `█▁▁▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 36 | 453 | `█▁▁▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [blockvey](projects/blockvey/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -130,4 +129,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 08-26 18:42 | company | Cue published · contract |
 | 08-26 18:42 | company | Question prepared · contract |
 
-<sub>Rendered from the repo at frame #1034 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1035 · immediate mode, no client state</sub>
