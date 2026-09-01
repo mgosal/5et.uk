@@ -4,7 +4,7 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1060` · 2026-09-01 08:38 UTC
+`FRAME #1061` · 2026-09-01 08:57 UTC
 
 ---
 
@@ -17,16 +17,16 @@
 **Company owes next:** [Sales Workflow Formalization](Operations/_work/approvals/contract-proposal-sales-workflow-formalization.md) — Apply the approved proposal, record the outcome, and settle the obligation.
 
 ```
-█▁
+█▁▁
 █ latest move · 08:31
-▁–█ tick-report activity · 1 reports · 7 min   (frames #1060 → #1060)
+▁–█ tick-report activity · 2 reports · 26 min   (frames #1060 → #1061)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **1** |
-| Time since latest move | 7 min |
+| Tick reports since latest move | **2** |
+| Time since latest move | 26 min |
 | Company obligations | 4 (7 raw records) |
 | Waiting on you | 0 |
 
@@ -131,4 +131,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 08-29 12:59 | company | Question prepared · contract |
 | 08-29 12:47 | company | Turn settled · contract |
 
-<sub>Rendered from the repo at frame #1060 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1061 · immediate mode, no client state</sub>
