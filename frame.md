@@ -4,39 +4,38 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1061` · 2026-09-01 08:57 UTC
+`FRAME #1062` · 2026-09-01 09:13 UTC
 
 ---
 
 ## ▶ Concurrent agency
 
-### YOU — **0 waiting** · COMPANY — **4 owed**
+### YOU — **0 waiting** · COMPANY — **3 owed**
 
-**Latest move:** You requested changes to the Sales Workflow Formalization. · 2026-09-01 08:31:19 UTC
+**Latest move:** You responded to Review seed crystallisation support amendment. · 2026-08-25 10:16:21 UTC
 
-**Company owes next:** [Sales Workflow Formalization](Operations/_work/approvals/contract-proposal-sales-workflow-formalization.md) — Apply the approved proposal, record the outcome, and settle the obligation.
+**Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█▁▁
-█ latest move · 08:31
-▁–█ tick-report activity · 2 reports · 26 min   (frames #1060 → #1061)
+█▃▃▃▃▃▃▃▃▃▃█▃▃▃▃▃▃▃▃▃▄▃▃▃▃▃▃▃▃▄▃▅▁▇▄▄▄▃█▄▃▃▃▃▃▄▁▃▃▃▁▁▁▁▇▃▁▁▁▃
+█ latest move · 10:16
+▁–█ tick-report activity · 60 reports · 6 d 22 h   (frames #1003 → #1062)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **2** |
-| Time since latest move | 26 min |
-| Company obligations | 4 (7 raw records) |
+| Tick reports since latest move | **60** |
+| Time since latest move | 6 d 22 h |
+| Company obligations | 3 (6 raw records) |
 | Waiting on you | 0 |
 
 ---
 
-## ⇢ Company owes — 4
+## ⇢ Company owes — 3
 
 | Obligation | Records | Next action |
 |---|---:|---|
-| [Sales Workflow Formalization](Operations/_work/approvals/contract-proposal-sales-workflow-formalization.md) | 1 | Apply the approved proposal, record the outcome, and settle the obligation. |
 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 | [Review seed crystallisation support amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) | 4 | Reconcile the response and settle the obligation. |
 | [Set Up Paid Consulting Engagement — AlphaSights](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) | 1 | Use the source correspondence to bootstrap the consulting-engagement process. Obtain the client legal entity, billing details, purchase-order or engagement paperwork and service date before preparing the final sales order or invoice. Drafts remain under Mandip's control; do not send or accept external terms automatically. |
@@ -122,6 +121,7 @@ Nothing is waiting on you. The company may still have work to do.
 
 | Time | Who | Event |
 |---|---|---|
+| 09-01 09:13 | company | Turn settled · contract |
 | 09-01 08:31 | **you** | Responded · contract |
 | 08-29 13:31 | company | Cue published · contract |
 | 08-29 13:31 | company | Question prepared · contract |
@@ -129,6 +129,5 @@ Nothing is waiting on you. The company may still have work to do.
 | 08-29 13:00 | **you** | Responded · contract |
 | 08-29 12:59 | company | Cue published · contract |
 | 08-29 12:59 | company | Question prepared · contract |
-| 08-29 12:47 | company | Turn settled · contract |
 
-<sub>Rendered from the repo at frame #1061 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1062 · immediate mode, no client state</sub>

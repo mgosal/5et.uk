@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1061.md" style="font-size:11px; color:#5f6368;">#1061</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1062.md" style="font-size:11px; color:#5f6368;">#1062</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -26,11 +26,35 @@
 
 ## Last Tick
 
-**[Tick #1061](_pipeline/reports/tick-1061.md)** · 2026-09-01 08:57 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1062](_pipeline/reports/tick-1062.md)** · 2026-09-01 09:13 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
 - No durable work-item changes in this tick.
+
+<details><summary>Inspected without change (19)</summary>
+
+- [A.005](Accounts/_work/A.005-privacy-screen-protector.md) — A.005-privacy-screen-protector
+- [A.011](Accounts/_work/A.011-Retail-Receipt.md) — A.011-Retail-Receipt
+- [A.014](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) — A.014-Google-One-Subscription-Receipt
+- [A.016](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) — A.016-Processing-fuel-receipt-for-business-travel
+- [A.017](Accounts/_work/A.017-incorporation-expense.md) — A.017-incorporation-expense
+- [A.018](Accounts/_work/A.018-ico-data-protection-fee.md) — A.018-ico-data-protection-fee
+- [A.019](Accounts/_work/A.019-google-play-subscription-may.md) — A.019-google-play-subscription-may
+- [C.036](Compliance/_work/C.036-LLM-processing-of-personal-data-risk.md) — C.036-LLM-processing-of-personal-data-risk
+- [C.037](Compliance/_work/C.037-Anonymous-User-Experience-and-Contract-Framework.md) — C.037-Anonymous-User-Experience-and-Contract-Framework
+- [O.424](Operations/_work/O.424-attention-event-experiment.md) — O.424-attention-event-experiment
+- [O.430](Operations/_work/O.430-stream-deck-attention-mode.md) — O.430-stream-deck-attention-mode
+- [O.437](Operations/_work/O.437-build-conversational-initiative-path.md) — O.437-build-conversational-initiative-path
+- [O.439](Operations/_work/O.439-build-contract-support-loop.md) — O.439-build-contract-support-loop
+- [O.447](Operations/_work/O.447-refine-cloud-connect-direction.md) — O.447-refine-cloud-connect-direction
+- [O.449](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) — O.449-AI-Agent-Development-Platforms-consultation
+- [O.458](Operations/_work/O.458-Supply-chain-constraints-on-hardware-procurement.md) — O.458-Supply-chain-constraints-on-hardware-procurement
+- [O.462](Operations/_work/O.462-Wire-Cortex-local-inference-path.md) — O.462-Wire-Cortex-local-inference-path
+- [O.463](Operations/_work/O.463-Inference-tier-field-and-tier-grouped-execution.md) — O.463-Inference-tier-field-and-tier-grouped-execution
+- [O.468](Operations/_work/O.468-Register-for-St-James-AI-Tech-Related-event.md) — O.468-Register-for-St-James-AI-Tech-Related-event
+
+</details>
 
 ### Company In Progress
 
@@ -54,32 +78,89 @@
 ## Agency
 
 - **Waiting on you**: 0
-- **Company obligations**: 4
-- **Raw unsettled records**: 7
-- **Latest move at**: 2026-09-01T08:31:19.351679+00:00
-- **Latest move**: You requested changes to the Sales Workflow Formalization.
-- **Latest move evidence**: Yeah, that sounds right. Your recommendation sounds correct. So, let's amend it like you suggested and then, yeah, let's see where it takes us.
-- **Latest move tick**: 1060
+- **Company obligations**: 3
+- **Raw unsettled records**: 6
+- **Latest move at**: 2026-08-25T10:16:21.736285+00:00
+- **Latest move**: You responded to Review seed crystallisation support amendment.
+- **Latest move evidence**: All right. First of all, that was a very nice uh intro um to the problem space. But I think this might be a duplicate. Um I'm not sure whether we've already handled the the contract side or is this a downstream action of the of the other authorization that I provided earlier today.
+- **Latest move tick**: 1003
 
 ### Waiting on You (0)
 
 Nothing presented and unanswered.
 
-### Company Owes (4)
+### Company Owes (3)
 
 | Since | Obligation | Records | Company next action |
 |---|---|---:|---|
-| 2026-09-01T08:31:19.351679+00:00 | [Sales Workflow Formalization](Operations/_work/approvals/contract-proposal-sales-workflow-formalization.md) | 1 | Apply the approved proposal, record the outcome, and settle the obligation. |
 | 2026-08-26T18:12:56.073931+00:00 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 | 2026-08-25T10:16:21.736285+00:00 | [Review seed crystallisation support amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) | 4 | Reconcile the response and settle the obligation. |
 | 2026-08-25T08:02:18.159899+00:00 | [Set Up Paid Consulting Engagement — AlphaSights](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) | 1 | Use the source correspondence to bootstrap the consulting-engagement process. Obtain the client legal entity, billing details, purchase-order or engagement paperwork and service date before preparing the final sales order or invoice. Drafts remain under Mandip's control; do not send or accept external terms automatically. |
 
-### Activity Since Latest Move (2 ticks)
+### Activity Since Latest Move (60 ticks)
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
+| [#1003](_pipeline/reports/tick-1003.md) | 46.9s | 17 | 0 | 0 | 0 |
+| [#1004](_pipeline/reports/tick-1004.md) | 45.5s | 17 | 0 | 0 | 0 |
+| [#1005](_pipeline/reports/tick-1005.md) | 47.0s | 17 | 0 | 0 | 0 |
+| [#1006](_pipeline/reports/tick-1006.md) | 44.4s | 17 | 0 | 0 | 0 |
+| [#1007](_pipeline/reports/tick-1007.md) | 46.5s | 17 | 0 | 0 | 0 |
+| [#1008](_pipeline/reports/tick-1008.md) | 54.6s | 17 | 0 | 0 | 0 |
+| [#1009](_pipeline/reports/tick-1009.md) | 42.3s | 17 | 0 | 0 | 0 |
+| [#1010](_pipeline/reports/tick-1010.md) | 47.9s | 17 | 0 | 0 | 0 |
+| [#1011](_pipeline/reports/tick-1011.md) | 44.0s | 17 | 0 | 0 | 0 |
+| [#1012](_pipeline/reports/tick-1012.md) | 47.2s | 17 | 0 | 0 | 0 |
+| [#1013](_pipeline/reports/tick-1013.md) | 56.5s | 17 | 1 | 0 | 775 |
+| [#1014](_pipeline/reports/tick-1014.md) | 46.0s | 17 | 0 | 0 | 0 |
+| [#1015](_pipeline/reports/tick-1015.md) | 40.1s | 17 | 0 | 0 | 0 |
+| [#1016](_pipeline/reports/tick-1016.md) | 44.0s | 17 | 0 | 0 | 0 |
+| [#1017](_pipeline/reports/tick-1017.md) | 46.8s | 17 | 0 | 0 | 0 |
+| [#1018](_pipeline/reports/tick-1018.md) | 43.8s | 17 | 0 | 0 | 0 |
+| [#1019](_pipeline/reports/tick-1019.md) | 45.7s | 17 | 0 | 0 | 0 |
+| [#1020](_pipeline/reports/tick-1020.md) | 48.0s | 17 | 0 | 0 | 0 |
+| [#1021](_pipeline/reports/tick-1021.md) | 46.1s | 17 | 0 | 0 | 0 |
+| [#1022](_pipeline/reports/tick-1022.md) | 52.1s | 17 | 0 | 0 | 0 |
+| [#1023](_pipeline/reports/tick-1023.md) | 58.1s | 17 | 0 | 0 | 0 |
+| [#1024](_pipeline/reports/tick-1024.md) | 43.3s | 17 | 0 | 0 | 0 |
+| [#1025](_pipeline/reports/tick-1025.md) | 37.6s | 17 | 0 | 0 | 0 |
+| [#1026](_pipeline/reports/tick-1026.md) | 50.2s | 17 | 0 | 0 | 0 |
+| [#1027](_pipeline/reports/tick-1027.md) | 51.0s | 17 | 0 | 0 | 0 |
+| [#1028](_pipeline/reports/tick-1028.md) | 46.0s | 17 | 0 | 0 | 0 |
+| [#1029](_pipeline/reports/tick-1029.md) | 45.0s | 17 | 0 | 0 | 0 |
+| [#1030](_pipeline/reports/tick-1030.md) | 40.7s | 17 | 0 | 0 | 0 |
+| [#1031](_pipeline/reports/tick-1031.md) | 45.7s | 17 | 0 | 0 | 0 |
+| [#1032](_pipeline/reports/tick-1032.md) | 118.9s | 17 | 0 | 0 | 0 |
+| [#1033](_pipeline/reports/tick-1033.md) | 47.8s | 17 | 0 | 0 | 0 |
+| [#1034](_pipeline/reports/tick-1034.md) | 160.1s | 18 | 1 | 0 | 0 |
+| [#1035](_pipeline/reports/tick-1035.md) | 6.3s | 0 | 0 | 0 | 0 |
+| [#1036](_pipeline/reports/tick-1036.md) | 542.0s | 19 | 2 | 0 | 0 |
+| [#1037](_pipeline/reports/tick-1037.md) | 205.6s | 19 | 0 | 0 | 0 |
+| [#1038](_pipeline/reports/tick-1038.md) | 84.5s | 19 | 0 | 0 | 0 |
+| [#1039](_pipeline/reports/tick-1039.md) | 61.0s | 19 | 0 | 0 | 0 |
+| [#1040](_pipeline/reports/tick-1040.md) | 55.3s | 19 | 0 | 0 | 0 |
+| [#1041](_pipeline/reports/tick-1041.md) | 53.9s | 19 | 1 | 0 | 794 |
+| [#1042](_pipeline/reports/tick-1042.md) | 66.8s | 19 | 0 | 0 | 0 |
+| [#1043](_pipeline/reports/tick-1043.md) | 43.1s | 19 | 0 | 0 | 0 |
+| [#1044](_pipeline/reports/tick-1044.md) | 43.5s | 19 | 0 | 0 | 0 |
+| [#1045](_pipeline/reports/tick-1045.md) | 43.8s | 19 | 0 | 0 | 0 |
+| [#1046](_pipeline/reports/tick-1046.md) | 48.4s | 19 | 0 | 0 | 0 |
+| [#1047](_pipeline/reports/tick-1047.md) | 48.3s | 19 | 0 | 0 | 0 |
+| [#1048](_pipeline/reports/tick-1048.md) | 1072.7s | 19 | 0 | 0 | 0 |
+| [#1049](_pipeline/reports/tick-1049.md) | 2.3s | 0 | 0 | 0 | 0 |
+| [#1050](_pipeline/reports/tick-1050.md) | 42.8s | 19 | 0 | 0 | 0 |
+| [#1051](_pipeline/reports/tick-1051.md) | 37.7s | 19 | 0 | 0 | 0 |
+| [#1052](_pipeline/reports/tick-1052.md) | 6684.9s | 0 | 0 | 0 | 0 |
+| [#1053](_pipeline/reports/tick-1053.md) | 3.0s | 0 | 0 | 0 | 0 |
+| [#1054](_pipeline/reports/tick-1054.md) | 3.0s | 0 | 0 | 0 | 0 |
+| [#1055](_pipeline/reports/tick-1055.md) | 5.2s | 0 | 0 | 0 | 0 |
+| [#1056](_pipeline/reports/tick-1056.md) | 2.6s | 0 | 0 | 0 | 0 |
+| [#1057](_pipeline/reports/tick-1057.md) | 2231.5s | 19 | 2 | 0 | 0 |
+| [#1058](_pipeline/reports/tick-1058.md) | 45.3s | 19 | 0 | 0 | 0 |
+| [#1059](_pipeline/reports/tick-1059.md) | 6.5s | 0 | 0 | 0 | 0 |
 | [#1060](_pipeline/reports/tick-1060.md) | 6.8s | 0 | 0 | 0 | 0 |
 | [#1061](_pipeline/reports/tick-1061.md) | 6.4s | 0 | 0 | 0 | 0 |
+| [#1062](_pipeline/reports/tick-1062.md) | 42.9s | 19 | 0 | 0 | 0 |
 
 ## Health
 
@@ -182,16 +263,16 @@ Blocked on a human answer — not staleness.
 
 ### Pipeline
 
-**Total Ticks**: 1061
+**Total Ticks**: 1062
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-01 09:58 | 0 new, 0 synced |
-| github-sync | 🟢 Yes | ✅ ok | 2026-09-01 09:06 | 0 synced |
-| stream-deck | ⚪ No | ✅ ok | 2026-09-01 09:06 | 0 copied, 0 noise, 0 hal |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-01 10:13 | 0 new, 0 synced |
+| github-sync | 🟢 Yes | ✅ ok | 2026-09-01 10:13 | 0 synced |
+| stream-deck | ⚪ No | ✅ ok | 2026-09-01 10:13 | 0 copied, 0 noise, 0 hal |
 | processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
-| whatsapp | 🟢 Yes | ✅ ok | 2026-09-01 09:06 | 0 processed, 0 failed |
+| whatsapp | 🟢 Yes | ✅ ok | 2026-09-01 10:13 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
 | hostinger | ⚪ No | — | — | — |
 | store-email | 🟢 Yes | — | — | — |
@@ -202,11 +283,11 @@ Blocked on a human answer — not staleness.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-01 10:13](_pipeline/logs/2026-09-01_10-13-23.md) | 43s | [✓](_pipeline/logs/2026-09-01_10-13-23.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-01_10-13-23.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-01_10-13-23.md#processor-progress) 0 progressed | $0.0000 | ~0.018g |
 | [2026-09-01 09:57](_pipeline/logs/2026-09-01_09-57-58.md) | 6s | [✓](_pipeline/logs/2026-09-01_09-57-58.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-01_09-57-58.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
 | [2026-09-01 09:38](_pipeline/logs/2026-09-01_09-38-11.md) | 7s | [✓](_pipeline/logs/2026-09-01_09-38-11.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-01 09:22](_pipeline/logs/2026-09-01_09-22-46.md) | 6s | [✓](_pipeline/logs/2026-09-01_09-22-46.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-01_09-22-46.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
 | [2026-09-01 09:06](_pipeline/logs/2026-09-01_09-06-09.md) | 45s | [✓](_pipeline/logs/2026-09-01_09-06-09.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-01_09-06-09.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-01_09-06-09.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-09-01_09-06-09.md#processor-progress) 0 progressed | $0.0000 | ~0.019g |
-| [2026-09-01 08:13](_pipeline/logs/2026-09-01_08-13-37.md) | 2231s | [✓](_pipeline/logs/2026-09-01_08-13-37.md#icloud-email) 10 new, 10 synced | [✓](_pipeline/logs/2026-09-01_08-13-37.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-01_08-13-37.md#processor-discover) 10 processed, 2 created | [✓](_pipeline/logs/2026-09-01_08-13-37.md#processor-progress) 0 progressed | $0.0000 | ~0.930g |
 
 ### Source Topology
 
@@ -249,8 +330,8 @@ flowchart TD
 | [Github Issue Sync](Operations/_contracts/github-issue-sync.README.md) | Operations | per-tick | — | ⚪ No |
 | [Icloud Email Import](Operations/_contracts/icloud-email-import.README.md) | Operations | per-tick | — | ⚪ No |
 | [Impact Cascade](Operations/_contracts/impact-cascade.README.md) | Operations | per-tick | 2026-08-25 11:40 | ⚪ No |
-| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-01 09:06 | 🟢 Yes |
-| [Mailroom](Operations/_contracts/mailroom.README.md) | Operations | per-tick | 2026-09-01 09:06 | 🟢 Yes |
+| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-01 10:13 | 🟢 Yes |
+| [Mailroom](Operations/_contracts/mailroom.README.md) | Operations | per-tick | 2026-09-01 10:13 | 🟢 Yes |
 | [Seed Crystallisation](Operations/_contracts/seed-crystallisation.README.md) | Operations | per-tick | 2026-08-24 15:27 | 🟢 Yes |
 | [Stack Improvement](Operations/_contracts/stack-improvement.README.md) | Operations | weekly | — | ⚪ No |
 | [Voice Note Import Contract](Operations/_contracts/voice-note-import-contract.README.md) | Operations | per-tick | 2026-08-29 13:23 | 🟢 Yes |
@@ -312,6 +393,7 @@ flowchart TD
 
 | At | Who | Event |
 |---|---|---|
+| 2026-09-01 09:13 | company | Turn settled · contract |
 | 2026-09-01 08:31 | you | Responded · contract |
 | 2026-08-29 13:31 | company | Cue published · contract |
 | 2026-08-29 13:31 | company | Question prepared · contract |
@@ -319,4 +401,3 @@ flowchart TD
 | 2026-08-29 13:00 | you | Responded · contract |
 | 2026-08-29 12:59 | company | Cue published · contract |
 | 2026-08-29 12:59 | company | Question prepared · contract |
-| 2026-08-29 12:47 | company | Turn settled · contract |
