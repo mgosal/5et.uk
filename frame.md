@@ -4,7 +4,31 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1091` · 2026-09-01 18:47 UTC
+`FRAME #1092` · 2026-09-01 19:49 UTC
+
+---
+
+## ⟳ Since your last turn
+
+**#1075 → #1092** · 17 ticks · 7 h 11 m · `fa84f2ff` · dashboards + tick reports
+
+**Your threads**
+
+| Tick | Item | What happened |
+|---:|---|---|
+| 1080 | [Event Attendance Services Agreement](Operations/_work/approvals/contract-proposal-event-attendance-services-agreement.md) | Raised for your decision. |
+| 1076 | [SDLC Process Review Services Agreement](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) | You answered. The company took this on. |
+
+**Elsewhere**
+
+| Tick | Item | What happened |
+|---:|---|---|
+| 1080 | [Operations](Operations/dashboard.md) | Load 37 → 38 active. |
+| 1080 | [London Crypto Networking Event Attendance](Operations/_work/P.011-London-Crypto-Networking-Event-Attendance.md) | Created. |
+
+Beneath it: 0 progressed, 1 created, 76 inspected without change.
+
+Nothing needs you. The company owes 4.
 
 ---
 
@@ -17,16 +41,16 @@
 **Company owes next:** [SDLC Process Review Services Agreement](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) — Apply the approved proposal, record the outcome, and settle the obligation.
 
 ```
-█▁▁▃▁▆▁▃▁▁▃▁▁▁▃▁▁
+█▁▁▃▁▆▁▃▁▁▃▁▁▁▃▁▁▁
 █ latest move · 12:46
-▁–█ tick-report activity · 16 reports · 6 h   (frames #1076 → #1091)
+▁–█ tick-report activity · 17 reports · 7 h   (frames #1076 → #1092)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **16** |
-| Time since latest move | 6 h |
+| Tick reports since latest move | **17** |
+| Time since latest move | 7 h |
 | Company obligations | 4 (7 raw records) |
 | Waiting on you | 0 |
 
@@ -131,4 +155,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 08-29 13:31 | company | Question prepared · contract |
 | 08-29 13:15 | company | Turn settled · contract |
 
-<sub>Rendered from the repo at frame #1091 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1092 · immediate mode, no client state</sub>
