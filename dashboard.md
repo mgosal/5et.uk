@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1079.md" style="font-size:11px; color:#5f6368;">#1079</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1080.md" style="font-size:11px; color:#5f6368;">#1080</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -26,7 +26,7 @@
 
 ## Last Tick
 
-**[Tick #1079](_pipeline/reports/tick-1079.md)** · 2026-09-01 13:41 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1080](_pipeline/reports/tick-1080.md)** · 2026-09-01 13:56 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -74,7 +74,7 @@ Nothing presented and unanswered.
 | 2026-08-25T10:16:21.736285+00:00 | [Review seed crystallisation support amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) | 4 | Reconcile the response and settle the obligation. |
 | 2026-08-25T08:02:18.159899+00:00 | [Set Up Paid Consulting Engagement — AlphaSights](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) | 1 | Use the source correspondence to bootstrap the consulting-engagement process. Obtain the client legal entity, billing details, purchase-order or engagement paperwork and service date before preparing the final sales order or invoice. Drafts remain under Mandip's control; do not send or accept external terms automatically. |
 
-### Activity Since Latest Move (4 ticks)
+### Activity Since Latest Move (5 ticks)
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
@@ -82,6 +82,7 @@ Nothing presented and unanswered.
 | [#1077](_pipeline/reports/tick-1077.md) | 6.3s | 0 | 0 | 0 | 0 |
 | [#1078](_pipeline/reports/tick-1078.md) | 50.3s | 19 | 0 | 0 | 0 |
 | [#1079](_pipeline/reports/tick-1079.md) | 5.6s | 0 | 0 | 0 | 0 |
+| [#1080](_pipeline/reports/tick-1080.md) | 17.7s | 0 | 1 | 0 | 777 |
 
 ## Health
 
@@ -89,10 +90,10 @@ Nothing presented and unanswered.
 |----------|--------|--------|---------|------|
 | [Accounts](Accounts/dashboard.md) | 🔄 | 2 | 0 | 13 |
 | [Compliance](Compliance/dashboard.md) | ⏸️ | 9 | 1 | 13 |
-| [Operations](Operations/dashboard.md) | ⚠️ | 37 | 0 | 453 |
+| [Operations](Operations/dashboard.md) | ⚠️ | 38 | 0 | 453 |
 | [People](People/dashboard.md) | ⚠️ | 6 | 0 | 1 |
 | [Services](Services/dashboard.md) | 🔄 | 1 | 0 | 11 |
-| **Total** | | **55** | **1** | **491** |
+| **Total** | | **56** | **1** | **491** |
 
 ### Work Item Distribution
 
@@ -100,7 +101,7 @@ Nothing presented and unanswered.
 pie title Active Work Items by Function
     "Accounts" : 2
     "Compliance" : 9
-    "Operations" : 37
+    "Operations" : 38
     "People" : 6
     "Services" : 1
 ```
@@ -111,13 +112,13 @@ pie title Active Work Items by Function
 pie title Active Status Distribution
     "awaiting-approval" : 1
     "in-progress" : 12
-    "open" : 42
+    "open" : 43
     "submitted" : 1
 ```
 
 ## Attention
 
-### Decisions Waiting (25)
+### Decisions Waiting (26)
 
 Blocked on a human answer — not staleness.
 
@@ -125,6 +126,7 @@ Blocked on a human answer — not staleness.
 |------|---------|--------|------|
 | Contract proposal | Agent-Human Interaction Services Agreement | Blocked — missing prerequisites — `pipeline.README.md` | [View](Operations/_work/approvals/contract-proposal-agent-human-interaction-services-agreement.md) |
 | Contract proposal | Communication Archival Services Agreement | Blocked — missing prerequisites — `../Compliance/privacy.README.md`, `../Compliance/confidentiality.README.md` | [View](Operations/_work/approvals/contract-proposal-communication-archival-services-agreement.md) |
+| Contract proposal | Event Attendance Services Agreement | Blocked — missing prerequisites — `../Accounts/expenses.README.md`, `../Operations/partnerships.README.md` | [View](Operations/_work/approvals/contract-proposal-event-attendance-services-agreement.md) |
 | Contract proposal | Hardware and Software Procurement Services Agreement | Blocked — missing prerequisites — `../HR/README.md`, `../Operations/_data/assets.md` | [View](Operations/_work/approvals/contract-proposal-hardware-and-software-procurement-services-agreement.md) |
 | Contract proposal | LLM Harvesting and Corpus Evaluation Services Agreem | Blocked — missing prerequisites — `pipeline.README.md`, `../Compliance/README.md`, `../Inbox/README.md` | [View](Operations/_work/approvals/contract-proposal-llm-harvesting-and-corpus-evaluation-services-agreement.md) |
 | Contract proposal | Networking and Industry Engagement Services Agreemen | Blocked — missing prerequisites — `../Partnerships/README.md`, `../Procurement/README.md`, `../Knowledge/README.md` | [View](Operations/_work/approvals/contract-proposal-networking-and-industry-engagement-services-agreement.md) |
@@ -184,14 +186,14 @@ Blocked on a human answer — not staleness.
 
 ### Pipeline
 
-**Total Ticks**: 1079
+**Total Ticks**: 1080
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-01 14:41 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-01 14:56 | 1 new, 1 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-01 14:25 | 0 synced |
 | stream-deck | ⚪ No | ✅ ok | 2026-09-01 14:25 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
+| processor-discover | 🟢 Yes | ✅ ok | — | 1 processed, 1 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
 | whatsapp | 🟢 Yes | ✅ ok | 2026-09-01 14:25 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
@@ -204,11 +206,11 @@ Blocked on a human answer — not staleness.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-01 14:56](_pipeline/logs/2026-09-01_14-56-49.md) | 18s | [✓](_pipeline/logs/2026-09-01_14-56-49.md#icloud-email) 1 new, 1 synced | — | [✓](_pipeline/logs/2026-09-01_14-56-49.md#processor-discover) 1 processed, 1 created | — | $0.0001 | ~0.215g |
 | [2026-09-01 14:41](_pipeline/logs/2026-09-01_14-41-25.md) | 6s | [✓](_pipeline/logs/2026-09-01_14-41-25.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
 | [2026-09-01 14:25](_pipeline/logs/2026-09-01_14-25-14.md) | 50s | [✓](_pipeline/logs/2026-09-01_14-25-14.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-01_14-25-14.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-01_14-25-14.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-09-01_14-25-14.md#processor-progress) 0 progressed | $0.0000 | ~0.021g |
 | [2026-09-01 14:09](_pipeline/logs/2026-09-01_14-09-49.md) | 6s | [✓](_pipeline/logs/2026-09-01_14-09-49.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-01_14-09-49.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
 | [2026-09-01 13:54](_pipeline/logs/2026-09-01_13-54-24.md) | 6s | [✓](_pipeline/logs/2026-09-01_13-54-24.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
-| [2026-09-01 13:38](_pipeline/logs/2026-09-01_13-38-51.md) | 6s | [✓](_pipeline/logs/2026-09-01_13-38-51.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 
 ### Source Topology
 
