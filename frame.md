@@ -4,7 +4,7 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1056` · 2026-09-01 06:43 UTC
+`FRAME #1057` · 2026-09-01 07:13 UTC
 
 ---
 
@@ -17,16 +17,16 @@
 **Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃█▃▃▃▃▃▃▃▃▃▄▃▃▃▃▃▃▃▃▄▃▅▁▇▄▄▄▃█▄▃▃▃▃▃▄▁▃▃▃▁▁▁▁
+█▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃█▃▃▃▃▃▃▃▃▃▄▃▃▃▃▃▃▃▃▄▃▅▁▇▄▄▄▃█▄▃▃▃▃▃▄▁▃▃▃▁▁▁▁▇
 █ latest move · 10:16
-▁–█ tick-report activity · 60 reports · 6 d 20 h   (frames #997 → #1056)
+▁–█ tick-report activity · 60 reports · 6 d 21 h   (frames #998 → #1057)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 6 d 20 h |
+| Time since latest move | 6 d 21 h |
 | Company obligations | 3 (6 raw records) |
 | Waiting on you | 1 |
 
@@ -99,7 +99,7 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 ---
 
-## ▦ Functions — 61 active · 491 done
+## ▦ Functions — 62 active · 491 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
@@ -110,7 +110,7 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [blockvey](projects/blockvey/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ⚠️ | [chess](projects/chess/README.md) | 4 | 0 | `██████████` |
-| 🔄 | [game](projects/game/README.md) | 1 | 0 | `██████████` |
+| 🔄 | [game](projects/game/README.md) | 2 | 0 | `██████████` |
 | ✅ | [golf](projects/golf/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [hyperscaler](projects/hyperscaler/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [irontec](projects/irontec/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -132,4 +132,4 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 08-29 12:47 | company | Turn settled · contract |
 | 08-29 12:43 | **you** | Responded · contract |
 
-<sub>Rendered from the repo at frame #1056 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1057 · immediate mode, no client state</sub>
