@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1077.md" style="font-size:11px; color:#5f6368;">#1077</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1078.md" style="font-size:11px; color:#5f6368;">#1078</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -26,11 +26,35 @@
 
 ## Last Tick
 
-**[Tick #1077](_pipeline/reports/tick-1077.md)** · 2026-09-01 13:09 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1078](_pipeline/reports/tick-1078.md)** · 2026-09-01 13:25 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
 - No durable work-item changes in this tick.
+
+<details><summary>Inspected without change (19)</summary>
+
+- [A.005](Accounts/_work/A.005-privacy-screen-protector.md) — A.005-privacy-screen-protector
+- [A.011](Accounts/_work/A.011-Retail-Receipt.md) — A.011-Retail-Receipt
+- [A.014](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) — A.014-Google-One-Subscription-Receipt
+- [A.016](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) — A.016-Processing-fuel-receipt-for-business-travel
+- [A.017](Accounts/_work/A.017-incorporation-expense.md) — A.017-incorporation-expense
+- [A.018](Accounts/_work/A.018-ico-data-protection-fee.md) — A.018-ico-data-protection-fee
+- [A.019](Accounts/_work/A.019-google-play-subscription-may.md) — A.019-google-play-subscription-may
+- [C.036](Compliance/_work/C.036-LLM-processing-of-personal-data-risk.md) — C.036-LLM-processing-of-personal-data-risk
+- [C.037](Compliance/_work/C.037-Anonymous-User-Experience-and-Contract-Framework.md) — C.037-Anonymous-User-Experience-and-Contract-Framework
+- [O.424](Operations/_work/O.424-attention-event-experiment.md) — O.424-attention-event-experiment
+- [O.430](Operations/_work/O.430-stream-deck-attention-mode.md) — O.430-stream-deck-attention-mode
+- [O.437](Operations/_work/O.437-build-conversational-initiative-path.md) — O.437-build-conversational-initiative-path
+- [O.439](Operations/_work/O.439-build-contract-support-loop.md) — O.439-build-contract-support-loop
+- [O.447](Operations/_work/O.447-refine-cloud-connect-direction.md) — O.447-refine-cloud-connect-direction
+- [O.449](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) — O.449-AI-Agent-Development-Platforms-consultation
+- [O.458](Operations/_work/O.458-Supply-chain-constraints-on-hardware-procurement.md) — O.458-Supply-chain-constraints-on-hardware-procurement
+- [O.462](Operations/_work/O.462-Wire-Cortex-local-inference-path.md) — O.462-Wire-Cortex-local-inference-path
+- [O.463](Operations/_work/O.463-Inference-tier-field-and-tier-grouped-execution.md) — O.463-Inference-tier-field-and-tier-grouped-execution
+- [O.468](Operations/_work/O.468-Register-for-St-James-AI-Tech-Related-event.md) — O.468-Register-for-St-James-AI-Tech-Related-event
+
+</details>
 
 ### Company In Progress
 
@@ -74,12 +98,13 @@ Nothing presented and unanswered.
 | 2026-08-25T10:16:21.736285+00:00 | [Review seed crystallisation support amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) | 4 | Reconcile the response and settle the obligation. |
 | 2026-08-25T08:02:18.159899+00:00 | [Set Up Paid Consulting Engagement — AlphaSights](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) | 1 | Use the source correspondence to bootstrap the consulting-engagement process. Obtain the client legal entity, billing details, purchase-order or engagement paperwork and service date before preparing the final sales order or invoice. Drafts remain under Mandip's control; do not send or accept external terms automatically. |
 
-### Activity Since Latest Move (2 ticks)
+### Activity Since Latest Move (3 ticks)
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
 | [#1076](_pipeline/reports/tick-1076.md) | 6.2s | 0 | 0 | 0 | 0 |
 | [#1077](_pipeline/reports/tick-1077.md) | 6.3s | 0 | 0 | 0 | 0 |
+| [#1078](_pipeline/reports/tick-1078.md) | 50.3s | 19 | 0 | 0 | 0 |
 
 ## Health
 
@@ -182,16 +207,16 @@ Blocked on a human answer — not staleness.
 
 ### Pipeline
 
-**Total Ticks**: 1077
+**Total Ticks**: 1078
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-01 14:09 | 0 new, 0 synced |
-| github-sync | 🟢 Yes | ✅ ok | 2026-09-01 13:22 | 0 synced |
-| stream-deck | ⚪ No | ✅ ok | 2026-09-01 13:22 | 0 copied, 0 noise, 0 hal |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-01 14:25 | 0 new, 0 synced |
+| github-sync | 🟢 Yes | ✅ ok | 2026-09-01 14:25 | 0 synced |
+| stream-deck | ⚪ No | ✅ ok | 2026-09-01 14:25 | 0 copied, 0 noise, 0 hal |
 | processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
-| whatsapp | 🟢 Yes | ✅ ok | 2026-09-01 13:22 | 0 processed, 0 failed |
+| whatsapp | 🟢 Yes | ✅ ok | 2026-09-01 14:25 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
 | hostinger | ⚪ No | — | — | — |
 | store-email | 🟢 Yes | — | — | — |
@@ -202,11 +227,11 @@ Blocked on a human answer — not staleness.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-01 14:25](_pipeline/logs/2026-09-01_14-25-14.md) | 50s | [✓](_pipeline/logs/2026-09-01_14-25-14.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-01_14-25-14.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-01_14-25-14.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-09-01_14-25-14.md#processor-progress) 0 progressed | $0.0000 | ~0.021g |
 | [2026-09-01 14:09](_pipeline/logs/2026-09-01_14-09-49.md) | 6s | [✓](_pipeline/logs/2026-09-01_14-09-49.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-01_14-09-49.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
 | [2026-09-01 13:54](_pipeline/logs/2026-09-01_13-54-24.md) | 6s | [✓](_pipeline/logs/2026-09-01_13-54-24.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-01 13:38](_pipeline/logs/2026-09-01_13-38-51.md) | 6s | [✓](_pipeline/logs/2026-09-01_13-38-51.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-01 13:21](_pipeline/logs/2026-09-01_13-21-56.md) | 93s | [✓](_pipeline/logs/2026-09-01_13-21-56.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-01_13-21-56.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-01_13-21-56.md#processor-progress) 0 progressed | $0.0000 | ~0.039g |
-| [2026-09-01 13:06](_pipeline/logs/2026-09-01_13-06-25.md) | 10s | [✓](_pipeline/logs/2026-09-01_13-06-25.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-01_13-06-25.md#processor-discover) 3 processed, 0 created | — | $0.0000 | ~0.004g |
 
 ### Source Topology
 
@@ -249,8 +274,8 @@ flowchart TD
 | [Github Issue Sync](Operations/_contracts/github-issue-sync.README.md) | Operations | per-tick | — | ⚪ No |
 | [Icloud Email Import](Operations/_contracts/icloud-email-import.README.md) | Operations | per-tick | — | ⚪ No |
 | [Impact Cascade](Operations/_contracts/impact-cascade.README.md) | Operations | per-tick | 2026-08-25 11:40 | ⚪ No |
-| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-01 13:22 | 🟢 Yes |
-| [Mailroom](Operations/_contracts/mailroom.README.md) | Operations | per-tick | 2026-09-01 13:22 | 🟢 Yes |
+| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-01 14:25 | 🟢 Yes |
+| [Mailroom](Operations/_contracts/mailroom.README.md) | Operations | per-tick | 2026-09-01 14:25 | 🟢 Yes |
 | [Seed Crystallisation](Operations/_contracts/seed-crystallisation.README.md) | Operations | per-tick | 2026-08-24 15:27 | 🟢 Yes |
 | [Stack Improvement](Operations/_contracts/stack-improvement.README.md) | Operations | weekly | — | ⚪ No |
 | [Voice Note Import Contract](Operations/_contracts/voice-note-import-contract.README.md) | Operations | per-tick | 2026-08-29 13:23 | 🟢 Yes |
