@@ -4,7 +4,7 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1080` · 2026-09-01 13:56 UTC
+`FRAME #1081` · 2026-09-01 14:12 UTC
 
 ---
 
@@ -17,15 +17,15 @@
 **Company owes next:** [SDLC Process Review Services Agreement](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) — Apply the approved proposal, record the outcome, and settle the obligation.
 
 ```
-█▁▁▃▁▆
+█▁▁▃▁▆▁
 █ latest move · 12:46
-▁–█ tick-report activity · 5 reports · 1 h   (frames #1076 → #1080)
+▁–█ tick-report activity · 6 reports · 1 h   (frames #1076 → #1081)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **5** |
+| Tick reports since latest move | **6** |
 | Time since latest move | 1 h |
 | Company obligations | 4 (7 raw records) |
 | Waiting on you | 0 |
@@ -131,4 +131,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 08-29 13:31 | company | Question prepared · contract |
 | 08-29 13:15 | company | Turn settled · contract |
 
-<sub>Rendered from the repo at frame #1080 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1081 · immediate mode, no client state</sub>
