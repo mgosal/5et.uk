@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1092.md" style="font-size:11px; color:#5f6368;">#1092</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1093.md" style="font-size:11px; color:#5f6368;">#1093</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -26,7 +26,7 @@
 
 ## Last Tick
 
-**[Tick #1092](_pipeline/reports/tick-1092.md)** · 2026-09-01 19:49 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1093](_pipeline/reports/tick-1093.md)** · 2026-09-01 20:50 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -54,19 +54,19 @@
 ## Agency
 
 - **Waiting on you**: 0
-- **Company obligations**: 4
-- **Raw unsettled records**: 7
-- **Latest move at**: 2026-09-01T12:46:31.530978+00:00
-- **Latest move**: You responded to SDLC Process Review Services Agreement.
-- **Latest move evidence**: Okay. I'm not quite sure what I'm approving here. So just give me some more information.
-- **Latest move tick**: 1076
+- **Company obligations**: 1
+- **Raw unsettled records**: 1
+- **Latest move at**: 2026-08-26T18:12:56.073931+00:00
+- **Latest move**: —
+- **Latest move evidence**: —
+- **Latest move tick**: 1034
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-01T12:46:31.530978+00:00
 - **Turn tick**: 1075
 - **Turn commit**: fa84f2ff
-- **Window**: 17 ticks · 7 h 11 m
+- **Window**: 18 ticks · 8 h 12 m
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 2
 - **Elsewhere**: 2
@@ -83,19 +83,58 @@
 
 Nothing presented and unanswered.
 
-### Company Owes (4)
+### Company Owes (1)
 
 | Since | Obligation | Records | Company next action |
 |---|---|---:|---|
-| 2026-09-01T12:46:31.530978+00:00 | [SDLC Process Review Services Agreement](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) | 1 | Apply the approved proposal, record the outcome, and settle the obligation. |
 | 2026-08-26T18:12:56.073931+00:00 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
-| 2026-08-25T10:16:21.736285+00:00 | [Review seed crystallisation support amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) | 4 | Reconcile the response and settle the obligation. |
-| 2026-08-25T08:02:18.159899+00:00 | [Set Up Paid Consulting Engagement — AlphaSights](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) | 1 | Use the source correspondence to bootstrap the consulting-engagement process. Obtain the client legal entity, billing details, purchase-order or engagement paperwork and service date before preparing the final sales order or invoice. Drafts remain under Mandip's control; do not send or accept external terms automatically. |
 
-### Activity Since Latest Move (17 ticks)
+### Activity Since Latest Move (60 ticks)
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
+| [#1034](_pipeline/reports/tick-1034.md) | 160.1s | 18 | 1 | 0 | 0 |
+| [#1035](_pipeline/reports/tick-1035.md) | 6.3s | 0 | 0 | 0 | 0 |
+| [#1036](_pipeline/reports/tick-1036.md) | 542.0s | 19 | 2 | 0 | 0 |
+| [#1037](_pipeline/reports/tick-1037.md) | 205.6s | 19 | 0 | 0 | 0 |
+| [#1038](_pipeline/reports/tick-1038.md) | 84.5s | 19 | 0 | 0 | 0 |
+| [#1039](_pipeline/reports/tick-1039.md) | 61.0s | 19 | 0 | 0 | 0 |
+| [#1040](_pipeline/reports/tick-1040.md) | 55.3s | 19 | 0 | 0 | 0 |
+| [#1041](_pipeline/reports/tick-1041.md) | 53.9s | 19 | 1 | 0 | 794 |
+| [#1042](_pipeline/reports/tick-1042.md) | 66.8s | 19 | 0 | 0 | 0 |
+| [#1043](_pipeline/reports/tick-1043.md) | 43.1s | 19 | 0 | 0 | 0 |
+| [#1044](_pipeline/reports/tick-1044.md) | 43.5s | 19 | 0 | 0 | 0 |
+| [#1045](_pipeline/reports/tick-1045.md) | 43.8s | 19 | 0 | 0 | 0 |
+| [#1046](_pipeline/reports/tick-1046.md) | 48.4s | 19 | 0 | 0 | 0 |
+| [#1047](_pipeline/reports/tick-1047.md) | 48.3s | 19 | 0 | 0 | 0 |
+| [#1048](_pipeline/reports/tick-1048.md) | 1072.7s | 19 | 0 | 0 | 0 |
+| [#1049](_pipeline/reports/tick-1049.md) | 2.3s | 0 | 0 | 0 | 0 |
+| [#1050](_pipeline/reports/tick-1050.md) | 42.8s | 19 | 0 | 0 | 0 |
+| [#1051](_pipeline/reports/tick-1051.md) | 37.7s | 19 | 0 | 0 | 0 |
+| [#1052](_pipeline/reports/tick-1052.md) | 6684.9s | 0 | 0 | 0 | 0 |
+| [#1053](_pipeline/reports/tick-1053.md) | 3.0s | 0 | 0 | 0 | 0 |
+| [#1054](_pipeline/reports/tick-1054.md) | 3.0s | 0 | 0 | 0 | 0 |
+| [#1055](_pipeline/reports/tick-1055.md) | 5.2s | 0 | 0 | 0 | 0 |
+| [#1056](_pipeline/reports/tick-1056.md) | 2.6s | 0 | 0 | 0 | 0 |
+| [#1057](_pipeline/reports/tick-1057.md) | 2231.5s | 19 | 2 | 0 | 0 |
+| [#1058](_pipeline/reports/tick-1058.md) | 45.3s | 19 | 0 | 0 | 0 |
+| [#1059](_pipeline/reports/tick-1059.md) | 6.5s | 0 | 0 | 0 | 0 |
+| [#1060](_pipeline/reports/tick-1060.md) | 6.8s | 0 | 0 | 0 | 0 |
+| [#1061](_pipeline/reports/tick-1061.md) | 6.4s | 0 | 0 | 0 | 0 |
+| [#1062](_pipeline/reports/tick-1062.md) | 42.9s | 19 | 0 | 0 | 0 |
+| [#1063](_pipeline/reports/tick-1063.md) | 6.1s | 0 | 0 | 0 | 0 |
+| [#1064](_pipeline/reports/tick-1064.md) | 5.8s | 0 | 0 | 0 | 0 |
+| [#1065](_pipeline/reports/tick-1065.md) | 6.2s | 0 | 0 | 0 | 0 |
+| [#1066](_pipeline/reports/tick-1066.md) | 142.3s | 19 | 0 | 0 | 0 |
+| [#1067](_pipeline/reports/tick-1067.md) | 7.1s | 0 | 0 | 0 | 0 |
+| [#1068](_pipeline/reports/tick-1068.md) | 5.9s | 0 | 0 | 0 | 0 |
+| [#1069](_pipeline/reports/tick-1069.md) | 6.1s | 0 | 0 | 0 | 0 |
+| [#1070](_pipeline/reports/tick-1070.md) | 39.8s | 19 | 0 | 0 | 0 |
+| [#1071](_pipeline/reports/tick-1071.md) | 5.6s | 0 | 0 | 0 | 0 |
+| [#1072](_pipeline/reports/tick-1072.md) | 5.5s | 0 | 0 | 0 | 0 |
+| [#1073](_pipeline/reports/tick-1073.md) | 10.4s | 0 | 0 | 0 | 0 |
+| [#1074](_pipeline/reports/tick-1074.md) | 93.5s | 19 | 0 | 0 | 0 |
+| [#1075](_pipeline/reports/tick-1075.md) | 6.1s | 0 | 0 | 0 | 0 |
 | [#1076](_pipeline/reports/tick-1076.md) | 6.2s | 0 | 0 | 0 | 0 |
 | [#1077](_pipeline/reports/tick-1077.md) | 6.3s | 0 | 0 | 0 | 0 |
 | [#1078](_pipeline/reports/tick-1078.md) | 50.3s | 19 | 0 | 0 | 0 |
@@ -113,6 +152,7 @@ Nothing presented and unanswered.
 | [#1090](_pipeline/reports/tick-1090.md) | 6.8s | 0 | 0 | 0 | 0 |
 | [#1091](_pipeline/reports/tick-1091.md) | 2.9s | 0 | 0 | 0 | 0 |
 | [#1092](_pipeline/reports/tick-1092.md) | 2.9s | 0 | 0 | 0 | 0 |
+| [#1093](_pipeline/reports/tick-1093.md) | 2.5s | 0 | 0 | 0 | 0 |
 
 ## Health
 
@@ -120,10 +160,10 @@ Nothing presented and unanswered.
 |----------|--------|--------|---------|------|
 | [Accounts](Accounts/dashboard.md) | 🔄 | 2 | 0 | 13 |
 | [Compliance](Compliance/dashboard.md) | ⏸️ | 9 | 1 | 13 |
-| [Operations](Operations/dashboard.md) | ⚠️ | 38 | 0 | 453 |
+| [Operations](Operations/dashboard.md) | ⚠️ | 39 | 0 | 454 |
 | [People](People/dashboard.md) | ⚠️ | 6 | 0 | 1 |
 | [Services](Services/dashboard.md) | 🔄 | 1 | 0 | 11 |
-| **Total** | | **56** | **1** | **491** |
+| **Total** | | **57** | **1** | **492** |
 
 ### Work Item Distribution
 
@@ -131,7 +171,7 @@ Nothing presented and unanswered.
 pie title Active Work Items by Function
     "Accounts" : 2
     "Compliance" : 9
-    "Operations" : 38
+    "Operations" : 39
     "People" : 6
     "Services" : 1
 ```
@@ -142,7 +182,7 @@ pie title Active Work Items by Function
 pie title Active Status Distribution
     "awaiting-approval" : 1
     "in-progress" : 12
-    "open" : 43
+    "open" : 44
     "submitted" : 1
 ```
 
@@ -216,13 +256,13 @@ Blocked on a human answer — not staleness.
 
 ### Pipeline
 
-**Total Ticks**: 1092
+**Total Ticks**: 1093
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
 | icloud-email | 🟢 Yes | ✅ ok | 2026-09-01 17:47 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-01 17:31 | 0 synced |
-| stream-deck | ⚪ No | ✅ ok | 2026-09-01 20:49 | 0 copied, 0 noise, 0 hal |
+| stream-deck | ⚪ No | ✅ ok | 2026-09-01 21:50 | 0 copied, 0 noise, 0 hal |
 | processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
 | whatsapp | 🟢 Yes | ✅ ok | 2026-09-01 17:31 | 0 processed, 0 failed |
@@ -236,11 +276,11 @@ Blocked on a human answer — not staleness.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-01 21:50](_pipeline/logs/2026-09-01_21-50-11.md) | 3s | — | — | — | — | $0.0000 | ~0.001g |
 | [2026-09-01 20:49](_pipeline/logs/2026-09-01_20-49-43.md) | 3s | — | — | — | — | $0.0000 | ~0.001g |
 | [2026-09-01 19:47](_pipeline/logs/2026-09-01_19-47-26.md) | 3s | — | — | — | — | $0.0000 | ~0.001g |
 | [2026-09-01 17:47](_pipeline/logs/2026-09-01_17-47-55.md) | 7s | [✓](_pipeline/logs/2026-09-01_17-47-55.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-01 17:31](_pipeline/logs/2026-09-01_17-31-46.md) | 49s | [✓](_pipeline/logs/2026-09-01_17-31-46.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-01_17-31-46.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-01_17-31-46.md#processor-progress) 0 progressed | $0.0000 | ~0.020g |
-| [2026-09-01 17:16](_pipeline/logs/2026-09-01_17-16-21.md) | 7s | [✓](_pipeline/logs/2026-09-01_17-16-21.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 
 ### Source Topology
 
@@ -277,6 +317,7 @@ flowchart TD
 
 | Contract | Function | Cadence | Last Run | Compiled |
 |----------|----------|---------|----------|----------|
+| [Code Documentation](Operations/_contracts/code-documentation.README.md) | Operations | weekly | — | ⚪ No |
 | [Consulting Engagement Administration](Operations/_contracts/consulting-engagement-administration.README.md) | Operations | on-demand | — | ⚪ No |
 | [Conversational Initiative](Operations/_contracts/conversational-initiative.README.md) | Operations | on-demand | — | ⚪ No |
 | [Creative Asset Production](Operations/_contracts/creative-asset-production.README.md) | Operations | on-demand | — | ⚪ No |
@@ -346,11 +387,11 @@ flowchart TD
 
 | At | Who | Event |
 |---|---|---|
+| 2026-09-01 20:26 | company | Turn settled · contract |
+| 2026-09-01 20:26 | company | Turn settled · O.453 |
+| 2026-09-01 20:26 | company | Turn settled · O.452 |
+| 2026-09-01 20:26 | company | Turn settled · O.450 |
+| 2026-09-01 20:26 | company | Turn settled · O.449 |
+| 2026-09-01 20:26 | company | Turn settled · O.446 |
 | 2026-09-01 12:46 | you | Responded · contract |
 | 2026-09-01 10:17 | company | Cue published · contract |
-| 2026-09-01 10:17 | company | Question prepared · contract |
-| 2026-09-01 09:13 | company | Turn settled · contract |
-| 2026-09-01 08:31 | you | Responded · contract |
-| 2026-08-29 13:31 | company | Cue published · contract |
-| 2026-08-29 13:31 | company | Question prepared · contract |
-| 2026-08-29 13:15 | company | Turn settled · contract |

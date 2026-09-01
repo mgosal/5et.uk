@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1092` · 2026-09-01 19:49 UTC
+`FRAME #1093` · 2026-09-01 20:50 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1075 → #1092** · 17 ticks · 7 h 11 m · `fa84f2ff` · dashboards + tick reports
+**#1075 → #1093** · 18 ticks · 8 h 12 m · `fa84f2ff` · dashboards + tick reports
 
 **Your threads**
 
@@ -28,42 +28,39 @@
 
 Beneath it: 0 progressed, 1 created, 76 inspected without change.
 
-Nothing needs you. The company owes 4.
+Nothing needs you. The company owes 1.
 
 ---
 
 ## ▶ Concurrent agency
 
-### YOU — **0 waiting** · COMPANY — **4 owed**
+### YOU — **0 waiting** · COMPANY — **1 owed**
 
-**Latest move:** You responded to SDLC Process Review Services Agreement. · 2026-09-01 12:46:31 UTC
+**Latest move:** — · 2026-08-26 18:12:56 UTC
 
-**Company owes next:** [SDLC Process Review Services Agreement](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) — Apply the approved proposal, record the outcome, and settle the obligation.
+**Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█▁▁▃▁▆▁▃▁▁▃▁▁▁▃▁▁▁
-█ latest move · 12:46
-▁–█ tick-report activity · 17 reports · 7 h   (frames #1076 → #1092)
+█▅▁▇▄▄▄▃█▄▃▃▃▃▃▄▁▃▃▃▁▁▁▁▇▃▁▁▁▃▁▁▁▄▁▁▁▃▁▁▁▄▁▁▁▃▁▆▁▃▁▁▃▁▁▁▃▁▁▁▁
+█ latest move · 18:12
+▁–█ tick-report activity · 60 reports · 6 d 2 h   (frames #1034 → #1093)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **17** |
-| Time since latest move | 7 h |
-| Company obligations | 4 (7 raw records) |
+| Tick reports since latest move | **60** |
+| Time since latest move | 6 d 2 h |
+| Company obligations | 1 (1 raw records) |
 | Waiting on you | 0 |
 
 ---
 
-## ⇢ Company owes — 4
+## ⇢ Company owes — 1
 
 | Obligation | Records | Next action |
 |---|---:|---|
-| [SDLC Process Review Services Agreement](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) | 1 | Apply the approved proposal, record the outcome, and settle the obligation. |
 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
-| [Review seed crystallisation support amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) | 4 | Reconcile the response and settle the obligation. |
-| [Set Up Paid Consulting Engagement — AlphaSights](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) | 1 | Use the source correspondence to bootstrap the consulting-engagement process. Obtain the client legal entity, billing details, purchase-order or engagement paperwork and service date before preparing the final sales order or invoice. Drafts remain under Mandip's control; do not send or accept external terms automatically. |
 
 ---
 
@@ -122,13 +119,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 63 active · 491 done
+## ▦ Functions — 64 active · 492 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 9 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 38 | 453 | `█▁▁▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 39 | 454 | `█▁▁▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [blockvey](projects/blockvey/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -146,13 +143,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 | Time | Who | Event |
 |---|---|---|
+| 09-01 20:26 | company | Turn settled · contract |
+| 09-01 20:26 | company | Turn settled · O.453 |
+| 09-01 20:26 | company | Turn settled · O.452 |
+| 09-01 20:26 | company | Turn settled · O.450 |
+| 09-01 20:26 | company | Turn settled · O.449 |
+| 09-01 20:26 | company | Turn settled · O.446 |
 | 09-01 12:46 | **you** | Responded · contract |
 | 09-01 10:17 | company | Cue published · contract |
-| 09-01 10:17 | company | Question prepared · contract |
-| 09-01 09:13 | company | Turn settled · contract |
-| 09-01 08:31 | **you** | Responded · contract |
-| 08-29 13:31 | company | Cue published · contract |
-| 08-29 13:31 | company | Question prepared · contract |
-| 08-29 13:15 | company | Turn settled · contract |
 
-<sub>Rendered from the repo at frame #1092 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1093 · immediate mode, no client state</sub>
