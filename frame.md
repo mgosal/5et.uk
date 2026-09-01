@@ -4,7 +4,7 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1073` · 2026-09-01 12:06 UTC
+`FRAME #1074` · 2026-09-01 12:21 UTC
 
 ---
 
@@ -17,16 +17,16 @@
 **Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█▃▃▃▃▃▃▃▃▃▄▃▃▃▃▃▃▃▃▄▃▅▁▇▄▄▄▃█▄▃▃▃▃▃▄▁▃▃▃▁▁▁▁▇▃▁▁▁▃▁▁▁▄▁▁▁▃▁▁▁
+█▃▃▃▃▃▃▃▃▄▃▃▃▃▃▃▃▃▄▃▅▁▇▄▄▄▃█▄▃▃▃▃▃▄▁▃▃▃▁▁▁▁▇▃▁▁▁▃▁▁▁▄▁▁▁▃▁▁▁▄
 █ latest move · 10:16
-▁–█ tick-report activity · 60 reports · 7 d 1 h   (frames #1014 → #1073)
+▁–█ tick-report activity · 60 reports · 7 d 2 h   (frames #1015 → #1074)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 7 d 1 h |
+| Time since latest move | 7 d 2 h |
 | Company obligations | 3 (6 raw records) |
 | Waiting on you | 1 |
 
@@ -132,4 +132,4 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 08-29 13:15 | company | Turn settled · contract |
 | 08-29 13:00 | **you** | Responded · contract |
 
-<sub>Rendered from the repo at frame #1073 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1074 · immediate mode, no client state</sub>
