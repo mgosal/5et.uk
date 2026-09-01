@@ -4,49 +4,48 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1075` · 2026-09-01 12:38 UTC
+`FRAME #1076` · 2026-09-01 12:54 UTC
 
 ---
 
 ## ▶ Concurrent agency
 
-### YOU — **1 waiting** · COMPANY — **3 owed**
+### YOU — **0 waiting** · COMPANY — **4 owed**
 
-**Latest move:** You responded to Review seed crystallisation support amendment. · 2026-08-25 10:16:21 UTC
+**Latest move:** You responded to SDLC Process Review Services Agreement. · 2026-09-01 12:46:31 UTC
 
-**Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
+**Company owes next:** [SDLC Process Review Services Agreement](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) — Apply the approved proposal, record the outcome, and settle the obligation.
 
 ```
-█▃▃▃▃▃▃▃▄▃▃▃▃▃▃▃▃▄▃▅▁▇▄▄▄▃█▄▃▃▃▃▃▄▁▃▃▃▁▁▁▁▇▃▁▁▁▃▁▁▁▄▁▁▁▃▁▁▁▄▁
-█ latest move · 10:16
-▁–█ tick-report activity · 60 reports · 7 d 2 h   (frames #1016 → #1075)
+█▁
+█ latest move · 12:46
+▁–█ tick-report activity · 1 reports · 8 min   (frames #1076 → #1076)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **60** |
-| Time since latest move | 7 d 2 h |
-| Company obligations | 3 (6 raw records) |
-| Waiting on you | 1 |
+| Tick reports since latest move | **1** |
+| Time since latest move | 8 min |
+| Company obligations | 4 (7 raw records) |
+| Waiting on you | 0 |
 
 ---
 
-## ⇢ Company owes — 3
+## ⇢ Company owes — 4
 
 | Obligation | Records | Next action |
 |---|---:|---|
+| [SDLC Process Review Services Agreement](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) | 1 | Apply the approved proposal, record the outcome, and settle the obligation. |
 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 | [Review seed crystallisation support amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) | 4 | Reconcile the response and settle the obligation. |
 | [Set Up Paid Consulting Engagement — AlphaSights](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) | 1 | Use the source correspondence to bootstrap the consulting-engagement process. Obtain the client legal entity, billing details, purchase-order or engagement paperwork and service date before preparing the final sales order or invoice. Drafts remain under Mandip's control; do not send or accept external terms automatically. |
 
 ---
 
-## ⚑ Waiting on you — 1
+## ⚑ Waiting on you — 0
 
-| Since | Question |
-|---|---|
-| 09-01 10:17 | [contract-proposal-sdlc-process-review-services-agreement](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) |
+Nothing is waiting on you. The company may still have work to do.
 
 ---
 
@@ -123,6 +122,7 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 | Time | Who | Event |
 |---|---|---|
+| 09-01 12:46 | **you** | Responded · contract |
 | 09-01 10:17 | company | Cue published · contract |
 | 09-01 10:17 | company | Question prepared · contract |
 | 09-01 09:13 | company | Turn settled · contract |
@@ -130,6 +130,5 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 08-29 13:31 | company | Cue published · contract |
 | 08-29 13:31 | company | Question prepared · contract |
 | 08-29 13:15 | company | Turn settled · contract |
-| 08-29 13:00 | **you** | Responded · contract |
 
-<sub>Rendered from the repo at frame #1075 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1076 · immediate mode, no client state</sub>
