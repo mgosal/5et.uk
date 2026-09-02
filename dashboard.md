@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1111.md" style="font-size:11px; color:#5f6368;">#1111</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1112.md" style="font-size:11px; color:#5f6368;">#1112</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -26,7 +26,7 @@
 
 ## Last Tick
 
-**[Tick #1111](_pipeline/reports/tick-1111.md)** · 2026-09-02 14:15 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1112](_pipeline/reports/tick-1112.md)** · 2026-09-02 14:31 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -59,14 +59,14 @@
 - **Latest move at**: 2026-08-26T18:12:56.073931+00:00
 - **Latest move**: —
 - **Latest move evidence**: —
-- **Latest move tick**: 1052
+- **Latest move tick**: 1053
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-01T12:46:31.530978+00:00
 - **Turn tick**: 1075
 - **Turn commit**: fa84f2ff
-- **Window**: 36 ticks · 1 d 1 h
+- **Window**: 37 ticks · 1 d 1 h
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 5
 - **Elsewhere**: 3
@@ -76,8 +76,8 @@
 |---|---:|---|---|
 | yours | 1101 | [Project Status Update Services Agreement](Operations/_work/approvals/contract-proposal-project-status-update-services-agreement.md) | Raised for your decision. |
 | yours | 1093 | [SDLC Process Review Services Agreement](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) | You answered. The company took this on. The company settled it. |
-| yours | 1093 | [Review seed crystallisation support amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) | The company settled it. |
 | yours | 1093 | [Set Up Paid Consulting Engagement — AlphaSights](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) | The company settled it. |
+| yours | 1093 | [Review seed crystallisation support amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) | The company settled it. |
 | yours | 1080 | [Event Attendance Services Agreement](Operations/_work/approvals/contract-proposal-event-attendance-services-agreement.md) | Raised for your decision. |
 | elsewhere | 1101 | [Operations](Operations/dashboard.md) | Load 37 → 41 active. |
 | elsewhere | 1101 | [Update on Charities project status](Operations/_work/P.012-Update-on-Charities-project-status.md) | Created. |
@@ -97,7 +97,6 @@ Nothing presented and unanswered.
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1052](_pipeline/reports/tick-1052.md) | 6684.9s | 0 | 0 | 0 | 0 |
 | [#1053](_pipeline/reports/tick-1053.md) | 3.0s | 0 | 0 | 0 | 0 |
 | [#1054](_pipeline/reports/tick-1054.md) | 3.0s | 0 | 0 | 0 | 0 |
 | [#1055](_pipeline/reports/tick-1055.md) | 5.2s | 0 | 0 | 0 | 0 |
@@ -157,6 +156,7 @@ Nothing presented and unanswered.
 | [#1109](_pipeline/reports/tick-1109.md) | 53.8s | 19 | 0 | 0 | 0 |
 | [#1110](_pipeline/reports/tick-1110.md) | 6.6s | 0 | 0 | 0 | 0 |
 | [#1111](_pipeline/reports/tick-1111.md) | 6.4s | 0 | 0 | 0 | 0 |
+| [#1112](_pipeline/reports/tick-1112.md) | 5.9s | 0 | 0 | 0 | 0 |
 
 ## Health
 
@@ -261,11 +261,11 @@ Blocked on a human answer — not staleness.
 
 ### Pipeline
 
-**Total Ticks**: 1111
+**Total Ticks**: 1112
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-02 15:15 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-02 15:31 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-02 14:43 | 0 synced |
 | stream-deck | ⚪ No | ✅ ok | 2026-09-02 14:43 | 0 copied, 0 noise, 0 hal |
 | processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
@@ -281,11 +281,11 @@ Blocked on a human answer — not staleness.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-02 15:31](_pipeline/logs/2026-09-02_15-31-20.md) | 6s | [✓](_pipeline/logs/2026-09-02_15-31-20.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
 | [2026-09-02 15:15](_pipeline/logs/2026-09-02_15-15-52.md) | 6s | [✓](_pipeline/logs/2026-09-02_15-15-52.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-02_15-15-52.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
 | [2026-09-02 15:00](_pipeline/logs/2026-09-02_15-00-22.md) | 7s | [✓](_pipeline/logs/2026-09-02_15-00-22.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-02 14:43](_pipeline/logs/2026-09-02_14-43-46.md) | 54s | [✓](_pipeline/logs/2026-09-02_14-43-46.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-02_14-43-46.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-02_14-43-46.md#processor-progress) 0 progressed | $0.0000 | ~0.022g |
 | [2026-09-02 14:28](_pipeline/logs/2026-09-02_14-28-21.md) | 6s | [✓](_pipeline/logs/2026-09-02_14-28-21.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
-| [2026-09-02 14:12](_pipeline/logs/2026-09-02_14-12-53.md) | 7s | [✓](_pipeline/logs/2026-09-02_14-12-53.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-02_14-12-53.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
 
 ### Source Topology
 
