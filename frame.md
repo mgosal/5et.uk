@@ -4,21 +4,21 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1098` · 2026-09-02 09:17 UTC
+`FRAME #1099` · 2026-09-02 09:33 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1075 → #1098** · 23 ticks · 20 h 39 m · `fa84f2ff` · dashboards + tick reports
+**#1075 → #1099** · 24 ticks · 20 h 55 m · `fa84f2ff` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
 | 1093 | [SDLC Process Review Services Agreement](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) | You answered. The company took this on. The company settled it. |
-| 1093 | [Set Up Paid Consulting Engagement — AlphaSights](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) | The company settled it. |
 | 1093 | [Review seed crystallisation support amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) | The company settled it. |
+| 1093 | [Set Up Paid Consulting Engagement — AlphaSights](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) | The company settled it. |
 | 1080 | [Event Attendance Services Agreement](Operations/_work/approvals/contract-proposal-event-attendance-services-agreement.md) | Raised for your decision. |
 
 **Elsewhere**
@@ -28,7 +28,7 @@
 | 1094 | [Operations](Operations/dashboard.md) | Load 37 → 40 active. |
 | 1080 | [London Crypto Networking Event Attendance](Operations/_work/P.011-London-Crypto-Networking-Event-Attendance.md) | Created. |
 
-Beneath it: 0 progressed, 1 created, 95 inspected without change.
+Beneath it: 0 progressed, 1 created, 114 inspected without change.
 
 Nothing needs you. The company owes 1.
 
@@ -43,9 +43,9 @@ Nothing needs you. The company owes 1.
 **Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█▄▃█▄▃▃▃▃▃▄▁▃▃▃▁▁▁▁▇▃▁▁▁▃▁▁▁▄▁▁▁▃▁▁▁▄▁▁▁▃▁▆▁▃▁▁▃▁▁▁▃▁▁▁▁▃▁▁▁▃
+█▃█▄▃▃▃▃▃▄▁▃▃▃▁▁▁▁▇▃▁▁▁▃▁▁▁▄▁▁▁▃▁▁▁▄▁▁▁▃▁▆▁▃▁▁▃▁▁▁▃▁▁▁▁▃▁▁▁▃▁
 █ latest move · 18:12
-▁–█ tick-report activity · 60 reports · 6 d 15 h   (frames #1039 → #1098)
+▁–█ tick-report activity · 60 reports · 6 d 15 h   (frames #1040 → #1099)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -154,4 +154,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-01 12:46 | **you** | Responded · contract |
 | 09-01 10:17 | company | Cue published · contract |
 
-<sub>Rendered from the repo at frame #1098 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1099 · immediate mode, no client state</sub>
