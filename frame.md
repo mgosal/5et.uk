@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1100` · 2026-09-02 09:48 UTC
+`FRAME #1101` · 2026-09-02 10:20 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1075 → #1100** · 25 ticks · 21 h 10 m · `fa84f2ff` · dashboards + tick reports
+**#1075 → #1101** · 26 ticks · 21 h 42 m · `fa84f2ff` · dashboards + tick reports
 
 **Your threads**
 
@@ -43,16 +43,16 @@ Nothing needs you. The company owes 1.
 **Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-██▄▃▃▃▃▃▄▁▃▃▃▁▁▁▁▇▃▁▁▁▃▁▁▁▄▁▁▁▃▁▁▁▄▁▁▁▃▁▆▁▃▁▁▃▁▁▁▃▁▁▁▁▃▁▁▁▃▁▁
+█▄▃▃▃▃▃▄▁▃▃▃▁▁▁▁▇▃▁▁▁▃▁▁▁▄▁▁▁▃▁▁▁▄▁▁▁▃▁▆▁▃▁▁▃▁▁▁▃▁▁▁▁▃▁▁▁▃▁▁█
 █ latest move · 18:12
-▁–█ tick-report activity · 60 reports · 6 d 15 h   (frames #1041 → #1100)
+▁–█ tick-report activity · 60 reports · 6 d 16 h   (frames #1042 → #1101)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 6 d 15 h |
+| Time since latest move | 6 d 16 h |
 | Company obligations | 1 (1 raw records) |
 | Waiting on you | 0 |
 
@@ -121,13 +121,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 65 active · 492 done
+## ▦ Functions — 66 active · 492 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 9 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 40 | 454 | `█▁▁▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 41 | 454 | `█▁▁▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [blockvey](projects/blockvey/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -154,4 +154,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-01 12:46 | **you** | Responded · contract |
 | 09-01 10:17 | company | Cue published · contract |
 
-<sub>Rendered from the repo at frame #1100 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1101 · immediate mode, no client state</sub>

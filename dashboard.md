@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1100.md" style="font-size:11px; color:#5f6368;">#1100</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1101.md" style="font-size:11px; color:#5f6368;">#1101</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -26,11 +26,35 @@
 
 ## Last Tick
 
-**[Tick #1100](_pipeline/reports/tick-1100.md)** · 2026-09-02 09:48 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1101](_pipeline/reports/tick-1101.md)** · 2026-09-02 10:20 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
 - No durable work-item changes in this tick.
+
+<details><summary>Inspected without change (19)</summary>
+
+- [A.005](Accounts/_work/A.005-privacy-screen-protector.md) — A.005-privacy-screen-protector
+- [A.011](Accounts/_work/A.011-Retail-Receipt.md) — A.011-Retail-Receipt
+- [A.014](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) — A.014-Google-One-Subscription-Receipt
+- [A.016](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) — A.016-Processing-fuel-receipt-for-business-travel
+- [A.017](Accounts/_work/A.017-incorporation-expense.md) — A.017-incorporation-expense
+- [A.018](Accounts/_work/A.018-ico-data-protection-fee.md) — A.018-ico-data-protection-fee
+- [A.019](Accounts/_work/A.019-google-play-subscription-may.md) — A.019-google-play-subscription-may
+- [C.036](Compliance/_work/C.036-LLM-processing-of-personal-data-risk.md) — C.036-LLM-processing-of-personal-data-risk
+- [C.037](Compliance/_work/C.037-Anonymous-User-Experience-and-Contract-Framework.md) — C.037-Anonymous-User-Experience-and-Contract-Framework
+- [O.424](Operations/_work/O.424-attention-event-experiment.md) — O.424-attention-event-experiment
+- [O.430](Operations/_work/O.430-stream-deck-attention-mode.md) — O.430-stream-deck-attention-mode
+- [O.437](Operations/_work/O.437-build-conversational-initiative-path.md) — O.437-build-conversational-initiative-path
+- [O.439](Operations/_work/O.439-build-contract-support-loop.md) — O.439-build-contract-support-loop
+- [O.447](Operations/_work/O.447-refine-cloud-connect-direction.md) — O.447-refine-cloud-connect-direction
+- [O.449](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) — O.449-AI-Agent-Development-Platforms-consultation
+- [O.458](Operations/_work/O.458-Supply-chain-constraints-on-hardware-procurement.md) — O.458-Supply-chain-constraints-on-hardware-procurement
+- [O.462](Operations/_work/O.462-Wire-Cortex-local-inference-path.md) — O.462-Wire-Cortex-local-inference-path
+- [O.463](Operations/_work/O.463-Inference-tier-field-and-tier-grouped-execution.md) — O.463-Inference-tier-field-and-tier-grouped-execution
+- [O.468](Operations/_work/O.468-Register-for-St-James-AI-Tech-Related-event.md) — O.468-Register-for-St-James-AI-Tech-Related-event
+
+</details>
 
 ### Company In Progress
 
@@ -59,14 +83,14 @@
 - **Latest move at**: 2026-08-26T18:12:56.073931+00:00
 - **Latest move**: —
 - **Latest move evidence**: —
-- **Latest move tick**: 1041
+- **Latest move tick**: 1042
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-01T12:46:31.530978+00:00
 - **Turn tick**: 1075
 - **Turn commit**: fa84f2ff
-- **Window**: 25 ticks · 21 h 10 m
+- **Window**: 26 ticks · 21 h 42 m
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 4
 - **Elsewhere**: 2
@@ -95,7 +119,6 @@ Nothing presented and unanswered.
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1041](_pipeline/reports/tick-1041.md) | 53.9s | 19 | 1 | 0 | 794 |
 | [#1042](_pipeline/reports/tick-1042.md) | 66.8s | 19 | 0 | 0 | 0 |
 | [#1043](_pipeline/reports/tick-1043.md) | 43.1s | 19 | 0 | 0 | 0 |
 | [#1044](_pipeline/reports/tick-1044.md) | 43.5s | 19 | 0 | 0 | 0 |
@@ -155,6 +178,7 @@ Nothing presented and unanswered.
 | [#1098](_pipeline/reports/tick-1098.md) | 46.9s | 19 | 0 | 0 | 0 |
 | [#1099](_pipeline/reports/tick-1099.md) | 7.8s | 0 | 0 | 0 | 0 |
 | [#1100](_pipeline/reports/tick-1100.md) | 6.6s | 0 | 0 | 0 | 0 |
+| [#1101](_pipeline/reports/tick-1101.md) | 217.7s | 19 | 1 | 0 | 584 |
 
 ## Health
 
@@ -162,10 +186,10 @@ Nothing presented and unanswered.
 |----------|--------|--------|---------|------|
 | [Accounts](Accounts/dashboard.md) | 🔄 | 2 | 0 | 13 |
 | [Compliance](Compliance/dashboard.md) | ⏸️ | 9 | 1 | 13 |
-| [Operations](Operations/dashboard.md) | ⚠️ | 40 | 0 | 454 |
+| [Operations](Operations/dashboard.md) | ⚠️ | 41 | 0 | 454 |
 | [People](People/dashboard.md) | ⚠️ | 6 | 0 | 1 |
 | [Services](Services/dashboard.md) | 🔄 | 1 | 0 | 11 |
-| **Total** | | **58** | **1** | **492** |
+| **Total** | | **59** | **1** | **492** |
 
 ### Work Item Distribution
 
@@ -173,7 +197,7 @@ Nothing presented and unanswered.
 pie title Active Work Items by Function
     "Accounts" : 2
     "Compliance" : 9
-    "Operations" : 40
+    "Operations" : 41
     "People" : 6
     "Services" : 1
 ```
@@ -184,13 +208,13 @@ pie title Active Work Items by Function
 pie title Active Status Distribution
     "awaiting-approval" : 1
     "in-progress" : 13
-    "open" : 44
+    "open" : 45
     "submitted" : 1
 ```
 
 ## Attention
 
-### Decisions Waiting (26)
+### Decisions Waiting (27)
 
 Blocked on a human answer — not staleness.
 
@@ -203,6 +227,7 @@ Blocked on a human answer — not staleness.
 | Contract proposal | LLM Harvesting and Corpus Evaluation Services Agreem | Blocked — missing prerequisites — `pipeline.README.md`, `../Compliance/README.md`, `../Inbox/README.md` | [View](Operations/_work/approvals/contract-proposal-llm-harvesting-and-corpus-evaluation-services-agreement.md) |
 | Contract proposal | Networking and Industry Engagement Services Agreemen | Blocked — missing prerequisites — `../Partnerships/README.md`, `../Procurement/README.md`, `../Knowledge/README.md` | [View](Operations/_work/approvals/contract-proposal-networking-and-industry-engagement-services-agreement.md) |
 | Contract proposal | Project Documentation and Reporting Services Agreeme | Blocked — missing prerequisites — `../Accounts/README.md`, `../Operations/_contracts/director-resolution.README.md` | [View](Operations/_work/approvals/contract-proposal-project-documentation-and-reporting-services-agreement.md) |
+| Contract proposal | Project Status Update Services Agreement | Blocked — missing prerequisites — `../Governance/project-governance.README.md` | [View](Operations/_work/approvals/contract-proposal-project-status-update-services-agreement.md) |
 | Contract proposal | Purchase Order Processing Services Agreement | Blocked — missing prerequisites — `pipeline.README.md`, `../Services/README.md`, `../Accounts/tax-compliance.README.md`, `../Accounts/README.md` | [View](Operations/_work/approvals/contract-proposal-purchase-order-processing-services-agreement.md) |
 | Contract proposal | Sales Workflow Formalization | Awaiting approval | [View](Operations/_work/approvals/contract-proposal-sales-workflow-formalization.md) |
 | Contract proposal | SDLC Process Review Services Agreement | Awaiting approval | [View](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) |
@@ -258,16 +283,16 @@ Blocked on a human answer — not staleness.
 
 ### Pipeline
 
-**Total Ticks**: 1100
+**Total Ticks**: 1101
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-02 10:48 | 0 new, 0 synced |
-| github-sync | 🟢 Yes | ✅ ok | 2026-09-02 10:17 | 0 synced |
-| stream-deck | ⚪ No | ✅ ok | 2026-09-02 10:17 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-02 11:20 | 0 new, 0 synced |
+| github-sync | 🟢 Yes | ✅ ok | 2026-09-02 11:20 | 0 synced |
+| stream-deck | ⚪ No | ✅ ok | 2026-09-02 11:20 | 0 copied, 0 noise, 0 hal |
+| processor-discover | 🟢 Yes | ✅ ok | — | 1 processed, 1 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
-| whatsapp | 🟢 Yes | ✅ ok | 2026-09-02 10:17 | 0 processed, 0 failed |
+| whatsapp | 🟢 Yes | ✅ ok | 2026-09-02 11:20 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
 | hostinger | ⚪ No | — | — | — |
 | store-email | 🟢 Yes | — | — | — |
@@ -278,11 +303,11 @@ Blocked on a human answer — not staleness.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-02 11:20](_pipeline/logs/2026-09-02_11-20-18.md) | 218s | [✓](_pipeline/logs/2026-09-02_11-20-18.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-02_11-20-18.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-02_11-20-18.md#processor-discover) 1 processed, 1 created | [✓](_pipeline/logs/2026-09-02_11-20-18.md#processor-progress) 0 progressed | $0.0001 | ~0.250g |
 | [2026-09-02 10:48](_pipeline/logs/2026-09-02_10-48-49.md) | 7s | [✓](_pipeline/logs/2026-09-02_10-48-49.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-02 10:33](_pipeline/logs/2026-09-02_10-33-21.md) | 8s | [✓](_pipeline/logs/2026-09-02_10-33-21.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-02_10-33-21.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
 | [2026-09-02 10:17](_pipeline/logs/2026-09-02_10-17-14.md) | 47s | [✓](_pipeline/logs/2026-09-02_10-17-14.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-02_10-17-14.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-02_10-17-14.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-09-02_10-17-14.md#processor-progress) 0 progressed | $0.0000 | ~0.020g |
 | [2026-09-02 10:01](_pipeline/logs/2026-09-02_10-01-46.md) | 6s | [✓](_pipeline/logs/2026-09-02_10-01-46.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
-| [2026-09-02 09:45](_pipeline/logs/2026-09-02_09-45-04.md) | 6s | [✓](_pipeline/logs/2026-09-02_09-45-04.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 
 ### Source Topology
 
@@ -326,8 +351,8 @@ flowchart TD
 | [Github Issue Sync](Operations/_contracts/github-issue-sync.README.md) | Operations | per-tick | — | ⚪ No |
 | [Icloud Email Import](Operations/_contracts/icloud-email-import.README.md) | Operations | per-tick | — | ⚪ No |
 | [Impact Cascade](Operations/_contracts/impact-cascade.README.md) | Operations | per-tick | 2026-08-25 11:40 | ⚪ No |
-| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-02 10:17 | 🟢 Yes |
-| [Mailroom](Operations/_contracts/mailroom.README.md) | Operations | per-tick | 2026-09-02 10:17 | 🟢 Yes |
+| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-02 11:23 | 🟢 Yes |
+| [Mailroom](Operations/_contracts/mailroom.README.md) | Operations | per-tick | 2026-09-02 11:23 | 🟢 Yes |
 | [Seed Crystallisation](Operations/_contracts/seed-crystallisation.README.md) | Operations | per-tick | 2026-08-24 15:27 | 🟢 Yes |
 | [Stack Improvement](Operations/_contracts/stack-improvement.README.md) | Operations | weekly | — | ⚪ No |
 | [Voice Note Import Contract](Operations/_contracts/voice-note-import-contract.README.md) | Operations | per-tick | 2026-08-29 13:23 | 🟢 Yes |
