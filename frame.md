@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1106` · 2026-09-02 12:47 UTC
+`FRAME #1107` · 2026-09-02 13:12 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1075 → #1106** · 31 ticks · 1 d 0 h · `fa84f2ff` · dashboards + tick reports
+**#1075 → #1107** · 32 ticks · 1 d 0 h · `fa84f2ff` · dashboards + tick reports
 
 **Your threads**
 
@@ -30,7 +30,7 @@
 | 1101 | [Update on Charities project status](Operations/_work/P.012-Update-on-Charities-project-status.md) | Created. |
 | 1080 | [London Crypto Networking Event Attendance](Operations/_work/P.011-London-Crypto-Networking-Event-Attendance.md) | Created. |
 
-Beneath it: 0 progressed, 2 created, 152 inspected without change.
+Beneath it: 0 progressed, 2 created, 171 inspected without change.
 
 Nothing needs you. The company owes 1.
 
@@ -45,16 +45,16 @@ Nothing needs you. The company owes 1.
 **Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█▃▄▁▃▃▃▁▁▁▁▇▃▁▁▁▃▁▁▁▄▁▁▁▃▁▁▁▄▁▁▁▃▁▆▁▃▁▁▃▁▁▁▃▁▁▁▁▃▁▁▁▃▁▁█▁▁▁▄▄
+█▄▁▃▃▃▁▁▁▁▇▃▁▁▁▃▁▁▁▄▁▁▁▃▁▁▁▄▁▁▁▃▁▆▁▃▁▁▃▁▁▁▃▁▁▁▁▃▁▁▁▃▁▁█▁▁▁▄▄▁
 █ latest move · 18:12
-▁–█ tick-report activity · 60 reports · 6 d 18 h   (frames #1047 → #1106)
+▁–█ tick-report activity · 60 reports · 6 d 19 h   (frames #1048 → #1107)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 6 d 18 h |
+| Time since latest move | 6 d 19 h |
 | Company obligations | 1 (1 raw records) |
 | Waiting on you | 0 |
 
@@ -156,4 +156,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-01 12:46 | **you** | Responded · contract |
 | 09-01 10:17 | company | Cue published · contract |
 
-<sub>Rendered from the repo at frame #1106 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1107 · immediate mode, no client state</sub>
