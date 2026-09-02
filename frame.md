@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1095` · 2026-09-02 08:29 UTC
+`FRAME #1096` · 2026-09-02 08:45 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1075 → #1095** · 20 ticks · 19 h 51 m · `fa84f2ff` · dashboards + tick reports
+**#1075 → #1096** · 21 ticks · 20 h 7 m · `fa84f2ff` · dashboards + tick reports
 
 **Your threads**
 
@@ -43,9 +43,9 @@ Nothing needs you. The company owes 1.
 **Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█▇▄▄▄▃█▄▃▃▃▃▃▄▁▃▃▃▁▁▁▁▇▃▁▁▁▃▁▁▁▄▁▁▁▃▁▁▁▄▁▁▁▃▁▆▁▃▁▁▃▁▁▁▃▁▁▁▁▃▁
+█▄▄▄▃█▄▃▃▃▃▃▄▁▃▃▃▁▁▁▁▇▃▁▁▁▃▁▁▁▄▁▁▁▃▁▁▁▄▁▁▁▃▁▆▁▃▁▁▃▁▁▁▃▁▁▁▁▃▁▁
 █ latest move · 18:12
-▁–█ tick-report activity · 60 reports · 6 d 14 h   (frames #1036 → #1095)
+▁–█ tick-report activity · 60 reports · 6 d 14 h   (frames #1037 → #1096)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -154,4 +154,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-01 12:46 | **you** | Responded · contract |
 | 09-01 10:17 | company | Cue published · contract |
 
-<sub>Rendered from the repo at frame #1095 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1096 · immediate mode, no client state</sub>
