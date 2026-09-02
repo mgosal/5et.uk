@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1121` · 2026-09-02 17:48 UTC
+`FRAME #1122` · 2026-09-02 18:49 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1075 → #1121** · 46 ticks · 1 d 5 h · `fa84f2ff` · dashboards + tick reports
+**#1075 → #1122** · 47 ticks · 1 d 6 h · `fa84f2ff` · dashboards + tick reports
 
 **Your threads**
 
@@ -18,8 +18,8 @@
 |---:|---|---|
 | 1101 | [Project Status Update Services Agreement](Operations/_work/approvals/contract-proposal-project-status-update-services-agreement.md) | Raised for your decision. |
 | 1093 | [SDLC Process Review Services Agreement](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) | You answered. The company took this on. The company settled it. |
-| 1093 | [Review seed crystallisation support amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) | The company settled it. |
 | 1093 | [Set Up Paid Consulting Engagement — AlphaSights](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) | The company settled it. |
+| 1093 | [Review seed crystallisation support amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) | The company settled it. |
 | 1080 | [Event Attendance Services Agreement](Operations/_work/approvals/contract-proposal-event-attendance-services-agreement.md) | Raised for your decision. |
 
 **Elsewhere**
@@ -45,16 +45,16 @@ Nothing needs you. The company owes 1.
 **Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█▃▁▁▁▄▁▁▁▃▁▁▁▄▁▁▁▃▁▆▁▃▁▁▃▁▁▁▃▁▁▁▁▃▁▁▁▃▁▁█▁▁▁▄▄▁▁▃▁▁▁▄▁▁▃▁▁▁▄▁
+█▁▁▁▄▁▁▁▃▁▁▁▄▁▁▁▃▁▆▁▃▁▁▃▁▁▁▃▁▁▁▁▃▁▁▁▃▁▁█▁▁▁▄▄▁▁▃▁▁▁▄▁▁▃▁▁▁▄▁▁
 █ latest move · 18:12
-▁–█ tick-report activity · 60 reports · 6 d 23 h   (frames #1062 → #1121)
+▁–█ tick-report activity · 60 reports · 7 d 0 h   (frames #1063 → #1122)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 6 d 23 h |
+| Time since latest move | 7 d 0 h |
 | Company obligations | 1 (1 raw records) |
 | Waiting on you | 0 |
 
@@ -156,4 +156,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-01 12:46 | **you** | Responded · contract |
 | 09-01 10:17 | company | Cue published · contract |
 
-<sub>Rendered from the repo at frame #1121 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1122 · immediate mode, no client state</sub>
