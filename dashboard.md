@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1126.md" style="font-size:11px; color:#5f6368;">#1126</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1127.md" style="font-size:11px; color:#5f6368;">#1127</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -26,7 +26,7 @@
 
 ## Last Tick
 
-**[Tick #1126](_pipeline/reports/tick-1126.md)** · 2026-09-03 08:47 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1127](_pipeline/reports/tick-1127.md)** · 2026-09-03 09:02 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -59,14 +59,14 @@
 - **Latest move at**: 2026-08-26T18:12:56.073931+00:00
 - **Latest move**: —
 - **Latest move evidence**: —
-- **Latest move tick**: 1067
+- **Latest move tick**: 1068
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-01T12:46:31.530978+00:00
 - **Turn tick**: 1075
 - **Turn commit**: fa84f2ff
-- **Window**: 51 ticks · 1 d 20 h
+- **Window**: 52 ticks · 1 d 20 h
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 5
 - **Elsewhere**: 3
@@ -97,7 +97,6 @@ Nothing presented and unanswered.
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1067](_pipeline/reports/tick-1067.md) | 7.1s | 0 | 0 | 0 | 0 |
 | [#1068](_pipeline/reports/tick-1068.md) | 5.9s | 0 | 0 | 0 | 0 |
 | [#1069](_pipeline/reports/tick-1069.md) | 6.1s | 0 | 0 | 0 | 0 |
 | [#1070](_pipeline/reports/tick-1070.md) | 39.8s | 19 | 0 | 0 | 0 |
@@ -157,6 +156,7 @@ Nothing presented and unanswered.
 | [#1124](_pipeline/reports/tick-1124.md) | 334.1s | 19 | 0 | 0 | 0 |
 | [#1125](_pipeline/reports/tick-1125.md) | 6.5s | 0 | 0 | 0 | 0 |
 | [#1126](_pipeline/reports/tick-1126.md) | 6.8s | 0 | 0 | 0 | 0 |
+| [#1127](_pipeline/reports/tick-1127.md) | 7.2s | 0 | 0 | 0 | 0 |
 
 ## Health
 
@@ -261,11 +261,11 @@ Blocked on a human answer — not staleness.
 
 ### Pipeline
 
-**Total Ticks**: 1126
+**Total Ticks**: 1127
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-03 09:47 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-03 10:02 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-03 09:11 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-03 09:11 | 0 copied, 0 noise, 0 hal |
 | processor-discover | 🟢 Yes | ✅ ok | — | 3 processed, 0 created |
@@ -281,11 +281,11 @@ Blocked on a human answer — not staleness.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-03 10:02](_pipeline/logs/2026-09-03_10-02-48.md) | 7s | [✓](_pipeline/logs/2026-09-03_10-02-48.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-03 09:47](_pipeline/logs/2026-09-03_09-47-20.md) | 7s | [✓](_pipeline/logs/2026-09-03_09-47-20.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-03 09:31](_pipeline/logs/2026-09-03_09-31-52.md) | 6s | [✓](_pipeline/logs/2026-09-03_09-31-52.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-03 09:10](_pipeline/logs/2026-09-03_09-10-58.md) | 334s | [✓](_pipeline/logs/2026-09-03_09-10-58.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-03_09-10-58.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-03_09-10-58.md#processor-discover) 3 processed, 0 created | [✓](_pipeline/logs/2026-09-03_09-10-58.md#processor-progress) 0 progressed | $0.0000 | ~0.139g |
 | [2026-09-02 20:49](_pipeline/logs/2026-09-02_20-49-46.md) | 3s | — | — | — | — | $0.0000 | ~0.001g |
-| [2026-09-02 19:49](_pipeline/logs/2026-09-02_19-49-14.md) | 3s | — | — | — | — | $0.0000 | ~0.001g |
 
 ### Source Topology
 
