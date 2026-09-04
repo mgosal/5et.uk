@@ -4,24 +4,24 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1131` · 2026-09-04 09:43 UTC
+`FRAME #1132` · 2026-09-04 09:58 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1075 → #1131** · 56 ticks · 2 d 21 h · `fa84f2ff` · dashboards + tick reports
+**#1075 → #1132** · 57 ticks · 2 d 21 h · `fa84f2ff` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
 | 1130 | [Seed Crystallisation REVIEW](Operations/_contracts/seed-crystallisation.REVIEW.md) | The company asked you about this. |
+| 1130 | model-selection RP-2 | Raised for your decision. |
+| 1130 | voice-note-import-contract RP-3 | Raised for your decision. |
 | 1130 | pipeline RP-7 | Raised for your decision. |
 | 1130 | model-selection RP-1 | Raised for your decision. |
-| 1130 | voice-note-import-contract RP-3 | Raised for your decision. |
 | 1130 | pipeline RP-6 | Raised for your decision. |
-| 1130 | model-selection RP-2 | Raised for your decision. |
 | 1101 | [Project Status Update Services Agreement](Operations/_work/approvals/contract-proposal-project-status-update-services-agreement.md) | Raised for your decision. |
 
 **Elsewhere**
@@ -47,16 +47,16 @@ Beneath it: 0 progressed, 2 created, 304 inspected without change.
 **Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█▁
+█▁▁
 █ latest move · 09:27
-▁–█ tick-report activity · 1 reports · 16 min   (frames #1131 → #1131)
+▁–█ tick-report activity · 2 reports · 31 min   (frames #1131 → #1132)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **1** |
-| Time since latest move | 16 min |
+| Tick reports since latest move | **2** |
+| Time since latest move | 31 min |
 | Company obligations | 1 (1 raw records) |
 | Waiting on you | 1 |
 
@@ -113,7 +113,7 @@ grey routine · cyan durable pipeline output · purple LLM work
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-1: Require a no-op for unchanged inputs | open — awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-2: Validate source provenance before mutation | open — operator remedied 2026-08-25, awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-3: Exclude generated outputs from research inputs | open — contract amended and operator remedied 2026-08-25, awaiting supervised trial |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-4: Implement inductive analysis as contracted | open — direction decided 2026-09-04 (option C), awaiting implementation |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-4: Implement inductive analysis as contracted | open — direction decided 2026-09-04 (option C); found already satisfied in the trial module, awaiting verification by supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-5: Bound autonomous mutation | open — awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-6: Replace retry-on-breach with containment | open — awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-9: Theme files grow without bound | open — awaiting supervised trial |
@@ -180,4 +180,4 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 09-01 20:26 | company | Turn settled · O.449 |
 | 09-01 20:26 | company | Turn settled · O.446 |
 
-<sub>Rendered from the repo at frame #1131 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1132 · immediate mode, no client state</sub>
