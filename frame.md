@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1129` · 2026-09-03 09:34 UTC
+`FRAME #1130` · 2026-09-04 09:26 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1075 → #1129** · 54 ticks · 1 d 20 h · `fa84f2ff` · dashboards + tick reports
+**#1075 → #1130** · 55 ticks · 2 d 20 h · `fa84f2ff` · dashboards + tick reports
 
 **Your threads**
 
@@ -32,31 +32,31 @@
 
 Beneath it: 0 progressed, 2 created, 285 inspected without change.
 
-Nothing needs you. The company owes 1.
+⚑ **Needs you now** — seed-crystallisation.REVIEW
 
 ---
 
 ## ▶ Concurrent agency
 
-### YOU — **0 waiting** · COMPANY — **1 owed**
+### YOU — **1 waiting** · COMPANY — **1 owed**
 
-**Latest move:** — · 2026-08-26 18:12:56 UTC
+**Latest move:** — · 2026-09-04 09:27:03 UTC
 
 **Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█▃▁▁▁▄▁▁▁▃▁▆▁▃▁▁▃▁▁▁▃▁▁▁▁▃▁▁▁▃▁▁█▁▁▁▄▄▁▁▃▁▁▁▄▁▁▃▁▁▁▄▁▁▁▄▁▁▁▃▁
-█ latest move · 18:12
-▁–█ tick-report activity · 60 reports · 7 d 15 h   (frames #1070 → #1129)
+█
+█ latest move · 09:27
+▁–█ tick-report activity · 0 reports · 0 min   (frames #1130 → #1130)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **60** |
-| Time since latest move | 7 d 15 h |
+| Tick reports since latest move | **0** |
+| Time since latest move | 0 min |
 | Company obligations | 1 (1 raw records) |
-| Waiting on you | 0 |
+| Waiting on you | 1 |
 
 ---
 
@@ -68,9 +68,11 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 ---
 
-## ⚑ Waiting on you — 0
+## ⚑ Waiting on you — 1
 
-Nothing is waiting on you. The company may still have work to do.
+| Since | Question |
+|---|---|
+| 09-04 09:27 | [seed-crystallisation.REVIEW](Operations/_contracts/seed-crystallisation.REVIEW.md) |
 
 ---
 
@@ -102,28 +104,33 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ✕ Open review points — 14
+## ✕ Open review points — 19
 
 | Contract | Point | Status |
 |---|---|---|
-| [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-5: Contract proposals bypass the canonical attention stream | open |
-| [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-2: The company turn has no completion criterion | open |
-| [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-3: Support wrappers are created without an idempotency check | open |
-| [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-4: Human response reconciliation waits for the schedule | open |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-1: Require a no-op for unchanged inputs | open — awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-2: Validate source provenance before mutation | open — operator remedied 2026-08-25, awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-3: Exclude generated outputs from research inputs | open — contract amended and operator remedied 2026-08-25, awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-4: Implement inductive analysis as contracted | open — resolution direction under Director decision (2026-08-25) |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-8: Index seed counts do not match the themes | open |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-9: Theme files grow without bound | open — awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-5: Bound autonomous mutation | open — awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-6: Replace retry-on-breach with containment | open — awaiting supervised trial |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-9: Theme files grow without bound | open — awaiting supervised trial |
+| [model-selection](Operations/_contracts/model-selection.REVIEW.md) | RP-1: The originating run does not satisfy the contract it produced | open |
+| [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-2: The company turn has no completion criterion | open |
+| [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-3: Support wrappers are created without an idempotency check | open |
+| [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-5: Contract proposals bypass the canonical attention stream | open |
+| [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-6: Review points bypass the canonical attention stream | open |
+| [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-7: Every open review point halts its contract, because points carry no materiality | open |
+| [model-selection](Operations/_contracts/model-selection.REVIEW.md) | RP-2: The resolution floor is specified but the deliverable cannot express it | open |
+| [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-4: Human response reconciliation waits for the schedule | open |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-7: Define supervised trial and promotion evidence | open — awaiting supervised trial |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-8: Index seed counts do not match the themes | open |
 | [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-2: The contract cannot leave trial, and says so to no one | open |
+| [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-3: New evidence reopens the cost basis on which RP-1 was resolved | open |
 
 ---
 
-## ▦ Functions — 66 active · 492 done
+## ▦ Functions — 126 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
@@ -132,14 +139,29 @@ Nothing is waiting on you. The company may still have work to do.
 | ⚠️ | [Operations](Operations/dashboard.md) | 41 | 454 | `█▁▁▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
+| ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
+| ✅ | [5et.uk](projects/5et.uk/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
+| ✅ | [ai-course](projects/ai-course/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
+| ✅ | [bekame-collab](projects/bekame-collab/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [blockvey](projects/blockvey/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
+| ✅ | [car-personality](projects/car-personality/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ⚠️ | [chess](projects/chess/README.md) | 4 | 0 | `██████████` |
+| ✅ | [cv-builder](projects/cv-builder/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
+| ⏸️ | [ema-sa](projects/ema-sa/README.md) | 27 | 0 | `██████████` |
 | 🔄 | [game](projects/game/README.md) | 2 | 0 | `██████████` |
 | ✅ | [golf](projects/golf/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
+| ✅ | [home-information-pack](projects/home-information-pack/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [hyperscaler](projects/hyperscaler/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [irontec](projects/irontec/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
+| ✅ | [legal-system-research](projects/legal-system-research/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | 🔄 | [mylang](projects/mylang/README.md) | 1 | 0 | `██████████` |
 | ✅ | [myos](projects/myos/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
+| ✅ | [nature-app](projects/nature-app/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
+| ⚠️ | [open-contracts](projects/open-contracts/README.md) | 5 | 0 | `██████████` |
+| ✅ | [push-to-talk](projects/push-to-talk/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
+| ✅ | [right-store](projects/right-store/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
+| ✅ | [sole-trader-saas](projects/sole-trader-saas/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
+| ⏸️ | [store-dash](projects/store-dash/README.md) | 28 | 184 | `█▁▁▁▁▁▁▁▁▁` |
 
 ---
 
@@ -147,13 +169,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 | Time | Who | Event |
 |---|---|---|
+| 09-04 09:27 | company | Cue published · seed |
+| 09-04 09:27 | company | Question prepared · seed |
 | 09-01 20:26 | company | Turn settled · contract |
 | 09-01 20:26 | company | Turn settled · O.453 |
 | 09-01 20:26 | company | Turn settled · O.452 |
 | 09-01 20:26 | company | Turn settled · O.450 |
 | 09-01 20:26 | company | Turn settled · O.449 |
 | 09-01 20:26 | company | Turn settled · O.446 |
-| 09-01 12:46 | **you** | Responded · contract |
-| 09-01 10:17 | company | Cue published · contract |
 
-<sub>Rendered from the repo at frame #1129 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1130 · immediate mode, no client state</sub>
