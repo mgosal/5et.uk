@@ -4,24 +4,24 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1132` · 2026-09-04 09:58 UTC
+`FRAME #1133` · 2026-09-04 10:14 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1075 → #1132** · 57 ticks · 2 d 21 h · `fa84f2ff` · dashboards + tick reports
+**#1075 → #1133** · 58 ticks · 2 d 21 h · `fa84f2ff` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
 | 1130 | [Seed Crystallisation REVIEW](Operations/_contracts/seed-crystallisation.REVIEW.md) | The company asked you about this. |
-| 1130 | model-selection RP-2 | Raised for your decision. |
-| 1130 | voice-note-import-contract RP-3 | Raised for your decision. |
-| 1130 | pipeline RP-7 | Raised for your decision. |
-| 1130 | model-selection RP-1 | Raised for your decision. |
 | 1130 | pipeline RP-6 | Raised for your decision. |
+| 1130 | model-selection RP-2 | Raised for your decision. |
+| 1130 | model-selection RP-1 | Raised for your decision. |
+| 1130 | pipeline RP-7 | Raised for your decision. |
+| 1130 | voice-note-import-contract RP-3 | Raised for your decision. |
 | 1101 | [Project Status Update Services Agreement](Operations/_work/approvals/contract-proposal-project-status-update-services-agreement.md) | Raised for your decision. |
 
 **Elsewhere**
@@ -47,16 +47,16 @@ Beneath it: 0 progressed, 2 created, 304 inspected without change.
 **Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█▁▁
+█▁▁▁
 █ latest move · 09:27
-▁–█ tick-report activity · 2 reports · 31 min   (frames #1131 → #1132)
+▁–█ tick-report activity · 3 reports · 47 min   (frames #1131 → #1133)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **2** |
-| Time since latest move | 31 min |
+| Tick reports since latest move | **3** |
+| Time since latest move | 47 min |
 | Company obligations | 1 (1 raw records) |
 | Waiting on you | 1 |
 
@@ -180,4 +180,4 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 09-01 20:26 | company | Turn settled · O.449 |
 | 09-01 20:26 | company | Turn settled · O.446 |
 
-<sub>Rendered from the repo at frame #1132 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1133 · immediate mode, no client state</sub>
