@@ -4,23 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1130` · 2026-09-04 09:26 UTC
+`FRAME #1131` · 2026-09-04 09:43 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1075 → #1130** · 55 ticks · 2 d 20 h · `fa84f2ff` · dashboards + tick reports
+**#1075 → #1131** · 56 ticks · 2 d 21 h · `fa84f2ff` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
+| 1130 | [Seed Crystallisation REVIEW](Operations/_contracts/seed-crystallisation.REVIEW.md) | The company asked you about this. |
+| 1130 | pipeline RP-7 | Raised for your decision. |
+| 1130 | model-selection RP-1 | Raised for your decision. |
+| 1130 | voice-note-import-contract RP-3 | Raised for your decision. |
+| 1130 | pipeline RP-6 | Raised for your decision. |
+| 1130 | model-selection RP-2 | Raised for your decision. |
 | 1101 | [Project Status Update Services Agreement](Operations/_work/approvals/contract-proposal-project-status-update-services-agreement.md) | Raised for your decision. |
-| 1093 | [SDLC Process Review Services Agreement](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) | You answered. The company took this on. The company settled it. |
-| 1093 | [Review seed crystallisation support amendment](Operations/_work/O.453-Review-seed-crystallisation-support-amendment.md) | The company settled it. |
-| 1093 | [Set Up Paid Consulting Engagement — AlphaSights](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) | The company settled it. |
-| 1080 | [Event Attendance Services Agreement](Operations/_work/approvals/contract-proposal-event-attendance-services-agreement.md) | Raised for your decision. |
 
 **Elsewhere**
 
@@ -30,7 +32,7 @@
 | 1101 | [Update on Charities project status](Operations/_work/P.012-Update-on-Charities-project-status.md) | Created. |
 | 1080 | [London Crypto Networking Event Attendance](Operations/_work/P.011-London-Crypto-Networking-Event-Attendance.md) | Created. |
 
-Beneath it: 0 progressed, 2 created, 285 inspected without change.
+Beneath it: 0 progressed, 2 created, 304 inspected without change.
 
 ⚑ **Needs you now** — seed-crystallisation.REVIEW
 
@@ -45,16 +47,16 @@ Beneath it: 0 progressed, 2 created, 285 inspected without change.
 **Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█
+█▁
 █ latest move · 09:27
-▁–█ tick-report activity · 0 reports · 0 min   (frames #1130 → #1130)
+▁–█ tick-report activity · 1 reports · 16 min   (frames #1131 → #1131)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **0** |
-| Time since latest move | 0 min |
+| Tick reports since latest move | **1** |
+| Time since latest move | 16 min |
 | Company obligations | 1 (1 raw records) |
 | Waiting on you | 1 |
 
@@ -111,7 +113,7 @@ grey routine · cyan durable pipeline output · purple LLM work
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-1: Require a no-op for unchanged inputs | open — awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-2: Validate source provenance before mutation | open — operator remedied 2026-08-25, awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-3: Exclude generated outputs from research inputs | open — contract amended and operator remedied 2026-08-25, awaiting supervised trial |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-4: Implement inductive analysis as contracted | open — resolution direction under Director decision (2026-08-25) |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-4: Implement inductive analysis as contracted | open — direction decided 2026-09-04 (option C), awaiting implementation |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-5: Bound autonomous mutation | open — awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-6: Replace retry-on-breach with containment | open — awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-9: Theme files grow without bound | open — awaiting supervised trial |
@@ -178,4 +180,4 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 09-01 20:26 | company | Turn settled · O.449 |
 | 09-01 20:26 | company | Turn settled · O.446 |
 
-<sub>Rendered from the repo at frame #1130 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1131 · immediate mode, no client state</sub>
