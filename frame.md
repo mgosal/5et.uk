@@ -4,25 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1174` · 2026-09-07 15:32 UTC
+`FRAME #1175` · 2026-09-07 15:49 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1174** · 19 ticks · 5 h 10 m · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1175** · 20 ticks · 5 h 27 m · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
 | 1172 | [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) | The company took this on. |
-| 1169 | [fathom-import RP-2](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
-| 1169 | [fathom-import RP-4](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
-| 1169 | [fathom-import RP-3](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
-| 1169 | [ema-sa RP-1](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
-| 1169 | [fathom-import RP-1](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
 | 1169 | [ema-sa RP-3](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
+| 1169 | [ema-sa RP-1](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
+| 1169 | [ema-sa RP-4](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
+| 1169 | [fathom-import RP-6](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
+| 1169 | [fathom-import RP-4](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
+| 1169 | [ema-sa RP-6](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
 
 **Elsewhere**
 
@@ -31,7 +31,7 @@
 | 1168 | [Operations](Operations/dashboard.md) | Load 41 → 42 active. |
 | 1168 | [St. James AI Networking Event Attendance](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md) | Created. |
 
-Beneath it: 0 progressed, 1 created, 76 inspected without change.
+Beneath it: 0 progressed, 1 created, 95 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -46,15 +46,15 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄
+█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁
 █ latest move · 10:23
-▁–█ tick-report activity · 19 reports · 5 h   (frames #1156 → #1174)
+▁–█ tick-report activity · 20 reports · 5 h   (frames #1156 → #1175)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **19** |
+| Tick reports since latest move | **20** |
 | Time since latest move | 5 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
@@ -106,29 +106,23 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ✕ Open review points — 30
+## ✕ Open review points — 24
 
 | Contract | Point | Status |
 |---|---|---|
 | [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-3: New evidence reopens the cost basis on which RP-1 was resolved | open |
-| [ema-sa](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | RP-1: Named source still copies another repo | open — operator conformance applied 2026-09-07 (stub committed; contract still unapproved) |
-| [ema-sa](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | RP-2: Named source still extracts work items | open — operator conformance applied 2026-09-07 |
-| [ema-sa](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | RP-3: “No-op” must be observable | open — operator conformance applied 2026-09-07 |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-2: The company turn has no completion criterion | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-3: Support wrappers are created without an idempotency check | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-5: Contract proposals bypass the canonical attention stream | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-6: Review points bypass the canonical attention stream | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-7: Every open review point halts its contract, because points carry no materiality | open |
-| [ema-sa](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | RP-4: SA role missing | open — role definition and assignment applied 2026-09-07 |
-| [ema-sa](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | RP-5: README is not the root agreement | open — README rewritten 2026-09-07 |
 | [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-1: Named-source wiring — new row vs replace stub | open — Director accepted default (second slot), 2026-09-07 |
 | [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-2: Integration record does not exist yet | open — Director chose symlink over copy, 2026-09-07 |
 | [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-3: Attendee scope differs from ema-mcp gold | open — Director accepted default (Mandip-only), 2026-09-07 |
-| [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-5: Shadow evidence procedure before solidification | open |
 | [model-selection](Operations/_contracts/model-selection.REVIEW.md) | RP-2: The resolution floor is specified but the deliverable cannot express it | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-4: Human response reconciliation waits for the schedule | open |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-8: Index seed counts do not match the themes | open |
-| [ema-sa](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | RP-6: Fat script vs named ingest row | open |
+| [ema-sa](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | RP-6: Fat script vs named ingest row | open — `fathom-import` implemented 2026-09-07; schedule row pending shadow attestation |
 | [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-4: Partner routing and AI classification omitted | open |
 | [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-6: `fathom.api` capability not yet registered | open |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-4: Implement inductive analysis as contracted | open — direction decided 2026-09-04 (option C); found already satisfied in the trial module, awaiting verification by supervised trial |
@@ -191,4 +185,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1174 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1175 · immediate mode, no client state</sub>

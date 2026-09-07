@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1174.md" style="font-size:11px; color:#5f6368;">#1174</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1175.md" style="font-size:11px; color:#5f6368;">#1175</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -26,35 +26,11 @@
 
 ## Last Tick
 
-**[Tick #1174](_pipeline/reports/tick-1174.md)** · 2026-09-07 15:32 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1175](_pipeline/reports/tick-1175.md)** · 2026-09-07 15:49 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
 - No durable work-item changes in this tick.
-
-<details><summary>Inspected without change (19)</summary>
-
-- [A.005](Accounts/_work/A.005-privacy-screen-protector.md) — A.005-privacy-screen-protector
-- [A.011](Accounts/_work/A.011-Retail-Receipt.md) — A.011-Retail-Receipt
-- [A.014](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) — A.014-Google-One-Subscription-Receipt
-- [A.016](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) — A.016-Processing-fuel-receipt-for-business-travel
-- [A.017](Accounts/_work/A.017-incorporation-expense.md) — A.017-incorporation-expense
-- [A.018](Accounts/_work/A.018-ico-data-protection-fee.md) — A.018-ico-data-protection-fee
-- [A.019](Accounts/_work/A.019-google-play-subscription-may.md) — A.019-google-play-subscription-may
-- [C.036](Compliance/_work/C.036-LLM-processing-of-personal-data-risk.md) — C.036-LLM-processing-of-personal-data-risk
-- [C.037](Compliance/_work/C.037-Anonymous-User-Experience-and-Contract-Framework.md) — C.037-Anonymous-User-Experience-and-Contract-Framework
-- [O.424](Operations/_work/O.424-attention-event-experiment.md) — O.424-attention-event-experiment
-- [O.430](Operations/_work/O.430-stream-deck-attention-mode.md) — O.430-stream-deck-attention-mode
-- [O.437](Operations/_work/O.437-build-conversational-initiative-path.md) — O.437-build-conversational-initiative-path
-- [O.439](Operations/_work/O.439-build-contract-support-loop.md) — O.439-build-contract-support-loop
-- [O.447](Operations/_work/O.447-refine-cloud-connect-direction.md) — O.447-refine-cloud-connect-direction
-- [O.449](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) — O.449-AI-Agent-Development-Platforms-consultation
-- [O.458](Operations/_work/O.458-Supply-chain-constraints-on-hardware-procurement.md) — O.458-Supply-chain-constraints-on-hardware-procurement
-- [O.462](Operations/_work/O.462-Wire-Cortex-local-inference-path.md) — O.462-Wire-Cortex-local-inference-path
-- [O.463](Operations/_work/O.463-Inference-tier-field-and-tier-grouped-execution.md) — O.463-Inference-tier-field-and-tier-grouped-execution
-- [O.468](Operations/_work/O.468-Register-for-St-James-AI-Tech-Related-event.md) — O.468-Register-for-St-James-AI-Tech-Related-event
-
-</details>
 
 ### Company In Progress
 
@@ -90,21 +66,21 @@
 - **Turn at**: 2026-09-07T10:23:40.354071+00:00
 - **Turn tick**: 1155
 - **Turn commit**: 9bfb5a29
-- **Window**: 19 ticks · 5 h 10 m
+- **Window**: 20 ticks · 5 h 27 m
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 7
 - **Elsewhere**: 2
-- **Beneath**: 0 progressed, 1 created, 76 inspected without change
+- **Beneath**: 0 progressed, 1 created, 95 inspected without change
 
 | Scope | Tick | Item | What happened |
 |---|---:|---|---|
 | yours | 1172 | [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) | The company took this on. |
-| yours | 1169 | [fathom-import RP-2](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
-| yours | 1169 | [fathom-import RP-4](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
-| yours | 1169 | [fathom-import RP-3](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
-| yours | 1169 | [ema-sa RP-1](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
-| yours | 1169 | [fathom-import RP-1](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
 | yours | 1169 | [ema-sa RP-3](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
+| yours | 1169 | [ema-sa RP-1](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
+| yours | 1169 | [ema-sa RP-4](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
+| yours | 1169 | [fathom-import RP-6](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
+| yours | 1169 | [fathom-import RP-4](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
+| yours | 1169 | [ema-sa RP-6](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
 | elsewhere | 1168 | [Operations](Operations/dashboard.md) | Load 41 → 42 active. |
 | elsewhere | 1168 | [St. James AI Networking Event Attendance](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md) | Created. |
 
@@ -121,7 +97,7 @@ Nothing presented and unanswered.
 | 2026-09-07T08:52:56.745898+00:00 | [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) | 1 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | 2026-08-26T18:12:56.073931+00:00 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 
-### Activity Since Latest Move (19 ticks)
+### Activity Since Latest Move (20 ticks)
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
@@ -144,6 +120,7 @@ Nothing presented and unanswered.
 | [#1172](_pipeline/reports/tick-1172.md) | 9.5s | 0 | 0 | 0 | 0 |
 | [#1173](_pipeline/reports/tick-1173.md) | 6.0s | 0 | 0 | 0 | 0 |
 | [#1174](_pipeline/reports/tick-1174.md) | 87.4s | 19 | 0 | 0 | 0 |
+| [#1175](_pipeline/reports/tick-1175.md) | 5.9s | 0 | 0 | 0 | 0 |
 
 ## Health
 
@@ -179,7 +156,7 @@ pie title Active Status Distribution
 
 ## Attention
 
-### Decisions Waiting (24 of 44 need you)
+### Decisions Waiting (18 of 38 need you)
 
 Grouped by what each is waiting on. The first two groups are yours.
 
@@ -189,27 +166,21 @@ Grouped by what each is waiting on. The first two groups are yours.
 |------|---------|--------|-------------|------|
 | Review point | voice-note-import-contract RP-3 | minor — New evidence reopens the cost basis on which RP-1 wa | blocks approval only | [View](Operations/_contracts/voice-note-import-contract.REVIEW.md) |
 
-**Your review (23)** — One proposed action each — confirm or send back
+**Your review (17)** — One proposed action each — confirm or send back
 
 | Kind | Subject | Detail | Consequence | Link |
 |------|---------|--------|-------------|------|
 | Contract proposal | Sales Workflow Formalization | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sales-workflow-formalization.md) |
 | Contract proposal | SDLC Process Review Services Agreement | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) |
 | Contract proposal | Support Amendment — Seed Crystallisation | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-seed_crystallisation-support-amendment.md) |
-| Review point | ema-sa RP-1 | blocking — Named source still copies another repo | blocks approval only | [View](projects/ema-sa/_contracts/ema-sa.REVIEW.md) |
-| Review point | ema-sa RP-2 | blocking — Named source still extracts work items | blocks approval only | [View](projects/ema-sa/_contracts/ema-sa.REVIEW.md) |
-| Review point | ema-sa RP-3 | blocking — “No-op” must be observable | blocks approval only | [View](projects/ema-sa/_contracts/ema-sa.REVIEW.md) |
 | Review point | pipeline RP-2 | blocking — The company turn has no completion criterion | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | pipeline RP-3 | blocking — Support wrappers are created without an idempotency  | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | pipeline RP-5 | blocking — Contract proposals bypass the canonical attention st | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | pipeline RP-6 | blocking — Review points bypass the canonical attention stream | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | pipeline RP-7 | blocking — Every open review point halts its contract, because  | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
-| Review point | ema-sa RP-4 | material — SA role missing | blocks approval only | [View](projects/ema-sa/_contracts/ema-sa.REVIEW.md) |
-| Review point | ema-sa RP-5 | material — README is not the root agreement | blocks approval only | [View](projects/ema-sa/_contracts/ema-sa.REVIEW.md) |
 | Review point | fathom-import RP-1 | material — Named-source wiring — new row vs replace stub | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
 | Review point | fathom-import RP-2 | material — Integration record does not exist yet | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
 | Review point | fathom-import RP-3 | material — Attendee scope differs from ema-mcp gold | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
-| Review point | fathom-import RP-5 | material — Shadow evidence procedure before solidification | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
 | Review point | model-selection RP-2 | material — The resolution floor is specified but the deliverabl | blocks approval only | [View](Operations/_contracts/model-selection.REVIEW.md) |
 | Review point | pipeline RP-4 | material — Human response reconciliation waits for the schedule | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | seed-crystallisation RP-8 | material — Index seed counts do not match the themes | blocks approval only | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
@@ -284,11 +255,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1174
+**Total Ticks**: 1175
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-07 16:32 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-07 16:49 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-07 16:32 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-07 16:32 | 0 copied, 0 noise, 1 hal |
 | processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
@@ -304,11 +275,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-07 16:49](_pipeline/logs/2026-09-07_16-49-06.md) | 6s | [✓](_pipeline/logs/2026-09-07_16-49-06.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
 | [2026-09-07 16:32](_pipeline/logs/2026-09-07_16-32-18.md) | 87s | [✓](_pipeline/logs/2026-09-07_16-32-18.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-07_16-32-18.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-07_16-32-18.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-09-07_16-32-18.md#processor-progress) 0 progressed | $0.0000 | ~0.036g |
 | [2026-09-07 16:16](_pipeline/logs/2026-09-07_16-16-50.md) | 6s | [✓](_pipeline/logs/2026-09-07_16-16-50.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-07_16-16-50.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
 | [2026-09-07 16:01](_pipeline/logs/2026-09-07_16-01-21.md) | 9s | [✓](_pipeline/logs/2026-09-07_16-01-21.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-07_16-01-21.md#processor-discover) 1 processed, 0 created | — | $0.0000 | ~0.004g |
 | [2026-09-07 15:45](_pipeline/logs/2026-09-07_15-45-53.md) | 6s | [✓](_pipeline/logs/2026-09-07_15-45-53.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
-| [2026-09-07 15:29](_pipeline/logs/2026-09-07_15-29-05.md) | 84s | [✓](_pipeline/logs/2026-09-07_15-29-05.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-07_15-29-05.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-07_15-29-05.md#processor-progress) 0 progressed | $0.0000 | ~0.035g |
 
 ### Source Topology
 
