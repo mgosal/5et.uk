@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1168.md" style="font-size:11px; color:#5f6368;">#1168</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1169.md" style="font-size:11px; color:#5f6368;">#1169</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -26,7 +26,7 @@
 
 ## Last Tick
 
-**[Tick #1168](_pipeline/reports/tick-1168.md)** · 2026-09-07 13:57 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1169](_pipeline/reports/tick-1169.md)** · 2026-09-07 14:13 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -66,13 +66,16 @@
 - **Turn at**: 2026-09-07T10:23:40.354071+00:00
 - **Turn tick**: 1155
 - **Turn commit**: 9bfb5a29
-- **Window**: 13 ticks · 3 h 35 m
+- **Window**: 14 ticks · 3 h 51 m
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 0
-- **Elsewhere**: 0
-- **Beneath**: 0 progressed, 0 created, 57 inspected without change
+- **Elsewhere**: 2
+- **Beneath**: 0 progressed, 1 created, 57 inspected without change
 
-Nothing surfaced on the dashboard across this window.
+| Scope | Tick | Item | What happened |
+|---|---:|---|---|
+| elsewhere | 1168 | [Operations](Operations/dashboard.md) | Load 41 → 42 active. |
+| elsewhere | 1168 | [St. James AI Networking Event Attendance](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md) | Created. |
 
 ### Waiting on You (0)
 
@@ -86,7 +89,7 @@ Nothing presented and unanswered.
 | 2026-09-07T08:52:56.745898+00:00 | [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) | 1 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | 2026-08-26T18:12:56.073931+00:00 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 
-### Activity Since Latest Move (13 ticks)
+### Activity Since Latest Move (14 ticks)
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
@@ -103,6 +106,7 @@ Nothing presented and unanswered.
 | [#1166](_pipeline/reports/tick-1166.md) | 109.7s | 19 | 0 | 0 | 0 |
 | [#1167](_pipeline/reports/tick-1167.md) | 5.9s | 0 | 0 | 0 | 0 |
 | [#1168](_pipeline/reports/tick-1168.md) | 18.4s | 0 | 1 | 0 | 780 |
+| [#1169](_pipeline/reports/tick-1169.md) | 6.2s | 0 | 0 | 0 | 0 |
 
 ## Health
 
@@ -138,7 +142,7 @@ pie title Active Status Distribution
 
 ## Attention
 
-### Decisions Waiting (12 of 32 need you)
+### Decisions Waiting (24 of 44 need you)
 
 Grouped by what each is waiting on. The first two groups are yours.
 
@@ -148,21 +152,33 @@ Grouped by what each is waiting on. The first two groups are yours.
 |------|---------|--------|-------------|------|
 | Review point | voice-note-import-contract RP-3 | minor — New evidence reopens the cost basis on which RP-1 wa | blocks approval only | [View](Operations/_contracts/voice-note-import-contract.REVIEW.md) |
 
-**Your review (11)** — One proposed action each — confirm or send back
+**Your review (23)** — One proposed action each — confirm or send back
 
 | Kind | Subject | Detail | Consequence | Link |
 |------|---------|--------|-------------|------|
 | Contract proposal | Sales Workflow Formalization | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sales-workflow-formalization.md) |
 | Contract proposal | SDLC Process Review Services Agreement | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) |
 | Contract proposal | Support Amendment — Seed Crystallisation | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-seed_crystallisation-support-amendment.md) |
+| Review point | ema-sa RP-1 | blocking — Named source still copies another repo | blocks approval only | [View](projects/ema-sa/_contracts/ema-sa.REVIEW.md) |
+| Review point | ema-sa RP-2 | blocking — Named source still extracts work items | blocks approval only | [View](projects/ema-sa/_contracts/ema-sa.REVIEW.md) |
+| Review point | ema-sa RP-3 | blocking — “No-op” must be observable | blocks approval only | [View](projects/ema-sa/_contracts/ema-sa.REVIEW.md) |
 | Review point | pipeline RP-2 | blocking — The company turn has no completion criterion | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | pipeline RP-3 | blocking — Support wrappers are created without an idempotency  | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | pipeline RP-5 | blocking — Contract proposals bypass the canonical attention st | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | pipeline RP-6 | blocking — Review points bypass the canonical attention stream | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | pipeline RP-7 | blocking — Every open review point halts its contract, because  | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
+| Review point | ema-sa RP-4 | material — SA role missing | blocks approval only | [View](projects/ema-sa/_contracts/ema-sa.REVIEW.md) |
+| Review point | ema-sa RP-5 | material — README is not the root agreement | blocks approval only | [View](projects/ema-sa/_contracts/ema-sa.REVIEW.md) |
+| Review point | fathom-import RP-1 | material — Named-source wiring — new row vs replace stub | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
+| Review point | fathom-import RP-2 | material — Integration record does not exist yet | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
+| Review point | fathom-import RP-3 | material — Attendee scope differs from ema-mcp gold | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
+| Review point | fathom-import RP-5 | material — Shadow evidence procedure before solidification | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
 | Review point | model-selection RP-2 | material — The resolution floor is specified but the deliverabl | blocks approval only | [View](Operations/_contracts/model-selection.REVIEW.md) |
 | Review point | pipeline RP-4 | material — Human response reconciliation waits for the schedule | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | seed-crystallisation RP-8 | material — Index seed counts do not match the themes | blocks approval only | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
+| Review point | ema-sa RP-6 | minor — Fat script vs named ingest row | blocks approval only | [View](projects/ema-sa/_contracts/ema-sa.REVIEW.md) |
+| Review point | fathom-import RP-4 | minor — Partner routing and AI classification omitted | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
+| Review point | fathom-import RP-6 | minor — `fathom.api` capability not yet registered | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
 
 **Waiting on a build (12)** — Decided already; no decision needed
 
@@ -231,11 +247,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1168
+**Total Ticks**: 1169
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-07 14:57 | 1 new, 1 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-07 15:13 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-07 14:25 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-07 14:25 | 0 copied, 0 noise, 0 hal |
 | processor-discover | 🟢 Yes | ✅ ok | — | 1 processed, 1 created |
@@ -251,11 +267,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-07 15:13](_pipeline/logs/2026-09-07_15-13-37.md) | 6s | [✓](_pipeline/logs/2026-09-07_15-13-37.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-07 14:57](_pipeline/logs/2026-09-07_14-57-55.md) | 18s | [✓](_pipeline/logs/2026-09-07_14-57-55.md#icloud-email) 1 new, 1 synced | — | [✓](_pipeline/logs/2026-09-07_14-57-55.md#processor-discover) 1 processed, 1 created | — | $0.0001 | ~0.213g |
 | [2026-09-07 14:42](_pipeline/logs/2026-09-07_14-42-27.md) | 6s | [✓](_pipeline/logs/2026-09-07_14-42-27.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
 | [2026-09-07 14:25](_pipeline/logs/2026-09-07_14-25-15.md) | 110s | [✓](_pipeline/logs/2026-09-07_14-25-15.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-07_14-25-15.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-07_14-25-15.md#processor-progress) 0 progressed | $0.0000 | ~0.046g |
 | [2026-09-07 14:09](_pipeline/logs/2026-09-07_14-09-48.md) | 6s | [✓](_pipeline/logs/2026-09-07_14-09-48.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
-| [2026-09-07 13:54](_pipeline/logs/2026-09-07_13-54-22.md) | 6s | [✓](_pipeline/logs/2026-09-07_13-54-22.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-07_13-54-22.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
 
 ### Source Topology
 
