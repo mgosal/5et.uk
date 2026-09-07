@@ -4,18 +4,19 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1152` · 2026-09-07 09:15 UTC
+`FRAME #1153` · 2026-09-07 09:51 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1150 → #1152** · 2 ticks · 34 min · `3028f540` · dashboards + tick reports
+**#1150 → #1153** · 3 ticks · 1 h 10 m · `3028f540` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
+| 1152 | [Voice Note Import Contract REVIEW](Operations/_contracts/voice-note-import-contract.REVIEW.md) | The company asked you about this. |
 | 1151 | [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) | The company took this on. |
 
 **Elsewhere**
@@ -25,7 +26,7 @@
 | 1151 | [Model Selection REVIEW](Operations/_contracts/model-selection.REVIEW.md) | You answered. |
 | 1151 | [model-selection RP-1](Operations/_contracts/model-selection.REVIEW.md) | No longer waiting on a decision. |
 
-Beneath it: 0 progressed, 0 created, 0 inspected without change.
+Beneath it: 0 progressed, 0 created, 19 inspected without change.
 
 ⚑ **Needs you now** — voice-note-import-contract.REVIEW
 
@@ -40,16 +41,16 @@ Beneath it: 0 progressed, 0 created, 0 inspected without change.
 **Company owes next:** [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) — Reconcile Mandip's complete response against the canonical task and improve the work before asking again.
 
 ```
-█▁▄
+█▁▄▁
 █ latest move · 08:52
-▁–█ tick-report activity · 2 reports · 43 min   (frames #1151 → #1152)
+▁–█ tick-report activity · 3 reports · 58 min   (frames #1151 → #1153)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **2** |
-| Time since latest move | 43 min |
+| Tick reports since latest move | **3** |
+| Time since latest move | 58 min |
 | Company obligations | 2 (2 raw records) |
 | Waiting on you | 1 |
 
@@ -174,4 +175,4 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 09-04 09:27 | company | Cue published · seed |
 | 09-04 09:27 | company | Question prepared · seed |
 
-<sub>Rendered from the repo at frame #1152 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1153 · immediate mode, no client state</sub>
