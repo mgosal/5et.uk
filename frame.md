@@ -4,35 +4,36 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1135` · 2026-09-04 10:59 UTC
+`FRAME #1148` · 2026-09-04 15:08 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1075 → #1135** · 60 ticks · 2 d 22 h · `fa84f2ff` · dashboards + tick reports
+**#1075 → #1148** · 73 ticks · 3 d 2 h · `fa84f2ff` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
+| 1144 | Partnership Integration Services Agreement | Raised for your decision. |
 | 1130 | [Seed Crystallisation REVIEW](Operations/_contracts/seed-crystallisation.REVIEW.md) | The company asked you about this. |
-| 1130 | pipeline RP-7 | Raised for your decision. |
-| 1130 | model-selection RP-1 | Raised for your decision. |
-| 1130 | pipeline RP-6 | Raised for your decision. |
 | 1130 | model-selection RP-2 | Raised for your decision. |
 | 1130 | voice-note-import-contract RP-3 | Raised for your decision. |
-| 1101 | [Project Status Update Services Agreement](Operations/_work/approvals/contract-proposal-project-status-update-services-agreement.md) | Raised for your decision. |
+| 1130 | pipeline RP-6 | Raised for your decision. |
+| 1130 | pipeline RP-7 | Raised for your decision. |
+| 1130 | model-selection RP-1 | Raised for your decision. |
 
 **Elsewhere**
 
 | Tick | Item | What happened |
 |---:|---|---|
+| 1144 | [Kalibrate x RightStore Partnership Integration](projects/store-dash/_work/SD.325-Kalibrate-x-RightStore-Partnership-Integration.md) | Created. |
 | 1101 | [Operations](Operations/dashboard.md) | Load 37 → 41 active. |
 | 1101 | [Update on Charities project status](Operations/_work/P.012-Update-on-Charities-project-status.md) | Created. |
 | 1080 | [London Crypto Networking Event Attendance](Operations/_work/P.011-London-Crypto-Networking-Event-Attendance.md) | Created. |
 
-Beneath it: 0 progressed, 2 created, 323 inspected without change.
+Beneath it: 0 progressed, 3 created, 380 inspected without change.
 
 ⚑ **Needs you now** — seed-crystallisation.REVIEW
 
@@ -47,16 +48,16 @@ Beneath it: 0 progressed, 2 created, 323 inspected without change.
 **Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█▁▁▁▄▁
+█▁▁▁▄▁▁▃▁▁▁▄▁▁█▁▁▁▄
 █ latest move · 09:27
-▁–█ tick-report activity · 5 reports · 1 h   (frames #1131 → #1135)
+▁–█ tick-report activity · 18 reports · 7 h   (frames #1131 → #1148)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **5** |
-| Time since latest move | 1 h |
+| Tick reports since latest move | **18** |
+| Time since latest move | 7 h |
 | Company obligations | 1 (1 raw records) |
 | Waiting on you | 1 |
 
@@ -132,7 +133,7 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 ---
 
-## ▦ Functions — 126 active · 676 done
+## ▦ Functions — 127 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
@@ -163,7 +164,7 @@ grey routine · cyan durable pipeline output · purple LLM work
 | ✅ | [push-to-talk](projects/push-to-talk/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [right-store](projects/right-store/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [sole-trader-saas](projects/sole-trader-saas/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
-| ⏸️ | [store-dash](projects/store-dash/README.md) | 28 | 184 | `█▁▁▁▁▁▁▁▁▁` |
+| ⏸️ | [store-dash](projects/store-dash/README.md) | 29 | 184 | `█▁▁▁▁▁▁▁▁▁` |
 
 ---
 
@@ -180,4 +181,4 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 09-01 20:26 | company | Turn settled · O.449 |
 | 09-01 20:26 | company | Turn settled · O.446 |
 
-<sub>Rendered from the repo at frame #1135 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1148 · immediate mode, no client state</sub>
