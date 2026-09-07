@@ -4,25 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1149` · 2026-09-07 08:18 UTC
+`FRAME #1150` · 2026-09-07 08:41 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1075 → #1149** · 74 ticks · 5 d 19 h · `fa84f2ff` · dashboards + tick reports
+**#1075 → #1150** · 75 ticks · 5 d 20 h · `fa84f2ff` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
+| 1149 | [Seed Crystallisation REVIEW](Operations/_contracts/seed-crystallisation.REVIEW.md) | The company asked you about this. You answered. |
+| 1149 | [Model Selection REVIEW](Operations/_contracts/model-selection.REVIEW.md) | The company asked you about this. |
+| 1149 | [pipeline RP-8](Operations/_contracts/pipeline.REVIEW.md) | Raised for your decision. |
 | 1144 | [Partnership Integration Services Agreement](Operations/_work/approvals/contract-proposal-partnership-integration-services-agreement.md) | Raised for your decision. |
-| 1130 | [Seed Crystallisation REVIEW](Operations/_contracts/seed-crystallisation.REVIEW.md) | The company asked you about this. |
-| 1130 | [pipeline RP-6](Operations/_contracts/pipeline.REVIEW.md) | Raised for your decision. |
-| 1130 | [model-selection RP-1](Operations/_contracts/model-selection.REVIEW.md) | Raised for your decision. |
-| 1130 | [voice-note-import-contract RP-3](Operations/_contracts/voice-note-import-contract.REVIEW.md) | Raised for your decision. |
-| 1130 | [pipeline RP-7](Operations/_contracts/pipeline.REVIEW.md) | Raised for your decision. |
 | 1130 | [model-selection RP-2](Operations/_contracts/model-selection.REVIEW.md) | Raised for your decision. |
+| 1130 | [pipeline RP-7](Operations/_contracts/pipeline.REVIEW.md) | Raised for your decision. |
+| 1130 | [voice-note-import-contract RP-3](Operations/_contracts/voice-note-import-contract.REVIEW.md) | Raised for your decision. |
 
 **Elsewhere**
 
@@ -33,7 +33,7 @@
 | 1101 | [Update on Charities project status](Operations/_work/P.012-Update-on-Charities-project-status.md) | Created. |
 | 1080 | [London Crypto Networking Event Attendance](Operations/_work/P.011-London-Crypto-Networking-Event-Attendance.md) | Created. |
 
-Beneath it: 0 progressed, 3 created, 399 inspected without change.
+Beneath it: 0 progressed, 3 created, 418 inspected without change.
 
 ⚑ **Needs you now** — model-selection.REVIEW
 
@@ -48,16 +48,16 @@ Beneath it: 0 progressed, 3 created, 399 inspected without change.
 **Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█
+█▁
 █ latest move · 08:19
-▁–█ tick-report activity · 0 reports · 7 min   (frames #1149 → #1149)
+▁–█ tick-report activity · 1 reports · 22 min   (frames #1150 → #1150)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **0** |
-| Time since latest move | 7 min |
+| Tick reports since latest move | **1** |
+| Time since latest move | 22 min |
 | Company obligations | 1 (1 raw records) |
 | Waiting on you | 1 |
 
@@ -182,4 +182,4 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 09-01 20:26 | company | Turn settled · O.453 |
 | 09-01 20:26 | company | Turn settled · O.452 |
 
-<sub>Rendered from the repo at frame #1149 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1150 · immediate mode, no client state</sub>
