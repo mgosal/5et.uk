@@ -4,24 +4,24 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1176` · 2026-09-07 16:04 UTC
+`FRAME #1177` · 2026-09-07 16:19 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1176** · 21 ticks · 5 h 42 m · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1177** · 22 ticks · 5 h 57 m · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1175 | [ema-sa RP-4](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| 1175 | [fathom-import RP-5](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| 1175 | [ema-sa RP-2](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| 1175 | [ema-sa RP-5](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| 1175 | [ema-sa RP-1](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1175 | [ema-sa RP-3](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1175 | [ema-sa RP-2](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1175 | [ema-sa RP-4](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1175 | [ema-sa RP-5](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1175 | [fathom-import RP-5](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1175 | [ema-sa RP-1](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1172 | [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) | The company took this on. |
 
 **Elsewhere**
@@ -46,15 +46,15 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁
+█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁
 █ latest move · 10:23
-▁–█ tick-report activity · 21 reports · 5 h   (frames #1156 → #1176)
+▁–█ tick-report activity · 22 reports · 5 h   (frames #1156 → #1177)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **21** |
+| Tick reports since latest move | **22** |
 | Time since latest move | 5 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
@@ -106,7 +106,7 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ✕ Open review points — 24
+## ✕ Open review points — 20
 
 | Contract | Point | Status |
 |---|---|---|
@@ -116,13 +116,9 @@ Nothing is waiting on you. The company may still have work to do.
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-5: Contract proposals bypass the canonical attention stream | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-6: Review points bypass the canonical attention stream | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-7: Every open review point halts its contract, because points carry no materiality | open |
-| [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-1: Named-source wiring — new row vs replace stub | open — Director accepted default (second slot), 2026-09-07 |
-| [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-2: Integration record does not exist yet | open — Director chose symlink over copy, 2026-09-07 |
-| [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-3: Attendee scope differs from ema-mcp gold | open — Director accepted default (Mandip-only), 2026-09-07 |
 | [model-selection](Operations/_contracts/model-selection.REVIEW.md) | RP-2: The resolution floor is specified but the deliverable cannot express it | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-4: Human response reconciliation waits for the schedule | open |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-8: Index seed counts do not match the themes | open |
-| [ema-sa](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | RP-6: Fat script vs named ingest row | open — `fathom-import` implemented 2026-09-07; schedule row pending shadow attestation |
 | [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-4: Partner routing and AI classification omitted | open |
 | [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-6: `fathom.api` capability not yet registered | open |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-4: Implement inductive analysis as contracted | open — direction decided 2026-09-04 (option C); found already satisfied in the trial module, awaiting verification by supervised trial |
@@ -185,4 +181,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1176 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1177 · immediate mode, no client state</sub>
