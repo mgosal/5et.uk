@@ -4,25 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1148` · 2026-09-04 15:08 UTC
+`FRAME #1149` · 2026-09-07 08:18 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1075 → #1148** · 73 ticks · 3 d 2 h · `fa84f2ff` · dashboards + tick reports
+**#1075 → #1149** · 74 ticks · 5 d 19 h · `fa84f2ff` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1144 | Partnership Integration Services Agreement | Raised for your decision. |
+| 1144 | [Partnership Integration Services Agreement](Operations/_work/approvals/contract-proposal-partnership-integration-services-agreement.md) | Raised for your decision. |
 | 1130 | [Seed Crystallisation REVIEW](Operations/_contracts/seed-crystallisation.REVIEW.md) | The company asked you about this. |
-| 1130 | model-selection RP-2 | Raised for your decision. |
-| 1130 | voice-note-import-contract RP-3 | Raised for your decision. |
-| 1130 | pipeline RP-6 | Raised for your decision. |
-| 1130 | pipeline RP-7 | Raised for your decision. |
-| 1130 | model-selection RP-1 | Raised for your decision. |
+| 1130 | [pipeline RP-6](Operations/_contracts/pipeline.REVIEW.md) | Raised for your decision. |
+| 1130 | [model-selection RP-1](Operations/_contracts/model-selection.REVIEW.md) | Raised for your decision. |
+| 1130 | [voice-note-import-contract RP-3](Operations/_contracts/voice-note-import-contract.REVIEW.md) | Raised for your decision. |
+| 1130 | [pipeline RP-7](Operations/_contracts/pipeline.REVIEW.md) | Raised for your decision. |
+| 1130 | [model-selection RP-2](Operations/_contracts/model-selection.REVIEW.md) | Raised for your decision. |
 
 **Elsewhere**
 
@@ -33,9 +33,9 @@
 | 1101 | [Update on Charities project status](Operations/_work/P.012-Update-on-Charities-project-status.md) | Created. |
 | 1080 | [London Crypto Networking Event Attendance](Operations/_work/P.011-London-Crypto-Networking-Event-Attendance.md) | Created. |
 
-Beneath it: 0 progressed, 3 created, 380 inspected without change.
+Beneath it: 0 progressed, 3 created, 399 inspected without change.
 
-⚑ **Needs you now** — seed-crystallisation.REVIEW
+⚑ **Needs you now** — model-selection.REVIEW
 
 ---
 
@@ -43,21 +43,21 @@ Beneath it: 0 progressed, 3 created, 380 inspected without change.
 
 ### YOU — **1 waiting** · COMPANY — **1 owed**
 
-**Latest move:** — · 2026-09-04 09:27:03 UTC
+**Latest move:** — · 2026-09-07 08:19:03 UTC
 
 **Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
 
 ```
-█▁▁▁▄▁▁▃▁▁▁▄▁▁█▁▁▁▄
-█ latest move · 09:27
-▁–█ tick-report activity · 18 reports · 7 h   (frames #1131 → #1148)
+█
+█ latest move · 08:19
+▁–█ tick-report activity · 0 reports · 7 min   (frames #1149 → #1149)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **18** |
-| Time since latest move | 7 h |
+| Tick reports since latest move | **0** |
+| Time since latest move | 7 min |
 | Company obligations | 1 (1 raw records) |
 | Waiting on you | 1 |
 
@@ -75,7 +75,7 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 | Since | Question |
 |---|---|
-| 09-04 09:27 | [seed-crystallisation.REVIEW](Operations/_contracts/seed-crystallisation.REVIEW.md) |
+| 09-07 08:19 | [model-selection.REVIEW](Operations/_contracts/model-selection.REVIEW.md) |
 
 ---
 
@@ -107,18 +107,13 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 ---
 
-## ✕ Open review points — 19
+## ✕ Open review points — 20
 
 | Contract | Point | Status |
 |---|---|---|
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-1: Require a no-op for unchanged inputs | open — awaiting supervised trial |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-2: Validate source provenance before mutation | open — operator remedied 2026-08-25, awaiting supervised trial |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-3: Exclude generated outputs from research inputs | open — contract amended and operator remedied 2026-08-25, awaiting supervised trial |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-4: Implement inductive analysis as contracted | open — direction decided 2026-09-04 (option C); found already satisfied in the trial module, awaiting verification by supervised trial |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-5: Bound autonomous mutation | open — awaiting supervised trial |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-6: Replace retry-on-breach with containment | open — awaiting supervised trial |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-9: Theme files grow without bound | open — awaiting supervised trial |
 | [model-selection](Operations/_contracts/model-selection.REVIEW.md) | RP-1: The originating run does not satisfy the contract it produced | open |
+| [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-2: The contract cannot leave trial, and says so to no one | open |
+| [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-3: New evidence reopens the cost basis on which RP-1 was resolved | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-2: The company turn has no completion criterion | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-3: Support wrappers are created without an idempotency check | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-5: Contract proposals bypass the canonical attention stream | open |
@@ -126,10 +121,16 @@ grey routine · cyan durable pipeline output · purple LLM work
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-7: Every open review point halts its contract, because points carry no materiality | open |
 | [model-selection](Operations/_contracts/model-selection.REVIEW.md) | RP-2: The resolution floor is specified but the deliverable cannot express it | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-4: Human response reconciliation waits for the schedule | open |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-7: Define supervised trial and promotion evidence | open — awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-8: Index seed counts do not match the themes | open |
-| [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-2: The contract cannot leave trial, and says so to no one | open |
-| [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-3: New evidence reopens the cost basis on which RP-1 was resolved | open |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-4: Implement inductive analysis as contracted | open — direction decided 2026-09-04 (option C); found already satisfied in the trial module, awaiting verification by supervised trial |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-1: Require a no-op for unchanged inputs | open — awaiting supervised trial |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-2: Validate source provenance before mutation | open — operator remedied 2026-08-25, awaiting supervised trial |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-3: Exclude generated outputs from research inputs | open — contract amended and operator remedied 2026-08-25, awaiting supervised trial |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-5: Bound autonomous mutation | open — awaiting supervised trial |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-6: Replace retry-on-breach with containment | open — awaiting supervised trial |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-9: Theme files grow without bound | open — awaiting supervised trial |
+| [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-8: A contract could report success while delivering nothing | open — awaiting supervised trial |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-7: Define supervised trial and promotion evidence | open — awaiting supervised trial |
 
 ---
 
@@ -172,13 +173,13 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 | Time | Who | Event |
 |---|---|---|
+| 09-07 08:19 | company | Cue published · model |
+| 09-07 08:19 | company | Question prepared · model |
+| 09-04 17:58 | company | Turn settled · seed |
 | 09-04 09:27 | company | Cue published · seed |
 | 09-04 09:27 | company | Question prepared · seed |
 | 09-01 20:26 | company | Turn settled · contract |
 | 09-01 20:26 | company | Turn settled · O.453 |
 | 09-01 20:26 | company | Turn settled · O.452 |
-| 09-01 20:26 | company | Turn settled · O.450 |
-| 09-01 20:26 | company | Turn settled · O.449 |
-| 09-01 20:26 | company | Turn settled · O.446 |
 
-<sub>Rendered from the repo at frame #1148 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1149 · immediate mode, no client state</sub>

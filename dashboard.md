@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1148.md" style="font-size:11px; color:#5f6368;">#1148</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1149.md" style="font-size:11px; color:#5f6368;">#1149</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -26,7 +26,7 @@
 
 ## Last Tick
 
-**[Tick #1148](_pipeline/reports/tick-1148.md)** · 2026-09-04 15:08 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1149](_pipeline/reports/tick-1149.md)** · 2026-09-07 08:18 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -80,31 +80,31 @@
 - **Waiting on you**: 1
 - **Company obligations**: 1
 - **Raw unsettled records**: 1
-- **Latest move at**: 2026-09-04T09:27:03.328729+00:00
+- **Latest move at**: 2026-09-07T08:19:03.610188+00:00
 - **Latest move**: —
 - **Latest move evidence**: —
-- **Latest move tick**: 1131
+- **Latest move tick**: 1149
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-01T12:46:31.530978+00:00
 - **Turn tick**: 1075
 - **Turn commit**: fa84f2ff
-- **Window**: 73 ticks · 3 d 2 h
+- **Window**: 74 ticks · 5 d 19 h
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 7
 - **Elsewhere**: 4
-- **Beneath**: 0 progressed, 3 created, 380 inspected without change
+- **Beneath**: 0 progressed, 3 created, 399 inspected without change
 
 | Scope | Tick | Item | What happened |
 |---|---:|---|---|
-| yours | 1144 | Partnership Integration Services Agreement | Raised for your decision. |
+| yours | 1144 | [Partnership Integration Services Agreement](Operations/_work/approvals/contract-proposal-partnership-integration-services-agreement.md) | Raised for your decision. |
 | yours | 1130 | [Seed Crystallisation REVIEW](Operations/_contracts/seed-crystallisation.REVIEW.md) | The company asked you about this. |
-| yours | 1130 | model-selection RP-2 | Raised for your decision. |
-| yours | 1130 | voice-note-import-contract RP-3 | Raised for your decision. |
-| yours | 1130 | pipeline RP-6 | Raised for your decision. |
-| yours | 1130 | pipeline RP-7 | Raised for your decision. |
-| yours | 1130 | model-selection RP-1 | Raised for your decision. |
+| yours | 1130 | [pipeline RP-6](Operations/_contracts/pipeline.REVIEW.md) | Raised for your decision. |
+| yours | 1130 | [model-selection RP-1](Operations/_contracts/model-selection.REVIEW.md) | Raised for your decision. |
+| yours | 1130 | [voice-note-import-contract RP-3](Operations/_contracts/voice-note-import-contract.REVIEW.md) | Raised for your decision. |
+| yours | 1130 | [pipeline RP-7](Operations/_contracts/pipeline.REVIEW.md) | Raised for your decision. |
+| yours | 1130 | [model-selection RP-2](Operations/_contracts/model-selection.REVIEW.md) | Raised for your decision. |
 | elsewhere | 1144 | [Kalibrate x RightStore Partnership Integration](projects/store-dash/_work/SD.325-Kalibrate-x-RightStore-Partnership-Integration.md) | Created. |
 | elsewhere | 1101 | [Operations](Operations/dashboard.md) | Load 37 → 41 active. |
 | elsewhere | 1101 | [Update on Charities project status](Operations/_work/P.012-Update-on-Charities-project-status.md) | Created. |
@@ -114,7 +114,7 @@
 
 | Since | Question |
 |---|---|
-| 2026-09-04T09:27:03.328729+00:00 | [seed-crystallisation.REVIEW](Operations/_contracts/seed-crystallisation.REVIEW.md) |
+| 2026-09-07T08:19:03.610188+00:00 | [model-selection.REVIEW](Operations/_contracts/model-selection.REVIEW.md) |
 
 ### Company Owes (1)
 
@@ -122,28 +122,10 @@
 |---|---|---:|---|
 | 2026-08-26T18:12:56.073931+00:00 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 
-### Activity Since Latest Move (18 ticks)
+### Activity Since Latest Move (0 ticks)
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1131](_pipeline/reports/tick-1131.md) | 7.2s | 0 | 0 | 0 | 0 |
-| [#1132](_pipeline/reports/tick-1132.md) | 6.3s | 0 | 0 | 0 | 0 |
-| [#1133](_pipeline/reports/tick-1133.md) | 6.2s | 0 | 0 | 0 | 0 |
-| [#1134](_pipeline/reports/tick-1134.md) | 317.3s | 19 | 0 | 0 | 0 |
-| [#1135](_pipeline/reports/tick-1135.md) | 7.3s | 0 | 0 | 0 | 0 |
-| [#1136](_pipeline/reports/tick-1136.md) | 5.7s | 0 | 0 | 0 | 0 |
-| [#1137](_pipeline/reports/tick-1137.md) | 44.0s | 19 | 0 | 0 | 0 |
-| [#1138](_pipeline/reports/tick-1138.md) | 6.3s | 0 | 0 | 0 | 0 |
-| [#1139](_pipeline/reports/tick-1139.md) | 6.8s | 0 | 0 | 0 | 0 |
-| [#1140](_pipeline/reports/tick-1140.md) | 7.4s | 0 | 0 | 0 | 0 |
-| [#1141](_pipeline/reports/tick-1141.md) | 62.9s | 19 | 0 | 0 | 0 |
-| [#1142](_pipeline/reports/tick-1142.md) | 8.0s | 0 | 0 | 0 | 0 |
-| [#1143](_pipeline/reports/tick-1143.md) | 10.4s | 0 | 0 | 0 | 0 |
-| [#1144](_pipeline/reports/tick-1144.md) | 55.7s | 19 | 1 | 0 | 695 |
-| [#1145](_pipeline/reports/tick-1145.md) | 7.2s | 0 | 0 | 0 | 0 |
-| [#1146](_pipeline/reports/tick-1146.md) | 7.4s | 0 | 0 | 0 | 0 |
-| [#1147](_pipeline/reports/tick-1147.md) | 7.1s | 0 | 0 | 0 | 0 |
-| [#1148](_pipeline/reports/tick-1148.md) | 7260.6s | 19 | 0 | 0 | 0 |
 
 ## Health
 
@@ -179,19 +161,38 @@ pie title Active Status Distribution
 
 ## Attention
 
-### Decisions Waiting (33)
+### Decisions Waiting (14 of 34 need you)
 
-Blocked on a human answer — not staleness.
+Grouped by what each is waiting on. The first two groups are yours.
+
+**Your choice (3)** — A real decision — alternatives are on the table
 
 | Kind | Subject | Detail | Consequence | Link |
 |------|---------|--------|-------------|------|
-| Review point | seed-crystallisation RP-1 | blocking — Require a no-op for unchanged inputs | ⛔ halting seed-crystallisation | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
-| Review point | seed-crystallisation RP-2 | blocking — Validate source provenance before mutation | ⛔ halting seed-crystallisation | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
-| Review point | seed-crystallisation RP-3 | blocking — Exclude generated outputs from research inputs | ⛔ halting seed-crystallisation | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
-| Review point | seed-crystallisation RP-4 | blocking — Implement inductive analysis as contracted | ⛔ halting seed-crystallisation | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
-| Review point | seed-crystallisation RP-5 | blocking — Bound autonomous mutation | ⛔ halting seed-crystallisation | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
-| Review point | seed-crystallisation RP-6 | blocking — Replace retry-on-breach with containment | ⛔ halting seed-crystallisation | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
-| Review point | seed-crystallisation RP-9 | blocking — Theme files grow without bound | ⛔ halting seed-crystallisation | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
+| Review point | model-selection RP-1 | blocking — The originating run does not satisfy the contract it | blocks approval only | [View](Operations/_contracts/model-selection.REVIEW.md) |
+| Review point | voice-note-import-contract RP-2 | material — The contract cannot leave trial, and says so to no o | blocks approval only | [View](Operations/_contracts/voice-note-import-contract.REVIEW.md) |
+| Review point | voice-note-import-contract RP-3 | minor — New evidence reopens the cost basis on which RP-1 wa | blocks approval only | [View](Operations/_contracts/voice-note-import-contract.REVIEW.md) |
+
+**Your review (11)** — One proposed action each — confirm or send back
+
+| Kind | Subject | Detail | Consequence | Link |
+|------|---------|--------|-------------|------|
+| Contract proposal | Sales Workflow Formalization | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sales-workflow-formalization.md) |
+| Contract proposal | SDLC Process Review Services Agreement | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) |
+| Contract proposal | Support Amendment — Seed Crystallisation | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-seed_crystallisation-support-amendment.md) |
+| Review point | pipeline RP-2 | blocking — The company turn has no completion criterion | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
+| Review point | pipeline RP-3 | blocking — Support wrappers are created without an idempotency  | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
+| Review point | pipeline RP-5 | blocking — Contract proposals bypass the canonical attention st | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
+| Review point | pipeline RP-6 | blocking — Review points bypass the canonical attention stream | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
+| Review point | pipeline RP-7 | blocking — Every open review point halts its contract, because  | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
+| Review point | model-selection RP-2 | material — The resolution floor is specified but the deliverabl | blocks approval only | [View](Operations/_contracts/model-selection.REVIEW.md) |
+| Review point | pipeline RP-4 | material — Human response reconciliation waits for the schedule | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
+| Review point | seed-crystallisation RP-8 | material — Index seed counts do not match the themes | blocks approval only | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
+
+**Waiting on a build (12)** — Decided already; no decision needed
+
+| Kind | Subject | Detail | Consequence | Link |
+|------|---------|--------|-------------|------|
 | Contract proposal | Agent-Human Interaction Services Agreement | Blocked — missing prerequisites — `pipeline.README.md` | blocks approval only | [View](Operations/_work/approvals/contract-proposal-agent-human-interaction-services-agreement.md) |
 | Contract proposal | Communication Archival Services Agreement | Blocked — missing prerequisites — `../Compliance/privacy.README.md`, `../Compliance/confidentiality.README.md` | blocks approval only | [View](Operations/_work/approvals/contract-proposal-communication-archival-services-agreement.md) |
 | Contract proposal | Event Attendance Services Agreement | Blocked — missing prerequisites — `../Accounts/expenses.README.md`, `../Operations/partnerships.README.md` | blocks approval only | [View](Operations/_work/approvals/contract-proposal-event-attendance-services-agreement.md) |
@@ -202,69 +203,69 @@ Blocked on a human answer — not staleness.
 | Contract proposal | Project Documentation and Reporting Services Agreeme | Blocked — missing prerequisites — `../Accounts/README.md`, `../Operations/_contracts/director-resolution.README.md` | blocks approval only | [View](Operations/_work/approvals/contract-proposal-project-documentation-and-reporting-services-agreement.md) |
 | Contract proposal | Project Status Update Services Agreement | Blocked — missing prerequisites — `../Governance/project-governance.README.md` | blocks approval only | [View](Operations/_work/approvals/contract-proposal-project-status-update-services-agreement.md) |
 | Contract proposal | Purchase Order Processing Services Agreement | Blocked — missing prerequisites — `pipeline.README.md`, `../Services/README.md`, `../Accounts/tax-compliance.README.md`, `../Accounts/README.md` | blocks approval only | [View](Operations/_work/approvals/contract-proposal-purchase-order-processing-services-agreement.md) |
-| Contract proposal | Sales Workflow Formalization | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sales-workflow-formalization.md) |
-| Contract proposal | SDLC Process Review Services Agreement | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) |
-| Contract proposal | Support Amendment — Seed Crystallisation | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-seed_crystallisation-support-amendment.md) |
 | Contract proposal | WhatsApp Digest Processing Services Agreement | Blocked — missing prerequisites — `../People/_data/people.md` | blocks approval only | [View](Operations/_work/approvals/contract-proposal-whatsapp-digest-processing-services-agreement.md) |
-| Review point | model-selection RP-1 | blocking — The originating run does not satisfy the contract it | blocks approval only | [View](Operations/_contracts/model-selection.REVIEW.md) |
-| Review point | pipeline RP-2 | blocking — The company turn has no completion criterion | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
-| Review point | pipeline RP-3 | blocking — Support wrappers are created without an idempotency  | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
-| Review point | pipeline RP-5 | blocking — Contract proposals bypass the canonical attention st | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
-| Review point | pipeline RP-6 | blocking — Review points bypass the canonical attention stream | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
-| Review point | pipeline RP-7 | blocking — Every open review point halts its contract, because  | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
-| Review point | model-selection RP-2 | material — The resolution floor is specified but the deliverabl | blocks approval only | [View](Operations/_contracts/model-selection.REVIEW.md) |
-| Review point | pipeline RP-4 | material — Human response reconciliation waits for the schedule | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
+| Review point | seed-crystallisation RP-4 | blocking — Implement inductive analysis as contracted | ⛔ halting seed-crystallisation | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
+
+**Waiting on a run (8)** — Remedied already; needs evidence, not a decision
+
+| Kind | Subject | Detail | Consequence | Link |
+|------|---------|--------|-------------|------|
+| Review point | seed-crystallisation RP-1 | blocking — Require a no-op for unchanged inputs | ⛔ halting seed-crystallisation | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
+| Review point | seed-crystallisation RP-2 | blocking — Validate source provenance before mutation | ⛔ halting seed-crystallisation | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
+| Review point | seed-crystallisation RP-3 | blocking — Exclude generated outputs from research inputs | ⛔ halting seed-crystallisation | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
+| Review point | seed-crystallisation RP-5 | blocking — Bound autonomous mutation | ⛔ halting seed-crystallisation | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
+| Review point | seed-crystallisation RP-6 | blocking — Replace retry-on-breach with containment | ⛔ halting seed-crystallisation | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
+| Review point | seed-crystallisation RP-9 | blocking — Theme files grow without bound | ⛔ halting seed-crystallisation | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
+| Review point | pipeline RP-8 | blocking — A contract could report success while delivering not | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | seed-crystallisation RP-7 | material — Define supervised trial and promotion evidence | blocks approval only | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
-| Review point | seed-crystallisation RP-8 | material — Index seed counts do not match the themes | blocks approval only | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
-| Review point | voice-note-import-contract RP-2 | material — The contract cannot leave trial, and says so to no o | blocks approval only | [View](Operations/_contracts/voice-note-import-contract.REVIEW.md) |
-| Review point | voice-note-import-contract RP-3 | minor — New evidence reopens the cost basis on which RP-1 wa | blocks approval only | [View](Operations/_contracts/voice-note-import-contract.REVIEW.md) |
 
 ### Stale Work Items
 
 | Function | Item | Reason | Link |
 |----------|------|--------|------|
-| Accounts | The Fox & Hounds, Whittlebury — Business | Open 100 days | [A.011](Accounts/_work/A.011-Retail-Receipt.md) |
-| Compliance | Register for Corporation Tax | Open 112 days | [C.004.1](Compliance/_work/C.004.1-Register-for-corporation-tax.md) |
-| Compliance | Assess VAT registration requirement | Open 112 days | [C.004.2](Compliance/_work/C.004.2-Assess-VAT-registration.md) |
-| Compliance | virtual-office-service-address.md | Open 104 days | [C.015](Compliance/_work/C.015-virtual-office-service-addressmd.md) |
-| Compliance | ICO Data Protection Fee Direct Debit Con | Open 72 days | [C.017](Compliance/_work/C.017-ICO-Data-Protection-Fee-Direct-Debit-Confirmation.md) |
-| Compliance | BYOD Policy Review and Compliance | Open 70 days | [C.021](Compliance/_work/C.021-BYOD-Policy-Review-and-Compliance.md) |
-| Compliance | Health and Safety compliance process imp | Open 67 days | [C.028](Compliance/_work/C.028-Health-and-Safety-compliance-process-implementation.md) |
-| Compliance | EU AI Act Article 52 Compliance | Open 67 days | [C.029](Compliance/_work/C.029-EU-AI-Act-Article-52-Compliance.md) |
-| Compliance | Compliance: Employment Rights Act s.1 co | Open 67 days | [C.034](Compliance/_work/C.034-Compliance-Employment-Rights-Act-s1-contract.md) |
+| Accounts | The Fox & Hounds, Whittlebury — Business | Open 103 days | [A.011](Accounts/_work/A.011-Retail-Receipt.md) |
+| Compliance | Register for Corporation Tax | Open 115 days | [C.004.1](Compliance/_work/C.004.1-Register-for-corporation-tax.md) |
+| Compliance | Assess VAT registration requirement | Open 115 days | [C.004.2](Compliance/_work/C.004.2-Assess-VAT-registration.md) |
+| Compliance | virtual-office-service-address.md | Open 107 days | [C.015](Compliance/_work/C.015-virtual-office-service-addressmd.md) |
+| Compliance | ICO Data Protection Fee Direct Debit Con | Open 75 days | [C.017](Compliance/_work/C.017-ICO-Data-Protection-Fee-Direct-Debit-Confirmation.md) |
+| Compliance | BYOD Policy Review and Compliance | Open 73 days | [C.021](Compliance/_work/C.021-BYOD-Policy-Review-and-Compliance.md) |
+| Compliance | Health and Safety compliance process imp | Open 70 days | [C.028](Compliance/_work/C.028-Health-and-Safety-compliance-process-implementation.md) |
+| Compliance | EU AI Act Article 52 Compliance | Open 70 days | [C.029](Compliance/_work/C.029-EU-AI-Act-Article-52-Compliance.md) |
+| Compliance | Compliance: Employment Rights Act s.1 co | Open 70 days | [C.034](Compliance/_work/C.034-Compliance-Employment-Rights-Act-s1-contract.md) |
 | Compliance | Anonymous User Experience and Contract F | Awaiting input | [C.037](Compliance/_work/C.037-Anonymous-User-Experience-and-Contract-Framework.md) |
-| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 22 days | [I.004](Operations/_work/I.004-WhatsApp-digest-JatinMandipKash-2026-08-12.md) |
-| Operations | InstantID tool exploration | Open 21 days | [I.005](Operations/_work/I.005-InstantID-tool-exploration.md) |
-| Operations | Apple Developer Program Enrollment | Open 60 days | [O.008](Operations/_work/O.008-Apple-Developer-Program-Enrollment.md) |
-| Operations | Migrate Winston app to Ema Next | Open 56 days | [O.009](Operations/_work/O.009-Migrate-Winston-app-to-Ema-Next.md) |
-| Operations | Integration of courier services into SPI | Open 38 days | [P.003](Operations/_work/P.003-Integration-of-courier-services-into-SPINE.md) |
-| Operations | RightStore Nimbus Proposal V2 Review | Open 35 days | [P.004](Operations/_work/P.004-RightStore-Nimbus-Proposal-V2-Review.md) |
-| Operations | RightStore by Nimbus deck development | Open 35 days | [P.005](Operations/_work/P.005-RightStore-by-Nimbus-deck-development.md) |
-| Operations | IBIS system overview for Christie & Co | Open 31 days | [P.006](Operations/_work/P.006-IBIS-system-overview-for-Christie-Co.md) |
-| Operations | Project prioritization and competitor re | Open 31 days | [P.007](Operations/_work/P.007-Project-prioritization-and-competitor-research.md) |
-| Operations | StoreDash client and investment coordina | Open 15 days | [P.008](Operations/_work/P.008-StoreDash-client-and-investment-coordination.md) |
-| People | H.002 — Tech Toast Attendee Outreach | Open 59 days | [H.002](People/_work/H.002-tech-toast-attendee-outreach.md) |
-| People | Review compensation and workload distrib | Open 56 days | [H.003](People/_work/H.003-Review-compensation-and-workload-distribution.md) |
-| People | People Development and Learning Framewor | Open 52 days | [H.004](People/_work/H.004-People-Development-and-Learning-Framework.md) |
-| People | Onboarding and Integration of James Lowm | Open 51 days | [H.005](People/_work/H.005-Onboarding-and-Integration-of-James-Lowman-CEO.md) |
-| People | CEO recruitment update: James Lowman wit | Open 36 days | [H.006](People/_work/H.006-CEO-recruitment-update-James-Lowman-withdrawal.md) |
-| People | Potential CEO candidate: Ilann Hepworth | Open 36 days | [H.007](People/_work/H.007-Potential-CEO-candidate-Ilann-Hepworth.md) |
-| Services | Nimbus platform access and subscription  | Open 67 days | [S.018](Services/_work/S.018-Nimbus-platform-access-and-subscription-management.md) |
+| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 25 days | [I.004](Operations/_work/I.004-WhatsApp-digest-JatinMandipKash-2026-08-12.md) |
+| Operations | InstantID tool exploration | Open 24 days | [I.005](Operations/_work/I.005-InstantID-tool-exploration.md) |
+| Operations | Apple Developer Program Enrollment | Open 63 days | [O.008](Operations/_work/O.008-Apple-Developer-Program-Enrollment.md) |
+| Operations | Migrate Winston app to Ema Next | Open 59 days | [O.009](Operations/_work/O.009-Migrate-Winston-app-to-Ema-Next.md) |
+| Operations | Review of new SDLC process flow | Open 17 days | [O.403](Operations/_work/O.403-Review-of-new-SDLC-process-flow.md) |
+| Operations | Integration of courier services into SPI | Open 41 days | [P.003](Operations/_work/P.003-Integration-of-courier-services-into-SPINE.md) |
+| Operations | RightStore Nimbus Proposal V2 Review | Open 38 days | [P.004](Operations/_work/P.004-RightStore-Nimbus-Proposal-V2-Review.md) |
+| Operations | RightStore by Nimbus deck development | Open 38 days | [P.005](Operations/_work/P.005-RightStore-by-Nimbus-deck-development.md) |
+| Operations | IBIS system overview for Christie & Co | Open 34 days | [P.006](Operations/_work/P.006-IBIS-system-overview-for-Christie-Co.md) |
+| Operations | Project prioritization and competitor re | Open 34 days | [P.007](Operations/_work/P.007-Project-prioritization-and-competitor-research.md) |
+| Operations | StoreDash client and investment coordina | Open 18 days | [P.008](Operations/_work/P.008-StoreDash-client-and-investment-coordination.md) |
+| People | H.002 — Tech Toast Attendee Outreach | Open 62 days | [H.002](People/_work/H.002-tech-toast-attendee-outreach.md) |
+| People | Review compensation and workload distrib | Open 59 days | [H.003](People/_work/H.003-Review-compensation-and-workload-distribution.md) |
+| People | People Development and Learning Framewor | Open 55 days | [H.004](People/_work/H.004-People-Development-and-Learning-Framework.md) |
+| People | Onboarding and Integration of James Lowm | Open 54 days | [H.005](People/_work/H.005-Onboarding-and-Integration-of-James-Lowman-CEO.md) |
+| People | CEO recruitment update: James Lowman wit | Open 39 days | [H.006](People/_work/H.006-CEO-recruitment-update-James-Lowman-withdrawal.md) |
+| People | Potential CEO candidate: Ilann Hepworth | Open 39 days | [H.007](People/_work/H.007-Potential-CEO-candidate-Ilann-Hepworth.md) |
+| Services | Nimbus platform access and subscription  | Open 70 days | [S.018](Services/_work/S.018-Nimbus-platform-access-and-subscription-management.md) |
 
 ## Detail
 
 ### Pipeline
 
-**Total Ticks**: 1148
+**Total Ticks**: 1149
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-04 15:43 | 0 new, 0 synced |
-| github-sync | 🟢 Yes | ❌ error | 2026-09-04 16:08 | 0 synced |
-| stream-deck | 🟢 Yes | ✅ ok | 2026-09-04 16:08 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-07 09:18 | 8 new, 8 synced |
+| github-sync | 🟢 Yes | ✅ ok | 2026-09-07 09:18 | 0 synced |
+| stream-deck | 🟢 Yes | ✅ ok | 2026-09-07 09:18 | 0 copied, 0 noise, 0 hal |
+| processor-discover | 🟢 Yes | ✅ ok | — | 29 processed, 0 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
-| whatsapp | 🟢 Yes | ✅ ok | 2026-09-04 16:08 | 0 processed, 0 failed |
+| whatsapp | 🟢 Yes | ✅ ok | 2026-09-07 09:18 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
 | hostinger | ⚪ No | — | — | — |
 | store-email | 🟢 Yes | — | — | — |
@@ -275,11 +276,11 @@ Blocked on a human answer — not staleness.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-07 09:18](_pipeline/logs/2026-09-07_09-18-05.md) | 478s | [✓](_pipeline/logs/2026-09-07_09-18-05.md#icloud-email) 8 new, 8 synced | [✓](_pipeline/logs/2026-09-07_09-18-05.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-07_09-18-05.md#processor-discover) 29 processed, 0 created | [✓](_pipeline/logs/2026-09-07_09-18-05.md#processor-progress) 0 progressed | $0.0000 | ~0.199g |
 | [2026-09-04 16:08](_pipeline/logs/2026-09-04_16-08-30.md) | 7261s | [✗ (exit 1)](_pipeline/logs/2026-09-04_16-08-30.md#icloud-email) | [✓](_pipeline/logs/2026-09-04_16-08-30.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-04_16-08-30.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-09-04_16-08-30.md#processor-progress) 0 progressed | $0.0000 | ~3.025g |
 | [2026-09-04 15:43](_pipeline/logs/2026-09-04_15-43-23.md) | 7s | [✓](_pipeline/logs/2026-09-04_15-43-23.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-04 15:27](_pipeline/logs/2026-09-04_15-27-56.md) | 7s | [✓](_pipeline/logs/2026-09-04_15-27-56.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-04 15:12](_pipeline/logs/2026-09-04_15-12-31.md) | 7s | [✓](_pipeline/logs/2026-09-04_15-12-31.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
-| [2026-09-04 14:56](_pipeline/logs/2026-09-04_14-56-18.md) | 56s | [✓](_pipeline/logs/2026-09-04_14-56-18.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-04_14-56-18.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-04_14-56-18.md#processor-discover) 1 processed, 1 created | [✓](_pipeline/logs/2026-09-04_14-56-18.md#processor-progress) 0 progressed | $0.0001 | ~0.207g |
 
 ### Source Topology
 
@@ -323,8 +324,7 @@ flowchart TD
 | [Github Issue Sync](Operations/_contracts/github-issue-sync.README.md) | Operations | per-tick | — | ⚪ No |
 | [Icloud Email Import](Operations/_contracts/icloud-email-import.README.md) | Operations | per-tick | — | ⚪ No |
 | [Impact Cascade](Operations/_contracts/impact-cascade.README.md) | Operations | per-tick | 2026-08-25 11:40 | ⚪ No |
-| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-04 18:09 | 🟢 Yes |
-| [Mailroom](Operations/_contracts/mailroom.README.md) | Operations | per-tick | 2026-09-04 18:09 | 🟢 Yes |
+| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-07 09:19 | 🟢 Yes |
 | [Seed Crystallisation](Operations/_contracts/seed-crystallisation.README.md) | Operations | per-tick | 2026-08-24 15:27 | 🟢 Yes |
 | [Stack Improvement](Operations/_contracts/stack-improvement.README.md) | Operations | weekly | — | ⚪ No |
 | [Voice Note Import Contract](Operations/_contracts/voice-note-import-contract.README.md) | Operations | per-tick | 2026-08-29 13:23 | 🟢 Yes |
@@ -362,7 +362,7 @@ flowchart TD
 
 | Metric | Value |
 |--------|-------|
-| Notes | 1227 |
+| Notes | 1405 |
 | Themes | 22 |
 | Coverage | 10.9% |
 
@@ -386,11 +386,11 @@ flowchart TD
 
 | At | Who | Event |
 |---|---|---|
+| 2026-09-07 08:19 | company | Cue published · model |
+| 2026-09-07 08:19 | company | Question prepared · model |
+| 2026-09-04 17:58 | company | Turn settled · seed |
 | 2026-09-04 09:27 | company | Cue published · seed |
 | 2026-09-04 09:27 | company | Question prepared · seed |
 | 2026-09-01 20:26 | company | Turn settled · contract |
 | 2026-09-01 20:26 | company | Turn settled · O.453 |
 | 2026-09-01 20:26 | company | Turn settled · O.452 |
-| 2026-09-01 20:26 | company | Turn settled · O.450 |
-| 2026-09-01 20:26 | company | Turn settled · O.449 |
-| 2026-09-01 20:26 | company | Turn settled · O.446 |
