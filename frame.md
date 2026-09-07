@@ -4,25 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1172` · 2026-09-07 15:01 UTC
+`FRAME #1173` · 2026-09-07 15:16 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1172** · 17 ticks · 4 h 39 m · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1173** · 18 ticks · 4 h 54 m · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1169 | [ema-sa RP-6](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
-| 1169 | [ema-sa RP-1](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
+| 1172 | [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) | The company took this on. |
+| 1169 | [ema-sa RP-2](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
+| 1169 | [ema-sa RP-3](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
 | 1169 | [fathom-import RP-5](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
-| 1169 | [fathom-import RP-3](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
 | 1169 | [ema-sa RP-4](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
-| 1169 | [fathom-import RP-2](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
-| 1169 | [fathom-import RP-1](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
+| 1169 | [fathom-import RP-4](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
+| 1169 | [ema-sa RP-6](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
 
 **Elsewhere**
 
@@ -46,15 +46,15 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁
+█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁
 █ latest move · 10:23
-▁–█ tick-report activity · 17 reports · 4 h   (frames #1156 → #1172)
+▁–█ tick-report activity · 18 reports · 4 h   (frames #1156 → #1173)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **17** |
+| Tick reports since latest move | **18** |
 | Time since latest move | 4 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
@@ -121,9 +121,9 @@ Nothing is waiting on you. The company may still have work to do.
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-7: Every open review point halts its contract, because points carry no materiality | open |
 | [ema-sa](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | RP-4: SA role missing | open — role definition and assignment applied 2026-09-07 |
 | [ema-sa](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | RP-5: README is not the root agreement | open — README rewritten 2026-09-07 |
-| [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-1: Named-source wiring — new row vs replace stub | open |
+| [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-1: Named-source wiring — new row vs replace stub | open — Director accepted default (second slot), 2026-09-07 |
 | [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-2: Integration record does not exist yet | open — Director chose symlink over copy, 2026-09-07 |
-| [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-3: Attendee scope differs from ema-mcp gold | open |
+| [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-3: Attendee scope differs from ema-mcp gold | open — Director accepted default (Mandip-only), 2026-09-07 |
 | [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-5: Shadow evidence procedure before solidification | open |
 | [model-selection](Operations/_contracts/model-selection.REVIEW.md) | RP-2: The resolution floor is specified but the deliverable cannot express it | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-4: Human response reconciliation waits for the schedule | open |
@@ -191,4 +191,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1172 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1173 · immediate mode, no client state</sub>
