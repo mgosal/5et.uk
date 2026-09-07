@@ -4,25 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1175` · 2026-09-07 15:49 UTC
+`FRAME #1176` · 2026-09-07 16:04 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1175** · 20 ticks · 5 h 27 m · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1176** · 21 ticks · 5 h 42 m · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
+| 1175 | [ema-sa RP-4](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1175 | [fathom-import RP-5](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1175 | [ema-sa RP-2](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1175 | [ema-sa RP-5](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1175 | [ema-sa RP-1](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1175 | [ema-sa RP-3](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1172 | [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) | The company took this on. |
-| 1169 | [ema-sa RP-3](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
-| 1169 | [ema-sa RP-1](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
-| 1169 | [ema-sa RP-4](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
-| 1169 | [fathom-import RP-6](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
-| 1169 | [fathom-import RP-4](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
-| 1169 | [ema-sa RP-6](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
 
 **Elsewhere**
 
@@ -46,15 +46,15 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁
+█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁
 █ latest move · 10:23
-▁–█ tick-report activity · 20 reports · 5 h   (frames #1156 → #1175)
+▁–█ tick-report activity · 21 reports · 5 h   (frames #1156 → #1176)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **20** |
+| Tick reports since latest move | **21** |
 | Time since latest move | 5 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
@@ -185,4 +185,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1175 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1176 · immediate mode, no client state</sub>
