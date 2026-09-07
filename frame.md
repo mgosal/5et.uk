@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1160` · 2026-09-07 11:49 UTC
+`FRAME #1161` · 2026-09-07 12:05 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1160** · 5 ticks · 1 h 27 m · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1161** · 6 ticks · 1 h 43 m · `9bfb5a29` · dashboards + tick reports
 
 Nothing surfaced on the frame across this window.
 
@@ -29,15 +29,15 @@ Nothing needs you. The company owes 3.
 **Company owes next:** [Review: Voice Note Import Services Agreement](Operations/_contracts/voice-note-import-contract.REVIEW.md) — Reconcile Mandip's complete response against the canonical task and improve the work before asking again.
 
 ```
-█▁▁▄▁▁
+█▁▁▄▁▁▁
 █ latest move · 10:23
-▁–█ tick-report activity · 5 reports · 1 h   (frames #1156 → #1160)
+▁–█ tick-report activity · 6 reports · 1 h   (frames #1156 → #1161)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **5** |
+| Tick reports since latest move | **6** |
 | Time since latest move | 1 h |
 | Company obligations | 3 (4 raw records) |
 | Waiting on you | 0 |
@@ -161,4 +161,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1160 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1161 · immediate mode, no client state</sub>
