@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1154` · 2026-09-07 10:06 UTC
+`FRAME #1155` · 2026-09-07 10:22 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1153 → #1154** · 1 ticks · 15 min · `ec5ff450` · dashboards + tick reports
+**#1154 → #1155** · 1 ticks · 16 min · `a48243fb` · dashboards + tick reports
 
 Nothing surfaced on the frame across this window.
 
@@ -24,22 +24,22 @@ Nothing needs you. The company owes 3.
 
 ### YOU — **0 waiting** · COMPANY — **3 owed**
 
-**Latest move:** You responded to Review: Voice Note Import Services Agreement. · 2026-09-07 09:59:11 UTC
+**Latest move:** You responded to Review: Voice Note Import Services Agreement. · 2026-09-07 10:23:40 UTC
 
 **Company owes next:** [Review: Voice Note Import Services Agreement](Operations/_contracts/voice-note-import-contract.REVIEW.md) — Reconcile Mandip's complete response against the canonical task and improve the work before asking again.
 
 ```
-█▁
-█ latest move · 09:59
-▁–█ tick-report activity · 1 reports · 7 min   (frames #1154 → #1154)
+█
+█ latest move · 10:23
+▁–█ tick-report activity · 0 reports · 6 min   (frames #1155 → #1155)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **1** |
-| Time since latest move | 7 min |
-| Company obligations | 3 (3 raw records) |
+| Tick reports since latest move | **0** |
+| Time since latest move | 6 min |
+| Company obligations | 3 (4 raw records) |
 | Waiting on you | 0 |
 
 ---
@@ -48,7 +48,7 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 | Obligation | Records | Next action |
 |---|---:|---|
-| [Review: Voice Note Import Services Agreement](Operations/_contracts/voice-note-import-contract.REVIEW.md) | 1 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
+| [Review: Voice Note Import Services Agreement](Operations/_contracts/voice-note-import-contract.REVIEW.md) | 2 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) | 1 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 
@@ -152,13 +152,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 | Time | Who | Event |
 |---|---|---|
+| 09-07 10:23 | **you** | Responded · voice |
+| 09-07 10:22 | company | Cue published · voice |
+| 09-07 10:22 | company | Question prepared · voice |
 | 09-07 09:59 | **you** | Responded · voice |
 | 09-07 09:21 | company | Cue published · voice |
 | 09-07 09:21 | company | Question prepared · voice |
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
-| 09-07 08:19 | company | Question prepared · model |
-| 09-04 17:58 | company | Turn settled · seed |
-| 09-04 09:27 | company | Cue published · seed |
 
-<sub>Rendered from the repo at frame #1154 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1155 · immediate mode, no client state</sub>
