@@ -4,72 +4,59 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1153` · 2026-09-07 09:51 UTC
+`FRAME #1154` · 2026-09-07 10:06 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1150 → #1153** · 3 ticks · 1 h 10 m · `3028f540` · dashboards + tick reports
+**#1153 → #1154** · 1 ticks · 15 min · `ec5ff450` · dashboards + tick reports
 
-**Your threads**
+Nothing surfaced on the frame across this window.
 
-| Tick | Item | What happened |
-|---:|---|---|
-| 1152 | [Voice Note Import Contract REVIEW](Operations/_contracts/voice-note-import-contract.REVIEW.md) | The company asked you about this. |
-| 1151 | [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) | The company took this on. |
+Beneath it: 0 progressed, 0 created, 0 inspected without change.
 
-**Elsewhere**
-
-| Tick | Item | What happened |
-|---:|---|---|
-| 1151 | [Model Selection REVIEW](Operations/_contracts/model-selection.REVIEW.md) | You answered. |
-| 1151 | [model-selection RP-1](Operations/_contracts/model-selection.REVIEW.md) | No longer waiting on a decision. |
-
-Beneath it: 0 progressed, 0 created, 19 inspected without change.
-
-⚑ **Needs you now** — voice-note-import-contract.REVIEW
+Nothing needs you. The company owes 3.
 
 ---
 
 ## ▶ Concurrent agency
 
-### YOU — **1 waiting** · COMPANY — **2 owed**
+### YOU — **0 waiting** · COMPANY — **3 owed**
 
-**Latest move:** You responded to Review: Model Evaluation Services Agreement. · 2026-09-07 08:52:56 UTC
+**Latest move:** You responded to Review: Voice Note Import Services Agreement. · 2026-09-07 09:59:11 UTC
 
-**Company owes next:** [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) — Reconcile Mandip's complete response against the canonical task and improve the work before asking again.
+**Company owes next:** [Review: Voice Note Import Services Agreement](Operations/_contracts/voice-note-import-contract.REVIEW.md) — Reconcile Mandip's complete response against the canonical task and improve the work before asking again.
 
 ```
-█▁▄▁
-█ latest move · 08:52
-▁–█ tick-report activity · 3 reports · 58 min   (frames #1151 → #1153)
+█▁
+█ latest move · 09:59
+▁–█ tick-report activity · 1 reports · 7 min   (frames #1154 → #1154)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **3** |
-| Time since latest move | 58 min |
-| Company obligations | 2 (2 raw records) |
-| Waiting on you | 1 |
+| Tick reports since latest move | **1** |
+| Time since latest move | 7 min |
+| Company obligations | 3 (3 raw records) |
+| Waiting on you | 0 |
 
 ---
 
-## ⇢ Company owes — 2
+## ⇢ Company owes — 3
 
 | Obligation | Records | Next action |
 |---|---:|---|
+| [Review: Voice Note Import Services Agreement](Operations/_contracts/voice-note-import-contract.REVIEW.md) | 1 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) | 1 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 
 ---
 
-## ⚑ Waiting on you — 1
+## ⚑ Waiting on you — 0
 
-| Since | Question |
-|---|---|
-| 09-07 09:21 | [voice-note-import-contract.REVIEW](Operations/_contracts/voice-note-import-contract.REVIEW.md) |
+Nothing is waiting on you. The company may still have work to do.
 
 ---
 
@@ -101,11 +88,10 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 ---
 
-## ✕ Open review points — 19
+## ✕ Open review points — 18
 
 | Contract | Point | Status |
 |---|---|---|
-| [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-2: The contract cannot leave trial, and says so to no one | open |
 | [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-3: New evidence reopens the cost basis on which RP-1 was resolved | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-2: The company turn has no completion criterion | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-3: Support wrappers are created without an idempotency check | open |
@@ -166,6 +152,7 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 | Time | Who | Event |
 |---|---|---|
+| 09-07 09:59 | **you** | Responded · voice |
 | 09-07 09:21 | company | Cue published · voice |
 | 09-07 09:21 | company | Question prepared · voice |
 | 09-07 08:52 | **you** | Responded · model |
@@ -173,6 +160,5 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 09-07 08:19 | company | Question prepared · model |
 | 09-04 17:58 | company | Turn settled · seed |
 | 09-04 09:27 | company | Cue published · seed |
-| 09-04 09:27 | company | Question prepared · seed |
 
-<sub>Rendered from the repo at frame #1153 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1154 · immediate mode, no client state</sub>
