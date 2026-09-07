@@ -4,78 +4,58 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1150` · 2026-09-07 08:41 UTC
+`FRAME #1151` · 2026-09-07 08:59 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1075 → #1150** · 75 ticks · 5 d 20 h · `fa84f2ff` · dashboards + tick reports
+**#1150 → #1151** · 1 ticks · 18 min · `3028f540` · dashboards + tick reports
 
-**Your threads**
+Nothing surfaced on the frame across this window.
 
-| Tick | Item | What happened |
-|---:|---|---|
-| 1149 | [Seed Crystallisation REVIEW](Operations/_contracts/seed-crystallisation.REVIEW.md) | The company asked you about this. You answered. |
-| 1149 | [Model Selection REVIEW](Operations/_contracts/model-selection.REVIEW.md) | The company asked you about this. |
-| 1149 | [pipeline RP-8](Operations/_contracts/pipeline.REVIEW.md) | Raised for your decision. |
-| 1144 | [Partnership Integration Services Agreement](Operations/_work/approvals/contract-proposal-partnership-integration-services-agreement.md) | Raised for your decision. |
-| 1130 | [model-selection RP-2](Operations/_contracts/model-selection.REVIEW.md) | Raised for your decision. |
-| 1130 | [pipeline RP-7](Operations/_contracts/pipeline.REVIEW.md) | Raised for your decision. |
-| 1130 | [voice-note-import-contract RP-3](Operations/_contracts/voice-note-import-contract.REVIEW.md) | Raised for your decision. |
+Beneath it: 0 progressed, 0 created, 0 inspected without change.
 
-**Elsewhere**
-
-| Tick | Item | What happened |
-|---:|---|---|
-| 1144 | [Kalibrate x RightStore Partnership Integration](projects/store-dash/_work/SD.325-Kalibrate-x-RightStore-Partnership-Integration.md) | Created. |
-| 1101 | [Operations](Operations/dashboard.md) | Load 37 → 41 active. |
-| 1101 | [Update on Charities project status](Operations/_work/P.012-Update-on-Charities-project-status.md) | Created. |
-| 1080 | [London Crypto Networking Event Attendance](Operations/_work/P.011-London-Crypto-Networking-Event-Attendance.md) | Created. |
-
-Beneath it: 0 progressed, 3 created, 418 inspected without change.
-
-⚑ **Needs you now** — model-selection.REVIEW
+Nothing needs you. The company owes 2.
 
 ---
 
 ## ▶ Concurrent agency
 
-### YOU — **1 waiting** · COMPANY — **1 owed**
+### YOU — **0 waiting** · COMPANY — **2 owed**
 
-**Latest move:** — · 2026-09-07 08:19:03 UTC
+**Latest move:** You responded to Review: Model Evaluation Services Agreement. · 2026-09-07 08:52:56 UTC
 
-**Company owes next:** [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) — Attach this instruction to G.001 and present the matched proposal for Director review.
+**Company owes next:** [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) — Reconcile Mandip's complete response against the canonical task and improve the work before asking again.
 
 ```
 █▁
-█ latest move · 08:19
-▁–█ tick-report activity · 1 reports · 22 min   (frames #1150 → #1150)
+█ latest move · 08:52
+▁–█ tick-report activity · 1 reports · 6 min   (frames #1151 → #1151)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **1** |
-| Time since latest move | 22 min |
-| Company obligations | 1 (1 raw records) |
-| Waiting on you | 1 |
+| Time since latest move | 6 min |
+| Company obligations | 2 (2 raw records) |
+| Waiting on you | 0 |
 
 ---
 
-## ⇢ Company owes — 1
+## ⇢ Company owes — 2
 
 | Obligation | Records | Next action |
 |---|---:|---|
+| [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) | 1 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 
 ---
 
-## ⚑ Waiting on you — 1
+## ⚑ Waiting on you — 0
 
-| Since | Question |
-|---|---|
-| 09-07 08:19 | [model-selection.REVIEW](Operations/_contracts/model-selection.REVIEW.md) |
+Nothing is waiting on you. The company may still have work to do.
 
 ---
 
@@ -107,11 +87,10 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 ---
 
-## ✕ Open review points — 20
+## ✕ Open review points — 19
 
 | Contract | Point | Status |
 |---|---|---|
-| [model-selection](Operations/_contracts/model-selection.REVIEW.md) | RP-1: The originating run does not satisfy the contract it produced | open |
 | [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-2: The contract cannot leave trial, and says so to no one | open |
 | [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-3: New evidence reopens the cost basis on which RP-1 was resolved | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-2: The company turn has no completion criterion | open |
@@ -173,6 +152,7 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 | Time | Who | Event |
 |---|---|---|
+| 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 | 09-07 08:19 | company | Question prepared · model |
 | 09-04 17:58 | company | Turn settled · seed |
@@ -180,6 +160,5 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 09-04 09:27 | company | Question prepared · seed |
 | 09-01 20:26 | company | Turn settled · contract |
 | 09-01 20:26 | company | Turn settled · O.453 |
-| 09-01 20:26 | company | Turn settled · O.452 |
 
-<sub>Rendered from the repo at frame #1150 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1151 · immediate mode, no client state</sub>

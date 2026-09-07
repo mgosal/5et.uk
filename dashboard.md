@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1150.md" style="font-size:11px; color:#5f6368;">#1150</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1151.md" style="font-size:11px; color:#5f6368;">#1151</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -26,7 +26,7 @@
 
 ## Last Tick
 
-**[Tick #1150](_pipeline/reports/tick-1150.md)** · 2026-09-07 08:41 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1151](_pipeline/reports/tick-1151.md)** · 2026-09-07 08:59 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -53,56 +53,43 @@
 
 ## Agency
 
-- **Waiting on you**: 1
-- **Company obligations**: 1
-- **Raw unsettled records**: 1
-- **Latest move at**: 2026-09-07T08:19:03.610188+00:00
-- **Latest move**: —
-- **Latest move evidence**: —
-- **Latest move tick**: 1150
+- **Waiting on you**: 0
+- **Company obligations**: 2
+- **Raw unsettled records**: 2
+- **Latest move at**: 2026-09-07T08:52:56.745898+00:00
+- **Latest move**: You responded to Review: Model Evaluation Services Agreement.
+- **Latest move evidence**: Let's go with your recommendation, please.
+- **Latest move tick**: 1151
 
 ### Since Your Last Turn
 
-- **Turn at**: 2026-09-01T12:46:31.530978+00:00
-- **Turn tick**: 1075
-- **Turn commit**: fa84f2ff
-- **Window**: 75 ticks · 5 d 20 h
+- **Turn at**: 2026-09-07T08:52:56.745898+00:00
+- **Turn tick**: 1150
+- **Turn commit**: 3028f540
+- **Window**: 1 ticks · 18 min
 - **Evidence**: dashboards + tick reports
-- **Your threads**: 7
-- **Elsewhere**: 4
-- **Beneath**: 0 progressed, 3 created, 418 inspected without change
+- **Your threads**: 0
+- **Elsewhere**: 0
+- **Beneath**: 0 progressed, 0 created, 0 inspected without change
 
-| Scope | Tick | Item | What happened |
-|---|---:|---|---|
-| yours | 1149 | [Seed Crystallisation REVIEW](Operations/_contracts/seed-crystallisation.REVIEW.md) | The company asked you about this. You answered. |
-| yours | 1149 | [Model Selection REVIEW](Operations/_contracts/model-selection.REVIEW.md) | The company asked you about this. |
-| yours | 1149 | [pipeline RP-8](Operations/_contracts/pipeline.REVIEW.md) | Raised for your decision. |
-| yours | 1144 | [Partnership Integration Services Agreement](Operations/_work/approvals/contract-proposal-partnership-integration-services-agreement.md) | Raised for your decision. |
-| yours | 1130 | [model-selection RP-2](Operations/_contracts/model-selection.REVIEW.md) | Raised for your decision. |
-| yours | 1130 | [pipeline RP-7](Operations/_contracts/pipeline.REVIEW.md) | Raised for your decision. |
-| yours | 1130 | [voice-note-import-contract RP-3](Operations/_contracts/voice-note-import-contract.REVIEW.md) | Raised for your decision. |
-| elsewhere | 1144 | [Kalibrate x RightStore Partnership Integration](projects/store-dash/_work/SD.325-Kalibrate-x-RightStore-Partnership-Integration.md) | Created. |
-| elsewhere | 1101 | [Operations](Operations/dashboard.md) | Load 37 → 41 active. |
-| elsewhere | 1101 | [Update on Charities project status](Operations/_work/P.012-Update-on-Charities-project-status.md) | Created. |
-| elsewhere | 1080 | [London Crypto Networking Event Attendance](Operations/_work/P.011-London-Crypto-Networking-Event-Attendance.md) | Created. |
+Nothing surfaced on the dashboard across this window.
 
-### Waiting on You (1)
+### Waiting on You (0)
 
-| Since | Question |
-|---|---|
-| 2026-09-07T08:19:03.610188+00:00 | [model-selection.REVIEW](Operations/_contracts/model-selection.REVIEW.md) |
+Nothing presented and unanswered.
 
-### Company Owes (1)
+### Company Owes (2)
 
 | Since | Obligation | Records | Company next action |
 |---|---|---:|---|
+| 2026-09-07T08:52:56.745898+00:00 | [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) | 1 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | 2026-08-26T18:12:56.073931+00:00 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 
 ### Activity Since Latest Move (1 ticks)
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1150](_pipeline/reports/tick-1150.md) | 5.9s | 0 | 0 | 0 | 0 |
+| [#1151](_pipeline/reports/tick-1151.md) | 9.6s | 0 | 0 | 0 | 0 |
 
 ## Health
 
@@ -138,15 +125,14 @@ pie title Active Status Distribution
 
 ## Attention
 
-### Decisions Waiting (14 of 34 need you)
+### Decisions Waiting (13 of 33 need you)
 
 Grouped by what each is waiting on. The first two groups are yours.
 
-**Your choice (3)** — A real decision — alternatives are on the table
+**Your choice (2)** — A real decision — alternatives are on the table
 
 | Kind | Subject | Detail | Consequence | Link |
 |------|---------|--------|-------------|------|
-| Review point | model-selection RP-1 | blocking — The originating run does not satisfy the contract it | blocks approval only | [View](Operations/_contracts/model-selection.REVIEW.md) |
 | Review point | voice-note-import-contract RP-2 | material — The contract cannot leave trial, and says so to no o | blocks approval only | [View](Operations/_contracts/voice-note-import-contract.REVIEW.md) |
 | Review point | voice-note-import-contract RP-3 | minor — New evidence reopens the cost basis on which RP-1 wa | blocks approval only | [View](Operations/_contracts/voice-note-import-contract.REVIEW.md) |
 
@@ -233,11 +219,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1150
+**Total Ticks**: 1151
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-07 09:41 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-07 09:59 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-07 09:18 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-07 09:18 | 0 copied, 0 noise, 0 hal |
 | processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
@@ -253,11 +239,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-07 09:59](_pipeline/logs/2026-09-07_09-59-20.md) | 10s | [✓](_pipeline/logs/2026-09-07_09-59-20.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-07_09-59-20.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.004g |
 | [2026-09-07 09:41](_pipeline/logs/2026-09-07_09-41-32.md) | 6s | [✓](_pipeline/logs/2026-09-07_09-41-32.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-07_09-41-32.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.002g |
 | [2026-09-07 09:18](_pipeline/logs/2026-09-07_09-18-05.md) | 478s | [✓](_pipeline/logs/2026-09-07_09-18-05.md#icloud-email) 8 new, 8 synced | [✓](_pipeline/logs/2026-09-07_09-18-05.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-07_09-18-05.md#processor-discover) 29 processed, 0 created | [✓](_pipeline/logs/2026-09-07_09-18-05.md#processor-progress) 0 progressed | $0.0000 | ~0.199g |
 | [2026-09-04 16:08](_pipeline/logs/2026-09-04_16-08-30.md) | 7261s | [✗ (exit 1)](_pipeline/logs/2026-09-04_16-08-30.md#icloud-email) | [✓](_pipeline/logs/2026-09-04_16-08-30.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-04_16-08-30.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-09-04_16-08-30.md#processor-progress) 0 progressed | $0.0000 | ~3.025g |
 | [2026-09-04 15:43](_pipeline/logs/2026-09-04_15-43-23.md) | 7s | [✓](_pipeline/logs/2026-09-04_15-43-23.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
-| [2026-09-04 15:27](_pipeline/logs/2026-09-04_15-27-56.md) | 7s | [✓](_pipeline/logs/2026-09-04_15-27-56.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 
 ### Source Topology
 
@@ -363,6 +349,7 @@ flowchart TD
 
 | At | Who | Event |
 |---|---|---|
+| 2026-09-07 08:52 | you | Responded · model |
 | 2026-09-07 08:19 | company | Cue published · model |
 | 2026-09-07 08:19 | company | Question prepared · model |
 | 2026-09-04 17:58 | company | Turn settled · seed |
@@ -370,4 +357,3 @@ flowchart TD
 | 2026-09-04 09:27 | company | Question prepared · seed |
 | 2026-09-01 20:26 | company | Turn settled · contract |
 | 2026-09-01 20:26 | company | Turn settled · O.453 |
-| 2026-09-01 20:26 | company | Turn settled · O.452 |
