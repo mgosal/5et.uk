@@ -4,13 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1169` · 2026-09-07 14:13 UTC
+`FRAME #1170` · 2026-09-07 14:29 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1169** · 14 ticks · 3 h 51 m · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1170** · 15 ticks · 4 h 7 m · `9bfb5a29` · dashboards + tick reports
+
+**Your threads**
+
+| Tick | Item | What happened |
+|---:|---|---|
+| 1169 | [fathom-import RP-2](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
+| 1169 | [fathom-import RP-6](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
+| 1169 | [ema-sa RP-5](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
+| 1169 | [ema-sa RP-2](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
+| 1169 | [ema-sa RP-1](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
+| 1169 | [fathom-import RP-5](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
+| 1169 | [fathom-import RP-1](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
 
 **Elsewhere**
 
@@ -34,16 +46,16 @@ Nothing needs you. The company owes 3.
 **Company owes next:** [Review: Voice Note Import Services Agreement](Operations/_contracts/voice-note-import-contract.REVIEW.md) — Reconcile Mandip's complete response against the canonical task and improve the work before asking again.
 
 ```
-█▁▁▄▁▁▁▄▁▁▁▄▁▆▁
+█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄
 █ latest move · 10:23
-▁–█ tick-report activity · 14 reports · 3 h   (frames #1156 → #1169)
+▁–█ tick-report activity · 15 reports · 4 h   (frames #1156 → #1170)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **14** |
-| Time since latest move | 3 h |
+| Tick reports since latest move | **15** |
+| Time since latest move | 4 h |
 | Company obligations | 3 (4 raw records) |
 | Waiting on you | 0 |
 
@@ -178,4 +190,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1169 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1170 · immediate mode, no client state</sub>
