@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1171.md" style="font-size:11px; color:#5f6368;">#1171</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1172.md" style="font-size:11px; color:#5f6368;">#1172</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -26,7 +26,7 @@
 
 ## Last Tick
 
-**[Tick #1171](_pipeline/reports/tick-1171.md)** · 2026-09-07 14:45 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1172](_pipeline/reports/tick-1172.md)** · 2026-09-07 15:01 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -54,8 +54,8 @@
 ## Agency
 
 - **Waiting on you**: 0
-- **Company obligations**: 3
-- **Raw unsettled records**: 4
+- **Company obligations**: 4
+- **Raw unsettled records**: 5
 - **Latest move at**: 2026-09-07T10:23:40.354071+00:00
 - **Latest move**: You responded to Review: Voice Note Import Services Agreement.
 - **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
@@ -66,7 +66,7 @@
 - **Turn at**: 2026-09-07T10:23:40.354071+00:00
 - **Turn tick**: 1155
 - **Turn commit**: 9bfb5a29
-- **Window**: 16 ticks · 4 h 23 m
+- **Window**: 17 ticks · 4 h 39 m
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 7
 - **Elsewhere**: 2
@@ -74,12 +74,12 @@
 
 | Scope | Tick | Item | What happened |
 |---|---:|---|---|
-| yours | 1169 | [fathom-import RP-2](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
 | yours | 1169 | [ema-sa RP-6](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
-| yours | 1169 | [fathom-import RP-3](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
-| yours | 1169 | [fathom-import RP-5](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
-| yours | 1169 | [fathom-import RP-6](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
 | yours | 1169 | [ema-sa RP-1](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
+| yours | 1169 | [fathom-import RP-5](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
+| yours | 1169 | [fathom-import RP-3](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
+| yours | 1169 | [ema-sa RP-4](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. |
+| yours | 1169 | [fathom-import RP-2](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
 | yours | 1169 | [fathom-import RP-1](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. |
 | elsewhere | 1168 | [Operations](Operations/dashboard.md) | Load 41 → 42 active. |
 | elsewhere | 1168 | [St. James AI Networking Event Attendance](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md) | Created. |
@@ -88,15 +88,16 @@
 
 Nothing presented and unanswered.
 
-### Company Owes (3)
+### Company Owes (4)
 
 | Since | Obligation | Records | Company next action |
 |---|---|---:|---|
+| 2026-09-07T15:01:30.441306+00:00 | [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) | 1 | Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items. |
 | 2026-09-07T10:23:40.354071+00:00 | [Review: Voice Note Import Services Agreement](Operations/_contracts/voice-note-import-contract.REVIEW.md) | 2 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | 2026-09-07T08:52:56.745898+00:00 | [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) | 1 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | 2026-08-26T18:12:56.073931+00:00 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 
-### Activity Since Latest Move (16 ticks)
+### Activity Since Latest Move (17 ticks)
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
@@ -116,6 +117,7 @@ Nothing presented and unanswered.
 | [#1169](_pipeline/reports/tick-1169.md) | 6.2s | 0 | 0 | 0 | 0 |
 | [#1170](_pipeline/reports/tick-1170.md) | 83.7s | 19 | 0 | 0 | 0 |
 | [#1171](_pipeline/reports/tick-1171.md) | 5.6s | 0 | 0 | 0 | 0 |
+| [#1172](_pipeline/reports/tick-1172.md) | 9.5s | 0 | 0 | 0 | 0 |
 
 ## Health
 
@@ -256,14 +258,14 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1171
+**Total Ticks**: 1172
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-07 15:45 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-07 16:01 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-07 15:29 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-07 15:29 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 1 processed, 1 created |
+| processor-discover | 🟢 Yes | ✅ ok | — | 1 processed, 0 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
 | whatsapp | 🟢 Yes | ✅ ok | 2026-09-07 15:29 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
@@ -276,11 +278,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-07 16:01](_pipeline/logs/2026-09-07_16-01-21.md) | 9s | [✓](_pipeline/logs/2026-09-07_16-01-21.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-07_16-01-21.md#processor-discover) 1 processed, 0 created | — | $0.0000 | ~0.004g |
 | [2026-09-07 15:45](_pipeline/logs/2026-09-07_15-45-53.md) | 6s | [✓](_pipeline/logs/2026-09-07_15-45-53.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
 | [2026-09-07 15:29](_pipeline/logs/2026-09-07_15-29-05.md) | 84s | [✓](_pipeline/logs/2026-09-07_15-29-05.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-07_15-29-05.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-07_15-29-05.md#processor-progress) 0 progressed | $0.0000 | ~0.035g |
 | [2026-09-07 15:13](_pipeline/logs/2026-09-07_15-13-37.md) | 6s | [✓](_pipeline/logs/2026-09-07_15-13-37.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-07 14:57](_pipeline/logs/2026-09-07_14-57-55.md) | 18s | [✓](_pipeline/logs/2026-09-07_14-57-55.md#icloud-email) 1 new, 1 synced | — | [✓](_pipeline/logs/2026-09-07_14-57-55.md#processor-discover) 1 processed, 1 created | — | $0.0001 | ~0.213g |
-| [2026-09-07 14:42](_pipeline/logs/2026-09-07_14-42-27.md) | 6s | [✓](_pipeline/logs/2026-09-07_14-42-27.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
 
 ### Source Topology
 
@@ -362,7 +364,7 @@ flowchart TD
 
 | Metric | Value |
 |--------|-------|
-| Notes | 1453 |
+| Notes | 1454 |
 | Themes | 22 |
 | Coverage | 10.9% |
 
