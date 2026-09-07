@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1167` · 2026-09-07 13:42 UTC
+`FRAME #1168` · 2026-09-07 13:57 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1167** · 12 ticks · 3 h 20 m · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1168** · 13 ticks · 3 h 35 m · `9bfb5a29` · dashboards + tick reports
 
 Nothing surfaced on the frame across this window.
 
@@ -29,15 +29,15 @@ Nothing needs you. The company owes 3.
 **Company owes next:** [Review: Voice Note Import Services Agreement](Operations/_contracts/voice-note-import-contract.REVIEW.md) — Reconcile Mandip's complete response against the canonical task and improve the work before asking again.
 
 ```
-█▁▁▄▁▁▁▄▁▁▁▄▁
+█▁▁▄▁▁▁▄▁▁▁▄▁▆
 █ latest move · 10:23
-▁–█ tick-report activity · 12 reports · 3 h   (frames #1156 → #1167)
+▁–█ tick-report activity · 13 reports · 3 h   (frames #1156 → #1168)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **12** |
+| Tick reports since latest move | **13** |
 | Time since latest move | 3 h |
 | Company obligations | 3 (4 raw records) |
 | Waiting on you | 0 |
@@ -113,13 +113,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 127 active · 676 done
+## ▦ Functions — 128 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 9 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 41 | 454 | `█▁▁▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 42 | 454 | `█▁▁▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -161,4 +161,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1167 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1168 · immediate mode, no client state</sub>
