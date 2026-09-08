@@ -112,7 +112,12 @@ body {
 .qr-block img { width: 200px; height: 200px; image-rendering: pixelated; background: #fff; }
 .qr-block a.url { color: var(--muted); font-size: 13px; text-decoration: none; }
 footer { font-size: 12px; color: var(--muted); text-align: center; }
-footer .anon { font-size: 14px; }
+footer .anon {
+  font-size: 14px; background: none; border: none; padding: 4px 8px; margin: 0;
+  cursor: pointer; font-family: inherit; line-height: 1;
+  -webkit-tap-highlight-color: transparent;
+}
+footer .anon:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 a { color: inherit; text-decoration: underline; }
 </style>
 </head>
@@ -189,12 +194,16 @@ a { color: inherit; text-decoration: underline; }
     <div class="status" id="status" role="status" aria-live="polite"></div>
   </div>
 
-  <footer><span class="anon" title="Anonymous visitor" aria-label="Anonymous visitor">🕶️</span> · no cookie · <span id="coord">network</span></footer>
+  <footer>
+    <button type="button" class="anon" id="clear-history" title="Clear local history" aria-label="Clear local history">🕶️</button>
+    · no cookie · <span id="coord">network</span>
+  </footer>
 </div>
 <script>
 (function () {
   const STORAGE_VISITED = "5et-visited-landmarks";
   const STORAGE_DRAFT = "5et-frame-draft";
+  const STORAGE_QUEUE = "5et-threshold-queue";
   const NETWORK_INBOX = "_network/_integrations/inbox/";
 
   const views = {
@@ -310,9 +319,9 @@ a { color: inherit; text-decoration: underline; }
   function showAct(act, prefix) {
     const line = JSON.stringify(act, null, 2);
     try {
-      const q = JSON.parse(localStorage.getItem("5et-threshold-queue") || "[]");
+      const q = JSON.parse(localStorage.getItem(STORAGE_QUEUE) || "[]");
       q.push({ at: new Date().toISOString(), act });
-      localStorage.setItem("5et-threshold-queue", JSON.stringify(q));
+      localStorage.setItem(STORAGE_QUEUE, JSON.stringify(q));
     } catch (e) {
       flashStatus((prefix || "") + line + "\n\n(stored on device only — local queue blocked)", false);
       return;
@@ -396,6 +405,31 @@ a { color: inherit; text-decoration: underline; }
   });
 
   document.getElementById("acme-dispute").addEventListener("click", () => acmeKnock("judgement"));
+
+  function clearLocalHistory() {
+    if (!confirm("Clear local history on this device?\n\nDrafts, visited apps, and queued acts will be removed. We cannot clear the browser cache from here.")) {
+      return;
+    }
+    try { sessionStorage.removeItem(STORAGE_VISITED); } catch (e) { /* ignore */ }
+    try { sessionStorage.removeItem(STORAGE_DRAFT); } catch (e) { /* ignore */ }
+    try { localStorage.removeItem(STORAGE_QUEUE); } catch (e) { /* ignore */ }
+    inputMain.value = "";
+    inputInbox.value = "";
+    if (spinFace) {
+      spinFace.textContent = "Tap spin to play";
+      spinFace.classList.add("wait");
+    }
+    status.classList.remove("show", "err");
+    renderLandmarks();
+    if (normalizeHash() !== "network") {
+      location.hash = "#network";
+    } else {
+      route();
+    }
+    flashStatus("Local history cleared on this device.", false);
+  }
+
+  document.getElementById("clear-history").addEventListener("click", clearLocalHistory);
 
   renderLandmarks();
   window.addEventListener("hashchange", route);
