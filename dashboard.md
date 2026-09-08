@@ -75,12 +75,12 @@
 | Scope | Tick | Item | What happened |
 |---|---:|---|---|
 | yours | 1177 | [fathom-import RP-1](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| yours | 1177 | [ema-sa RP-6](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | yours | 1177 | [fathom-import RP-2](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | yours | 1177 | [fathom-import RP-3](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| yours | 1177 | [ema-sa RP-6](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| yours | 1175 | [ema-sa RP-3](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| yours | 1175 | [ema-sa RP-4](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | yours | 1175 | [fathom-import RP-5](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| yours | 1175 | [ema-sa RP-5](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| yours | 1175 | [ema-sa RP-3](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | elsewhere | 1168 | [Operations](Operations/dashboard.md) | Load 41 → 42 active. |
 | elsewhere | 1168 | [St. James AI Networking Event Attendance](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md) | Created. |
 
@@ -160,7 +160,7 @@ pie title Active Status Distribution
 
 ## Attention
 
-### Decisions Waiting (14 of 34 need you)
+### Decisions Waiting (18 of 38 need you)
 
 Grouped by what each is waiting on. The first two groups are yours.
 
@@ -170,7 +170,7 @@ Grouped by what each is waiting on. The first two groups are yours.
 |------|---------|--------|-------------|------|
 | Review point | voice-note-import-contract RP-3 | minor — New evidence reopens the cost basis on which RP-1 wa | blocks approval only | [View](Operations/_contracts/voice-note-import-contract.REVIEW.md) |
 
-**Your review (13)** — One proposed action each — confirm or send back
+**Your review (17)** — One proposed action each — confirm or send back
 
 | Kind | Subject | Detail | Consequence | Link |
 |------|---------|--------|-------------|------|
@@ -185,8 +185,12 @@ Grouped by what each is waiting on. The first two groups are yours.
 | Review point | model-selection RP-2 | material — The resolution floor is specified but the deliverabl | blocks approval only | [View](Operations/_contracts/model-selection.REVIEW.md) |
 | Review point | pipeline RP-4 | material — Human response reconciliation waits for the schedule | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | seed-crystallisation RP-8 | material — Index seed counts do not match the themes | blocks approval only | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
+| Review point | email-import RP-4 | minor — `gmail.imap` capability not yet registered | blocks approval only | [View](projects/ema-sa/_contracts/email-import.REVIEW.md) |
+| Review point | email-import RP-5 | minor — Shadow compare against ema-mcp gold | blocks approval only | [View](projects/ema-sa/_contracts/email-import.REVIEW.md) |
 | Review point | fathom-import RP-4 | minor — Partner routing and AI classification omitted | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
 | Review point | fathom-import RP-6 | minor — `fathom.api` capability not yet registered | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
+| Review point | granola-import RP-4 | minor — `granola.mcp` capability not yet registered | blocks approval only | [View](projects/ema-sa/_contracts/granola-import.REVIEW.md) |
+| Review point | granola-import RP-5 | minor — Shadow compare against ema-mcp gold | blocks approval only | [View](projects/ema-sa/_contracts/granola-import.REVIEW.md) |
 
 **Waiting on a build (12)** — Decided already; no decision needed
 
@@ -341,7 +345,7 @@ flowchart TD
 | [car-personality](projects/car-personality/README.md) | ✅ | 0 | 0 | 0 |
 | [chess](projects/chess/README.md) | ⚠️ | 4 | 0 | 0 |
 | [cv-builder](projects/cv-builder/README.md) | ✅ | 0 | 0 | 0 |
-| [ema-sa](projects/ema-sa/README.md) | ⏸️ | 27 | 1 | 0 |
+| [ema-sa](projects/ema-sa/README.md) | ✅ | 0 | 0 | 0 |
 | [game](projects/game/README.md) | 🔄 | 2 | 0 | 0 |
 | [golf](projects/golf/README.md) | ✅ | 0 | 0 | 0 |
 | [home-information-pack](projects/home-information-pack/README.md) | ✅ | 0 | 0 | 0 |
