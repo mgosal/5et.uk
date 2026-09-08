@@ -214,6 +214,17 @@ body.scope-confidential .enclave-cta { border-color: var(--ink); color: var(--in
   letter-spacing: .1em; text-transform: uppercase;
 }
 .view-body p { margin: 0; color: var(--muted); font-size: 16px; }
+.store-list { display: flex; flex-direction: column; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.store-tile {
+  display: flex; flex-direction: column; gap: 4px; padding: 14px 16px;
+  border: 2px solid var(--edge); background: var(--ground); color: var(--ink);
+  text-decoration: none; font: inherit; text-align: left; cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.store-tile.locked { border-style: dashed; color: var(--muted); cursor: default; opacity: .85; }
+.store-name { font-family: var(--fd); font-size: 17px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.store-note { font-family: var(--fm); font-size: 14px; font-weight: 600; color: var(--muted); }
+.store-tile:not(.locked) .store-note { color: var(--dim); }
 .land-note {
   padding: 10px 12px; border: 2px dashed var(--edge);
   font-family: var(--fm); font-size: 13px; color: var(--muted); text-align: center;
@@ -445,6 +456,12 @@ a { color: inherit; }
     <section class="apps-bar" aria-labelledby="apps-heading">
       <h2 class="apps-title" id="apps-heading">Apps</h2>
       <nav class="apps" aria-label="Network apps">
+        <a class="app untagged" id="nav-store" href="#apps" aria-label="App store">
+          <span class="app-shell">
+            <span class="app-icon">▦</span>
+          </span>
+          <span class="app-label">Apps</span>
+        </a>
         <a class="app untagged" id="nav-acme" href="#acme" aria-label="Acme">
           <span class="app-shell">
             <span class="app-icon">Ac</span>
@@ -468,7 +485,7 @@ a { color: inherit; }
 
     <div class="shortcut-space" id="shortcut-space">
       <a class="atom escape escape-atom" id="escape-atom" href="#network" hidden
-         aria-label="Back to apps" title="Back · hold to move side">
+         aria-label="Back to home" title="Back to home · hold to move side">
         <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
           <path d="M17 17 L8 8 M8 8 H12 M8 8 V12" fill="none" stroke="currentColor"
                 stroke-width="2" stroke-linecap="square" stroke-linejoin="miter"/>
@@ -489,6 +506,22 @@ a { color: inherit; }
     <div class="panel" id="app-panel" aria-label="App surface" hidden>
       <button type="button" class="unit-wallet" id="unit-wallet" hidden></button>
       <div id="view-network" class="view-body on" aria-hidden="false"></div>
+
+      <div id="view-apps" class="view-body" aria-hidden="true">
+        <h1>App store</h1>
+        <p>Apps on the 5et network. Open a landmark or certify for company access.</p>
+        <div class="store-list" role="list">
+          <a class="store-tile" href="#acme" role="listitem">
+            <span class="store-name">Acme</span>
+            <span class="store-note">Landmark · 0,0 · demo spin</span>
+          </a>
+          <div class="store-tile locked" role="listitem" aria-disabled="true">
+            <span class="store-name">5et</span>
+            <span class="store-note">Company OS · hat and identity required</span>
+          </div>
+          
+        </div>
+      </div>
 
       <div id="view-acme" class="view-body" aria-hidden="true">
         <h1>Acme · 0,0</h1>
@@ -526,12 +559,12 @@ a { color: inherit; }
 
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
-<!-- Anonymous welcome — projects/game/_contracts/welcome-experience.README.md §2.2 -->
+<!-- Anonymous welcome — welcome-experience contract §2.2 -->
 <div class="welcome" id="welcome" hidden>
   <div class="welcome-card">
     <h2>5et network</h2>
     <p class="welcome-lead">You opened the permanent address — your first step on the network.</p>
-    <p class="welcome-body">This is <strong>anonymous land</strong>: a public foyer where you can browse apps and read contracts. No server cookie. No account. Nothing is sent to 5et until you act.</p>
+    <p class="welcome-body">This is the <strong>public network</strong>: browse the app store, open landmarks, read contracts. No server cookie. No account. Nothing is sent to 5et until you act.</p>
     <p class="welcome-body">Acts create receipts in <strong>this browser session</strong> only. Tap 🕶️ in the dock to reset.</p>
     <p class="welcome-fine">Enter below registers your visit on this device for the session. No server cookie.</p>
     <p class="welcome-draft">Draft welcome — not the full journey yet (client install, onboarding). See welcome-experience contract.</p>
@@ -558,18 +591,19 @@ a { color: inherit; }
   const STORAGE_MARKER = "5et-marker";
   const STORAGE_DRAFT = "5et-frame-draft";
   const STORAGE_QUEUE = "5et-threshold-queue";
-  const NETWORK_INBOX = "_network/_integrations/inbox/";
 
-  const FRAME_VER = "20260908.11";
-  const WHERE_LABEL = { network: "land", acme: "Ac" };
+  const FRAME_VER = "20260908.12";
+  const WHERE_LABEL = { network: "home", apps: "store", acme: "Ac" };
   
 
   const views = {
     network: document.getElementById("view-network"),
+    apps: document.getElementById("view-apps"),
     acme: document.getElementById("view-acme"),
     
   };
   const nav = {
+    apps: document.getElementById("nav-store"),
     acme: document.getElementById("nav-acme"),
     
   };
@@ -665,6 +699,7 @@ a { color: inherit; }
       return [];
     }
     if (where === "acme") return ["acme"];
+    if (where === "apps") return [];
     
     return [];
   }
@@ -673,11 +708,12 @@ a { color: inherit; }
     if (act && act.business_unit === "acme") return "app";
     if (act) return "agent";
     if (where === "acme") return "app";
+    if (where === "apps") return "agent";
     
     return "agent";
   }
 
-  const PLACE_LABEL = { network: "Apps", acme: "Acme" };
+  const PLACE_LABEL = { network: "Home", apps: "Store", acme: "Acme" };
   
 
   function isStandalone() {
@@ -807,6 +843,13 @@ a { color: inherit; }
     renderLayerFive(normalizeHash());
   }
 
+  function updateAppsHeading(name) {
+    const el = document.getElementById("apps-heading");
+    if (!el) return;
+    if (name === "apps") el.textContent = "App store · " + FRAME_VER;
+    else el.textContent = "Apps · " + FRAME_VER;
+  }
+
   function updateCoord(name) {
     const scope = getScope() === "confidential" ? "enclave" : "public";
     const where = name === "network" ? "apps" : name;
@@ -815,7 +858,7 @@ a { color: inherit; }
 
   function renderAppWallet(name) {
     const el = document.getElementById("unit-wallet");
-    if (!el || name === "network" || !UNIT_LABEL[name]) {
+    if (!el || name === "network" || name === "apps" || !UNIT_LABEL[name]) {
       if (el) el.hidden = true;
       return;
     }
@@ -1001,7 +1044,7 @@ a { color: inherit; }
   function eventSummary(ev) {
     if (ev.os === "visit") {
       const place = PLACE_LABEL[ev.where] || ev.where || "?";
-      return "Visit · " + place + " — browse only, no data held";
+      return "Visit · " + place + " — browse only";
     }
     if (ev.os === "compose") {
       return "Draft · OS agent — not sent yet";
@@ -1129,6 +1172,7 @@ a { color: inherit; }
     });
     Object.keys(nav).forEach((k) => nav[k].classList.toggle("active", k === name));
     updateCoord(name);
+    updateAppsHeading(name);
     const onNetwork = name === "network";
     appPanel.hidden = onNetwork;
     escapeAtom.hidden = onNetwork;
@@ -1439,7 +1483,7 @@ a { color: inherit; }
   });
 
   const appsHeading = document.getElementById("apps-heading");
-  if (appsHeading) appsHeading.textContent = "Apps · " + FRAME_VER;
+  if (appsHeading) updateAppsHeading(normalizeHash());
 
   renderEscapeSide();
   if (isStandalone()) setScope("confidential");
