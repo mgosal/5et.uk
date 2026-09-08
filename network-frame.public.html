@@ -304,6 +304,11 @@ body.receipt-open #app-panel { display: none !important; }
 .welcome-fine {
   margin: 0; font-size: 15px; line-height: 1.4; color: var(--muted); text-align: left;
 }
+.welcome-draft {
+  margin: 0; font-size: 14px; line-height: 1.35; color: var(--dim);
+  text-align: left; font-style: italic; border-top: 1px dashed var(--edge-soft);
+  padding-top: 10px;
+}
 .welcome-card p, .welcome-card li {
   margin: 0; font-size: 18px; line-height: 1.45; color: var(--ink); text-align: left;
   font-weight: 500;
@@ -524,9 +529,10 @@ a { color: inherit; }
   <div class="welcome-card">
     <h2>5et network</h2>
     <p class="welcome-lead">You opened the permanent address — your first step on the network.</p>
-    <p class="welcome-body">This is <strong>anonymous land</strong>: a public foyer where you can browse apps and read contracts. No account. No cookie. Nothing leaves this device unless you choose to act.</p>
-    <p class="welcome-body">Tap an app to visit a landmark. Acts — a spin, a message — create receipts on <strong>this device</strong> for the session. Clear anytime with 🕶️ in the dock.</p>
+    <p class="welcome-body">This is <strong>anonymous land</strong>: a public foyer where you can browse apps and read contracts. No server cookie. No account. Nothing is sent to 5et until you act.</p>
+    <p class="welcome-body">Acts create receipts in <strong>this browser session</strong> only. Tap 🕶️ in the dock to reset the session.</p>
     <p class="welcome-fine">Acme at 0,0 is the demo. Everything else is optional.</p>
+    <p class="welcome-draft">Draft welcome — not the full journey yet (client install, onboarding). See welcome-experience contract.</p>
     <button type="button" class="welcome-enter" id="welcome-dismiss">Enter the network</button>
   </div>
 </div>
@@ -552,7 +558,7 @@ a { color: inherit; }
   const STORAGE_QUEUE = "5et-threshold-queue";
   const NETWORK_INBOX = "_network/_integrations/inbox/";
 
-  const FRAME_VER = "20260908.9";
+  const FRAME_VER = "20260908.10";
   const WHERE_LABEL = { network: "land", acme: "Ac" };
   
 
@@ -700,7 +706,7 @@ a { color: inherit; }
 
   function maybeShowWelcome() {
     try {
-      if (localStorage.getItem(STORAGE_WELCOME)) return;
+      if (sessionStorage.getItem(STORAGE_WELCOME)) return;
     } catch (e) { /* ignore */ }
     welcome.hidden = false;
     scopeBar.classList.add("coach-pulse");
@@ -709,7 +715,7 @@ a { color: inherit; }
   function dismissWelcome() {
     welcome.hidden = true;
     scopeBar.classList.remove("coach-pulse");
-    try { localStorage.setItem(STORAGE_WELCOME, "1"); } catch (e) { /* ignore */ }
+    try { sessionStorage.setItem(STORAGE_WELCOME, "1"); } catch (e) { /* ignore */ }
     landAtTop();
   }
 
@@ -1337,7 +1343,7 @@ a { color: inherit; }
     try { sessionStorage.removeItem(STORAGE_SCOPE); } catch (e) { /* ignore */ }
     try { sessionStorage.removeItem(STORAGE_MARKER); } catch (e) { /* ignore */ }
     try { localStorage.removeItem(STORAGE_QUEUE); } catch (e) { /* ignore */ }
-    try { localStorage.removeItem(STORAGE_WELCOME); } catch (e) { /* ignore */ }
+    try { sessionStorage.removeItem(STORAGE_WELCOME); } catch (e) { /* ignore */ }
     inputMain.value = "";
     if (spinFace) {
       spinFace.textContent = "Tap spin";
@@ -1350,6 +1356,7 @@ a { color: inherit; }
     renderUnitLights();
     location.hash = "#network";
     landAtTop();
+    maybeShowWelcome();
     route();
   }
 
