@@ -293,6 +293,17 @@ body.receipt-open #app-panel { display: none !important; }
   margin: 0; font-family: var(--fd); font-size: 22px; font-weight: 700;
   letter-spacing: .1em; text-transform: uppercase;
 }
+.welcome-lead {
+  margin: 0; font-size: 19px; line-height: 1.4; font-weight: 700; color: var(--ink);
+  text-align: left;
+}
+.welcome-body {
+  margin: 0; font-size: 18px; line-height: 1.45; font-weight: 500; color: var(--ink);
+  text-align: left;
+}
+.welcome-fine {
+  margin: 0; font-size: 15px; line-height: 1.4; color: var(--muted); text-align: left;
+}
 .welcome-card p, .welcome-card li {
   margin: 0; font-size: 18px; line-height: 1.45; color: var(--ink); text-align: left;
   font-weight: 500;
@@ -508,19 +519,15 @@ a { color: inherit; }
 
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
+<!-- Anonymous welcome — projects/game/_contracts/welcome-experience.README.md §2.2 -->
 <div class="welcome" id="welcome" hidden>
   <div class="welcome-card">
-    <div class="layer-five" aria-hidden="true">
-      <span class="tick on"></span><span class="tick"></span><span class="tick"></span>
-      <span class="tick"></span><span class="tick"></span>
-    </div>
-    <h2>Network frame</h2>
-    <ul>
-      <li><strong>Five ticks</strong> — depth: one = public web, five = enclave on your device</li>
-      <li><strong>Grey dotted</strong> — no data · <strong>solid</strong> — this app holds yours</li>
-      <li><strong>Dock</strong> — session receipts; tap one to inspect</li>
-    </ul>
-    <button type="button" class="welcome-enter" id="welcome-dismiss">Enter</button>
+    <h2>5et network</h2>
+    <p class="welcome-lead">You opened the permanent address — your first step on the network.</p>
+    <p class="welcome-body">This is <strong>anonymous land</strong>: a public foyer where you can browse apps and read contracts. No account. No cookie. Nothing leaves this device unless you choose to act.</p>
+    <p class="welcome-body">Tap an app to visit a landmark. Acts — a spin, a message — create receipts on <strong>this device</strong> for the session. Clear anytime with 🕶️ in the dock.</p>
+    <p class="welcome-fine">Acme at 0,0 is the demo. Everything else is optional.</p>
+    <button type="button" class="welcome-enter" id="welcome-dismiss">Enter the network</button>
   </div>
 </div>
 
@@ -545,7 +552,7 @@ a { color: inherit; }
   const STORAGE_QUEUE = "5et-threshold-queue";
   const NETWORK_INBOX = "_network/_integrations/inbox/";
 
-  const FRAME_VER = "20260908.8";
+  const FRAME_VER = "20260908.9";
   const WHERE_LABEL = { network: "land", acme: "Ac" };
   
 
