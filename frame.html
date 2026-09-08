@@ -14,7 +14,7 @@
   --panel: #fff;
   --ground: #fff;
   --btn-h: 52px;
-  --app: 56px;
+  --app: 52px;
   font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 @media (prefers-color-scheme: dark) {
@@ -28,22 +28,22 @@ body {
 }
 .shell { max-width: 480px; margin: 0 auto; min-height: 100dvh;
   display: flex; flex-direction: column; padding: 12px 14px 24px; gap: 14px; }
-.apps { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; justify-items: center; }
+.apps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; justify-items: center; }
 .app {
-  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
   color: var(--ink); text-decoration: none; cursor: pointer;
   -webkit-tap-highlight-color: transparent; border: none; background: none; padding: 0;
-  font: inherit;
+  font: inherit; width: 100%;
 }
 .app-icon {
   width: var(--app); height: var(--app); border-radius: 50%;
   border: 2px solid var(--edge); background: var(--panel);
   display: flex; align-items: center; justify-content: center;
-  font-size: 15px; font-weight: 800; letter-spacing: .04em;
+  font-size: 14px; font-weight: 800; letter-spacing: .02em;
 }
 .app.active .app-icon { background: var(--ink); color: var(--ground); }
 .app.locked .app-icon::after { content: "·"; font-weight: 400; margin-left: 1px; }
-.app-label { font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.app-label { font-size: 10px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
 .panel {
   border: 2px solid var(--edge); background: var(--panel);
   padding: 16px; flex: 1; display: flex; flex-direction: column; gap: 14px;
@@ -51,6 +51,13 @@ body {
 .panel h1 { margin: 0; font-size: 20px; letter-spacing: .06em; text-transform: uppercase; }
 .panel p { margin: 0; color: var(--muted); font-size: 16px; }
 .meta { font-size: 13px; color: var(--muted); font-family: ui-monospace, monospace; }
+.back {
+  display: inline-flex; align-items: center; gap: 6px;
+  min-height: 44px; padding: 0 4px; margin: -4px 0 0;
+  font-size: 15px; font-weight: 700; text-decoration: none; color: var(--ink);
+  border: none; background: none; cursor: pointer; font-family: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
 .input {
   width: 100%; min-height: 88px; padding: 12px;
   border: 2px solid var(--edge); background: var(--ground); color: var(--ink);
@@ -81,6 +88,7 @@ body {
   display: none;
 }
 .status.show { display: block; }
+.status.err { border-style: solid; }
 .actions { display: flex; flex-direction: column; gap: 8px; }
 .actions button {
   min-height: 44px; border: 2px solid var(--edge); background: var(--panel);
@@ -92,8 +100,8 @@ body {
   display: flex; flex-direction: column; align-items: center; gap: 10px;
   padding-top: 8px; border-top: 2px dashed var(--edge);
 }
-.qr-block img { width: 200px; height: 200px; image-rendering: pixelated; }
-.qr-block a { color: var(--muted); font-size: 13px; text-decoration: none; }
+.qr-block img { width: 200px; height: 200px; image-rendering: pixelated; background: #fff; }
+.qr-block a.url { color: var(--muted); font-size: 13px; text-decoration: none; }
 footer { font-size: 12px; color: var(--muted); text-align: center; }
 footer .anon { font-size: 14px; }
 a { color: inherit; text-decoration: underline; }
@@ -101,7 +109,11 @@ a { color: inherit; text-decoration: underline; }
 </head>
 <body>
 <div class="shell">
-  <nav class="apps" aria-label="Landmarks">
+  <nav class="apps" aria-label="Network">
+    <a class="app" id="nav-home" href="#home" aria-label="Home">
+      <span class="app-icon">⌂</span>
+      <span class="app-label">Home</span>
+    </a>
     <a class="app" id="nav-acme" href="#acme" aria-label="Acme">
       <span class="app-icon">Ac</span>
       <span class="app-label">Acme</span>
@@ -124,6 +136,7 @@ a { color: inherit; text-decoration: underline; }
     </div>
 
     <div id="view-acme" class="view">
+      <a class="back" href="#home">← Home</a>
       <h1>Acme · 0,0</h1>
       <p>Open sandbox on the network. Contracts visible. Clone and run the tick yourself.</p>
       <p>Play the demo casino — one free spin per day. Accept the grant to cross the threshold.</p>
@@ -139,6 +152,7 @@ a { color: inherit; text-decoration: underline; }
     </div>
 
     <div id="view-inbox" class="view">
+      <a class="back" href="#home">← Home</a>
       <h1>Inbox</h1>
       <p>Network letterbox. Drop a message — the operator may read it on the next tick.</p>
       <textarea class="input" id="input-inbox" placeholder="" aria-label="Message for inbox"></textarea>
@@ -148,11 +162,12 @@ a { color: inherit; text-decoration: underline; }
         <a href="https://5et.uk/frame" id="qr-link" aria-label="Open 5et frame">
           <img src="frame.svg" width="200" height="200" alt="QR code — 5et frame">
         </a>
-        <a href="https://5et.uk/frame">5et.uk/frame</a>
+        <a class="url" href="https://5et.uk/frame">5et.uk/frame</a>
       </div>
     </div>
 
     <div id="view-5et" class="view">
+      <a class="back" href="#home">← Home</a>
       <h1>5et · operator</h1>
       <p>Company frame — tick report, obligations, director view. Authentication required.</p>
       <p><a href="app/director.html">Open company frame →</a></p>
@@ -176,15 +191,16 @@ a { color: inherit; text-decoration: underline; }
     acme: document.getElementById("view-acme"),
     inbox: document.getElementById("view-inbox"),
     "5et": document.getElementById("view-5et"),
-    interest: document.getElementById("view-inbox"),
   };
   const nav = {
+    home: document.getElementById("nav-home"),
     acme: document.getElementById("nav-acme"),
     "5et": document.getElementById("nav-5et"),
     inbox: document.getElementById("nav-inbox"),
   };
   const status = document.getElementById("status");
   const inputMain = document.getElementById("input-main");
+  const inputInbox = document.getElementById("input-inbox");
   const landmarkRow = document.getElementById("landmark-atoms");
   let acmeEntitlement = "casino-spin";
 
@@ -232,52 +248,84 @@ a { color: inherit; text-decoration: underline; }
     });
   }
 
+  function normalizeHash() {
+    let hash = (location.hash || "#home").replace("#", "").toLowerCase();
+    if (!hash || hash === "interest") hash = hash === "interest" ? "inbox" : "home";
+    if (!views[hash]) hash = "home";
+    return hash;
+  }
+
   function route() {
-    let hash = (location.hash || "#home").replace("#", "");
-    if (hash === "interest") hash = "inbox";
-    const name = views[hash] ? hash : "home";
-    Object.keys(views).forEach((k) => {
-      if (!views[k]) return;
-      views[k].classList.toggle("on", k === name);
-    });
+    const name = normalizeHash();
+    if (location.hash !== "#" + name && name !== "home") {
+      /* hash already set */
+    } else if (!location.hash && name === "home") {
+      /* bare /frame — stay on home */
+    }
+    Object.values(views).forEach((el) => el.classList.remove("on"));
+    views[name].classList.add("on");
     Object.keys(nav).forEach((k) => nav[k].classList.toggle("active", k === name));
     document.getElementById("coord").textContent = name;
-    status.classList.remove("show");
     if (name === "acme") visitLandmark("acme");
     if (name === "home") renderLandmarks();
   }
 
+  function flashStatus(text, isError) {
+    status.textContent = text;
+    status.classList.toggle("err", !!isError);
+    status.classList.add("show");
+    status.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  }
+
   function dropInbox(message, source) {
-    if (!message) return;
-    showAct({
+    if (!message) {
+      flashStatus("Type a message first.", true);
+      return;
+    }
+    const act = {
       act: "inbox",
       marker: { type: "anonymous" },
       destination: NETWORK_INBOX,
       source: source || "frame",
       message,
-    });
+    };
+    showAct(act, "Dropped in letterbox.\nOperator may read on next tick.\n\n");
   }
 
-  function showAct(act) {
+  function showAct(act, prefix) {
     const line = JSON.stringify(act, null, 2);
     try {
       const q = JSON.parse(localStorage.getItem("5et-threshold-queue") || "[]");
       q.push({ at: new Date().toISOString(), act });
       localStorage.setItem("5et-threshold-queue", JSON.stringify(q));
-    } catch (e) { /* boox may block */ }
-    status.textContent =
-      "Inbox act recorded (local queue).\nOperator processes on tick if they choose.\n\n" + line;
-    status.classList.add("show");
+    } catch (e) {
+      flashStatus((prefix || "") + line + "\n\n(stored on device only — local queue blocked)", false);
+      return;
+    }
+    flashStatus((prefix || "") + line, false);
   }
 
   try {
     const draft = sessionStorage.getItem(STORAGE_DRAFT);
-    if (draft) inputMain.value = draft;
+    if (draft) {
+      inputMain.value = draft;
+      inputInbox.value = draft;
+    }
   } catch (e) { /* ignore */ }
-  inputMain.addEventListener("input", () => {
+
+  function saveDraft() {
     try {
       sessionStorage.setItem(STORAGE_DRAFT, inputMain.value);
     } catch (e) { /* ignore */ }
+  }
+
+  inputMain.addEventListener("input", () => {
+    saveDraft();
+    inputInbox.value = inputMain.value;
+  });
+  inputInbox.addEventListener("input", () => {
+    inputMain.value = inputInbox.value;
+    saveDraft();
   });
 
   document.getElementById("call-main").addEventListener("click", () => {
@@ -285,8 +333,7 @@ a { color: inherit; text-decoration: underline; }
   });
 
   document.getElementById("call-inbox").addEventListener("click", () => {
-    const message = document.getElementById("input-inbox").value.trim();
-    dropInbox(message, "frame-inbox");
+    dropInbox(inputInbox.value.trim(), "frame-inbox");
   });
 
   document.querySelectorAll("#acme-atoms .atom:not(.off)").forEach((el) => {
@@ -312,7 +359,7 @@ a { color: inherit; text-decoration: underline; }
         business_unit: "acme",
         entitlement: acmeEntitlement,
         note,
-      });
+      }, "Grant request queued.\n\n");
       return;
     }
     showAct({
@@ -321,20 +368,17 @@ a { color: inherit; text-decoration: underline; }
       clause: "§1",
       decision: note || "dispute",
       decided_by: "anonymous",
-    });
+    }, "Judgement queued.\n\n");
   }
 
   document.getElementById("acme-accept").addEventListener("click", () => acmeKnock("grant"));
   document.getElementById("acme-dispute").addEventListener("click", () => acmeKnock("judgement"));
 
-  const qrLink = document.getElementById("qr-link");
-  if (location.protocol !== "file:" && !location.hostname.includes("5et.uk")) {
-    qrLink.href = FRAME_URL;
-    qrLink.querySelector("img").src = "frame.svg";
-  }
-
   renderLandmarks();
   window.addEventListener("hashchange", route);
+  if (!location.hash) {
+    history.replaceState(null, "", "#home");
+  }
   route();
 })();
 </script>
