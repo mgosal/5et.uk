@@ -4,25 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1180` · 2026-09-08 07:38 UTC
+`FRAME #1181` · 2026-09-08 07:55 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1180** · 25 ticks · 21 h 16 m · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1181** · 26 ticks · 21 h 33 m · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
+| 1180 | [granola-import RP-5](projects/ema-sa/_contracts/granola-import.REVIEW.md) | Raised for your decision. |
+| 1180 | [granola-import RP-4](projects/ema-sa/_contracts/granola-import.REVIEW.md) | Raised for your decision. |
+| 1180 | [email-import RP-5](projects/ema-sa/_contracts/email-import.REVIEW.md) | Raised for your decision. |
+| 1180 | [email-import RP-4](projects/ema-sa/_contracts/email-import.REVIEW.md) | Raised for your decision. |
 | 1177 | [fathom-import RP-2](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| 1177 | [fathom-import RP-3](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| 1177 | [ema-sa RP-6](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1177 | [fathom-import RP-1](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| 1175 | [ema-sa RP-2](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| 1175 | [fathom-import RP-5](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| 1175 | [ema-sa RP-4](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1177 | [ema-sa RP-6](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 
 **Elsewhere**
 
@@ -31,7 +31,7 @@
 | 1168 | [Operations](Operations/dashboard.md) | Load 41 → 42 active. |
 | 1168 | [St. James AI Networking Event Attendance](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md) | Created. |
 
-Beneath it: 0 progressed, 1 created, 114 inspected without change.
+Beneath it: 0 progressed, 1 created, 133 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -46,15 +46,15 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁▄▁▄
+█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁▄▁▄▁
 █ latest move · 10:23
-▁–█ tick-report activity · 25 reports · 21 h   (frames #1156 → #1180)
+▁–█ tick-report activity · 26 reports · 21 h   (frames #1156 → #1181)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **25** |
+| Tick reports since latest move | **26** |
 | Time since latest move | 21 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
@@ -185,4 +185,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1180 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1181 · immediate mode, no client state</sub>
