@@ -14,6 +14,7 @@
   --panel: #fff;
   --ground: #fff;
   --btn-h: 52px;
+  --app: 56px;
   font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 @media (prefers-color-scheme: dark) {
@@ -27,17 +28,22 @@ body {
 }
 .shell { max-width: 480px; margin: 0 auto; min-height: 100dvh;
   display: flex; flex-direction: column; padding: 12px 14px 24px; gap: 14px; }
-.shortcuts { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
-.shortcut {
-  display: flex; align-items: center; justify-content: center;
-  min-height: var(--btn-h); padding: 8px 6px;
-  border: 2px solid var(--edge); background: var(--panel);
-  color: var(--ink); text-decoration: none; font-weight: 700;
-  font-size: 15px; text-align: center; cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
+.apps { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; justify-items: center; }
+.app {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  color: var(--ink); text-decoration: none; cursor: pointer;
+  -webkit-tap-highlight-color: transparent; border: none; background: none; padding: 0;
+  font: inherit;
 }
-.shortcut.active { background: var(--ink); color: var(--ground); }
-.shortcut.locked::after { content: " ·"; font-weight: 400; opacity: .7; }
+.app-icon {
+  width: var(--app); height: var(--app); border-radius: 50%;
+  border: 2px solid var(--edge); background: var(--panel);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 15px; font-weight: 800; letter-spacing: .04em;
+}
+.app.active .app-icon { background: var(--ink); color: var(--ground); }
+.app.locked .app-icon::after { content: "·"; font-weight: 400; margin-left: 1px; }
+.app-label { font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
 .panel {
   border: 2px solid var(--edge); background: var(--panel);
   padding: 16px; flex: 1; display: flex; flex-direction: column; gap: 14px;
@@ -50,13 +56,18 @@ body {
   border: 2px solid var(--edge); background: var(--ground); color: var(--ink);
   font: inherit; resize: vertical;
 }
-.atoms { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.landmarks, .atoms { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; min-height: 0; }
+.landmarks:empty { display: none; }
 .atom {
-  padding: 10px 14px; border: 2px solid var(--edge);
-  background: var(--ground); font-size: 14px; font-weight: 600;
-  cursor: pointer; -webkit-tap-highlight-color: transparent;
+  width: var(--app); height: var(--app); border-radius: 50%;
+  border: 2px solid var(--edge); background: var(--ground);
+  font-size: 11px; font-weight: 700; text-align: center;
+  display: flex; align-items: center; justify-content: center;
+  padding: 4px; line-height: 1.1; cursor: pointer;
+  -webkit-tap-highlight-color: transparent; text-decoration: none; color: var(--ink);
 }
 .atom.off { opacity: .35; pointer-events: none; }
+.atom.sel { outline: 3px solid var(--ink); outline-offset: 2px; }
 .call {
   width: 100%; min-height: var(--btn-h); border: 3px solid var(--edge);
   background: var(--ink); color: var(--ground);
@@ -73,53 +84,72 @@ body {
 .actions { display: flex; flex-direction: column; gap: 8px; }
 .actions button {
   min-height: 44px; border: 2px solid var(--edge); background: var(--panel);
-  font: inherit; font-weight: 600; cursor: pointer;
+  font: inherit; font-weight: 600; cursor: pointer; color: var(--ink);
 }
 .view { display: none; flex-direction: column; gap: 14px; }
 .view.on { display: flex; }
+.qr-block {
+  display: flex; flex-direction: column; align-items: center; gap: 10px;
+  padding-top: 8px; border-top: 2px dashed var(--edge);
+}
+.qr-block img { width: 200px; height: 200px; image-rendering: pixelated; }
+.qr-block a { color: var(--muted); font-size: 13px; text-decoration: none; }
 footer { font-size: 12px; color: var(--muted); text-align: center; }
+footer .anon { font-size: 14px; }
 a { color: inherit; text-decoration: underline; }
 </style>
 </head>
 <body>
 <div class="shell">
-  <nav class="shortcuts" aria-label="Landmarks">
-    <a class="shortcut" id="nav-acme" href="#acme">Acme</a>
-    <a class="shortcut locked" id="nav-5et" href="#5et">5et</a>
-    <a class="shortcut" id="nav-interest" href="#interest">Interest</a>
+  <nav class="apps" aria-label="Landmarks">
+    <a class="app" id="nav-acme" href="#acme" aria-label="Acme">
+      <span class="app-icon">Ac</span>
+      <span class="app-label">Acme</span>
+    </a>
+    <a class="app locked" id="nav-5et" href="#5et" aria-label="5et operator">
+      <span class="app-icon">5et</span>
+      <span class="app-label">5et</span>
+    </a>
+    <a class="app" id="nav-inbox" href="#inbox" aria-label="Network inbox">
+      <span class="app-icon">📬</span>
+      <span class="app-label">Inbox</span>
+    </a>
   </nav>
 
   <div class="panel">
     <div id="view-home" class="view on">
-      <h1>Talk to us</h1>
-      <p>Network face — anonymous marker zero. Type below; the operator may process your act on the next tick.</p>
-      <textarea class="input" id="input-home" placeholder="Say anything…" aria-label="Message"></textarea>
-      <div class="atoms" aria-label="Atoms">
-        <span class="atom" data-tag="casino-spin">casino</span>
-        <span class="atom off" data-tag="typeface">typeface</span>
-        <span class="atom" data-tag="feedback">feedback</span>
-      </div>
-      <button type="button" class="call" id="call-home">Call</button>
+      <div class="landmarks" id="landmark-atoms" aria-label="Visited landmarks"></div>
+      <textarea class="input" id="input-main" placeholder="" aria-label="Message"></textarea>
+      <button type="button" class="call" id="call-main">Call</button>
     </div>
 
     <div id="view-acme" class="view">
       <h1>Acme · 0,0</h1>
-      <p class="meta">Live · anonymous knocks on</p>
-      <p>Open sandbox. Read the grant. Cross the threshold only if you accept.</p>
-      <div class="actions">
-        <button type="button" id="acme-accept">Accept — grant request</button>
-        <button type="button" id="acme-feedback">Object — feedback</button>
+      <p>Open sandbox on the network. Contracts visible. Clone and run the tick yourself.</p>
+      <p>Play the demo casino — one free spin per day. Accept the grant to cross the threshold.</p>
+      <div class="atoms" id="acme-atoms" aria-label="Entitlements">
+        <button type="button" class="atom" data-entitlement="casino-spin">casino</button>
+        <button type="button" class="atom off" data-entitlement="typeface" disabled>type</button>
       </div>
-      <textarea class="input" id="input-acme" placeholder="Optional note with your knock…" aria-label="Acme note"></textarea>
-      <button type="button" class="call" id="call-acme">Knock</button>
-      <p class="meta">First live grant: fc048fb8ac2a85a6</p>
+      <div class="actions">
+        <button type="button" id="acme-accept">Accept grant</button>
+        <button type="button" id="acme-dispute">Dispute clause</button>
+      </div>
+      <p class="meta"><a href="acme/index.html">Read the grant</a></p>
     </div>
 
-    <div id="view-interest" class="view">
-      <h1>Register interest</h1>
-      <p>Anonymous is fine. The operator chooses whether to process — same as your website contact form.</p>
-      <textarea class="input" id="input-interest" placeholder="What are you interested in?" aria-label="Interest"></textarea>
-      <button type="button" class="call" id="call-interest">Register</button>
+    <div id="view-inbox" class="view">
+      <h1>Inbox</h1>
+      <p>Network letterbox. Drop a message — the operator may read it on the next tick.</p>
+      <textarea class="input" id="input-inbox" placeholder="" aria-label="Message for inbox"></textarea>
+      <button type="button" class="call" id="call-inbox">Drop</button>
+      <div class="qr-block">
+        <p class="meta">Share the frame</p>
+        <a href="https://5et.uk/frame" id="qr-link" aria-label="Open 5et frame">
+          <img src="frame.svg" width="200" height="200" alt="QR code — 5et frame">
+        </a>
+        <a href="https://5et.uk/frame">5et.uk/frame</a>
+      </div>
     </div>
 
     <div id="view-5et" class="view">
@@ -132,31 +162,100 @@ a { color: inherit; text-decoration: underline; }
     <div class="status" id="status" role="status" aria-live="polite"></div>
   </div>
 
-  <footer>Marker zero · no cookie · <span id="coord">network</span></footer>
+  <footer><span class="anon" title="Anonymous visitor" aria-label="Anonymous visitor">🕶️</span> · no cookie · <span id="coord">home</span></footer>
 </div>
 <script>
 (function () {
+  const FRAME_URL = "https://5et.uk/frame";
+  const STORAGE_VISITED = "5et-visited-landmarks";
+  const STORAGE_DRAFT = "5et-frame-draft";
+  const NETWORK_INBOX = "_network/_integrations/inbox/";
+
   const views = {
     home: document.getElementById("view-home"),
     acme: document.getElementById("view-acme"),
-    interest: document.getElementById("view-interest"),
+    inbox: document.getElementById("view-inbox"),
     "5et": document.getElementById("view-5et"),
+    interest: document.getElementById("view-inbox"),
   };
   const nav = {
     acme: document.getElementById("nav-acme"),
     "5et": document.getElementById("nav-5et"),
-    interest: document.getElementById("nav-interest"),
+    inbox: document.getElementById("nav-inbox"),
   };
   const status = document.getElementById("status");
-  let selectedTag = "";
+  const inputMain = document.getElementById("input-main");
+  const landmarkRow = document.getElementById("landmark-atoms");
+  let acmeEntitlement = "casino-spin";
+
+  const landmarks = {
+    acme: { label: "Acme", hash: "acme" },
+  };
+
+  function loadVisited() {
+    try {
+      return JSON.parse(sessionStorage.getItem(STORAGE_VISITED) || "{}");
+    } catch (e) {
+      return {};
+    }
+  }
+
+  function saveVisited(data) {
+    try {
+      sessionStorage.setItem(STORAGE_VISITED, JSON.stringify(data));
+    } catch (e) { /* private mode */ }
+  }
+
+  function visitLandmark(id) {
+    const visited = loadVisited();
+    const draft = inputMain.value.trim();
+    visited[id] = {
+      at: new Date().toISOString(),
+      from: draft || undefined,
+    };
+    saveVisited(visited);
+    renderLandmarks();
+  }
+
+  function renderLandmarks() {
+    const visited = loadVisited();
+    landmarkRow.innerHTML = "";
+    Object.keys(landmarks).forEach((id) => {
+      if (!visited[id]) return;
+      const def = landmarks[id];
+      const el = document.createElement("a");
+      el.className = "atom";
+      el.href = "#" + def.hash;
+      el.title = def.label;
+      el.textContent = def.label;
+      landmarkRow.appendChild(el);
+    });
+  }
 
   function route() {
-    const hash = (location.hash || "#home").replace("#", "");
+    let hash = (location.hash || "#home").replace("#", "");
+    if (hash === "interest") hash = "inbox";
     const name = views[hash] ? hash : "home";
-    Object.keys(views).forEach((k) => views[k].classList.toggle("on", k === name));
+    Object.keys(views).forEach((k) => {
+      if (!views[k]) return;
+      views[k].classList.toggle("on", k === name);
+    });
     Object.keys(nav).forEach((k) => nav[k].classList.toggle("active", k === name));
-    document.getElementById("coord").textContent = name === "home" ? "network" : name;
+    document.getElementById("coord").textContent = name;
     status.classList.remove("show");
+    if (name === "acme") visitLandmark("acme");
+    if (name === "home") renderLandmarks();
+  }
+
+  function dropInbox(message, source) {
+    if (!message) return;
+    showAct({
+      act: "inbox",
+      marker: { type: "anonymous" },
+      destination: NETWORK_INBOX,
+      source: source || "frame",
+      message,
+    });
   }
 
   function showAct(act) {
@@ -167,56 +266,52 @@ a { color: inherit; text-decoration: underline; }
       localStorage.setItem("5et-threshold-queue", JSON.stringify(q));
     } catch (e) { /* boox may block */ }
     status.textContent =
-      "Threshold act recorded (local queue).\nOperator processes on tick if they choose.\n\n" + line;
+      "Inbox act recorded (local queue).\nOperator processes on tick if they choose.\n\n" + line;
     status.classList.add("show");
   }
 
-  document.querySelectorAll(".atom:not(.off)").forEach((el) => {
+  try {
+    const draft = sessionStorage.getItem(STORAGE_DRAFT);
+    if (draft) inputMain.value = draft;
+  } catch (e) { /* ignore */ }
+  inputMain.addEventListener("input", () => {
+    try {
+      sessionStorage.setItem(STORAGE_DRAFT, inputMain.value);
+    } catch (e) { /* ignore */ }
+  });
+
+  document.getElementById("call-main").addEventListener("click", () => {
+    dropInbox(inputMain.value.trim(), "frame-home");
+  });
+
+  document.getElementById("call-inbox").addEventListener("click", () => {
+    const message = document.getElementById("input-inbox").value.trim();
+    dropInbox(message, "frame-inbox");
+  });
+
+  document.querySelectorAll("#acme-atoms .atom:not(.off)").forEach((el) => {
     el.addEventListener("click", () => {
-      selectedTag = el.dataset.tag || "";
-      document.querySelectorAll(".atom").forEach((a) => a.style.outline = "");
-      el.style.outline = "3px solid var(--ink)";
+      acmeEntitlement = el.dataset.entitlement || "casino-spin";
+      document.querySelectorAll("#acme-atoms .atom").forEach((a) => a.classList.remove("sel"));
+      el.classList.add("sel");
     });
   });
+  document.querySelector("#acme-atoms .atom:not(.off)")?.classList.add("sel");
 
-  document.getElementById("call-home").addEventListener("click", () => {
-    const message = document.getElementById("input-home").value.trim();
-    if (!message) return;
-    const act = {
-      act: selectedTag === "feedback" ? "judgement" : "register-interest",
-      marker: { type: "anonymous" },
-      business_unit: "5et",
-      message,
-    };
-    if (act.act === "judgement") {
-      act.contract = "_network/network-frame.html";
-      act.decision = message;
-      act.decided_by = "anonymous";
-      delete act.message;
-    }
-    showAct(act);
-  });
-
-  document.getElementById("call-interest").addEventListener("click", () => {
-    const message = document.getElementById("input-interest").value.trim();
-    if (!message) return;
-    showAct({
-      act: "register-interest",
-      marker: { type: "anonymous" },
-      business_unit: "5et",
-      message,
-    });
-  });
+  function acmeNote() {
+    const visited = loadVisited();
+    return (visited.acme && visited.acme.from) || inputMain.value.trim() || undefined;
+  }
 
   function acmeKnock(kind) {
-    const note = document.getElementById("input-acme").value.trim();
+    const note = acmeNote();
     if (kind === "grant") {
       showAct({
         act: "grant-request",
         marker: { type: "anonymous" },
         business_unit: "acme",
-        entitlement: "casino-spin",
-        note: note || undefined,
+        entitlement: acmeEntitlement,
+        note,
       });
       return;
     }
@@ -224,15 +319,21 @@ a { color: inherit; text-decoration: underline; }
       act: "judgement",
       contract: "_network/acme/_contracts/acme-grant.README.md",
       clause: "§1",
-      decision: note || "feedback",
+      decision: note || "dispute",
       decided_by: "anonymous",
     });
   }
 
   document.getElementById("acme-accept").addEventListener("click", () => acmeKnock("grant"));
-  document.getElementById("acme-feedback").addEventListener("click", () => acmeKnock("judgement"));
-  document.getElementById("call-acme").addEventListener("click", () => acmeKnock("grant"));
+  document.getElementById("acme-dispute").addEventListener("click", () => acmeKnock("judgement"));
 
+  const qrLink = document.getElementById("qr-link");
+  if (location.protocol !== "file:" && !location.hostname.includes("5et.uk")) {
+    qrLink.href = FRAME_URL;
+    qrLink.querySelector("img").src = "frame.svg";
+  }
+
+  renderLandmarks();
   window.addEventListener("hashchange", route);
   route();
 })();
