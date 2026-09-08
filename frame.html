@@ -46,6 +46,11 @@ body {
   pointer-events: none;
 }
 .pin-net[hidden] { display: none; }
+.apps-bar { display: flex; flex-direction: column; gap: 8px; }
+.apps-title {
+  margin: 0; font-size: 11px; font-weight: 700; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--muted); text-align: center;
+}
 .apps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; justify-items: center; }
 .app {
   display: flex; flex-direction: column; align-items: center; gap: 4px;
@@ -76,8 +81,8 @@ body {
   font: inherit; resize: vertical;
 }
 .compose { display: flex; flex-direction: column; gap: 10px; }
-.landmarks, .atoms { display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-start; min-height: 0; }
-.landmarks:empty { display: none; }
+.shortcuts { display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-start; min-height: 0; }
+.shortcuts:empty { display: none; }
 .atom {
   width: var(--app); height: var(--app); border-radius: 50%;
   border: 2px solid var(--edge); background: var(--ground);
@@ -140,7 +145,9 @@ a { color: inherit; text-decoration: underline; }
 </head>
 <body>
 <div class="shell">
-  <nav class="apps" aria-label="Apps on the network">
+  <section class="apps-bar" aria-labelledby="apps-heading">
+    <h2 class="apps-title" id="apps-heading">Apps</h2>
+    <nav class="apps" aria-label="Network apps">
     <a class="app" id="nav-acme" href="#acme" aria-label="Acme">
       <span class="app-icon">Ac</span>
       <span class="app-label">Acme</span>
@@ -153,13 +160,14 @@ a { color: inherit; text-decoration: underline; }
       <span class="app-icon">📬</span>
       <span class="app-label">Inbox</span>
     </a>
-  </nav>
+    </nav>
+  </section>
 
   <div class="stage" id="stage">
     <a class="atom pin-net net" id="pin-net" href="#network" hidden aria-label="Back to network" title="Back to network">net</a>
     <div class="panel">
     <div id="view-network" class="view on">
-      <div class="landmarks" id="landmark-atoms" aria-label="Apps you've opened"></div>
+      <div class="shortcuts" id="shortcut-atoms" aria-label="Your shortcuts"></div>
       <div class="compose">
         <textarea class="input" id="input-main" placeholder="" aria-label="Message" enterkeyhint="send"></textarea>
         <button type="button" class="enter" id="enter-main" aria-label="Enter">
@@ -231,7 +239,7 @@ a { color: inherit; text-decoration: underline; }
   const status = document.getElementById("status");
   const inputMain = document.getElementById("input-main");
   const inputInbox = document.getElementById("input-inbox");
-  const landmarkRow = document.getElementById("landmark-atoms");
+  const shortcutRow = document.getElementById("shortcut-atoms");
   const spinFace = document.getElementById("spin-face");
   const pinNet = document.getElementById("pin-net");
   const stage = document.getElementById("stage");
@@ -246,6 +254,28 @@ a { color: inherit; text-decoration: underline; }
     acme: { label: "Acme", hash: "acme" },
     inbox: { label: "Inbox", hash: "inbox" },
   };
+
+  function loadShortcuts() {
+    try {
+      return JSON.parse(localStorage.getItem("5et-shortcuts") || "[]");
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function renderShortcuts() {
+    shortcutRow.innerHTML = "";
+    loadShortcuts().forEach((id) => {
+      const def = landmarks[id];
+      if (!def) return;
+      const el = document.createElement("a");
+      el.className = "atom";
+      el.href = "#" + def.hash;
+      el.title = def.label;
+      el.textContent = def.label;
+      shortcutRow.appendChild(el);
+    });
+  }
 
   function loadVisited() {
     try {
@@ -269,22 +299,6 @@ a { color: inherit; text-decoration: underline; }
       from: draft || undefined,
     };
     saveVisited(visited);
-    renderLandmarks();
-  }
-
-  function renderLandmarks() {
-    const visited = loadVisited();
-    landmarkRow.innerHTML = "";
-    Object.keys(landmarks).forEach((id) => {
-      if (!visited[id]) return;
-      const def = landmarks[id];
-      const el = document.createElement("a");
-      el.className = "atom";
-      el.href = "#" + def.hash;
-      el.title = def.label;
-      el.textContent = def.label;
-      landmarkRow.appendChild(el);
-    });
   }
 
   function normalizeHash() {
@@ -307,7 +321,7 @@ a { color: inherit; text-decoration: underline; }
     stage.classList.toggle("has-pin", !onNetwork);
     if (name === "acme") visitLandmark("acme");
     if (name === "inbox") visitLandmark("inbox");
-    if (name === "network") renderLandmarks();
+    if (name === "network") renderShortcuts();
   }
 
   function flashStatus(text, isError) {
@@ -424,7 +438,7 @@ a { color: inherit; text-decoration: underline; }
       spinFace.classList.add("wait");
     }
     status.classList.remove("show", "err");
-    renderLandmarks();
+    renderShortcuts();
     if (normalizeHash() !== "network") {
       location.hash = "#network";
     } else {
@@ -435,7 +449,7 @@ a { color: inherit; text-decoration: underline; }
 
   document.getElementById("clear-history").addEventListener("click", clearLocalHistory);
 
-  renderLandmarks();
+  renderShortcuts();
   window.addEventListener("hashchange", route);
   if (!location.hash || location.hash === "#home") {
     history.replaceState(null, "", "#network");
