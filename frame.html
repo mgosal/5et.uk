@@ -71,6 +71,18 @@ body {
 .atom.net { font-size: 13px; letter-spacing: .04em; }
 .atom.off { opacity: .35; pointer-events: none; }
 .atom.sel { outline: 3px solid var(--ink); outline-offset: 2px; }
+.spin-hero {
+  width: 120px; height: 120px; font-size: 16px; margin: 8px auto;
+  border-width: 3px;
+}
+.spin-face {
+  min-height: 72px; border: 2px solid var(--edge); padding: 16px;
+  text-align: center; font-size: 28px; font-weight: 800; line-height: 1.2;
+  display: flex; align-items: center; justify-content: center;
+}
+.spin-face.wait { font-size: 16px; font-weight: 600; color: var(--muted); }
+.fine { font-size: 13px; color: var(--muted); text-align: center; }
+.fine a { text-decoration: underline; color: var(--muted); }
 .enter {
   width: 100%; min-height: var(--btn-h); border: 3px solid var(--edge);
   background: var(--ink); color: var(--ground);
@@ -137,17 +149,10 @@ a { color: inherit; text-decoration: underline; }
         <a class="atom net" href="#network" aria-label="Back to network">net</a>
       </div>
       <h1>Acme · 0,0</h1>
-      <p>Open sandbox on the network. Contracts visible. Clone and run the tick yourself.</p>
-      <p>Play the demo casino — one free spin per day. Accept the grant to cross the threshold.</p>
-      <div class="atoms" id="acme-atoms" aria-label="Entitlements">
-        <button type="button" class="atom" data-entitlement="casino-spin">casino</button>
-        <button type="button" class="atom off" data-entitlement="typeface" disabled>type</button>
-      </div>
-      <div class="actions">
-        <button type="button" id="acme-accept">Accept grant</button>
-        <button type="button" id="acme-dispute">Dispute clause</button>
-      </div>
-      <p class="meta"><a href="acme/index.html">Read the grant</a></p>
+      <p>What can you do here? <strong>Spin the wheel.</strong> Fake money. One demo spin.</p>
+      <button type="button" class="atom spin-hero" id="acme-spin" aria-label="Spin the wheel">spin</button>
+      <div class="spin-face wait" id="spin-face" aria-live="polite">Tap spin to play</div>
+      <p class="fine">Anonymous play — accepting the grant is tapping spin. <a href="acme/index.html">Read the grant</a> · <button type="button" id="acme-dispute" style="background:none;border:none;padding:0;font:inherit;color:inherit;text-decoration:underline;cursor:pointer">Dispute clause</button></p>
     </div>
 
     <div id="view-inbox" class="view">
@@ -207,7 +212,13 @@ a { color: inherit; text-decoration: underline; }
   const inputMain = document.getElementById("input-main");
   const inputInbox = document.getElementById("input-inbox");
   const landmarkRow = document.getElementById("landmark-atoms");
-  let acmeEntitlement = "casino-spin";
+  const spinFace = document.getElementById("spin-face");
+  const WHEEL = [
+    "0", "32", "15", "19", "4", "21", "2", "25", "17", "34", "6", "27", "13",
+    "36", "11", "30", "8", "23", "10", "5", "24", "16", "33", "1", "20", "14",
+    "31", "9", "22", "18", "29", "7", "28", "12", "35", "3", "26",
+  ];
+  const RED = new Set(["1","3","5","7","9","12","14","16","18","19","21","23","25","27","30","32","34","36"]);
 
   const landmarks = {
     acme: { label: "Acme", hash: "acme" },
@@ -345,30 +356,27 @@ a { color: inherit; text-decoration: underline; }
   bindEnter(inputMain, document.getElementById("enter-main"), "frame-network");
   bindEnter(inputInbox, document.getElementById("enter-inbox"), "frame-inbox");
 
-  document.querySelectorAll("#acme-atoms .atom:not(.off)").forEach((el) => {
-    el.addEventListener("click", () => {
-      acmeEntitlement = el.dataset.entitlement || "casino-spin";
-      document.querySelectorAll("#acme-atoms .atom").forEach((a) => a.classList.remove("sel"));
-      el.classList.add("sel");
-    });
-  });
-  document.querySelector("#acme-atoms .atom:not(.off)")?.classList.add("sel");
+  function spinWheel() {
+    const n = WHEEL[Math.floor(Math.random() * WHEEL.length)];
+    const colour = n === "0" ? "green" : RED.has(n) ? "red" : "black";
+    return { n, colour, label: n + " " + colour };
+  }
 
   function acmeNote() {
     const visited = loadVisited();
     return (visited.acme && visited.acme.from) || inputMain.value.trim() || undefined;
   }
 
-  function acmeKnock(kind) {
-    const note = acmeNote();
+  function acmeKnock(kind, extra) {
+    const note = [acmeNote(), extra].filter(Boolean).join(" — ") || undefined;
     if (kind === "grant") {
       showAct({
         act: "grant-request",
         marker: { type: "anonymous" },
         business_unit: "acme",
-        entitlement: acmeEntitlement,
+        entitlement: "casino-spin",
         note,
-      }, "Grant request queued.\n\n");
+      }, "Acme inbox — grant knock queued.\nReceipt on operator tick.\n\n");
       return;
     }
     showAct({
@@ -380,7 +388,13 @@ a { color: inherit; text-decoration: underline; }
     }, "Judgement queued.\n\n");
   }
 
-  document.getElementById("acme-accept").addEventListener("click", () => acmeKnock("grant"));
+  document.getElementById("acme-spin").addEventListener("click", () => {
+    const result = spinWheel();
+    spinFace.classList.remove("wait");
+    spinFace.textContent = result.label;
+    acmeKnock("grant", "spin: " + result.label);
+  });
+
   document.getElementById("acme-dispute").addEventListener("click", () => acmeKnock("judgement"));
 
   renderLandmarks();
