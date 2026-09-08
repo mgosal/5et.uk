@@ -2,318 +2,240 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="dark">
-<meta name="theme-color" content="#0E1621">
-<meta name="5et-frame" content="1208">
-<title>5et Frame #1208</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffffff">
+<title>5et — network</title>
 <style>
-:root{--ground:#0E1621;--panel:#16212E;--panel2:#1B2836;--edge:#26374A;--edge2:#33506B;
---ink:#DDE7F0;--muted:#7B8EA4;--dim:#55677B;--player:#F2A03D;--playerd:#7A5426;
---company:#4FC3D9;--companyd:#245A67;--critical:#E5646B;--ok:#6BCB8B;--lock:#5A6E85;
---fd:"Chakra Petch",system-ui,sans-serif;--fb:"IBM Plex Sans",system-ui,sans-serif;
---fm:"IBM Plex Mono",ui-monospace,monospace}
-*{box-sizing:border-box}
-body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--fb);font-size:15px;
-line-height:1.55;-webkit-font-smoothing:antialiased}
-.wrap{max-width:1080px;margin:0 auto;padding:20px 16px 72px;display:flex;flex-direction:column;gap:18px}
-.clip{clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,12px 100%,0 calc(100% - 12px))}
-.panel{background:var(--panel);border:1px solid var(--edge)}
-.lbl{font-family:var(--fd);font-weight:600;font-size:10.5px;letter-spacing:.16em;
-text-transform:uppercase;color:var(--dim)}
-.num{font-family:var(--fm);font-variant-numeric:tabular-nums}
-.mast{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
-.mast h1{font-family:var(--fd);font-weight:700;font-size:15px;letter-spacing:.22em;
-text-transform:uppercase;margin:0;color:var(--muted)}
-.mast h1 b{color:var(--ink)}
-.frame-id{display:flex;align-items:baseline;gap:8px}
-.frame-id .n{font-family:var(--fm);font-weight:600;font-size:15px;color:var(--company)}
-.live-status{display:inline-flex;align-items:center;gap:5px;font-family:var(--fm);font-size:10px;
-color:var(--company);text-transform:uppercase;letter-spacing:.08em}
-.live-status::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;
-box-shadow:0 0 8px currentColor}
-.live-status.syncing{color:var(--player)}
-.live-status.offline{color:var(--dim)}
-.turn{padding:20px;display:flex;flex-direction:column;gap:16px;
-background:linear-gradient(180deg,#152532 0%,var(--panel) 100%)}
-.turn.you{border-color:var(--playerd)}
-.turn.company{border-color:var(--companyd)}
-.turn-top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;flex-wrap:wrap}
-.who{display:flex;flex-direction:column;gap:4px}
-.who .val{font-family:var(--fd);font-weight:700;font-size:clamp(30px,8vw,44px);line-height:1;
-letter-spacing:.04em;text-transform:uppercase}
-.turn.you .who .val{color:var(--player)}
-.turn.company .who .val{color:var(--company)}
-.who .sub{font-size:13px;color:var(--muted)}
-.since{display:flex;flex-direction:column;gap:4px;align-items:flex-end;text-align:right}
-.since .big{font-family:var(--fm);font-weight:600;font-size:clamp(26px,7vw,38px);line-height:1}
-.since .cap{font-size:12px;color:var(--muted);max-width:22ch}
-.marks{display:flex;align-items:flex-end;gap:2px;height:34px}
-.mk{flex:1 1 auto;min-width:3px;max-width:24px;border-radius:1px;display:flex;
-flex-direction:column-reverse;overflow:hidden;background:var(--edge)}
-.mk i{display:block;width:100%}
-.mk .routine{background:var(--dim)}
-.mk .pipeline{background:var(--company)}
-.mk .llm{background:#A987E8}
-.mk.pl{background:var(--player);height:100%;box-shadow:0 0 10px rgba(242,160,61,.5)}
-.legend{display:flex;gap:16px;flex-wrap:wrap}
-.key{display:flex;align-items:center;gap:6px;font-size:11.5px;color:var(--muted)}
-.sw{width:9px;height:9px;border-radius:1px;display:inline-block}
-.grid{display:grid;gap:18px;grid-template-columns:1fr}
-@media(min-width:820px){.grid.two{grid-template-columns:1fr 1fr}}
-.card{padding:16px 18px;display:flex;flex-direction:column;gap:14px}
-.card h2{font-family:var(--fd);font-weight:600;font-size:12px;letter-spacing:.16em;
-text-transform:uppercase;margin:0;color:var(--muted);display:flex;align-items:center;
-justify-content:space-between;gap:10px}
-.card h2 .tag{font-family:var(--fm);letter-spacing:0;font-size:11px;color:var(--dim);text-transform:none}
-.rows{display:flex;flex-direction:column;gap:0}
-.row{display:flex;align-items:center;gap:12px;padding:11px 0;border-bottom:1px solid var(--edge)}
-.row:last-child{border-bottom:0}
-.row .idx{font-family:var(--fm);font-size:11px;color:var(--dim);width:18px;flex:none}
-.row .nm{flex:1;font-size:13.5px;min-width:0}
-.row .nm a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--edge2)}
-.row .nm a:hover,.row .nm a:focus-visible{color:var(--company);border-color:var(--company)}
-.st{font-family:var(--fd);font-size:10px;font-weight:600;letter-spacing:.12em;
-text-transform:uppercase;padding:3px 8px;border:1px solid var(--lock);color:var(--lock);white-space:nowrap}
-.st.next{border-color:var(--playerd);color:var(--player)}
-.st.open{border-color:var(--critical);color:var(--critical)}
-.meta{font-family:var(--fm);font-size:11.5px;color:var(--muted)}
-.unit{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:11px 0;border-bottom:1px solid var(--edge)}
-.unit:last-child{border-bottom:0}
-.unit .nm{font-size:13.5px}
-.unit .cnt{font-family:var(--fm);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
-.bar{grid-column:1/-1;height:5px;background:var(--panel2);display:flex;overflow:hidden}
-.bar i{display:block;height:100%}
-.bar .a{background:var(--company)}
-.bar .d{background:var(--companyd)}
-.ev{display:grid;grid-template-columns:auto auto 1fr;gap:12px;align-items:baseline;padding:8px 0;
-border-bottom:1px solid var(--edge);font-size:13px}
-.ev:last-child{border-bottom:0}
-.ev .t{font-family:var(--fm);font-size:11.5px;color:var(--dim);white-space:nowrap}
-.ev .w{font-family:var(--fd);font-size:9.5px;font-weight:600;letter-spacing:.12em;
-text-transform:uppercase;padding:2px 6px;white-space:nowrap}
-.ev .w.pl{color:var(--player);border:1px solid var(--playerd)}
-.ev .w.co{color:var(--company);border:1px solid var(--companyd)}
-a:focus-visible{outline:2px solid var(--company);outline-offset:2px}
-footer{border-top:1px solid var(--edge);padding-top:14px;display:flex;justify-content:space-between;
-gap:12px;flex-wrap:wrap;font-size:11.5px;color:var(--dim)}
-.frame-content{display:none}
-body.unlocked .frame-content{display:block}
-.login{min-height:100vh;display:grid;place-items:center;padding:24px}
-body.unlocked .login{display:none}
-.login-card{width:min(100%,380px);padding:28px;display:flex;flex-direction:column;gap:18px;
-background:linear-gradient(180deg,#152532 0%,var(--panel) 100%);border-color:var(--companyd)}
-.login-card h1{font-family:var(--fd);font-size:24px;letter-spacing:.16em;text-transform:uppercase;margin:0}
-.login-card p{color:var(--muted);margin:0}
-.login-card form{display:flex;flex-direction:column;gap:12px}
-.login-card input,.login-card button,.logout{font:inherit;border:1px solid var(--edge2);border-radius:0}
-.login-card input{width:100%;padding:12px;background:var(--ground);color:var(--ink)}
-.login-card button,.logout{padding:10px 14px;background:var(--companyd);color:var(--ink);cursor:pointer}
-.brand-button{display:inline-flex;align-items:center;justify-content:center;width:76px;height:38px;
-padding:5px 7px;border:1px solid var(--edge2);background:rgba(48,199,181,.06);color:var(--company);
-text-decoration:none;box-sizing:border-box;transition:background .15s ease,border-color .15s ease}
-.brand-button:hover{background:rgba(48,199,181,.14);border-color:var(--company)}
-.brand-button svg{display:block;width:100%;height:auto;fill:currentColor}
-.brand-button.login-brand{align-self:center;width:116px;height:56px;padding:8px 10px}
-.login-error{min-height:1.5em;color:var(--critical);font-size:12px}
-.logout{font-size:11px;padding:5px 9px;background:transparent;color:var(--muted)}
+:root {
+  --ink: #000;
+  --muted: #444;
+  --edge: #000;
+  --panel: #fff;
+  --ground: #fff;
+  --btn-h: 52px;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --ink: #f2f2f2; --muted: #aaa; --edge: #ccc; --panel: #111; --ground: #000; }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--ground); color: var(--ink);
+  font-size: 18px; line-height: 1.45;
+  -webkit-text-size-adjust: 100%;
+}
+.shell { max-width: 480px; margin: 0 auto; min-height: 100dvh;
+  display: flex; flex-direction: column; padding: 12px 14px 24px; gap: 14px; }
+.shortcuts { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+.shortcut {
+  display: flex; align-items: center; justify-content: center;
+  min-height: var(--btn-h); padding: 8px 6px;
+  border: 2px solid var(--edge); background: var(--panel);
+  color: var(--ink); text-decoration: none; font-weight: 700;
+  font-size: 15px; text-align: center; cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.shortcut.active { background: var(--ink); color: var(--ground); }
+.shortcut.locked::after { content: " ·"; font-weight: 400; opacity: .7; }
+.panel {
+  border: 2px solid var(--edge); background: var(--panel);
+  padding: 16px; flex: 1; display: flex; flex-direction: column; gap: 14px;
+}
+.panel h1 { margin: 0; font-size: 20px; letter-spacing: .06em; text-transform: uppercase; }
+.panel p { margin: 0; color: var(--muted); font-size: 16px; }
+.meta { font-size: 13px; color: var(--muted); font-family: ui-monospace, monospace; }
+.input {
+  width: 100%; min-height: 88px; padding: 12px;
+  border: 2px solid var(--edge); background: var(--ground); color: var(--ink);
+  font: inherit; resize: vertical;
+}
+.atoms { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.atom {
+  padding: 10px 14px; border: 2px solid var(--edge);
+  background: var(--ground); font-size: 14px; font-weight: 600;
+  cursor: pointer; -webkit-tap-highlight-color: transparent;
+}
+.atom.off { opacity: .35; pointer-events: none; }
+.call {
+  width: 100%; min-height: var(--btn-h); border: 3px solid var(--edge);
+  background: var(--ink); color: var(--ground);
+  font-size: 17px; font-weight: 800; letter-spacing: .12em;
+  text-transform: uppercase; cursor: pointer;
+}
+.call:disabled { opacity: .4; }
+.status {
+  padding: 12px; border: 2px dashed var(--edge); font-size: 14px;
+  font-family: ui-monospace, monospace; white-space: pre-wrap; word-break: break-word;
+  display: none;
+}
+.status.show { display: block; }
+.actions { display: flex; flex-direction: column; gap: 8px; }
+.actions button {
+  min-height: 44px; border: 2px solid var(--edge); background: var(--panel);
+  font: inherit; font-weight: 600; cursor: pointer;
+}
+.view { display: none; flex-direction: column; gap: 14px; }
+.view.on { display: flex; }
+footer { font-size: 12px; color: var(--muted); text-align: center; }
+a { color: inherit; text-decoration: underline; }
 </style>
 </head>
 <body>
-<main class="login"><section class="panel clip login-card"><span class="lbl">5et operating system</span><h1>Frame</h1><p>Enter the passcode to open the current company frame.</p><form id="login-form"><label class="lbl" for="passcode">Passcode</label><input id="passcode" name="passcode" type="password" autocomplete="current-password" autofocus><button type="submit">Open frame</button><span class="login-error" id="login-error" role="alert"></span></form><a class="brand-button login-brand" href="fiveet://install?owner=mgosal&amp;repo=5et&amp;path=frame.md" aria-label="Open frame.md in the 5ET app" title="Open frame.md in the 5ET app"><svg viewBox="0 0 86 40" role="img" aria-hidden="true"><path d="M3 3h26v7H11v6h17v21H3v-7h17v-7H3V3z"/><path d="M34 3h21v7H42v6h11v7H42v7h13v7H34V3z"/><path d="M59 3h24v7h-8v27h-8V10h-8V3z"/></svg></a></section></main>
-<div class="frame-content"><div class="wrap">
-<div class="mast"><h1>5et · <b>Frame</b></h1><div class="frame-id"><span class="lbl">Frame</span><span class="n">#1208</span><span class="lbl num">2026-09-08 15:55 UTC</span><span class="live-status" id="live-status" aria-live="polite">live</span><a class="brand-button" href="fiveet://install?owner=mgosal&amp;repo=5et&amp;path=frame.md" aria-label="Open frame.md in the 5ET app" title="Open frame.md in the 5ET app"><svg viewBox="0 0 86 40" role="img" aria-hidden="true"><path d="M3 3h26v7H11v6h17v21H3v-7h17v-7H3V3z"/><path d="M34 3h21v7H42v6h11v7H42v7h13v7H34V3z"/><path d="M59 3h24v7h-8v27h-8V10h-8V3z"/></svg></a><button class="logout" id="logout" type="button">Lock</button></div></div>
-<section class="panel clip card"><h2>Since your last turn
-<span class="tag">#1155 → #1208</span>
-</h2><div class="rows">
-<div class="row"><span class="nm"><span class="meta">53 ticks · 1 d 5 h · dashboards + tick reports</span></span></div>
-<div class="row"><span class="nm">[seed-crystallisation RP-11](Operations/_contracts/seed-crystallisation.REVIEW.md)<br><span class="meta">Raised for your decision.</span></span><span class="st next">yours · #1202</span></div>
-<div class="row"><span class="nm">[seed-crystallisation RP-10](Operations/_contracts/seed-crystallisation.REVIEW.md)<br><span class="meta">Raised for your decision.</span></span><span class="st next">yours · #1202</span></div>
-<div class="row"><span class="nm">[botta RP-1](projects/botta/_contracts/botta.REVIEW.md)<br><span class="meta">Raised for your decision.</span></span><span class="st next">yours · #1201</span></div>
-<div class="row"><span class="nm">[llm-interaction-import RP-1](Operations/_contracts/llm-interaction-import.REVIEW.md)<br><span class="meta">Raised for your decision.</span></span><span class="st next">yours · #1200</span></div>
-<div class="row"><span class="nm">[Searchland Partnership Services Agreement](Operations/_work/approvals/contract-proposal-searchland-partnership-services-agreement.md)<br><span class="meta">Raised for your decision.</span></span><span class="st next">yours · #1200</span></div>
-<div class="row"><span class="nm">[deal-routing RP-2](projects/ema-sa/_contracts/deal-routing.REVIEW.md)<br><span class="meta">Raised for your decision. No longer waiting on a decision.</span></span><span class="st next">yours · #1188</span></div>
-<div class="row"><span class="nm">[deal-routing RP-1](projects/ema-sa/_contracts/deal-routing.REVIEW.md)<br><span class="meta">Raised for your decision. No longer waiting on a decision.</span></span><span class="st next">yours · #1188</span></div>
-<div class="row"><span class="nm">[Searchland API Trial and Partnership Coordination](projects/store-dash/_work/SD.326-Searchland-API-Trial-and-Partnership-Coordination.md)<br><span class="meta">Created.</span></span><span class="st ">elsewhere · #1200</span></div>
-<div class="row"><span class="nm">[Operations](Operations/dashboard.md)<br><span class="meta">Load 41 → 42 active.</span></span><span class="st ">elsewhere · #1168</span></div>
-<div class="row"><span class="nm">[St. James AI Networking Event Attendance](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md)<br><span class="meta">Created.</span></span><span class="st ">elsewhere · #1168</span></div>
-<div class="row"><span class="nm"><span class="meta">Beneath it: 0 progressed, 2 created, 266 inspected without change.</span></span></div>
-</div></section>
-<section class="panel clip turn company">
-<div class="turn-top"><div class="who"><span class="lbl">Concurrent agency</span><span class="val">You 0 · Company 4</span><span class="sub">Latest move: You responded to Review: Voice Note Import Services Agreement. · since 2026-09-07 10:23:40 UTC</span></div>
-<div class="since"><span class="lbl">Activity reports since move</span><span class="big num">53</span><span class="cap">1 d 5 h elapsed · frames #1156 → #1208</span></div></div>
-<div class="marks" aria-label="Latest move followed by 53 tick-report activity bars"><i class="mk pl" title="Latest human move"></i><i class="mk" style="height:8.0%" title="Tick #1156: 6.0s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1157: 5.7s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:39.5%" title="Tick #1158: 161.8s compute; 19 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1159: 5.9s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1160: 6.4s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1161: 6.5s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:39.5%" title="Tick #1162: 165.0s compute; 19 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1163: 6.7s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1164: 6.4s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1165: 5.9s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:39.5%" title="Tick #1166: 109.7s compute; 19 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1167: 5.9s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:63.9%" title="Tick #1168: 18.4s compute; 0 inspected; 1 created; 0 progressed; 780 LLM tokens"><i class="routine" style="height:14.4%"></i><i class="pipeline" style="height:31.3%"></i><i class="llm" style="height:54.3%"></i></i><i class="mk" style="height:8.0%" title="Tick #1169: 6.2s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:39.5%" title="Tick #1170: 83.7s compute; 19 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1171: 5.6s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1172: 9.5s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1173: 6.0s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:39.5%" title="Tick #1174: 87.4s compute; 19 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1175: 5.9s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1176: 6.5s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1177: 6.7s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:39.5%" title="Tick #1178: 82.4s compute; 19 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1179: 5.9s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:39.5%" title="Tick #1180: 77.3s compute; 19 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1181: 6.5s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1182: 5.8s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1183: 5.8s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:39.5%" title="Tick #1184: 88.4s compute; 19 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1185: 6.2s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1186: 5.8s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1187: 6.2s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:39.5%" title="Tick #1188: 108.2s compute; 19 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:30.0%" title="Tick #1189: 65.5s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1190: 6.4s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1191: 6.2s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:74.5%" title="Tick #1192: 2959.8s compute; 19 inspected; 0 created; 0 progressed; 827 LLM tokens"><i class="routine" style="height:53.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:47.0%"></i></i><i class="mk" style="height:39.5%" title="Tick #1193: 109.5s compute; 19 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1194: 6.2s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1195: 5.8s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1196: 6.5s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:39.5%" title="Tick #1197: 90.5s compute; 19 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1198: 6.2s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1199: 6.0s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:64.3%" title="Tick #1200: 18.8s compute; 0 inspected; 1 created; 0 progressed; 802 LLM tokens"><i class="routine" style="height:14.6%"></i><i class="pipeline" style="height:31.1%"></i><i class="llm" style="height:54.2%"></i></i><i class="mk" style="height:39.5%" title="Tick #1201: 94.5s compute; 19 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1202: 6.5s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1203: 6.0s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1204: 5.9s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:39.5%" title="Tick #1205: 131.1s compute; 19 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1206: 6.3s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1207: 6.8s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i><i class="mk" style="height:8.0%" title="Tick #1208: 6.4s compute; 0 inspected; 0 created; 0 progressed; 0 LLM tokens"><i class="routine" style="height:100.0%"></i><i class="pipeline" style="height:0.0%"></i><i class="llm" style="height:0.0%"></i></i></div>
-<div class="legend"><span class="key"><i class="sw" style="background:var(--player)"></i>latest move</span><span class="key"><i class="sw" style="background:var(--company)"></i>53 tick reports · 1 d 5 h</span><span class="key"><i class="sw" style="background:var(--dim)"></i>routine</span><span class="key"><i class="sw" style="background:var(--company)"></i>pipeline output</span><span class="key"><i class="sw" style="background:#A987E8"></i>LLM work</span><span class="key">0 waiting on you</span><span class="key">4 company obligations · 5 records</span></div>
-</section>
-<section class="panel clip card"><h2>Company owes next</h2><div class="rows">
-<div class="row"><span class="nm"><a href="_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md">Turn reconciliation — EA.001</a><br><span class="meta">Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.</span></span><span class="st next">1 record(s)</span></div>
-</div></section>
-<div class="grid two">
-<section class="panel clip card"><h2>Waiting on you <span class="tag">0</span></h2><div class="rows">
-<div class="row"><span class="nm">Nothing presented and unanswered.</span></div>
-</div></section>
-<section class="panel clip card"><h2>Company settlement debt <span class="tag">4</span></h2><div class="rows">
-<div class="row"><span class="nm"><a href="_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md">Turn reconciliation — EA.001</a><br><span class="meta">Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.</span></span><span class="st">1 record(s)</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/voice-note-import-contract.REVIEW.md">Review: Voice Note Import Services Agreement</a><br><span class="meta">Reconcile Mandip's complete response against the canonical task and improve the work before asking again.</span></span><span class="st">2 record(s)</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/model-selection.REVIEW.md">Review: Model Evaluation Services Agreement</a><br><span class="meta">Reconcile Mandip's complete response against the canonical task and improve the work before asking again.</span></span><span class="st">1 record(s)</span></div>
-<div class="row"><span class="nm"><a href="_pipeline/turns/replay-2026-08-26-18-55-27.md">Turn reconciliation — G.001</a><br><span class="meta">Attach this instruction to G.001 and present the matched proposal for Director review.</span></span><span class="st">1 record(s)</span></div>
-</div></section>
-<section class="panel clip card"><h2>Gate tracks <span class="tag">3 case(s)</span></h2><div class="rows">
-<div class="row"><span class="nm"><b>seed_crystallisation</b> <span class="meta">authorized-awaiting-application</span></span><span class="meta">O.440</span></div>
-<div class="row"><span class="idx">01</span><span class="nm">Verify recovery through the governed supervised trial before proposing resumption.</span><span class="st next">next</span></div>
-<div class="row"><span class="nm"><b>pipeline — commit scope</b> <span class="meta">verify</span></span><span class="meta">O.459</span></div>
-<div class="row"><span class="idx">01</span><span class="nm">Observe three real ticks before narrowing the prefix list</span><span class="st next">next</span></div>
-<div class="row"><span class="idx">02</span><span class="nm">Audit Phases 1–5 writers for explicit staging; record which rely on prefix staging</span><span class="st">locked</span></div>
-<div class="row"><span class="idx">03</span><span class="nm">Verify across three real ticks before removing any prefix</span><span class="st">locked</span></div>
-<div class="row"><span class="idx">04</span><span class="nm">Open IE.002 once verified, and resolve RP-1</span><span class="st">locked</span></div>
-<div class="row"><span class="nm"><b>pipeline — ingest materiality</b> <span class="meta">verify</span></span><span class="meta">O.460</span></div>
-<div class="row"><span class="idx">01</span><span class="nm">Review `_pipeline/skipped.jsonl` after three business days for wrongly skipped material mail</span><span class="st next">next</span></div>
-<div class="row"><span class="idx">02</span><span class="nm">Audit the store-dash mailbox filter for the same inverted `noreply@` rule</span><span class="st">locked</span></div>
-<div class="row"><span class="idx">03</span><span class="nm">Backfill check — search the mailbox for transactional mail dropped before this fix</span><span class="st">locked</span></div>
-<div class="row"><span class="idx">04</span><span class="nm">Consider the same materiality test for the WhatsApp and drop-folder paths</span><span class="st">locked</span></div>
-</div></section>
-</div>
-<section class="panel clip card"><h2>Open review points <span class="tag">33</span></h2><div class="rows">
-<div class="row"><span class="nm"><a href="Operations/_contracts/voice-note-import-contract.REVIEW.md">RP-3: New evidence reopens the cost basis on which RP-1 was resolved</a></span><span class="meta">voice-note-import-contract</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="projects/ema-sa/_contracts/calendar-import.REVIEW.md">RP-1: OAuth scopes</a></span><span class="meta">calendar-import</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="projects/ema-sa/_contracts/hubspot-import.REVIEW.md">RP-1: Owner filter implementation</a></span><span class="meta">hubspot-import</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="projects/ema-sa/_contracts/hubspot-import.REVIEW.md">RP-2: Binding to accounts/</a></span><span class="meta">hubspot-import</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/pipeline.REVIEW.md">RP-2: The company turn has no completion criterion</a></span><span class="meta">pipeline</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/pipeline.REVIEW.md">RP-3: Support wrappers are created without an idempotency check</a></span><span class="meta">pipeline</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/pipeline.REVIEW.md">RP-5: Contract proposals bypass the canonical attention stream</a></span><span class="meta">pipeline</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/pipeline.REVIEW.md">RP-6: Review points bypass the canonical attention stream</a></span><span class="meta">pipeline</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/pipeline.REVIEW.md">RP-7: Every open review point halts its contract, because points carry no materiality</a></span><span class="meta">pipeline</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="projects/ema-sa/_contracts/slack-import.REVIEW.md">RP-1: Implementation not started</a></span><span class="meta">slack-import</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="projects/ema-sa/_contracts/slack-import.REVIEW.md">RP-2: Mandip Slack user ID</a></span><span class="meta">slack-import</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/model-selection.REVIEW.md">RP-2: The resolution floor is specified but the deliverable cannot express it</a></span><span class="meta">model-selection</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/pipeline.REVIEW.md">RP-4: Human response reconciliation waits for the schedule</a></span><span class="meta">pipeline</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-10: Distilled conversation seeds vs bulk LLM harvest</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-11: Shortcuts as propagation, not autonomous projects</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-8: Index seed counts do not match the themes</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="projects/botta/_contracts/botta.REVIEW.md">RP-1: No one at BOTTA has been named</a></span><span class="meta">botta</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="projects/ema-sa/_contracts/email-import.REVIEW.md">RP-4: `gmail.imap` capability not yet registered</a></span><span class="meta">email-import</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="projects/ema-sa/_contracts/email-import.REVIEW.md">RP-5: Shadow compare against ema-mcp gold</a></span><span class="meta">email-import</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="projects/ema-sa/_contracts/fathom-import.REVIEW.md">RP-4: Partner routing and AI classification omitted</a></span><span class="meta">fathom-import</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="projects/ema-sa/_contracts/fathom-import.REVIEW.md">RP-6: `fathom.api` capability not yet registered</a></span><span class="meta">fathom-import</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="projects/ema-sa/_contracts/granola-import.REVIEW.md">RP-4: `granola.mcp` capability not yet registered</a></span><span class="meta">granola-import</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="projects/ema-sa/_contracts/granola-import.REVIEW.md">RP-5: Shadow compare against ema-mcp gold</a></span><span class="meta">granola-import</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/llm-interaction-import.REVIEW.md">RP-1: Catch-up volume vs max_per_run</a></span><span class="meta">llm-interaction-import</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-4: Implement inductive analysis as contracted</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-1: Require a no-op for unchanged inputs</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-2: Validate source provenance before mutation</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-3: Exclude generated outputs from research inputs</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-5: Bound autonomous mutation</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-6: Replace retry-on-breach with containment</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-9: Theme files grow without bound</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/pipeline.REVIEW.md">RP-8: A contract could report success while delivering nothing</a></span><span class="meta">pipeline</span><span class="st open">open</span></div>
-<div class="row"><span class="nm"><a href="Operations/_contracts/seed-crystallisation.REVIEW.md">RP-7: Define supervised trial and promotion evidence</a></span><span class="meta">seed-crystallisation</span><span class="st open">open</span></div>
-</div></section>
-<div class="grid two">
-<section class="panel clip card"><h2>Units <span class="tag">102 active · 676 done</span></h2><div class="rows">
-<div class="unit"><span class="nm">🔄 <a href="Accounts/dashboard.md">Accounts</a></span><span class="cnt">2 active · 13 done</span><span class="bar"><i class="a" style="width:13%"></i><i class="d" style="width:87%"></i></span></div>
-<div class="unit"><span class="nm">⏸️ <a href="Compliance/dashboard.md">Compliance</a></span><span class="cnt">9 active · 13 done</span><span class="bar"><i class="a" style="width:41%"></i><i class="d" style="width:59%"></i></span></div>
-<div class="unit"><span class="nm">⚠️ <a href="Operations/dashboard.md">Operations</a></span><span class="cnt">42 active · 454 done</span><span class="bar"><i class="a" style="width:8%"></i><i class="d" style="width:92%"></i></span></div>
-<div class="unit"><span class="nm">⚠️ <a href="People/dashboard.md">People</a></span><span class="cnt">6 active · 1 done</span><span class="bar"><i class="a" style="width:86%"></i><i class="d" style="width:14%"></i></span></div>
-<div class="unit"><span class="nm">🔄 <a href="Services/dashboard.md">Services</a></span><span class="cnt">1 active · 11 done</span><span class="bar"><i class="a" style="width:8%"></i><i class="d" style="width:92%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/5et.aiguy.cloud/README.md">5et.aiguy.cloud</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/5et.uk/README.md">5et.uk</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/ai-course/README.md">ai-course</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/bekame-collab/README.md">bekame-collab</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/blockvey/README.md">blockvey</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/botta/README.md">botta</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/car-personality/README.md">car-personality</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">⚠️ <a href="projects/chess/README.md">chess</a></span><span class="cnt">4 active · 0 done</span><span class="bar"><i class="a" style="width:100%"></i><i class="d" style="width:0%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/cv-builder/README.md">cv-builder</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/ema-sa/README.md">ema-sa</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">🔄 <a href="projects/game/README.md">game</a></span><span class="cnt">2 active · 0 done</span><span class="bar"><i class="a" style="width:100%"></i><i class="d" style="width:0%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/golf/README.md">golf</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/home-information-pack/README.md">home-information-pack</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/hyperscaler/README.md">hyperscaler</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/irontec/README.md">irontec</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/legal-system-research/README.md">legal-system-research</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">🔄 <a href="projects/mylang/README.md">mylang</a></span><span class="cnt">1 active · 0 done</span><span class="bar"><i class="a" style="width:100%"></i><i class="d" style="width:0%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/myos/README.md">myos</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/nature-app/README.md">nature-app</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">⚠️ <a href="projects/open-contracts/README.md">open-contracts</a></span><span class="cnt">5 active · 0 done</span><span class="bar"><i class="a" style="width:100%"></i><i class="d" style="width:0%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/push-to-talk/README.md">push-to-talk</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/right-store/README.md">right-store</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">✅ <a href="projects/sole-trader-saas/README.md">sole-trader-saas</a></span><span class="cnt">0 active · 0 done</span><span class="bar"><i class="a" style="width:0%"></i><i class="d" style="width:100%"></i></span></div>
-<div class="unit"><span class="nm">⏸️ <a href="projects/store-dash/README.md">store-dash</a></span><span class="cnt">30 active · 184 done</span><span class="bar"><i class="a" style="width:14%"></i><i class="d" style="width:86%"></i></span></div>
-</div></section>
-<section class="panel clip card"><h2>Turn log</h2><div class="rows">
-<div class="ev"><span class="t">09-07 10:23</span><span class="w pl">you</span><span>Responded · voice</span></div>
-<div class="ev"><span class="t">09-07 10:22</span><span class="w co">co</span><span>Cue published · voice</span></div>
-<div class="ev"><span class="t">09-07 10:22</span><span class="w co">co</span><span>Question prepared · voice</span></div>
-<div class="ev"><span class="t">09-07 09:59</span><span class="w pl">you</span><span>Responded · voice</span></div>
-<div class="ev"><span class="t">09-07 09:21</span><span class="w co">co</span><span>Cue published · voice</span></div>
-<div class="ev"><span class="t">09-07 09:21</span><span class="w co">co</span><span>Question prepared · voice</span></div>
-<div class="ev"><span class="t">09-07 08:52</span><span class="w pl">you</span><span>Responded · model</span></div>
-<div class="ev"><span class="t">09-07 08:19</span><span class="w co">co</span><span>Cue published · model</span></div>
-</div></section>
-</div>
-<footer><span>Generated by the pipeline at frame #1208 · immediate mode</span><span class="num">5ET · document view</span></footer>
-</div></div>
-<script>
-const key = "5et-frame-unlocked";
-const unlock = () => { document.body.classList.add("unlocked"); document.getElementById("passcode").value = ""; };
-if (localStorage.getItem(key) === "yes") unlock();
-const savedScroll = sessionStorage.getItem("5et-frame-scroll");
-if (savedScroll !== null) {
-  sessionStorage.removeItem("5et-frame-scroll");
-  requestAnimationFrame(() => scrollTo(0, Number(savedScroll) || 0));
-}
-document.getElementById("login-form").addEventListener("submit", event => {
-  event.preventDefault();
-  if (document.getElementById("passcode").value === "5") {
-    localStorage.setItem(key, "yes");
-    document.getElementById("login-error").textContent = "";
-    unlock();
-  } else {
-    document.getElementById("login-error").textContent = "Passcode not recognised.";
-  }
-});
-document.getElementById("logout").addEventListener("click", () => {
-  localStorage.removeItem(key);
-  document.body.classList.remove("unlocked");
-  document.getElementById("passcode").focus();
-});
+<div class="shell">
+  <nav class="shortcuts" aria-label="Landmarks">
+    <a class="shortcut" id="nav-acme" href="#acme">Acme</a>
+    <a class="shortcut locked" id="nav-5et" href="#5et">5et</a>
+    <a class="shortcut" id="nav-interest" href="#interest">Interest</a>
+  </nav>
 
-const currentFrame = document.querySelector('meta[name="5et-frame"]').content;
-const liveStatus = document.getElementById("live-status");
-const frameURL = `${location.origin}${location.pathname}`;
-let checking = false;
-async function checkForFrame() {
-  if (checking || document.hidden) return;
-  checking = true;
-  try {
-    const response = await fetch(`${frameURL}?_5et=${Date.now()}`, {cache: "no-store"});
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const nextDocument = new DOMParser().parseFromString(await response.text(), "text/html");
-    const nextFrame = nextDocument.querySelector('meta[name="5et-frame"]')?.content;
-    if (nextFrame && nextFrame !== currentFrame) {
-      liveStatus.textContent = `frame ${nextFrame}`;
-      liveStatus.className = "live-status syncing";
-      sessionStorage.setItem("5et-frame-scroll", String(scrollY));
-      location.replace(`${frameURL}?frame=${encodeURIComponent(nextFrame)}`);
+  <div class="panel">
+    <div id="view-home" class="view on">
+      <h1>Talk to us</h1>
+      <p>Network face — anonymous marker zero. Type below; the operator may process your act on the next tick.</p>
+      <textarea class="input" id="input-home" placeholder="Say anything…" aria-label="Message"></textarea>
+      <div class="atoms" aria-label="Atoms">
+        <span class="atom" data-tag="casino-spin">casino</span>
+        <span class="atom off" data-tag="typeface">typeface</span>
+        <span class="atom" data-tag="feedback">feedback</span>
+      </div>
+      <button type="button" class="call" id="call-home">Call</button>
+    </div>
+
+    <div id="view-acme" class="view">
+      <h1>Acme · 0,0</h1>
+      <p class="meta">Live · anonymous knocks on</p>
+      <p>Open sandbox. Read the grant. Cross the threshold only if you accept.</p>
+      <div class="actions">
+        <button type="button" id="acme-accept">Accept — grant request</button>
+        <button type="button" id="acme-feedback">Object — feedback</button>
+      </div>
+      <textarea class="input" id="input-acme" placeholder="Optional note with your knock…" aria-label="Acme note"></textarea>
+      <button type="button" class="call" id="call-acme">Knock</button>
+      <p class="meta">First live grant: fc048fb8ac2a85a6</p>
+    </div>
+
+    <div id="view-interest" class="view">
+      <h1>Register interest</h1>
+      <p>Anonymous is fine. The operator chooses whether to process — same as your website contact form.</p>
+      <textarea class="input" id="input-interest" placeholder="What are you interested in?" aria-label="Interest"></textarea>
+      <button type="button" class="call" id="call-interest">Register</button>
+    </div>
+
+    <div id="view-5et" class="view">
+      <h1>5et · operator</h1>
+      <p>Company frame — tick report, obligations, director view. Authentication required.</p>
+      <p><a href="app/director.html">Open company frame →</a></p>
+      <p class="meta">Not public. Sign in on the next screen.</p>
+    </div>
+
+    <div class="status" id="status" role="status" aria-live="polite"></div>
+  </div>
+
+  <footer>Marker zero · no cookie · <span id="coord">network</span></footer>
+</div>
+<script>
+(function () {
+  const views = {
+    home: document.getElementById("view-home"),
+    acme: document.getElementById("view-acme"),
+    interest: document.getElementById("view-interest"),
+    "5et": document.getElementById("view-5et"),
+  };
+  const nav = {
+    acme: document.getElementById("nav-acme"),
+    "5et": document.getElementById("nav-5et"),
+    interest: document.getElementById("nav-interest"),
+  };
+  const status = document.getElementById("status");
+  let selectedTag = "";
+
+  function route() {
+    const hash = (location.hash || "#home").replace("#", "");
+    const name = views[hash] ? hash : "home";
+    Object.keys(views).forEach((k) => views[k].classList.toggle("on", k === name));
+    Object.keys(nav).forEach((k) => nav[k].classList.toggle("active", k === name));
+    document.getElementById("coord").textContent = name === "home" ? "network" : name;
+    status.classList.remove("show");
+  }
+
+  function showAct(act) {
+    const line = JSON.stringify(act, null, 2);
+    try {
+      const q = JSON.parse(localStorage.getItem("5et-threshold-queue") || "[]");
+      q.push({ at: new Date().toISOString(), act });
+      localStorage.setItem("5et-threshold-queue", JSON.stringify(q));
+    } catch (e) { /* boox may block */ }
+    status.textContent =
+      "Threshold act recorded (local queue).\nOperator processes on tick if they choose.\n\n" + line;
+    status.classList.add("show");
+  }
+
+  document.querySelectorAll(".atom:not(.off)").forEach((el) => {
+    el.addEventListener("click", () => {
+      selectedTag = el.dataset.tag || "";
+      document.querySelectorAll(".atom").forEach((a) => a.style.outline = "");
+      el.style.outline = "3px solid var(--ink)";
+    });
+  });
+
+  document.getElementById("call-home").addEventListener("click", () => {
+    const message = document.getElementById("input-home").value.trim();
+    if (!message) return;
+    const act = {
+      act: selectedTag === "feedback" ? "judgement" : "register-interest",
+      marker: { type: "anonymous" },
+      business_unit: "5et",
+      message,
+    };
+    if (act.act === "judgement") {
+      act.contract = "_network/network-frame.html";
+      act.decision = message;
+      act.decided_by = "anonymous";
+      delete act.message;
+    }
+    showAct(act);
+  });
+
+  document.getElementById("call-interest").addEventListener("click", () => {
+    const message = document.getElementById("input-interest").value.trim();
+    if (!message) return;
+    showAct({
+      act: "register-interest",
+      marker: { type: "anonymous" },
+      business_unit: "5et",
+      message,
+    });
+  });
+
+  function acmeKnock(kind) {
+    const note = document.getElementById("input-acme").value.trim();
+    if (kind === "grant") {
+      showAct({
+        act: "grant-request",
+        marker: { type: "anonymous" },
+        business_unit: "acme",
+        entitlement: "casino-spin",
+        note: note || undefined,
+      });
       return;
     }
-    liveStatus.textContent = "live";
-    liveStatus.className = "live-status";
-  } catch (error) {
-    liveStatus.textContent = "reconnecting";
-    liveStatus.className = "live-status offline";
-  } finally {
-    checking = false;
+    showAct({
+      act: "judgement",
+      contract: "_network/acme/_contracts/acme-grant.README.md",
+      clause: "§1",
+      decision: note || "feedback",
+      decided_by: "anonymous",
+    });
   }
-}
-setInterval(checkForFrame, 30000);
-addEventListener("focus", checkForFrame);
-document.addEventListener("visibilitychange", () => {
-  if (!document.hidden) checkForFrame();
-});
+
+  document.getElementById("acme-accept").addEventListener("click", () => acmeKnock("grant"));
+  document.getElementById("acme-feedback").addEventListener("click", () => acmeKnock("judgement"));
+  document.getElementById("call-acme").addEventListener("click", () => acmeKnock("grant"));
+
+  window.addEventListener("hashchange", route);
+  route();
+})();
 </script>
 </body>
 </html>
