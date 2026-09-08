@@ -15,6 +15,7 @@
   --ground: #fff;
   --btn-h: 52px;
   --app: 52px;
+  --receipt: 36px;
   font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 @media (prefers-color-scheme: dark) {
@@ -35,6 +36,7 @@ body {
 .shortcut-space.empty { display: none; }
 .stage { flex: 1; display: flex; min-height: 0; }
 .pin-net {
+  position: relative;
   flex: 0 0 auto;
   width: var(--app); height: var(--app);
   background: var(--ground);
@@ -98,6 +100,34 @@ body {
 .atom.net { font-size: 12px; letter-spacing: .06em; font-weight: 800; }
 .atom.off { opacity: .35; pointer-events: none; }
 .atom.sel { outline: 3px solid var(--ink); outline-offset: 2px; }
+.receipt-tray {
+  position: fixed;
+  z-index: 5;
+  bottom: max(10px, env(safe-area-inset-bottom));
+  inset-inline-start: max(10px, env(safe-area-inset-start));
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  gap: 6px;
+  max-height: min(40vh, 220px);
+  overflow-y: auto;
+  pointer-events: none;
+}
+.receipt-tray.empty { display: none; }
+.atom.receipt {
+  width: var(--receipt); height: var(--receipt);
+  font-size: 9px; letter-spacing: -.02em;
+  background: var(--panel);
+  pointer-events: auto;
+  border-style: dashed;
+}
+.atom.receipt.drop {
+  animation: receipt-drop .35s ease-out;
+}
+@keyframes receipt-drop {
+  from { transform: translateY(-18px) scale(.6); opacity: 0; }
+  to { transform: translateY(0) scale(1); opacity: 1; }
+}
 .spin-hero {
   width: 120px; height: 120px; font-size: 16px; margin: 8px auto;
   border-width: 3px;
@@ -117,6 +147,11 @@ body {
   display: flex; align-items: center; justify-content: center; gap: 8px;
 }
 .enter:disabled { opacity: .4; }
+.register-save {
+  background: var(--panel); color: var(--ink); border-style: dashed;
+  font-size: 16px; min-height: 44px;
+}
+.register-save[hidden] { display: none; }
 .status {
   padding: 12px; border: 2px dashed var(--edge); font-size: 14px;
   font-family: ui-monospace, monospace; white-space: pre-wrap; word-break: break-word;
@@ -219,13 +254,16 @@ a { color: inherit; text-decoration: underline; }
     </div>
 
     <div class="status" id="status" role="status" aria-live="polite"></div>
+    <button type="button" class="enter register-save" id="register-save" hidden>Register to save receipts</button>
     </div>
   </div>
 
   <footer>
-    <button type="button" class="anon" id="clear-history" title="Clear local history" aria-label="Clear local history">🕶️</button>
+    <button type="button" class="anon" id="clear-history" title="Clear receipts and local history" aria-label="Clear receipts and local history">🕶️</button>
     · no cookie · <span id="coord">network</span>
   </footer>
+
+  <aside class="receipt-tray empty" id="receipt-tray" aria-label="Receipts"></aside>
 </div>
 <script>
 (function () {
@@ -252,6 +290,8 @@ a { color: inherit; text-decoration: underline; }
   const shortcutSpace = document.getElementById("shortcut-space");
   const spinFace = document.getElementById("spin-face");
   const pinNet = document.getElementById("pin-net");
+  const receiptTray = document.getElementById("receipt-tray");
+  const registerSave = document.getElementById("register-save");
   const WHEEL = [
     "0", "32", "15", "19", "4", "21", "2", "25", "17", "34", "6", "27", "13",
     "36", "11", "30", "8", "23", "10", "5", "24", "16", "33", "1", "20", "14",
@@ -340,11 +380,94 @@ a { color: inherit; text-decoration: underline; }
     if (name === "network") renderShortcuts();
   }
 
+  function loadQueue() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_QUEUE) || "[]");
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function saveQueue(q) {
+    localStorage.setItem(STORAGE_QUEUE, JSON.stringify(q));
+  }
+
+  function receiptLabel(entry) {
+    const act = entry.act || {};
+    if (act.act === "grant-request") {
+      const spin = (act.note || "").match(/spin:\s*(.+)/i);
+      if (spin) return spin[1].split(/\s+/)[0];
+      return "Ac";
+    }
+    if (act.act === "inbox") return "in";
+    return (act.act || "?").slice(0, 3);
+  }
+
+  function renderReceiptTray(highlightIndex) {
+    const q = loadQueue();
+    receiptTray.innerHTML = "";
+    q.forEach((entry, index) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "atom receipt";
+      if (index === highlightIndex) btn.classList.add("drop");
+      btn.textContent = receiptLabel(entry);
+      btn.title = entry.at || "Receipt";
+      btn.setAttribute("aria-label", "Receipt " + receiptLabel(entry));
+      btn.addEventListener("click", () => showReceipt(entry));
+      receiptTray.appendChild(btn);
+    });
+    receiptTray.classList.toggle("empty", q.length === 0);
+  }
+
+  function collectReceipt(act, quiet) {
+    const entry = { at: new Date().toISOString(), act };
+    let q;
+    try {
+      q = loadQueue();
+      q.push(entry);
+      saveQueue(q);
+    } catch (e) {
+      if (!quiet) {
+        flashStatus(JSON.stringify(entry, null, 2) + "\n\n(stored on device only — local queue blocked)", false);
+      }
+      return null;
+    }
+    renderReceiptTray(q.length - 1);
+    if (!quiet) {
+      status.classList.remove("show", "err");
+    }
+    return entry;
+  }
+
   function flashStatus(text, isError) {
+    registerSave.hidden = true;
     status.textContent = text;
     status.classList.toggle("err", !!isError);
     status.classList.add("show");
     status.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  }
+
+  function showReceipt(entry) {
+    const lines = [
+      JSON.stringify(entry, null, 2),
+      "",
+      "On this device only — clear 🕶️ removes it.",
+      "Anonymous transactions work without registering.",
+      "To save receipts, register via Inbox.",
+    ];
+    flashStatus(lines.join("\n"), false);
+    registerSave.hidden = false;
+  }
+
+  function openRegister() {
+    location.hash = "#inbox";
+    const note = "Register — save my receipts across devices.";
+    inputMain.value = note;
+    inputInbox.value = note;
+    saveDraft();
+    route();
+    inputInbox.focus();
   }
 
   function dropInbox(message, source) {
@@ -359,20 +482,22 @@ a { color: inherit; text-decoration: underline; }
       source: source || "frame",
       message,
     };
-    showAct(act, "Dropped in letterbox.\nOperator may read on next tick.\n\n");
+    collectReceipt(act, true);
   }
 
-  function showAct(act, prefix) {
-    const line = JSON.stringify(act, null, 2);
-    try {
-      const q = JSON.parse(localStorage.getItem(STORAGE_QUEUE) || "[]");
-      q.push({ at: new Date().toISOString(), act });
-      localStorage.setItem(STORAGE_QUEUE, JSON.stringify(q));
-    } catch (e) {
-      flashStatus((prefix || "") + line + "\n\n(stored on device only — local queue blocked)", false);
-      return;
-    }
-    flashStatus((prefix || "") + line, false);
+  function collectAct(act) {
+    collectReceipt(act, true);
+  }
+
+  function acmeKnock(extra) {
+    const note = [acmeNote(), extra].filter(Boolean).join(" — ") || undefined;
+    collectAct({
+      act: "grant-request",
+      marker: { type: "anonymous" },
+      business_unit: "acme",
+      entitlement: "casino-spin",
+      note,
+    });
   }
 
   try {
@@ -422,17 +547,6 @@ a { color: inherit; text-decoration: underline; }
     return (visited.acme && visited.acme.from) || inputMain.value.trim() || undefined;
   }
 
-  function acmeKnock(extra) {
-    const note = [acmeNote(), extra].filter(Boolean).join(" — ") || undefined;
-    showAct({
-      act: "grant-request",
-      marker: { type: "anonymous" },
-      business_unit: "acme",
-      entitlement: "casino-spin",
-      note,
-    }, "Spin recorded.\nReceipt when the operator ticks.\n\n");
-  }
-
   document.getElementById("acme-spin").addEventListener("click", () => {
     const result = spinWheel();
     spinFace.classList.remove("wait");
@@ -441,7 +555,7 @@ a { color: inherit; text-decoration: underline; }
   });
 
   function clearLocalHistory() {
-    if (!confirm("Clear local history on this device?\n\nDrafts, visited apps, and queued acts will be removed. We cannot clear the browser cache from here.")) {
+    if (!confirm("Clear receipts and local history on this device?\n\nDrafts, visited apps, and receipt tray will be removed.")) {
       return;
     }
     try { sessionStorage.removeItem(STORAGE_VISITED); } catch (e) { /* ignore */ }
@@ -453,8 +567,10 @@ a { color: inherit; text-decoration: underline; }
       spinFace.textContent = "Tap spin to play";
       spinFace.classList.add("wait");
     }
+    registerSave.hidden = true;
     status.classList.remove("show", "err");
     renderShortcuts();
+    renderReceiptTray();
     if (normalizeHash() !== "network") {
       location.hash = "#network";
     } else {
@@ -464,8 +580,10 @@ a { color: inherit; text-decoration: underline; }
   }
 
   document.getElementById("clear-history").addEventListener("click", clearLocalHistory);
+  registerSave.addEventListener("click", openRegister);
 
   renderShortcuts();
+  renderReceiptTray();
   window.addEventListener("hashchange", route);
   if (!location.hash || location.hash === "#home") {
     history.replaceState(null, "", "#network");
