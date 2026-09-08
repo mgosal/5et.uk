@@ -64,6 +64,8 @@ body {
   font-family: var(--fd); font-size: 14px; font-weight: 700; letter-spacing: .04em;
 }
 .app.active .app-icon { background: var(--ink); color: var(--ground); }
+.app.lit .app-icon { outline: 3px solid var(--ink); outline-offset: 2px; }
+.app.lit-recent .app-icon { background: var(--ink); color: var(--ground); outline: none; }
 .app.locked .app-icon::after { content: "·"; font-weight: 400; margin-left: 1px; }
 .app-icon.slot { border-style: dashed; opacity: .35; }
 .app-icon.add { border-style: dashed; font-size: 22px; font-weight: 400; line-height: 1; }
@@ -148,7 +150,12 @@ body {
   font-size: 14px; min-height: 48px; text-transform: uppercase;
   letter-spacing: .08em; font-family: var(--fd); font-weight: 700;
 }
-.register-save[hidden] { display: none; }
+.register-save[hidden], .remove-event[hidden] { display: none; }
+.remove-event {
+  background: var(--ground); color: var(--ink); border-style: solid;
+  font-size: 14px; min-height: 44px; text-transform: uppercase;
+  letter-spacing: .08em; font-family: var(--fd); font-weight: 700;
+}
 .status {
   padding: 10px 12px; border: 2px dashed var(--edge); font-size: 13px;
   font-family: var(--fm); white-space: pre-wrap; word-break: break-word; display: none;
@@ -188,7 +195,8 @@ body {
 }
 .atom.event.visit { border-style: solid; }
 .atom.event.act { border-style: dashed; }
-.atom.event.ext { border-style: dotted; }
+.atom.event.compose { border-style: double; }
+.atom.event.sel { outline: 3px solid var(--ink); outline-offset: 2px; }
 @media (prefers-reduced-motion: no-preference) {
   .atom.event.drop { animation: receipt-drop .3s ease-out; }
 }
@@ -274,7 +282,8 @@ a { color: inherit; }
       </div>
 
       <div class="status" id="status" role="status" aria-live="polite"></div>
-      <button type="button" class="enter register-save" id="register-save" hidden>Register to save receipts</button>
+      <button type="button" class="enter register-save" id="register-save" hidden>Register to save</button>
+      <button type="button" class="enter remove-event" id="remove-event" hidden>Remove from session</button>
     </div>
   </div>
 </div>
@@ -314,7 +323,10 @@ a { color: inherit; }
   const pinNet = document.getElementById("pin-net");
   const osTray = document.getElementById("receipt-tray");
   const registerSave = document.getElementById("register-save");
+  const removeEventBtn = document.getElementById("remove-event");
   const enterBtn = document.getElementById("enter-main");
+  let selectedEventId = null;
+  let composeTimer = null;
   const WHEEL = [
     "0", "32", "15", "19", "4", "21", "2", "25", "17", "34", "6", "27", "13",
     "36", "11", "30", "8", "23", "10", "5", "24", "16", "33", "1", "20", "14",
@@ -339,8 +351,10 @@ a { color: inherit; }
       trail.forEach((step) => {
         events.push({
           at: step.at || new Date().toISOString(),
+          id: newEventId(),
           os: "visit",
           where: step.id,
+          units: unitsFor(step.id),
           marker: { type: "anonymous" },
         });
       });
@@ -350,8 +364,11 @@ a { color: inherit; }
       q.forEach((entry) => {
         events.push({
           at: entry.at || new Date().toISOString(),
+          id: newEventId(),
           os: "act",
           act: entry.act,
+          where: entry.act.business_unit === "acme" ? "acme" : "network",
+          units: unitsFor(null, entry.act),
           marker: { type: "anonymous" },
         });
       });
@@ -361,6 +378,50 @@ a { color: inherit; }
     return events;
   }
 
+  function newEventId() {
+    if (typeof crypto !== "undefined" && crypto.randomUUID) return crypto.randomUUID();
+    return Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
+  }
+
+  function currentText() {
+    return inputMain.value.trim() || undefined;
+  }
+
+  function unitsFor(where, act) {
+    if (act) {
+      if (act.business_unit === "acme") return ["acme"];
+      if (act.act === "inbox" || act.destination) return ["5et"];
+      return [];
+    }
+    if (where === "acme") return ["acme"];
+    if (where === "5et" || where === "director") return ["5et"];
+    return [];
+  }
+
+  function enrichEvent(entry) {
+    const where = entry.where || normalizeHash();
+    const text = entry.text !== undefined ? entry.text : currentText();
+    const units = entry.units || unitsFor(where, entry.act);
+    return {
+      ...entry,
+      id: entry.id || newEventId(),
+      at: entry.at || new Date().toISOString(),
+      marker: entry.marker || { type: "anonymous" },
+      where,
+      units,
+      text,
+    };
+  }
+
+  function rebuildActQueue(events) {
+    try {
+      const q = events
+        .filter((ev) => ev.os === "act" && ev.act)
+        .map((ev) => ({ at: ev.at, act: ev.act }));
+      localStorage.setItem(STORAGE_QUEUE, JSON.stringify(q));
+    } catch (e) { /* ignore */ }
+  }
+
   function saveOs(events) {
     try { sessionStorage.setItem(STORAGE_OS, JSON.stringify(events)); }
     catch (e) { /* private mode */ }
@@ -368,27 +429,37 @@ a { color: inherit; }
 
   function logOs(entry, highlight) {
     const events = loadOs();
-    const row = {
-      at: new Date().toISOString(),
-      marker: { type: "anonymous" },
-      ...entry,
-    };
+    const row = enrichEvent(entry);
     events.push(row);
     saveOs(events);
-    if (entry.os === "act" && entry.act) syncActQueue(entry.act, row.at);
+    rebuildActQueue(events);
     renderOsTray(highlight ? events.length - 1 : -1);
+    renderUnitLights(row);
     return row;
   }
 
-  function syncActQueue(act, at) {
-    try {
-      const q = JSON.parse(localStorage.getItem(STORAGE_QUEUE) || "[]");
-      q.push({ at, act });
-      localStorage.setItem(STORAGE_QUEUE, JSON.stringify(q));
-    } catch (e) { /* ignore */ }
+  function removeEvent(id) {
+    const events = loadOs().filter((ev) => ev.id !== id);
+    saveOs(events);
+    rebuildActQueue(events);
+    selectedEventId = null;
+    removeEventBtn.hidden = true;
+    clearStatus();
+    renderOsTray(-1);
+    renderUnitLights();
+  }
+
+  function renderUnitLights(recent) {
+    const lit = new Set();
+    loadOs().forEach((ev) => (ev.units || []).forEach((u) => lit.add(u)));
+    Object.keys(nav).forEach((k) => {
+      nav[k].classList.toggle("lit", lit.has(k));
+      nav[k].classList.toggle("lit-recent", !!(recent && (recent.units || []).includes(k)));
+    });
   }
 
   function eventLabel(ev) {
+    if (ev.os === "compose") return "…";
     if (ev.os === "visit") return WHERE_LABEL[ev.where] || (ev.where || "?").slice(0, 3);
     if (ev.os === "act") {
       const act = ev.act || {};
@@ -404,6 +475,7 @@ a { color: inherit; }
   }
 
   function eventClass(ev) {
+    if (ev.os === "compose") return "compose";
     if (ev.os === "visit") return ev.external ? "visit ext" : "visit";
     return "act";
   }
@@ -416,9 +488,11 @@ a { color: inherit; }
       btn.type = "button";
       btn.className = "atom event " + eventClass(ev);
       if (index === highlightIndex) btn.classList.add("drop");
+      if (ev.id === selectedEventId) btn.classList.add("sel");
       btn.textContent = eventLabel(ev);
-      btn.title = ev.at || "";
-      btn.setAttribute("aria-label", (ev.os === "visit" ? "Visit " : "Act ") + eventLabel(ev));
+      const hint = [ev.at, ev.text, (ev.units || []).join("+")].filter(Boolean).join(" · ");
+      btn.title = hint;
+      btn.setAttribute("aria-label", eventLabel(ev));
       btn.addEventListener("click", () => showEvent(ev));
       osTray.appendChild(btn);
     });
@@ -476,12 +550,12 @@ a { color: inherit; }
     enterBtn.disabled = name === "5et";
     inputMain.readOnly = name === "5et";
     syncShortcutSpace();
-    logOs({ os: "visit", where: name }, false);
+    logOs({ os: "visit", where: name, text: currentText() }, false);
     if (name === "network") renderShortcuts();
   }
 
   function collectAct(act) {
-    logOs({ os: "act", act }, true);
+    logOs({ os: "act", act, text: currentText() }, true);
   }
 
   let statusTimer = null;
@@ -489,13 +563,18 @@ a { color: inherit; }
   function clearStatus() {
     if (statusTimer) { clearTimeout(statusTimer); statusTimer = null; }
     registerSave.hidden = true;
+    removeEventBtn.hidden = true;
+    selectedEventId = null;
     status.classList.remove("show", "err");
     status.textContent = "";
+    renderOsTray(-1);
   }
 
   function flashStatus(text, isError) {
     if (statusTimer) { clearTimeout(statusTimer); statusTimer = null; }
     registerSave.hidden = true;
+    removeEventBtn.hidden = true;
+    selectedEventId = null;
     status.textContent = text;
     status.classList.toggle("err", !!isError);
     status.classList.add("show");
@@ -503,13 +582,23 @@ a { color: inherit; }
   }
 
   function showEvent(ev) {
-    const lines = [JSON.stringify(ev, null, 2), "", "On this device only — clear 🕶️ removes it."];
+    selectedEventId = ev.id;
+    const lines = [JSON.stringify(ev, null, 2), "", "On this device only — remove one or clear 🕶️."];
     if (ev.os === "act") {
-      lines.push("Anonymous by default. Register and Enter to keep across devices.");
+      lines.push("Anonymous by default. Register to persist. Operator can delete after tick.");
     }
     flashStatus(lines.join("\n"), false);
+    removeEventBtn.hidden = false;
     if (ev.os === "act") registerSave.hidden = false;
+    renderOsTray(-1);
+    renderUnitLights(ev);
   }
+
+  removeEventBtn.addEventListener("click", () => {
+    if (!selectedEventId) return;
+    if (!confirm("Remove this event from your session?")) return;
+    removeEvent(selectedEventId);
+  });
 
   function openRegister() {
     location.hash = "#network";
@@ -574,7 +663,19 @@ a { color: inherit; }
     catch (e) { /* ignore */ }
   }
 
-  inputMain.addEventListener("input", () => { clearStatus(); saveDraft(); });
+  inputMain.addEventListener("input", () => {
+    clearStatus();
+    saveDraft();
+    clearTimeout(composeTimer);
+    composeTimer = setTimeout(() => {
+      const text = currentText();
+      if (!text) return;
+      const events = loadOs();
+      const last = events[events.length - 1];
+      if (last && last.os === "compose" && last.text === text) return;
+      logOs({ os: "compose", text }, false);
+    }, 1800);
+  });
 
   enterBtn.addEventListener("click", () => dropSeed(inputMain.value.trim()));
   inputMain.addEventListener("keydown", (event) => {
@@ -602,7 +703,7 @@ a { color: inherit; }
   }
 
   document.getElementById("link-director").addEventListener("click", () => {
-    logOs({ os: "visit", where: "director", external: true }, true);
+    logOs({ os: "visit", where: "director", external: true, units: ["5et"] }, true);
   });
 
   document.getElementById("acme-spin").addEventListener("click", () => {
@@ -629,6 +730,7 @@ a { color: inherit; }
     clearStatus();
     renderShortcuts();
     renderOsTray(-1);
+    renderUnitLights();
     if (normalizeHash() !== "network") location.hash = "#network";
     else route();
   }
@@ -638,6 +740,7 @@ a { color: inherit; }
 
   renderShortcuts();
   renderOsTray(-1);
+  renderUnitLights();
   window.addEventListener("hashchange", route);
   if (!location.hash || location.hash === "#home") history.replaceState(null, "", "#network");
   route();
