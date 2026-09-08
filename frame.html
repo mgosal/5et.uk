@@ -566,7 +566,7 @@ a { color: inherit; }
     <p class="welcome-lead">You opened the permanent address — your first step on the network.</p>
     <p class="welcome-body">This is the <strong>public network</strong>: browse the app store, open landmarks, read contracts. No server cookie. No account. Nothing is sent to 5et until you act.</p>
     <p class="welcome-body">Acts create receipts in <strong>this browser session</strong> only. Tap 🕶️ in the dock to reset.</p>
-    <p class="welcome-fine">Enter below registers your visit on this device for the session. No server cookie.</p>
+    <p class="welcome-fine">Enter starts a session on this device. Removing all receipts or tapping 🕶️ ends it — enter again to restart.</p>
     <p class="welcome-draft">Draft welcome — not the full journey yet (client install, onboarding). See welcome-experience contract.</p>
     <button type="button" class="welcome-enter" id="welcome-dismiss">Enter the network</button>
   </div>
@@ -592,7 +592,7 @@ a { color: inherit; }
   const STORAGE_DRAFT = "5et-frame-draft";
   const STORAGE_QUEUE = "5et-threshold-queue";
 
-  const FRAME_VER = "20260908.12";
+  const FRAME_VER = "20260908.13";
   const WHERE_LABEL = { network: "home", apps: "store", acme: "Ac" };
   
 
@@ -942,6 +942,22 @@ a { color: inherit; }
     return row;
   }
 
+  function endSession() {
+    try { sessionStorage.removeItem(STORAGE_WELCOME); } catch (e) { /* ignore */ }
+    try { sessionStorage.removeItem(STORAGE_DRAFT); } catch (e) { /* ignore */ }
+    inputMain.value = "";
+    if (spinFace) {
+      spinFace.textContent = "Tap spin";
+      spinFace.classList.add("wait");
+    }
+    closeReceipt();
+    location.hash = "#network";
+    landAtTop();
+    maybeShowWelcome();
+    refreshWelcomeGate();
+    route();
+  }
+
   function removeEvent(id) {
     const events = loadOs().filter((ev) => ev.id !== id);
     saveOs(events);
@@ -949,6 +965,7 @@ a { color: inherit; }
     closeReceipt();
     renderOsTray(-1);
     renderUnitLights();
+    if (!events.length) endSession();
   }
 
   function markerType(ev) {
@@ -1270,7 +1287,7 @@ a { color: inherit; }
 
   removeEventBtn.addEventListener("click", () => {
     if (!selectedEventId) return;
-    if (!confirm("Remove this event from your session?")) return;
+    if (!confirm("Remove this event from your session?\n\nIf this was the last one, the session ends.")) return;
     removeEvent(selectedEventId);
   });
   receiptBackdrop.addEventListener("click", closeReceipt);
@@ -1395,32 +1412,18 @@ a { color: inherit; }
   });
 
   function clearLocalHistory() {
-    if (!confirm("Clear this session?\n\nAll events on this device will be removed.")) {
+    if (!confirm("End this session?\n\nAll events on this device will be removed. Enter again to start.")) {
       return;
     }
     try { sessionStorage.removeItem(STORAGE_OS); } catch (e) { /* ignore */ }
     try { sessionStorage.removeItem("5et-nav-trail"); } catch (e) { /* ignore */ }
     try { sessionStorage.removeItem("5et-visited-landmarks"); } catch (e) { /* ignore */ }
-    try { sessionStorage.removeItem(STORAGE_DRAFT); } catch (e) { /* ignore */ }
     try { sessionStorage.removeItem(STORAGE_SCOPE); } catch (e) { /* ignore */ }
     try { sessionStorage.removeItem(STORAGE_MARKER); } catch (e) { /* ignore */ }
     try { localStorage.removeItem(STORAGE_QUEUE); } catch (e) { /* ignore */ }
-    try { sessionStorage.removeItem(STORAGE_WELCOME); } catch (e) { /* ignore */ }
-    inputMain.value = "";
-    if (spinFace) {
-      spinFace.textContent = "Tap spin";
-      spinFace.classList.add("wait");
-    }
-    closeReceipt();
     setScope(isStandalone() ? "confidential" : "network");
     renderShortcuts();
-    renderOsTray(-1);
-    renderUnitLights();
-    location.hash = "#network";
-    landAtTop();
-    maybeShowWelcome();
-    refreshWelcomeGate();
-    route();
+    endSession();
   }
 
   document.getElementById("clear-history").addEventListener("click", clearLocalHistory);
