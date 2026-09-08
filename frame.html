@@ -324,6 +324,8 @@ body.receipt-open #app-panel { display: none !important; }
 .compose {
   display: flex; flex-direction: column; gap: 8px;
 }
+body.welcome-pending .compose,
+body.welcome-pending .dock { visibility: hidden; pointer-events: none; }
 .input {
   width: 100%; min-height: 96px; padding: 14px;
   border: 2px solid var(--edge); background: var(--ground); color: var(--ink);
@@ -530,8 +532,8 @@ a { color: inherit; }
     <h2>5et network</h2>
     <p class="welcome-lead">You opened the permanent address — your first step on the network.</p>
     <p class="welcome-body">This is <strong>anonymous land</strong>: a public foyer where you can browse apps and read contracts. No server cookie. No account. Nothing is sent to 5et until you act.</p>
-    <p class="welcome-body">Acts create receipts in <strong>this browser session</strong> only. Tap 🕶️ in the dock to reset the session.</p>
-    <p class="welcome-fine">Acme at 0,0 is the demo. Everything else is optional.</p>
+    <p class="welcome-body">Acts create receipts in <strong>this browser session</strong> only. Tap 🕶️ in the dock to reset.</p>
+    <p class="welcome-fine">Enter below registers your visit on this device for the session. No server cookie.</p>
     <p class="welcome-draft">Draft welcome — not the full journey yet (client install, onboarding). See welcome-experience contract.</p>
     <button type="button" class="welcome-enter" id="welcome-dismiss">Enter the network</button>
   </div>
@@ -558,7 +560,7 @@ a { color: inherit; }
   const STORAGE_QUEUE = "5et-threshold-queue";
   const NETWORK_INBOX = "_network/_integrations/inbox/";
 
-  const FRAME_VER = "20260908.10";
+  const FRAME_VER = "20260908.11";
   const WHERE_LABEL = { network: "land", acme: "Ac" };
   
 
@@ -704,19 +706,32 @@ a { color: inherit; }
     }
   }
 
+  function welcomeAccepted() {
+    try { return !!sessionStorage.getItem(STORAGE_WELCOME); }
+    catch (e) { return false; }
+  }
+
+  function refreshWelcomeGate() {
+    const pending = !welcomeAccepted() && !welcome.hidden;
+    document.body.classList.toggle("welcome-pending", pending);
+  }
+
   function maybeShowWelcome() {
     try {
       if (sessionStorage.getItem(STORAGE_WELCOME)) return;
     } catch (e) { /* ignore */ }
     welcome.hidden = false;
     scopeBar.classList.add("coach-pulse");
+    refreshWelcomeGate();
   }
 
   function dismissWelcome() {
     welcome.hidden = true;
     scopeBar.classList.remove("coach-pulse");
     try { sessionStorage.setItem(STORAGE_WELCOME, "1"); } catch (e) { /* ignore */ }
+    refreshWelcomeGate();
     landAtTop();
+    route();
   }
 
   function renderEnclaveCta() {
@@ -1119,9 +1134,11 @@ a { color: inherit; }
     escapeAtom.hidden = onNetwork;
     
     syncShortcutSpace();
-    const last = loadOs().slice(-1)[0];
-    const sameVisit = last && last.os === "visit" && last.where === name;
-    if (!sameVisit) logOs({ os: "visit", where: name, text: currentText() }, false);
+    if (welcomeAccepted()) {
+      const last = loadOs().slice(-1)[0];
+      const sameVisit = last && last.os === "visit" && last.where === name;
+      if (!sameVisit) logOs({ os: "visit", where: name, text: currentText() }, false);
+    }
     renderUnitLights();
     renderLayerFive(name);
     renderAppWallet(name);
@@ -1289,6 +1306,7 @@ a { color: inherit; }
     saveDraft();
     clearTimeout(composeTimer);
     composeTimer = setTimeout(() => {
+      if (!welcomeAccepted()) return;
       const text = currentText();
       if (!text) return;
       const events = loadOs();
@@ -1357,6 +1375,7 @@ a { color: inherit; }
     location.hash = "#network";
     landAtTop();
     maybeShowWelcome();
+    refreshWelcomeGate();
     route();
   }
 
@@ -1432,6 +1451,7 @@ a { color: inherit; }
   renderOsTray(-1);
   renderUnitLights();
   maybeShowWelcome();
+  refreshWelcomeGate();
   window.addEventListener("hashchange", route);
   if (!location.hash || location.hash === "#home") history.replaceState(null, "", "#network");
   route();
