@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1185.md" style="font-size:11px; color:#5f6368;">#1185</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1186.md" style="font-size:11px; color:#5f6368;">#1186</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -26,7 +26,7 @@
 
 ## Last Tick
 
-**[Tick #1185](_pipeline/reports/tick-1185.md)** · 2026-09-08 08:58 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1186](_pipeline/reports/tick-1186.md)** · 2026-09-08 09:14 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -66,7 +66,7 @@
 - **Turn at**: 2026-09-07T10:23:40.354071+00:00
 - **Turn tick**: 1155
 - **Turn commit**: 9bfb5a29
-- **Window**: 30 ticks · 22 h 36 m
+- **Window**: 31 ticks · 22 h 52 m
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 7
 - **Elsewhere**: 2
@@ -74,13 +74,13 @@
 
 | Scope | Tick | Item | What happened |
 |---|---:|---|---|
-| yours | 1182 | [calendar-import RP-1](projects/ema-sa/_contracts/calendar-import.REVIEW.md) | Raised for your decision. |
+| yours | 1182 | [deal-routing RP-2](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. |
 | yours | 1182 | [slack-import RP-2](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
 | yours | 1182 | [hubspot-import RP-1](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. |
-| yours | 1182 | [slack-import RP-1](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
-| yours | 1182 | [deal-routing RP-2](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. |
-| yours | 1182 | [deal-routing RP-1](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. |
+| yours | 1182 | [calendar-import RP-1](projects/ema-sa/_contracts/calendar-import.REVIEW.md) | Raised for your decision. |
 | yours | 1182 | [hubspot-import RP-2](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. |
+| yours | 1182 | [deal-routing RP-1](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. |
+| yours | 1182 | [slack-import RP-1](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
 | elsewhere | 1168 | [Operations](Operations/dashboard.md) | Load 41 → 42 active. |
 | elsewhere | 1168 | [St. James AI Networking Event Attendance](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md) | Created. |
 
@@ -97,7 +97,7 @@ Nothing presented and unanswered.
 | 2026-09-07T08:52:56.745898+00:00 | [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) | 1 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | 2026-08-26T18:12:56.073931+00:00 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 
-### Activity Since Latest Move (30 ticks)
+### Activity Since Latest Move (31 ticks)
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
@@ -131,6 +131,7 @@ Nothing presented and unanswered.
 | [#1183](_pipeline/reports/tick-1183.md) | 5.8s | 0 | 0 | 0 | 0 |
 | [#1184](_pipeline/reports/tick-1184.md) | 88.4s | 19 | 0 | 0 | 0 |
 | [#1185](_pipeline/reports/tick-1185.md) | 6.2s | 0 | 0 | 0 | 0 |
+| [#1186](_pipeline/reports/tick-1186.md) | 5.8s | 0 | 0 | 0 | 0 |
 
 ## Health
 
@@ -278,11 +279,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1185
+**Total Ticks**: 1186
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-08 09:58 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-08 10:14 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-08 09:41 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-08 09:41 | 0 copied, 0 noise, 0 hal |
 | processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
@@ -298,11 +299,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-08 10:14](_pipeline/logs/2026-09-08_10-14-03.md) | 6s | [✓](_pipeline/logs/2026-09-08_10-14-03.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
 | [2026-09-08 09:58](_pipeline/logs/2026-09-08_09-58-33.md) | 6s | [✓](_pipeline/logs/2026-09-08_09-58-33.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-08 09:41](_pipeline/logs/2026-09-08_09-41-42.md) | 88s | [✓](_pipeline/logs/2026-09-08_09-41-42.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-08_09-41-42.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-08_09-41-42.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-09-08_09-41-42.md#processor-progress) 0 progressed | $0.0000 | ~0.037g |
 | [2026-09-08 09:26](_pipeline/logs/2026-09-08_09-26-15.md) | 6s | [✓](_pipeline/logs/2026-09-08_09-26-15.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
 | [2026-09-08 09:10](_pipeline/logs/2026-09-08_09-10-43.md) | 6s | [✓](_pipeline/logs/2026-09-08_09-10-43.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
-| [2026-09-08 08:55](_pipeline/logs/2026-09-08_08-55-12.md) | 7s | [✓](_pipeline/logs/2026-09-08_08-55-12.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 
 ### Source Topology
 

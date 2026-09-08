@@ -4,25 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1185` · 2026-09-08 08:58 UTC
+`FRAME #1186` · 2026-09-08 09:14 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1185** · 30 ticks · 22 h 36 m · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1186** · 31 ticks · 22 h 52 m · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1182 | [calendar-import RP-1](projects/ema-sa/_contracts/calendar-import.REVIEW.md) | Raised for your decision. |
+| 1182 | [deal-routing RP-2](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. |
 | 1182 | [slack-import RP-2](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
 | 1182 | [hubspot-import RP-1](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. |
-| 1182 | [slack-import RP-1](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
-| 1182 | [deal-routing RP-2](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. |
-| 1182 | [deal-routing RP-1](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. |
+| 1182 | [calendar-import RP-1](projects/ema-sa/_contracts/calendar-import.REVIEW.md) | Raised for your decision. |
 | 1182 | [hubspot-import RP-2](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. |
+| 1182 | [deal-routing RP-1](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. |
+| 1182 | [slack-import RP-1](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
 
 **Elsewhere**
 
@@ -46,15 +46,15 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁▄▁▄▁▁▁▄▁
+█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁▄▁▄▁▁▁▄▁▁
 █ latest move · 10:23
-▁–█ tick-report activity · 30 reports · 22 h   (frames #1156 → #1185)
+▁–█ tick-report activity · 31 reports · 22 h   (frames #1156 → #1186)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **30** |
+| Tick reports since latest move | **31** |
 | Time since latest move | 22 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
@@ -192,4 +192,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1185 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1186 · immediate mode, no client state</sub>
