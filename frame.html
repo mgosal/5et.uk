@@ -60,12 +60,12 @@ body {
 .layer-five .tick.on { background: var(--ink); border-color: var(--ink); }
 body.scope-confidential .layer-five .tick.on { background: var(--ink); }
 .layer-caption {
-  margin: 0; text-align: center; font-family: var(--fm); font-size: 13px; font-weight: 600;
-  color: var(--dim); flex-shrink: 0;
+  margin: 0; text-align: center; font-family: var(--fm); font-size: 16px; font-weight: 700;
+  color: var(--ink); flex-shrink: 0;
 }
 .scope-opt {
-  border: 1.5px dashed var(--edge); background: var(--ground);
-  padding: 12px 14px 11px; text-align: center; cursor: pointer;
+  border: 2px dashed var(--edge); background: var(--ground);
+  padding: 14px 16px 13px; text-align: center; cursor: pointer;
   font: inherit; color: inherit; border-radius: 0;
   -webkit-tap-highlight-color: transparent;
 }
@@ -73,12 +73,12 @@ body.scope-confidential .layer-five .tick.on { background: var(--ink); }
   border-style: solid; border-color: var(--ink); background: var(--panel);
 }
 .scope-kicker {
-  display: block; font-family: var(--fd); font-size: 12px; font-weight: 700;
-  letter-spacing: .12em; text-transform: uppercase; color: var(--dim);
+  display: block; font-family: var(--fd); font-size: 14px; font-weight: 700;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--muted);
 }
 .scope-name {
-  display: block; font-family: var(--fm); font-size: 15px; font-weight: 600; color: var(--ink);
-  margin-top: 3px;
+  display: block; font-family: var(--fm); font-size: 18px; font-weight: 700; color: var(--ink);
+  margin-top: 4px;
 }
 body.scope-confidential .scope-opt[data-scope="confidential"] .scope-name::before {
   content: "📱 ";
@@ -100,8 +100,8 @@ body.scope-confidential .enclave-cta { border-color: var(--ink); color: var(--in
 .land { display: flex; flex-direction: column; gap: 10px; flex-shrink: 0; }
 .apps-bar { display: flex; flex-direction: column; gap: 10px; }
 .apps-title {
-  margin: 0; font-family: var(--fd); font-size: 14px; font-weight: 700;
-  letter-spacing: .16em; text-transform: uppercase; color: var(--muted); text-align: center;
+  margin: 0; font-family: var(--fd); font-size: 16px; font-weight: 700;
+  letter-spacing: .16em; text-transform: uppercase; color: var(--ink); text-align: center;
 }
 .apps {
   display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;
@@ -139,36 +139,10 @@ body.scope-confidential .enclave-cta { border-color: var(--ink); color: var(--in
   color: var(--muted); outline: 2px dashed var(--edge); outline-offset: 3px;
 }
 .app.active.tagged .app-icon { background: var(--ink); color: var(--ground); border-style: solid; border-color: var(--ink); outline: none; }
-/* Inner ring — confidential enclave (data held at highest layer) */
-.app.has-confidential .app-shell::before {
-  content: ""; position: absolute; inset: -3px; border-radius: 50%;
-  border: 1.5px solid var(--ink); pointer-events: none; z-index: 0;
-}
-/* Outer ring — anonymous session data */
-.app.has-anonymous .app-shell::after {
-  content: ""; position: absolute; border-radius: 50%;
-  border: 1px dashed var(--edge); pointer-events: none; z-index: 0;
-  inset: -7px;
-}
-.app.has-anonymous.has-confidential .app-shell::after { inset: -10px; }
-.app.lit-recent .app-shell::before,
-.app.lit-recent .app-shell::after {
-  animation: ring-pulse .45s ease-out;
-}
-@keyframes ring-pulse {
-  from { opacity: 0; transform: scale(.92); }
-  to { opacity: 1; transform: scale(1); }
-}
-.hat-badge {
-  position: absolute; right: -2px; bottom: -2px; z-index: 2;
-  width: 18px; height: 18px; border-radius: 50%;
-  border: 1px solid var(--edge); background: var(--ground);
-  font-size: 10px; line-height: 16px; text-align: center;
-  display: none; pointer-events: none;
-}
-.app.hat-anonymous .hat-badge,
-.app.hat-confidential .hat-badge { display: block; }
-.app.hat-confidential .hat-badge { border-color: var(--ink); background: var(--ink); color: var(--ground); }
+/* Wallet rings only: dotted = untagged, solid = holds data. Hat/confidential rings deferred. */
+.app.has-confidential .app-shell::before,
+.app.has-anonymous .app-shell::after { display: none; }
+.hat-badge { display: none !important; }
 .app.locked .app-icon::after { content: "·"; font-weight: 400; margin-left: 1px; }
 .app-icon.slot { border-style: dashed; opacity: .35; }
 .app-icon.add { border-style: dashed; font-size: 22px; font-weight: 400; line-height: 1; }
@@ -191,7 +165,7 @@ body.scope-confidential .enclave-cta { border-color: var(--ink); color: var(--in
   padding: 0 2px;
 }
 .frame-label {
-  margin: 0; font-family: var(--fd); font-size: 13px; font-weight: 700;
+  margin: 0; font-family: var(--fd); font-size: 14px; font-weight: 700;
   letter-spacing: .14em; text-transform: uppercase; color: var(--muted);
 }
 .hat {
@@ -271,20 +245,27 @@ body.receipt-open #app-panel { display: none !important; }
 }
 .receipt-sheet {
   position: relative; z-index: 1; width: 100%; max-width: 400px;
-  max-height: min(70dvh, 520px); overflow: auto;
-  border: 1px solid var(--ink); background: var(--ground);
-  padding: 14px; display: flex; flex-direction: column; gap: 10px;
+  max-height: min(75dvh, 560px); overflow: auto;
+  border: 2px solid var(--ink); background: var(--ground);
+  padding: 18px 16px; display: flex; flex-direction: column; gap: 12px;
 }
-.receipt-sheet .data-label { margin: 0; }
+.receipt-sheet .data-label {
+  margin: 0; font-family: var(--fd); font-size: 18px; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase;
+}
+.receipt-summary {
+  margin: 0; font-family: var(--fb); font-size: 17px; line-height: 1.45;
+  font-weight: 600; color: var(--ink);
+}
 .receipt-body {
-  font-family: var(--fm); font-size: 11px; line-height: 1.45;
+  font-family: var(--fm); font-size: 14px; line-height: 1.5;
   white-space: pre-wrap; word-break: break-word;
-  border: 1px dashed var(--edge); padding: 10px 12px;
+  border: 1.5px dashed var(--edge); padding: 12px 14px;
 }
 .receipt-dismiss {
-  width: 100%; padding: 10px; border: 1px solid var(--edge);
-  background: var(--panel); font-family: var(--fd); font-size: 12px;
-  font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+  width: 100%; min-height: 52px; padding: 12px; border: 2px solid var(--edge);
+  background: var(--panel); font-family: var(--fd); font-size: 16px;
+  font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
   cursor: pointer;
 }
 .toast {
@@ -328,8 +309,8 @@ body.receipt-open #app-panel { display: none !important; }
   display: flex; flex-direction: column; gap: 8px;
 }
 .input {
-  width: 100%; min-height: 80px; padding: 12px;
-  border: 1px solid var(--edge); background: var(--ground); color: var(--ink);
+  width: 100%; min-height: 96px; padding: 14px;
+  border: 2px solid var(--edge); background: var(--ground); color: var(--ink);
   font: inherit; resize: vertical; border-radius: 0;
   -webkit-appearance: none; appearance: none;
 }
@@ -516,6 +497,7 @@ a { color: inherit; }
   <button type="button" class="receipt-backdrop" id="receipt-backdrop" aria-label="Close receipt"></button>
   <div class="receipt-sheet">
     <p class="data-label" id="receipt-title">Receipt · OS</p>
+    <p class="receipt-summary" id="receipt-summary" hidden></p>
     <div class="receipt-body" id="receipt-body"></div>
     <button type="button" class="enter register-save" id="register-save" hidden>Register to save</button>
     <button type="button" class="enter remove-event" id="remove-event" hidden>Remove from session</button>
@@ -563,8 +545,8 @@ a { color: inherit; }
   const STORAGE_QUEUE = "5et-threshold-queue";
   const NETWORK_INBOX = "_network/_integrations/inbox/";
 
-  const FRAME_VER = "20260908.7";
-  const WHERE_LABEL = { network: "net", acme: "Ac" };
+  const FRAME_VER = "20260908.8";
+  const WHERE_LABEL = { network: "land", acme: "Ac" };
   
 
   const views = {
@@ -583,6 +565,7 @@ a { color: inherit; }
   const openUnitBtn = document.getElementById("open-unit");
   const receiptDismiss = document.getElementById("receipt-dismiss");
   const receiptTitle = document.getElementById("receipt-title");
+  const receiptSummary = document.getElementById("receipt-summary");
   const welcome = document.getElementById("welcome");
   const welcomeDismiss = document.getElementById("welcome-dismiss");
   const layerFive = document.getElementById("layer-five");
@@ -964,6 +947,8 @@ a { color: inherit; }
     let label = unit === "acme" ? "Acme" : unit;
     
     receiptTitle.textContent = label + " · wallet";
+    receiptSummary.hidden = true;
+    receiptSummary.textContent = "";
     const lines = events.map((ev, i) => {
       return "[" + (i + 1) + "] " + eventLabel(ev) + " · " + ev.at + "\n" + JSON.stringify(ev, null, 2);
     });
@@ -985,9 +970,32 @@ a { color: inherit; }
     return n + " receipt" + (n === 1 ? "" : "s");
   }
 
+  function eventSummary(ev) {
+    if (ev.os === "visit") {
+      const place = PLACE_LABEL[ev.where] || ev.where || "?";
+      return "Visit · " + place + " — browse only, no data held";
+    }
+    if (ev.os === "compose") {
+      return "Draft · OS agent — not sent yet";
+    }
+    if (ev.os === "act") {
+      const act = ev.act || {};
+      if (act.act === "agent") {
+        const msg = (ev.text || act.message || "").trim();
+        return "OS · agent" + (msg ? " — " + msg.slice(0, 48) : "");
+      }
+      if (act.act === "grant-request" && act.business_unit === "acme") {
+        const spin = (act.note || "").match(/spin:\s*(.+)/i);
+        return "Acme · grant" + (spin ? " · " + spin[1].split(/\s+/)[0] : "");
+      }
+      return "Act · " + (act.act || "?");
+    }
+    return "Event";
+  }
+
   function eventLabel(ev) {
-    if (ev.os === "compose") return "…";
-    if (ev.os === "visit") return WHERE_LABEL[ev.where] || (ev.where || "?").slice(0, 3);
+    if (ev.os === "compose") return "draft";
+    if (ev.os === "visit") return WHERE_LABEL[ev.where] || (ev.where || "?").slice(0, 4);
     if (ev.os === "act") {
       const act = ev.act || {};
       if (act.act === "grant-request") {
@@ -995,7 +1003,8 @@ a { color: inherit; }
         if (spin) return spin[1].split(/\s+/)[0];
         return "Ac";
       }
-      if (act.act === "inbox" || act.act === "agent") return "↵";
+      if (act.act === "agent") return "OS";
+      if (act.act === "inbox") return "↵";
       return (act.act || "?").slice(0, 3);
     }
     return "?";
@@ -1017,7 +1026,7 @@ a { color: inherit; }
       if (index === highlightIndex) btn.classList.add("drop");
       if (ev.id === selectedEventId) btn.classList.add("sel");
       btn.textContent = eventLabel(ev);
-      const hint = [ev.at, ev.text, (ev.units || []).join("+")].filter(Boolean).join(" · ");
+      const hint = eventSummary(ev) + " · " + [ev.at, (ev.units || []).join("+")].filter(Boolean).join(" · ");
       btn.title = hint;
       btn.setAttribute("aria-label", eventLabel(ev));
       btn.addEventListener("click", () => showEvent(ev));
@@ -1135,6 +1144,8 @@ a { color: inherit; }
     walletUnit = null;
     selectedEventId = null;
     receiptBody.textContent = "";
+    receiptSummary.textContent = "";
+    receiptSummary.hidden = true;
     receiptTitle.textContent = "Receipt · OS";
     renderOsTray(-1);
     renderUnitLights();
@@ -1158,6 +1169,8 @@ a { color: inherit; }
     openUnitBtn.hidden = true;
     selectedEventId = ev.id;
     receiptTitle.textContent = "Receipt · OS";
+    receiptSummary.hidden = false;
+    receiptSummary.textContent = eventSummary(ev);
     document.body.classList.add("receipt-open");
     appPanel.hidden = true;
     const lines = [JSON.stringify(ev, null, 2), "", "OS layer — on this device only."];
