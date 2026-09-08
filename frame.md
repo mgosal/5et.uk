@@ -4,24 +4,24 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1181` · 2026-09-08 07:55 UTC
+`FRAME #1182` · 2026-09-08 08:10 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1181** · 26 ticks · 21 h 33 m · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1182** · 27 ticks · 21 h 48 m · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1180 | [granola-import RP-5](projects/ema-sa/_contracts/granola-import.REVIEW.md) | Raised for your decision. |
-| 1180 | [granola-import RP-4](projects/ema-sa/_contracts/granola-import.REVIEW.md) | Raised for your decision. |
 | 1180 | [email-import RP-5](projects/ema-sa/_contracts/email-import.REVIEW.md) | Raised for your decision. |
 | 1180 | [email-import RP-4](projects/ema-sa/_contracts/email-import.REVIEW.md) | Raised for your decision. |
-| 1177 | [fathom-import RP-2](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1180 | [granola-import RP-5](projects/ema-sa/_contracts/granola-import.REVIEW.md) | Raised for your decision. |
+| 1180 | [granola-import RP-4](projects/ema-sa/_contracts/granola-import.REVIEW.md) | Raised for your decision. |
 | 1177 | [fathom-import RP-1](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1177 | [fathom-import RP-3](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1177 | [ema-sa RP-6](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 
 **Elsewhere**
@@ -46,15 +46,15 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁▄▁▄▁
+█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁▄▁▄▁▁
 █ latest move · 10:23
-▁–█ tick-report activity · 26 reports · 21 h   (frames #1156 → #1181)
+▁–█ tick-report activity · 27 reports · 21 h   (frames #1156 → #1182)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **26** |
+| Tick reports since latest move | **27** |
 | Time since latest move | 21 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
@@ -106,16 +106,23 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ✕ Open review points — 24
+## ✕ Open review points — 31
 
 | Contract | Point | Status |
 |---|---|---|
 | [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-3: New evidence reopens the cost basis on which RP-1 was resolved | open |
+| [calendar-import](projects/ema-sa/_contracts/calendar-import.REVIEW.md) | RP-1: OAuth scopes | open |
+| [deal-routing](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | RP-1: Not ingest — debug_tick wiring | open |
+| [deal-routing](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | RP-2: Account slug normalisation | open |
+| [hubspot-import](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | RP-1: Owner filter implementation | open |
+| [hubspot-import](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | RP-2: Binding to accounts/ | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-2: The company turn has no completion criterion | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-3: Support wrappers are created without an idempotency check | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-5: Contract proposals bypass the canonical attention stream | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-6: Review points bypass the canonical attention stream | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-7: Every open review point halts its contract, because points carry no materiality | open |
+| [slack-import](projects/ema-sa/_contracts/slack-import.REVIEW.md) | RP-1: Implementation not started | open |
+| [slack-import](projects/ema-sa/_contracts/slack-import.REVIEW.md) | RP-2: Mandip Slack user ID | open |
 | [model-selection](Operations/_contracts/model-selection.REVIEW.md) | RP-2: The resolution floor is specified but the deliverable cannot express it | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-4: Human response reconciliation waits for the schedule | open |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-8: Index seed counts do not match the themes | open |
@@ -185,4 +192,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1181 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1182 · immediate mode, no client state</sub>

@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1181.md" style="font-size:11px; color:#5f6368;">#1181</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1182.md" style="font-size:11px; color:#5f6368;">#1182</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -26,7 +26,7 @@
 
 ## Last Tick
 
-**[Tick #1181](_pipeline/reports/tick-1181.md)** · 2026-09-08 07:55 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1182](_pipeline/reports/tick-1182.md)** · 2026-09-08 08:10 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -66,7 +66,7 @@
 - **Turn at**: 2026-09-07T10:23:40.354071+00:00
 - **Turn tick**: 1155
 - **Turn commit**: 9bfb5a29
-- **Window**: 26 ticks · 21 h 33 m
+- **Window**: 27 ticks · 21 h 48 m
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 7
 - **Elsewhere**: 2
@@ -74,12 +74,12 @@
 
 | Scope | Tick | Item | What happened |
 |---|---:|---|---|
-| yours | 1180 | [granola-import RP-5](projects/ema-sa/_contracts/granola-import.REVIEW.md) | Raised for your decision. |
-| yours | 1180 | [granola-import RP-4](projects/ema-sa/_contracts/granola-import.REVIEW.md) | Raised for your decision. |
 | yours | 1180 | [email-import RP-5](projects/ema-sa/_contracts/email-import.REVIEW.md) | Raised for your decision. |
 | yours | 1180 | [email-import RP-4](projects/ema-sa/_contracts/email-import.REVIEW.md) | Raised for your decision. |
-| yours | 1177 | [fathom-import RP-2](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| yours | 1180 | [granola-import RP-5](projects/ema-sa/_contracts/granola-import.REVIEW.md) | Raised for your decision. |
+| yours | 1180 | [granola-import RP-4](projects/ema-sa/_contracts/granola-import.REVIEW.md) | Raised for your decision. |
 | yours | 1177 | [fathom-import RP-1](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| yours | 1177 | [fathom-import RP-3](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | yours | 1177 | [ema-sa RP-6](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | elsewhere | 1168 | [Operations](Operations/dashboard.md) | Load 41 → 42 active. |
 | elsewhere | 1168 | [St. James AI Networking Event Attendance](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md) | Created. |
@@ -97,7 +97,7 @@ Nothing presented and unanswered.
 | 2026-09-07T08:52:56.745898+00:00 | [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) | 1 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | 2026-08-26T18:12:56.073931+00:00 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 
-### Activity Since Latest Move (26 ticks)
+### Activity Since Latest Move (27 ticks)
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
@@ -127,6 +127,7 @@ Nothing presented and unanswered.
 | [#1179](_pipeline/reports/tick-1179.md) | 5.9s | 0 | 0 | 0 | 0 |
 | [#1180](_pipeline/reports/tick-1180.md) | 77.3s | 19 | 0 | 0 | 0 |
 | [#1181](_pipeline/reports/tick-1181.md) | 6.5s | 0 | 0 | 0 | 0 |
+| [#1182](_pipeline/reports/tick-1182.md) | 5.8s | 0 | 0 | 0 | 0 |
 
 ## Health
 
@@ -162,7 +163,7 @@ pie title Active Status Distribution
 
 ## Attention
 
-### Decisions Waiting (18 of 38 need you)
+### Decisions Waiting (25 of 45 need you)
 
 Grouped by what each is waiting on. The first two groups are yours.
 
@@ -172,18 +173,25 @@ Grouped by what each is waiting on. The first two groups are yours.
 |------|---------|--------|-------------|------|
 | Review point | voice-note-import-contract RP-3 | minor — New evidence reopens the cost basis on which RP-1 wa | blocks approval only | [View](Operations/_contracts/voice-note-import-contract.REVIEW.md) |
 
-**Your review (17)** — One proposed action each — confirm or send back
+**Your review (24)** — One proposed action each — confirm or send back
 
 | Kind | Subject | Detail | Consequence | Link |
 |------|---------|--------|-------------|------|
 | Contract proposal | Sales Workflow Formalization | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sales-workflow-formalization.md) |
 | Contract proposal | SDLC Process Review Services Agreement | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) |
 | Contract proposal | Support Amendment — Seed Crystallisation | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-seed_crystallisation-support-amendment.md) |
+| Review point | calendar-import RP-1 | blocking — OAuth scopes | blocks approval only | [View](projects/ema-sa/_contracts/calendar-import.REVIEW.md) |
+| Review point | deal-routing RP-1 | blocking — Not ingest — debug_tick wiring | blocks approval only | [View](projects/ema-sa/_contracts/deal-routing.REVIEW.md) |
+| Review point | deal-routing RP-2 | blocking — Account slug normalisation | blocks approval only | [View](projects/ema-sa/_contracts/deal-routing.REVIEW.md) |
+| Review point | hubspot-import RP-1 | blocking — Owner filter implementation | blocks approval only | [View](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) |
+| Review point | hubspot-import RP-2 | blocking — Binding to accounts/ | blocks approval only | [View](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) |
 | Review point | pipeline RP-2 | blocking — The company turn has no completion criterion | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | pipeline RP-3 | blocking — Support wrappers are created without an idempotency  | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | pipeline RP-5 | blocking — Contract proposals bypass the canonical attention st | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | pipeline RP-6 | blocking — Review points bypass the canonical attention stream | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | pipeline RP-7 | blocking — Every open review point halts its contract, because  | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
+| Review point | slack-import RP-1 | blocking — Implementation not started | blocks approval only | [View](projects/ema-sa/_contracts/slack-import.REVIEW.md) |
+| Review point | slack-import RP-2 | blocking — Mandip Slack user ID | blocks approval only | [View](projects/ema-sa/_contracts/slack-import.REVIEW.md) |
 | Review point | model-selection RP-2 | material — The resolution floor is specified but the deliverabl | blocks approval only | [View](Operations/_contracts/model-selection.REVIEW.md) |
 | Review point | pipeline RP-4 | material — Human response reconciliation waits for the schedule | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | seed-crystallisation RP-8 | material — Index seed counts do not match the themes | blocks approval only | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
@@ -267,11 +275,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1181
+**Total Ticks**: 1182
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-08 08:55 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-08 09:10 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-08 08:38 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-08 08:38 | 0 copied, 0 noise, 0 hal |
 | processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
@@ -287,11 +295,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-08 09:10](_pipeline/logs/2026-09-08_09-10-43.md) | 6s | [✓](_pipeline/logs/2026-09-08_09-10-43.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
 | [2026-09-08 08:55](_pipeline/logs/2026-09-08_08-55-12.md) | 7s | [✓](_pipeline/logs/2026-09-08_08-55-12.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-08 08:38](_pipeline/logs/2026-09-08_08-38-32.md) | 77s | [✓](_pipeline/logs/2026-09-08_08-38-32.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-08_08-38-32.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-08_08-38-32.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-09-08_08-38-32.md#processor-progress) 0 progressed | $0.0000 | ~0.032g |
 | [2026-09-07 17:52](_pipeline/logs/2026-09-07_17-52-11.md) | 6s | [✓](_pipeline/logs/2026-09-07_17-52-11.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
 | [2026-09-07 17:35](_pipeline/logs/2026-09-07_17-35-28.md) | 82s | [✓](_pipeline/logs/2026-09-07_17-35-28.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-07_17-35-28.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-07_17-35-28.md#processor-progress) 0 progressed | $0.0000 | ~0.034g |
-| [2026-09-07 17:19](_pipeline/logs/2026-09-07_17-19-59.md) | 7s | [✓](_pipeline/logs/2026-09-07_17-19-59.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 
 ### Source Topology
 
