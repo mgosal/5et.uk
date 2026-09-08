@@ -4,25 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1187` · 2026-09-08 09:29 UTC
+`FRAME #1188` · 2026-09-08 09:45 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1187** · 32 ticks · 23 h 7 m · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1188** · 33 ticks · 23 h 23 m · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
 | 1182 | [slack-import RP-2](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
-| 1182 | [deal-routing RP-2](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. |
-| 1182 | [deal-routing RP-1](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. |
-| 1182 | [slack-import RP-1](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
+| 1182 | [hubspot-import RP-1](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. |
 | 1182 | [hubspot-import RP-2](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. |
 | 1182 | [calendar-import RP-1](projects/ema-sa/_contracts/calendar-import.REVIEW.md) | Raised for your decision. |
-| 1182 | [hubspot-import RP-1](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. |
+| 1182 | [deal-routing RP-1](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. |
+| 1182 | [deal-routing RP-2](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. |
+| 1182 | [slack-import RP-1](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
 
 **Elsewhere**
 
@@ -46,15 +46,15 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁▄▁▄▁▁▁▄▁▁▁
+█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁▄▁▄▁▁▁▄▁▁▁▄
 █ latest move · 10:23
-▁–█ tick-report activity · 32 reports · 23 h   (frames #1156 → #1187)
+▁–█ tick-report activity · 33 reports · 23 h   (frames #1156 → #1188)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **32** |
+| Tick reports since latest move | **33** |
 | Time since latest move | 23 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
@@ -106,14 +106,12 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ✕ Open review points — 31
+## ✕ Open review points — 29
 
 | Contract | Point | Status |
 |---|---|---|
 | [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-3: New evidence reopens the cost basis on which RP-1 was resolved | open |
 | [calendar-import](projects/ema-sa/_contracts/calendar-import.REVIEW.md) | RP-1: OAuth scopes | open |
-| [deal-routing](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | RP-1: Not ingest — debug_tick wiring | open |
-| [deal-routing](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | RP-2: Account slug normalisation | open |
 | [hubspot-import](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | RP-1: Owner filter implementation | open |
 | [hubspot-import](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | RP-2: Binding to accounts/ | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-2: The company turn has no completion criterion | open |
@@ -192,4 +190,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1187 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1188 · immediate mode, no client state</sub>
