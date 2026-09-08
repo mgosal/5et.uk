@@ -28,10 +28,14 @@ body {
 }
 .shell { max-width: 480px; margin: 0 auto; min-height: 100dvh;
   display: flex; flex-direction: column; padding: 12px 14px 24px; gap: 14px; }
-.stage { position: relative; flex: 1; display: flex; min-height: 0; }
-.stage.has-pin .panel { margin-inline-start: calc(var(--app) + 12px); }
+.land { display: flex; flex-direction: column; gap: 10px; }
+.shortcut-space {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+}
+.shortcut-space.empty { display: none; }
+.stage { flex: 1; display: flex; min-height: 0; }
 .pin-net {
-  position: absolute; top: 14px; inset-inline-start: 0; z-index: 2;
+  flex: 0 0 auto;
   width: var(--app); height: var(--app);
   background: var(--ground);
 }
@@ -145,29 +149,34 @@ a { color: inherit; text-decoration: underline; }
 </head>
 <body>
 <div class="shell">
-  <section class="apps-bar" aria-labelledby="apps-heading">
-    <h2 class="apps-title" id="apps-heading">Apps</h2>
-    <nav class="apps" aria-label="Network apps">
-    <a class="app" id="nav-acme" href="#acme" aria-label="Acme">
-      <span class="app-icon">Ac</span>
-      <span class="app-label">Acme</span>
-    </a>
-    <a class="app locked" id="nav-5et" href="#5et" aria-label="5et operator">
-      <span class="app-icon">5et</span>
-      <span class="app-label">5et</span>
-    </a>
-    <a class="app" id="nav-inbox" href="#inbox" aria-label="Network inbox">
-      <span class="app-icon">📬</span>
-      <span class="app-label">Inbox</span>
-    </a>
-    </nav>
-  </section>
+  <header class="land" id="land">
+    <section class="apps-bar" aria-labelledby="apps-heading">
+      <h2 class="apps-title" id="apps-heading">Apps</h2>
+      <nav class="apps" aria-label="Network apps">
+      <a class="app" id="nav-acme" href="#acme" aria-label="Acme">
+        <span class="app-icon">Ac</span>
+        <span class="app-label">Acme</span>
+      </a>
+      <a class="app locked" id="nav-5et" href="#5et" aria-label="5et operator">
+        <span class="app-icon">5et</span>
+        <span class="app-label">5et</span>
+      </a>
+      <a class="app" id="nav-inbox" href="#inbox" aria-label="Network inbox">
+        <span class="app-icon">📬</span>
+        <span class="app-label">Inbox</span>
+      </a>
+      </nav>
+    </section>
+
+    <div class="shortcut-space" id="shortcut-space">
+      <a class="atom pin-net net" id="pin-net" href="#network" hidden aria-label="Back to apps" title="Back to apps">net</a>
+      <div class="shortcuts" id="shortcut-atoms" aria-label="Shortcuts"></div>
+    </div>
+  </header>
 
   <div class="stage" id="stage">
-    <a class="atom pin-net net" id="pin-net" href="#network" hidden aria-label="Back to network" title="Back to network">net</a>
-    <div class="panel">
+    <div class="panel" aria-label="Agent frame">
     <div id="view-network" class="view on">
-      <div class="shortcuts" id="shortcut-atoms" aria-label="Your shortcuts"></div>
       <div class="compose">
         <textarea class="input" id="input-main" placeholder="" aria-label="Message" enterkeyhint="send"></textarea>
         <button type="button" class="enter" id="enter-main" aria-label="Enter">
@@ -240,9 +249,9 @@ a { color: inherit; text-decoration: underline; }
   const inputMain = document.getElementById("input-main");
   const inputInbox = document.getElementById("input-inbox");
   const shortcutRow = document.getElementById("shortcut-atoms");
+  const shortcutSpace = document.getElementById("shortcut-space");
   const spinFace = document.getElementById("spin-face");
   const pinNet = document.getElementById("pin-net");
-  const stage = document.getElementById("stage");
   const WHEEL = [
     "0", "32", "15", "19", "4", "21", "2", "25", "17", "34", "6", "27", "13",
     "36", "11", "30", "8", "23", "10", "5", "24", "16", "33", "1", "20", "14",
@@ -275,6 +284,13 @@ a { color: inherit; text-decoration: underline; }
       el.textContent = def.label;
       shortcutRow.appendChild(el);
     });
+    syncShortcutSpace();
+  }
+
+  function syncShortcutSpace() {
+    const hasPin = !pinNet.hidden;
+    const hasShortcuts = shortcutRow.children.length > 0;
+    shortcutSpace.classList.toggle("empty", !hasPin && !hasShortcuts);
   }
 
   function loadVisited() {
@@ -315,10 +331,10 @@ a { color: inherit; text-decoration: underline; }
     Object.values(views).forEach((el) => el.classList.remove("on"));
     views[name].classList.add("on");
     Object.keys(nav).forEach((k) => nav[k].classList.toggle("active", k === name));
-    document.getElementById("coord").textContent = name;
+    document.getElementById("coord").textContent = name === "network" ? "apps" : name;
     const onNetwork = name === "network";
     pinNet.hidden = onNetwork;
-    stage.classList.toggle("has-pin", !onNetwork);
+    syncShortcutSpace();
     if (name === "acme") visitLandmark("acme");
     if (name === "inbox") visitLandmark("inbox");
     if (name === "network") renderShortcuts();
