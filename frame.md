@@ -4,25 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1199` · 2026-09-08 13:30 UTC
+`FRAME #1200` · 2026-09-08 13:46 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1199** · 44 ticks · 1 d 3 h · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1200** · 45 ticks · 1 d 3 h · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1188 | [deal-routing RP-1](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1188 | [deal-routing RP-2](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1188 | [deal-routing RP-1](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1182 | [slack-import RP-1](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
+| 1182 | [hubspot-import RP-2](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. |
+| 1182 | [calendar-import RP-1](projects/ema-sa/_contracts/calendar-import.REVIEW.md) | Raised for your decision. |
 | 1182 | [hubspot-import RP-1](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. |
 | 1182 | [slack-import RP-2](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
-| 1182 | [slack-import RP-1](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
-| 1182 | [calendar-import RP-1](projects/ema-sa/_contracts/calendar-import.REVIEW.md) | Raised for your decision. |
-| 1182 | [hubspot-import RP-2](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. |
 
 **Elsewhere**
 
@@ -46,15 +46,15 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁▄▁▄▁▁▁▄▁▁▁▄▃▁▁▆▄▁▁▁▄▁▁
+█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁▄▁▄▁▁▁▄▁▁▁▄▃▁▁▆▄▁▁▁▄▁▁▆
 █ latest move · 10:23
-▁–█ tick-report activity · 44 reports · 1 d 3 h   (frames #1156 → #1199)
+▁–█ tick-report activity · 45 reports · 1 d 3 h   (frames #1156 → #1200)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **44** |
+| Tick reports since latest move | **45** |
 | Time since latest move | 1 d 3 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
@@ -106,7 +106,7 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ✕ Open review points — 29
+## ✕ Open review points — 30
 
 | Contract | Point | Status |
 |---|---|---|
@@ -130,6 +130,7 @@ Nothing is waiting on you. The company may still have work to do.
 | [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-6: `fathom.api` capability not yet registered | open |
 | [granola-import](projects/ema-sa/_contracts/granola-import.REVIEW.md) | RP-4: `granola.mcp` capability not yet registered | open |
 | [granola-import](projects/ema-sa/_contracts/granola-import.REVIEW.md) | RP-5: Shadow compare against ema-mcp gold | open |
+| [llm-interaction-import](Operations/_contracts/llm-interaction-import.REVIEW.md) | RP-1: Catch-up volume vs max_per_run | open |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-4: Implement inductive analysis as contracted | open — direction decided 2026-09-04 (option C); found already satisfied in the trial module, awaiting verification by supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-1: Require a no-op for unchanged inputs | open — awaiting supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-2: Validate source provenance before mutation | open — operator remedied 2026-08-25, awaiting supervised trial |
@@ -142,7 +143,7 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 101 active · 676 done
+## ▦ Functions — 102 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
@@ -173,7 +174,7 @@ Nothing is waiting on you. The company may still have work to do.
 | ✅ | [push-to-talk](projects/push-to-talk/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [right-store](projects/right-store/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [sole-trader-saas](projects/sole-trader-saas/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
-| ⏸️ | [store-dash](projects/store-dash/README.md) | 29 | 184 | `█▁▁▁▁▁▁▁▁▁` |
+| ⏸️ | [store-dash](projects/store-dash/README.md) | 30 | 184 | `█▁▁▁▁▁▁▁▁▁` |
 
 ---
 
@@ -190,4 +191,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1199 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1200 · immediate mode, no client state</sub>
