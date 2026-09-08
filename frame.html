@@ -20,39 +20,42 @@
   --btn-h: 56px;
   --app: 56px;
   --receipt: 36px;
+  --crumb: 32px;
   --fd: "Chakra Petch", system-ui, sans-serif;
   --fb: "IBM Plex Sans", system-ui, sans-serif;
   --fm: "IBM Plex Mono", ui-monospace, monospace;
+  --dock-h: 52px;
 }
 * { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; height: 100%; }
 body {
   margin: 0; background: var(--ground); color: var(--ink);
   font-family: var(--fb); font-size: 17px; line-height: 1.5;
   -webkit-font-smoothing: none; font-smooth: never;
-  touch-action: manipulation;
+  touch-action: manipulation; min-height: 100%; overflow-y: auto;
 }
 .shell {
   max-width: 420px; margin: 0 auto; min-height: 100dvh;
   display: flex; flex-direction: column;
   padding: max(10px, env(safe-area-inset-top)) max(14px, env(safe-area-inset-right))
-    max(16px, env(safe-area-inset-bottom)) max(14px, env(safe-area-inset-left));
+    calc(var(--dock-h) + max(100px, env(safe-area-inset-bottom))) max(14px, env(safe-area-inset-left));
   gap: 12px;
 }
-.land { display: flex; flex-direction: column; gap: 12px; }
+.land { display: flex; flex-direction: column; gap: 10px; flex-shrink: 0; }
 .apps-bar { display: flex; flex-direction: column; gap: 10px; }
 .apps-title {
   margin: 0; font-family: var(--fd); font-size: 11px; font-weight: 700;
   letter-spacing: .16em; text-transform: uppercase; color: var(--dim); text-align: center;
 }
 .apps {
-  display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px;
+  max-width: 320px; margin: 0 auto; width: 100%;
 }
 .app {
-  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  display: flex; flex-direction: column; align-items: center; gap: 5px;
   color: var(--ink); text-decoration: none; cursor: pointer;
   -webkit-tap-highlight-color: transparent; border: none; background: none; padding: 0;
-  font: inherit; min-width: 72px;
+  font: inherit; min-width: 0;
 }
 .app-icon {
   width: var(--app); height: var(--app); border-radius: 50%;
@@ -62,27 +65,28 @@ body {
 }
 .app.active .app-icon { background: var(--ink); color: var(--ground); }
 .app.locked .app-icon::after { content: "·"; font-weight: 400; margin-left: 1px; }
+.app-icon.slot { border-style: dashed; opacity: .35; }
+.app-icon.add { border-style: dashed; font-size: 22px; font-weight: 400; line-height: 1; }
+.app-add { opacity: .5; cursor: default; }
 .app-label {
-  font-family: var(--fd); font-size: 10px; font-weight: 700;
-  letter-spacing: .1em; text-transform: uppercase;
+  font-family: var(--fd); font-size: 9px; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase;
 }
-.share-land {
-  display: flex; flex-direction: column; align-items: center; gap: 8px;
-  padding: 12px 0 4px; border-top: 2px dashed var(--edge);
+.crumb-trail {
+  display: flex; align-items: center; gap: 6px;
+  overflow-x: auto; -webkit-overflow-scrolling: touch;
+  padding: 2px 0; min-height: var(--crumb);
 }
-.share-land[hidden] { display: none; }
-.share-land .meta {
-  margin: 0; font-family: var(--fd); font-size: 10px; font-weight: 700;
-  letter-spacing: .14em; text-transform: uppercase; color: var(--dim);
+.crumb-trail:empty { display: none; }
+.crumb {
+  flex: 0 0 auto; width: var(--crumb); height: var(--crumb); border-radius: 50%;
+  border: 2px solid var(--edge); background: var(--ground);
+  font-family: var(--fd); font-size: 9px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  text-decoration: none; color: var(--ink); -webkit-tap-highlight-color: transparent;
 }
-.share-land img {
-  width: 168px; height: 168px;
-  image-rendering: pixelated; image-rendering: crisp-edges; background: #fff;
-}
-.share-land a.url {
-  font-family: var(--fm); font-size: 12px; color: var(--muted); text-decoration: none;
-  letter-spacing: .02em;
-}
+.crumb.on { background: var(--ink); color: var(--ground); }
+.crumb-sep { flex: 0 0 auto; font-size: 10px; color: var(--dim); user-select: none; }
 .shortcut-space { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
 .shortcut-space.empty { display: none; }
 .shortcuts { display: flex; flex-wrap: wrap; gap: 10px; }
@@ -116,7 +120,7 @@ body {
 .atom.net { font-size: 12px; letter-spacing: .08em; }
 .panel {
   border: 2px solid var(--edge); background: var(--panel);
-  padding: 14px; flex: 1; display: flex; flex-direction: column; gap: 12px;
+  padding: 14px; display: flex; flex-direction: column; gap: 12px;
   width: 100%; min-width: 0;
 }
 .view-body { display: none; flex-direction: column; gap: 12px; }
@@ -133,10 +137,10 @@ body {
 .meta { font-size: 13px; color: var(--muted); font-family: var(--fm); }
 .compose {
   display: flex; flex-direction: column; gap: 10px;
-  margin-top: auto; padding-top: 4px; border-top: 2px solid var(--edge);
+  padding-top: 4px; border-top: 2px solid var(--edge);
 }
 .input {
-  width: 100%; min-height: 96px; padding: 12px;
+  width: 100%; min-height: 88px; padding: 12px;
   border: 2px solid var(--edge); background: var(--ground); color: var(--ink);
   font: inherit; resize: vertical; border-radius: 0;
   -webkit-appearance: none; appearance: none;
@@ -173,35 +177,46 @@ body {
 }
 .spin-face.wait { font-size: 15px; font-weight: 600; color: var(--muted); }
 .fine { font-size: 13px; color: var(--dim); text-align: center; margin: 0; }
+.dock {
+  position: fixed; z-index: 6; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  padding: 0 max(10px, env(safe-area-inset-right)) max(6px, env(safe-area-inset-bottom))
+    max(10px, env(safe-area-inset-start));
+}
+.dock-inner {
+  max-width: 420px; margin: 0 auto;
+  display: flex; align-items: flex-end; justify-content: space-between; gap: 10px;
+}
 .receipt-tray {
-  position: fixed; z-index: 5;
-  bottom: max(10px, env(safe-area-inset-bottom));
-  inset-inline-start: max(10px, env(safe-area-inset-start));
-  display: flex; flex-direction: column-reverse; align-items: flex-start; gap: 6px;
-  max-height: min(36vh, 200px); overflow-y: auto; pointer-events: none;
+  display: flex; flex-direction: row; align-items: flex-end; gap: 6px;
+  max-width: calc(100% - 120px); overflow-x: auto; -webkit-overflow-scrolling: touch;
+  pointer-events: auto; padding: 4px 0;
 }
 .receipt-tray.empty { display: none; }
 .atom.receipt {
+  flex: 0 0 auto;
   width: var(--receipt); height: var(--receipt); font-size: 9px;
-  background: var(--panel); pointer-events: auto; border-style: dashed;
+  background: var(--panel); border-style: dashed;
 }
 @media (prefers-reduced-motion: no-preference) {
   .atom.receipt.drop { animation: receipt-drop .3s ease-out; }
 }
 @keyframes receipt-drop {
-  from { transform: translateY(-12px); opacity: 0; }
+  from { transform: translateY(8px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
 }
-footer {
-  font-family: var(--fm); font-size: 11px; color: var(--dim); text-align: center;
-  padding-bottom: env(safe-area-inset-bottom);
+footer.dock-foot {
+  flex: 0 0 auto; pointer-events: auto;
+  font-family: var(--fm); font-size: 11px; color: var(--dim); text-align: end;
+  background: var(--ground); border: 2px solid var(--edge); padding: 6px 10px;
+  white-space: nowrap;
 }
-footer .anon {
-  font-size: 16px; background: none; border: none; padding: 6px 10px; margin: 0;
-  cursor: pointer; font-family: inherit; line-height: 1;
+footer.dock-foot .anon {
+  font-size: 16px; background: none; border: none; padding: 2px 4px; margin: 0;
+  cursor: pointer; font-family: inherit; line-height: 1; vertical-align: middle;
   -webkit-tap-highlight-color: transparent;
 }
-footer .anon:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+footer.dock-foot .anon:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 a { color: inherit; }
 .panel a { text-decoration: underline; text-underline-offset: 2px; }
 </style>
@@ -220,16 +235,18 @@ a { color: inherit; }
           <span class="app-icon">5et</span>
           <span class="app-label">5et</span>
         </a>
+        <span class="app app-slot" aria-hidden="true">
+          <span class="app-icon slot"></span>
+          <span class="app-label">—</span>
+        </span>
+        <button type="button" class="app app-add" disabled aria-label="Add app (soon)">
+          <span class="app-icon add">+</span>
+          <span class="app-label">Add</span>
+        </button>
       </nav>
     </section>
 
-    <section class="share-land" id="share-land" aria-label="Share frame">
-      <p class="meta">Share</p>
-      <a href="https://5et.uk/frame" aria-label="Open 5et frame">
-        <img src="frame.svg" width="168" height="168" alt="QR code — 5et frame">
-      </a>
-      <a class="url" href="https://5et.uk/frame">5et.uk/frame</a>
-    </section>
+    <nav class="crumb-trail" id="crumb-trail" aria-label="Trail"></nav>
 
     <div class="shortcut-space" id="shortcut-space">
       <a class="atom pin-net net" id="pin-net" href="#network" hidden aria-label="Back to apps" title="Back to apps">net</a>
@@ -259,7 +276,7 @@ a { color: inherit; }
       </div>
 
       <div class="compose">
-        <textarea class="input" id="input-main" placeholder="Drop a seed…" aria-label="Message" enterkeyhint="send"></textarea>
+        <textarea class="input" id="input-main" placeholder="" aria-label="Message" enterkeyhint="send"></textarea>
         <button type="button" class="enter" id="enter-main" aria-label="Enter">
           <span aria-hidden="true">↵</span> Enter
         </button>
@@ -269,20 +286,26 @@ a { color: inherit; }
       <button type="button" class="enter register-save" id="register-save" hidden>Register to save receipts</button>
     </div>
   </div>
+</div>
 
-  <footer>
-    <button type="button" class="anon" id="clear-history" title="Clear receipts" aria-label="Clear receipts">🕶️</button>
-    · no cookie · <span id="coord">apps</span>
-  </footer>
-
-  <aside class="receipt-tray empty" id="receipt-tray" aria-label="Receipts"></aside>
+<div class="dock" aria-label="History dock">
+  <div class="dock-inner">
+    <aside class="receipt-tray empty" id="receipt-tray" aria-label="Receipts"></aside>
+    <footer class="dock-foot">
+      <button type="button" class="anon" id="clear-history" title="Clear history" aria-label="Clear history">🕶️</button>
+      · <span id="coord">apps</span>
+    </footer>
+  </div>
 </div>
 <script>
 (function () {
   const STORAGE_VISITED = "5et-visited-landmarks";
+  const STORAGE_TRAIL = "5et-nav-trail";
   const STORAGE_DRAFT = "5et-frame-draft";
   const STORAGE_QUEUE = "5et-threshold-queue";
   const NETWORK_INBOX = "_network/_integrations/inbox/";
+
+  const CRUMB_LABEL = { network: "net", acme: "Ac", "5et": "5et" };
 
   const views = {
     network: document.getElementById("view-network"),
@@ -297,7 +320,7 @@ a { color: inherit; }
   const inputMain = document.getElementById("input-main");
   const shortcutRow = document.getElementById("shortcut-atoms");
   const shortcutSpace = document.getElementById("shortcut-space");
-  const shareLand = document.getElementById("share-land");
+  const crumbTrail = document.getElementById("crumb-trail");
   const spinFace = document.getElementById("spin-face");
   const pinNet = document.getElementById("pin-net");
   const receiptTray = document.getElementById("receipt-tray");
@@ -312,11 +335,43 @@ a { color: inherit; }
 
   const landmarks = { acme: { label: "Acme", hash: "acme" } };
 
-  const PLACEHOLDER = {
-    network: "Drop a seed…",
-    acme: "Note for Acme…",
-    "5et": "Read only",
-  };
+  function loadTrail() {
+    try { return JSON.parse(sessionStorage.getItem(STORAGE_TRAIL) || "[]"); }
+    catch (e) { return []; }
+  }
+
+  function saveTrail(trail) {
+    try { sessionStorage.setItem(STORAGE_TRAIL, JSON.stringify(trail)); }
+    catch (e) { /* private mode */ }
+  }
+
+  function pushTrail(id) {
+    const trail = loadTrail();
+    if (trail.length && trail[trail.length - 1].id === id) return;
+    trail.push({ id, label: CRUMB_LABEL[id] || id, at: new Date().toISOString() });
+    saveTrail(trail);
+    renderTrail(id);
+  }
+
+  function renderTrail(currentId) {
+    const trail = loadTrail();
+    crumbTrail.innerHTML = "";
+    trail.forEach((step, i) => {
+      if (i > 0) {
+        const sep = document.createElement("span");
+        sep.className = "crumb-sep";
+        sep.textContent = "›";
+        sep.setAttribute("aria-hidden", "true");
+        crumbTrail.appendChild(sep);
+      }
+      const el = document.createElement("a");
+      el.className = "crumb" + (step.id === currentId ? " on" : "");
+      el.href = "#" + (step.id === "network" ? "network" : step.id);
+      el.textContent = step.label;
+      el.title = step.at;
+      crumbTrail.appendChild(el);
+    });
+  }
 
   function loadShortcuts() {
     try { return JSON.parse(localStorage.getItem("5et-shortcuts") || "[]"); }
@@ -379,11 +434,10 @@ a { color: inherit; }
     document.getElementById("coord").textContent = name === "network" ? "apps" : name;
     const onNetwork = name === "network";
     pinNet.hidden = onNetwork;
-    shareLand.hidden = !onNetwork;
     enterBtn.disabled = name === "5et";
-    inputMain.placeholder = PLACEHOLDER[name] || PLACEHOLDER.network;
     inputMain.readOnly = name === "5et";
     syncShortcutSpace();
+    pushTrail(name);
     if (name === "acme") visitLandmark("acme");
     if (name === "network") renderShortcuts();
   }
@@ -454,7 +508,6 @@ a { color: inherit; }
     status.textContent = text;
     status.classList.toggle("err", !!isError);
     status.classList.add("show");
-    status.scrollIntoView({ block: "nearest", behavior: "smooth" });
     if (!isError) statusTimer = setTimeout(clearStatus, 2800);
   }
 
@@ -562,6 +615,7 @@ a { color: inherit; }
 
   function clearLocalHistory() {
     try { sessionStorage.removeItem(STORAGE_VISITED); } catch (e) { /* ignore */ }
+    try { sessionStorage.removeItem(STORAGE_TRAIL); } catch (e) { /* ignore */ }
     try { sessionStorage.removeItem(STORAGE_DRAFT); } catch (e) { /* ignore */ }
     try { localStorage.removeItem(STORAGE_QUEUE); } catch (e) { /* ignore */ }
     inputMain.value = "";
@@ -570,6 +624,7 @@ a { color: inherit; }
       spinFace.classList.add("wait");
     }
     clearStatus();
+    crumbTrail.innerHTML = "";
     renderShortcuts();
     renderReceiptTray();
     if (normalizeHash() !== "network") location.hash = "#network";
@@ -581,6 +636,8 @@ a { color: inherit; }
 
   renderShortcuts();
   renderReceiptTray();
+  const start = normalizeHash();
+  renderTrail(start);
   window.addEventListener("hashchange", route);
   if (!location.hash || location.hash === "#home") history.replaceState(null, "", "#network");
   route();
