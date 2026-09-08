@@ -225,6 +225,42 @@ body.scope-confidential .enclave-cta { border-color: var(--ink); color: var(--in
 .store-name { font-family: var(--fd); font-size: 17px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .store-note { font-family: var(--fm); font-size: 14px; font-weight: 600; color: var(--muted); }
 .store-tile:not(.locked) .store-note { color: var(--dim); }
+.store-share {
+  width: 100%; margin-top: 4px; padding: 14px 16px;
+  border: 2px solid var(--ink); background: var(--ground); color: var(--ink);
+  font-family: var(--fd); font-size: 16px; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase; cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.share-modal {
+  position: fixed; inset: 0; z-index: 25; display: flex;
+  align-items: center; justify-content: center; padding: 16px;
+  pointer-events: none;
+}
+.share-modal.open { pointer-events: auto; }
+.share-modal[hidden] { display: none; }
+.share-backdrop {
+  position: absolute; inset: 0; border: none; padding: 0; margin: 0;
+  background: rgba(255, 255, 255, .78); cursor: pointer;
+}
+.share-sheet {
+  position: relative; z-index: 1; width: 100%; max-width: 360px;
+  border: 2px solid var(--ink); background: var(--ground);
+  padding: 18px 16px; display: flex; flex-direction: column; gap: 12px;
+  align-items: center; text-align: center;
+}
+.share-lead {
+  margin: 0; font-family: var(--fb); font-size: 16px; line-height: 1.4;
+  font-weight: 600; color: var(--muted); width: 100%; text-align: left;
+}
+.share-qr {
+  display: block; width: min(280px, 72vw); height: auto;
+  border: 2px solid var(--edge); background: #fff;
+}
+.share-url {
+  margin: 0; font-family: var(--fm); font-size: 13px; line-height: 1.4;
+  word-break: break-all; color: var(--ink); width: 100%;
+}
 .land-note {
   padding: 10px 12px; border: 2px dashed var(--edge);
   font-family: var(--fm); font-size: 13px; color: var(--muted); text-align: center;
@@ -521,6 +557,7 @@ a { color: inherit; }
           </div>
           
         </div>
+        <button type="button" class="store-share" id="store-share">Share · network QR</button>
       </div>
 
       <div id="view-acme" class="view-body" aria-hidden="true">
@@ -559,6 +596,18 @@ a { color: inherit; }
 
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
+<div class="share-modal" id="share-modal" hidden role="dialog" aria-modal="true"
+     aria-labelledby="share-title">
+  <button type="button" class="share-backdrop" id="share-backdrop" aria-label="Close share"></button>
+  <div class="share-sheet">
+    <p class="data-label" id="share-title">Network address</p>
+    <p class="share-lead">Permanent QR — same code on the wall, on paper, here. Content behind it can change.</p>
+    <img class="share-qr" src="frame.svg" width="328" height="328" alt="QR code for the 5et network frame">
+    <p class="share-url" id="share-url"></p>
+    <button type="button" class="receipt-dismiss" id="share-dismiss">Dismiss</button>
+  </div>
+</div>
+
 <!-- Anonymous welcome — welcome-experience contract §2.2 -->
 <div class="welcome" id="welcome" hidden>
   <div class="welcome-card">
@@ -592,7 +641,11 @@ a { color: inherit; }
   const STORAGE_DRAFT = "5et-frame-draft";
   const STORAGE_QUEUE = "5et-threshold-queue";
 
-  const FRAME_VER = "20260908.13";
+  const FRAME_VER = "20260908.15";
+  const NETWORK_FRAME_URL = (function () {
+    const base = location.pathname.replace(/[^/]+$/, "");
+    return location.origin + base + "frame.html";
+  })();
   const WHERE_LABEL = { network: "home", apps: "store", acme: "Ac" };
   
 
@@ -617,6 +670,9 @@ a { color: inherit; }
   const receiptSummary = document.getElementById("receipt-summary");
   const welcome = document.getElementById("welcome");
   const welcomeDismiss = document.getElementById("welcome-dismiss");
+  const shareModal = document.getElementById("share-modal");
+  const shareUrl = document.getElementById("share-url");
+  const storeShare = document.getElementById("store-share");
   const layerFive = document.getElementById("layer-five");
   const layerCaption = document.getElementById("layer-caption");
   const scopeBar = document.getElementById("scope-bar");
@@ -1287,7 +1343,7 @@ a { color: inherit; }
 
   removeEventBtn.addEventListener("click", () => {
     if (!selectedEventId) return;
-    if (!confirm("Remove this event from your session?\n\nIf this was the last one, the session ends.")) return;
+    if (!confirm("Remove this act record from your device?\n\nIf this was the last one, you withdraw acceptance — enter again before the next act.")) return;
     removeEvent(selectedEventId);
   });
   receiptBackdrop.addEventListener("click", closeReceipt);
@@ -1302,6 +1358,21 @@ a { color: inherit; }
     if (unitEvents(name).length) openUnitWallet(name);
   });
   welcomeDismiss.addEventListener("click", dismissWelcome);
+
+  function openShare() {
+    if (shareUrl) shareUrl.textContent = NETWORK_FRAME_URL;
+    shareModal.hidden = false;
+    shareModal.classList.add("open");
+  }
+
+  function closeShare() {
+    shareModal.classList.remove("open");
+    shareModal.hidden = true;
+  }
+
+  if (storeShare) storeShare.addEventListener("click", openShare);
+  document.getElementById("share-backdrop").addEventListener("click", closeShare);
+  document.getElementById("share-dismiss").addEventListener("click", closeShare);
 
   function openRegister() {
     location.hash = "#network";
@@ -1412,7 +1483,7 @@ a { color: inherit; }
   });
 
   function clearLocalHistory() {
-    if (!confirm("End this session?\n\nAll events on this device will be removed. Enter again to start.")) {
+    if (!confirm("Withdraw act-record acceptance?\n\nAll receipts on this device will be removed. Enter again before the next act.")) {
       return;
     }
     try { sessionStorage.removeItem(STORAGE_OS); } catch (e) { /* ignore */ }
@@ -1480,9 +1551,9 @@ a { color: inherit; }
   });
 
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && document.body.classList.contains("receipt-open")) {
-      closeReceipt();
-    }
+    if (event.key !== "Escape") return;
+    if (document.body.classList.contains("receipt-open")) closeReceipt();
+    else if (shareModal && !shareModal.hidden) closeShare();
   });
 
   const appsHeading = document.getElementById("apps-heading");
@@ -1504,6 +1575,6 @@ a { color: inherit; }
   route();
 })();
 </script>
-<!-- 🤖 Last AI edit: 2026-09-08 19:25 · grok-4.6 · public frame shell source -->
+<!-- 🤖 Last AI edit: 2026-09-08 20:35 · grok-4.6 · app store share QR -->
 </body>
 </html>
