@@ -4,25 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1197` · 2026-09-08 12:58 UTC
+`FRAME #1198` · 2026-09-08 13:15 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1197** · 42 ticks · 1 d 2 h · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1198** · 43 ticks · 1 d 2 h · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1188 | [deal-routing RP-1](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1188 | [deal-routing RP-2](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| 1182 | [calendar-import RP-1](projects/ema-sa/_contracts/calendar-import.REVIEW.md) | Raised for your decision. |
-| 1182 | [slack-import RP-2](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
-| 1182 | [slack-import RP-1](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
+| 1188 | [deal-routing RP-1](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1182 | [hubspot-import RP-2](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. |
+| 1182 | [slack-import RP-2](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
+| 1182 | [calendar-import RP-1](projects/ema-sa/_contracts/calendar-import.REVIEW.md) | Raised for your decision. |
 | 1182 | [hubspot-import RP-1](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. |
+| 1182 | [slack-import RP-1](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
 
 **Elsewhere**
 
@@ -31,7 +31,7 @@
 | 1168 | [Operations](Operations/dashboard.md) | Load 41 → 42 active. |
 | 1168 | [St. James AI Networking Event Attendance](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md) | Created. |
 
-Beneath it: 0 progressed, 1 created, 209 inspected without change.
+Beneath it: 0 progressed, 1 created, 228 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -46,15 +46,15 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁▄▁▄▁▁▁▄▁▁▁▄▃▁▁▆▄▁▁▁▄
+█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁▄▁▄▁▁▁▄▁▁▁▄▃▁▁▆▄▁▁▁▄▁
 █ latest move · 10:23
-▁–█ tick-report activity · 42 reports · 1 d 2 h   (frames #1156 → #1197)
+▁–█ tick-report activity · 43 reports · 1 d 2 h   (frames #1156 → #1198)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **42** |
+| Tick reports since latest move | **43** |
 | Time since latest move | 1 d 2 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
@@ -190,4 +190,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1197 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1198 · immediate mode, no client state</sub>
