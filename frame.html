@@ -259,7 +259,7 @@ a { color: inherit; text-decoration: underline; }
   </div>
 
   <footer>
-    <button type="button" class="anon" id="clear-history" title="Clear receipts and local history" aria-label="Clear receipts and local history">🕶️</button>
+    <button type="button" class="anon" id="clear-history" title="Clear receipts" aria-label="Clear receipts">🕶️</button>
     · no cookie · <span id="coord">network</span>
   </footer>
 
@@ -435,17 +435,36 @@ a { color: inherit; text-decoration: underline; }
     }
     renderReceiptTray(q.length - 1);
     if (!quiet) {
-      status.classList.remove("show", "err");
+      clearStatus();
     }
     return entry;
   }
 
+  function clearStatus() {
+    if (statusTimer) {
+      clearTimeout(statusTimer);
+      statusTimer = null;
+    }
+    registerSave.hidden = true;
+    status.classList.remove("show", "err");
+    status.textContent = "";
+  }
+
+  let statusTimer = null;
+
   function flashStatus(text, isError) {
+    if (statusTimer) {
+      clearTimeout(statusTimer);
+      statusTimer = null;
+    }
     registerSave.hidden = true;
     status.textContent = text;
     status.classList.toggle("err", !!isError);
     status.classList.add("show");
     status.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    if (!isError) {
+      statusTimer = setTimeout(clearStatus, 2800);
+    }
   }
 
   function showReceipt(entry) {
@@ -525,10 +544,12 @@ a { color: inherit; text-decoration: underline; }
   }
 
   inputMain.addEventListener("input", () => {
+    clearStatus();
     saveDraft();
     inputInbox.value = inputMain.value;
   });
   inputInbox.addEventListener("input", () => {
+    clearStatus();
     inputMain.value = inputInbox.value;
     saveDraft();
   });
@@ -555,9 +576,6 @@ a { color: inherit; text-decoration: underline; }
   });
 
   function clearLocalHistory() {
-    if (!confirm("Clear receipts and local history on this device?\n\nDrafts, visited apps, and receipt tray will be removed.")) {
-      return;
-    }
     try { sessionStorage.removeItem(STORAGE_VISITED); } catch (e) { /* ignore */ }
     try { sessionStorage.removeItem(STORAGE_DRAFT); } catch (e) { /* ignore */ }
     try { localStorage.removeItem(STORAGE_QUEUE); } catch (e) { /* ignore */ }
@@ -567,8 +585,7 @@ a { color: inherit; text-decoration: underline; }
       spinFace.textContent = "Tap spin to play";
       spinFace.classList.add("wait");
     }
-    registerSave.hidden = true;
-    status.classList.remove("show", "err");
+    clearStatus();
     renderShortcuts();
     renderReceiptTray();
     if (normalizeHash() !== "network") {
@@ -576,7 +593,6 @@ a { color: inherit; text-decoration: underline; }
     } else {
       route();
     }
-    flashStatus("Local history cleared on this device.", false);
   }
 
   document.getElementById("clear-history").addEventListener("click", clearLocalHistory);
