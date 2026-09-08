@@ -6,6 +6,9 @@
 <meta name="color-scheme" content="light">
 <meta name="theme-color" content="#ffffff">
 <title>5et — network</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;600&display=swap">
 <style>
 :root {
   --ink: #000;
@@ -14,177 +17,193 @@
   --edge: #000;
   --panel: #fff;
   --ground: #fff;
-  --btn-h: 52px;
-  --app: 52px;
+  --btn-h: 56px;
+  --app: 56px;
   --receipt: 36px;
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --fd: "Chakra Petch", system-ui, sans-serif;
+  --fb: "IBM Plex Sans", system-ui, sans-serif;
+  --fm: "IBM Plex Mono", ui-monospace, monospace;
 }
 * { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0; background: var(--ground); color: var(--ink);
-  font-size: 18px; line-height: 1.45;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: none;
-  font-smooth: never;
+  font-family: var(--fb); font-size: 17px; line-height: 1.5;
+  -webkit-font-smoothing: none; font-smooth: never;
+  touch-action: manipulation;
 }
-.shell { max-width: 480px; margin: 0 auto; min-height: 100dvh;
-  display: flex; flex-direction: column; padding: 12px 14px 24px; gap: 14px; }
-.land { display: flex; flex-direction: column; gap: 10px; }
-.shortcut-space {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+.shell {
+  max-width: 420px; margin: 0 auto; min-height: 100dvh;
+  display: flex; flex-direction: column;
+  padding: max(10px, env(safe-area-inset-top)) max(14px, env(safe-area-inset-right))
+    max(16px, env(safe-area-inset-bottom)) max(14px, env(safe-area-inset-left));
+  gap: 12px;
 }
-.shortcut-space.empty { display: none; }
-.stage { flex: 1; display: flex; min-height: 0; }
-.pin-net {
-  position: relative;
-  flex: 0 0 auto;
-  width: var(--app); height: var(--app);
-  background: var(--ground);
-}
-.pin-net::before {
-  content: ""; position: absolute; inset: -7px;
-  border: 1px dashed var(--edge); border-radius: 50%; opacity: .55;
-  pointer-events: none;
-}
-.pin-net::after {
-  content: ""; position: absolute; inset: -14px;
-  border: 1px dotted var(--edge); border-radius: 50%; opacity: .3;
-  pointer-events: none;
-}
-.pin-net[hidden] { display: none; }
-.apps-bar { display: flex; flex-direction: column; gap: 8px; }
+.land { display: flex; flex-direction: column; gap: 12px; }
+.apps-bar { display: flex; flex-direction: column; gap: 10px; }
 .apps-title {
-  margin: 0; font-size: 11px; font-weight: 700; letter-spacing: .14em;
-  text-transform: uppercase; color: var(--muted); text-align: center;
+  margin: 0; font-family: var(--fd); font-size: 11px; font-weight: 700;
+  letter-spacing: .16em; text-transform: uppercase; color: var(--dim); text-align: center;
 }
-.apps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; justify-items: center; }
+.apps {
+  display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;
+}
 .app {
-  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
   color: var(--ink); text-decoration: none; cursor: pointer;
   -webkit-tap-highlight-color: transparent; border: none; background: none; padding: 0;
-  font: inherit; width: 100%;
+  font: inherit; min-width: 72px;
 }
 .app-icon {
   width: var(--app); height: var(--app); border-radius: 50%;
   border: 2px solid var(--edge); background: var(--panel);
   display: flex; align-items: center; justify-content: center;
-  font-size: 14px; font-weight: 800; letter-spacing: .02em;
+  font-family: var(--fd); font-size: 14px; font-weight: 700; letter-spacing: .04em;
 }
 .app.active .app-icon { background: var(--ink); color: var(--ground); }
 .app.locked .app-icon::after { content: "·"; font-weight: 400; margin-left: 1px; }
-.app-label { font-size: 10px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
-.panel {
-  border: 2px solid var(--edge); background: var(--panel);
-  padding: 16px; flex: 1; display: flex; flex-direction: column; gap: 14px;
-  width: 100%; min-width: 0;
+.app-label {
+  font-family: var(--fd); font-size: 10px; font-weight: 700;
+  letter-spacing: .1em; text-transform: uppercase;
 }
-.panel h1 { margin: 0; font-size: 20px; letter-spacing: .06em; text-transform: uppercase; }
-.panel p { margin: 0; color: var(--muted); font-size: 16px; }
-.meta { font-size: 13px; color: var(--muted); font-family: ui-monospace, monospace; }
-.input {
-  width: 100%; min-height: 88px; padding: 12px;
-  border: 2px solid var(--edge); background: var(--ground); color: var(--ink);
-  font: inherit; resize: vertical;
+.share-land {
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+  padding: 12px 0 4px; border-top: 2px dashed var(--edge);
 }
-.compose { display: flex; flex-direction: column; gap: 10px; }
-.shortcuts { display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-start; min-height: 0; }
+.share-land[hidden] { display: none; }
+.share-land .meta {
+  margin: 0; font-family: var(--fd); font-size: 10px; font-weight: 700;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--dim);
+}
+.share-land img {
+  width: 168px; height: 168px;
+  image-rendering: pixelated; image-rendering: crisp-edges; background: #fff;
+}
+.share-land a.url {
+  font-family: var(--fm); font-size: 12px; color: var(--muted); text-decoration: none;
+  letter-spacing: .02em;
+}
+.shortcut-space { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.shortcut-space.empty { display: none; }
+.shortcuts { display: flex; flex-wrap: wrap; gap: 10px; }
 .shortcuts:empty { display: none; }
+.stage { flex: 1; display: flex; flex-direction: column; gap: 6px; min-height: 0; }
+.frame-label {
+  margin: 0; font-family: var(--fd); font-size: 10px; font-weight: 700;
+  letter-spacing: .16em; text-transform: uppercase; color: var(--dim); text-align: center;
+}
+.pin-net {
+  position: relative; flex: 0 0 auto;
+  width: var(--app); height: var(--app); background: var(--ground);
+}
+.pin-net::before {
+  content: ""; position: absolute; inset: -7px;
+  border: 1px dashed var(--edge); border-radius: 50%; opacity: .55; pointer-events: none;
+}
+.pin-net::after {
+  content: ""; position: absolute; inset: -14px;
+  border: 1px dotted var(--edge); border-radius: 50%; opacity: .3; pointer-events: none;
+}
+.pin-net[hidden] { display: none; }
 .atom {
   width: var(--app); height: var(--app); border-radius: 50%;
   border: 2px solid var(--edge); background: var(--ground);
-  font-size: 11px; font-weight: 700; text-align: center;
+  font-family: var(--fd); font-size: 11px; font-weight: 700; text-align: center;
   display: flex; align-items: center; justify-content: center;
   padding: 4px; line-height: 1.1; cursor: pointer;
   -webkit-tap-highlight-color: transparent; text-decoration: none; color: var(--ink);
 }
-.atom.net { font-size: 12px; letter-spacing: .06em; font-weight: 800; }
-.atom.off { opacity: .35; pointer-events: none; }
-.atom.sel { outline: 3px solid var(--ink); outline-offset: 2px; }
-.receipt-tray {
-  position: fixed;
-  z-index: 5;
-  bottom: max(10px, env(safe-area-inset-bottom));
-  inset-inline-start: max(10px, env(safe-area-inset-start));
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: flex-start;
-  gap: 6px;
-  max-height: min(40vh, 220px);
-  overflow-y: auto;
-  pointer-events: none;
+.atom.net { font-size: 12px; letter-spacing: .08em; }
+.panel {
+  border: 2px solid var(--edge); background: var(--panel);
+  padding: 14px; flex: 1; display: flex; flex-direction: column; gap: 12px;
+  width: 100%; min-width: 0;
 }
-.receipt-tray.empty { display: none; }
-.atom.receipt {
-  width: var(--receipt); height: var(--receipt);
-  font-size: 9px; letter-spacing: -.02em;
-  background: var(--panel);
-  pointer-events: auto;
-  border-style: dashed;
+.view-body { display: none; flex-direction: column; gap: 12px; }
+.view-body.on { display: flex; }
+.view-body h1 {
+  margin: 0; font-family: var(--fd); font-size: 18px; font-weight: 700;
+  letter-spacing: .1em; text-transform: uppercase;
 }
-.atom.receipt.drop {
-  animation: receipt-drop .35s ease-out;
+.view-body p { margin: 0; color: var(--muted); font-size: 16px; }
+.land-note {
+  padding: 10px 12px; border: 2px dashed var(--edge);
+  font-family: var(--fm); font-size: 13px; color: var(--muted); text-align: center;
 }
-@keyframes receipt-drop {
-  from { transform: translateY(-18px) scale(.6); opacity: 0; }
-  to { transform: translateY(0) scale(1); opacity: 1; }
+.meta { font-size: 13px; color: var(--muted); font-family: var(--fm); }
+.compose {
+  display: flex; flex-direction: column; gap: 10px;
+  margin-top: auto; padding-top: 4px; border-top: 2px solid var(--edge);
 }
-.spin-hero {
-  width: 120px; height: 120px; font-size: 16px; margin: 8px auto;
-  border-width: 3px;
+.input {
+  width: 100%; min-height: 96px; padding: 12px;
+  border: 2px solid var(--edge); background: var(--ground); color: var(--ink);
+  font: inherit; resize: vertical; border-radius: 0;
+  -webkit-appearance: none; appearance: none;
 }
-.spin-face {
-  min-height: 72px; border: 2px solid var(--edge); padding: 16px;
-  text-align: center; font-size: 28px; font-weight: 800; line-height: 1.2;
-  display: flex; align-items: center; justify-content: center;
-}
-.spin-face.wait { font-size: 16px; font-weight: 600; color: var(--muted); }
-.fine { font-size: 14px; color: var(--muted); text-align: center; margin: 0; }
+.input::placeholder { color: var(--dim); opacity: 1; }
 .enter {
   width: 100%; min-height: var(--btn-h); border: 3px solid var(--edge);
   background: var(--ink); color: var(--ground);
-  font-size: 20px; font-weight: 800; letter-spacing: .08em;
-  cursor: pointer; font-family: inherit;
+  font-family: var(--fd); font-size: 18px; font-weight: 700; letter-spacing: .12em;
+  text-transform: uppercase; cursor: pointer;
   display: flex; align-items: center; justify-content: center; gap: 8px;
+  border-radius: 0; -webkit-tap-highlight-color: transparent;
 }
-.enter:disabled { opacity: .4; }
+.enter:disabled { opacity: .35; }
 .register-save {
   background: var(--panel); color: var(--ink); border-style: dashed;
-  font-size: 16px; min-height: 44px;
+  font-size: 14px; min-height: 48px; text-transform: uppercase;
+  letter-spacing: .08em; font-family: var(--fd); font-weight: 700;
 }
 .register-save[hidden] { display: none; }
 .status {
-  padding: 12px; border: 2px dashed var(--edge); font-size: 14px;
-  font-family: ui-monospace, monospace; white-space: pre-wrap; word-break: break-word;
-  display: none;
+  padding: 10px 12px; border: 2px dashed var(--edge); font-size: 13px;
+  font-family: var(--fm); white-space: pre-wrap; word-break: break-word; display: none;
 }
 .status.show { display: block; }
 .status.err { border-style: solid; }
-.actions { display: flex; flex-direction: column; gap: 8px; }
-.actions button {
-  min-height: 44px; border: 2px solid var(--edge); background: var(--panel);
-  font: inherit; font-weight: 600; cursor: pointer; color: var(--ink);
+.spin-hero {
+  width: 120px; height: 120px; font-size: 16px; margin: 4px auto; border-width: 3px;
 }
-.view { display: none; flex-direction: column; gap: 14px; }
-.view.on { display: flex; }
-.qr-block {
-  display: flex; flex-direction: column; align-items: center; gap: 10px;
-  padding-top: 8px; border-top: 2px dashed var(--edge);
+.spin-face {
+  min-height: 68px; border: 2px solid var(--edge); padding: 14px;
+  text-align: center; font-family: var(--fd); font-size: 26px; font-weight: 700;
+  line-height: 1.2; display: flex; align-items: center; justify-content: center;
 }
-.qr-block img {
-  width: 200px; height: 200px;
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
-  background: #fff;
+.spin-face.wait { font-size: 15px; font-weight: 600; color: var(--muted); }
+.fine { font-size: 13px; color: var(--dim); text-align: center; margin: 0; }
+.receipt-tray {
+  position: fixed; z-index: 5;
+  bottom: max(10px, env(safe-area-inset-bottom));
+  inset-inline-start: max(10px, env(safe-area-inset-start));
+  display: flex; flex-direction: column-reverse; align-items: flex-start; gap: 6px;
+  max-height: min(36vh, 200px); overflow-y: auto; pointer-events: none;
 }
-.qr-block a.url { color: var(--muted); font-size: 13px; text-decoration: none; }
-footer { font-size: 12px; color: var(--muted); text-align: center; }
+.receipt-tray.empty { display: none; }
+.atom.receipt {
+  width: var(--receipt); height: var(--receipt); font-size: 9px;
+  background: var(--panel); pointer-events: auto; border-style: dashed;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .atom.receipt.drop { animation: receipt-drop .3s ease-out; }
+}
+@keyframes receipt-drop {
+  from { transform: translateY(-12px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+footer {
+  font-family: var(--fm); font-size: 11px; color: var(--dim); text-align: center;
+  padding-bottom: env(safe-area-inset-bottom);
+}
 footer .anon {
-  font-size: 14px; background: none; border: none; padding: 4px 8px; margin: 0;
+  font-size: 16px; background: none; border: none; padding: 6px 10px; margin: 0;
   cursor: pointer; font-family: inherit; line-height: 1;
   -webkit-tap-highlight-color: transparent;
 }
 footer .anon:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
-a { color: inherit; text-decoration: underline; }
+a { color: inherit; }
+.panel a { text-decoration: underline; text-underline-offset: 2px; }
 </style>
 </head>
 <body>
@@ -193,19 +212,23 @@ a { color: inherit; text-decoration: underline; }
     <section class="apps-bar" aria-labelledby="apps-heading">
       <h2 class="apps-title" id="apps-heading">Apps</h2>
       <nav class="apps" aria-label="Network apps">
-      <a class="app" id="nav-acme" href="#acme" aria-label="Acme">
-        <span class="app-icon">Ac</span>
-        <span class="app-label">Acme</span>
-      </a>
-      <a class="app locked" id="nav-5et" href="#5et" aria-label="5et operator">
-        <span class="app-icon">5et</span>
-        <span class="app-label">5et</span>
-      </a>
-      <a class="app" id="nav-inbox" href="#inbox" aria-label="Network inbox">
-        <span class="app-icon">📬</span>
-        <span class="app-label">Inbox</span>
-      </a>
+        <a class="app" id="nav-acme" href="#acme" aria-label="Acme">
+          <span class="app-icon">Ac</span>
+          <span class="app-label">Acme</span>
+        </a>
+        <a class="app locked" id="nav-5et" href="#5et" aria-label="5et operator">
+          <span class="app-icon">5et</span>
+          <span class="app-label">5et</span>
+        </a>
       </nav>
+    </section>
+
+    <section class="share-land" id="share-land" aria-label="Share frame">
+      <p class="meta">Share</p>
+      <a href="https://5et.uk/frame" aria-label="Open 5et frame">
+        <img src="frame.svg" width="168" height="168" alt="QR code — 5et frame">
+      </a>
+      <a class="url" href="https://5et.uk/frame">5et.uk/frame</a>
     </section>
 
     <div class="shortcut-space" id="shortcut-space">
@@ -214,58 +237,42 @@ a { color: inherit; text-decoration: underline; }
     </div>
   </header>
 
-  <div class="stage" id="stage">
+  <div class="stage">
+    <p class="frame-label">Agent</p>
     <div class="panel" aria-label="Agent frame">
-    <div id="view-network" class="view on">
+      <div id="view-network" class="view-body on" aria-hidden="false"></div>
+
+      <div id="view-acme" class="view-body" aria-hidden="true">
+        <h1>Acme · 0,0</h1>
+        <p>Spin the wheel. Fake money. One demo spin.</p>
+        <button type="button" class="atom spin-hero" id="acme-spin" aria-label="Spin the wheel">spin</button>
+        <div class="spin-face wait" id="spin-face" aria-live="polite">Tap spin</div>
+        <p class="fine">Demo only — no real money, no account.</p>
+      </div>
+
+      <div id="view-5et" class="view-body" aria-hidden="true">
+        <h1>5et · operator</h1>
+        <p class="land-note">Read only — nothing sent to the operator.</p>
+        <p>Company frame — tick report, obligations, director view.</p>
+        <p><a href="app/director.html">Open company frame →</a></p>
+        <p class="meta">Authentication required on the next screen.</p>
+      </div>
+
       <div class="compose">
-        <textarea class="input" id="input-main" placeholder="" aria-label="Message" enterkeyhint="send"></textarea>
+        <textarea class="input" id="input-main" placeholder="Drop a seed…" aria-label="Message" enterkeyhint="send"></textarea>
         <button type="button" class="enter" id="enter-main" aria-label="Enter">
           <span aria-hidden="true">↵</span> Enter
         </button>
       </div>
-    </div>
 
-    <div id="view-acme" class="view">
-      <h1>Acme · 0,0</h1>
-      <p>What can you do here? <strong>Spin the wheel.</strong> Fake money. One demo spin.</p>
-      <button type="button" class="atom spin-hero" id="acme-spin" aria-label="Spin the wheel">spin</button>
-      <div class="spin-face wait" id="spin-face" aria-live="polite">Tap spin to play</div>
-      <p class="fine">Tap spin to play. Demo only — no real money, no account.</p>
-    </div>
-
-    <div id="view-inbox" class="view">
-      <h1>Inbox</h1>
-      <p>Network letterbox. Drop a message — the operator may read it on the next tick.</p>
-      <div class="compose">
-        <textarea class="input" id="input-inbox" placeholder="" aria-label="Message for inbox" enterkeyhint="send"></textarea>
-        <button type="button" class="enter" id="enter-inbox" aria-label="Enter">
-          <span aria-hidden="true">↵</span> Enter
-        </button>
-      </div>
-      <div class="qr-block">
-        <p class="meta">Share the frame</p>
-        <a href="https://5et.uk/frame" id="qr-link" aria-label="Open 5et frame">
-          <img src="frame.svg" width="200" height="200" alt="QR code — 5et frame">
-        </a>
-        <a class="url" href="https://5et.uk/frame">5et.uk/frame</a>
-      </div>
-    </div>
-
-    <div id="view-5et" class="view">
-      <h1>5et · operator</h1>
-      <p>Company frame — tick report, obligations, director view. Authentication required.</p>
-      <p><a href="app/director.html">Open company frame →</a></p>
-      <p class="meta">Not public. Sign in on the next screen.</p>
-    </div>
-
-    <div class="status" id="status" role="status" aria-live="polite"></div>
-    <button type="button" class="enter register-save" id="register-save" hidden>Register to save receipts</button>
+      <div class="status" id="status" role="status" aria-live="polite"></div>
+      <button type="button" class="enter register-save" id="register-save" hidden>Register to save receipts</button>
     </div>
   </div>
 
   <footer>
     <button type="button" class="anon" id="clear-history" title="Clear receipts" aria-label="Clear receipts">🕶️</button>
-    · no cookie · <span id="coord">network</span>
+    · no cookie · <span id="coord">apps</span>
   </footer>
 
   <aside class="receipt-tray empty" id="receipt-tray" aria-label="Receipts"></aside>
@@ -280,23 +287,22 @@ a { color: inherit; text-decoration: underline; }
   const views = {
     network: document.getElementById("view-network"),
     acme: document.getElementById("view-acme"),
-    inbox: document.getElementById("view-inbox"),
     "5et": document.getElementById("view-5et"),
   };
   const nav = {
     acme: document.getElementById("nav-acme"),
     "5et": document.getElementById("nav-5et"),
-    inbox: document.getElementById("nav-inbox"),
   };
   const status = document.getElementById("status");
   const inputMain = document.getElementById("input-main");
-  const inputInbox = document.getElementById("input-inbox");
   const shortcutRow = document.getElementById("shortcut-atoms");
   const shortcutSpace = document.getElementById("shortcut-space");
+  const shareLand = document.getElementById("share-land");
   const spinFace = document.getElementById("spin-face");
   const pinNet = document.getElementById("pin-net");
   const receiptTray = document.getElementById("receipt-tray");
   const registerSave = document.getElementById("register-save");
+  const enterBtn = document.getElementById("enter-main");
   const WHEEL = [
     "0", "32", "15", "19", "4", "21", "2", "25", "17", "34", "6", "27", "13",
     "36", "11", "30", "8", "23", "10", "5", "24", "16", "33", "1", "20", "14",
@@ -304,17 +310,17 @@ a { color: inherit; text-decoration: underline; }
   ];
   const RED = new Set(["1","3","5","7","9","12","14","16","18","19","21","23","25","27","30","32","34","36"]);
 
-  const landmarks = {
-    acme: { label: "Acme", hash: "acme" },
-    inbox: { label: "Inbox", hash: "inbox" },
+  const landmarks = { acme: { label: "Acme", hash: "acme" } };
+
+  const PLACEHOLDER = {
+    network: "Drop a seed…",
+    acme: "Note for Acme…",
+    "5et": "Read only",
   };
 
   function loadShortcuts() {
-    try {
-      return JSON.parse(localStorage.getItem("5et-shortcuts") || "[]");
-    } catch (e) {
-      return [];
-    }
+    try { return JSON.parse(localStorage.getItem("5et-shortcuts") || "[]"); }
+    catch (e) { return []; }
   }
 
   function renderShortcuts() {
@@ -339,33 +345,24 @@ a { color: inherit; text-decoration: underline; }
   }
 
   function loadVisited() {
-    try {
-      return JSON.parse(sessionStorage.getItem(STORAGE_VISITED) || "{}");
-    } catch (e) {
-      return {};
-    }
+    try { return JSON.parse(sessionStorage.getItem(STORAGE_VISITED) || "{}"); }
+    catch (e) { return {}; }
   }
 
   function saveVisited(data) {
-    try {
-      sessionStorage.setItem(STORAGE_VISITED, JSON.stringify(data));
-    } catch (e) { /* private mode */ }
+    try { sessionStorage.setItem(STORAGE_VISITED, JSON.stringify(data)); }
+    catch (e) { /* private mode */ }
   }
 
   function visitLandmark(id) {
     const visited = loadVisited();
-    const draft = inputMain.value.trim();
-    visited[id] = {
-      at: new Date().toISOString(),
-      from: draft || undefined,
-    };
+    visited[id] = { at: new Date().toISOString(), from: inputMain.value.trim() || undefined };
     saveVisited(visited);
   }
 
   function normalizeHash() {
     let hash = (location.hash || "#network").replace("#", "").toLowerCase();
-    if (hash === "home") hash = "network";
-    if (hash === "interest") hash = "inbox";
+    if (hash === "home" || hash === "inbox" || hash === "interest") hash = "network";
     if (!hash) hash = "network";
     if (!views[hash]) hash = "network";
     return hash;
@@ -373,29 +370,30 @@ a { color: inherit; text-decoration: underline; }
 
   function route() {
     const name = normalizeHash();
-    Object.values(views).forEach((el) => el.classList.remove("on"));
-    views[name].classList.add("on");
+    Object.entries(views).forEach(([key, el]) => {
+      const on = key === name;
+      el.classList.toggle("on", on);
+      el.setAttribute("aria-hidden", on ? "false" : "true");
+    });
     Object.keys(nav).forEach((k) => nav[k].classList.toggle("active", k === name));
     document.getElementById("coord").textContent = name === "network" ? "apps" : name;
     const onNetwork = name === "network";
     pinNet.hidden = onNetwork;
+    shareLand.hidden = !onNetwork;
+    enterBtn.disabled = name === "5et";
+    inputMain.placeholder = PLACEHOLDER[name] || PLACEHOLDER.network;
+    inputMain.readOnly = name === "5et";
     syncShortcutSpace();
     if (name === "acme") visitLandmark("acme");
-    if (name === "inbox") visitLandmark("inbox");
     if (name === "network") renderShortcuts();
   }
 
   function loadQueue() {
-    try {
-      return JSON.parse(localStorage.getItem(STORAGE_QUEUE) || "[]");
-    } catch (e) {
-      return [];
-    }
+    try { return JSON.parse(localStorage.getItem(STORAGE_QUEUE) || "[]"); }
+    catch (e) { return []; }
   }
 
-  function saveQueue(q) {
-    localStorage.setItem(STORAGE_QUEUE, JSON.stringify(q));
-  }
+  function saveQueue(q) { localStorage.setItem(STORAGE_QUEUE, JSON.stringify(q)); }
 
   function receiptLabel(entry) {
     const act = entry.act || {};
@@ -404,7 +402,7 @@ a { color: inherit; text-decoration: underline; }
       if (spin) return spin[1].split(/\s+/)[0];
       return "Ac";
     }
-    if (act.act === "inbox") return "in";
+    if (act.act === "inbox") return "·";
     return (act.act || "?").slice(0, 3);
   }
 
@@ -433,134 +431,116 @@ a { color: inherit; text-decoration: underline; }
       q.push(entry);
       saveQueue(q);
     } catch (e) {
-      if (!quiet) {
-        flashStatus(JSON.stringify(entry, null, 2) + "\n\n(stored on device only — local queue blocked)", false);
-      }
+      if (!quiet) flashStatus(JSON.stringify(entry, null, 2) + "\n\n(device queue blocked)", false);
       return null;
     }
     renderReceiptTray(q.length - 1);
-    if (!quiet) {
-      clearStatus();
-    }
+    if (!quiet) clearStatus();
     return entry;
   }
 
+  let statusTimer = null;
+
   function clearStatus() {
-    if (statusTimer) {
-      clearTimeout(statusTimer);
-      statusTimer = null;
-    }
+    if (statusTimer) { clearTimeout(statusTimer); statusTimer = null; }
     registerSave.hidden = true;
     status.classList.remove("show", "err");
     status.textContent = "";
   }
 
-  let statusTimer = null;
-
   function flashStatus(text, isError) {
-    if (statusTimer) {
-      clearTimeout(statusTimer);
-      statusTimer = null;
-    }
+    if (statusTimer) { clearTimeout(statusTimer); statusTimer = null; }
     registerSave.hidden = true;
     status.textContent = text;
     status.classList.toggle("err", !!isError);
     status.classList.add("show");
     status.scrollIntoView({ block: "nearest", behavior: "smooth" });
-    if (!isError) {
-      statusTimer = setTimeout(clearStatus, 2800);
-    }
+    if (!isError) statusTimer = setTimeout(clearStatus, 2800);
   }
 
   function showReceipt(entry) {
-    const lines = [
+    flashStatus([
       JSON.stringify(entry, null, 2),
       "",
       "On this device only — clear 🕶️ removes it.",
       "Anonymous transactions work without registering.",
-      "To save receipts, register via Inbox.",
-    ];
-    flashStatus(lines.join("\n"), false);
+      "To save receipts, register and Enter.",
+    ].join("\n"), false);
     registerSave.hidden = false;
   }
 
   function openRegister() {
-    location.hash = "#inbox";
-    const note = "Register — save my receipts across devices.";
-    inputMain.value = note;
-    inputInbox.value = note;
+    location.hash = "#network";
+    inputMain.value = "Register — save my receipts across devices.";
+    inputMain.readOnly = false;
     saveDraft();
     route();
-    inputInbox.focus();
+    inputMain.focus();
   }
 
-  function dropInbox(message, source) {
+  function dropSeed(message) {
+    const view = normalizeHash();
+    if (view === "5et") {
+      flashStatus("Read only — open company frame to sign in.", true);
+      return;
+    }
     if (!message) {
       flashStatus("Type a message first.", true);
       return;
     }
-    const act = {
-      act: "inbox",
-      marker: { type: "anonymous" },
-      destination: NETWORK_INBOX,
-      source: source || "frame",
-      message,
-    };
+    let act;
+    if (view === "acme") {
+      act = {
+        act: "grant-request",
+        marker: { type: "anonymous" },
+        business_unit: "acme",
+        entitlement: "casino-spin",
+        note: message,
+      };
+    } else {
+      act = {
+        act: "inbox",
+        marker: { type: "anonymous" },
+        destination: NETWORK_INBOX,
+        source: "frame-network",
+        message,
+      };
+    }
     collectReceipt(act, true);
-  }
-
-  function collectAct(act) {
-    collectReceipt(act, true);
+    inputMain.value = "";
+    saveDraft();
   }
 
   function acmeKnock(extra) {
     const note = [acmeNote(), extra].filter(Boolean).join(" — ") || undefined;
-    collectAct({
+    collectReceipt({
       act: "grant-request",
       marker: { type: "anonymous" },
       business_unit: "acme",
       entitlement: "casino-spin",
       note,
-    });
+    }, true);
   }
 
   try {
     const draft = sessionStorage.getItem(STORAGE_DRAFT);
-    if (draft) {
-      inputMain.value = draft;
-      inputInbox.value = draft;
-    }
+    if (draft) inputMain.value = draft;
   } catch (e) { /* ignore */ }
 
   function saveDraft() {
-    try {
-      sessionStorage.setItem(STORAGE_DRAFT, inputMain.value);
-    } catch (e) { /* ignore */ }
+    try { sessionStorage.setItem(STORAGE_DRAFT, inputMain.value); }
+    catch (e) { /* ignore */ }
   }
 
-  function bindEnter(input, button, source) {
-    button.addEventListener("click", () => dropInbox(input.value.trim(), source));
-    input.addEventListener("keydown", (event) => {
-      if (event.key === "Enter" && !event.shiftKey) {
-        event.preventDefault();
-        dropInbox(input.value.trim(), source);
-      }
-    });
-  }
+  inputMain.addEventListener("input", () => { clearStatus(); saveDraft(); });
 
-  inputMain.addEventListener("input", () => {
-    clearStatus();
-    saveDraft();
-    inputInbox.value = inputMain.value;
+  enterBtn.addEventListener("click", () => dropSeed(inputMain.value.trim()));
+  inputMain.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" && !event.shiftKey) {
+      event.preventDefault();
+      dropSeed(inputMain.value.trim());
+    }
   });
-  inputInbox.addEventListener("input", () => {
-    clearStatus();
-    inputMain.value = inputInbox.value;
-    saveDraft();
-  });
-
-  bindEnter(inputMain, document.getElementById("enter-main"), "frame-network");
-  bindEnter(inputInbox, document.getElementById("enter-inbox"), "frame-inbox");
 
   function spinWheel() {
     const n = WHEEL[Math.floor(Math.random() * WHEEL.length)];
@@ -585,19 +565,15 @@ a { color: inherit; text-decoration: underline; }
     try { sessionStorage.removeItem(STORAGE_DRAFT); } catch (e) { /* ignore */ }
     try { localStorage.removeItem(STORAGE_QUEUE); } catch (e) { /* ignore */ }
     inputMain.value = "";
-    inputInbox.value = "";
     if (spinFace) {
-      spinFace.textContent = "Tap spin to play";
+      spinFace.textContent = "Tap spin";
       spinFace.classList.add("wait");
     }
     clearStatus();
     renderShortcuts();
     renderReceiptTray();
-    if (normalizeHash() !== "network") {
-      location.hash = "#network";
-    } else {
-      route();
-    }
+    if (normalizeHash() !== "network") location.hash = "#network";
+    else route();
   }
 
   document.getElementById("clear-history").addEventListener("click", clearLocalHistory);
@@ -606,9 +582,7 @@ a { color: inherit; text-decoration: underline; }
   renderShortcuts();
   renderReceiptTray();
   window.addEventListener("hashchange", route);
-  if (!location.hash || location.hash === "#home") {
-    history.replaceState(null, "", "#network");
-  }
+  if (!location.hash || location.hash === "#home") history.replaceState(null, "", "#network");
   route();
 })();
 </script>
