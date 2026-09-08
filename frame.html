@@ -28,7 +28,7 @@ body {
 }
 .shell { max-width: 480px; margin: 0 auto; min-height: 100dvh;
   display: flex; flex-direction: column; padding: 12px 14px 24px; gap: 14px; }
-.apps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; justify-items: center; }
+.apps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; justify-items: center; }
 .app {
   display: flex; flex-direction: column; align-items: center; gap: 4px;
   color: var(--ink); text-decoration: none; cursor: pointer;
@@ -51,19 +51,14 @@ body {
 .panel h1 { margin: 0; font-size: 20px; letter-spacing: .06em; text-transform: uppercase; }
 .panel p { margin: 0; color: var(--muted); font-size: 16px; }
 .meta { font-size: 13px; color: var(--muted); font-family: ui-monospace, monospace; }
-.back {
-  display: inline-flex; align-items: center; gap: 6px;
-  min-height: 44px; padding: 0 4px; margin: -4px 0 0;
-  font-size: 15px; font-weight: 700; text-decoration: none; color: var(--ink);
-  border: none; background: none; cursor: pointer; font-family: inherit;
-  -webkit-tap-highlight-color: transparent;
-}
+.step-out { display: flex; justify-content: flex-start; }
 .input {
   width: 100%; min-height: 88px; padding: 12px;
   border: 2px solid var(--edge); background: var(--ground); color: var(--ink);
   font: inherit; resize: vertical;
 }
-.landmarks, .atoms { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; min-height: 0; }
+.compose { display: flex; flex-direction: column; gap: 10px; }
+.landmarks, .atoms { display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-start; min-height: 0; }
 .landmarks:empty { display: none; }
 .atom {
   width: var(--app); height: var(--app); border-radius: 50%;
@@ -73,15 +68,17 @@ body {
   padding: 4px; line-height: 1.1; cursor: pointer;
   -webkit-tap-highlight-color: transparent; text-decoration: none; color: var(--ink);
 }
+.atom.net { font-size: 13px; letter-spacing: .04em; }
 .atom.off { opacity: .35; pointer-events: none; }
 .atom.sel { outline: 3px solid var(--ink); outline-offset: 2px; }
-.call {
+.enter {
   width: 100%; min-height: var(--btn-h); border: 3px solid var(--edge);
   background: var(--ink); color: var(--ground);
-  font-size: 17px; font-weight: 800; letter-spacing: .12em;
-  text-transform: uppercase; cursor: pointer;
+  font-size: 20px; font-weight: 800; letter-spacing: .08em;
+  cursor: pointer; font-family: inherit;
+  display: flex; align-items: center; justify-content: center; gap: 8px;
 }
-.call:disabled { opacity: .4; }
+.enter:disabled { opacity: .4; }
 .status {
   padding: 12px; border: 2px dashed var(--edge); font-size: 14px;
   font-family: ui-monospace, monospace; white-space: pre-wrap; word-break: break-word;
@@ -109,11 +106,7 @@ a { color: inherit; text-decoration: underline; }
 </head>
 <body>
 <div class="shell">
-  <nav class="apps" aria-label="Network">
-    <a class="app" id="nav-home" href="#home" aria-label="Home">
-      <span class="app-icon">⌂</span>
-      <span class="app-label">Home</span>
-    </a>
+  <nav class="apps" aria-label="Apps on the network">
     <a class="app" id="nav-acme" href="#acme" aria-label="Acme">
       <span class="app-icon">Ac</span>
       <span class="app-label">Acme</span>
@@ -129,14 +122,20 @@ a { color: inherit; text-decoration: underline; }
   </nav>
 
   <div class="panel">
-    <div id="view-home" class="view on">
-      <div class="landmarks" id="landmark-atoms" aria-label="Visited landmarks"></div>
-      <textarea class="input" id="input-main" placeholder="" aria-label="Message"></textarea>
-      <button type="button" class="call" id="call-main">Call</button>
+    <div id="view-network" class="view on">
+      <div class="landmarks" id="landmark-atoms" aria-label="Apps you've opened"></div>
+      <div class="compose">
+        <textarea class="input" id="input-main" placeholder="" aria-label="Message" enterkeyhint="send"></textarea>
+        <button type="button" class="enter" id="enter-main" aria-label="Enter">
+          <span aria-hidden="true">↵</span> Enter
+        </button>
+      </div>
     </div>
 
     <div id="view-acme" class="view">
-      <a class="back" href="#home">← Home</a>
+      <div class="step-out">
+        <a class="atom net" href="#network" aria-label="Back to network">net</a>
+      </div>
       <h1>Acme · 0,0</h1>
       <p>Open sandbox on the network. Contracts visible. Clone and run the tick yourself.</p>
       <p>Play the demo casino — one free spin per day. Accept the grant to cross the threshold.</p>
@@ -152,11 +151,17 @@ a { color: inherit; text-decoration: underline; }
     </div>
 
     <div id="view-inbox" class="view">
-      <a class="back" href="#home">← Home</a>
+      <div class="step-out">
+        <a class="atom net" href="#network" aria-label="Back to network">net</a>
+      </div>
       <h1>Inbox</h1>
       <p>Network letterbox. Drop a message — the operator may read it on the next tick.</p>
-      <textarea class="input" id="input-inbox" placeholder="" aria-label="Message for inbox"></textarea>
-      <button type="button" class="call" id="call-inbox">Drop</button>
+      <div class="compose">
+        <textarea class="input" id="input-inbox" placeholder="" aria-label="Message for inbox" enterkeyhint="send"></textarea>
+        <button type="button" class="enter" id="enter-inbox" aria-label="Enter">
+          <span aria-hidden="true">↵</span> Enter
+        </button>
+      </div>
       <div class="qr-block">
         <p class="meta">Share the frame</p>
         <a href="https://5et.uk/frame" id="qr-link" aria-label="Open 5et frame">
@@ -167,7 +172,9 @@ a { color: inherit; text-decoration: underline; }
     </div>
 
     <div id="view-5et" class="view">
-      <a class="back" href="#home">← Home</a>
+      <div class="step-out">
+        <a class="atom net" href="#network" aria-label="Back to network">net</a>
+      </div>
       <h1>5et · operator</h1>
       <p>Company frame — tick report, obligations, director view. Authentication required.</p>
       <p><a href="app/director.html">Open company frame →</a></p>
@@ -177,23 +184,21 @@ a { color: inherit; text-decoration: underline; }
     <div class="status" id="status" role="status" aria-live="polite"></div>
   </div>
 
-  <footer><span class="anon" title="Anonymous visitor" aria-label="Anonymous visitor">🕶️</span> · no cookie · <span id="coord">home</span></footer>
+  <footer><span class="anon" title="Anonymous visitor" aria-label="Anonymous visitor">🕶️</span> · no cookie · <span id="coord">network</span></footer>
 </div>
 <script>
 (function () {
-  const FRAME_URL = "https://5et.uk/frame";
   const STORAGE_VISITED = "5et-visited-landmarks";
   const STORAGE_DRAFT = "5et-frame-draft";
   const NETWORK_INBOX = "_network/_integrations/inbox/";
 
   const views = {
-    home: document.getElementById("view-home"),
+    network: document.getElementById("view-network"),
     acme: document.getElementById("view-acme"),
     inbox: document.getElementById("view-inbox"),
     "5et": document.getElementById("view-5et"),
   };
   const nav = {
-    home: document.getElementById("nav-home"),
     acme: document.getElementById("nav-acme"),
     "5et": document.getElementById("nav-5et"),
     inbox: document.getElementById("nav-inbox"),
@@ -206,6 +211,7 @@ a { color: inherit; text-decoration: underline; }
 
   const landmarks = {
     acme: { label: "Acme", hash: "acme" },
+    inbox: { label: "Inbox", hash: "inbox" },
   };
 
   function loadVisited() {
@@ -249,25 +255,23 @@ a { color: inherit; text-decoration: underline; }
   }
 
   function normalizeHash() {
-    let hash = (location.hash || "#home").replace("#", "").toLowerCase();
-    if (!hash || hash === "interest") hash = hash === "interest" ? "inbox" : "home";
-    if (!views[hash]) hash = "home";
+    let hash = (location.hash || "#network").replace("#", "").toLowerCase();
+    if (hash === "home") hash = "network";
+    if (hash === "interest") hash = "inbox";
+    if (!hash) hash = "network";
+    if (!views[hash]) hash = "network";
     return hash;
   }
 
   function route() {
     const name = normalizeHash();
-    if (location.hash !== "#" + name && name !== "home") {
-      /* hash already set */
-    } else if (!location.hash && name === "home") {
-      /* bare /frame — stay on home */
-    }
     Object.values(views).forEach((el) => el.classList.remove("on"));
     views[name].classList.add("on");
     Object.keys(nav).forEach((k) => nav[k].classList.toggle("active", k === name));
     document.getElementById("coord").textContent = name;
     if (name === "acme") visitLandmark("acme");
-    if (name === "home") renderLandmarks();
+    if (name === "inbox") visitLandmark("inbox");
+    if (name === "network") renderLandmarks();
   }
 
   function flashStatus(text, isError) {
@@ -319,6 +323,16 @@ a { color: inherit; text-decoration: underline; }
     } catch (e) { /* ignore */ }
   }
 
+  function bindEnter(input, button, source) {
+    button.addEventListener("click", () => dropInbox(input.value.trim(), source));
+    input.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" && !event.shiftKey) {
+        event.preventDefault();
+        dropInbox(input.value.trim(), source);
+      }
+    });
+  }
+
   inputMain.addEventListener("input", () => {
     saveDraft();
     inputInbox.value = inputMain.value;
@@ -328,13 +342,8 @@ a { color: inherit; text-decoration: underline; }
     saveDraft();
   });
 
-  document.getElementById("call-main").addEventListener("click", () => {
-    dropInbox(inputMain.value.trim(), "frame-home");
-  });
-
-  document.getElementById("call-inbox").addEventListener("click", () => {
-    dropInbox(inputInbox.value.trim(), "frame-inbox");
-  });
+  bindEnter(inputMain, document.getElementById("enter-main"), "frame-network");
+  bindEnter(inputInbox, document.getElementById("enter-inbox"), "frame-inbox");
 
   document.querySelectorAll("#acme-atoms .atom:not(.off)").forEach((el) => {
     el.addEventListener("click", () => {
@@ -376,8 +385,8 @@ a { color: inherit; text-decoration: underline; }
 
   renderLandmarks();
   window.addEventListener("hashchange", route);
-  if (!location.hash) {
-    history.replaceState(null, "", "#home");
+  if (!location.hash || location.hash === "#home") {
+    history.replaceState(null, "", "#network");
   }
   route();
 })();
