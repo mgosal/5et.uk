@@ -4,25 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [frame.html](frame.html)
 
-`FRAME #1182` · 2026-09-08 08:10 UTC
+`FRAME #1183` · 2026-09-08 08:26 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1182** · 27 ticks · 21 h 48 m · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1183** · 28 ticks · 22 h 4 m · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1180 | [email-import RP-5](projects/ema-sa/_contracts/email-import.REVIEW.md) | Raised for your decision. |
-| 1180 | [email-import RP-4](projects/ema-sa/_contracts/email-import.REVIEW.md) | Raised for your decision. |
-| 1180 | [granola-import RP-5](projects/ema-sa/_contracts/granola-import.REVIEW.md) | Raised for your decision. |
-| 1180 | [granola-import RP-4](projects/ema-sa/_contracts/granola-import.REVIEW.md) | Raised for your decision. |
-| 1177 | [fathom-import RP-1](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| 1177 | [fathom-import RP-3](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| 1177 | [ema-sa RP-6](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1182 | [hubspot-import RP-1](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. |
+| 1182 | [slack-import RP-2](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
+| 1182 | [hubspot-import RP-2](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. |
+| 1182 | [slack-import RP-1](projects/ema-sa/_contracts/slack-import.REVIEW.md) | Raised for your decision. |
+| 1182 | [calendar-import RP-1](projects/ema-sa/_contracts/calendar-import.REVIEW.md) | Raised for your decision. |
+| 1182 | [deal-routing RP-2](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. |
+| 1182 | [deal-routing RP-1](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. |
 
 **Elsewhere**
 
@@ -46,16 +46,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁▄▁▄▁▁
+█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁▄▁▄▁▁▁
 █ latest move · 10:23
-▁–█ tick-report activity · 27 reports · 21 h   (frames #1156 → #1182)
+▁–█ tick-report activity · 28 reports · 22 h   (frames #1156 → #1183)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **27** |
-| Time since latest move | 21 h |
+| Tick reports since latest move | **28** |
+| Time since latest move | 22 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -192,4 +192,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1182 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1183 · immediate mode, no client state</sub>
