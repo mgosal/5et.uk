@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1179.md" style="font-size:11px; color:#5f6368;">#1179</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1180.md" style="font-size:11px; color:#5f6368;">#1180</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -26,11 +26,35 @@
 
 ## Last Tick
 
-**[Tick #1179](_pipeline/reports/tick-1179.md)** · 2026-09-07 16:52 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1180](_pipeline/reports/tick-1180.md)** · 2026-09-08 07:38 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
 - No durable work-item changes in this tick.
+
+<details><summary>Inspected without change (19)</summary>
+
+- [A.005](Accounts/_work/A.005-privacy-screen-protector.md) — A.005-privacy-screen-protector
+- [A.011](Accounts/_work/A.011-Retail-Receipt.md) — A.011-Retail-Receipt
+- [A.014](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) — A.014-Google-One-Subscription-Receipt
+- [A.016](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) — A.016-Processing-fuel-receipt-for-business-travel
+- [A.017](Accounts/_work/A.017-incorporation-expense.md) — A.017-incorporation-expense
+- [A.018](Accounts/_work/A.018-ico-data-protection-fee.md) — A.018-ico-data-protection-fee
+- [A.019](Accounts/_work/A.019-google-play-subscription-may.md) — A.019-google-play-subscription-may
+- [C.036](Compliance/_work/C.036-LLM-processing-of-personal-data-risk.md) — C.036-LLM-processing-of-personal-data-risk
+- [C.037](Compliance/_work/C.037-Anonymous-User-Experience-and-Contract-Framework.md) — C.037-Anonymous-User-Experience-and-Contract-Framework
+- [O.424](Operations/_work/O.424-attention-event-experiment.md) — O.424-attention-event-experiment
+- [O.430](Operations/_work/O.430-stream-deck-attention-mode.md) — O.430-stream-deck-attention-mode
+- [O.437](Operations/_work/O.437-build-conversational-initiative-path.md) — O.437-build-conversational-initiative-path
+- [O.439](Operations/_work/O.439-build-contract-support-loop.md) — O.439-build-contract-support-loop
+- [O.447](Operations/_work/O.447-refine-cloud-connect-direction.md) — O.447-refine-cloud-connect-direction
+- [O.449](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) — O.449-AI-Agent-Development-Platforms-consultation
+- [O.458](Operations/_work/O.458-Supply-chain-constraints-on-hardware-procurement.md) — O.458-Supply-chain-constraints-on-hardware-procurement
+- [O.462](Operations/_work/O.462-Wire-Cortex-local-inference-path.md) — O.462-Wire-Cortex-local-inference-path
+- [O.463](Operations/_work/O.463-Inference-tier-field-and-tier-grouped-execution.md) — O.463-Inference-tier-field-and-tier-grouped-execution
+- [O.468](Operations/_work/O.468-Register-for-St-James-AI-Tech-Related-event.md) — O.468-Register-for-St-James-AI-Tech-Related-event
+
+</details>
 
 ### Company In Progress
 
@@ -66,7 +90,7 @@
 - **Turn at**: 2026-09-07T10:23:40.354071+00:00
 - **Turn tick**: 1155
 - **Turn commit**: 9bfb5a29
-- **Window**: 24 ticks · 6 h 30 m
+- **Window**: 25 ticks · 21 h 16 m
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 7
 - **Elsewhere**: 2
@@ -74,13 +98,13 @@
 
 | Scope | Tick | Item | What happened |
 |---|---:|---|---|
-| yours | 1177 | [fathom-import RP-1](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| yours | 1177 | [ema-sa RP-6](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | yours | 1177 | [fathom-import RP-2](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | yours | 1177 | [fathom-import RP-3](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| yours | 1175 | [ema-sa RP-4](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| yours | 1177 | [ema-sa RP-6](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| yours | 1177 | [fathom-import RP-1](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| yours | 1175 | [ema-sa RP-2](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | yours | 1175 | [fathom-import RP-5](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
-| yours | 1175 | [ema-sa RP-3](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| yours | 1175 | [ema-sa RP-4](projects/ema-sa/_contracts/ema-sa.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | elsewhere | 1168 | [Operations](Operations/dashboard.md) | Load 41 → 42 active. |
 | elsewhere | 1168 | [St. James AI Networking Event Attendance](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md) | Created. |
 
@@ -97,7 +121,7 @@ Nothing presented and unanswered.
 | 2026-09-07T08:52:56.745898+00:00 | [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) | 1 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | 2026-08-26T18:12:56.073931+00:00 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 
-### Activity Since Latest Move (24 ticks)
+### Activity Since Latest Move (25 ticks)
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
@@ -125,6 +149,7 @@ Nothing presented and unanswered.
 | [#1177](_pipeline/reports/tick-1177.md) | 6.7s | 0 | 0 | 0 | 0 |
 | [#1178](_pipeline/reports/tick-1178.md) | 82.4s | 19 | 0 | 0 | 0 |
 | [#1179](_pipeline/reports/tick-1179.md) | 5.9s | 0 | 0 | 0 | 0 |
+| [#1180](_pipeline/reports/tick-1180.md) | 77.3s | 19 | 0 | 0 | 0 |
 
 ## Health
 
@@ -226,49 +251,55 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Function | Item | Reason | Link |
 |----------|------|--------|------|
-| Accounts | The Fox & Hounds, Whittlebury — Business | Open 103 days | [A.011](Accounts/_work/A.011-Retail-Receipt.md) |
-| Compliance | Register for Corporation Tax | Open 115 days | [C.004.1](Compliance/_work/C.004.1-Register-for-corporation-tax.md) |
-| Compliance | Assess VAT registration requirement | Open 115 days | [C.004.2](Compliance/_work/C.004.2-Assess-VAT-registration.md) |
-| Compliance | virtual-office-service-address.md | Open 107 days | [C.015](Compliance/_work/C.015-virtual-office-service-addressmd.md) |
-| Compliance | ICO Data Protection Fee Direct Debit Con | Open 75 days | [C.017](Compliance/_work/C.017-ICO-Data-Protection-Fee-Direct-Debit-Confirmation.md) |
-| Compliance | BYOD Policy Review and Compliance | Open 73 days | [C.021](Compliance/_work/C.021-BYOD-Policy-Review-and-Compliance.md) |
-| Compliance | Health and Safety compliance process imp | Open 70 days | [C.028](Compliance/_work/C.028-Health-and-Safety-compliance-process-implementation.md) |
-| Compliance | EU AI Act Article 52 Compliance | Open 70 days | [C.029](Compliance/_work/C.029-EU-AI-Act-Article-52-Compliance.md) |
-| Compliance | Compliance: Employment Rights Act s.1 co | Open 70 days | [C.034](Compliance/_work/C.034-Compliance-Employment-Rights-Act-s1-contract.md) |
+| Accounts | The Fox & Hounds, Whittlebury — Business | Open 104 days | [A.011](Accounts/_work/A.011-Retail-Receipt.md) |
+| Compliance | Register for Corporation Tax | Open 116 days | [C.004.1](Compliance/_work/C.004.1-Register-for-corporation-tax.md) |
+| Compliance | Assess VAT registration requirement | Open 116 days | [C.004.2](Compliance/_work/C.004.2-Assess-VAT-registration.md) |
+| Compliance | virtual-office-service-address.md | Open 108 days | [C.015](Compliance/_work/C.015-virtual-office-service-addressmd.md) |
+| Compliance | ICO Data Protection Fee Direct Debit Con | Open 76 days | [C.017](Compliance/_work/C.017-ICO-Data-Protection-Fee-Direct-Debit-Confirmation.md) |
+| Compliance | BYOD Policy Review and Compliance | Open 74 days | [C.021](Compliance/_work/C.021-BYOD-Policy-Review-and-Compliance.md) |
+| Compliance | Health and Safety compliance process imp | Open 71 days | [C.028](Compliance/_work/C.028-Health-and-Safety-compliance-process-implementation.md) |
+| Compliance | EU AI Act Article 52 Compliance | Open 71 days | [C.029](Compliance/_work/C.029-EU-AI-Act-Article-52-Compliance.md) |
+| Compliance | Compliance: Employment Rights Act s.1 co | Open 71 days | [C.034](Compliance/_work/C.034-Compliance-Employment-Rights-Act-s1-contract.md) |
 | Compliance | Anonymous User Experience and Contract F | Awaiting input | [C.037](Compliance/_work/C.037-Anonymous-User-Experience-and-Contract-Framework.md) |
-| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 25 days | [I.004](Operations/_work/I.004-WhatsApp-digest-JatinMandipKash-2026-08-12.md) |
-| Operations | InstantID tool exploration | Open 24 days | [I.005](Operations/_work/I.005-InstantID-tool-exploration.md) |
-| Operations | Apple Developer Program Enrollment | Open 63 days | [O.008](Operations/_work/O.008-Apple-Developer-Program-Enrollment.md) |
-| Operations | Migrate Winston app to Ema Next | Open 59 days | [O.009](Operations/_work/O.009-Migrate-Winston-app-to-Ema-Next.md) |
-| Operations | Review of new SDLC process flow | Open 17 days | [O.403](Operations/_work/O.403-Review-of-new-SDLC-process-flow.md) |
-| Operations | Integration of courier services into SPI | Open 41 days | [P.003](Operations/_work/P.003-Integration-of-courier-services-into-SPINE.md) |
-| Operations | RightStore Nimbus Proposal V2 Review | Open 38 days | [P.004](Operations/_work/P.004-RightStore-Nimbus-Proposal-V2-Review.md) |
-| Operations | RightStore by Nimbus deck development | Open 38 days | [P.005](Operations/_work/P.005-RightStore-by-Nimbus-deck-development.md) |
-| Operations | IBIS system overview for Christie & Co | Open 34 days | [P.006](Operations/_work/P.006-IBIS-system-overview-for-Christie-Co.md) |
-| Operations | Project prioritization and competitor re | Open 34 days | [P.007](Operations/_work/P.007-Project-prioritization-and-competitor-research.md) |
-| Operations | StoreDash client and investment coordina | Open 18 days | [P.008](Operations/_work/P.008-StoreDash-client-and-investment-coordination.md) |
-| People | H.002 — Tech Toast Attendee Outreach | Open 62 days | [H.002](People/_work/H.002-tech-toast-attendee-outreach.md) |
-| People | Review compensation and workload distrib | Open 59 days | [H.003](People/_work/H.003-Review-compensation-and-workload-distribution.md) |
-| People | People Development and Learning Framewor | Open 55 days | [H.004](People/_work/H.004-People-Development-and-Learning-Framework.md) |
-| People | Onboarding and Integration of James Lowm | Open 54 days | [H.005](People/_work/H.005-Onboarding-and-Integration-of-James-Lowman-CEO.md) |
-| People | CEO recruitment update: James Lowman wit | Open 39 days | [H.006](People/_work/H.006-CEO-recruitment-update-James-Lowman-withdrawal.md) |
-| People | Potential CEO candidate: Ilann Hepworth | Open 39 days | [H.007](People/_work/H.007-Potential-CEO-candidate-Ilann-Hepworth.md) |
-| Services | Nimbus platform access and subscription  | Open 70 days | [S.018](Services/_work/S.018-Nimbus-platform-access-and-subscription-management.md) |
+| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 26 days | [I.004](Operations/_work/I.004-WhatsApp-digest-JatinMandipKash-2026-08-12.md) |
+| Operations | InstantID tool exploration | Open 25 days | [I.005](Operations/_work/I.005-InstantID-tool-exploration.md) |
+| Operations | Apple Developer Program Enrollment | Open 64 days | [O.008](Operations/_work/O.008-Apple-Developer-Program-Enrollment.md) |
+| Operations | Migrate Winston app to Ema Next | Open 60 days | [O.009](Operations/_work/O.009-Migrate-Winston-app-to-Ema-Next.md) |
+| Operations | Review of new SDLC process flow | Open 18 days | [O.403](Operations/_work/O.403-Review-of-new-SDLC-process-flow.md) |
+| Operations | Attention Event Experiment | Open 15 days | [O.424](Operations/_work/O.424-attention-event-experiment.md) |
+| Operations | Stream Deck Attention Mode | Open 15 days | [O.430](Operations/_work/O.430-stream-deck-attention-mode.md) |
+| Operations | Build Conversational Initiative Path | Open 15 days | [O.437](Operations/_work/O.437-build-conversational-initiative-path.md) |
+| Operations | Build Contract Support Loop | Open 15 days | [O.439](Operations/_work/O.439-build-contract-support-loop.md) |
+| Operations | Contract Support: Seed Crystallisation | Open 15 days | [O.440](Operations/_work/O.440-contract-support-seed-crystallisation.md) |
+| Operations | Refine Cloud Connect Direction | Open 15 days | [O.447](Operations/_work/O.447-refine-cloud-connect-direction.md) |
+| Operations | Integration of courier services into SPI | Open 42 days | [P.003](Operations/_work/P.003-Integration-of-courier-services-into-SPINE.md) |
+| Operations | RightStore Nimbus Proposal V2 Review | Open 39 days | [P.004](Operations/_work/P.004-RightStore-Nimbus-Proposal-V2-Review.md) |
+| Operations | RightStore by Nimbus deck development | Open 39 days | [P.005](Operations/_work/P.005-RightStore-by-Nimbus-deck-development.md) |
+| Operations | IBIS system overview for Christie & Co | Open 35 days | [P.006](Operations/_work/P.006-IBIS-system-overview-for-Christie-Co.md) |
+| Operations | Project prioritization and competitor re | Open 35 days | [P.007](Operations/_work/P.007-Project-prioritization-and-competitor-research.md) |
+| Operations | StoreDash client and investment coordina | Open 19 days | [P.008](Operations/_work/P.008-StoreDash-client-and-investment-coordination.md) |
+| People | H.002 — Tech Toast Attendee Outreach | Open 63 days | [H.002](People/_work/H.002-tech-toast-attendee-outreach.md) |
+| People | Review compensation and workload distrib | Open 60 days | [H.003](People/_work/H.003-Review-compensation-and-workload-distribution.md) |
+| People | People Development and Learning Framewor | Open 56 days | [H.004](People/_work/H.004-People-Development-and-Learning-Framework.md) |
+| People | Onboarding and Integration of James Lowm | Open 55 days | [H.005](People/_work/H.005-Onboarding-and-Integration-of-James-Lowman-CEO.md) |
+| People | CEO recruitment update: James Lowman wit | Open 40 days | [H.006](People/_work/H.006-CEO-recruitment-update-James-Lowman-withdrawal.md) |
+| People | Potential CEO candidate: Ilann Hepworth | Open 40 days | [H.007](People/_work/H.007-Potential-CEO-candidate-Ilann-Hepworth.md) |
+| Services | Nimbus platform access and subscription  | Open 71 days | [S.018](Services/_work/S.018-Nimbus-platform-access-and-subscription-management.md) |
 
 ## Detail
 
 ### Pipeline
 
-**Total Ticks**: 1179
+**Total Ticks**: 1180
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-07 17:52 | 0 new, 0 synced |
-| github-sync | 🟢 Yes | ✅ ok | 2026-09-07 17:35 | 0 synced |
-| stream-deck | 🟢 Yes | ✅ ok | 2026-09-07 17:35 | 0 copied, 0 noise, 0 hal |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-08 08:38 | 0 new, 0 synced |
+| github-sync | 🟢 Yes | ✅ ok | 2026-09-08 08:38 | 0 synced |
+| stream-deck | 🟢 Yes | ✅ ok | 2026-09-08 08:38 | 0 copied, 0 noise, 0 hal |
 | processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
-| whatsapp | 🟢 Yes | ✅ ok | 2026-09-07 17:35 | 0 processed, 0 failed |
+| whatsapp | 🟢 Yes | ✅ ok | 2026-09-08 08:38 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
 | hostinger | ⚪ No | — | — | — |
 | store-email | 🟢 Yes | — | — | — |
@@ -279,11 +310,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-08 08:38](_pipeline/logs/2026-09-08_08-38-32.md) | 77s | [✓](_pipeline/logs/2026-09-08_08-38-32.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-08_08-38-32.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-08_08-38-32.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-09-08_08-38-32.md#processor-progress) 0 progressed | $0.0000 | ~0.032g |
 | [2026-09-07 17:52](_pipeline/logs/2026-09-07_17-52-11.md) | 6s | [✓](_pipeline/logs/2026-09-07_17-52-11.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
 | [2026-09-07 17:35](_pipeline/logs/2026-09-07_17-35-28.md) | 82s | [✓](_pipeline/logs/2026-09-07_17-35-28.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-07_17-35-28.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-07_17-35-28.md#processor-progress) 0 progressed | $0.0000 | ~0.034g |
 | [2026-09-07 17:19](_pipeline/logs/2026-09-07_17-19-59.md) | 7s | [✓](_pipeline/logs/2026-09-07_17-19-59.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-07 17:04](_pipeline/logs/2026-09-07_17-04-32.md) | 6s | [✓](_pipeline/logs/2026-09-07_17-04-32.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-07_17-04-32.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
-| [2026-09-07 16:49](_pipeline/logs/2026-09-07_16-49-06.md) | 6s | [✓](_pipeline/logs/2026-09-07_16-49-06.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
 
 ### Source Topology
 
@@ -327,7 +358,7 @@ flowchart TD
 | [Github Issue Sync](Operations/_contracts/github-issue-sync.README.md) | Operations | per-tick | — | ⚪ No |
 | [Icloud Email Import](Operations/_contracts/icloud-email-import.README.md) | Operations | per-tick | — | ⚪ No |
 | [Impact Cascade](Operations/_contracts/impact-cascade.README.md) | Operations | per-tick | 2026-08-25 11:40 | ⚪ No |
-| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-07 17:35 | 🟢 Yes |
+| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-08 08:38 | 🟢 Yes |
 | [Seed Crystallisation](Operations/_contracts/seed-crystallisation.README.md) | Operations | per-tick | 2026-08-24 15:27 | 🟢 Yes |
 | [Stack Improvement](Operations/_contracts/stack-improvement.README.md) | Operations | weekly | — | ⚪ No |
 | [Voice Note Import Contract](Operations/_contracts/voice-note-import-contract.README.md) | Operations | per-tick | 2026-08-29 13:23 | 🟢 Yes |
