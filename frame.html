@@ -73,20 +73,8 @@ body {
   letter-spacing: .08em; text-transform: uppercase;
 }
 .crumb-trail {
-  display: flex; align-items: center; gap: 6px;
-  overflow-x: auto; -webkit-overflow-scrolling: touch;
-  padding: 2px 0; min-height: var(--crumb);
+  display: none;
 }
-.crumb-trail:empty { display: none; }
-.crumb {
-  flex: 0 0 auto; width: var(--crumb); height: var(--crumb); border-radius: 50%;
-  border: 2px solid var(--edge); background: var(--ground);
-  font-family: var(--fd); font-size: 9px; font-weight: 700;
-  display: flex; align-items: center; justify-content: center;
-  text-decoration: none; color: var(--ink); -webkit-tap-highlight-color: transparent;
-}
-.crumb.on { background: var(--ink); color: var(--ground); }
-.crumb-sep { flex: 0 0 auto; font-size: 10px; color: var(--dim); user-select: none; }
 .shortcut-space { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
 .shortcut-space.empty { display: none; }
 .shortcuts { display: flex; flex-wrap: wrap; gap: 10px; }
@@ -189,17 +177,20 @@ body {
 }
 .receipt-tray {
   display: flex; flex-direction: row; align-items: flex-end; gap: 6px;
-  max-width: calc(100% - 120px); overflow-x: auto; -webkit-overflow-scrolling: touch;
+  flex: 1; min-width: 0; overflow-x: auto; -webkit-overflow-scrolling: touch;
   pointer-events: auto; padding: 4px 0;
 }
-.receipt-tray.empty { display: none; }
-.atom.receipt {
+.receipt-tray.empty { visibility: hidden; }
+.atom.event {
   flex: 0 0 auto;
   width: var(--receipt); height: var(--receipt); font-size: 9px;
-  background: var(--panel); border-style: dashed;
+  background: var(--panel);
 }
+.atom.event.visit { border-style: solid; }
+.atom.event.act { border-style: dashed; }
+.atom.event.ext { border-style: dotted; }
 @media (prefers-reduced-motion: no-preference) {
-  .atom.receipt.drop { animation: receipt-drop .3s ease-out; }
+  .atom.event.drop { animation: receipt-drop .3s ease-out; }
 }
 @keyframes receipt-drop {
   from { transform: translateY(8px); opacity: 0; }
@@ -246,7 +237,7 @@ a { color: inherit; }
       </nav>
     </section>
 
-    <nav class="crumb-trail" id="crumb-trail" aria-label="Trail"></nav>
+    <nav class="crumb-trail" id="crumb-trail" aria-hidden="true"></nav>
 
     <div class="shortcut-space" id="shortcut-space">
       <a class="atom pin-net net" id="pin-net" href="#network" hidden aria-label="Back to apps" title="Back to apps">net</a>
@@ -271,7 +262,7 @@ a { color: inherit; }
         <h1>5et · operator</h1>
         <p class="land-note">Read only — nothing sent to the operator.</p>
         <p>Company frame — tick report, obligations, director view.</p>
-        <p><a href="app/director.html">Open company frame →</a></p>
+        <p><a href="app/director.html" id="link-director">Open company frame →</a></p>
         <p class="meta">Authentication required on the next screen.</p>
       </div>
 
@@ -290,7 +281,7 @@ a { color: inherit; }
 
 <div class="dock" aria-label="History dock">
   <div class="dock-inner">
-    <aside class="receipt-tray empty" id="receipt-tray" aria-label="Receipts"></aside>
+    <aside class="receipt-tray empty" id="receipt-tray" aria-label="Session"></aside>
     <footer class="dock-foot">
       <button type="button" class="anon" id="clear-history" title="Clear history" aria-label="Clear history">🕶️</button>
       · <span id="coord">apps</span>
@@ -299,13 +290,12 @@ a { color: inherit; }
 </div>
 <script>
 (function () {
-  const STORAGE_VISITED = "5et-visited-landmarks";
-  const STORAGE_TRAIL = "5et-nav-trail";
+  const STORAGE_OS = "5et-os-events";
   const STORAGE_DRAFT = "5et-frame-draft";
   const STORAGE_QUEUE = "5et-threshold-queue";
   const NETWORK_INBOX = "_network/_integrations/inbox/";
 
-  const CRUMB_LABEL = { network: "net", acme: "Ac", "5et": "5et" };
+  const WHERE_LABEL = { network: "net", acme: "Ac", "5et": "5et", director: "dir" };
 
   const views = {
     network: document.getElementById("view-network"),
@@ -320,10 +310,9 @@ a { color: inherit; }
   const inputMain = document.getElementById("input-main");
   const shortcutRow = document.getElementById("shortcut-atoms");
   const shortcutSpace = document.getElementById("shortcut-space");
-  const crumbTrail = document.getElementById("crumb-trail");
   const spinFace = document.getElementById("spin-face");
   const pinNet = document.getElementById("pin-net");
-  const receiptTray = document.getElementById("receipt-tray");
+  const osTray = document.getElementById("receipt-tray");
   const registerSave = document.getElementById("register-save");
   const enterBtn = document.getElementById("enter-main");
   const WHEEL = [
@@ -335,42 +324,108 @@ a { color: inherit; }
 
   const landmarks = { acme: { label: "Acme", hash: "acme" } };
 
-  function loadTrail() {
-    try { return JSON.parse(sessionStorage.getItem(STORAGE_TRAIL) || "[]"); }
-    catch (e) { return []; }
+  function loadOs() {
+    try {
+      const raw = sessionStorage.getItem(STORAGE_OS);
+      if (raw) return JSON.parse(raw);
+    } catch (e) { /* ignore */ }
+    return migrateLegacyOs();
   }
 
-  function saveTrail(trail) {
-    try { sessionStorage.setItem(STORAGE_TRAIL, JSON.stringify(trail)); }
+  function migrateLegacyOs() {
+    const events = [];
+    try {
+      const trail = JSON.parse(sessionStorage.getItem("5et-nav-trail") || "[]");
+      trail.forEach((step) => {
+        events.push({
+          at: step.at || new Date().toISOString(),
+          os: "visit",
+          where: step.id,
+          marker: { type: "anonymous" },
+        });
+      });
+    } catch (e) { /* ignore */ }
+    try {
+      const q = JSON.parse(localStorage.getItem(STORAGE_QUEUE) || "[]");
+      q.forEach((entry) => {
+        events.push({
+          at: entry.at || new Date().toISOString(),
+          os: "act",
+          act: entry.act,
+          marker: { type: "anonymous" },
+        });
+      });
+    } catch (e) { /* ignore */ }
+    events.sort((a, b) => String(a.at).localeCompare(String(b.at)));
+    if (events.length) saveOs(events);
+    return events;
+  }
+
+  function saveOs(events) {
+    try { sessionStorage.setItem(STORAGE_OS, JSON.stringify(events)); }
     catch (e) { /* private mode */ }
   }
 
-  function pushTrail(id) {
-    const trail = loadTrail();
-    if (trail.length && trail[trail.length - 1].id === id) return;
-    trail.push({ id, label: CRUMB_LABEL[id] || id, at: new Date().toISOString() });
-    saveTrail(trail);
-    renderTrail(id);
+  function logOs(entry, highlight) {
+    const events = loadOs();
+    const row = {
+      at: new Date().toISOString(),
+      marker: { type: "anonymous" },
+      ...entry,
+    };
+    events.push(row);
+    saveOs(events);
+    if (entry.os === "act" && entry.act) syncActQueue(entry.act, row.at);
+    renderOsTray(highlight ? events.length - 1 : -1);
+    return row;
   }
 
-  function renderTrail(currentId) {
-    const trail = loadTrail();
-    crumbTrail.innerHTML = "";
-    trail.forEach((step, i) => {
-      if (i > 0) {
-        const sep = document.createElement("span");
-        sep.className = "crumb-sep";
-        sep.textContent = "›";
-        sep.setAttribute("aria-hidden", "true");
-        crumbTrail.appendChild(sep);
+  function syncActQueue(act, at) {
+    try {
+      const q = JSON.parse(localStorage.getItem(STORAGE_QUEUE) || "[]");
+      q.push({ at, act });
+      localStorage.setItem(STORAGE_QUEUE, JSON.stringify(q));
+    } catch (e) { /* ignore */ }
+  }
+
+  function eventLabel(ev) {
+    if (ev.os === "visit") return WHERE_LABEL[ev.where] || (ev.where || "?").slice(0, 3);
+    if (ev.os === "act") {
+      const act = ev.act || {};
+      if (act.act === "grant-request") {
+        const spin = (act.note || "").match(/spin:\s*(.+)/i);
+        if (spin) return spin[1].split(/\s+/)[0];
+        return "Ac";
       }
-      const el = document.createElement("a");
-      el.className = "crumb" + (step.id === currentId ? " on" : "");
-      el.href = "#" + (step.id === "network" ? "network" : step.id);
-      el.textContent = step.label;
-      el.title = step.at;
-      crumbTrail.appendChild(el);
+      if (act.act === "inbox") return "↵";
+      return (act.act || "?").slice(0, 3);
+    }
+    return "?";
+  }
+
+  function eventClass(ev) {
+    if (ev.os === "visit") return ev.external ? "visit ext" : "visit";
+    return "act";
+  }
+
+  function renderOsTray(highlightIndex) {
+    const events = loadOs();
+    osTray.innerHTML = "";
+    events.forEach((ev, index) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "atom event " + eventClass(ev);
+      if (index === highlightIndex) btn.classList.add("drop");
+      btn.textContent = eventLabel(ev);
+      btn.title = ev.at || "";
+      btn.setAttribute("aria-label", (ev.os === "visit" ? "Visit " : "Act ") + eventLabel(ev));
+      btn.addEventListener("click", () => showEvent(ev));
+      osTray.appendChild(btn);
     });
+    osTray.classList.toggle("empty", events.length === 0);
+    if (events.length && highlightIndex >= 0) {
+      osTray.lastElementChild.scrollIntoView({ block: "nearest", inline: "end", behavior: "smooth" });
+    }
   }
 
   function loadShortcuts() {
@@ -399,22 +454,6 @@ a { color: inherit; }
     shortcutSpace.classList.toggle("empty", !hasPin && !hasShortcuts);
   }
 
-  function loadVisited() {
-    try { return JSON.parse(sessionStorage.getItem(STORAGE_VISITED) || "{}"); }
-    catch (e) { return {}; }
-  }
-
-  function saveVisited(data) {
-    try { sessionStorage.setItem(STORAGE_VISITED, JSON.stringify(data)); }
-    catch (e) { /* private mode */ }
-  }
-
-  function visitLandmark(id) {
-    const visited = loadVisited();
-    visited[id] = { at: new Date().toISOString(), from: inputMain.value.trim() || undefined };
-    saveVisited(visited);
-  }
-
   function normalizeHash() {
     let hash = (location.hash || "#network").replace("#", "").toLowerCase();
     if (hash === "home" || hash === "inbox" || hash === "interest") hash = "network";
@@ -437,60 +476,12 @@ a { color: inherit; }
     enterBtn.disabled = name === "5et";
     inputMain.readOnly = name === "5et";
     syncShortcutSpace();
-    pushTrail(name);
-    if (name === "acme") visitLandmark("acme");
+    logOs({ os: "visit", where: name }, false);
     if (name === "network") renderShortcuts();
   }
 
-  function loadQueue() {
-    try { return JSON.parse(localStorage.getItem(STORAGE_QUEUE) || "[]"); }
-    catch (e) { return []; }
-  }
-
-  function saveQueue(q) { localStorage.setItem(STORAGE_QUEUE, JSON.stringify(q)); }
-
-  function receiptLabel(entry) {
-    const act = entry.act || {};
-    if (act.act === "grant-request") {
-      const spin = (act.note || "").match(/spin:\s*(.+)/i);
-      if (spin) return spin[1].split(/\s+/)[0];
-      return "Ac";
-    }
-    if (act.act === "inbox") return "·";
-    return (act.act || "?").slice(0, 3);
-  }
-
-  function renderReceiptTray(highlightIndex) {
-    const q = loadQueue();
-    receiptTray.innerHTML = "";
-    q.forEach((entry, index) => {
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "atom receipt";
-      if (index === highlightIndex) btn.classList.add("drop");
-      btn.textContent = receiptLabel(entry);
-      btn.title = entry.at || "Receipt";
-      btn.setAttribute("aria-label", "Receipt " + receiptLabel(entry));
-      btn.addEventListener("click", () => showReceipt(entry));
-      receiptTray.appendChild(btn);
-    });
-    receiptTray.classList.toggle("empty", q.length === 0);
-  }
-
-  function collectReceipt(act, quiet) {
-    const entry = { at: new Date().toISOString(), act };
-    let q;
-    try {
-      q = loadQueue();
-      q.push(entry);
-      saveQueue(q);
-    } catch (e) {
-      if (!quiet) flashStatus(JSON.stringify(entry, null, 2) + "\n\n(device queue blocked)", false);
-      return null;
-    }
-    renderReceiptTray(q.length - 1);
-    if (!quiet) clearStatus();
-    return entry;
+  function collectAct(act) {
+    logOs({ os: "act", act }, true);
   }
 
   let statusTimer = null;
@@ -511,15 +502,13 @@ a { color: inherit; }
     if (!isError) statusTimer = setTimeout(clearStatus, 2800);
   }
 
-  function showReceipt(entry) {
-    flashStatus([
-      JSON.stringify(entry, null, 2),
-      "",
-      "On this device only — clear 🕶️ removes it.",
-      "Anonymous transactions work without registering.",
-      "To save receipts, register and Enter.",
-    ].join("\n"), false);
-    registerSave.hidden = false;
+  function showEvent(ev) {
+    const lines = [JSON.stringify(ev, null, 2), "", "On this device only — clear 🕶️ removes it."];
+    if (ev.os === "act") {
+      lines.push("Anonymous by default. Register and Enter to keep across devices.");
+    }
+    flashStatus(lines.join("\n"), false);
+    if (ev.os === "act") registerSave.hidden = false;
   }
 
   function openRegister() {
@@ -559,20 +548,20 @@ a { color: inherit; }
         message,
       };
     }
-    collectReceipt(act, true);
+    collectAct(act);
     inputMain.value = "";
     saveDraft();
   }
 
   function acmeKnock(extra) {
     const note = [acmeNote(), extra].filter(Boolean).join(" — ") || undefined;
-    collectReceipt({
+    collectAct({
       act: "grant-request",
       marker: { type: "anonymous" },
       business_unit: "acme",
       entitlement: "casino-spin",
       note,
-    }, true);
+    });
   }
 
   try {
@@ -602,9 +591,19 @@ a { color: inherit; }
   }
 
   function acmeNote() {
-    const visited = loadVisited();
-    return (visited.acme && visited.acme.from) || inputMain.value.trim() || undefined;
+    const draft = inputMain.value.trim();
+    if (draft) return draft;
+    const events = loadOs();
+    for (let i = events.length - 1; i >= 0; i--) {
+      const ev = events[i];
+      if (ev.os === "visit" && ev.where === "acme" && ev.draft) return ev.draft;
+    }
+    return undefined;
   }
+
+  document.getElementById("link-director").addEventListener("click", () => {
+    logOs({ os: "visit", where: "director", external: true }, true);
+  });
 
   document.getElementById("acme-spin").addEventListener("click", () => {
     const result = spinWheel();
@@ -614,8 +613,12 @@ a { color: inherit; }
   });
 
   function clearLocalHistory() {
-    try { sessionStorage.removeItem(STORAGE_VISITED); } catch (e) { /* ignore */ }
-    try { sessionStorage.removeItem(STORAGE_TRAIL); } catch (e) { /* ignore */ }
+    if (!confirm("Clear this session?\n\nAll events on this device will be removed.")) {
+      return;
+    }
+    try { sessionStorage.removeItem(STORAGE_OS); } catch (e) { /* ignore */ }
+    try { sessionStorage.removeItem("5et-nav-trail"); } catch (e) { /* ignore */ }
+    try { sessionStorage.removeItem("5et-visited-landmarks"); } catch (e) { /* ignore */ }
     try { sessionStorage.removeItem(STORAGE_DRAFT); } catch (e) { /* ignore */ }
     try { localStorage.removeItem(STORAGE_QUEUE); } catch (e) { /* ignore */ }
     inputMain.value = "";
@@ -624,9 +627,8 @@ a { color: inherit; }
       spinFace.classList.add("wait");
     }
     clearStatus();
-    crumbTrail.innerHTML = "";
     renderShortcuts();
-    renderReceiptTray();
+    renderOsTray(-1);
     if (normalizeHash() !== "network") location.hash = "#network";
     else route();
   }
@@ -635,9 +637,7 @@ a { color: inherit; }
   registerSave.addEventListener("click", openRegister);
 
   renderShortcuts();
-  renderReceiptTray();
-  const start = normalizeHash();
-  renderTrail(start);
+  renderOsTray(-1);
   window.addEventListener("hashchange", route);
   if (!location.hash || location.hash === "#home") history.replaceState(null, "", "#network");
   route();
