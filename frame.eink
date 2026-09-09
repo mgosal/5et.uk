@@ -1,0 +1,1580 @@
+<!doctype html>
+<html lang="en" dir="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#ffffff">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<title>5et — network</title>
+<!-- Web fonts deferred — e-ink uses system stack below; colour polish later. -->
+<style>
+:root {
+  --ink: #000;
+  --muted: #333;
+  --dim: #555;
+  --edge: #000;
+  --edge-soft: #999;
+  --panel: #fff;
+  --ground: #fff;
+  --btn-h: 60px;
+  --app: 64px;
+  --receipt: 40px;
+  /* E-ink first: Boox/Android system faces, no network fetch. */
+  --fd: system-ui, -apple-system, "Roboto", "Noto Sans", "Segoe UI", sans-serif;
+  --fb: system-ui, -apple-system, "Roboto", "Noto Sans", "Segoe UI", sans-serif;
+  --fm: ui-monospace, "Roboto Mono", "Droid Sans Mono", "Courier New", monospace;
+  --dock-h: 56px;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; height: 100%; }
+body {
+  margin: 0; background: var(--ground); color: var(--ink);
+  font-family: var(--fb); font-size: 20px; line-height: 1.5; font-weight: 400;
+  -webkit-font-smoothing: none; font-smooth: never; text-rendering: optimizeSpeed;
+  touch-action: manipulation; min-height: 100%; overflow-y: auto;
+}
+.shell {
+  max-width: 420px; margin: 0 auto; min-height: 100dvh;
+  display: flex; flex-direction: column;
+  padding: max(10px, env(safe-area-inset-top)) max(14px, env(safe-area-inset-right))
+    calc(var(--dock-h) + max(120px, env(safe-area-inset-bottom))) max(14px, env(safe-area-inset-left));
+  gap: 10px;
+}
+.scope-bar {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 8px; flex-shrink: 0;
+}
+.layer-five {
+  display: flex; align-items: flex-end; justify-content: center; gap: 4px;
+  padding: 2px 0 4px; flex-shrink: 0;
+}
+.layer-five .tick {
+  width: 6px; border: 1.5px solid var(--edge); background: var(--ground);
+  border-radius: 0;
+}
+.layer-five .tick:nth-child(1) { height: 10px; }
+.layer-five .tick:nth-child(2) { height: 14px; }
+.layer-five .tick:nth-child(3) { height: 18px; }
+.layer-five .tick:nth-child(4) { height: 22px; }
+.layer-five .tick:nth-child(5) { height: 26px; }
+.layer-five .tick.on { background: var(--ink); border-color: var(--ink); }
+body.scope-confidential .layer-five .tick.on { background: var(--ink); }
+.layer-caption {
+  margin: 0; text-align: center; font-family: var(--fm); font-size: 16px; font-weight: 700;
+  color: var(--ink); flex-shrink: 0;
+}
+.scope-opt {
+  border: 2px dashed var(--edge); background: var(--ground);
+  padding: 14px 16px 13px; text-align: center; cursor: pointer;
+  font: inherit; color: inherit; border-radius: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+.scope-opt.on {
+  border-style: solid; border-color: var(--ink); background: var(--panel);
+}
+.scope-kicker {
+  display: block; font-family: var(--fd); font-size: 14px; font-weight: 700;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--muted);
+}
+.scope-name {
+  display: block; font-family: var(--fm); font-size: 18px; font-weight: 700; color: var(--ink);
+  margin-top: 4px;
+}
+body.scope-confidential .scope-opt[data-scope="confidential"] .scope-name::before {
+  content: "📱 ";
+}
+.enclave-cta {
+  width: 100%; padding: 14px 16px; flex-shrink: 0;
+  border: 1.5px dashed var(--edge); background: var(--ground);
+  font-family: var(--fm); font-size: 14px; font-weight: 600; color: var(--muted);
+  text-align: center; cursor: pointer; border-radius: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+.enclave-cta[hidden] { display: none; }
+body.scope-confidential .enclave-cta { border-color: var(--ink); color: var(--ink); }
+.scope-bar.coach-pulse { animation: coach-pulse 1.2s ease-in-out 3; }
+@keyframes coach-pulse {
+  0%, 100% { outline: none; }
+  50% { outline: 2px dashed var(--ink); outline-offset: 3px; }
+}
+.land { display: flex; flex-direction: column; gap: 10px; flex-shrink: 0; }
+.apps-bar { display: flex; flex-direction: column; gap: 10px; }
+.apps-title {
+  margin: 0; font-family: var(--fd); font-size: 16px; font-weight: 700;
+  letter-spacing: .16em; text-transform: uppercase; color: var(--ink); text-align: center;
+}
+.apps {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;
+  max-width: 360px; margin: 0 auto; width: 100%;
+}
+.app {
+  display: flex; flex-direction: column; align-items: center; gap: 5px;
+  color: var(--ink); text-decoration: none; cursor: pointer;
+  -webkit-tap-highlight-color: transparent; border: none; background: none; padding: 0;
+  font: inherit; min-width: 0;
+  position: relative;
+}
+.app-shell {
+  position: relative; width: var(--app); height: var(--app);
+  display: flex; align-items: center; justify-content: center;
+}
+.app-icon {
+  width: 100%; height: 100%; border-radius: 50%;
+  border: 2px dotted var(--edge-soft); background: transparent;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--fd); font-size: 16px; font-weight: 700; letter-spacing: .04em;
+  position: relative; z-index: 1;
+  color: var(--dim);
+}
+/* Untagged — no acts yet (dotted ring; dark enough for e-ink) */
+.app.untagged .app-icon { border: 2px dotted #666; color: #444; background: transparent; }
+.app.untagged .app-label { color: #444; font-weight: 700; }
+/* Tagged — wallet: this unit holds your data (solid dark ring) */
+.app.tagged .app-icon {
+  border: 2.5px solid var(--ink); color: var(--ink); background: var(--panel);
+}
+.app.tagged .app-label { color: var(--ink); font-weight: 700; }
+.app.active.untagged .app-icon {
+  border-style: dashed; border-color: var(--muted); background: var(--ground);
+  color: var(--muted); outline: 2px dashed var(--edge); outline-offset: 3px;
+}
+.app.active.tagged .app-icon { background: var(--ink); color: var(--ground); border-style: solid; border-color: var(--ink); outline: none; }
+/* Wallet rings only: dotted = untagged, solid = holds data. Hat/confidential rings deferred. */
+.app.has-confidential .app-shell::before,
+.app.has-anonymous .app-shell::after { display: none; }
+.hat-badge { display: none !important; }
+.app.locked .app-icon::after { content: "·"; font-weight: 400; margin-left: 1px; }
+.app-icon.slot { border-style: dashed; opacity: .35; }
+.app-icon.add { border-style: dashed; font-size: 22px; font-weight: 400; line-height: 1; }
+.app-add { opacity: .5; cursor: default; }
+.app-label {
+  font-family: var(--fd); font-size: 12px; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase;
+}
+.crumb-trail {
+  display: none;
+}
+.shortcut-space { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.shortcut-space.empty { display: none; }
+.shortcut-space.escape-right { flex-direction: row-reverse; }
+.shortcuts { display: flex; flex-wrap: wrap; gap: 10px; flex: 1; min-width: 0; }
+.shortcuts:empty { display: none; }
+.stage { flex: 1; display: flex; flex-direction: column; gap: 10px; min-height: 0; }
+.agent-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 0 2px;
+}
+.frame-label {
+  margin: 0; font-family: var(--fd); font-size: 14px; font-weight: 700;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--muted);
+}
+.hat {
+  display: inline-flex; align-items: center; gap: 8px;
+  border: 1.5px dashed var(--edge); background: var(--ground);
+  padding: 8px 12px; font-family: var(--fm); font-size: 14px; font-weight: 600;
+  color: var(--muted); cursor: pointer; border-radius: 999px;
+  -webkit-tap-highlight-color: transparent;
+}
+.hat.confidential { border-style: solid; border-color: var(--ink); color: var(--ink); }
+.hat-icon { font-size: 14px; line-height: 1; }
+.hat-label { letter-spacing: .06em; text-transform: lowercase; }
+.escape-atom {
+  flex: 0 0 auto; position: relative;
+  width: var(--app); height: var(--app);
+}
+.escape-atom svg { width: 20px; height: 20px; display: block; }
+.escape-atom[hidden] { display: none; }
+.atom {
+  width: var(--app); height: var(--app); border-radius: 50%;
+  border: 1.5px solid var(--edge); background: var(--ground);
+  font-family: var(--fd); font-size: 10px; font-weight: 600; text-align: center;
+  display: flex; align-items: center; justify-content: center;
+  padding: 4px; line-height: 1.1; cursor: pointer;
+  -webkit-tap-highlight-color: transparent; text-decoration: none; color: var(--ink);
+}
+.atom.net { font-size: 12px; letter-spacing: .08em; }
+.atom.escape { background: var(--panel); }
+.panel {
+  border: 1px solid var(--edge); background: var(--panel);
+  padding: 14px; display: flex; flex-direction: column; gap: 12px;
+  width: 100%; min-width: 0;
+}
+.panel[hidden] { display: none; }
+.unit-wallet {
+  border: 1px dashed var(--edge); padding: 8px 10px; text-align: center;
+  font-family: var(--fm); font-size: 11px; color: var(--muted);
+  background: var(--ground); cursor: pointer; width: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+.unit-wallet[hidden] { display: none; }
+.view-body { display: none; flex-direction: column; gap: 12px; }
+.view-body.on { display: flex; }
+.view-body h1 {
+  margin: 0; font-family: var(--fd); font-size: 18px; font-weight: 700;
+  letter-spacing: .1em; text-transform: uppercase;
+}
+.view-body p { margin: 0; color: var(--muted); font-size: 16px; }
+.store-list { display: flex; flex-direction: column; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.store-tile {
+  display: flex; flex-direction: column; gap: 4px; padding: 14px 16px;
+  border: 2px solid var(--edge); background: var(--ground); color: var(--ink);
+  text-decoration: none; font: inherit; text-align: left; cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.store-tile.locked { border-style: dashed; color: var(--muted); cursor: default; opacity: .85; }
+.store-name { font-family: var(--fd); font-size: 17px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.store-note { font-family: var(--fm); font-size: 14px; font-weight: 600; color: var(--muted); }
+.store-tile:not(.locked) .store-note { color: var(--dim); }
+.store-share {
+  width: 100%; margin-top: 4px; padding: 14px 16px;
+  border: 2px solid var(--ink); background: var(--ground); color: var(--ink);
+  font-family: var(--fd); font-size: 16px; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase; cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.share-modal {
+  position: fixed; inset: 0; z-index: 25; display: flex;
+  align-items: center; justify-content: center; padding: 16px;
+  pointer-events: none;
+}
+.share-modal.open { pointer-events: auto; }
+.share-modal[hidden] { display: none; }
+.share-backdrop {
+  position: absolute; inset: 0; border: none; padding: 0; margin: 0;
+  background: rgba(255, 255, 255, .78); cursor: pointer;
+}
+.share-sheet {
+  position: relative; z-index: 1; width: 100%; max-width: 360px;
+  border: 2px solid var(--ink); background: var(--ground);
+  padding: 18px 16px; display: flex; flex-direction: column; gap: 12px;
+  align-items: center; text-align: center;
+}
+.share-lead {
+  margin: 0; font-family: var(--fb); font-size: 16px; line-height: 1.4;
+  font-weight: 600; color: var(--muted); width: 100%; text-align: left;
+}
+.share-qr {
+  display: block; width: min(280px, 72vw); height: auto;
+  border: 2px solid var(--edge); background: #fff;
+}
+.share-url {
+  margin: 0; font-family: var(--fm); font-size: 13px; line-height: 1.4;
+  word-break: break-all; color: var(--ink); width: 100%;
+}
+.land-note {
+  padding: 10px 12px; border: 2px dashed var(--edge);
+  font-family: var(--fm); font-size: 13px; color: var(--muted); text-align: center;
+}
+.meta { font-size: 13px; color: var(--muted); font-family: var(--fm); }
+.app.receipt-linked { opacity: 1 !important; }
+.app.receipt-linked .app-icon {
+  outline: 2px solid var(--ink); outline-offset: 4px;
+  border-color: var(--ink);
+}
+body.receipt-open .land { opacity: .28; pointer-events: none; }
+body.receipt-open .land .apps-bar,
+body.receipt-open .land .app.receipt-linked { opacity: 1; pointer-events: auto; }
+body.receipt-open .shortcut-space,
+body.receipt-open .frame-top,
+body.receipt-open .agent-head,
+body.receipt-open .compose { opacity: .28; pointer-events: none; }
+body.receipt-open #app-panel { display: none !important; }
+.receipt-modal {
+  position: fixed; inset: 0; z-index: 20; display: flex;
+  align-items: center; justify-content: center; padding: 16px;
+  pointer-events: none;
+}
+.receipt-modal.open { pointer-events: auto; }
+.receipt-modal[hidden] { display: none; }
+.receipt-backdrop {
+  position: absolute; inset: 0; border: none; padding: 0; margin: 0;
+  background: rgba(255, 255, 255, .78); cursor: pointer;
+}
+.receipt-sheet {
+  position: relative; z-index: 1; width: 100%; max-width: 400px;
+  max-height: min(75dvh, 560px); overflow: auto;
+  border: 2px solid var(--ink); background: var(--ground);
+  padding: 18px 16px; display: flex; flex-direction: column; gap: 12px;
+}
+.receipt-sheet .data-label {
+  margin: 0; font-family: var(--fd); font-size: 18px; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase;
+}
+.receipt-summary {
+  margin: 0; font-family: var(--fb); font-size: 17px; line-height: 1.45;
+  font-weight: 600; color: var(--ink);
+}
+.receipt-body {
+  font-family: var(--fm); font-size: 14px; line-height: 1.5;
+  white-space: pre-wrap; word-break: break-word;
+  border: 1.5px dashed var(--edge); padding: 12px 14px;
+}
+.receipt-dismiss {
+  width: 100%; min-height: 52px; padding: 12px; border: 2px solid var(--edge);
+  background: var(--panel); font-family: var(--fd); font-size: 16px;
+  font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+  cursor: pointer;
+}
+.toast {
+  position: fixed; z-index: 15; left: 14px; right: 14px; bottom: calc(var(--dock-h) + 12px);
+  max-width: 392px; margin: 0 auto; padding: 10px 12px;
+  border: 1px dashed var(--edge); background: var(--ground);
+  font-family: var(--fm); font-size: 12px; line-height: 1.45;
+  white-space: pre-wrap; pointer-events: none;
+}
+.toast[hidden] { display: none; }
+.toast.err { border-style: solid; border-color: var(--ink); }
+.welcome {
+  position: fixed; inset: 0; z-index: 25; display: flex;
+  align-items: center; justify-content: center; padding: 16px;
+  background: rgba(255, 255, 255, .96);
+}
+.welcome[hidden] { display: none; }
+.welcome-card {
+  width: 100%; max-width: 400px; border: 2px solid var(--ink);
+  background: var(--ground); padding: 24px 20px; display: flex;
+  flex-direction: column; gap: 16px; text-align: center;
+}
+.welcome-card .layer-five { padding: 4px 0 8px; gap: 6px; }
+.welcome-card h2 {
+  margin: 0; font-family: var(--fd); font-size: 22px; font-weight: 700;
+  letter-spacing: .1em; text-transform: uppercase;
+}
+.welcome-lead {
+  margin: 0; font-size: 19px; line-height: 1.4; font-weight: 700; color: var(--ink);
+  text-align: left;
+}
+.welcome-body {
+  margin: 0; font-size: 18px; line-height: 1.45; font-weight: 500; color: var(--ink);
+  text-align: left;
+}
+.welcome-fine {
+  margin: 0; font-size: 15px; line-height: 1.4; color: var(--muted); text-align: left;
+}
+.welcome-draft {
+  margin: 0; font-size: 14px; line-height: 1.35; color: var(--dim);
+  text-align: left; font-style: italic; border-top: 1px dashed var(--edge-soft);
+  padding-top: 10px;
+}
+.welcome-card p, .welcome-card li {
+  margin: 0; font-size: 18px; line-height: 1.45; color: var(--ink); text-align: left;
+  font-weight: 500;
+}
+.welcome-card li strong { font-weight: 700; }
+.welcome-card ul { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 12px; }
+.welcome-enter {
+  width: 100%; min-height: 56px; border: 2px solid var(--ink);
+  background: var(--ink); color: var(--ground);
+  font-family: var(--fd); font-size: 18px; font-weight: 700;
+  letter-spacing: .1em; text-transform: uppercase; cursor: pointer;
+}
+.compose {
+  display: flex; flex-direction: column; gap: 8px;
+}
+body.welcome-pending .compose,
+body.welcome-pending .dock { visibility: hidden; pointer-events: none; }
+.input {
+  width: 100%; min-height: 96px; padding: 14px;
+  border: 2px solid var(--edge); background: var(--ground); color: var(--ink);
+  font: inherit; resize: vertical; border-radius: 0;
+  -webkit-appearance: none; appearance: none;
+}
+.input::placeholder { color: var(--dim); opacity: 1; }
+.enter {
+  width: 100%; min-height: var(--btn-h); border: 2px solid var(--ink);
+  background: var(--ink); color: var(--ground);
+  font-family: var(--fd); font-size: 18px; font-weight: 700; letter-spacing: .1em;
+  text-transform: uppercase; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  border-radius: 0; -webkit-tap-highlight-color: transparent;
+}
+.enter:disabled { opacity: .35; }
+.register-save {
+  background: var(--panel); color: var(--ink); border-style: dashed;
+  font-size: 14px; min-height: 48px; text-transform: uppercase;
+  letter-spacing: .08em; font-family: var(--fd); font-weight: 700;
+}
+.register-save[hidden], .remove-event[hidden] { display: none; }
+.remove-event {
+  background: var(--ground); color: var(--ink); border-style: solid;
+  font-size: 14px; min-height: 44px; text-transform: uppercase;
+  letter-spacing: .08em; font-family: var(--fd); font-weight: 700;
+}
+.spin-hero {
+  width: 120px; height: 120px; font-size: 16px; margin: 4px auto; border-width: 3px;
+}
+.spin-face {
+  min-height: 68px; border: 2px solid var(--edge); padding: 14px;
+  text-align: center; font-family: var(--fd); font-size: 26px; font-weight: 700;
+  line-height: 1.2; display: flex; align-items: center; justify-content: center;
+}
+.spin-face.wait { font-size: 15px; font-weight: 600; color: var(--muted); }
+.fine { font-size: 13px; color: var(--dim); text-align: center; margin: 0; }
+.dock {
+  position: fixed; z-index: 6; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  padding: 0 max(10px, env(safe-area-inset-right)) max(6px, env(safe-area-inset-bottom))
+    max(10px, env(safe-area-inset-start));
+}
+.dock-inner {
+  max-width: 420px; margin: 0 auto;
+  display: flex; align-items: flex-end; justify-content: space-between; gap: 10px;
+}
+.receipt-tray {
+  display: flex; flex-direction: row; align-items: flex-end; gap: 6px;
+  flex: 1; min-width: 0; overflow-x: auto; -webkit-overflow-scrolling: touch;
+  pointer-events: auto; padding: 4px 0;
+}
+.receipt-tray.empty { visibility: hidden; }
+.atom.event {
+  flex: 0 0 auto;
+  width: var(--receipt); height: var(--receipt); font-size: 12px; font-weight: 700;
+  background: var(--panel);
+}
+.atom.event.visit { border-style: solid; }
+.atom.event.act { border-style: dashed; }
+.atom.event.compose { border-style: double; }
+.atom.event.sel { outline: 2px dashed var(--ink); outline-offset: 2px; }
+@media (prefers-reduced-motion: no-preference) {
+  .atom.event.drop { animation: receipt-drop .3s ease-out; }
+}
+@keyframes receipt-drop {
+  from { transform: translateY(8px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+footer.dock-foot {
+  flex: 0 0 auto; pointer-events: auto;
+  font-family: var(--fm); font-size: 14px; font-weight: 600; color: var(--muted); text-align: end;
+  background: var(--ground); border: 1.5px solid var(--edge); padding: 8px 12px;
+  white-space: nowrap;
+}
+footer.dock-foot .anon {
+  font-size: 20px; background: none; border: none; padding: 4px 6px; margin: 0;
+  cursor: pointer; font-family: inherit; line-height: 1; vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+footer.dock-foot .anon:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+a { color: inherit; }
+.panel a { text-decoration: underline; text-underline-offset: 2px; }
+</style>
+</head>
+<body>
+<div class="shell">
+  <div class="frame-top" id="frame-top">
+    <div class="layer-five" id="layer-five" role="img"
+         aria-label="Layer depth: public network">
+      <span class="tick on" data-depth="1"></span>
+      <span class="tick" data-depth="2"></span>
+      <span class="tick" data-depth="3"></span>
+      <span class="tick" data-depth="4"></span>
+      <span class="tick" data-depth="5"></span>
+    </div>
+    <p class="layer-caption" id="layer-caption">Public · layer 1</p>
+    <nav class="scope-bar" id="scope-bar" aria-label="Service scope">
+    <button type="button" class="scope-opt on" id="scope-network" data-scope="network"
+            aria-pressed="true" aria-label="Scope: Public network">
+      <span class="scope-kicker">Scope</span>
+      <span class="scope-name">Public</span>
+    </button>
+    <button type="button" class="scope-opt" id="scope-confidential" data-scope="confidential"
+            aria-pressed="false" aria-label="Scope: Enclave on this device">
+      <span class="scope-kicker">Scope</span>
+      <span class="scope-name">Enclave</span>
+    </button>
+  </nav>
+
+  <button type="button" class="enclave-cta" id="enclave-cta" hidden>
+    Install enclave · leave public web
+  </button>
+  </div>
+
+  <header class="land" id="land">
+    <section class="apps-bar" aria-labelledby="apps-heading">
+      <h2 class="apps-title" id="apps-heading">Apps</h2>
+      <nav class="apps" aria-label="Network apps">
+        <a class="app untagged" id="nav-store" href="#apps" aria-label="App store">
+          <span class="app-shell">
+            <span class="app-icon">▦</span>
+          </span>
+          <span class="app-label">Apps</span>
+        </a>
+        <a class="app untagged" id="nav-acme" href="#acme" aria-label="Acme">
+          <span class="app-shell">
+            <span class="app-icon">Ac</span>
+            <span class="hat-badge" id="hat-badge-acme" aria-hidden="true"></span>
+          </span>
+          <span class="app-label">Acme</span>
+        </a>
+        
+        <span class="app app-slot" aria-hidden="true">
+          <span class="app-icon slot"></span>
+          <span class="app-label">—</span>
+        </span>
+        <button type="button" class="app app-add" disabled aria-label="Add app (soon)">
+          <span class="app-icon add">+</span>
+          <span class="app-label">Add</span>
+        </button>
+      </nav>
+    </section>
+
+    <nav class="crumb-trail" id="crumb-trail" aria-hidden="true"></nav>
+
+    <div class="shortcut-space" id="shortcut-space">
+      <a class="atom escape escape-atom" id="escape-atom" href="#network" hidden
+         aria-label="Back to home" title="Back to home · hold to move side">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M17 17 L8 8 M8 8 H12 M8 8 V12" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="square" stroke-linejoin="miter"/>
+        </svg>
+      </a>
+      <div class="shortcuts" id="shortcut-atoms" aria-label="Shortcuts"></div>
+    </div>
+  </header>
+
+  <div class="stage">
+    <div class="agent-head">
+      <p class="frame-label">Agent</p>
+      <button type="button" class="hat" id="hat-marker" aria-label="Confidentiality: anonymous">
+        <span class="hat-icon" aria-hidden="true">🕶️</span>
+        <span class="hat-label" id="hat-label">anonymous</span>
+      </button>
+    </div>
+    <div class="panel" id="app-panel" aria-label="App surface" hidden>
+      <button type="button" class="unit-wallet" id="unit-wallet" hidden></button>
+      <div id="view-network" class="view-body on" aria-hidden="false"></div>
+
+      <div id="view-apps" class="view-body" aria-hidden="true">
+        <h1>App store</h1>
+        <p>Apps on the 5et network. Open a landmark or certify for company access.</p>
+        <div class="store-list" role="list">
+          <a class="store-tile" href="#acme" role="listitem">
+            <span class="store-name">Acme</span>
+            <span class="store-note">Landmark · 0,0 · demo spin</span>
+          </a>
+          <div class="store-tile locked" role="listitem" aria-disabled="true">
+            <span class="store-name">5et</span>
+            <span class="store-note">Company OS · hat and identity required</span>
+          </div>
+          
+        </div>
+        <button type="button" class="store-share" id="store-share">Share · network QR</button>
+      </div>
+
+      <div id="view-acme" class="view-body" aria-hidden="true">
+        <h1>Acme · 0,0</h1>
+        <p>Spin the wheel. Fake money. One demo spin.</p>
+        <button type="button" class="atom spin-hero" id="acme-spin" aria-label="Spin the wheel">spin</button>
+        <div class="spin-face wait" id="spin-face" aria-live="polite">Tap spin</div>
+        <p class="fine">Demo only — no real money, no account.</p>
+      </div>
+
+      
+    </div>
+
+    <div class="compose" aria-label="Agent compose">
+      <textarea class="input" id="input-main" placeholder="" aria-label="Message" enterkeyhint="send"></textarea>
+      <button type="button" class="enter" id="enter-main" aria-label="Enter">
+        <span aria-hidden="true">↵</span> Enter
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="receipt-modal" id="receipt-modal" hidden role="dialog" aria-modal="true"
+     aria-labelledby="receipt-title">
+  <button type="button" class="receipt-backdrop" id="receipt-backdrop" aria-label="Close receipt"></button>
+  <div class="receipt-sheet">
+    <p class="data-label" id="receipt-title">Receipt · OS</p>
+    <p class="receipt-summary" id="receipt-summary" hidden></p>
+    <div class="receipt-body" id="receipt-body"></div>
+    <button type="button" class="enter register-save" id="register-save" hidden>Register to save</button>
+    <button type="button" class="enter remove-event" id="remove-event" hidden>Remove from session</button>
+    <button type="button" class="enclave-cta" id="open-unit" hidden>Open app →</button>
+    <button type="button" class="receipt-dismiss" id="receipt-dismiss">Dismiss</button>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<div class="share-modal" id="share-modal" hidden role="dialog" aria-modal="true"
+     aria-labelledby="share-title">
+  <button type="button" class="share-backdrop" id="share-backdrop" aria-label="Close share"></button>
+  <div class="share-sheet">
+    <p class="data-label" id="share-title">Network address</p>
+    <p class="share-lead">Permanent QR — same code on the wall, on paper, here. Content behind it can change.</p>
+    <img class="share-qr" src="frame.svg" width="328" height="328" alt="QR code for the 5et network frame">
+    <p class="share-url" id="share-url"></p>
+    <button type="button" class="receipt-dismiss" id="share-dismiss">Dismiss</button>
+  </div>
+</div>
+
+<!-- Anonymous welcome — welcome-experience contract §2.2 -->
+<div class="welcome" id="welcome" hidden>
+  <div class="welcome-card">
+    <h2>5et network</h2>
+    <p class="welcome-lead">You opened the permanent address — your first step on the network.</p>
+    <p class="welcome-body">This is the <strong>public network</strong>: browse the app store, open landmarks, read contracts. No server cookie. No account. Nothing is sent to 5et until you act.</p>
+    <p class="welcome-body">Acts create receipts in <strong>this browser session</strong> only. Tap 🕶️ in the dock to reset.</p>
+    <p class="welcome-fine">Enter starts a session on this device. Removing all receipts or tapping 🕶️ ends it — enter again to restart.</p>
+    <p class="welcome-draft">Draft welcome — not the full journey yet (client install, onboarding). See welcome-experience contract.</p>
+    <button type="button" class="welcome-enter" id="welcome-dismiss">Enter the network</button>
+  </div>
+</div>
+
+<div class="dock" aria-label="History dock">
+  <div class="dock-inner">
+    <aside class="receipt-tray empty" id="receipt-tray" aria-label="Session"></aside>
+    <footer class="dock-foot">
+      <button type="button" class="anon" id="clear-history" title="Clear history" aria-label="Clear history">🕶️</button>
+      · <span id="coord">apps</span>
+    </footer>
+  </div>
+</div>
+<script>
+(function () {
+  const PUBLIC_FRAME = true;
+  const STORAGE_WELCOME = "5et-welcome-dismissed";
+  const STORAGE_SCOPE = "5et-scope";
+  const STORAGE_OS = "5et-os-events";
+  const STORAGE_ESCAPE_SIDE = "5et-escape-side";
+  const STORAGE_MARKER = "5et-marker";
+  const STORAGE_DRAFT = "5et-frame-draft";
+  const STORAGE_QUEUE = "5et-threshold-queue";
+
+  const FRAME_VER = "20260908.15";
+  const NETWORK_FRAME_URL = (function () {
+    const base = location.pathname.replace(/[^/]+$/, "");
+    return location.origin + base + "frame.html";
+  })();
+  const WHERE_LABEL = { network: "home", apps: "store", acme: "Ac" };
+  
+
+  const views = {
+    network: document.getElementById("view-network"),
+    apps: document.getElementById("view-apps"),
+    acme: document.getElementById("view-acme"),
+    
+  };
+  const nav = {
+    apps: document.getElementById("nav-store"),
+    acme: document.getElementById("nav-acme"),
+    
+  };
+  const toast = document.getElementById("toast");
+  const receiptModal = document.getElementById("receipt-modal");
+  const receiptBody = document.getElementById("receipt-body");
+  const receiptBackdrop = document.getElementById("receipt-backdrop");
+  const openUnitBtn = document.getElementById("open-unit");
+  const receiptDismiss = document.getElementById("receipt-dismiss");
+  const receiptTitle = document.getElementById("receipt-title");
+  const receiptSummary = document.getElementById("receipt-summary");
+  const welcome = document.getElementById("welcome");
+  const welcomeDismiss = document.getElementById("welcome-dismiss");
+  const shareModal = document.getElementById("share-modal");
+  const shareUrl = document.getElementById("share-url");
+  const storeShare = document.getElementById("store-share");
+  const layerFive = document.getElementById("layer-five");
+  const layerCaption = document.getElementById("layer-caption");
+  const scopeBar = document.getElementById("scope-bar");
+  const inputMain = document.getElementById("input-main");
+  const shortcutRow = document.getElementById("shortcut-atoms");
+  const shortcutSpace = document.getElementById("shortcut-space");
+  const spinFace = document.getElementById("spin-face");
+  const escapeAtom = document.getElementById("escape-atom");
+  const osTray = document.getElementById("receipt-tray");
+  const registerSave = document.getElementById("register-save");
+  const removeEventBtn = document.getElementById("remove-event");
+  const enterBtn = document.getElementById("enter-main");
+  const appPanel = document.getElementById("app-panel");
+  const hatBtn = document.getElementById("hat-marker");
+  const hatLabel = document.getElementById("hat-label");
+  const landHeader = document.getElementById("land");
+  const enclaveCta = document.getElementById("enclave-cta");
+  const scopeNetwork = document.getElementById("scope-network");
+  const scopeConfidential = document.getElementById("scope-confidential");
+  let deferredInstall = null;
+  let walletUnit = null;
+  let selectedEventId = null;
+  let composeTimer = null;
+  const WHEEL = [
+    "0", "32", "15", "19", "4", "21", "2", "25", "17", "34", "6", "27", "13",
+    "36", "11", "30", "8", "23", "10", "5", "24", "16", "33", "1", "20", "14",
+    "31", "9", "22", "18", "29", "7", "28", "12", "35", "3", "26",
+  ];
+  const RED = new Set(["1","3","5","7","9","12","14","16","18","19","21","23","25","27","30","32","34","36"]);
+
+  const landmarks = { acme: { label: "Acme", hash: "acme" } };
+  const hatBadges = {
+    acme: document.getElementById("hat-badge-acme"),
+    
+  };
+  const HAT_ICON = { anonymous: "🕶", confidential: "🔒" };
+  const UNIT_LABEL = { acme: "Acme" };
+  
+
+  function loadOs() {
+    try {
+      const raw = sessionStorage.getItem(STORAGE_OS);
+      if (raw) return JSON.parse(raw);
+    } catch (e) { /* ignore */ }
+    return migrateLegacyOs();
+  }
+
+  function migrateLegacyOs() {
+    const events = [];
+    try {
+      const trail = JSON.parse(sessionStorage.getItem("5et-nav-trail") || "[]");
+      trail.forEach((step) => {
+        events.push({
+          at: step.at || new Date().toISOString(),
+          id: newEventId(),
+          os: "visit",
+          where: step.id,
+          units: [],
+          marker: { type: "anonymous" },
+        });
+      });
+    } catch (e) { /* ignore */ }
+    events.sort((a, b) => String(a.at).localeCompare(String(b.at)));
+    if (events.length) saveOs(events);
+    return events;
+  }
+
+  function newEventId() {
+    if (typeof crypto !== "undefined" && crypto.randomUUID) return crypto.randomUUID();
+    return Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
+  }
+
+  function currentText() {
+    return inputMain.value.trim() || undefined;
+  }
+
+  function unitsFor(where, act) {
+    if (act) {
+      if (act.business_unit === "acme") return ["acme"];
+      return [];
+    }
+    if (where === "acme") return ["acme"];
+    if (where === "apps") return [];
+    
+    return [];
+  }
+
+  function layerFor(where, act) {
+    if (act && act.business_unit === "acme") return "app";
+    if (act) return "agent";
+    if (where === "acme") return "app";
+    if (where === "apps") return "agent";
+    
+    return "agent";
+  }
+
+  const PLACE_LABEL = { network: "Home", apps: "Store", acme: "Acme" };
+  
+
+  function isStandalone() {
+    return window.matchMedia("(display-mode: standalone)").matches
+      || window.navigator.standalone === true;
+  }
+
+  function landAtTop() {
+    window.scrollTo(0, 0);
+    if (landHeader) landHeader.scrollIntoView({ block: "start", behavior: "instant" });
+  }
+
+  function renderLayerFive(name) {
+    const scope = getScope();
+    const depth = scope === "confidential" ? 5 : 1;
+    layerFive.querySelectorAll(".tick").forEach((tick, i) => {
+      tick.classList.toggle("on", i < depth);
+    });
+    const place = PLACE_LABEL[name] || name;
+    if (scope === "confidential") {
+      layerCaption.textContent = "Enclave · layer 5 · " + place;
+      layerFive.setAttribute("aria-label", "Layer 5 of 5, enclave on this device");
+    } else {
+      layerCaption.textContent = "Public · layer 1 · " + place;
+      layerFive.setAttribute("aria-label", "Layer 1 of 5, public network");
+    }
+  }
+
+  function welcomeAccepted() {
+    try { return !!sessionStorage.getItem(STORAGE_WELCOME); }
+    catch (e) { return false; }
+  }
+
+  function refreshWelcomeGate() {
+    const pending = !welcomeAccepted() && !welcome.hidden;
+    document.body.classList.toggle("welcome-pending", pending);
+  }
+
+  function maybeShowWelcome() {
+    try {
+      if (sessionStorage.getItem(STORAGE_WELCOME)) return;
+    } catch (e) { /* ignore */ }
+    welcome.hidden = false;
+    scopeBar.classList.add("coach-pulse");
+    refreshWelcomeGate();
+  }
+
+  function dismissWelcome() {
+    welcome.hidden = true;
+    scopeBar.classList.remove("coach-pulse");
+    try { sessionStorage.setItem(STORAGE_WELCOME, "1"); } catch (e) { /* ignore */ }
+    refreshWelcomeGate();
+    landAtTop();
+    route();
+  }
+
+  function renderEnclaveCta() {
+    const scope = getScope();
+    const standalone = isStandalone();
+    if (standalone && scope === "confidential") {
+      enclaveCta.hidden = true;
+      return;
+    }
+    enclaveCta.hidden = false;
+    if (!standalone && scope === "network") {
+      enclaveCta.textContent = "Install enclave · leave public web";
+    } else if (!standalone && scope === "confidential") {
+      enclaveCta.textContent = "Install app to complete enclave";
+    } else if (standalone && scope === "network") {
+      enclaveCta.textContent = "Enter enclave on this device";
+    }
+  }
+
+  async function tryInstallEnclave() {
+    if (isStandalone()) {
+      setScope("confidential");
+      landAtTop();
+      flashStatus("Enclave · on this device.", false);
+      return;
+    }
+    setScope("confidential");
+    if (deferredInstall) {
+      deferredInstall.prompt();
+      const choice = await deferredInstall.userChoice;
+      if (choice.outcome === "accepted") {
+        flashStatus("Installed — reopen from home screen for enclave.", false);
+      }
+      deferredInstall = null;
+      renderEnclaveCta();
+      return;
+    }
+    flashStatus("Install: Share → Add to Home Screen\nReopen from home screen to enter enclave.", false);
+    renderEnclaveCta();
+  }
+
+  function getScope() {
+    try {
+      const s = sessionStorage.getItem(STORAGE_SCOPE);
+      if (s === "confidential" || s === "network") return s;
+    } catch (e) { /* ignore */ }
+    return "network";
+  }
+
+  function setScope(scope) {
+    try { sessionStorage.setItem(STORAGE_SCOPE, scope); } catch (e) { /* ignore */ }
+    if (scope === "confidential") {
+      try { sessionStorage.setItem(STORAGE_MARKER, "confidential"); } catch (e) { /* ignore */ }
+    } else {
+      try { sessionStorage.setItem(STORAGE_MARKER, "anonymous"); } catch (e) { /* ignore */ }
+    }
+    renderScope();
+    renderHat();
+    renderUnitLights();
+    renderLayerFive(normalizeHash());
+    updateCoord(normalizeHash());
+  }
+
+  function renderScope() {
+    const scope = getScope();
+    document.body.classList.toggle("scope-confidential", scope === "confidential");
+    document.body.classList.toggle("scope-network", scope === "network");
+    scopeNetwork.classList.toggle("on", scope === "network");
+    scopeConfidential.classList.toggle("on", scope === "confidential");
+    scopeNetwork.setAttribute("aria-pressed", scope === "network" ? "true" : "false");
+    scopeConfidential.setAttribute("aria-pressed", scope === "confidential" ? "true" : "false");
+    renderEnclaveCta();
+    renderLayerFive(normalizeHash());
+  }
+
+  function updateAppsHeading(name) {
+    const el = document.getElementById("apps-heading");
+    if (!el) return;
+    if (name === "apps") el.textContent = "App store · " + FRAME_VER;
+    else el.textContent = "Apps · " + FRAME_VER;
+  }
+
+  function updateCoord(name) {
+    const scope = getScope() === "confidential" ? "enclave" : "public";
+    const where = name === "network" ? "apps" : name;
+    document.getElementById("coord").textContent = scope + " · " + where + " · " + FRAME_VER;
+  }
+
+  function renderAppWallet(name) {
+    const el = document.getElementById("unit-wallet");
+    if (!el || name === "network" || name === "apps" || !UNIT_LABEL[name]) {
+      if (el) el.hidden = true;
+      return;
+    }
+    const events = unitEvents(name);
+    if (!events.length) {
+      el.hidden = true;
+      return;
+    }
+    el.hidden = false;
+    el.textContent = UNIT_LABEL[name] + " · " + events.length + " on this device · view wallet";
+  }
+
+  function getMarker() {
+    if (getScope() === "confidential") return { type: "confidential" };
+    try {
+      if (sessionStorage.getItem(STORAGE_MARKER) === "confidential") {
+        return { type: "confidential" };
+      }
+    } catch (e) { /* ignore */ }
+    return { type: "anonymous" };
+  }
+
+  function renderHat() {
+    const confidential = getMarker().type === "confidential";
+    hatBtn.classList.toggle("confidential", confidential);
+    hatLabel.textContent = confidential ? "confidential" : "anonymous";
+    hatBtn.setAttribute("aria-label", "Confidentiality: " + hatLabel.textContent);
+  }
+
+  function cycleHat() {
+    const next = getMarker().type === "anonymous" ? "confidential" : "anonymous";
+    setScope(next === "confidential" ? "confidential" : "network");
+    if (next === "confidential") {
+      flashStatus("Enclave — on this device. Receipts stay in scope.", false);
+      registerSave.hidden = false;
+    } else {
+      flashStatus("Public network — web frame.", false);
+    }
+  }
+
+  function enrichEvent(entry) {
+    const where = entry.where || normalizeHash();
+    const text = entry.text !== undefined ? entry.text : currentText();
+    const units = entry.units !== undefined ? entry.units : unitsFor(where, entry.act);
+    const layer = entry.layer || layerFor(where, entry.act);
+    const marker = entry.marker || getMarker();
+    return {
+      ...entry,
+      id: entry.id || newEventId(),
+      at: entry.at || new Date().toISOString(),
+      marker,
+      where,
+      layer,
+      units,
+      text,
+    };
+  }
+
+  function rebuildActQueue(events) {
+    try {
+      const q = events
+        .filter((ev) => ev.os === "act" && ev.act && ev.act.act !== "agent")
+        .map((ev) => ({ at: ev.at, act: ev.act }));
+      localStorage.setItem(STORAGE_QUEUE, JSON.stringify(q));
+    } catch (e) { /* ignore */ }
+  }
+
+  function saveOs(events) {
+    try { sessionStorage.setItem(STORAGE_OS, JSON.stringify(events)); }
+    catch (e) { /* private mode */ }
+  }
+
+  function logOs(entry, highlight) {
+    const events = loadOs();
+    const row = enrichEvent(entry);
+    events.push(row);
+    saveOs(events);
+    rebuildActQueue(events);
+    renderOsTray(highlight ? events.length - 1 : -1);
+    renderUnitLights(row);
+    return row;
+  }
+
+  function endSession() {
+    try { sessionStorage.removeItem(STORAGE_WELCOME); } catch (e) { /* ignore */ }
+    try { sessionStorage.removeItem(STORAGE_DRAFT); } catch (e) { /* ignore */ }
+    inputMain.value = "";
+    if (spinFace) {
+      spinFace.textContent = "Tap spin";
+      spinFace.classList.add("wait");
+    }
+    closeReceipt();
+    location.hash = "#network";
+    landAtTop();
+    maybeShowWelcome();
+    refreshWelcomeGate();
+    route();
+  }
+
+  function removeEvent(id) {
+    const events = loadOs().filter((ev) => ev.id !== id);
+    saveOs(events);
+    rebuildActQueue(events);
+    closeReceipt();
+    renderOsTray(-1);
+    renderUnitLights();
+    if (!events.length) endSession();
+  }
+
+  function markerType(ev) {
+    const m = ev.marker || (ev.act && ev.act.marker);
+    return (m && m.type) || "anonymous";
+  }
+
+  function unitHoldings() {
+    const holdings = {};
+    loadOs().forEach((ev) => {
+      if (ev.os !== "act") return;
+      const type = markerType(ev);
+      (ev.units || []).forEach((u) => {
+        if (!holdings[u]) holdings[u] = new Set();
+        holdings[u].add(type);
+      });
+    });
+    return holdings;
+  }
+
+  function holdingsLabel(hats) {
+    if (!hats || !hats.size) return "No data held this session";
+    const parts = [];
+    if (hats.has("confidential")) parts.push("confidential");
+    if (hats.has("anonymous")) parts.push("anonymous");
+    return parts.join(" + ") + " on this device";
+  }
+
+  function unitEvents(unit) {
+    return loadOs().filter((ev) => ev.os === "act" && (ev.units || []).includes(unit));
+  }
+
+  function renderUnitLights(recent, linkedUnits) {
+    const holdings = unitHoldings();
+    const currentHat = getMarker().type;
+    const activeUnit = normalizeHash();
+    const linked = linkedUnits ? new Set(linkedUnits) : null;
+    Object.keys(nav).forEach((k) => {
+      const el = nav[k];
+      const hats = holdings[k];
+      const tagged = !!(hats && hats.size);
+      el.classList.toggle("tagged", tagged);
+      el.classList.toggle("untagged", !tagged);
+      el.classList.toggle("has-anonymous", !!(hats && hats.has("anonymous")));
+      el.classList.toggle("has-confidential", !!(hats && hats.has("confidential")));
+      el.classList.toggle("receipt-linked", !!(linked && linked.has(k)));
+      const onUnit = activeUnit === k && !document.body.classList.contains("receipt-open");
+      el.classList.toggle("hat-anonymous", onUnit && currentHat === "anonymous");
+      el.classList.toggle("hat-confidential", onUnit && currentHat === "confidential");
+      el.classList.toggle("lit-recent", !!(recent && recent.os === "act" && (recent.units || []).includes(k)));
+      const badge = hatBadges[k];
+      if (badge) badge.textContent = onUnit ? (HAT_ICON[currentHat] || "") : "";
+      const base = UNIT_LABEL[k] || k;
+      const count = unitEvents(k).length;
+      let label = base;
+      if (tagged) label += " — holds " + count + " on device";
+      else label += " — no data";
+      el.setAttribute("aria-label", label);
+      el.title = tagged ? count + " receipt(s) on device" : "No data held";
+    });
+  }
+
+  function openUnitWallet(unit) {
+    const events = unitEvents(unit);
+    if (!events.length) return false;
+    walletUnit = unit;
+    let label = unit === "acme" ? "Acme" : unit;
+    
+    receiptTitle.textContent = label + " · wallet";
+    receiptSummary.hidden = true;
+    receiptSummary.textContent = "";
+    const lines = events.map((ev, i) => {
+      return "[" + (i + 1) + "] " + eventLabel(ev) + " · " + ev.at + "\n" + JSON.stringify(ev, null, 2);
+    });
+    lines.push("", countLines(events.length) + " on this device — anonymous until you register.");
+    receiptBody.textContent = lines.join("\n\n");
+    registerSave.hidden = true;
+    removeEventBtn.hidden = true;
+    openUnitBtn.hidden = false;
+    openUnitBtn.textContent = "Open " + label + " →";
+    document.body.classList.add("receipt-open");
+    appPanel.hidden = true;
+    receiptModal.hidden = false;
+    receiptModal.classList.add("open");
+    renderUnitLights(null, [unit]);
+    return true;
+  }
+
+  function countLines(n) {
+    return n + " receipt" + (n === 1 ? "" : "s");
+  }
+
+  function eventSummary(ev) {
+    if (ev.os === "visit") {
+      const place = PLACE_LABEL[ev.where] || ev.where || "?";
+      return "Visit · " + place + " — browse only";
+    }
+    if (ev.os === "compose") {
+      return "Draft · OS agent — not sent yet";
+    }
+    if (ev.os === "act") {
+      const act = ev.act || {};
+      if (act.act === "agent") {
+        const msg = (ev.text || act.message || "").trim();
+        return "OS · agent" + (msg ? " — " + msg.slice(0, 48) : "");
+      }
+      if (act.act === "grant-request" && act.business_unit === "acme") {
+        const spin = (act.note || "").match(/spin:\s*(.+)/i);
+        return "Acme · grant" + (spin ? " · " + spin[1].split(/\s+/)[0] : "");
+      }
+      return "Act · " + (act.act || "?");
+    }
+    return "Event";
+  }
+
+  function eventLabel(ev) {
+    if (ev.os === "compose") return "draft";
+    if (ev.os === "visit") return WHERE_LABEL[ev.where] || (ev.where || "?").slice(0, 4);
+    if (ev.os === "act") {
+      const act = ev.act || {};
+      if (act.act === "grant-request") {
+        const spin = (act.note || "").match(/spin:\s*(.+)/i);
+        if (spin) return spin[1].split(/\s+/)[0];
+        return "Ac";
+      }
+      if (act.act === "agent") return "OS";
+      if (act.act === "inbox") return "↵";
+      return (act.act || "?").slice(0, 3);
+    }
+    return "?";
+  }
+
+  function eventClass(ev) {
+    if (ev.os === "compose") return "compose";
+    if (ev.os === "visit") return ev.external ? "visit ext" : "visit";
+    return "act";
+  }
+
+  function renderOsTray(highlightIndex) {
+    const events = loadOs();
+    osTray.innerHTML = "";
+    events.forEach((ev, index) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "atom event " + eventClass(ev);
+      if (index === highlightIndex) btn.classList.add("drop");
+      if (ev.id === selectedEventId) btn.classList.add("sel");
+      btn.textContent = eventLabel(ev);
+      const hint = eventSummary(ev) + " · " + [ev.at, (ev.units || []).join("+")].filter(Boolean).join(" · ");
+      btn.title = hint;
+      btn.setAttribute("aria-label", eventLabel(ev));
+      btn.addEventListener("click", () => showEvent(ev));
+      osTray.appendChild(btn);
+    });
+    osTray.classList.toggle("empty", events.length === 0);
+    if (events.length && highlightIndex >= 0) {
+      osTray.lastElementChild.scrollIntoView({ block: "nearest", inline: "end", behavior: "smooth" });
+    }
+  }
+
+  function loadShortcuts() {
+    try { return JSON.parse(localStorage.getItem("5et-shortcuts") || "[]"); }
+    catch (e) { return []; }
+  }
+
+  function renderShortcuts() {
+    shortcutRow.innerHTML = "";
+    loadShortcuts().forEach((id) => {
+      const def = landmarks[id];
+      if (!def) return;
+      const el = document.createElement("a");
+      el.className = "atom";
+      el.href = "#" + def.hash;
+      el.title = def.label;
+      el.textContent = def.label;
+      shortcutRow.appendChild(el);
+    });
+    syncShortcutSpace();
+  }
+
+  function loadEscapeSide() {
+    try {
+      const side = localStorage.getItem(STORAGE_ESCAPE_SIDE);
+      if (side === "left" || side === "right") return side;
+    } catch (e) { /* ignore */ }
+    return "left";
+  }
+
+  function renderEscapeSide() {
+    shortcutSpace.classList.toggle("escape-right", loadEscapeSide() === "right");
+  }
+
+  function toggleEscapeSide() {
+    const next = loadEscapeSide() === "left" ? "right" : "left";
+    try { localStorage.setItem(STORAGE_ESCAPE_SIDE, next); } catch (e) { /* ignore */ }
+    renderEscapeSide();
+    flashStatus("Escape on " + next, false);
+  }
+
+  function syncShortcutSpace() {
+    const hasEscape = !escapeAtom.hidden;
+    const hasShortcuts = shortcutRow.children.length > 0;
+    shortcutSpace.classList.toggle("empty", !hasEscape && !hasShortcuts);
+  }
+
+  function normalizeHash() {
+    let hash = (location.hash || "#network").replace("#", "").toLowerCase();
+    if (hash === "home" || hash === "inbox" || hash === "interest") hash = "network";
+    if (!hash) hash = "network";
+    if (!views[hash]) hash = "network";
+    return hash;
+  }
+
+  function route() {
+    if (document.body.classList.contains("receipt-open")) closeReceipt();
+    const name = normalizeHash();
+    Object.entries(views).forEach(([key, el]) => {
+      const on = key === name;
+      el.classList.toggle("on", on);
+      el.setAttribute("aria-hidden", on ? "false" : "true");
+    });
+    Object.keys(nav).forEach((k) => nav[k].classList.toggle("active", k === name));
+    updateCoord(name);
+    updateAppsHeading(name);
+    const onNetwork = name === "network";
+    appPanel.hidden = onNetwork;
+    escapeAtom.hidden = onNetwork;
+    
+    syncShortcutSpace();
+    if (welcomeAccepted()) {
+      const last = loadOs().slice(-1)[0];
+      const sameVisit = last && last.os === "visit" && last.where === name;
+      if (!sameVisit) logOs({ os: "visit", where: name, text: currentText() }, false);
+    }
+    renderUnitLights();
+    renderLayerFive(name);
+    renderAppWallet(name);
+    if (name === "network") landAtTop();
+    if (name === "network") renderShortcuts();
+  }
+
+  function collectAct(act) {
+    logOs({ os: "act", act, text: currentText() }, true);
+  }
+
+  let toastTimer = null;
+
+  function hideToast() {
+    if (toastTimer) { clearTimeout(toastTimer); toastTimer = null; }
+    toast.hidden = true;
+    toast.textContent = "";
+    toast.classList.remove("err");
+  }
+
+  function clearStatus() {
+    hideToast();
+    closeReceipt();
+  }
+
+  function closeReceipt() {
+    document.body.classList.remove("receipt-open");
+    receiptModal.hidden = true;
+    receiptModal.classList.remove("open");
+    registerSave.hidden = true;
+    removeEventBtn.hidden = true;
+    openUnitBtn.hidden = true;
+    walletUnit = null;
+    selectedEventId = null;
+    receiptBody.textContent = "";
+    receiptSummary.textContent = "";
+    receiptSummary.hidden = true;
+    receiptTitle.textContent = "Receipt · OS";
+    renderOsTray(-1);
+    renderUnitLights();
+    const onNetwork = normalizeHash() === "network";
+    appPanel.hidden = onNetwork;
+  }
+
+  function flashStatus(text, isError) {
+    hideToast();
+    toast.textContent = text;
+    toast.classList.toggle("err", !!isError);
+    toast.hidden = false;
+    if (!isError) {
+      toastTimer = setTimeout(hideToast, 2800);
+    }
+  }
+
+  function openReceipt(ev) {
+    hideToast();
+    walletUnit = null;
+    openUnitBtn.hidden = true;
+    selectedEventId = ev.id;
+    receiptTitle.textContent = "Receipt · OS";
+    receiptSummary.hidden = false;
+    receiptSummary.textContent = eventSummary(ev);
+    document.body.classList.add("receipt-open");
+    appPanel.hidden = true;
+    const lines = [JSON.stringify(ev, null, 2), "", "OS layer — on this device only."];
+    if (ev.os === "act") {
+      lines.push("Anonymous by default. Remove below or clear 🕶️ in dock.");
+    }
+    receiptBody.textContent = lines.join("\n");
+    removeEventBtn.hidden = false;
+    if (ev.os === "act") registerSave.hidden = false;
+    receiptModal.hidden = false;
+    receiptModal.classList.add("open");
+    renderOsTray(-1);
+    renderUnitLights(null, ev.units || []);
+  }
+
+  function showEvent(ev) {
+    if (selectedEventId === ev.id && document.body.classList.contains("receipt-open")) {
+      closeReceipt();
+      return;
+    }
+    openReceipt(ev);
+  }
+
+  removeEventBtn.addEventListener("click", () => {
+    if (!selectedEventId) return;
+    if (!confirm("Remove this act record from your device?\n\nIf this was the last one, you withdraw acceptance — enter again before the next act.")) return;
+    removeEvent(selectedEventId);
+  });
+  receiptBackdrop.addEventListener("click", closeReceipt);
+  receiptDismiss.addEventListener("click", closeReceipt);
+  openUnitBtn.addEventListener("click", () => {
+    if (!walletUnit) return;
+    closeReceipt();
+    location.hash = "#" + walletUnit;
+  });
+  document.getElementById("unit-wallet").addEventListener("click", () => {
+    const name = normalizeHash();
+    if (unitEvents(name).length) openUnitWallet(name);
+  });
+  welcomeDismiss.addEventListener("click", dismissWelcome);
+
+  function openShare() {
+    if (shareUrl) shareUrl.textContent = NETWORK_FRAME_URL;
+    shareModal.hidden = false;
+    shareModal.classList.add("open");
+  }
+
+  function closeShare() {
+    shareModal.classList.remove("open");
+    shareModal.hidden = true;
+  }
+
+  if (storeShare) storeShare.addEventListener("click", openShare);
+  document.getElementById("share-backdrop").addEventListener("click", closeShare);
+  document.getElementById("share-dismiss").addEventListener("click", closeShare);
+
+  function openRegister() {
+    location.hash = "#network";
+    inputMain.value = "Register — save my receipts across devices.";
+    inputMain.readOnly = false;
+    saveDraft();
+    route();
+    inputMain.focus();
+  }
+
+  function dropSeed(message) {
+    const view = normalizeHash();
+    
+    if (!message) {
+      flashStatus("Type a message first.", true);
+      return;
+    }
+    let act;
+    if (view === "acme") {
+      act = {
+        act: "grant-request",
+        marker: getMarker(),
+        business_unit: "acme",
+        entitlement: "casino-spin",
+        note: message,
+      };
+      collectAct(act);
+    } else {
+      act = {
+        act: "agent",
+        marker: getMarker(),
+        message,
+      };
+      logOs({ os: "act", act, text: message }, true);
+    }
+    inputMain.value = "";
+    saveDraft();
+  }
+
+  function acmeKnock(extra) {
+    const note = [acmeNote(), extra].filter(Boolean).join(" — ") || undefined;
+    collectAct({
+      act: "grant-request",
+      marker: getMarker(),
+      business_unit: "acme",
+      entitlement: "casino-spin",
+      note,
+    });
+  }
+
+  try {
+    const draft = sessionStorage.getItem(STORAGE_DRAFT);
+    if (draft) inputMain.value = draft;
+  } catch (e) { /* ignore */ }
+
+  function saveDraft() {
+    try { sessionStorage.setItem(STORAGE_DRAFT, inputMain.value); }
+    catch (e) { /* ignore */ }
+  }
+
+  inputMain.addEventListener("input", () => {
+    if (document.body.classList.contains("receipt-open")) closeReceipt();
+    saveDraft();
+    clearTimeout(composeTimer);
+    composeTimer = setTimeout(() => {
+      if (!welcomeAccepted()) return;
+      const text = currentText();
+      if (!text) return;
+      const events = loadOs();
+      const last = events[events.length - 1];
+      if (last && last.os === "compose" && last.text === text) return;
+      logOs({ os: "compose", text }, false);
+    }, 1800);
+  });
+
+  enterBtn.addEventListener("click", () => dropSeed(inputMain.value.trim()));
+  inputMain.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" && !event.shiftKey) {
+      event.preventDefault();
+      dropSeed(inputMain.value.trim());
+    }
+  });
+
+  function spinWheel() {
+    const n = WHEEL[Math.floor(Math.random() * WHEEL.length)];
+    const colour = n === "0" ? "green" : RED.has(n) ? "red" : "black";
+    return { n, colour, label: n + " " + colour };
+  }
+
+  function acmeNote() {
+    const draft = inputMain.value.trim();
+    if (draft) return draft;
+    const events = loadOs();
+    for (let i = events.length - 1; i >= 0; i--) {
+      const ev = events[i];
+      if (ev.os === "visit" && ev.where === "acme" && ev.draft) return ev.draft;
+    }
+    return undefined;
+  }
+
+  
+
+  document.getElementById("acme-spin").addEventListener("click", () => {
+    const result = spinWheel();
+    spinFace.classList.remove("wait");
+    spinFace.textContent = result.label;
+    acmeKnock("spin: " + result.label);
+  });
+
+  function clearLocalHistory() {
+    if (!confirm("Withdraw act-record acceptance?\n\nAll receipts on this device will be removed. Enter again before the next act.")) {
+      return;
+    }
+    try { sessionStorage.removeItem(STORAGE_OS); } catch (e) { /* ignore */ }
+    try { sessionStorage.removeItem("5et-nav-trail"); } catch (e) { /* ignore */ }
+    try { sessionStorage.removeItem("5et-visited-landmarks"); } catch (e) { /* ignore */ }
+    try { sessionStorage.removeItem(STORAGE_SCOPE); } catch (e) { /* ignore */ }
+    try { sessionStorage.removeItem(STORAGE_MARKER); } catch (e) { /* ignore */ }
+    try { localStorage.removeItem(STORAGE_QUEUE); } catch (e) { /* ignore */ }
+    setScope(isStandalone() ? "confidential" : "network");
+    renderShortcuts();
+    endSession();
+  }
+
+  document.getElementById("clear-history").addEventListener("click", clearLocalHistory);
+  registerSave.addEventListener("click", openRegister);
+  hatBtn.addEventListener("click", cycleHat);
+  scopeNetwork.addEventListener("click", () => {
+    if (getScope() !== "network") {
+      setScope("network");
+      landAtTop();
+    }
+  });
+  scopeConfidential.addEventListener("click", () => {
+    if (getScope() !== "confidential") tryInstallEnclave();
+  });
+  enclaveCta.addEventListener("click", tryInstallEnclave);
+
+  window.addEventListener("beforeinstallprompt", (event) => {
+    event.preventDefault();
+    deferredInstall = event;
+    renderEnclaveCta();
+  });
+
+  let escapeHoldTimer = null;
+  let escapeHeld = false;
+  escapeAtom.addEventListener("pointerdown", (event) => {
+    escapeHeld = false;
+    escapeHoldTimer = setTimeout(() => {
+      escapeHeld = true;
+      toggleEscapeSide();
+    }, 550);
+  });
+  escapeAtom.addEventListener("pointerup", () => {
+    if (escapeHoldTimer) { clearTimeout(escapeHoldTimer); escapeHoldTimer = null; }
+  });
+  escapeAtom.addEventListener("pointerleave", () => {
+    if (escapeHoldTimer) { clearTimeout(escapeHoldTimer); escapeHoldTimer = null; }
+  });
+  escapeAtom.addEventListener("click", (event) => {
+    if (escapeHeld) {
+      event.preventDefault();
+      escapeHeld = false;
+    }
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!document.body.classList.contains("receipt-open")) return;
+    const t = event.target;
+    if (receiptModal.contains(t)) return;
+    if (osTray.contains(t)) return;
+    if (t.closest(".atom.event")) return;
+    if (t.closest(".dock-foot")) return;
+    if (t.closest(".app.receipt-linked")) return;
+    closeReceipt();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape") return;
+    if (document.body.classList.contains("receipt-open")) closeReceipt();
+    else if (shareModal && !shareModal.hidden) closeShare();
+  });
+
+  const appsHeading = document.getElementById("apps-heading");
+  if (appsHeading) updateAppsHeading(normalizeHash());
+
+  renderEscapeSide();
+  if (isStandalone()) setScope("confidential");
+  else renderScope();
+  renderHat();
+  renderLayerFive(normalizeHash());
+  landAtTop();
+  renderShortcuts();
+  renderOsTray(-1);
+  renderUnitLights();
+  maybeShowWelcome();
+  refreshWelcomeGate();
+  window.addEventListener("hashchange", route);
+  if (!location.hash || location.hash === "#home") history.replaceState(null, "", "#network");
+  route();
+})();
+</script>
+<!-- 🤖 Last AI edit: 2026-09-08 20:35 · grok-4.6 · app store share QR -->
+</body>
+</html>
