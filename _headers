@@ -1,0 +1,14 @@
+/frame
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+  Clear-Site-Data: "cache"
+
+/frame.eink
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+  Clear-Site-Data: "cache"
+
+/frame.eink.html
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+  Clear-Site-Data: "cache"
+
+/frame.html
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
