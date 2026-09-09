@@ -4,25 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1212` · 2026-09-08 16:58 UTC
+`FRAME #1213` · 2026-09-09 07:43 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1212** · 57 ticks · 1 d 6 h · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1213** · 58 ticks · 1 d 21 h · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1202 | [seed-crystallisation RP-10](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
 | 1202 | [seed-crystallisation RP-11](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
+| 1202 | [seed-crystallisation RP-10](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
 | 1201 | [botta RP-1](projects/botta/_contracts/botta.REVIEW.md) | Raised for your decision. |
 | 1200 | [llm-interaction-import RP-1](Operations/_contracts/llm-interaction-import.REVIEW.md) | Raised for your decision. |
 | 1200 | [Searchland Partnership Services Agreement](Operations/_work/approvals/contract-proposal-searchland-partnership-services-agreement.md) | Raised for your decision. |
-| 1188 | [deal-routing RP-1](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1188 | [deal-routing RP-2](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1188 | [deal-routing RP-1](projects/ema-sa/_contracts/deal-routing.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 
 **Elsewhere**
 
@@ -47,16 +47,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁▄▁▄▁▁▁▄▁▁▁▄▃▁▁▆▄▁▁▁▄▁▁▆▄▁▁▁▄▁▁▁▄▁▁▁
+█▁▁▄▁▁▁▄▁▁▁▄▁▆▁▄▁▁▁▄▁▁▁▄▁▄▁▁▁▄▁▁▁▄▃▁▁▆▄▁▁▁▄▁▁▆▄▁▁▁▄▁▁▁▄▁▁▁▄
 █ latest move · 10:23
-▁–█ tick-report activity · 57 reports · 1 d 6 h   (frames #1156 → #1212)
+▁–█ tick-report activity · 58 reports · 1 d 21 h   (frames #1156 → #1213)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **57** |
-| Time since latest move | 1 d 6 h |
+| Tick reports since latest move | **58** |
+| Time since latest move | 1 d 21 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -107,14 +107,12 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ✕ Open review points — 33
+## ✕ Open review points — 32
 
 | Contract | Point | Status |
 |---|---|---|
 | [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-3: New evidence reopens the cost basis on which RP-1 was resolved | open |
 | [calendar-import](projects/ema-sa/_contracts/calendar-import.REVIEW.md) | RP-1: OAuth scopes | open |
-| [hubspot-import](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | RP-1: Owner filter implementation | open |
-| [hubspot-import](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | RP-2: Binding to accounts/ | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-2: The company turn has no completion criterion | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-3: Support wrappers are created without an idempotency check | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-5: Contract proposals bypass the canonical attention stream | open |
@@ -128,6 +126,7 @@ Nothing is waiting on you. The company may still have work to do.
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-11: Shortcuts as propagation, not autonomous projects | open — plan only; section 5 unchanged until Director amends |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-8: Index seed counts do not match the themes | open |
 | [botta](projects/botta/_contracts/botta.REVIEW.md) | RP-1: No one at BOTTA has been named | open |
+| [deal-page](projects/ema-sa/_contracts/deal-page.REVIEW.md) | RP-1: Unit dashboard Deals columns | open |
 | [email-import](projects/ema-sa/_contracts/email-import.REVIEW.md) | RP-4: `gmail.imap` capability not yet registered | open |
 | [email-import](projects/ema-sa/_contracts/email-import.REVIEW.md) | RP-5: Shadow compare against ema-mcp gold | open |
 | [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-4: Partner routing and AI classification omitted | open |
@@ -196,4 +195,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1212 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1213 · immediate mode, no client state</sub>
