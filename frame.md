@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1251` · 2026-09-10 08:54 UTC
+`FRAME #1252` · 2026-09-10 09:11 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1251** · 96 ticks · 2 d 22 h · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1252** · 97 ticks · 2 d 22 h · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
@@ -20,8 +20,8 @@
 | 1213 | [hubspot-import RP-2](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1213 | [hubspot-import RP-1](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1213 | [deal-page RP-1](projects/ema-sa/_contracts/deal-page.REVIEW.md) | Raised for your decision. |
-| 1202 | [seed-crystallisation RP-11](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
 | 1202 | [seed-crystallisation RP-10](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
+| 1202 | [seed-crystallisation RP-11](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
 | 1201 | [botta RP-1](projects/botta/_contracts/botta.REVIEW.md) | Raised for your decision. |
 
 **Elsewhere**
@@ -33,7 +33,7 @@
 | 1168 | [Operations](Operations/dashboard.md) | Load 41 → 42 active. |
 | 1168 | [St. James AI Networking Event Attendance](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md) | Created. |
 
-Beneath it: 0 progressed, 3 created, 475 inspected without change.
+Beneath it: 0 progressed, 3 created, 494 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -48,9 +48,9 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▆▄▁▁▁▄▁▁▆▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▆▄▁▁▁▄▁▁▁▄▁▁▁▄▁▄▄▁▁▁▄
+█▄▁▁▁▄▁▁▆▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▆▄▁▁▁▄▁▁▁▄▁▁▁▄▁▄▄▁▁▁▄▁
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 2 d 22 h   (frames #1192 → #1251)
+▁–█ tick-report activity · 60 reports · 2 d 22 h   (frames #1193 → #1252)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -197,4 +197,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1251 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1252 · immediate mode, no client state</sub>
