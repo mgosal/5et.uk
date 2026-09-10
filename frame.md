@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1262` · 2026-09-10 11:49 UTC
+`FRAME #1263` · 2026-09-10 12:05 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1262** · 107 ticks · 3 d 1 h · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1263** · 108 ticks · 3 d 1 h · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
@@ -48,9 +48,9 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▆▄▁▁▁▄▁▁▁▄▁▁▁▄▁▄▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▁
+█▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▆▄▁▁▁▄▁▁▁▄▁▁▁▄▁▄▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 3 d 1 h   (frames #1203 → #1262)
+▁–█ tick-report activity · 60 reports · 3 d 1 h   (frames #1204 → #1263)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -197,4 +197,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1262 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1263 · immediate mode, no client state</sub>
