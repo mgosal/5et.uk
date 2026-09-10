@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1263.md" style="font-size:11px; color:#5f6368;">#1263</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1264.md" style="font-size:11px; color:#5f6368;">#1264</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -42,35 +42,11 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1263](_pipeline/reports/tick-1263.md)** · 2026-09-10 12:05 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1264](_pipeline/reports/tick-1264.md)** · 2026-09-10 12:28 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
 - No durable work-item changes in this tick.
-
-<details><summary>Inspected without change (19)</summary>
-
-- [A.005](Accounts/_work/A.005-privacy-screen-protector.md) — A.005-privacy-screen-protector
-- [A.011](Accounts/_work/A.011-Retail-Receipt.md) — A.011-Retail-Receipt
-- [A.014](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) — A.014-Google-One-Subscription-Receipt
-- [A.016](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) — A.016-Processing-fuel-receipt-for-business-travel
-- [A.017](Accounts/_work/A.017-incorporation-expense.md) — A.017-incorporation-expense
-- [A.018](Accounts/_work/A.018-ico-data-protection-fee.md) — A.018-ico-data-protection-fee
-- [A.019](Accounts/_work/A.019-google-play-subscription-may.md) — A.019-google-play-subscription-may
-- [C.036](Compliance/_work/C.036-LLM-processing-of-personal-data-risk.md) — C.036-LLM-processing-of-personal-data-risk
-- [C.037](Compliance/_work/C.037-Anonymous-User-Experience-and-Contract-Framework.md) — C.037-Anonymous-User-Experience-and-Contract-Framework
-- [O.424](Operations/_work/O.424-attention-event-experiment.md) — O.424-attention-event-experiment
-- [O.430](Operations/_work/O.430-stream-deck-attention-mode.md) — O.430-stream-deck-attention-mode
-- [O.437](Operations/_work/O.437-build-conversational-initiative-path.md) — O.437-build-conversational-initiative-path
-- [O.439](Operations/_work/O.439-build-contract-support-loop.md) — O.439-build-contract-support-loop
-- [O.447](Operations/_work/O.447-refine-cloud-connect-direction.md) — O.447-refine-cloud-connect-direction
-- [O.449](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) — O.449-AI-Agent-Development-Platforms-consultation
-- [O.458](Operations/_work/O.458-Supply-chain-constraints-on-hardware-procurement.md) — O.458-Supply-chain-constraints-on-hardware-procurement
-- [O.462](Operations/_work/O.462-Wire-Cortex-local-inference-path.md) — O.462-Wire-Cortex-local-inference-path
-- [O.463](Operations/_work/O.463-Inference-tier-field-and-tier-grouped-execution.md) — O.463-Inference-tier-field-and-tier-grouped-execution
-- [O.468](Operations/_work/O.468-Register-for-St-James-AI-Tech-Related-event.md) — O.468-Register-for-St-James-AI-Tech-Related-event
-
-</details>
 
 ### Company In Progress
 
@@ -99,24 +75,24 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 - **Latest move at**: 2026-09-07T10:23:40.354071+00:00
 - **Latest move**: You responded to Review: Voice Note Import Services Agreement.
 - **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
-- **Latest move tick**: 1204
+- **Latest move tick**: 1205
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-07T10:23:40.354071+00:00
 - **Turn tick**: 1155
 - **Turn commit**: 9bfb5a29
-- **Window**: 108 ticks · 3 d 1 h
+- **Window**: 109 ticks · 3 d 2 h
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 7
 - **Elsewhere**: 4
-- **Beneath**: 0 progressed, 3 created, 532 inspected without change
+- **Beneath**: 0 progressed, 3 created, 551 inspected without change
 
 | Scope | Tick | Item | What happened |
 |---|---:|---|---|
 | yours | 1231 | [Partnership Engagement Services Agreement](Operations/_work/approvals/contract-proposal-partnership-engagement-services-agreement.md) | Raised for your decision. |
-| yours | 1213 | [hubspot-import RP-2](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | yours | 1213 | [hubspot-import RP-1](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| yours | 1213 | [hubspot-import RP-2](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | yours | 1213 | [deal-page RP-1](projects/ema-sa/_contracts/deal-page.REVIEW.md) | Raised for your decision. |
 | yours | 1202 | [seed-crystallisation RP-11](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
 | yours | 1202 | [seed-crystallisation RP-10](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
@@ -143,7 +119,6 @@ Nothing presented and unanswered.
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1204](_pipeline/reports/tick-1204.md) | 5.9s | 0 | 0 | 0 | 0 |
 | [#1205](_pipeline/reports/tick-1205.md) | 131.1s | 19 | 0 | 0 | 0 |
 | [#1206](_pipeline/reports/tick-1206.md) | 6.3s | 0 | 0 | 0 | 0 |
 | [#1207](_pipeline/reports/tick-1207.md) | 6.8s | 0 | 0 | 0 | 0 |
@@ -203,6 +178,7 @@ Nothing presented and unanswered.
 | [#1261](_pipeline/reports/tick-1261.md) | 6.5s | 0 | 0 | 0 | 0 |
 | [#1262](_pipeline/reports/tick-1262.md) | 6.3s | 0 | 0 | 0 | 0 |
 | [#1263](_pipeline/reports/tick-1263.md) | 444.7s | 19 | 0 | 0 | 0 |
+| [#1264](_pipeline/reports/tick-1264.md) | 6.8s | 0 | 0 | 0 | 0 |
 
 ## Health
 
@@ -210,10 +186,10 @@ Nothing presented and unanswered.
 |----------|--------|--------|---------|------|
 | [Accounts](Accounts/dashboard.md) | 🔄 | 2 | 0 | 13 |
 | [Compliance](Compliance/dashboard.md) | ⏸️ | 9 | 1 | 13 |
-| [Operations](Operations/dashboard.md) | ⚠️ | 42 | 0 | 454 |
+| [Operations](Operations/dashboard.md) | ⚠️ | 43 | 0 | 454 |
 | [People](People/dashboard.md) | ⚠️ | 6 | 0 | 1 |
 | [Services](Services/dashboard.md) | 🔄 | 1 | 0 | 11 |
-| **Total** | | **60** | **1** | **492** |
+| **Total** | | **61** | **1** | **492** |
 
 ### Work Item Distribution
 
@@ -221,7 +197,7 @@ Nothing presented and unanswered.
 pie title Active Work Items by Function
     "Accounts" : 2
     "Compliance" : 9
-    "Operations" : 42
+    "Operations" : 43
     "People" : 6
     "Services" : 1
 ```
@@ -232,13 +208,13 @@ pie title Active Work Items by Function
 pie title Active Status Distribution
     "awaiting-approval" : 1
     "in-progress" : 13
-    "open" : 46
+    "open" : 47
     "submitted" : 1
 ```
 
 ## Attention
 
-### Decisions Waiting (26 of 48 need you)
+### Decisions Waiting (27 of 49 need you)
 
 Grouped by what each is waiting on. The first two groups are yours.
 
@@ -248,10 +224,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 |------|---------|--------|-------------|------|
 | Review point | voice-note-import-contract RP-3 | minor — New evidence reopens the cost basis on which RP-1 wa | blocks approval only | [View](Operations/_contracts/voice-note-import-contract.REVIEW.md) |
 
-**Your review (25)** — One proposed action each — confirm or send back
+**Your review (26)** — One proposed action each — confirm or send back
 
 | Kind | Subject | Detail | Consequence | Link |
 |------|---------|--------|-------------|------|
+| Contract proposal | LLM Interaction Import Services Agreement | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-llm-interaction-import-services-agreement.md) |
 | Contract proposal | Sales Workflow Formalization | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sales-workflow-formalization.md) |
 | Contract proposal | SDLC Process Review Services Agreement | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) |
 | Contract proposal | Support Amendment — Seed Crystallisation | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-seed_crystallisation-support-amendment.md) |
@@ -373,14 +350,14 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1263
+**Total Ticks**: 1264
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-10 13:05 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-10 13:28 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-10 13:05 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-10 13:05 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
+| processor-discover | 🟢 Yes | ✅ ok | — | 1 processed, 1 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
 | whatsapp | 🟢 Yes | ✅ ok | 2026-09-10 13:05 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
@@ -392,11 +369,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-10 13:28](_pipeline/logs/2026-09-10_13-28-22.md) | 7s | [✓](_pipeline/logs/2026-09-10_13-28-22.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
+| [2026-09-10 13:19](_pipeline/logs/processor-discover-20260910-121931.md) | 0s | — | 1 items, 1 created |
 | [2026-09-10 13:05](_pipeline/logs/2026-09-10_13-05-26.md) | 445s | [✓](_pipeline/logs/2026-09-10_13-05-26.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-10_13-05-26.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-10_13-05-26.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-09-10_13-05-26.md#processor-progress) 0 progressed | $0.0000 | ~0.185g |
 | [2026-09-10 12:49](_pipeline/logs/2026-09-10_12-49-52.md) | 6s | [✓](_pipeline/logs/2026-09-10_12-49-52.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-10 12:34](_pipeline/logs/2026-09-10_12-34-20.md) | 6s | [✓](_pipeline/logs/2026-09-10_12-34-20.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
-| [2026-09-10 12:18](_pipeline/logs/2026-09-10_12-18-47.md) | 6s | [✓](_pipeline/logs/2026-09-10_12-18-47.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
-| [2026-09-10 12:01](_pipeline/logs/2026-09-10_12-01-53.md) | 83s | [✓](_pipeline/logs/2026-09-10_12-01-53.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-10_12-01-53.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-10_12-01-53.md#processor-discover) 0 processed, 0 created | [✓](_pipeline/logs/2026-09-10_12-01-53.md#processor-progress) 0 progressed | $0.0000 | ~0.035g |
 
 ### Source Topology
 
