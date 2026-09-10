@@ -4,24 +4,24 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1252` · 2026-09-10 09:11 UTC
+`FRAME #1253` · 2026-09-10 09:26 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1252** · 97 ticks · 2 d 22 h · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1253** · 98 ticks · 2 d 23 h · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
 | 1231 | [Partnership Engagement Services Agreement](Operations/_work/approvals/contract-proposal-partnership-engagement-services-agreement.md) | Raised for your decision. |
-| 1213 | [hubspot-import RP-2](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1213 | [hubspot-import RP-1](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1213 | [hubspot-import RP-2](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1213 | [deal-page RP-1](projects/ema-sa/_contracts/deal-page.REVIEW.md) | Raised for your decision. |
-| 1202 | [seed-crystallisation RP-10](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
 | 1202 | [seed-crystallisation RP-11](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
+| 1202 | [seed-crystallisation RP-10](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
 | 1201 | [botta RP-1](projects/botta/_contracts/botta.REVIEW.md) | Raised for your decision. |
 
 **Elsewhere**
@@ -48,16 +48,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▄▁▁▁▄▁▁▆▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▆▄▁▁▁▄▁▁▁▄▁▁▁▄▁▄▄▁▁▁▄▁
+█▁▁▁▄▁▁▆▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▆▄▁▁▁▄▁▁▁▄▁▁▁▄▁▄▄▁▁▁▄▁▁
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 2 d 22 h   (frames #1193 → #1252)
+▁–█ tick-report activity · 60 reports · 2 d 23 h   (frames #1194 → #1253)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 2 d 22 h |
+| Time since latest move | 2 d 23 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -197,4 +197,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1252 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1253 · immediate mode, no client state</sub>
