@@ -4,33 +4,33 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1264` · 2026-09-10 12:28 UTC
+`FRAME #1265` · 2026-09-10 12:43 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1264** · 109 ticks · 3 d 2 h · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1265** · 110 ticks · 3 d 2 h · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
+| 1264 | [LLM Interaction Import Services Agreement](Operations/_work/approvals/contract-proposal-llm-interaction-import-services-agreement.md) | Raised for your decision. |
 | 1231 | [Partnership Engagement Services Agreement](Operations/_work/approvals/contract-proposal-partnership-engagement-services-agreement.md) | Raised for your decision. |
-| 1213 | [hubspot-import RP-1](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1213 | [hubspot-import RP-2](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1213 | [hubspot-import RP-1](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1213 | [deal-page RP-1](projects/ema-sa/_contracts/deal-page.REVIEW.md) | Raised for your decision. |
-| 1202 | [seed-crystallisation RP-11](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
 | 1202 | [seed-crystallisation RP-10](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
-| 1201 | [botta RP-1](projects/botta/_contracts/botta.REVIEW.md) | Raised for your decision. |
+| 1202 | [seed-crystallisation RP-11](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
 
 **Elsewhere**
 
 | Tick | Item | What happened |
 |---:|---|---|
+| 1264 | [Operations](Operations/dashboard.md) | Load 41 → 43 active. |
 | 1231 | [Call with SearchLand regarding partnership](projects/store-dash/_work/SD.327-Call-with-SearchLand-regarding-partnership.md) | Created. |
 | 1200 | [Searchland API Trial and Partnership Coordination](projects/store-dash/_work/SD.326-Searchland-API-Trial-and-Partnership-Coordination.md) | Created. |
-| 1168 | [Operations](Operations/dashboard.md) | Load 41 → 42 active. |
 | 1168 | [St. James AI Networking Event Attendance](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md) | Created. |
 
 Beneath it: 0 progressed, 3 created, 551 inspected without change.
@@ -48,9 +48,9 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▄▁▁▁▄▁▁▁▄▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▆▄▁▁▁▄▁▁▁▄▁▁▁▄▁▄▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁
+█▁▁▁▄▁▁▁▄▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▆▄▁▁▁▄▁▁▁▄▁▁▁▄▁▄▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 3 d 2 h   (frames #1205 → #1264)
+▁–█ tick-report activity · 60 reports · 3 d 2 h   (frames #1206 → #1265)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -197,4 +197,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 08:52 | **you** | Responded · model |
 | 09-07 08:19 | company | Cue published · model |
 
-<sub>Rendered from the repo at frame #1264 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1265 · immediate mode, no client state</sub>
