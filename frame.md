@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1297` · 2026-09-11 12:35 UTC
+`FRAME #1298` · 2026-09-11 12:51 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1296 → #1297** · 1 ticks · 20 min · `352b6e24` · dashboards + tick reports
+**#1296 → #1298** · 2 ticks · 36 min · `352b6e24` · dashboards + tick reports
 
 Nothing surfaced on the frame across this window.
 
@@ -29,16 +29,16 @@ Nothing needs you. The company owes 5.
 **Company owes next:** [LLM Interaction Import Services Agreement](Operations/_work/approvals/contract-proposal-llm-interaction-import-services-agreement.md) — Apply the approved proposal, record the outcome, and settle the obligation.
 
 ```
-█▁
+█▁▁
 █ latest move · 12:19
-▁–█ tick-report activity · 1 reports · 16 min   (frames #1297 → #1297)
+▁–█ tick-report activity · 2 reports · 33 min   (frames #1297 → #1298)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **1** |
-| Time since latest move | 16 min |
+| Tick reports since latest move | **2** |
+| Time since latest move | 33 min |
 | Company obligations | 5 (6 raw records) |
 | Waiting on you | 0 |
 
@@ -179,4 +179,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 09:59 | **you** | Responded · voice |
 | 09-07 09:21 | company | Cue published · voice |
 
-<sub>Rendered from the repo at frame #1297 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1298 · immediate mode, no client state</sub>
