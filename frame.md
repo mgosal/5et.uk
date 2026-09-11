@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1291` · 2026-09-11 10:45 UTC
+`FRAME #1292` · 2026-09-11 11:00 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1291** · 136 ticks · 4 d 0 h · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1292** · 137 ticks · 4 d 0 h · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
@@ -22,7 +22,7 @@
 | 1213 | [hubspot-import RP-2](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1213 | [hubspot-import RP-1](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1213 | [deal-page RP-1](projects/ema-sa/_contracts/deal-page.REVIEW.md) | Raised for your decision. |
-| 1202 | [seed-crystallisation RP-11](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
+| 1202 | [seed-crystallisation RP-10](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
 
 **Elsewhere**
 
@@ -55,9 +55,9 @@ Beneath it: 0 progressed, 11 created, 738 inspected without change.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▄▁▁▁▄▁▁▁▄▁▁▁▄▁▄▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁
+█▁▁▁▄▁▁▁▄▁▁▁▄▁▄▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 4 d 0 h   (frames #1232 → #1291)
+▁–█ tick-report activity · 60 reports · 4 d 0 h   (frames #1233 → #1292)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -206,4 +206,4 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 09-07 09:21 | company | Cue published · voice |
 | 09-07 09:21 | company | Question prepared · voice |
 
-<sub>Rendered from the repo at frame #1291 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1292 · immediate mode, no client state</sub>

@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1291.md" style="font-size:11px; color:#5f6368;">#1291</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1292.md" style="font-size:11px; color:#5f6368;">#1292</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -42,7 +42,7 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1291](_pipeline/reports/tick-1291.md)** · 2026-09-11 10:45 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1292](_pipeline/reports/tick-1292.md)** · 2026-09-11 11:00 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -75,14 +75,14 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 - **Latest move at**: 2026-09-07T10:23:40.354071+00:00
 - **Latest move**: You responded to Review: Voice Note Import Services Agreement.
 - **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
-- **Latest move tick**: 1232
+- **Latest move tick**: 1233
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-07T10:23:40.354071+00:00
 - **Turn tick**: 1155
 - **Turn commit**: 9bfb5a29
-- **Window**: 136 ticks · 4 d 0 h
+- **Window**: 137 ticks · 4 d 0 h
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 7
 - **Elsewhere**: 11
@@ -96,7 +96,7 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 | yours | 1213 | [hubspot-import RP-2](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | yours | 1213 | [hubspot-import RP-1](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | yours | 1213 | [deal-page RP-1](projects/ema-sa/_contracts/deal-page.REVIEW.md) | Raised for your decision. |
-| yours | 1202 | [seed-crystallisation RP-11](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
+| yours | 1202 | [seed-crystallisation RP-10](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
 | elsewhere | 1282 | [Operations](Operations/dashboard.md) | Load 41 → 51 active. |
 | elsewhere | 1282 | [WhatsApp digest: StoreDash Discussions (2026-09-07)](Operations/_work/O.477-WhatsApp-digest-StoreDash-Discussions-2026-09-07.md) | Created. |
 | elsewhere | 1282 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-08)](Operations/_work/O.478-WhatsApp-digest-JatinMandipKash-2026-09-08.md) | Created. |
@@ -128,7 +128,6 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1232](_pipeline/reports/tick-1232.md) | 76.4s | 19 | 0 | 0 | 0 |
 | [#1233](_pipeline/reports/tick-1233.md) | 8.0s | 0 | 0 | 0 | 0 |
 | [#1234](_pipeline/reports/tick-1234.md) | 7.8s | 0 | 0 | 0 | 0 |
 | [#1235](_pipeline/reports/tick-1235.md) | 7.8s | 0 | 0 | 0 | 0 |
@@ -188,6 +187,7 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 | [#1289](_pipeline/reports/tick-1289.md) | 18.7s | 28 | 0 | 0 | 0 |
 | [#1290](_pipeline/reports/tick-1290.md) | 13.7s | 0 | 0 | 0 | 0 |
 | [#1291](_pipeline/reports/tick-1291.md) | 7.8s | 0 | 0 | 0 | 0 |
+| [#1292](_pipeline/reports/tick-1292.md) | 7.8s | 0 | 0 | 0 | 0 |
 
 ## Health
 
@@ -359,11 +359,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1291
+**Total Ticks**: 1292
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-11 11:45 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-11 12:00 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-11 11:13 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-11 11:13 | 0 copied, 0 noise, 0 hal |
 | processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
@@ -378,11 +378,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-11 12:00](_pipeline/logs/2026-09-11_12-00-44.md) | 8s | [✓](_pipeline/logs/2026-09-11_12-00-44.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-11_12-00-44.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
 | [2026-09-11 11:45](_pipeline/logs/2026-09-11_11-45-10.md) | 8s | [✓](_pipeline/logs/2026-09-11_11-45-10.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-11_11-45-10.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
 | [2026-09-11 11:29](_pipeline/logs/2026-09-11_11-29-30.md) | 14s | [✓](_pipeline/logs/2026-09-11_11-29-30.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-11_11-29-30.md#processor-discover) 176 processed, 0 created | — | $0.0000 | ~0.006g |
 | [2026-09-11 11:13](_pipeline/logs/2026-09-11_11-13-47.md) | 19s | [✓](_pipeline/logs/2026-09-11_11-13-47.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-11_11-13-47.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-11_11-13-47.md#processor-progress) 0 progressed | $0.0000 | ~0.008g |
 | [2026-09-11 10:57](_pipeline/logs/2026-09-11_10-57-31.md) | 7s | [✓](_pipeline/logs/2026-09-11_10-57-31.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
-| [2026-09-11 10:40](_pipeline/logs/2026-09-11_10-40-54.md) | 7s | [✓](_pipeline/logs/2026-09-11_10-40-54.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 
 ### Source Topology
 
