@@ -277,7 +277,7 @@ body.receipt-open .land .app.receipt-linked { opacity: 1; pointer-events: auto; 
 body.receipt-open .shortcut-space,
 body.receipt-open .frame-top,
 body.receipt-open .agent-head,
-body.receipt-open .compose { opacity: .28; pointer-events: none; }
+body.receipt-open .app-face { opacity: .28; pointer-events: none; }
 body.receipt-open #app-panel { display: none !important; }
 .receipt-modal {
   position: fixed; inset: 0; z-index: 20; display: flex;
@@ -368,10 +368,33 @@ body.receipt-open #app-panel { display: none !important; }
   font-family: var(--fd); font-size: 18px; font-weight: 700;
   letter-spacing: .1em; text-transform: uppercase; cursor: pointer;
 }
-.compose {
-  display: flex; flex-direction: column; gap: 8px;
+.app-face {
+  display: flex; flex-direction: column; gap: 12px; flex-shrink: 0;
 }
-body.welcome-pending .compose,
+.compose-input { display: flex; flex-direction: column; gap: 6px; }
+.face-label {
+  margin: 0; font-family: var(--fb); font-size: 18px; font-weight: 400;
+  color: var(--ink); text-transform: lowercase; letter-spacing: .02em;
+}
+.atom-band {
+  display: flex; justify-content: center; align-items: center; gap: 14px;
+  min-height: 48px; flex-wrap: wrap;
+}
+.topic-atom {
+  width: 44px; height: 44px; border-radius: 50%; flex: 0 0 auto;
+  border: 1.5px solid var(--edge); background: var(--ground);
+  font-family: var(--fm); font-size: 9px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  padding: 4px; line-height: 1.05; text-align: center;
+  cursor: pointer; -webkit-tap-highlight-color: transparent;
+  color: var(--ink); overflow: hidden;
+}
+.topic-atom.empty {
+  border-style: dashed; border-color: var(--edge-soft);
+  opacity: .4; cursor: default; padding: 0;
+}
+.face-action { margin-top: 2px; }
+body.welcome-pending .app-face,
 body.welcome-pending .dock { visibility: hidden; pointer-events: none; }
 .input {
   width: 100%; min-height: 96px; padding: 14px;
@@ -571,9 +594,13 @@ a { color: inherit; }
       
     </div>
 
-    <div class="compose" aria-label="Agent compose">
-      <textarea class="input" id="input-main" placeholder="" aria-label="Message" enterkeyhint="send"></textarea>
-      <button type="button" class="enter" id="enter-main" aria-label="Enter">
+    <div class="app-face" aria-label="App face">
+      <div class="compose-input">
+        <label class="face-label" for="input-main">input</label>
+        <textarea class="input" id="input-main" placeholder="" aria-label="Input" enterkeyhint="send"></textarea>
+      </div>
+      <div class="atom-band" id="topic-atoms" aria-label="Topics"></div>
+      <button type="button" class="enter face-action" id="enter-main" aria-label="Submit input">
         <span aria-hidden="true">↵</span> Enter
       </button>
     </div>
@@ -641,7 +668,8 @@ a { color: inherit; }
   const STORAGE_DRAFT = "5et-frame-draft";
   const STORAGE_QUEUE = "5et-threshold-queue";
 
-  const FRAME_VER = "20260909.16";
+  const FRAME_VER = "20260911.17";
+  window.__PIPELINE_ATOMS__ = [{"id": "2026-09-11-IMG-5048", "label": "IMG_5048"}, {"id": "2026-09-10-triage-stop-questioning-yourself-your-3", "label": "Zen as a foundational state"}, {"id": "2026-09-10-triage-stop-questioning-yourself-your-2", "label": "Human doubt"}, {"id": "2026-09-10-triage-stop-questioning-yourself-your-1", "label": "Self-trust"}];
   const NETWORK_FRAME_URL = (function () {
     const base = location.pathname.replace(/[^/]+$/, "");
     return location.origin + base + "frame.html";
@@ -685,6 +713,7 @@ a { color: inherit; }
   const registerSave = document.getElementById("register-save");
   const removeEventBtn = document.getElementById("remove-event");
   const enterBtn = document.getElementById("enter-main");
+  const topicAtoms = document.getElementById("topic-atoms");
   const appPanel = document.getElementById("app-panel");
   const hatBtn = document.getElementById("hat-marker");
   const hatLabel = document.getElementById("hat-label");
@@ -1160,6 +1189,62 @@ a { color: inherit; }
     return "act";
   }
 
+  function topicLabel(text, max) {
+    const t = (text || "").trim().replace(/\s+/g, " ");
+    if (!t) return "…";
+    return t.length <= max ? t : t.slice(0, max - 1) + "…";
+  }
+
+  function renderTopicAtoms() {
+    if (!topicAtoms) return;
+    topicAtoms.innerHTML = "";
+    const pipeline = Array.isArray(window.__PIPELINE_ATOMS__) ? window.__PIPELINE_ATOMS__ : [];
+    const session = loadOs()
+      .filter((ev) => ev.os === "act" || (ev.os === "compose" && ev.text))
+      .slice(-4)
+      .reverse()
+      .map((ev) => ({
+        id: ev.id,
+        label: topicLabel(ev.text || eventLabel(ev), 10),
+        event: ev,
+      }));
+    const merged = [];
+    const seen = new Set();
+    pipeline.forEach((a) => {
+      const key = a.id || a.label;
+      if (!key || seen.has(key)) return;
+      seen.add(key);
+      merged.push({ id: key, label: topicLabel(a.label, 10) });
+    });
+    session.forEach((a) => {
+      if (!a.id || seen.has(a.id)) return;
+      seen.add(a.id);
+      merged.push(a);
+    });
+    const slots = merged.slice(0, 4);
+    while (slots.length < 4) slots.push(null);
+    slots.forEach((slot) => {
+      if (!slot) {
+        const empty = document.createElement("span");
+        empty.className = "topic-atom empty";
+        empty.setAttribute("aria-hidden", "true");
+        topicAtoms.appendChild(empty);
+        return;
+      }
+      const el = document.createElement(slot.event ? "button" : "span");
+      el.className = "topic-atom";
+      el.textContent = slot.label;
+      if (slot.event) {
+        el.type = "button";
+        el.title = slot.event.text || eventLabel(slot.event);
+        el.addEventListener("click", () => showEvent(slot.event));
+      } else if (slot.id) {
+        el.title = slot.id;
+      }
+      topicAtoms.appendChild(el);
+    });
+  }
+
   function renderOsTray(highlightIndex) {
     const events = loadOs();
     osTray.innerHTML = "";
@@ -1180,6 +1265,7 @@ a { color: inherit; }
     if (events.length && highlightIndex >= 0) {
       osTray.lastElementChild.scrollIntoView({ block: "nearest", inline: "end", behavior: "smooth" });
     }
+    renderTopicAtoms();
   }
 
   function loadShortcuts() {
