@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1286` · 2026-09-11 09:24 UTC
+`FRAME #1287` · 2026-09-11 09:40 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1286** · 131 ticks · 3 d 23 h · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1287** · 132 ticks · 3 d 23 h · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
@@ -55,9 +55,9 @@ Beneath it: 0 progressed, 11 created, 710 inspected without change.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▄▁▁▆▄▁▁▁▄▁▁▁▄▁▁▁▄▁▄▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁
+█▄▁▁▆▄▁▁▁▄▁▁▁▄▁▁▁▄▁▄▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 3 d 23 h   (frames #1227 → #1286)
+▁–█ tick-report activity · 60 reports · 3 d 23 h   (frames #1228 → #1287)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -206,4 +206,4 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 09-07 09:21 | company | Cue published · voice |
 | 09-07 09:21 | company | Question prepared · voice |
 
-<sub>Rendered from the repo at frame #1286 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1287 · immediate mode, no client state</sub>
