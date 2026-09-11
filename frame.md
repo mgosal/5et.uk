@@ -4,17 +4,21 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1299` · 2026-09-11 13:08 UTC
+`FRAME #1300` · 2026-09-11 13:25 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1296 → #1299** · 3 ticks · 53 min · `352b6e24` · dashboards + tick reports
+**#1296 → #1300** · 4 ticks · 1 h 10 m · `352b6e24` · dashboards + tick reports
 
-Nothing surfaced on the frame across this window.
+**Your threads**
 
-Beneath it: 0 progressed, 0 created, 0 inspected without change.
+| Tick | Item | What happened |
+|---:|---|---|
+| 1299 | [LLM Interaction Import Services Agreement](Operations/_work/approvals/contract-proposal-llm-interaction-import-services-agreement.md) | The company settled it. No longer waiting on a decision. |
+
+Beneath it: 0 progressed, 0 created, 28 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -29,16 +33,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▄▁▁▁▄▁▄▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃
+█▁▁▁▄▁▄▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 4 d 2 h   (frames #1240 → #1299)
+▁–█ tick-report activity · 60 reports · 4 d 3 h   (frames #1241 → #1300)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 4 d 2 h |
+| Time since latest move | 4 d 3 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -178,4 +182,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 10:22 | company | Question prepared · voice |
 | 09-07 09:59 | **you** | Responded · voice |
 
-<sub>Rendered from the repo at frame #1299 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1300 · immediate mode, no client state</sub>
