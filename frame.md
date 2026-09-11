@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1289` · 2026-09-11 10:13 UTC
+`FRAME #1290` · 2026-09-11 10:29 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1155 → #1289** · 134 ticks · 3 d 23 h · `9bfb5a29` · dashboards + tick reports
+**#1155 → #1290** · 135 ticks · 4 d 0 h · `9bfb5a29` · dashboards + tick reports
 
 **Your threads**
 
@@ -19,8 +19,8 @@
 | 1281 | [Welcome to BrumAI - Birmingham Artificial Intelligence Meetup](Operations/_work/O.476-Welcome-to-BrumAI---Birmingham-Artificial-Intelligence-Meetu.md) | Created. |
 | 1266 | [LLM Interaction Import Services Agreement](Operations/_work/approvals/contract-proposal-llm-interaction-import-services-agreement.md) | Raised for your decision. The company asked you about this. |
 | 1231 | [Partnership Engagement Services Agreement](Operations/_work/approvals/contract-proposal-partnership-engagement-services-agreement.md) | Raised for your decision. |
-| 1213 | [hubspot-import RP-1](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1213 | [hubspot-import RP-2](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
+| 1213 | [hubspot-import RP-1](projects/ema-sa/_contracts/hubspot-import.REVIEW.md) | Raised for your decision. No longer waiting on a decision. |
 | 1213 | [deal-page RP-1](projects/ema-sa/_contracts/deal-page.REVIEW.md) | Raised for your decision. |
 | 1202 | [seed-crystallisation RP-10](Operations/_contracts/seed-crystallisation.REVIEW.md) | Raised for your decision. |
 
@@ -40,7 +40,7 @@
 | 1200 | [Searchland API Trial and Partnership Coordination](projects/store-dash/_work/SD.326-Searchland-API-Trial-and-Partnership-Coordination.md) | Created. |
 | 1168 | [St. James AI Networking Event Attendance](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md) | Created. |
 
-Beneath it: 0 progressed, 11 created, 710 inspected without change.
+Beneath it: 0 progressed, 11 created, 738 inspected without change.
 
 ⚑ **Needs you now** — contract-proposal-llm-interaction-import-services-agreement
 
@@ -55,16 +55,16 @@ Beneath it: 0 progressed, 11 created, 710 inspected without change.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▆▄▁▁▁▄▁▁▁▄▁▁▁▄▁▄▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂
+█▆▄▁▁▁▄▁▁▁▄▁▁▁▄▁▄▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 3 d 23 h   (frames #1230 → #1289)
+▁–█ tick-report activity · 60 reports · 4 d 0 h   (frames #1231 → #1290)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 3 d 23 h |
+| Time since latest move | 4 d 0 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 1 |
 
@@ -206,4 +206,4 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 09-07 09:21 | company | Cue published · voice |
 | 09-07 09:21 | company | Question prepared · voice |
 
-<sub>Rendered from the repo at frame #1289 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1290 · immediate mode, no client state</sub>
