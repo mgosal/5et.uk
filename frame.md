@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1304` · 2026-09-11 14:29 UTC
+`FRAME #1305` · 2026-09-11 14:46 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1296 → #1304** · 8 ticks · 2 h 14 m · `352b6e24` · dashboards + tick reports
+**#1296 → #1305** · 9 ticks · 2 h 31 m · `352b6e24` · dashboards + tick reports
 
 **Your threads**
 
@@ -33,9 +33,9 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▄▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁
+█▄▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 4 d 4 h   (frames #1245 → #1304)
+▁–█ tick-report activity · 60 reports · 4 d 4 h   (frames #1246 → #1305)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -132,7 +132,7 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 112 active · 676 done
+## ▦ Functions — 113 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
@@ -165,7 +165,7 @@ Nothing is waiting on you. The company may still have work to do.
 | ✅ | [push-to-talk](projects/push-to-talk/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [right-store](projects/right-store/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [sole-trader-saas](projects/sole-trader-saas/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
-| ⏸️ | [store-dash](projects/store-dash/README.md) | 31 | 184 | `█▁▁▁▁▁▁▁▁▁` |
+| ⏸️ | [store-dash](projects/store-dash/README.md) | 32 | 184 | `█▁▁▁▁▁▁▁▁▁` |
 
 ---
 
@@ -182,4 +182,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 10:22 | company | Question prepared · voice |
 | 09-07 09:59 | **you** | Responded · voice |
 
-<sub>Rendered from the repo at frame #1304 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1305 · immediate mode, no client state</sub>
