@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1332.md" style="font-size:11px; color:#5f6368;">#1332</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1333.md" style="font-size:11px; color:#5f6368;">#1333</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -42,62 +42,11 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1332](_pipeline/reports/tick-1332.md)** · 2026-09-14 13:38 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1333](_pipeline/reports/tick-1333.md)** · 2026-09-14 14:13 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
 - No durable work-item changes in this tick.
-
-<details><summary>Inspected without change (46)</summary>
-
-- [A.005](Accounts/_work/A.005-privacy-screen-protector.md) — A.005-privacy-screen-protector
-- [A.011](Accounts/_work/A.011-Retail-Receipt.md) — A.011-Retail-Receipt
-- [A.014](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) — A.014-Google-One-Subscription-Receipt
-- [A.016](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) — A.016-Processing-fuel-receipt-for-business-travel
-- [A.017](Accounts/_work/A.017-incorporation-expense.md) — A.017-incorporation-expense
-- [A.018](Accounts/_work/A.018-ico-data-protection-fee.md) — A.018-ico-data-protection-fee
-- [A.019](Accounts/_work/A.019-google-play-subscription-may.md) — A.019-google-play-subscription-may
-- [C.036](Compliance/_work/C.036-LLM-processing-of-personal-data-risk.md) — C.036-LLM-processing-of-personal-data-risk
-- [C.037](Compliance/_work/C.037-Anonymous-User-Experience-and-Contract-Framework.md) — C.037-Anonymous-User-Experience-and-Contract-Framework
-- [O.424](Operations/_work/O.424-attention-event-experiment.md) — O.424-attention-event-experiment
-- [O.430](Operations/_work/O.430-stream-deck-attention-mode.md) — O.430-stream-deck-attention-mode
-- [O.437](Operations/_work/O.437-build-conversational-initiative-path.md) — O.437-build-conversational-initiative-path
-- [O.439](Operations/_work/O.439-build-contract-support-loop.md) — O.439-build-contract-support-loop
-- [O.447](Operations/_work/O.447-refine-cloud-connect-direction.md) — O.447-refine-cloud-connect-direction
-- [O.449](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) — O.449-AI-Agent-Development-Platforms-consultation
-- [O.458](Operations/_work/O.458-Supply-chain-constraints-on-hardware-procurement.md) — O.458-Supply-chain-constraints-on-hardware-procurement
-- [O.462](Operations/_work/O.462-Wire-Cortex-local-inference-path.md) — O.462-Wire-Cortex-local-inference-path
-- [O.463](Operations/_work/O.463-Inference-tier-field-and-tier-grouped-execution.md) — O.463-Inference-tier-field-and-tier-grouped-execution
-- [O.468](Operations/_work/O.468-Register-for-St-James-AI-Tech-Related-event.md) — O.468-Register-for-St-James-AI-Tech-Related-event
-- [O.473](Operations/_work/O.473-Bootstrap-bionic-ingest-pipeline.md) — O.473-Bootstrap-bionic-ingest-pipeline
-- [O.474](Operations/_work/O.474-Your-Flow-Pro-access-ends-soon.md) — O.474-Your-Flow-Pro-access-ends-soon
-- [O.475](Operations/_work/O.475-Just-scheduled-THE-GARAGE-BAND-Bromsgrove-Sports-Club---Tkts.md) — O.475-Just-scheduled-THE-GARAGE-BAND-Bromsgrove-Sports-Club---Tkts
-- [O.476](Operations/_work/O.476-Welcome-to-BrumAI---Birmingham-Artificial-Intelligence-Meetu.md) — O.476-Welcome-to-BrumAI---Birmingham-Artificial-Intelligence-Meetu
-- [O.477](Operations/_work/O.477-WhatsApp-digest-StoreDash-Discussions-2026-09-07.md) — O.477-WhatsApp-digest-StoreDash-Discussions-2026-09-07
-- [O.478](Operations/_work/O.478-WhatsApp-digest-JatinMandipKash-2026-09-08.md) — O.478-WhatsApp-digest-JatinMandipKash-2026-09-08
-- [O.479](Operations/_work/O.479-WhatsApp-digest-JatinMandipKash-2026-09-09.md) — O.479-WhatsApp-digest-JatinMandipKash-2026-09-09
-- [O.480](Operations/_work/O.480-WhatsApp-digest-JatinMandipKash-2026-09-10.md) — O.480-WhatsApp-digest-JatinMandipKash-2026-09-10
-- [O.481](Operations/_work/O.481-WhatsApp-digest-JatinMandipKash-2026-09-11.md) — O.481-WhatsApp-digest-JatinMandipKash-2026-09-11
-- [O.482](Operations/_work/O.482-One-click-Postgres-major-version-upgrades-email-forwarding-f.md) — O.482-One-click-Postgres-major-version-upgrades-email-forwarding-f
-- [O.483](Operations/_work/O.483-I-actually-like-this-mech-mechanism-I.md) — O.483-I-actually-like-this-mech-mechanism-I
-- [O.484](Operations/_work/O.484-WhatsApp-digest-Kash-Khera-2026-09-12.md) — O.484-WhatsApp-digest-Kash-Khera-2026-09-12
-- [O.485](Operations/_work/O.485-WhatsApp-digest-StoreDash-Discussions-2026-09-12.md) — O.485-WhatsApp-digest-StoreDash-Discussions-2026-09-12
-- [O.486](Operations/_work/O.486-Your-new-group-is-waiting-for-you.md) — O.486-Your-new-group-is-waiting-for-you
-- [O.487](Operations/_work/O.487-WhatsApp-digest-Kōdo-Engineering-2026-09-13.md) — O.487-WhatsApp-digest-Kōdo-Engineering-2026-09-13
-- [O.488](Operations/_work/O.488-BlackEyeCollective-has-invited-you-to-be-their-account-succe.md) — O.488-BlackEyeCollective-has-invited-you-to-be-their-account-succe
-- [O.489](Operations/_work/O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14.md) — O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14
-- [O.490](Operations/_work/O.490-WhatsApp-digest-JatinMandipKash-2026-09-14.md) — O.490-WhatsApp-digest-JatinMandipKash-2026-09-14
-- [O.491](Operations/_work/O.491-2026-09-14-11-07-59-voice-notegpt-4o-audio.md) — O.491-2026-09-14-11-07-59-voice-notegpt-4o-audio
-- [O.492](Operations/_work/O.492-2026-09-14-13-20-08-voice-notegpt-4o-audio.md) — O.492-2026-09-14-13-20-08-voice-notegpt-4o-audio
-- [O.493](Operations/_work/O.493-2026-09-14-13-57-41-a531c837md.md) — O.493-2026-09-14-13-57-41-a531c837md
-- [O.494](Operations/_work/O.494-2026-09-14-13-57-28-0da07365md.md) — O.494-2026-09-14-13-57-28-0da07365md
-- [O.495](Operations/_work/O.495-2026-09-14-13-56-36-cdb3fbd2md.md) — O.495-2026-09-14-13-56-36-cdb3fbd2md
-- [O.496](Operations/_work/O.496-2026-09-14-13-55-52-e9b1a2c9md.md) — O.496-2026-09-14-13-55-52-e9b1a2c9md
-- [O.497](Operations/_work/O.497-2026-09-14-13-55-27-a58accb9md.md) — O.497-2026-09-14-13-55-27-a58accb9md
-- [O.498](Operations/_work/O.498-2026-09-14-13-54-06-79b5ead7md.md) — O.498-2026-09-14-13-54-06-79b5ead7md
-- [O.499](Operations/_work/O.499-2026-09-14-13-53-24-e85a2d31md.md) — O.499-2026-09-14-13-53-24-e85a2d31md
-
-</details>
 
 ### Company In Progress
 
@@ -126,27 +75,27 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 - **Latest move at**: 2026-09-07T10:23:40.354071+00:00
 - **Latest move**: You responded to Review: Voice Note Import Services Agreement.
 - **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
-- **Latest move tick**: 1273
+- **Latest move tick**: 1274
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-11T12:19:38.236065+00:00
 - **Turn tick**: 1296
 - **Turn commit**: 352b6e24
-- **Window**: 36 ticks · 3 d 1 h
+- **Window**: 37 ticks · 3 d 1 h
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 7
 - **Elsewhere**: 24
-- **Beneath**: 0 progressed, 23 created, 332 inspected without change
+- **Beneath**: 0 progressed, 23 created, 378 inspected without change
 
 | Scope | Tick | Item | Summary |
 |---|---:|---|---|
+| yours | 1332 | [Disk Graph · RP-4](Operations/_contracts/disk-graph.REVIEW.md#rp-4) | blocking — Recents is the useful Finder pattern |
 | yours | 1330 | [Disk Graph · RP-1](Operations/_contracts/disk-graph.REVIEW.md#rp-1) | blocking — Root is the company disk, not the kernel disk |
-| yours | 1330 | [Disk Graph · RP-2](Operations/_contracts/disk-graph.REVIEW.md#rp-2) | blocking — Schedule |
 | yours | 1330 | [Disk Graph · RP-3](Operations/_contracts/disk-graph.REVIEW.md#rp-3) | blocking — Semantics without a model |
+| yours | 1330 | [Disk Graph · RP-2](Operations/_contracts/disk-graph.REVIEW.md#rp-2) | blocking — Schedule |
 | yours | 1328 | [Learn The User · RP-2](Operations/_contracts/learn-the-user.REVIEW.md#rp-2) | minor — Desktop chats still not granted No longer waiting on a decision. |
 | yours | 1326 | [Learn The User · RP-1](Operations/_contracts/learn-the-user.REVIEW.md#rp-1) | material — Catch-up writes Schedule A onto older personal notes |
-| yours | 1319 | [Granola Sync · RP-2](projects/ema-sa/_contracts/granola-sync.REVIEW.md#rp-2) | blocking — Granola subscription / trial |
 | yours | 1319 | [Granola Sync · RP-1](projects/ema-sa/_contracts/granola-sync.REVIEW.md#rp-1) | minor — `granola.mcp` capability registration |
 | elsewhere | 1330 | [Operations](Operations/dashboard.md) | Load 51 → 73 active. |
 | elsewhere | 1330 | [2026 09 14 13 20 08 Voice Note GPT 4o Audio](Operations/_work/O.492-2026-09-14-13-20-08-voice-notegpt-4o-audio.md) | Created. |
@@ -190,7 +139,6 @@ Nothing presented and unanswered.
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1273](_pipeline/reports/tick-1273.md) | 120.0s | 20 | 0 | 0 | 0 |
 | [#1274](_pipeline/reports/tick-1274.md) | 8.2s | 0 | 0 | 0 | 0 |
 | [#1275](_pipeline/reports/tick-1275.md) | 6.8s | 0 | 0 | 0 | 0 |
 | [#1276](_pipeline/reports/tick-1276.md) | 7.7s | 0 | 0 | 0 | 0 |
@@ -250,6 +198,7 @@ Nothing presented and unanswered.
 | [#1330](_pipeline/reports/tick-1330.md) | 268.3s | 0 | 9 | 0 | 522 |
 | [#1331](_pipeline/reports/tick-1331.md) | 7.1s | 0 | 0 | 0 | 0 |
 | [#1332](_pipeline/reports/tick-1332.md) | 263.0s | 46 | 0 | 0 | 0 |
+| [#1333](_pipeline/reports/tick-1333.md) | 393.8s | 0 | 30 | 0 | 5784 |
 
 ## Health
 
@@ -257,10 +206,10 @@ Nothing presented and unanswered.
 |----------|--------|--------|---------|------|
 | [Accounts](Accounts/dashboard.md) | 🔄 | 2 | 0 | 13 |
 | [Compliance](Compliance/dashboard.md) | ⏸️ | 9 | 1 | 13 |
-| [Operations](Operations/dashboard.md) | ⚠️ | 73 | 0 | 454 |
+| [Operations](Operations/dashboard.md) | ⚠️ | 103 | 0 | 454 |
 | [People](People/dashboard.md) | ⚠️ | 6 | 0 | 1 |
 | [Services](Services/dashboard.md) | 🔄 | 1 | 0 | 11 |
-| **Total** | | **91** | **1** | **492** |
+| **Total** | | **121** | **1** | **492** |
 
 ### Work Item Distribution
 
@@ -268,7 +217,7 @@ Nothing presented and unanswered.
 pie title Active Work Items by Function
     "Accounts" : 2
     "Compliance" : 9
-    "Operations" : 73
+    "Operations" : 103
     "People" : 6
     "Services" : 1
 ```
@@ -279,13 +228,13 @@ pie title Active Work Items by Function
 pie title Active Status Distribution
     "awaiting-approval" : 1
     "in-progress" : 13
-    "open" : 77
+    "open" : 107
     "submitted" : 1
 ```
 
 ## Attention
 
-### Decisions Waiting (36 of 58 need you)
+### Decisions Waiting (37 of 59 need you)
 
 Grouped by what each is waiting on. The first two groups are yours.
 
@@ -295,10 +244,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 |------|---------|--------|-------------|------|
 | Review point | voice-note-import-contract RP-3 | minor — New evidence reopens the cost basis on which RP-1 wa | blocks approval only | [View](Operations/_contracts/voice-note-import-contract.REVIEW.md) |
 
-**Your review (35)** — One proposed action each — confirm or send back
+**Your review (36)** — One proposed action each — confirm or send back
 
 | Kind | Subject | Detail | Consequence | Link |
 |------|---------|--------|-------------|------|
+| Contract proposal | Clipboard Import Services Agreement | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-clipboard-import-services-agreement.md) |
 | Contract proposal | Sales Workflow Formalization | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sales-workflow-formalization.md) |
 | Contract proposal | SDLC Process Review Services Agreement | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) |
 | Contract proposal | Support Amendment — Seed Crystallisation | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-seed_crystallisation-support-amendment.md) |
@@ -432,30 +382,30 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1332
+**Total Ticks**: 1333
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-14 14:38 | 1 new, 1 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-14 15:13 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-14 14:38 | 0 synced |
-| stream-deck | 🟢 Yes | ✅ ok | 2026-09-14 14:38 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 9 processed, 9 created |
+| stream-deck | 🟢 Yes | ✅ ok | 2026-09-14 14:56 | 0 copied, 0 noise, 0 hal |
+| processor-discover | 🟢 Yes | ✅ ok | — | 31 processed, 30 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
 | whatsapp | 🟢 Yes | ✅ ok | 2026-09-14 14:38 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
 | hostinger | ⚪ No | — | — | — |
 | store-email | 🟢 Yes | — | — | — |
-| llm-interaction-import | ⚪ No | ✅ ok | 2026-09-11 17:13 | 50 seeds (7533 new / 7633 scanned) |
+| llm-interaction-import | ⚪ No | ❌ error | 2026-09-14 14:56 | 50 seeds (7616 new / 7789 scanned) |
 
 ### Recent Pipeline Runs
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-14 15:13](_pipeline/logs/2026-09-14_15-13-11.md) | 394s | [✓](_pipeline/logs/2026-09-14_15-13-11.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-14_15-13-11.md#processor-discover) 31 processed, 30 created | — | $0.0005 | ~1.800g |
 | [2026-09-14 14:38](_pipeline/logs/2026-09-14_14-38-22.md) | 263s | [✓](_pipeline/logs/2026-09-14_14-38-22.md#icloud-email) 1 new, 1 synced | [✓](_pipeline/logs/2026-09-14_14-38-22.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-14_14-38-22.md#processor-progress) 0 progressed | $0.0000 | ~0.110g |
 | [2026-09-14 14:22](_pipeline/logs/2026-09-14_14-22-50.md) | 7s | [✓](_pipeline/logs/2026-09-14_14-22-50.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-14 14:02](_pipeline/logs/2026-09-14_14-02-54.md) | 268s | [✓](_pipeline/logs/2026-09-14_14-02-54.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-14_14-02-54.md#processor-discover) 9 processed, 9 created | — | $0.0001 | ~0.261g |
 | [2026-09-14 13:42](_pipeline/logs/2026-09-14_13-42-23.md) | 275s | [✓](_pipeline/logs/2026-09-14_13-42-23.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-14_13-42-23.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-14_13-42-23.md#processor-progress) 0 progressed | $0.0000 | ~0.114g |
-| [2026-09-14 13:26](_pipeline/logs/2026-09-14_13-26-54.md) | 6s | [✓](_pipeline/logs/2026-09-14_13-26-54.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
 
 ### Source Topology
 
@@ -539,7 +489,7 @@ flowchart TD
 
 | Metric | Value |
 |--------|-------|
-| Notes | 1504 |
+| Notes | 1505 |
 | Themes | 23 |
 | Coverage | 10.9% |
 
