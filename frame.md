@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1334` · 2026-09-14 14:35 UTC
+`FRAME #1335` · 2026-09-14 14:59 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1333 → #1334** · 1 ticks · 22 min · `11650ed3` · dashboards + tick reports
+**#1334 → #1335** · 1 ticks · 24 min · `296b0346` · dashboards + tick reports
 
 Nothing surfaced on the frame across this window.
 
@@ -29,16 +29,16 @@ Nothing needs you. The company owes 5.
 **Company owes next:** [Clipboard Import Services Agreement](Operations/_work/approvals/contract-proposal-clipboard-import-services-agreement.md) — Apply the approved proposal, record the outcome, and settle the obligation.
 
 ```
-█
+█▇
 █ latest move · 14:43
-▁–█ tick-report activity · 0 reports · 1 min   (frames #1334 → #1334)
+▁–█ tick-report activity · 1 reports · 18 min   (frames #1335 → #1335)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **0** |
-| Time since latest move | 1 min |
+| Tick reports since latest move | **1** |
+| Time since latest move | 18 min |
 | Company obligations | 5 (6 raw records) |
 | Waiting on you | 0 |
 
@@ -139,13 +139,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 176 active · 676 done
+## ▦ Functions — 177 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 9 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 112 | 454 | `██▁▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 113 | 454 | `██▁▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -189,4 +189,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-10 13:14 | company | Question prepared · contract |
 | 09-07 10:23 | **you** | Responded · voice |
 
-<sub>Rendered from the repo at frame #1334 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1335 · immediate mode, no client state</sub>
