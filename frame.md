@@ -4,29 +4,40 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1312` · 2026-09-14 07:40 UTC
+`FRAME #1313` · 2026-09-14 08:10 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1296 → #1312** · 16 ticks · 2 d 19 h · `352b6e24` · dashboards + tick reports
+**#1296 → #1313** · 17 ticks · 2 d 19 h · `352b6e24` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
+| 1312 | [deal-artifact RP-2](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
+| 1312 | [deal-artifact RP-4](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
+| 1312 | [deal-artifact RP-3](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
 | 1299 | [LLM Interaction Import Services Agreement](Operations/_work/approvals/contract-proposal-llm-interaction-import-services-agreement.md) | The company settled it. No longer waiting on a decision. |
 
 **Elsewhere**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1307 | [Operations](Operations/dashboard.md) | Load 51 → 52 active. |
+| 1312 | [Operations](Operations/dashboard.md) | Load 51 → 60 active. |
+| 1312 | [Project roadmap alignment for Christie](Operations/_work/P.014-Project-roadmap-alignment-for-Christie.md) | Created. |
+| 1312 | [WhatsApp digest: Kash Khera (2026-09-12)](Operations/_work/O.484-WhatsApp-digest-Kash-Khera-2026-09-12.md) | Created. |
+| 1312 | [WhatsApp digest: StoreDash Discussions (2026-09-12)](Operations/_work/O.485-WhatsApp-digest-StoreDash-Discussions-2026-09-12.md) | Created. |
+| 1312 | [RightStore Front-End Development & Review](projects/store-dash/_work/SD.330-RightStore-Front-End-Development-Review.md) | Created. |
+| 1312 | [📣  Your new group is waiting for you](Operations/_work/O.486-Your-new-group-is-waiting-for-you.md) | Created. |
+| 1312 | [WhatsApp digest: Kōdo Engineering (2026-09-13)](Operations/_work/O.487-WhatsApp-digest-Kōdo-Engineering-2026-09-13.md) | Created. |
+| 1312 | [Property Access Route via CRM's + Roadmap + Platform Design to Build](projects/store-dash/_work/SD.331-Property-Access-Route-via-CRMs-Roadmap-Platform-Design-to-Bu.md) | Created. |
+| 1312 | [AI/FinTech Mayfair Networking Lunch](Operations/_work/P.015-AIFinTech-Mayfair-Networking-Lunch.md) | Created. |
 | 1307 | [WhatsApp digest for Kash Khera](Operations/_work/I.010-WhatsApp-digest-for-Kash-Khera.md) | Created. |
 | 1305 | [Searchland Follow-Up – Trial Access, Pricing & Outstanding Points](projects/store-dash/_work/SD.329-Searchland-Follow-Up-Trial-Access-Pricing-Outstanding-Points.md) | Created. |
 
-Beneath it: 0 progressed, 2 created, 112 inspected without change.
+Beneath it: 0 progressed, 10 created, 146 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -41,9 +52,9 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█
+█▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 6 d 21 h   (frames #1253 → #1312)
+▁–█ tick-report activity · 60 reports · 6 d 21 h   (frames #1254 → #1313)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -193,4 +204,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 10:22 | company | Question prepared · voice |
 | 09-07 09:59 | **you** | Responded · voice |
 
-<sub>Rendered from the repo at frame #1312 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1313 · immediate mode, no client state</sub>
