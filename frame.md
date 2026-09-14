@@ -4,30 +4,40 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1325` · 2026-09-14 11:36 UTC
+`FRAME #1332` · 2026-09-14 13:38 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1296 → #1325** · 29 ticks · 2 d 23 h · `352b6e24` · dashboards + tick reports
+**#1296 → #1332** · 36 ticks · 3 d 1 h · `352b6e24` · dashboards + tick reports
 
 **Your threads**
 
-| Tick | Item | What happened |
+| Tick | Item | Why review |
 |---:|---|---|
-| 1319 | [granola-sync RP-2](projects/ema-sa/_contracts/granola-sync.REVIEW.md) | Raised for your decision. |
-| 1319 | [granola-sync RP-1](projects/ema-sa/_contracts/granola-sync.REVIEW.md) | Raised for your decision. |
-| 1312 | [deal-artifact RP-2](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
-| 1312 | [deal-artifact RP-4](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
-| 1312 | [deal-artifact RP-3](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
-| 1299 | [LLM Interaction Import Services Agreement](Operations/_work/approvals/contract-proposal-llm-interaction-import-services-agreement.md) | The company settled it. No longer waiting on a decision. |
+| 1330 | [Disk Graph · RP-1](Operations/_contracts/disk-graph.REVIEW.md#rp-1) | blocking — Root is the company disk, not the kernel disk |
+| 1330 | [Disk Graph · RP-2](Operations/_contracts/disk-graph.REVIEW.md#rp-2) | blocking — Schedule |
+| 1330 | [Disk Graph · RP-3](Operations/_contracts/disk-graph.REVIEW.md#rp-3) | blocking — Semantics without a model |
+| 1328 | [Learn The User · RP-2](Operations/_contracts/learn-the-user.REVIEW.md#rp-2) | minor — Desktop chats still not granted No longer waiting on a decision. |
+| 1326 | [Learn The User · RP-1](Operations/_contracts/learn-the-user.REVIEW.md#rp-1) | material — Catch-up writes Schedule A onto older personal notes |
+| 1319 | [Granola Sync · RP-2](projects/ema-sa/_contracts/granola-sync.REVIEW.md#rp-2) | blocking — Granola subscription / trial |
+| 1319 | [Granola Sync · RP-1](projects/ema-sa/_contracts/granola-sync.REVIEW.md#rp-1) | minor — `granola.mcp` capability registration |
 
 **Elsewhere**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1321 | [Operations](Operations/dashboard.md) | Load 51 → 64 active. |
+| 1330 | [Operations](Operations/dashboard.md) | Load 51 → 73 active. |
+| 1330 | [2026 09 14 13 20 08 Voice Note GPT 4o Audio](Operations/_work/O.492-2026-09-14-13-20-08-voice-notegpt-4o-audio.md) | Created. |
+| 1330 | [Idea: Codify processes into the stack](Operations/_work/I.011-Idea-Codify-processes-into-the-stack.md) | Created. |
+| 1330 | [2026 09 14 13 57 41 A531c837](Operations/_work/O.493-2026-09-14-13-57-41-a531c837md.md) | Created. |
+| 1330 | [2026 09 14 13 57 28 0da07365](Operations/_work/O.494-2026-09-14-13-57-28-0da07365md.md) | Created. |
+| 1330 | [2026 09 14 13 56 36 Cdb3fbd2](Operations/_work/O.495-2026-09-14-13-56-36-cdb3fbd2md.md) | Created. |
+| 1330 | [2026 09 14 13 55 52 E9b1a2c9](Operations/_work/O.496-2026-09-14-13-55-52-e9b1a2c9md.md) | Created. |
+| 1330 | [2026 09 14 13 55 27 A58accb9](Operations/_work/O.497-2026-09-14-13-55-27-a58accb9md.md) | Created. |
+| 1330 | [2026 09 14 13 54 06 79b5ead7](Operations/_work/O.498-2026-09-14-13-54-06-79b5ead7md.md) | Created. |
+| 1330 | [2026 09 14 13 53 24 E85a2d31](Operations/_work/O.499-2026-09-14-13-53-24-e85a2d31md.md) | Created. |
 | 1321 | [2026 09 14 11 07 59 Voice Note GPT 4o Audio](Operations/_work/O.491-2026-09-14-11-07-59-voice-notegpt-4o-audio.md) | Created. |
 | 1318 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-14)](Operations/_work/O.490-WhatsApp-digest-JatinMandipKash-2026-09-14.md) | Created. |
 | 1316 | [WhatsApp digest: Jatin Blocvey (2026-09-14)](Operations/_work/O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14.md) | Created. |
@@ -43,7 +53,7 @@
 | 1307 | [WhatsApp digest for Kash Khera](Operations/_work/I.010-WhatsApp-digest-for-Kash-Khera.md) | Created. |
 | 1305 | [Searchland Follow-Up – Trial Access, Pricing & Outstanding Points](projects/store-dash/_work/SD.329-Searchland-Follow-Up-Trial-Access-Pricing-Outstanding-Points.md) | Created. |
 
-Beneath it: 0 progressed, 14 created, 256 inspected without change.
+Beneath it: 0 progressed, 23 created, 332 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -58,16 +68,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄
+█▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 7 d 1 h   (frames #1266 → #1325)
+▁–█ tick-report activity · 60 reports · 7 d 3 h   (frames #1273 → #1332)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 7 d 1 h |
+| Time since latest move | 7 d 3 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -118,12 +128,16 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ✕ Open review points — 37
+## ✕ Open review points — 42
 
 | Contract | Point | Status |
 |---|---|---|
 | [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-3: New evidence reopens the cost basis on which RP-1 was resolved | open |
 | [calendar-import](projects/ema-sa/_contracts/calendar-import.REVIEW.md) | RP-1: OAuth scopes | open |
+| [disk-graph](Operations/_contracts/disk-graph.REVIEW.md) | RP-1: Root is the company disk, not the kernel disk | open |
+| [disk-graph](Operations/_contracts/disk-graph.REVIEW.md) | RP-2: Schedule | open |
+| [disk-graph](Operations/_contracts/disk-graph.REVIEW.md) | RP-3: Semantics without a model | open |
+| [disk-graph](Operations/_contracts/disk-graph.REVIEW.md) | RP-4: Recents is the useful Finder pattern | open |
 | [granola-sync](projects/ema-sa/_contracts/granola-sync.REVIEW.md) | RP-2: Granola subscription / trial | open — Director judgement; not automated |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-2: The company turn has no completion criterion | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-3: Support wrappers are created without an idempotency check | open |
@@ -132,6 +146,7 @@ Nothing is waiting on you. The company may still have work to do.
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-7: Every open review point halts its contract, because points carry no materiality | open |
 | [slack-import](projects/ema-sa/_contracts/slack-import.REVIEW.md) | RP-1: Implementation not started | open |
 | [slack-import](projects/ema-sa/_contracts/slack-import.REVIEW.md) | RP-2: Mandip Slack user ID | open |
+| [learn-the-user](Operations/_contracts/learn-the-user.REVIEW.md) | RP-1: Catch-up writes Schedule A onto older personal notes | open |
 | [model-selection](Operations/_contracts/model-selection.REVIEW.md) | RP-2: The resolution floor is specified but the deliverable cannot express it | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-4: Human response reconciliation waits for the schedule | open |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-10: Distilled conversation seeds vs bulk LLM harvest | open — plan only; not in the compiled module |
@@ -162,13 +177,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 128 active · 676 done
+## ▦ Functions — 137 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 9 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 64 | 454 | `█▁▁▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 73 | 454 | `█▁▁▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -212,4 +227,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 10:22 | company | Question prepared · voice |
 | 09-07 09:59 | **you** | Responded · voice |
 
-<sub>Rendered from the repo at frame #1325 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1332 · immediate mode, no client state</sub>

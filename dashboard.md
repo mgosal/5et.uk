@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1325.md" style="font-size:11px; color:#5f6368;">#1325</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1332.md" style="font-size:11px; color:#5f6368;">#1332</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -42,13 +42,13 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1325](_pipeline/reports/tick-1325.md)** · 2026-09-14 11:36 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1332](_pipeline/reports/tick-1332.md)** · 2026-09-14 13:38 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
 - No durable work-item changes in this tick.
 
-<details><summary>Inspected without change (38)</summary>
+<details><summary>Inspected without change (46)</summary>
 
 - [A.005](Accounts/_work/A.005-privacy-screen-protector.md) — A.005-privacy-screen-protector
 - [A.011](Accounts/_work/A.011-Retail-Receipt.md) — A.011-Retail-Receipt
@@ -88,6 +88,14 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 - [O.489](Operations/_work/O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14.md) — O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14
 - [O.490](Operations/_work/O.490-WhatsApp-digest-JatinMandipKash-2026-09-14.md) — O.490-WhatsApp-digest-JatinMandipKash-2026-09-14
 - [O.491](Operations/_work/O.491-2026-09-14-11-07-59-voice-notegpt-4o-audio.md) — O.491-2026-09-14-11-07-59-voice-notegpt-4o-audio
+- [O.492](Operations/_work/O.492-2026-09-14-13-20-08-voice-notegpt-4o-audio.md) — O.492-2026-09-14-13-20-08-voice-notegpt-4o-audio
+- [O.493](Operations/_work/O.493-2026-09-14-13-57-41-a531c837md.md) — O.493-2026-09-14-13-57-41-a531c837md
+- [O.494](Operations/_work/O.494-2026-09-14-13-57-28-0da07365md.md) — O.494-2026-09-14-13-57-28-0da07365md
+- [O.495](Operations/_work/O.495-2026-09-14-13-56-36-cdb3fbd2md.md) — O.495-2026-09-14-13-56-36-cdb3fbd2md
+- [O.496](Operations/_work/O.496-2026-09-14-13-55-52-e9b1a2c9md.md) — O.496-2026-09-14-13-55-52-e9b1a2c9md
+- [O.497](Operations/_work/O.497-2026-09-14-13-55-27-a58accb9md.md) — O.497-2026-09-14-13-55-27-a58accb9md
+- [O.498](Operations/_work/O.498-2026-09-14-13-54-06-79b5ead7md.md) — O.498-2026-09-14-13-54-06-79b5ead7md
+- [O.499](Operations/_work/O.499-2026-09-14-13-53-24-e85a2d31md.md) — O.499-2026-09-14-13-53-24-e85a2d31md
 
 </details>
 
@@ -118,28 +126,38 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 - **Latest move at**: 2026-09-07T10:23:40.354071+00:00
 - **Latest move**: You responded to Review: Voice Note Import Services Agreement.
 - **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
-- **Latest move tick**: 1266
+- **Latest move tick**: 1273
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-11T12:19:38.236065+00:00
 - **Turn tick**: 1296
 - **Turn commit**: 352b6e24
-- **Window**: 29 ticks · 2 d 23 h
+- **Window**: 36 ticks · 3 d 1 h
 - **Evidence**: dashboards + tick reports
-- **Your threads**: 6
-- **Elsewhere**: 15
-- **Beneath**: 0 progressed, 14 created, 256 inspected without change
+- **Your threads**: 7
+- **Elsewhere**: 24
+- **Beneath**: 0 progressed, 23 created, 332 inspected without change
 
-| Scope | Tick | Item | What happened |
+| Scope | Tick | Item | Summary |
 |---|---:|---|---|
-| yours | 1319 | [granola-sync RP-2](projects/ema-sa/_contracts/granola-sync.REVIEW.md) | Raised for your decision. |
-| yours | 1319 | [granola-sync RP-1](projects/ema-sa/_contracts/granola-sync.REVIEW.md) | Raised for your decision. |
-| yours | 1312 | [deal-artifact RP-2](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
-| yours | 1312 | [deal-artifact RP-4](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
-| yours | 1312 | [deal-artifact RP-3](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
-| yours | 1299 | [LLM Interaction Import Services Agreement](Operations/_work/approvals/contract-proposal-llm-interaction-import-services-agreement.md) | The company settled it. No longer waiting on a decision. |
-| elsewhere | 1321 | [Operations](Operations/dashboard.md) | Load 51 → 64 active. |
+| yours | 1330 | [Disk Graph · RP-1](Operations/_contracts/disk-graph.REVIEW.md#rp-1) | blocking — Root is the company disk, not the kernel disk |
+| yours | 1330 | [Disk Graph · RP-2](Operations/_contracts/disk-graph.REVIEW.md#rp-2) | blocking — Schedule |
+| yours | 1330 | [Disk Graph · RP-3](Operations/_contracts/disk-graph.REVIEW.md#rp-3) | blocking — Semantics without a model |
+| yours | 1328 | [Learn The User · RP-2](Operations/_contracts/learn-the-user.REVIEW.md#rp-2) | minor — Desktop chats still not granted No longer waiting on a decision. |
+| yours | 1326 | [Learn The User · RP-1](Operations/_contracts/learn-the-user.REVIEW.md#rp-1) | material — Catch-up writes Schedule A onto older personal notes |
+| yours | 1319 | [Granola Sync · RP-2](projects/ema-sa/_contracts/granola-sync.REVIEW.md#rp-2) | blocking — Granola subscription / trial |
+| yours | 1319 | [Granola Sync · RP-1](projects/ema-sa/_contracts/granola-sync.REVIEW.md#rp-1) | minor — `granola.mcp` capability registration |
+| elsewhere | 1330 | [Operations](Operations/dashboard.md) | Load 51 → 73 active. |
+| elsewhere | 1330 | [2026 09 14 13 20 08 Voice Note GPT 4o Audio](Operations/_work/O.492-2026-09-14-13-20-08-voice-notegpt-4o-audio.md) | Created. |
+| elsewhere | 1330 | [Idea: Codify processes into the stack](Operations/_work/I.011-Idea-Codify-processes-into-the-stack.md) | Created. |
+| elsewhere | 1330 | [2026 09 14 13 57 41 A531c837](Operations/_work/O.493-2026-09-14-13-57-41-a531c837md.md) | Created. |
+| elsewhere | 1330 | [2026 09 14 13 57 28 0da07365](Operations/_work/O.494-2026-09-14-13-57-28-0da07365md.md) | Created. |
+| elsewhere | 1330 | [2026 09 14 13 56 36 Cdb3fbd2](Operations/_work/O.495-2026-09-14-13-56-36-cdb3fbd2md.md) | Created. |
+| elsewhere | 1330 | [2026 09 14 13 55 52 E9b1a2c9](Operations/_work/O.496-2026-09-14-13-55-52-e9b1a2c9md.md) | Created. |
+| elsewhere | 1330 | [2026 09 14 13 55 27 A58accb9](Operations/_work/O.497-2026-09-14-13-55-27-a58accb9md.md) | Created. |
+| elsewhere | 1330 | [2026 09 14 13 54 06 79b5ead7](Operations/_work/O.498-2026-09-14-13-54-06-79b5ead7md.md) | Created. |
+| elsewhere | 1330 | [2026 09 14 13 53 24 E85a2d31](Operations/_work/O.499-2026-09-14-13-53-24-e85a2d31md.md) | Created. |
 | elsewhere | 1321 | [2026 09 14 11 07 59 Voice Note GPT 4o Audio](Operations/_work/O.491-2026-09-14-11-07-59-voice-notegpt-4o-audio.md) | Created. |
 | elsewhere | 1318 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-14)](Operations/_work/O.490-WhatsApp-digest-JatinMandipKash-2026-09-14.md) | Created. |
 | elsewhere | 1316 | [WhatsApp digest: Jatin Blocvey (2026-09-14)](Operations/_work/O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14.md) | Created. |
@@ -172,13 +190,6 @@ Nothing presented and unanswered.
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1266](_pipeline/reports/tick-1266.md) | 950.8s | 20 | 0 | 0 | 0 |
-| [#1267](_pipeline/reports/tick-1267.md) | 8.2s | 0 | 0 | 0 | 0 |
-| [#1268](_pipeline/reports/tick-1268.md) | 6.6s | 0 | 0 | 0 | 0 |
-| [#1269](_pipeline/reports/tick-1269.md) | 82.1s | 20 | 0 | 0 | 0 |
-| [#1270](_pipeline/reports/tick-1270.md) | 7.1s | 0 | 0 | 0 | 0 |
-| [#1271](_pipeline/reports/tick-1271.md) | 6.5s | 0 | 0 | 0 | 0 |
-| [#1272](_pipeline/reports/tick-1272.md) | 6.8s | 0 | 0 | 0 | 0 |
 | [#1273](_pipeline/reports/tick-1273.md) | 120.0s | 20 | 0 | 0 | 0 |
 | [#1274](_pipeline/reports/tick-1274.md) | 8.2s | 0 | 0 | 0 | 0 |
 | [#1275](_pipeline/reports/tick-1275.md) | 6.8s | 0 | 0 | 0 | 0 |
@@ -232,6 +243,13 @@ Nothing presented and unanswered.
 | [#1323](_pipeline/reports/tick-1323.md) | 7.4s | 0 | 0 | 0 | 0 |
 | [#1324](_pipeline/reports/tick-1324.md) | 7.4s | 0 | 0 | 0 | 0 |
 | [#1325](_pipeline/reports/tick-1325.md) | 248.4s | 38 | 0 | 0 | 0 |
+| [#1326](_pipeline/reports/tick-1326.md) | 6.5s | 0 | 0 | 0 | 0 |
+| [#1327](_pipeline/reports/tick-1327.md) | 6.1s | 0 | 0 | 0 | 0 |
+| [#1328](_pipeline/reports/tick-1328.md) | 5.7s | 0 | 0 | 0 | 0 |
+| [#1329](_pipeline/reports/tick-1329.md) | 274.6s | 38 | 0 | 0 | 0 |
+| [#1330](_pipeline/reports/tick-1330.md) | 268.3s | 0 | 9 | 0 | 522 |
+| [#1331](_pipeline/reports/tick-1331.md) | 7.1s | 0 | 0 | 0 | 0 |
+| [#1332](_pipeline/reports/tick-1332.md) | 263.0s | 46 | 0 | 0 | 0 |
 
 ## Health
 
@@ -239,10 +257,10 @@ Nothing presented and unanswered.
 |----------|--------|--------|---------|------|
 | [Accounts](Accounts/dashboard.md) | 🔄 | 2 | 0 | 13 |
 | [Compliance](Compliance/dashboard.md) | ⏸️ | 9 | 1 | 13 |
-| [Operations](Operations/dashboard.md) | ⚠️ | 64 | 0 | 454 |
+| [Operations](Operations/dashboard.md) | ⚠️ | 73 | 0 | 454 |
 | [People](People/dashboard.md) | ⚠️ | 6 | 0 | 1 |
 | [Services](Services/dashboard.md) | 🔄 | 1 | 0 | 11 |
-| **Total** | | **82** | **1** | **492** |
+| **Total** | | **91** | **1** | **492** |
 
 ### Work Item Distribution
 
@@ -250,7 +268,7 @@ Nothing presented and unanswered.
 pie title Active Work Items by Function
     "Accounts" : 2
     "Compliance" : 9
-    "Operations" : 64
+    "Operations" : 73
     "People" : 6
     "Services" : 1
 ```
@@ -261,13 +279,13 @@ pie title Active Work Items by Function
 pie title Active Status Distribution
     "awaiting-approval" : 1
     "in-progress" : 13
-    "open" : 68
+    "open" : 77
     "submitted" : 1
 ```
 
 ## Attention
 
-### Decisions Waiting (31 of 53 need you)
+### Decisions Waiting (36 of 58 need you)
 
 Grouped by what each is waiting on. The first two groups are yours.
 
@@ -277,7 +295,7 @@ Grouped by what each is waiting on. The first two groups are yours.
 |------|---------|--------|-------------|------|
 | Review point | voice-note-import-contract RP-3 | minor — New evidence reopens the cost basis on which RP-1 wa | blocks approval only | [View](Operations/_contracts/voice-note-import-contract.REVIEW.md) |
 
-**Your review (30)** — One proposed action each — confirm or send back
+**Your review (35)** — One proposed action each — confirm or send back
 
 | Kind | Subject | Detail | Consequence | Link |
 |------|---------|--------|-------------|------|
@@ -285,32 +303,37 @@ Grouped by what each is waiting on. The first two groups are yours.
 | Contract proposal | SDLC Process Review Services Agreement | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) |
 | Contract proposal | Support Amendment — Seed Crystallisation | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-seed_crystallisation-support-amendment.md) |
 | Review point | calendar-import RP-1 | blocking — OAuth scopes | blocks approval only | [View](projects/ema-sa/_contracts/calendar-import.REVIEW.md) |
+| Review point | disk-graph RP-1 | blocking — Root is the company disk, not the kernel disk | blocks approval only | [View](Operations/_contracts/disk-graph.REVIEW.md) |
+| Review point | disk-graph RP-2 | blocking — Schedule | blocks approval only | [View](Operations/_contracts/disk-graph.REVIEW.md) |
+| Review point | disk-graph RP-3 | blocking — Semantics without a model | blocks approval only | [View](Operations/_contracts/disk-graph.REVIEW.md) |
+| Review point | disk-graph RP-4 | blocking — Recents is the useful Finder pattern | blocks approval only | [View](Operations/_contracts/disk-graph.REVIEW.md) |
 | Review point | granola-sync RP-2 | blocking — Granola subscription / trial | blocks approval only | [View](projects/ema-sa/_contracts/granola-sync.REVIEW.md) |
-| Review point | pipeline RP-2 | blocking — The company turn has no completion criterion | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
-| Review point | pipeline RP-3 | blocking — Support wrappers are created without an idempotency  | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
-| Review point | pipeline RP-5 | blocking — Contract proposals bypass the canonical attention st | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
-| Review point | pipeline RP-6 | blocking — Review points bypass the canonical attention stream | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
-| Review point | pipeline RP-7 | blocking — Every open review point halts its contract, because  | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
-| Review point | slack-import RP-1 | blocking — Implementation not started | blocks approval only | [View](projects/ema-sa/_contracts/slack-import.REVIEW.md) |
-| Review point | slack-import RP-2 | blocking — Mandip Slack user ID | blocks approval only | [View](projects/ema-sa/_contracts/slack-import.REVIEW.md) |
-| Review point | model-selection RP-2 | material — The resolution floor is specified but the deliverabl | blocks approval only | [View](Operations/_contracts/model-selection.REVIEW.md) |
-| Review point | pipeline RP-4 | material — Human response reconciliation waits for the schedule | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
-| Review point | seed-crystallisation RP-10 | material — Distilled conversation seeds vs bulk LLM harvest | blocks approval only | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
-| Review point | seed-crystallisation RP-11 | material — Shortcuts as propagation, not autonomous projects | blocks approval only | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
-| Review point | seed-crystallisation RP-8 | material — Index seed counts do not match the themes | blocks approval only | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
-| Review point | botta RP-1 | minor — No one at BOTTA has been named | blocks approval only | [View](projects/botta/_contracts/botta.REVIEW.md) |
-| Review point | deal-artifact RP-2 | minor — deal-page playbook index | blocks approval only | [View](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) |
-| Review point | deal-artifact RP-3 | minor — Template bootstrap | blocks approval only | [View](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) |
-| Review point | deal-artifact RP-4 | minor — Gold artifact promotion | blocks approval only | [View](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) |
-| Review point | deal-page RP-1 | minor — Unit dashboard Deals columns | blocks approval only | [View](projects/ema-sa/_contracts/deal-page.REVIEW.md) |
-| Review point | email-import RP-4 | minor — `gmail.imap` capability not yet registered | blocks approval only | [View](projects/ema-sa/_contracts/email-import.REVIEW.md) |
-| Review point | email-import RP-5 | minor — Shadow compare against ema-mcp gold | blocks approval only | [View](projects/ema-sa/_contracts/email-import.REVIEW.md) |
-| Review point | fathom-import RP-4 | minor — Partner routing and AI classification omitted | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
-| Review point | fathom-import RP-6 | minor — `fathom.api` capability not yet registered | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
-| Review point | granola-import RP-4 | minor — `granola.mcp` capability not yet registered | blocks approval only | [View](projects/ema-sa/_contracts/granola-import.REVIEW.md) |
-| Review point | granola-import RP-5 | minor — Shadow compare against ema-mcp gold | blocks approval only | [View](projects/ema-sa/_contracts/granola-import.REVIEW.md) |
+| Review point | pipeline RP-2 | blocking — The company turn has no completion criterion — Give the company turn a terminal condition in three parts. | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
+| Review point | pipeline RP-3 | blocking — Support wrappers are created without an idempotency  — Before creating a support wrapper, reject creation where an unsettled | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
+| Review point | pipeline RP-5 | blocking — Contract proposals bypass the canonical attention st — Make one committed proposal at a time enter the canonical attention | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
+| Review point | pipeline RP-6 | blocking — Review points bypass the canonical attention stream — Generalise the presentation path RP-5 opens rather than adding a second | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
+| Review point | pipeline RP-7 | blocking — Every open review point halts its contract, because  — Add a materiality field to the review point format — blocking, material, | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
+| Review point | slack-import RP-1 | blocking — Implementation not started — Re-render `slack-pipeline.py` flat landing; shadow compare channel-day c | blocks approval only | [View](projects/ema-sa/_contracts/slack-import.REVIEW.md) |
+| Review point | slack-import RP-2 | blocking — Mandip Slack user ID — Record in integration README after first successful `users.lookupByEmail | blocks approval only | [View](projects/ema-sa/_contracts/slack-import.REVIEW.md) |
+| Review point | learn-the-user RP-1 | material — Catch-up writes Schedule A onto older personal notes — recommendation deferred (π) | blocks approval only | [View](Operations/_contracts/learn-the-user.REVIEW.md) |
+| Review point | model-selection RP-2 | material — The resolution floor is specified but the deliverabl — require the report to group candidates that are indistinguishable within | blocks approval only | [View](Operations/_contracts/model-selection.REVIEW.md) |
+| Review point | pipeline RP-4 | material — Human response reconciliation waits for the schedule — Separate the input budget from the simulation budget, as an | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
+| Review point | seed-crystallisation RP-10 | material — Distilled conversation seeds vs bulk LLM harvest — Keep bulk harvest sources out of crystallisation. Land operator-distille | blocks approval only | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
+| Review point | seed-crystallisation RP-11 | material — Shortcuts as propagation, not autonomous projects — Amend section 5 so a mature cluster that is an *activity* (not only a th | blocks approval only | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
+| Review point | seed-crystallisation RP-8 | material — Index seed counts do not match the themes — count seed rows structurally (rows inside the Seeds table only), and | blocks approval only | [View](Operations/_contracts/seed-crystallisation.REVIEW.md) |
+| Review point | botta RP-1 | minor — No one at BOTTA has been named — When Mandip names the contact, add `People/_network/` and an outbound co | blocks approval only | [View](projects/botta/_contracts/botta.REVIEW.md) |
+| Review point | deal-artifact RP-2 | minor — deal-page playbook index — Amend [deal-page](deal-page.README.md) Schedule A when implementation | blocks approval only | [View](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) |
+| Review point | deal-artifact RP-3 | minor — Template bootstrap — One-time copy from ema-mcp templates on implementation; commit into 5et. | blocks approval only | [View](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) |
+| Review point | deal-artifact RP-4 | minor — Gold artifact promotion — Human promotes selected files into `artifacts/` once; pipeline versions | blocks approval only | [View](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) |
+| Review point | deal-page RP-1 | minor — Unit dashboard Deals columns — After [revenue-playbook](revenue-playbook.README.md) writes a snapshot,  | blocks approval only | [View](projects/ema-sa/_contracts/deal-page.REVIEW.md) |
+| Review point | email-import RP-4 | minor — `gmail.imap` capability not yet registered — Register at compile time. Does not block supervised trial. | blocks approval only | [View](projects/ema-sa/_contracts/email-import.REVIEW.md) |
+| Review point | email-import RP-5 | minor — Shadow compare against ema-mcp gold — After first live supervised trial with imports. | blocks approval only | [View](projects/ema-sa/_contracts/email-import.REVIEW.md) |
+| Review point | fathom-import RP-4 | minor — Partner routing and AI classification omitted — None required for approval. Progression or taxonomy, if needed, is a lat | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
+| Review point | fathom-import RP-6 | minor — `fathom.api` capability not yet registered — Register `fathom.api` adapter during compile (Engineer task). Does not b | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
+| Review point | granola-import RP-4 | minor — `granola.mcp` capability not yet registered — Register during compile. Does not block drafting or supervised trial. | blocks approval only | [View](projects/ema-sa/_contracts/granola-import.REVIEW.md) |
+| Review point | granola-import RP-5 | minor — Shadow compare against ema-mcp gold — Run after first live supervised trial with notes content. | blocks approval only | [View](projects/ema-sa/_contracts/granola-import.REVIEW.md) |
 | Review point | granola-sync RP-1 | minor — `granola.mcp` capability registration | blocks approval only | [View](projects/ema-sa/_contracts/granola-sync.REVIEW.md) |
-| Review point | llm-interaction-import RP-1 | minor — Catch-up volume vs max_per_run | blocks approval only | [View](Operations/_contracts/llm-interaction-import.REVIEW.md) |
+| Review point | llm-interaction-import RP-1 | minor — Catch-up volume vs max_per_run — Keep 50 for trial. Raise after the first debug_tick if the remaining cou | blocks approval only | [View](Operations/_contracts/llm-interaction-import.REVIEW.md) |
 
 **Waiting on a build (14)** — Decided already; no decision needed
 
@@ -409,16 +432,16 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1325
+**Total Ticks**: 1332
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-14 12:36 | 0 new, 0 synced |
-| github-sync | 🟢 Yes | ✅ ok | 2026-09-14 12:36 | 0 synced |
-| stream-deck | 🟢 Yes | ✅ ok | 2026-09-14 12:36 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-14 14:38 | 1 new, 1 synced |
+| github-sync | 🟢 Yes | ✅ ok | 2026-09-14 14:38 | 0 synced |
+| stream-deck | 🟢 Yes | ✅ ok | 2026-09-14 14:38 | 0 copied, 0 noise, 0 hal |
+| processor-discover | 🟢 Yes | ✅ ok | — | 9 processed, 9 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
-| whatsapp | 🟢 Yes | ✅ ok | 2026-09-14 12:36 | 0 processed, 0 failed |
+| whatsapp | 🟢 Yes | ✅ ok | 2026-09-14 14:38 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
 | hostinger | ⚪ No | — | — | — |
 | store-email | 🟢 Yes | — | — | — |
@@ -428,11 +451,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
-| [2026-09-14 12:36](_pipeline/logs/2026-09-14_12-36-03.md) | 248s | [✓](_pipeline/logs/2026-09-14_12-36-03.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-14_12-36-03.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-14_12-36-03.md#processor-progress) 0 progressed | $0.0000 | ~0.104g |
-| [2026-09-14 12:19](_pipeline/logs/2026-09-14_12-19-59.md) | 7s | [✓](_pipeline/logs/2026-09-14_12-19-59.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-14_12-19-59.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
-| [2026-09-14 12:03](_pipeline/logs/2026-09-14_12-03-55.md) | 7s | [✓](_pipeline/logs/2026-09-14_12-03-55.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-14_12-03-55.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
-| [2026-09-14 11:48](_pipeline/logs/2026-09-14_11-48-10.md) | 7s | [✓](_pipeline/logs/2026-09-14_11-48-10.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
-| [2026-09-14 11:28](_pipeline/logs/2026-09-14_11-28-21.md) | 260s | [✓](_pipeline/logs/2026-09-14_11-28-21.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-14_11-28-21.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-14_11-28-21.md#processor-discover) 1 processed, 1 created | [✓](_pipeline/logs/2026-09-14_11-28-21.md#processor-progress) 0 progressed | $0.0000 | ~0.108g |
+| [2026-09-14 14:38](_pipeline/logs/2026-09-14_14-38-22.md) | 263s | [✓](_pipeline/logs/2026-09-14_14-38-22.md#icloud-email) 1 new, 1 synced | [✓](_pipeline/logs/2026-09-14_14-38-22.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-14_14-38-22.md#processor-progress) 0 progressed | $0.0000 | ~0.110g |
+| [2026-09-14 14:22](_pipeline/logs/2026-09-14_14-22-50.md) | 7s | [✓](_pipeline/logs/2026-09-14_14-22-50.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
+| [2026-09-14 14:02](_pipeline/logs/2026-09-14_14-02-54.md) | 268s | [✓](_pipeline/logs/2026-09-14_14-02-54.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-14_14-02-54.md#processor-discover) 9 processed, 9 created | — | $0.0001 | ~0.261g |
+| [2026-09-14 13:42](_pipeline/logs/2026-09-14_13-42-23.md) | 275s | [✓](_pipeline/logs/2026-09-14_13-42-23.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-14_13-42-23.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-14_13-42-23.md#processor-progress) 0 progressed | $0.0000 | ~0.114g |
+| [2026-09-14 13:26](_pipeline/logs/2026-09-14_13-26-54.md) | 6s | [✓](_pipeline/logs/2026-09-14_13-26-54.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.002g |
 
 ### Source Topology
 
@@ -467,6 +490,7 @@ flowchart TD
 
 | Contract | Function | Cadence | Last Run | Compiled |
 |----------|----------|---------|----------|----------|
+| [Clipboard Import](Operations/_contracts/clipboard-import.README.md) | Operations | per-tick | — | ⚪ No |
 | [Code Documentation](Operations/_contracts/code-documentation.README.md) | Operations | weekly | — | ⚪ No |
 | [Consulting Engagement Administration](Operations/_contracts/consulting-engagement-administration.README.md) | Operations | on-demand | — | ⚪ No |
 | [Conversational Initiative](Operations/_contracts/conversational-initiative.README.md) | Operations | on-demand | — | ⚪ No |
@@ -474,7 +498,7 @@ flowchart TD
 | [Github Issue Sync](Operations/_contracts/github-issue-sync.README.md) | Operations | per-tick | — | ⚪ No |
 | [Icloud Email Import](Operations/_contracts/icloud-email-import.README.md) | Operations | per-tick | — | ⚪ No |
 | [Impact Cascade](Operations/_contracts/impact-cascade.README.md) | Operations | per-tick | 2026-08-25 11:40 | ⚪ No |
-| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-14 12:38 | 🟢 Yes |
+| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-14 14:40 | 🟢 Yes |
 | [Learn The User](Operations/_contracts/learn-the-user.README.md) | Operations | per-tick | — | ⚪ No |
 | [Seed Crystallisation](Operations/_contracts/seed-crystallisation.README.md) | Operations | per-tick | 2026-08-24 15:27 | 🟢 Yes |
 | [Stack Improvement](Operations/_contracts/stack-improvement.README.md) | Operations | weekly | — | ⚪ No |
