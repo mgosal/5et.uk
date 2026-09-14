@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1336.md" style="font-size:11px; color:#5f6368;">#1336</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1337.md" style="font-size:11px; color:#5f6368;">#1337</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -42,11 +42,99 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1336](_pipeline/reports/tick-1336.md)** · 2026-09-14 15:17 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1337](_pipeline/reports/tick-1337.md)** · 2026-09-14 15:35 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
 - No durable work-item changes in this tick.
+
+<details><summary>Inspected without change (83)</summary>
+
+- [A.005](Accounts/_work/A.005-privacy-screen-protector.md) — A.005-privacy-screen-protector
+- [A.011](Accounts/_work/A.011-Retail-Receipt.md) — A.011-Retail-Receipt
+- [A.014](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) — A.014-Google-One-Subscription-Receipt
+- [A.016](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) — A.016-Processing-fuel-receipt-for-business-travel
+- [A.017](Accounts/_work/A.017-incorporation-expense.md) — A.017-incorporation-expense
+- [A.018](Accounts/_work/A.018-ico-data-protection-fee.md) — A.018-ico-data-protection-fee
+- [A.019](Accounts/_work/A.019-google-play-subscription-may.md) — A.019-google-play-subscription-may
+- [C.036](Compliance/_work/C.036-LLM-processing-of-personal-data-risk.md) — C.036-LLM-processing-of-personal-data-risk
+- [C.037](Compliance/_work/C.037-Anonymous-User-Experience-and-Contract-Framework.md) — C.037-Anonymous-User-Experience-and-Contract-Framework
+- [O.424](Operations/_work/O.424-attention-event-experiment.md) — O.424-attention-event-experiment
+- [O.430](Operations/_work/O.430-stream-deck-attention-mode.md) — O.430-stream-deck-attention-mode
+- [O.437](Operations/_work/O.437-build-conversational-initiative-path.md) — O.437-build-conversational-initiative-path
+- [O.439](Operations/_work/O.439-build-contract-support-loop.md) — O.439-build-contract-support-loop
+- [O.447](Operations/_work/O.447-refine-cloud-connect-direction.md) — O.447-refine-cloud-connect-direction
+- [O.449](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) — O.449-AI-Agent-Development-Platforms-consultation
+- [O.458](Operations/_work/O.458-Supply-chain-constraints-on-hardware-procurement.md) — O.458-Supply-chain-constraints-on-hardware-procurement
+- [O.462](Operations/_work/O.462-Wire-Cortex-local-inference-path.md) — O.462-Wire-Cortex-local-inference-path
+- [O.463](Operations/_work/O.463-Inference-tier-field-and-tier-grouped-execution.md) — O.463-Inference-tier-field-and-tier-grouped-execution
+- [O.468](Operations/_work/O.468-Register-for-St-James-AI-Tech-Related-event.md) — O.468-Register-for-St-James-AI-Tech-Related-event
+- [O.473](Operations/_work/O.473-Bootstrap-bionic-ingest-pipeline.md) — O.473-Bootstrap-bionic-ingest-pipeline
+- [O.474](Operations/_work/O.474-Your-Flow-Pro-access-ends-soon.md) — O.474-Your-Flow-Pro-access-ends-soon
+- [O.475](Operations/_work/O.475-Just-scheduled-THE-GARAGE-BAND-Bromsgrove-Sports-Club---Tkts.md) — O.475-Just-scheduled-THE-GARAGE-BAND-Bromsgrove-Sports-Club---Tkts
+- [O.476](Operations/_work/O.476-Welcome-to-BrumAI---Birmingham-Artificial-Intelligence-Meetu.md) — O.476-Welcome-to-BrumAI---Birmingham-Artificial-Intelligence-Meetu
+- [O.477](Operations/_work/O.477-WhatsApp-digest-StoreDash-Discussions-2026-09-07.md) — O.477-WhatsApp-digest-StoreDash-Discussions-2026-09-07
+- [O.478](Operations/_work/O.478-WhatsApp-digest-JatinMandipKash-2026-09-08.md) — O.478-WhatsApp-digest-JatinMandipKash-2026-09-08
+- [O.479](Operations/_work/O.479-WhatsApp-digest-JatinMandipKash-2026-09-09.md) — O.479-WhatsApp-digest-JatinMandipKash-2026-09-09
+- [O.480](Operations/_work/O.480-WhatsApp-digest-JatinMandipKash-2026-09-10.md) — O.480-WhatsApp-digest-JatinMandipKash-2026-09-10
+- [O.481](Operations/_work/O.481-WhatsApp-digest-JatinMandipKash-2026-09-11.md) — O.481-WhatsApp-digest-JatinMandipKash-2026-09-11
+- [O.482](Operations/_work/O.482-One-click-Postgres-major-version-upgrades-email-forwarding-f.md) — O.482-One-click-Postgres-major-version-upgrades-email-forwarding-f
+- [O.483](Operations/_work/O.483-I-actually-like-this-mech-mechanism-I.md) — O.483-I-actually-like-this-mech-mechanism-I
+- [O.484](Operations/_work/O.484-WhatsApp-digest-Kash-Khera-2026-09-12.md) — O.484-WhatsApp-digest-Kash-Khera-2026-09-12
+- [O.485](Operations/_work/O.485-WhatsApp-digest-StoreDash-Discussions-2026-09-12.md) — O.485-WhatsApp-digest-StoreDash-Discussions-2026-09-12
+- [O.486](Operations/_work/O.486-Your-new-group-is-waiting-for-you.md) — O.486-Your-new-group-is-waiting-for-you
+- [O.487](Operations/_work/O.487-WhatsApp-digest-Kōdo-Engineering-2026-09-13.md) — O.487-WhatsApp-digest-Kōdo-Engineering-2026-09-13
+- [O.488](Operations/_work/O.488-BlackEyeCollective-has-invited-you-to-be-their-account-succe.md) — O.488-BlackEyeCollective-has-invited-you-to-be-their-account-succe
+- [O.489](Operations/_work/O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14.md) — O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14
+- [O.490](Operations/_work/O.490-WhatsApp-digest-JatinMandipKash-2026-09-14.md) — O.490-WhatsApp-digest-JatinMandipKash-2026-09-14
+- [O.491](Operations/_work/O.491-2026-09-14-11-07-59-voice-notegpt-4o-audio.md) — O.491-2026-09-14-11-07-59-voice-notegpt-4o-audio
+- [O.492](Operations/_work/O.492-2026-09-14-13-20-08-voice-notegpt-4o-audio.md) — O.492-2026-09-14-13-20-08-voice-notegpt-4o-audio
+- [O.493](Operations/_work/O.493-2026-09-14-13-57-41-a531c837md.md) — O.493-2026-09-14-13-57-41-a531c837md
+- [O.494](Operations/_work/O.494-2026-09-14-13-57-28-0da07365md.md) — O.494-2026-09-14-13-57-28-0da07365md
+- [O.495](Operations/_work/O.495-2026-09-14-13-56-36-cdb3fbd2md.md) — O.495-2026-09-14-13-56-36-cdb3fbd2md
+- [O.496](Operations/_work/O.496-2026-09-14-13-55-52-e9b1a2c9md.md) — O.496-2026-09-14-13-55-52-e9b1a2c9md
+- [O.497](Operations/_work/O.497-2026-09-14-13-55-27-a58accb9md.md) — O.497-2026-09-14-13-55-27-a58accb9md
+- [O.498](Operations/_work/O.498-2026-09-14-13-54-06-79b5ead7md.md) — O.498-2026-09-14-13-54-06-79b5ead7md
+- [O.499](Operations/_work/O.499-2026-09-14-13-53-24-e85a2d31md.md) — O.499-2026-09-14-13-53-24-e85a2d31md
+- [O.500](Operations/_work/O.500-2026-09-14-14-06-04-9233e465md.md) — O.500-2026-09-14-14-06-04-9233e465md
+- [O.501](Operations/_work/O.501-2026-09-14-14-37-02-abecf09bmd.md) — O.501-2026-09-14-14-37-02-abecf09bmd
+- [O.502](Operations/_work/O.502-Markdown-link-fails-to-open-RP3-file.md) — O.502-Markdown-link-fails-to-open-RP3-file
+- [O.503](Operations/_work/O.503-2026-09-14-14-32-16-7808c39bmd.md) — O.503-2026-09-14-14-32-16-7808c39bmd
+- [O.504](Operations/_work/O.504-2026-09-14-14-30-23-1b190419md.md) — O.504-2026-09-14-14-30-23-1b190419md
+- [O.505](Operations/_work/O.505-2026-09-14-14-26-16-78ad097emd.md) — O.505-2026-09-14-14-26-16-78ad097emd
+- [O.506](Operations/_work/O.506-2026-09-14-14-26-11-3d7f0c06md.md) — O.506-2026-09-14-14-26-11-3d7f0c06md
+- [O.507](Operations/_work/O.507-Field-Ops-Demo-Script-Review-and-Preparation.md) — O.507-Field-Ops-Demo-Script-Review-and-Preparation
+- [O.508](Operations/_work/O.508-2026-09-14-14-25-25-4f7b7101md.md) — O.508-2026-09-14-14-25-25-4f7b7101md
+- [O.509](Operations/_work/O.509-2026-09-14-15-09-43-1f6b1fd6md.md) — O.509-2026-09-14-15-09-43-1f6b1fd6md
+- [O.510](Operations/_work/O.510-2026-09-14-15-08-47-09c87c26md.md) — O.510-2026-09-14-15-08-47-09c87c26md
+- [O.511](Operations/_work/O.511-2026-09-14-15-08-29-d93558d3md.md) — O.511-2026-09-14-15-08-29-d93558d3md
+- [O.512](Operations/_work/O.512-2026-09-14-14-58-09-10d48828md.md) — O.512-2026-09-14-14-58-09-10d48828md
+- [O.513](Operations/_work/O.513-2026-09-14-14-58-00-12c3b400md.md) — O.513-2026-09-14-14-58-00-12c3b400md
+- [O.514](Operations/_work/O.514-2026-09-14-14-57-08-545724c2md.md) — O.514-2026-09-14-14-57-08-545724c2md
+- [O.515](Operations/_work/O.515-2026-09-14-14-56-29-33c5a852md.md) — O.515-2026-09-14-14-56-29-33c5a852md
+- [O.516](Operations/_work/O.516-2026-09-14-14-54-20-f73e69a6md.md) — O.516-2026-09-14-14-54-20-f73e69a6md
+- [O.517](Operations/_work/O.517-Directives-for-internal-work-and-commit-process.md) — O.517-Directives-for-internal-work-and-commit-process
+- [O.518](Operations/_work/O.518-2026-09-14-14-51-15-b0673b57md.md) — O.518-2026-09-14-14-51-15-b0673b57md
+- [O.519](Operations/_work/O.519-2026-09-14-14-50-57-4f46c57fmd.md) — O.519-2026-09-14-14-50-57-4f46c57fmd
+- [O.520](Operations/_work/O.520-Defect-tracking-and-contractual-classification.md) — O.520-Defect-tracking-and-contractual-classification
+- [O.521](Operations/_work/O.521-2026-09-14-14-46-14-00421f96md.md) — O.521-2026-09-14-14-46-14-00421f96md
+- [O.522](Operations/_work/O.522-2026-09-14-14-44-28-a69bda7cmd.md) — O.522-2026-09-14-14-44-28-a69bda7cmd
+- [O.523](Operations/_work/O.523-Repo-review-pipeline-build-planning-architecture.md) — O.523-Repo-review-pipeline-build-planning-architecture
+- [O.524](Operations/_work/O.524-2026-09-14-14-40-55-35c2124emd.md) — O.524-2026-09-14-14-40-55-35c2124emd
+- [O.525](Operations/_work/O.525-2026-09-14-14-38-50-14af50ebmd.md) — O.525-2026-09-14-14-38-50-14af50ebmd
+- [O.526](Operations/_work/O.526-2026-09-14-15-34-17-50a49d79md.md) — O.526-2026-09-14-15-34-17-50a49d79md
+- [O.527](Operations/_work/O.527-2026-09-14-15-34-06-606352e6md.md) — O.527-2026-09-14-15-34-06-606352e6md
+- [O.528](Operations/_work/O.528-2026-09-14-15-33-49-b4a9a1f2md.md) — O.528-2026-09-14-15-33-49-b4a9a1f2md
+- [O.529](Operations/_work/O.529-2026-09-14-15-32-53-d4aa7b87md.md) — O.529-2026-09-14-15-32-53-d4aa7b87md
+- [O.530](Operations/_work/O.530-2026-09-14-15-25-32-77856fd5md.md) — O.530-2026-09-14-15-25-32-77856fd5md
+- [O.531](Operations/_work/O.531-2026-09-14-15-23-41-60ce737emd.md) — O.531-2026-09-14-15-23-41-60ce737emd
+- [O.532](Operations/_work/O.532-2026-09-14-15-22-20-e6138bf7md.md) — O.532-2026-09-14-15-22-20-e6138bf7md
+- [O.533](Operations/_work/O.533-2026-09-14-15-19-02-dd928abcmd.md) — O.533-2026-09-14-15-19-02-dd928abcmd
+- [O.534](Operations/_work/O.534-Critical-Video-Audio-Missing.md) — O.534-Critical-Video-Audio-Missing
+- [O.535](Operations/_work/O.535-2026-09-14-16-14-44-voice-notegpt-4o-audio.md) — O.535-2026-09-14-16-14-44-voice-notegpt-4o-audio
+- [O.536](Operations/_work/O.536-2026-09-14-16-28-11-voice-notegpt-4o-audio.md) — O.536-2026-09-14-16-28-11-voice-notegpt-4o-audio
+
+</details>
 
 ### Company In Progress
 
@@ -70,49 +158,107 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 ## Agency
 
 - **Waiting on you**: 0
-- **Company obligations**: 5
-- **Raw unsettled records**: 6
-- **Latest move at**: 2026-09-14T14:43:12.860222+00:00
-- **Latest move**: You responded to Clipboard Import Services Agreement.
-- **Latest move evidence**: Yeah, this sounds fine to approve. One comment I had there. We don't want to be make too much um inference or importance on on this historical handling. It the historical backfield is actually just for like seeds that they might
-- **Latest move tick**: 1335
+- **Company obligations**: 4
+- **Raw unsettled records**: 5
+- **Latest move at**: 2026-09-07T10:23:40.354071+00:00
+- **Latest move**: You responded to Review: Voice Note Import Services Agreement.
+- **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
+- **Latest move tick**: 1278
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-14T14:43:12.860222+00:00
 - **Turn tick**: 1334
 - **Turn commit**: 296b0346
-- **Window**: 2 ticks · 42 min
+- **Window**: 3 ticks · 1 h 0 m
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 0
-- **Elsewhere**: 2
-- **Beneath**: 0 progressed, 1 created, 0 inspected without change
+- **Elsewhere**: 3
+- **Beneath**: 0 progressed, 2 created, 0 inspected without change
 
 | Scope | Tick | Item | Summary |
 |---|---:|---|---|
-| elsewhere | 1335 | [Operations](Operations/dashboard.md) | Load 112 → 113 active. |
+| elsewhere | 1336 | [Operations](Operations/dashboard.md) | Load 112 → 114 active. |
+| elsewhere | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | elsewhere | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
 ### Waiting on You (0)
 
 Nothing presented and unanswered.
 
-### Company Owes (5)
+### Company Owes (4)
 
 | Since | Obligation | Records | Company next action |
 |---|---|---:|---|
-| 2026-09-14T14:43:12.860222+00:00 | [Clipboard Import Services Agreement](Operations/_work/approvals/contract-proposal-clipboard-import-services-agreement.md) | 1 | Apply the approved proposal, record the outcome, and settle the obligation. |
 | 2026-09-07T15:01:30.441306+00:00 | [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) | 1 | Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items. |
 | 2026-09-07T10:23:40.354071+00:00 | [Review: Voice Note Import Services Agreement](Operations/_contracts/voice-note-import-contract.REVIEW.md) | 2 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | 2026-09-07T08:52:56.745898+00:00 | [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) | 1 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | 2026-08-26T18:12:56.073931+00:00 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 
-### Activity Since Latest Move (2 ticks)
+### Activity Since Latest Move (60 ticks)
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
+| [#1278](_pipeline/reports/tick-1278.md) | 7.3s | 0 | 0 | 0 | 0 |
+| [#1279](_pipeline/reports/tick-1279.md) | 6.4s | 0 | 0 | 0 | 0 |
+| [#1280](_pipeline/reports/tick-1280.md) | 7.8s | 0 | 0 | 0 | 0 |
+| [#1281](_pipeline/reports/tick-1281.md) | 2704.2s | 23 | 3 | 0 | 0 |
+| [#1282](_pipeline/reports/tick-1282.md) | 349.0s | 28 | 5 | 0 | 0 |
+| [#1283](_pipeline/reports/tick-1283.md) | 7.6s | 0 | 0 | 0 | 0 |
+| [#1284](_pipeline/reports/tick-1284.md) | 8.3s | 0 | 0 | 0 | 0 |
+| [#1285](_pipeline/reports/tick-1285.md) | 15.4s | 28 | 0 | 0 | 0 |
+| [#1286](_pipeline/reports/tick-1286.md) | 17.1s | 0 | 0 | 0 | 0 |
+| [#1287](_pipeline/reports/tick-1287.md) | 7.1s | 0 | 0 | 0 | 0 |
+| [#1288](_pipeline/reports/tick-1288.md) | 6.8s | 0 | 0 | 0 | 0 |
+| [#1289](_pipeline/reports/tick-1289.md) | 18.7s | 28 | 0 | 0 | 0 |
+| [#1290](_pipeline/reports/tick-1290.md) | 13.7s | 0 | 0 | 0 | 0 |
+| [#1291](_pipeline/reports/tick-1291.md) | 7.8s | 0 | 0 | 0 | 0 |
+| [#1292](_pipeline/reports/tick-1292.md) | 7.8s | 0 | 0 | 0 | 0 |
+| [#1293](_pipeline/reports/tick-1293.md) | 647.0s | 28 | 0 | 0 | 0 |
+| [#1294](_pipeline/reports/tick-1294.md) | 7.6s | 0 | 0 | 0 | 0 |
+| [#1295](_pipeline/reports/tick-1295.md) | 6.4s | 0 | 0 | 0 | 0 |
+| [#1296](_pipeline/reports/tick-1296.md) | 162.6s | 28 | 0 | 0 | 0 |
+| [#1297](_pipeline/reports/tick-1297.md) | 8.0s | 0 | 0 | 0 | 0 |
+| [#1298](_pipeline/reports/tick-1298.md) | 6.8s | 0 | 0 | 0 | 0 |
+| [#1299](_pipeline/reports/tick-1299.md) | 44.2s | 28 | 0 | 0 | 0 |
+| [#1300](_pipeline/reports/tick-1300.md) | 7.2s | 0 | 0 | 0 | 0 |
+| [#1301](_pipeline/reports/tick-1301.md) | 10.0s | 0 | 0 | 0 | 0 |
+| [#1302](_pipeline/reports/tick-1302.md) | 7.1s | 0 | 0 | 0 | 0 |
+| [#1303](_pipeline/reports/tick-1303.md) | 70.4s | 28 | 0 | 0 | 0 |
+| [#1304](_pipeline/reports/tick-1304.md) | 10.5s | 0 | 0 | 0 | 0 |
+| [#1305](_pipeline/reports/tick-1305.md) | 129.3s | 0 | 1 | 0 | 0 |
+| [#1306](_pipeline/reports/tick-1306.md) | 7.7s | 0 | 0 | 0 | 0 |
+| [#1307](_pipeline/reports/tick-1307.md) | 105.1s | 28 | 1 | 0 | 322 |
+| [#1308](_pipeline/reports/tick-1308.md) | 7.0s | 0 | 0 | 0 | 0 |
+| [#1309](_pipeline/reports/tick-1309.md) | 135.3s | 28 | 0 | 0 | 0 |
+| [#1310](_pipeline/reports/tick-1310.md) | 7.3s | 0 | 0 | 0 | 0 |
+| [#1311](_pipeline/reports/tick-1311.md) | 6.7s | 0 | 0 | 0 | 0 |
+| [#1312](_pipeline/reports/tick-1312.md) | 835.0s | 34 | 8 | 0 | 2420 |
+| [#1313](_pipeline/reports/tick-1313.md) | 6.0s | 0 | 0 | 0 | 0 |
+| [#1314](_pipeline/reports/tick-1314.md) | 38.8s | 0 | 1 | 0 | 0 |
+| [#1315](_pipeline/reports/tick-1315.md) | 278.7s | 35 | 0 | 0 | 0 |
+| [#1316](_pipeline/reports/tick-1316.md) | 59.0s | 0 | 1 | 0 | 0 |
+| [#1317](_pipeline/reports/tick-1317.md) | 7.0s | 0 | 0 | 0 | 0 |
+| [#1318](_pipeline/reports/tick-1318.md) | 370.9s | 37 | 1 | 0 | 0 |
+| [#1319](_pipeline/reports/tick-1319.md) | 6.9s | 0 | 0 | 0 | 0 |
+| [#1320](_pipeline/reports/tick-1320.md) | 8.2s | 0 | 0 | 0 | 0 |
+| [#1321](_pipeline/reports/tick-1321.md) | 260.1s | 38 | 1 | 0 | 0 |
+| [#1322](_pipeline/reports/tick-1322.md) | 6.6s | 0 | 0 | 0 | 0 |
+| [#1323](_pipeline/reports/tick-1323.md) | 7.4s | 0 | 0 | 0 | 0 |
+| [#1324](_pipeline/reports/tick-1324.md) | 7.4s | 0 | 0 | 0 | 0 |
+| [#1325](_pipeline/reports/tick-1325.md) | 248.4s | 38 | 0 | 0 | 0 |
+| [#1326](_pipeline/reports/tick-1326.md) | 6.5s | 0 | 0 | 0 | 0 |
+| [#1327](_pipeline/reports/tick-1327.md) | 6.1s | 0 | 0 | 0 | 0 |
+| [#1328](_pipeline/reports/tick-1328.md) | 5.7s | 0 | 0 | 0 | 0 |
+| [#1329](_pipeline/reports/tick-1329.md) | 274.6s | 38 | 0 | 0 | 0 |
+| [#1330](_pipeline/reports/tick-1330.md) | 268.3s | 0 | 9 | 0 | 522 |
+| [#1331](_pipeline/reports/tick-1331.md) | 7.1s | 0 | 0 | 0 | 0 |
+| [#1332](_pipeline/reports/tick-1332.md) | 263.0s | 46 | 0 | 0 | 0 |
+| [#1333](_pipeline/reports/tick-1333.md) | 393.8s | 0 | 30 | 0 | 5784 |
+| [#1334](_pipeline/reports/tick-1334.md) | 533.5s | 80 | 9 | 0 | 525 |
 | [#1335](_pipeline/reports/tick-1335.md) | 104.5s | 0 | 1 | 0 | 526 |
 | [#1336](_pipeline/reports/tick-1336.md) | 179.2s | 0 | 1 | 0 | 541 |
+| [#1337](_pipeline/reports/tick-1337.md) | 333.2s | 83 | 2 | 0 | 0 |
 
 ## Health
 
@@ -120,10 +266,10 @@ Nothing presented and unanswered.
 |----------|--------|--------|---------|------|
 | [Accounts](Accounts/dashboard.md) | 🔄 | 2 | 0 | 6 |
 | [Compliance](Compliance/dashboard.md) | ⏸️ | 9 | 1 | 0 |
-| [Operations](Operations/dashboard.md) | ⚠️ | 114 | 0 | 0 |
+| [Operations](Operations/dashboard.md) | ⚠️ | 116 | 0 | 0 |
 | [People](People/dashboard.md) | ⚠️ | 6 | 0 | 0 |
 | [Services](Services/dashboard.md) | 🔄 | 1 | 0 | 0 |
-| **Total** | | **132** | **1** | **6** |
+| **Total** | | **134** | **1** | **6** |
 
 ### Work Item Distribution
 
@@ -131,7 +277,7 @@ Nothing presented and unanswered.
 pie title Active Work Items by Function
     "Accounts" : 2
     "Compliance" : 9
-    "Operations" : 114
+    "Operations" : 116
     "People" : 6
     "Services" : 1
 ```
@@ -142,13 +288,13 @@ pie title Active Work Items by Function
 pie title Active Status Distribution
     "awaiting-approval" : 1
     "in-progress" : 13
-    "open" : 118
+    "open" : 120
     "submitted" : 1
 ```
 
 ## Attention
 
-### Decisions Waiting (37 of 59 need you)
+### Decisions Waiting (36 of 58 need you)
 
 Grouped by what each is waiting on. The first two groups are yours.
 
@@ -158,11 +304,10 @@ Grouped by what each is waiting on. The first two groups are yours.
 |------|---------|--------|-------------|------|
 | Review point | voice-note-import-contract RP-3 | minor — New evidence reopens the cost basis on which RP-1 wa | blocks approval only | [View](Operations/_contracts/voice-note-import-contract.REVIEW.md) |
 
-**Your review (36)** — One proposed action each — confirm or send back
+**Your review (35)** — One proposed action each — confirm or send back
 
 | Kind | Subject | Detail | Consequence | Link |
 |------|---------|--------|-------------|------|
-| Contract proposal | Clipboard Import Services Agreement | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-clipboard-import-services-agreement.md) |
 | Contract proposal | Sales Workflow Formalization | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sales-workflow-formalization.md) |
 | Contract proposal | SDLC Process Review Services Agreement | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) |
 | Contract proposal | Support Amendment — Seed Crystallisation | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-seed_crystallisation-support-amendment.md) |
@@ -296,16 +441,16 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1336
+**Total Ticks**: 1337
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-14 16:17 | 0 new, 0 synced |
-| github-sync | 🟢 Yes | ✅ ok | 2026-09-14 15:35 | 0 synced |
-| stream-deck | 🟢 Yes | ✅ ok | 2026-09-14 15:35 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 15 processed, 1 created |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-14 16:35 | 0 new, 0 synced |
+| github-sync | 🟢 Yes | ✅ ok | 2026-09-14 16:35 | 0 synced |
+| stream-deck | 🟢 Yes | ✅ ok | 2026-09-14 16:35 | 2 copied, 2 noise, 3 hal |
+| processor-discover | 🟢 Yes | ✅ ok | — | 8 processed, 2 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
-| whatsapp | 🟢 Yes | ✅ ok | 2026-09-14 15:35 | 0 processed, 0 failed |
+| whatsapp | 🟢 Yes | ✅ ok | 2026-09-14 16:35 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
 | hostinger | ⚪ No | — | — | — |
 | store-email | 🟢 Yes | — | — | — |
@@ -315,11 +460,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-14 16:35](_pipeline/logs/2026-09-14_16-35-34.md) | 333s | [✓](_pipeline/logs/2026-09-14_16-35-34.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-14_16-35-34.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-14_16-35-34.md#processor-discover) 8 processed, 2 created | [✓](_pipeline/logs/2026-09-14_16-35-34.md#processor-progress) 0 progressed | $0.0000 | ~0.139g |
 | [2026-09-14 16:17](_pipeline/logs/2026-09-14_16-17-00.md) | 179s | [✓](_pipeline/logs/2026-09-14_16-17-00.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-14_16-17-00.md#processor-discover) 15 processed, 1 created | — | $0.0001 | ~0.225g |
 | [2026-09-14 15:59](_pipeline/logs/2026-09-14_15-59-42.md) | 104s | [✓](_pipeline/logs/2026-09-14_15-59-42.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-14_15-59-42.md#processor-discover) 9 processed, 1 created | — | $0.0000 | ~0.192g |
 | [2026-09-14 15:35](_pipeline/logs/2026-09-14_15-35-17.md) | 534s | [✓](_pipeline/logs/2026-09-14_15-35-17.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-14_15-35-17.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-14_15-35-17.md#processor-discover) 10 processed, 9 created | [✓](_pipeline/logs/2026-09-14_15-35-17.md#processor-progress) 0 progressed | $0.0001 | ~0.373g |
 | [2026-09-14 15:13](_pipeline/logs/2026-09-14_15-13-11.md) | 394s | [✓](_pipeline/logs/2026-09-14_15-13-11.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-14_15-13-11.md#processor-discover) 31 processed, 30 created | — | $0.0005 | ~1.800g |
-| [2026-09-14 14:38](_pipeline/logs/2026-09-14_14-38-22.md) | 263s | [✓](_pipeline/logs/2026-09-14_14-38-22.md#icloud-email) 1 new, 1 synced | [✓](_pipeline/logs/2026-09-14_14-38-22.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-14_14-38-22.md#processor-progress) 0 progressed | $0.0000 | ~0.110g |
 
 ### Source Topology
 
@@ -362,7 +507,7 @@ flowchart TD
 | [Github Issue Sync](Operations/_contracts/github-issue-sync.README.md) | Operations | per-tick | — | ⚪ No |
 | [Icloud Email Import](Operations/_contracts/icloud-email-import.README.md) | Operations | per-tick | — | ⚪ No |
 | [Impact Cascade](Operations/_contracts/impact-cascade.README.md) | Operations | per-tick | 2026-08-25 11:40 | ⚪ No |
-| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-14 15:41 | 🟢 Yes |
+| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-14 16:39 | 🟢 Yes |
 | [Learn The User](Operations/_contracts/learn-the-user.README.md) | Operations | per-tick | — | ⚪ No |
 | [Seed Crystallisation](Operations/_contracts/seed-crystallisation.README.md) | Operations | per-tick | 2026-08-24 15:27 | 🟢 Yes |
 | [Stack Improvement](Operations/_contracts/stack-improvement.README.md) | Operations | weekly | — | ⚪ No |
@@ -427,6 +572,7 @@ flowchart TD
 
 | At | Who | Event |
 |---|---|---|
+| 2026-09-14 15:39 | company | Turn settled · contract |
 | 2026-09-14 14:43 | you | Responded · contract |
 | 2026-09-14 14:41 | company | Cue published · contract |
 | 2026-09-14 14:41 | company | Question prepared · contract |
@@ -434,4 +580,3 @@ flowchart TD
 | 2026-09-11 12:19 | you | Responded · contract |
 | 2026-09-10 13:14 | company | Cue published · contract |
 | 2026-09-10 13:14 | company | Question prepared · contract |
-| 2026-09-07 10:23 | you | Responded · voice |

@@ -4,56 +4,56 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1336` · 2026-09-14 15:17 UTC
+`FRAME #1337` · 2026-09-14 15:35 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1336** · 2 ticks · 42 min · `296b0346` · dashboards + tick reports
+**#1334 → #1337** · 3 ticks · 1 h 0 m · `296b0346` · dashboards + tick reports
 
 **Elsewhere**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1335 | [Operations](Operations/dashboard.md) | Load 112 → 113 active. |
+| 1336 | [Operations](Operations/dashboard.md) | Load 112 → 114 active. |
+| 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 0 progressed, 1 created, 0 inspected without change.
+Beneath it: 0 progressed, 2 created, 0 inspected without change.
 
-Nothing needs you. The company owes 5.
+Nothing needs you. The company owes 4.
 
 ---
 
 ## ▶ Concurrent agency
 
-### YOU — **0 waiting** · COMPANY — **5 owed**
+### YOU — **0 waiting** · COMPANY — **4 owed**
 
-**Latest move:** You responded to Clipboard Import Services Agreement. · 2026-09-14 14:43:12 UTC
+**Latest move:** You responded to Review: Voice Note Import Services Agreement. · 2026-09-07 10:23:40 UTC
 
-**Company owes next:** [Clipboard Import Services Agreement](Operations/_work/approvals/contract-proposal-clipboard-import-services-agreement.md) — Apply the approved proposal, record the outcome, and settle the obligation.
+**Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▇▇
-█ latest move · 14:43
-▁–█ tick-report activity · 2 reports · 37 min   (frames #1335 → #1336)
+█▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇
+█ latest move · 10:23
+▁–█ tick-report activity · 60 reports · 7 d 5 h   (frames #1278 → #1337)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **2** |
-| Time since latest move | 37 min |
-| Company obligations | 5 (6 raw records) |
+| Tick reports since latest move | **60** |
+| Time since latest move | 7 d 5 h |
+| Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
 ---
 
-## ⇢ Company owes — 5
+## ⇢ Company owes — 4
 
 | Obligation | Records | Next action |
 |---|---:|---|
-| [Clipboard Import Services Agreement](Operations/_work/approvals/contract-proposal-clipboard-import-services-agreement.md) | 1 | Apply the approved proposal, record the outcome, and settle the obligation. |
 | [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) | 1 | Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items. |
 | [Review: Voice Note Import Services Agreement](Operations/_contracts/voice-note-import-contract.REVIEW.md) | 2 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) | 1 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
@@ -144,13 +144,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 178 active · 6 done
+## ▦ Functions — 180 active · 6 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 6 | `██▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 9 | 0 | `██████████` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 114 | 0 | `██████████` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 116 | 0 | `██████████` |
 | ⚠️ | [People](People/dashboard.md) | 6 | 0 | `██████████` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 0 | `██████████` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -185,6 +185,7 @@ Nothing is waiting on you. The company may still have work to do.
 
 | Time | Who | Event |
 |---|---|---|
+| 09-14 15:39 | company | Turn settled · contract |
 | 09-14 14:43 | **you** | Responded · contract |
 | 09-14 14:41 | company | Cue published · contract |
 | 09-14 14:41 | company | Question prepared · contract |
@@ -192,6 +193,5 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-11 12:19 | **you** | Responded · contract |
 | 09-10 13:14 | company | Cue published · contract |
 | 09-10 13:14 | company | Question prepared · contract |
-| 09-07 10:23 | **you** | Responded · voice |
 
-<sub>Rendered from the repo at frame #1336 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1337 · immediate mode, no client state</sub>
