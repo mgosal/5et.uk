@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1335.md" style="font-size:11px; color:#5f6368;">#1335</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1336.md" style="font-size:11px; color:#5f6368;">#1336</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -42,7 +42,7 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1335](_pipeline/reports/tick-1335.md)** · 2026-09-14 14:59 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1336](_pipeline/reports/tick-1336.md)** · 2026-09-14 15:17 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -51,7 +51,7 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 ### Company In Progress
 
 - 🧭 [O.440](Operations/_work/O.440-contract-support-seed-crystallisation.md) — **Contract Support: Seed Crystallisation** · `authorized-awaiting-application`
-  - Apply the existing Director decision recorded through [O.452-Review-seed-crystallisation-support-amendment](Operations/_work/O.452-Review-seed-crystallisation-support-amendment.md) through the normal approval lifecycle. Do not ask for the same authorization again. Compilation, data repair, supervised trial and resumption remain separately gated.
+  - Apply the existing Director decision recorded through [O.452-Review-seed-crystallisation-support-amendment](archive/O.452-Review-seed-crystallisation-support-amendment.md) through the normal approval lifecycle. Do not ask for the same authorization again. Compilation, data repair, supervised trial and resumption remain separately gated.
 - 🧭 [O.449](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) — **Set Up Paid Consulting Engagement — AlphaSights**
   - Use the source correspondence to bootstrap the consulting-engagement process. Obtain the client legal entity, billing details, purchase-order or engagement paperwork and service date before preparing the final sales order or invoice. Drafts remain under Mandip's control; do not send or accept external terms automatically.
 - 🧭 [O.465](Operations/_work/O.465-research-corpus-residual-repair.md) — **Research Corpus Residual Repair**
@@ -82,13 +82,16 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 - **Turn at**: 2026-09-14T14:43:12.860222+00:00
 - **Turn tick**: 1334
 - **Turn commit**: 296b0346
-- **Window**: 1 ticks · 24 min
+- **Window**: 2 ticks · 42 min
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 0
-- **Elsewhere**: 0
-- **Beneath**: 0 progressed, 0 created, 0 inspected without change
+- **Elsewhere**: 2
+- **Beneath**: 0 progressed, 1 created, 0 inspected without change
 
-Nothing surfaced on the dashboard across this window.
+| Scope | Tick | Item | Summary |
+|---|---:|---|---|
+| elsewhere | 1335 | [Operations](Operations/dashboard.md) | Load 112 → 113 active. |
+| elsewhere | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
 ### Waiting on You (0)
 
@@ -104,22 +107,23 @@ Nothing presented and unanswered.
 | 2026-09-07T08:52:56.745898+00:00 | [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) | 1 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | 2026-08-26T18:12:56.073931+00:00 | [Turn reconciliation — G.001](_pipeline/turns/replay-2026-08-26-18-55-27.md) | 1 | Attach this instruction to G.001 and present the matched proposal for Director review. |
 
-### Activity Since Latest Move (1 ticks)
+### Activity Since Latest Move (2 ticks)
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
 | [#1335](_pipeline/reports/tick-1335.md) | 104.5s | 0 | 1 | 0 | 526 |
+| [#1336](_pipeline/reports/tick-1336.md) | 179.2s | 0 | 1 | 0 | 541 |
 
 ## Health
 
 | Function | Status | Active | Waiting | Done |
 |----------|--------|--------|---------|------|
-| [Accounts](Accounts/dashboard.md) | 🔄 | 2 | 0 | 13 |
-| [Compliance](Compliance/dashboard.md) | ⏸️ | 9 | 1 | 13 |
-| [Operations](Operations/dashboard.md) | ⚠️ | 113 | 0 | 454 |
-| [People](People/dashboard.md) | ⚠️ | 6 | 0 | 1 |
-| [Services](Services/dashboard.md) | 🔄 | 1 | 0 | 11 |
-| **Total** | | **131** | **1** | **492** |
+| [Accounts](Accounts/dashboard.md) | 🔄 | 2 | 0 | 6 |
+| [Compliance](Compliance/dashboard.md) | ⏸️ | 9 | 1 | 0 |
+| [Operations](Operations/dashboard.md) | ⚠️ | 114 | 0 | 0 |
+| [People](People/dashboard.md) | ⚠️ | 6 | 0 | 0 |
+| [Services](Services/dashboard.md) | 🔄 | 1 | 0 | 0 |
+| **Total** | | **132** | **1** | **6** |
 
 ### Work Item Distribution
 
@@ -127,7 +131,7 @@ Nothing presented and unanswered.
 pie title Active Work Items by Function
     "Accounts" : 2
     "Compliance" : 9
-    "Operations" : 113
+    "Operations" : 114
     "People" : 6
     "Services" : 1
 ```
@@ -138,7 +142,7 @@ pie title Active Work Items by Function
 pie title Active Status Distribution
     "awaiting-approval" : 1
     "in-progress" : 13
-    "open" : 117
+    "open" : 118
     "submitted" : 1
 ```
 
@@ -292,14 +296,14 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1335
+**Total Ticks**: 1336
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-14 15:59 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-14 16:17 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-14 15:35 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-14 15:35 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 9 processed, 1 created |
+| processor-discover | 🟢 Yes | ✅ ok | — | 15 processed, 1 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
 | whatsapp | 🟢 Yes | ✅ ok | 2026-09-14 15:35 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
@@ -311,11 +315,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-14 16:17](_pipeline/logs/2026-09-14_16-17-00.md) | 179s | [✓](_pipeline/logs/2026-09-14_16-17-00.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-14_16-17-00.md#processor-discover) 15 processed, 1 created | — | $0.0001 | ~0.225g |
 | [2026-09-14 15:59](_pipeline/logs/2026-09-14_15-59-42.md) | 104s | [✓](_pipeline/logs/2026-09-14_15-59-42.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-14_15-59-42.md#processor-discover) 9 processed, 1 created | — | $0.0000 | ~0.192g |
 | [2026-09-14 15:35](_pipeline/logs/2026-09-14_15-35-17.md) | 534s | [✓](_pipeline/logs/2026-09-14_15-35-17.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-14_15-35-17.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-14_15-35-17.md#processor-discover) 10 processed, 9 created | [✓](_pipeline/logs/2026-09-14_15-35-17.md#processor-progress) 0 progressed | $0.0001 | ~0.373g |
 | [2026-09-14 15:13](_pipeline/logs/2026-09-14_15-13-11.md) | 394s | [✓](_pipeline/logs/2026-09-14_15-13-11.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-14_15-13-11.md#processor-discover) 31 processed, 30 created | — | $0.0005 | ~1.800g |
 | [2026-09-14 14:38](_pipeline/logs/2026-09-14_14-38-22.md) | 263s | [✓](_pipeline/logs/2026-09-14_14-38-22.md#icloud-email) 1 new, 1 synced | [✓](_pipeline/logs/2026-09-14_14-38-22.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-14_14-38-22.md#processor-progress) 0 progressed | $0.0000 | ~0.110g |
-| [2026-09-14 14:22](_pipeline/logs/2026-09-14_14-22-50.md) | 7s | [✓](_pipeline/logs/2026-09-14_14-22-50.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 
 ### Source Topology
 
@@ -393,7 +397,7 @@ flowchart TD
 | [push-to-talk](projects/push-to-talk/README.md) | ✅ | 0 | 0 | 0 |
 | [right-store](projects/right-store/README.md) | ✅ | 0 | 0 | 0 |
 | [sole-trader-saas](projects/sole-trader-saas/README.md) | ✅ | 0 | 0 | 0 |
-| [store-dash](projects/store-dash/README.md) | ⏸️ | 34 | 4 | 184 |
+| [store-dash](projects/store-dash/README.md) | ⏸️ | 34 | 4 | 0 |
 
 ### Knowledge
 

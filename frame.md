@@ -4,17 +4,22 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1335` · 2026-09-14 14:59 UTC
+`FRAME #1336` · 2026-09-14 15:17 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1335** · 1 ticks · 24 min · `296b0346` · dashboards + tick reports
+**#1334 → #1336** · 2 ticks · 42 min · `296b0346` · dashboards + tick reports
 
-Nothing surfaced on the frame across this window.
+**Elsewhere**
 
-Beneath it: 0 progressed, 0 created, 0 inspected without change.
+| Tick | Item | What happened |
+|---:|---|---|
+| 1335 | [Operations](Operations/dashboard.md) | Load 112 → 113 active. |
+| 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
+
+Beneath it: 0 progressed, 1 created, 0 inspected without change.
 
 Nothing needs you. The company owes 5.
 
@@ -29,16 +34,16 @@ Nothing needs you. The company owes 5.
 **Company owes next:** [Clipboard Import Services Agreement](Operations/_work/approvals/contract-proposal-clipboard-import-services-agreement.md) — Apply the approved proposal, record the outcome, and settle the obligation.
 
 ```
-█▇
+█▇▇
 █ latest move · 14:43
-▁–█ tick-report activity · 1 reports · 18 min   (frames #1335 → #1335)
+▁–█ tick-report activity · 2 reports · 37 min   (frames #1335 → #1336)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **1** |
-| Time since latest move | 18 min |
+| Tick reports since latest move | **2** |
+| Time since latest move | 37 min |
 | Company obligations | 5 (6 raw records) |
 | Waiting on you | 0 |
 
@@ -139,15 +144,15 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 177 active · 676 done
+## ▦ Functions — 178 active · 6 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
-| 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
-| ⏸️ | [Compliance](Compliance/dashboard.md) | 9 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 113 | 454 | `██▁▁▁▁▁▁▁▁` |
-| ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
-| 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
+| 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 6 | `██▁▁▁▁▁▁▁▁` |
+| ⏸️ | [Compliance](Compliance/dashboard.md) | 9 | 0 | `██████████` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 114 | 0 | `██████████` |
+| ⚠️ | [People](People/dashboard.md) | 6 | 0 | `██████████` |
+| 🔄 | [Services](Services/dashboard.md) | 1 | 0 | `██████████` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.uk](projects/5et.uk/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [_old](projects/_old/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -172,7 +177,7 @@ Nothing is waiting on you. The company may still have work to do.
 | ✅ | [push-to-talk](projects/push-to-talk/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [right-store](projects/right-store/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [sole-trader-saas](projects/sole-trader-saas/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
-| ⏸️ | [store-dash](projects/store-dash/README.md) | 34 | 184 | `██▁▁▁▁▁▁▁▁` |
+| ⏸️ | [store-dash](projects/store-dash/README.md) | 34 | 0 | `██████████` |
 
 ---
 
@@ -189,4 +194,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-10 13:14 | company | Question prepared · contract |
 | 09-07 10:23 | **you** | Responded · voice |
 
-<sub>Rendered from the repo at frame #1335 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1336 · immediate mode, no client state</sub>
