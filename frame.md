@@ -4,28 +4,29 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1318` · 2026-09-14 09:35 UTC
+`FRAME #1319` · 2026-09-14 09:57 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1296 → #1318** · 22 ticks · 2 d 21 h · `352b6e24` · dashboards + tick reports
+**#1296 → #1319** · 23 ticks · 2 d 21 h · `352b6e24` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1312 | [deal-artifact RP-4](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
 | 1312 | [deal-artifact RP-3](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
 | 1312 | [deal-artifact RP-2](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
+| 1312 | [deal-artifact RP-4](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
 | 1299 | [LLM Interaction Import Services Agreement](Operations/_work/approvals/contract-proposal-llm-interaction-import-services-agreement.md) | The company settled it. No longer waiting on a decision. |
 
 **Elsewhere**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1316 | [Operations](Operations/dashboard.md) | Load 51 → 62 active. |
+| 1318 | [Operations](Operations/dashboard.md) | Load 51 → 63 active. |
+| 1318 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-14)](Operations/_work/O.490-WhatsApp-digest-JatinMandipKash-2026-09-14.md) | Created. |
 | 1316 | [WhatsApp digest: Jatin Blocvey (2026-09-14)](Operations/_work/O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14.md) | Created. |
 | 1314 | [BlackEyeCollective has invited you to be their account successor](Operations/_work/O.488-BlackEyeCollective-has-invited-you-to-be-their-account-succe.md) | Created. |
 | 1312 | [Project roadmap alignment for Christie](Operations/_work/P.014-Project-roadmap-alignment-for-Christie.md) | Created. |
@@ -39,7 +40,7 @@
 | 1307 | [WhatsApp digest for Kash Khera](Operations/_work/I.010-WhatsApp-digest-for-Kash-Khera.md) | Created. |
 | 1305 | [Searchland Follow-Up – Trial Access, Pricing & Outstanding Points](projects/store-dash/_work/SD.329-Searchland-Follow-Up-Trial-Access-Pricing-Outstanding-Points.md) | Created. |
 
-Beneath it: 0 progressed, 12 created, 181 inspected without change.
+Beneath it: 0 progressed, 13 created, 218 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -54,9 +55,9 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅
+█▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 6 d 23 h   (frames #1259 → #1318)
+▁–█ tick-report activity · 60 reports · 6 d 23 h   (frames #1260 → #1319)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -114,12 +115,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ✕ Open review points — 35
+## ✕ Open review points — 37
 
 | Contract | Point | Status |
 |---|---|---|
 | [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-3: New evidence reopens the cost basis on which RP-1 was resolved | open |
 | [calendar-import](projects/ema-sa/_contracts/calendar-import.REVIEW.md) | RP-1: OAuth scopes | open |
+| [granola-sync](projects/ema-sa/_contracts/granola-sync.REVIEW.md) | RP-2: Granola subscription / trial | open — Director judgement; not automated |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-2: The company turn has no completion criterion | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-3: Support wrappers are created without an idempotency check | open |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-5: Contract proposals bypass the canonical attention stream | open |
@@ -143,6 +145,7 @@ Nothing is waiting on you. The company may still have work to do.
 | [fathom-import](projects/ema-sa/_contracts/fathom-import.REVIEW.md) | RP-6: `fathom.api` capability not yet registered | open |
 | [granola-import](projects/ema-sa/_contracts/granola-import.REVIEW.md) | RP-4: `granola.mcp` capability not yet registered | open |
 | [granola-import](projects/ema-sa/_contracts/granola-import.REVIEW.md) | RP-5: Shadow compare against ema-mcp gold | open |
+| [granola-sync](projects/ema-sa/_contracts/granola-sync.REVIEW.md) | RP-1: `granola.mcp` capability registration | open — does not block supervised trial |
 | [llm-interaction-import](Operations/_contracts/llm-interaction-import.REVIEW.md) | RP-1: Catch-up volume vs max_per_run | open |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-4: Implement inductive analysis as contracted | open — direction decided 2026-09-04 (option C); found already satisfied in the trial module, awaiting verification by supervised trial |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-1: Require a no-op for unchanged inputs | open — awaiting supervised trial |
@@ -206,4 +209,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 10:22 | company | Question prepared · voice |
 | 09-07 09:59 | **you** | Responded · voice |
 
-<sub>Rendered from the repo at frame #1318 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1319 · immediate mode, no client state</sub>

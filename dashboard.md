@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1318.md" style="font-size:11px; color:#5f6368;">#1318</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1319.md" style="font-size:11px; color:#5f6368;">#1319</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -42,53 +42,11 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1318](_pipeline/reports/tick-1318.md)** · 2026-09-14 09:35 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1319](_pipeline/reports/tick-1319.md)** · 2026-09-14 09:57 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
 - No durable work-item changes in this tick.
-
-<details><summary>Inspected without change (37)</summary>
-
-- [A.005](Accounts/_work/A.005-privacy-screen-protector.md) — A.005-privacy-screen-protector
-- [A.011](Accounts/_work/A.011-Retail-Receipt.md) — A.011-Retail-Receipt
-- [A.014](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) — A.014-Google-One-Subscription-Receipt
-- [A.016](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) — A.016-Processing-fuel-receipt-for-business-travel
-- [A.017](Accounts/_work/A.017-incorporation-expense.md) — A.017-incorporation-expense
-- [A.018](Accounts/_work/A.018-ico-data-protection-fee.md) — A.018-ico-data-protection-fee
-- [A.019](Accounts/_work/A.019-google-play-subscription-may.md) — A.019-google-play-subscription-may
-- [C.036](Compliance/_work/C.036-LLM-processing-of-personal-data-risk.md) — C.036-LLM-processing-of-personal-data-risk
-- [C.037](Compliance/_work/C.037-Anonymous-User-Experience-and-Contract-Framework.md) — C.037-Anonymous-User-Experience-and-Contract-Framework
-- [O.424](Operations/_work/O.424-attention-event-experiment.md) — O.424-attention-event-experiment
-- [O.430](Operations/_work/O.430-stream-deck-attention-mode.md) — O.430-stream-deck-attention-mode
-- [O.437](Operations/_work/O.437-build-conversational-initiative-path.md) — O.437-build-conversational-initiative-path
-- [O.439](Operations/_work/O.439-build-contract-support-loop.md) — O.439-build-contract-support-loop
-- [O.447](Operations/_work/O.447-refine-cloud-connect-direction.md) — O.447-refine-cloud-connect-direction
-- [O.449](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) — O.449-AI-Agent-Development-Platforms-consultation
-- [O.458](Operations/_work/O.458-Supply-chain-constraints-on-hardware-procurement.md) — O.458-Supply-chain-constraints-on-hardware-procurement
-- [O.462](Operations/_work/O.462-Wire-Cortex-local-inference-path.md) — O.462-Wire-Cortex-local-inference-path
-- [O.463](Operations/_work/O.463-Inference-tier-field-and-tier-grouped-execution.md) — O.463-Inference-tier-field-and-tier-grouped-execution
-- [O.468](Operations/_work/O.468-Register-for-St-James-AI-Tech-Related-event.md) — O.468-Register-for-St-James-AI-Tech-Related-event
-- [O.473](Operations/_work/O.473-Bootstrap-bionic-ingest-pipeline.md) — O.473-Bootstrap-bionic-ingest-pipeline
-- [O.474](Operations/_work/O.474-Your-Flow-Pro-access-ends-soon.md) — O.474-Your-Flow-Pro-access-ends-soon
-- [O.475](Operations/_work/O.475-Just-scheduled-THE-GARAGE-BAND-Bromsgrove-Sports-Club---Tkts.md) — O.475-Just-scheduled-THE-GARAGE-BAND-Bromsgrove-Sports-Club---Tkts
-- [O.476](Operations/_work/O.476-Welcome-to-BrumAI---Birmingham-Artificial-Intelligence-Meetu.md) — O.476-Welcome-to-BrumAI---Birmingham-Artificial-Intelligence-Meetu
-- [O.477](Operations/_work/O.477-WhatsApp-digest-StoreDash-Discussions-2026-09-07.md) — O.477-WhatsApp-digest-StoreDash-Discussions-2026-09-07
-- [O.478](Operations/_work/O.478-WhatsApp-digest-JatinMandipKash-2026-09-08.md) — O.478-WhatsApp-digest-JatinMandipKash-2026-09-08
-- [O.479](Operations/_work/O.479-WhatsApp-digest-JatinMandipKash-2026-09-09.md) — O.479-WhatsApp-digest-JatinMandipKash-2026-09-09
-- [O.480](Operations/_work/O.480-WhatsApp-digest-JatinMandipKash-2026-09-10.md) — O.480-WhatsApp-digest-JatinMandipKash-2026-09-10
-- [O.481](Operations/_work/O.481-WhatsApp-digest-JatinMandipKash-2026-09-11.md) — O.481-WhatsApp-digest-JatinMandipKash-2026-09-11
-- [O.482](Operations/_work/O.482-One-click-Postgres-major-version-upgrades-email-forwarding-f.md) — O.482-One-click-Postgres-major-version-upgrades-email-forwarding-f
-- [O.483](Operations/_work/O.483-I-actually-like-this-mech-mechanism-I.md) — O.483-I-actually-like-this-mech-mechanism-I
-- [O.484](Operations/_work/O.484-WhatsApp-digest-Kash-Khera-2026-09-12.md) — O.484-WhatsApp-digest-Kash-Khera-2026-09-12
-- [O.485](Operations/_work/O.485-WhatsApp-digest-StoreDash-Discussions-2026-09-12.md) — O.485-WhatsApp-digest-StoreDash-Discussions-2026-09-12
-- [O.486](Operations/_work/O.486-Your-new-group-is-waiting-for-you.md) — O.486-Your-new-group-is-waiting-for-you
-- [O.487](Operations/_work/O.487-WhatsApp-digest-Kōdo-Engineering-2026-09-13.md) — O.487-WhatsApp-digest-Kōdo-Engineering-2026-09-13
-- [O.488](Operations/_work/O.488-BlackEyeCollective-has-invited-you-to-be-their-account-succe.md) — O.488-BlackEyeCollective-has-invited-you-to-be-their-account-succe
-- [O.489](Operations/_work/O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14.md) — O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14
-- [O.490](Operations/_work/O.490-WhatsApp-digest-JatinMandipKash-2026-09-14.md) — O.490-WhatsApp-digest-JatinMandipKash-2026-09-14
-
-</details>
 
 ### Company In Progress
 
@@ -117,26 +75,27 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 - **Latest move at**: 2026-09-07T10:23:40.354071+00:00
 - **Latest move**: You responded to Review: Voice Note Import Services Agreement.
 - **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
-- **Latest move tick**: 1259
+- **Latest move tick**: 1260
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-11T12:19:38.236065+00:00
 - **Turn tick**: 1296
 - **Turn commit**: 352b6e24
-- **Window**: 22 ticks · 2 d 21 h
+- **Window**: 23 ticks · 2 d 21 h
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 4
-- **Elsewhere**: 13
-- **Beneath**: 0 progressed, 12 created, 181 inspected without change
+- **Elsewhere**: 14
+- **Beneath**: 0 progressed, 13 created, 218 inspected without change
 
 | Scope | Tick | Item | What happened |
 |---|---:|---|---|
-| yours | 1312 | [deal-artifact RP-4](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
 | yours | 1312 | [deal-artifact RP-3](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
 | yours | 1312 | [deal-artifact RP-2](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
+| yours | 1312 | [deal-artifact RP-4](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
 | yours | 1299 | [LLM Interaction Import Services Agreement](Operations/_work/approvals/contract-proposal-llm-interaction-import-services-agreement.md) | The company settled it. No longer waiting on a decision. |
-| elsewhere | 1316 | [Operations](Operations/dashboard.md) | Load 51 → 62 active. |
+| elsewhere | 1318 | [Operations](Operations/dashboard.md) | Load 51 → 63 active. |
+| elsewhere | 1318 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-14)](Operations/_work/O.490-WhatsApp-digest-JatinMandipKash-2026-09-14.md) | Created. |
 | elsewhere | 1316 | [WhatsApp digest: Jatin Blocvey (2026-09-14)](Operations/_work/O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14.md) | Created. |
 | elsewhere | 1314 | [BlackEyeCollective has invited you to be their account successor](Operations/_work/O.488-BlackEyeCollective-has-invited-you-to-be-their-account-succe.md) | Created. |
 | elsewhere | 1312 | [Project roadmap alignment for Christie](Operations/_work/P.014-Project-roadmap-alignment-for-Christie.md) | Created. |
@@ -167,7 +126,6 @@ Nothing presented and unanswered.
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1259](_pipeline/reports/tick-1259.md) | 83.5s | 19 | 0 | 0 | 0 |
 | [#1260](_pipeline/reports/tick-1260.md) | 6.4s | 0 | 0 | 0 | 0 |
 | [#1261](_pipeline/reports/tick-1261.md) | 6.5s | 0 | 0 | 0 | 0 |
 | [#1262](_pipeline/reports/tick-1262.md) | 6.3s | 0 | 0 | 0 | 0 |
@@ -227,6 +185,7 @@ Nothing presented and unanswered.
 | [#1316](_pipeline/reports/tick-1316.md) | 59.0s | 0 | 1 | 0 | 0 |
 | [#1317](_pipeline/reports/tick-1317.md) | 7.0s | 0 | 0 | 0 | 0 |
 | [#1318](_pipeline/reports/tick-1318.md) | 370.9s | 37 | 1 | 0 | 0 |
+| [#1319](_pipeline/reports/tick-1319.md) | 6.9s | 0 | 0 | 0 | 0 |
 
 ## Health
 
@@ -262,7 +221,7 @@ pie title Active Status Distribution
 
 ## Attention
 
-### Decisions Waiting (29 of 51 need you)
+### Decisions Waiting (31 of 53 need you)
 
 Grouped by what each is waiting on. The first two groups are yours.
 
@@ -272,7 +231,7 @@ Grouped by what each is waiting on. The first two groups are yours.
 |------|---------|--------|-------------|------|
 | Review point | voice-note-import-contract RP-3 | minor — New evidence reopens the cost basis on which RP-1 wa | blocks approval only | [View](Operations/_contracts/voice-note-import-contract.REVIEW.md) |
 
-**Your review (28)** — One proposed action each — confirm or send back
+**Your review (30)** — One proposed action each — confirm or send back
 
 | Kind | Subject | Detail | Consequence | Link |
 |------|---------|--------|-------------|------|
@@ -280,6 +239,7 @@ Grouped by what each is waiting on. The first two groups are yours.
 | Contract proposal | SDLC Process Review Services Agreement | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-sdlc-process-review-services-agreement.md) |
 | Contract proposal | Support Amendment — Seed Crystallisation | Awaiting approval | blocks approval only | [View](Operations/_work/approvals/contract-proposal-seed_crystallisation-support-amendment.md) |
 | Review point | calendar-import RP-1 | blocking — OAuth scopes | blocks approval only | [View](projects/ema-sa/_contracts/calendar-import.REVIEW.md) |
+| Review point | granola-sync RP-2 | blocking — Granola subscription / trial | blocks approval only | [View](projects/ema-sa/_contracts/granola-sync.REVIEW.md) |
 | Review point | pipeline RP-2 | blocking — The company turn has no completion criterion | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | pipeline RP-3 | blocking — Support wrappers are created without an idempotency  | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
 | Review point | pipeline RP-5 | blocking — Contract proposals bypass the canonical attention st | blocks approval only | [View](Operations/_contracts/pipeline.REVIEW.md) |
@@ -303,6 +263,7 @@ Grouped by what each is waiting on. The first two groups are yours.
 | Review point | fathom-import RP-6 | minor — `fathom.api` capability not yet registered | blocks approval only | [View](projects/ema-sa/_contracts/fathom-import.REVIEW.md) |
 | Review point | granola-import RP-4 | minor — `granola.mcp` capability not yet registered | blocks approval only | [View](projects/ema-sa/_contracts/granola-import.REVIEW.md) |
 | Review point | granola-import RP-5 | minor — Shadow compare against ema-mcp gold | blocks approval only | [View](projects/ema-sa/_contracts/granola-import.REVIEW.md) |
+| Review point | granola-sync RP-1 | minor — `granola.mcp` capability registration | blocks approval only | [View](projects/ema-sa/_contracts/granola-sync.REVIEW.md) |
 | Review point | llm-interaction-import RP-1 | minor — Catch-up volume vs max_per_run | blocks approval only | [View](Operations/_contracts/llm-interaction-import.REVIEW.md) |
 
 **Waiting on a build (14)** — Decided already; no decision needed
@@ -402,11 +363,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1318
+**Total Ticks**: 1319
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-14 10:35 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-14 10:57 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-14 10:35 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-14 10:35 | 0 copied, 0 noise, 0 hal |
 | processor-discover | 🟢 Yes | ✅ ok | — | 1 processed, 1 created |
@@ -421,11 +382,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-14 10:57](_pipeline/logs/2026-09-14_10-57-11.md) | 7s | [✓](_pipeline/logs/2026-09-14_10-57-11.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-14 10:35](_pipeline/logs/2026-09-14_10-35-30.md) | 371s | [✓](_pipeline/logs/2026-09-14_10-35-30.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-14_10-35-30.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-14_10-35-30.md#processor-discover) 1 processed, 1 created | [✓](_pipeline/logs/2026-09-14_10-35-30.md#processor-progress) 0 progressed | $0.0000 | ~0.155g |
 | [2026-09-14 10:19](_pipeline/logs/2026-09-14_10-19-51.md) | 7s | [✓](_pipeline/logs/2026-09-14_10-19-51.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-14_10-19-51.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
 | [2026-09-14 10:03](_pipeline/logs/2026-09-14_10-03-19.md) | 59s | [✓](_pipeline/logs/2026-09-14_10-03-19.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-14_10-03-19.md#processor-discover) 1 processed, 1 created | — | $0.0000 | ~0.025g |
 | [2026-09-14 09:42](_pipeline/logs/2026-09-14_09-42-31.md) | 279s | [✓](_pipeline/logs/2026-09-14_09-42-31.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-14_09-42-31.md#github-sync) 0 synced | — | [✓](_pipeline/logs/2026-09-14_09-42-31.md#processor-progress) 0 progressed | $0.0000 | ~0.116g |
-| [2026-09-14 09:26](_pipeline/logs/2026-09-14_09-26-00.md) | 39s | [✓](_pipeline/logs/2026-09-14_09-26-00.md#icloud-email) 1 new, 1 synced | — | [✓](_pipeline/logs/2026-09-14_09-26-00.md#processor-discover) 1 processed, 1 created | — | $0.0000 | ~0.016g |
 
 ### Source Topology
 
@@ -507,7 +468,7 @@ flowchart TD
 
 | Metric | Value |
 |--------|-------|
-| Notes | 1499 |
+| Notes | 1500 |
 | Themes | 22 |
 | Coverage | 10.9% |
 
