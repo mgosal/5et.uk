@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1338` · 2026-09-14 15:56 UTC
+`FRAME #1339` · 2026-09-14 16:48 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1338** · 4 ticks · 1 h 21 m · `296b0346` · dashboards + tick reports
+**#1334 → #1339** · 5 ticks · 2 h 13 m · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -22,13 +22,16 @@
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1337 | [Operations](Operations/dashboard.md) | Load 112 → 116 active. |
+| 1338 | [Operations](Operations/dashboard.md) | Load 112 → 119 active. |
+| 1338 | [AI employee slide intro should not be silent](Operations/_work/I.016-AI-employee-slide-intro-should-not-be-silent.md) | Created. |
+| 1338 | [Observation: Intro duration and sound characteristics](Operations/_work/I.017-Observation-Intro-duration-and-sound-characteristics.md) | Created. |
+| 1338 | [Indexed Model vs. LLM: Muse-Glimmer](Operations/_work/I.018-Indexed-Model-vs-LLM-Muse-Glimmer.md) | Created. |
 | 1337 | [2026 09 14 16 14 44 Voice Note GPT 4o Audio](Operations/_work/O.535-2026-09-14-16-14-44-voice-notegpt-4o-audio.md) | Created. |
 | 1337 | [2026 09 14 16 28 11 Voice Note GPT 4o Audio](Operations/_work/O.536-2026-09-14-16-28-11-voice-notegpt-4o-audio.md) | Created. |
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 0 progressed, 4 created, 83 inspected without change.
+Beneath it: 0 progressed, 7 created, 83 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -43,16 +46,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇█
+█▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇██
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 7 d 5 h   (frames #1279 → #1338)
+▁–█ tick-report activity · 60 reports · 7 d 6 h   (frames #1280 → #1339)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 7 d 5 h |
+| Time since latest move | 7 d 6 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -152,15 +155,15 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 183 active · 6 done
+## ▦ Functions — 198 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
-| 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 6 | `██▁▁▁▁▁▁▁▁` |
-| ⏸️ | [Compliance](Compliance/dashboard.md) | 9 | 0 | `██████████` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 119 | 0 | `██████████` |
-| ⚠️ | [People](People/dashboard.md) | 6 | 0 | `██████████` |
-| 🔄 | [Services](Services/dashboard.md) | 1 | 0 | `██████████` |
+| 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
+| ⏸️ | [Compliance](Compliance/dashboard.md) | 9 | 13 | `████▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 134 | 454 | `██▁▁▁▁▁▁▁▁` |
+| ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
+| 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.uk](projects/5et.uk/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [_old](projects/_old/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -185,7 +188,7 @@ Nothing is waiting on you. The company may still have work to do.
 | ✅ | [push-to-talk](projects/push-to-talk/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [right-store](projects/right-store/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [sole-trader-saas](projects/sole-trader-saas/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
-| ⏸️ | [store-dash](projects/store-dash/README.md) | 34 | 0 | `██████████` |
+| ⏸️ | [store-dash](projects/store-dash/README.md) | 34 | 184 | `██▁▁▁▁▁▁▁▁` |
 
 ---
 
@@ -202,4 +205,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-10 13:14 | company | Cue published · contract |
 | 09-10 13:14 | company | Question prepared · contract |
 
-<sub>Rendered from the repo at frame #1338 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1339 · immediate mode, no client state</sub>
