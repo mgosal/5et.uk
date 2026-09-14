@@ -4,89 +4,51 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1333` · 2026-09-14 14:13 UTC
+`FRAME #1334` · 2026-09-14 14:35 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1296 → #1333** · 37 ticks · 3 d 1 h · `352b6e24` · dashboards + tick reports
+**#1333 → #1334** · 1 ticks · 22 min · `11650ed3` · dashboards + tick reports
 
-**Your threads**
+Nothing surfaced on the frame across this window.
 
-| Tick | Item | Why review |
-|---:|---|---|
-| 1332 | [Disk Graph · RP-4](Operations/_contracts/disk-graph.REVIEW.md#rp-4) | blocking — Recents is the useful Finder pattern |
-| 1330 | [Disk Graph · RP-1](Operations/_contracts/disk-graph.REVIEW.md#rp-1) | blocking — Root is the company disk, not the kernel disk |
-| 1330 | [Disk Graph · RP-3](Operations/_contracts/disk-graph.REVIEW.md#rp-3) | blocking — Semantics without a model |
-| 1330 | [Disk Graph · RP-2](Operations/_contracts/disk-graph.REVIEW.md#rp-2) | blocking — Schedule |
-| 1328 | [Learn The User · RP-2](Operations/_contracts/learn-the-user.REVIEW.md#rp-2) | minor — Desktop chats still not granted No longer waiting on a decision. |
-| 1326 | [Learn The User · RP-1](Operations/_contracts/learn-the-user.REVIEW.md#rp-1) | material — Catch-up writes Schedule A onto older personal notes |
-| 1319 | [Granola Sync · RP-1](projects/ema-sa/_contracts/granola-sync.REVIEW.md#rp-1) | minor — `granola.mcp` capability registration |
+Beneath it: 0 progressed, 0 created, 0 inspected without change.
 
-**Elsewhere**
-
-| Tick | Item | What happened |
-|---:|---|---|
-| 1330 | [Operations](Operations/dashboard.md) | Load 51 → 73 active. |
-| 1330 | [2026 09 14 13 20 08 Voice Note GPT 4o Audio](Operations/_work/O.492-2026-09-14-13-20-08-voice-notegpt-4o-audio.md) | Created. |
-| 1330 | [Idea: Codify processes into the stack](Operations/_work/I.011-Idea-Codify-processes-into-the-stack.md) | Created. |
-| 1330 | [2026 09 14 13 57 41 A531c837](Operations/_work/O.493-2026-09-14-13-57-41-a531c837md.md) | Created. |
-| 1330 | [2026 09 14 13 57 28 0da07365](Operations/_work/O.494-2026-09-14-13-57-28-0da07365md.md) | Created. |
-| 1330 | [2026 09 14 13 56 36 Cdb3fbd2](Operations/_work/O.495-2026-09-14-13-56-36-cdb3fbd2md.md) | Created. |
-| 1330 | [2026 09 14 13 55 52 E9b1a2c9](Operations/_work/O.496-2026-09-14-13-55-52-e9b1a2c9md.md) | Created. |
-| 1330 | [2026 09 14 13 55 27 A58accb9](Operations/_work/O.497-2026-09-14-13-55-27-a58accb9md.md) | Created. |
-| 1330 | [2026 09 14 13 54 06 79b5ead7](Operations/_work/O.498-2026-09-14-13-54-06-79b5ead7md.md) | Created. |
-| 1330 | [2026 09 14 13 53 24 E85a2d31](Operations/_work/O.499-2026-09-14-13-53-24-e85a2d31md.md) | Created. |
-| 1321 | [2026 09 14 11 07 59 Voice Note GPT 4o Audio](Operations/_work/O.491-2026-09-14-11-07-59-voice-notegpt-4o-audio.md) | Created. |
-| 1318 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-14)](Operations/_work/O.490-WhatsApp-digest-JatinMandipKash-2026-09-14.md) | Created. |
-| 1316 | [WhatsApp digest: Jatin Blocvey (2026-09-14)](Operations/_work/O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14.md) | Created. |
-| 1314 | [BlackEyeCollective has invited you to be their account successor](Operations/_work/O.488-BlackEyeCollective-has-invited-you-to-be-their-account-succe.md) | Created. |
-| 1312 | [Project roadmap alignment for Christie](Operations/_work/P.014-Project-roadmap-alignment-for-Christie.md) | Created. |
-| 1312 | [WhatsApp digest: Kash Khera (2026-09-12)](Operations/_work/O.484-WhatsApp-digest-Kash-Khera-2026-09-12.md) | Created. |
-| 1312 | [WhatsApp digest: StoreDash Discussions (2026-09-12)](Operations/_work/O.485-WhatsApp-digest-StoreDash-Discussions-2026-09-12.md) | Created. |
-| 1312 | [RightStore Front-End Development & Review](projects/store-dash/_work/SD.330-RightStore-Front-End-Development-Review.md) | Created. |
-| 1312 | [📣  Your new group is waiting for you](Operations/_work/O.486-Your-new-group-is-waiting-for-you.md) | Created. |
-| 1312 | [WhatsApp digest: Kōdo Engineering (2026-09-13)](Operations/_work/O.487-WhatsApp-digest-Kōdo-Engineering-2026-09-13.md) | Created. |
-| 1312 | [Property Access Route via CRM's + Roadmap + Platform Design to Build](projects/store-dash/_work/SD.331-Property-Access-Route-via-CRMs-Roadmap-Platform-Design-to-Bu.md) | Created. |
-| 1312 | [AI/FinTech Mayfair Networking Lunch](Operations/_work/P.015-AIFinTech-Mayfair-Networking-Lunch.md) | Created. |
-| 1307 | [WhatsApp digest for Kash Khera](Operations/_work/I.010-WhatsApp-digest-for-Kash-Khera.md) | Created. |
-| 1305 | [Searchland Follow-Up – Trial Access, Pricing & Outstanding Points](projects/store-dash/_work/SD.329-Searchland-Follow-Up-Trial-Access-Pricing-Outstanding-Points.md) | Created. |
-
-Beneath it: 0 progressed, 23 created, 378 inspected without change.
-
-Nothing needs you. The company owes 4.
+Nothing needs you. The company owes 5.
 
 ---
 
 ## ▶ Concurrent agency
 
-### YOU — **0 waiting** · COMPANY — **4 owed**
+### YOU — **0 waiting** · COMPANY — **5 owed**
 
-**Latest move:** You responded to Review: Voice Note Import Services Agreement. · 2026-09-07 10:23:40 UTC
+**Latest move:** You responded to Clipboard Import Services Agreement. · 2026-09-14 14:43:12 UTC
 
-**Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
+**Company owes next:** [Clipboard Import Services Agreement](Operations/_work/approvals/contract-proposal-clipboard-import-services-agreement.md) — Apply the approved proposal, record the outcome, and settle the obligation.
 
 ```
-█▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄█
-█ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 7 d 3 h   (frames #1274 → #1333)
+█
+█ latest move · 14:43
+▁–█ tick-report activity · 0 reports · 1 min   (frames #1334 → #1334)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
-| Tick reports since latest move | **60** |
-| Time since latest move | 7 d 3 h |
-| Company obligations | 4 (5 raw records) |
+| Tick reports since latest move | **0** |
+| Time since latest move | 1 min |
+| Company obligations | 5 (6 raw records) |
 | Waiting on you | 0 |
 
 ---
 
-## ⇢ Company owes — 4
+## ⇢ Company owes — 5
 
 | Obligation | Records | Next action |
 |---|---:|---|
+| [Clipboard Import Services Agreement](Operations/_work/approvals/contract-proposal-clipboard-import-services-agreement.md) | 1 | Apply the approved proposal, record the outcome, and settle the obligation. |
 | [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) | 1 | Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items. |
 | [Review: Voice Note Import Services Agreement](Operations/_contracts/voice-note-import-contract.REVIEW.md) | 2 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
 | [Review: Model Evaluation Services Agreement](Operations/_contracts/model-selection.REVIEW.md) | 1 | Reconcile Mandip's complete response against the canonical task and improve the work before asking again. |
@@ -177,13 +139,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 167 active · 676 done
+## ▦ Functions — 176 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 9 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 103 | 454 | `██▁▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 112 | 454 | `██▁▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -218,13 +180,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 | Time | Who | Event |
 |---|---|---|
+| 09-14 14:43 | **you** | Responded · contract |
+| 09-14 14:41 | company | Cue published · contract |
+| 09-14 14:41 | company | Question prepared · contract |
 | 09-11 13:09 | company | Turn settled · contract |
 | 09-11 12:19 | **you** | Responded · contract |
 | 09-10 13:14 | company | Cue published · contract |
 | 09-10 13:14 | company | Question prepared · contract |
 | 09-07 10:23 | **you** | Responded · voice |
-| 09-07 10:22 | company | Cue published · voice |
-| 09-07 10:22 | company | Question prepared · voice |
-| 09-07 09:59 | **you** | Responded · voice |
 
-<sub>Rendered from the repo at frame #1333 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1334 · immediate mode, no client state</sub>
