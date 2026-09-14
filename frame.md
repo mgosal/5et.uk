@@ -4,21 +4,21 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1317` · 2026-09-14 09:19 UTC
+`FRAME #1318` · 2026-09-14 09:35 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1296 → #1317** · 21 ticks · 2 d 21 h · `352b6e24` · dashboards + tick reports
+**#1296 → #1318** · 22 ticks · 2 d 21 h · `352b6e24` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1312 | [deal-artifact RP-2](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
-| 1312 | [deal-artifact RP-3](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
 | 1312 | [deal-artifact RP-4](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
+| 1312 | [deal-artifact RP-3](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
+| 1312 | [deal-artifact RP-2](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
 | 1299 | [LLM Interaction Import Services Agreement](Operations/_work/approvals/contract-proposal-llm-interaction-import-services-agreement.md) | The company settled it. No longer waiting on a decision. |
 
 **Elsewhere**
@@ -54,16 +54,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁
+█▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 6 d 22 h   (frames #1258 → #1317)
+▁–█ tick-report activity · 60 reports · 6 d 23 h   (frames #1259 → #1318)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 6 d 22 h |
+| Time since latest move | 6 d 23 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -156,13 +156,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 126 active · 676 done
+## ▦ Functions — 127 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 9 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 62 | 454 | `█▁▁▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 63 | 454 | `█▁▁▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -206,4 +206,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 10:22 | company | Question prepared · voice |
 | 09-07 09:59 | **you** | Responded · voice |
 
-<sub>Rendered from the repo at frame #1317 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1318 · immediate mode, no client state</sub>
