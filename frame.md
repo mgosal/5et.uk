@@ -4,21 +4,23 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1319` · 2026-09-14 09:57 UTC
+`FRAME #1320` · 2026-09-14 10:12 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1296 → #1319** · 23 ticks · 2 d 21 h · `352b6e24` · dashboards + tick reports
+**#1296 → #1320** · 24 ticks · 2 d 21 h · `352b6e24` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | What happened |
 |---:|---|---|
+| 1319 | [granola-sync RP-1](projects/ema-sa/_contracts/granola-sync.REVIEW.md) | Raised for your decision. |
+| 1319 | [granola-sync RP-2](projects/ema-sa/_contracts/granola-sync.REVIEW.md) | Raised for your decision. |
 | 1312 | [deal-artifact RP-3](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
-| 1312 | [deal-artifact RP-2](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
 | 1312 | [deal-artifact RP-4](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
+| 1312 | [deal-artifact RP-2](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | Raised for your decision. |
 | 1299 | [LLM Interaction Import Services Agreement](Operations/_work/approvals/contract-proposal-llm-interaction-import-services-agreement.md) | The company settled it. No longer waiting on a decision. |
 
 **Elsewhere**
@@ -55,9 +57,9 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁
+█▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 6 d 23 h   (frames #1260 → #1319)
+▁–█ tick-report activity · 60 reports · 6 d 23 h   (frames #1261 → #1320)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -209,4 +211,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 10:22 | company | Question prepared · voice |
 | 09-07 09:59 | **you** | Responded · voice |
 
-<sub>Rendered from the repo at frame #1319 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1320 · immediate mode, no client state</sub>
