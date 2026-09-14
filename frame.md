@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1311` · 2026-09-11 16:48 UTC
+`FRAME #1312` · 2026-09-14 07:40 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1296 → #1311** · 15 ticks · 4 h 33 m · `352b6e24` · dashboards + tick reports
+**#1296 → #1312** · 16 ticks · 2 d 19 h · `352b6e24` · dashboards + tick reports
 
 **Your threads**
 
@@ -41,16 +41,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁
+█▁▁▄▁▁▁▄▁▁▁▄▁▁▄▁▁▄▁▁▁▄▁▁▁▃▁▁▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 4 d 6 h   (frames #1252 → #1311)
+▁–█ tick-report activity · 60 reports · 6 d 21 h   (frames #1253 → #1312)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 4 d 6 h |
+| Time since latest move | 6 d 21 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -101,7 +101,7 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ✕ Open review points — 32
+## ✕ Open review points — 35
 
 | Contract | Point | Status |
 |---|---|---|
@@ -120,6 +120,9 @@ Nothing is waiting on you. The company may still have work to do.
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-11: Shortcuts as propagation, not autonomous projects | open — plan only; section 5 unchanged until Director amends |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-8: Index seed counts do not match the themes | open |
 | [botta](projects/botta/_contracts/botta.REVIEW.md) | RP-1: No one at BOTTA has been named | open |
+| [deal-artifact](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | RP-2: deal-page playbook index | open |
+| [deal-artifact](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | RP-3: Template bootstrap | open |
+| [deal-artifact](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | RP-4: Gold artifact promotion | open |
 | [deal-page](projects/ema-sa/_contracts/deal-page.REVIEW.md) | RP-1: Unit dashboard Deals columns | open |
 | [email-import](projects/ema-sa/_contracts/email-import.REVIEW.md) | RP-4: `gmail.imap` capability not yet registered | open |
 | [email-import](projects/ema-sa/_contracts/email-import.REVIEW.md) | RP-5: Shadow compare against ema-mcp gold | open |
@@ -140,13 +143,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 114 active · 676 done
+## ▦ Functions — 124 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 9 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 52 | 454 | `█▁▁▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 60 | 454 | `█▁▁▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -173,7 +176,7 @@ Nothing is waiting on you. The company may still have work to do.
 | ✅ | [push-to-talk](projects/push-to-talk/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [right-store](projects/right-store/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [sole-trader-saas](projects/sole-trader-saas/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
-| ⏸️ | [store-dash](projects/store-dash/README.md) | 32 | 184 | `█▁▁▁▁▁▁▁▁▁` |
+| ⏸️ | [store-dash](projects/store-dash/README.md) | 34 | 184 | `██▁▁▁▁▁▁▁▁` |
 
 ---
 
@@ -190,4 +193,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-07 10:22 | company | Question prepared · voice |
 | 09-07 09:59 | **you** | Responded · voice |
 
-<sub>Rendered from the repo at frame #1311 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1312 · immediate mode, no client state</sub>
