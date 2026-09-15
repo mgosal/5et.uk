@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1340` · 2026-09-15 07:39 UTC
+`FRAME #1341` · 2026-09-15 08:05 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1340** · 6 ticks · 17 h 4 m · `296b0346` · dashboards + tick reports
+**#1334 → #1341** · 7 ticks · 17 h 30 m · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -22,7 +22,17 @@
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1339 | [Operations](Operations/dashboard.md) | Load 112 → 134 active. |
+| 1340 | [Operations](Operations/dashboard.md) | Load 112 → 142 active. |
+| 1340 | [Compliance](Compliance/dashboard.md) | Load 9 → 10 active. |
+| 1340 | [Kōdo Engineering: Vision Master setup and dongle](Operations/_work/P.018-Kōdo-Engineering-Vision-Master-setup-and-dongle.md) | Created. |
+| 1340 | [Request for PSC code for Blocvey Ltd confirmation statement](Compliance/_work/C.038-Request-for-PSC-code-for-Blocvey-Ltd-confirmation-statement.md) | Created. |
+| 1340 | [WhatsApp digest: Kōdo Engineering (2026-09-15)](Operations/_work/O.552-WhatsApp-digest-Kōdo-Engineering-2026-09-15.md) | Created. |
+| 1340 | [(no subject)](Operations/_work/O.553-no-subject.md) | Created. |
+| 1340 | [2026 09 15 08 39 26 80a65a72](Operations/_work/O.554-2026-09-15-08-39-26-80a65a72md.md) | Created. |
+| 1340 | [2026 09 15 08 36 27 6aec9b57](Operations/_work/O.555-2026-09-15-08-36-27-6aec9b57md.md) | Created. |
+| 1340 | [2026 09 15 08 35 37 A44a931a](Operations/_work/O.556-2026-09-15-08-35-37-a44a931amd.md) | Created. |
+| 1340 | [2026 09 15 08 31 47 Ce50b626](Operations/_work/O.557-2026-09-15-08-31-47-ce50b626md.md) | Created. |
+| 1340 | [2026 09 15 08 31 47 9f6caeb7](Operations/_work/O.558-2026-09-15-08-31-47-9f6caeb7md.md) | Created. |
 | 1339 | [2026 09 14 17 30 29 Ff08dbb0](Operations/_work/O.537-2026-09-14-17-30-29-ff08dbb0md.md) | Created. |
 | 1339 | [2026 09 14 17 13 27 404ab3ea](Operations/_work/O.538-2026-09-14-17-13-27-404ab3eamd.md) | Created. |
 | 1339 | [2026 09 14 17 27 40 379a5e92](Operations/_work/O.539-2026-09-14-17-27-40-379a5e92md.md) | Created. |
@@ -46,7 +56,7 @@
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 0 progressed, 22 created, 181 inspected without change.
+Beneath it: 0 progressed, 31 created, 287 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -61,9 +71,9 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-███▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███
+██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 7 d 21 h   (frames #1281 → #1340)
+▁–█ tick-report activity · 60 reports · 7 d 21 h   (frames #1282 → #1341)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -220,4 +230,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-10 13:14 | company | Cue published · contract |
 | 09-10 13:14 | company | Question prepared · contract |
 
-<sub>Rendered from the repo at frame #1340 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1341 · immediate mode, no client state</sub>
