@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1362` · 2026-09-15 16:07 UTC
+`FRAME #1363` · 2026-09-15 16:29 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1362** · 28 ticks · 1 d 1 h · `296b0346` · dashboards + tick reports
+**#1334 → #1363** · 29 ticks · 1 d 1 h · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -125,7 +125,7 @@
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 0 progressed, 99 created, 1326 inspected without change.
+Beneath it: 0 progressed, 99 created, 1496 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -140,16 +140,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███████▁█▄▄▁█▁▁▁▄
+█▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███████▁█▄▄▁█▁▁▁▄▁
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 8 d 5 h   (frames #1303 → #1362)
+▁–█ tick-report activity · 60 reports · 8 d 6 h   (frames #1304 → #1363)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 8 d 5 h |
+| Time since latest move | 8 d 6 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -299,4 +299,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-10 13:14 | company | Cue published · contract |
 | 09-10 13:14 | company | Question prepared · contract |
 
-<sub>Rendered from the repo at frame #1362 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1363 · immediate mode, no client state</sub>
