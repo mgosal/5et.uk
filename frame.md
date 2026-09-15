@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1343` · 2026-09-15 08:37 UTC
+`FRAME #1344` · 2026-09-15 09:01 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1343** · 9 ticks · 18 h 2 m · `296b0346` · dashboards + tick reports
+**#1334 → #1344** · 10 ticks · 18 h 26 m · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -22,7 +22,10 @@
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1340 | [Operations](Operations/dashboard.md) | Load 112 → 142 active. |
+| 1343 | [Operations](Operations/dashboard.md) | Load 112 → 145 active. |
+| 1343 | [2026 09 15 09 36 17 D72c85b0](Operations/_work/O.559-2026-09-15-09-36-17-d72c85b0md.md) | Created. |
+| 1343 | [Manager Demo Flow and Audio Observations](Operations/_work/I.019-Manager-Demo-Flow-and-Audio-Observations.md) | Created. |
+| 1343 | [2026 09 15 09 27 58 974a0357](Operations/_work/O.560-2026-09-15-09-27-58-974a0357md.md) | Created. |
 | 1340 | [Compliance](Compliance/dashboard.md) | Load 9 → 10 active. |
 | 1340 | [Kōdo Engineering: Vision Master setup and dongle](Operations/_work/P.018-Kōdo-Engineering-Vision-Master-setup-and-dongle.md) | Created. |
 | 1340 | [Request for PSC code for Blocvey Ltd confirmation statement](Compliance/_work/C.038-Request-for-PSC-code-for-Blocvey-Ltd-confirmation-statement.md) | Created. |
@@ -56,7 +59,7 @@
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 0 progressed, 31 created, 287 inspected without change.
+Beneath it: 0 progressed, 34 created, 395 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -71,9 +74,9 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂█
+█▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 7 d 22 h   (frames #1284 → #1343)
+▁–█ tick-report activity · 60 reports · 7 d 22 h   (frames #1285 → #1344)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -180,14 +183,14 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 210 active · 676 done
+## ▦ Functions — 218 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 10 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 145 | 454 | `██▁▁▁▁▁▁▁▁` |
-| ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 152 | 454 | `███▁▁▁▁▁▁▁` |
+| ⚠️ | [People](People/dashboard.md) | 7 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.uk](projects/5et.uk/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -230,4 +233,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-10 13:14 | company | Cue published · contract |
 | 09-10 13:14 | company | Question prepared · contract |
 
-<sub>Rendered from the repo at frame #1343 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1344 · immediate mode, no client state</sub>

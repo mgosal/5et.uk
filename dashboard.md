@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1343.md" style="font-size:11px; color:#5f6368;">#1343</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1344.md" style="font-size:11px; color:#5f6368;">#1344</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -42,124 +42,11 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1343](_pipeline/reports/tick-1343.md)** · 2026-09-15 08:37 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1344](_pipeline/reports/tick-1344.md)** · 2026-09-15 09:01 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
 - No durable work-item changes in this tick.
-
-<details><summary>Inspected without change (108)</summary>
-
-- [A.005](Accounts/_work/A.005-privacy-screen-protector.md) — A.005-privacy-screen-protector
-- [A.011](Accounts/_work/A.011-Retail-Receipt.md) — A.011-Retail-Receipt
-- [A.014](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) — A.014-Google-One-Subscription-Receipt
-- [A.016](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) — A.016-Processing-fuel-receipt-for-business-travel
-- [A.017](Accounts/_work/A.017-incorporation-expense.md) — A.017-incorporation-expense
-- [A.018](Accounts/_work/A.018-ico-data-protection-fee.md) — A.018-ico-data-protection-fee
-- [A.019](Accounts/_work/A.019-google-play-subscription-may.md) — A.019-google-play-subscription-may
-- [C.036](Compliance/_work/C.036-LLM-processing-of-personal-data-risk.md) — C.036-LLM-processing-of-personal-data-risk
-- [C.037](Compliance/_work/C.037-Anonymous-User-Experience-and-Contract-Framework.md) — C.037-Anonymous-User-Experience-and-Contract-Framework
-- [C.038](Compliance/_work/C.038-Request-for-PSC-code-for-Blocvey-Ltd-confirmation-statement.md) — C.038-Request-for-PSC-code-for-Blocvey-Ltd-confirmation-statement
-- [O.424](Operations/_work/O.424-attention-event-experiment.md) — O.424-attention-event-experiment
-- [O.430](Operations/_work/O.430-stream-deck-attention-mode.md) — O.430-stream-deck-attention-mode
-- [O.437](Operations/_work/O.437-build-conversational-initiative-path.md) — O.437-build-conversational-initiative-path
-- [O.439](Operations/_work/O.439-build-contract-support-loop.md) — O.439-build-contract-support-loop
-- [O.447](Operations/_work/O.447-refine-cloud-connect-direction.md) — O.447-refine-cloud-connect-direction
-- [O.449](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) — O.449-AI-Agent-Development-Platforms-consultation
-- [O.458](Operations/_work/O.458-Supply-chain-constraints-on-hardware-procurement.md) — O.458-Supply-chain-constraints-on-hardware-procurement
-- [O.462](Operations/_work/O.462-Wire-Cortex-local-inference-path.md) — O.462-Wire-Cortex-local-inference-path
-- [O.463](Operations/_work/O.463-Inference-tier-field-and-tier-grouped-execution.md) — O.463-Inference-tier-field-and-tier-grouped-execution
-- [O.468](Operations/_work/O.468-Register-for-St-James-AI-Tech-Related-event.md) — O.468-Register-for-St-James-AI-Tech-Related-event
-- [O.473](Operations/_work/O.473-Bootstrap-bionic-ingest-pipeline.md) — O.473-Bootstrap-bionic-ingest-pipeline
-- [O.474](Operations/_work/O.474-Your-Flow-Pro-access-ends-soon.md) — O.474-Your-Flow-Pro-access-ends-soon
-- [O.475](Operations/_work/O.475-Just-scheduled-THE-GARAGE-BAND-Bromsgrove-Sports-Club---Tkts.md) — O.475-Just-scheduled-THE-GARAGE-BAND-Bromsgrove-Sports-Club---Tkts
-- [O.476](Operations/_work/O.476-Welcome-to-BrumAI---Birmingham-Artificial-Intelligence-Meetu.md) — O.476-Welcome-to-BrumAI---Birmingham-Artificial-Intelligence-Meetu
-- [O.477](Operations/_work/O.477-WhatsApp-digest-StoreDash-Discussions-2026-09-07.md) — O.477-WhatsApp-digest-StoreDash-Discussions-2026-09-07
-- [O.478](Operations/_work/O.478-WhatsApp-digest-JatinMandipKash-2026-09-08.md) — O.478-WhatsApp-digest-JatinMandipKash-2026-09-08
-- [O.479](Operations/_work/O.479-WhatsApp-digest-JatinMandipKash-2026-09-09.md) — O.479-WhatsApp-digest-JatinMandipKash-2026-09-09
-- [O.480](Operations/_work/O.480-WhatsApp-digest-JatinMandipKash-2026-09-10.md) — O.480-WhatsApp-digest-JatinMandipKash-2026-09-10
-- [O.481](Operations/_work/O.481-WhatsApp-digest-JatinMandipKash-2026-09-11.md) — O.481-WhatsApp-digest-JatinMandipKash-2026-09-11
-- [O.482](Operations/_work/O.482-One-click-Postgres-major-version-upgrades-email-forwarding-f.md) — O.482-One-click-Postgres-major-version-upgrades-email-forwarding-f
-- [O.483](Operations/_work/O.483-I-actually-like-this-mech-mechanism-I.md) — O.483-I-actually-like-this-mech-mechanism-I
-- [O.484](Operations/_work/O.484-WhatsApp-digest-Kash-Khera-2026-09-12.md) — O.484-WhatsApp-digest-Kash-Khera-2026-09-12
-- [O.485](Operations/_work/O.485-WhatsApp-digest-StoreDash-Discussions-2026-09-12.md) — O.485-WhatsApp-digest-StoreDash-Discussions-2026-09-12
-- [O.486](Operations/_work/O.486-Your-new-group-is-waiting-for-you.md) — O.486-Your-new-group-is-waiting-for-you
-- [O.487](Operations/_work/O.487-WhatsApp-digest-Kōdo-Engineering-2026-09-13.md) — O.487-WhatsApp-digest-Kōdo-Engineering-2026-09-13
-- [O.488](Operations/_work/O.488-BlackEyeCollective-has-invited-you-to-be-their-account-succe.md) — O.488-BlackEyeCollective-has-invited-you-to-be-their-account-succe
-- [O.489](Operations/_work/O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14.md) — O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14
-- [O.490](Operations/_work/O.490-WhatsApp-digest-JatinMandipKash-2026-09-14.md) — O.490-WhatsApp-digest-JatinMandipKash-2026-09-14
-- [O.491](Operations/_work/O.491-2026-09-14-11-07-59-voice-notegpt-4o-audio.md) — O.491-2026-09-14-11-07-59-voice-notegpt-4o-audio
-- [O.492](Operations/_work/O.492-2026-09-14-13-20-08-voice-notegpt-4o-audio.md) — O.492-2026-09-14-13-20-08-voice-notegpt-4o-audio
-- [O.493](Operations/_work/O.493-2026-09-14-13-57-41-a531c837md.md) — O.493-2026-09-14-13-57-41-a531c837md
-- [O.494](Operations/_work/O.494-2026-09-14-13-57-28-0da07365md.md) — O.494-2026-09-14-13-57-28-0da07365md
-- [O.495](Operations/_work/O.495-2026-09-14-13-56-36-cdb3fbd2md.md) — O.495-2026-09-14-13-56-36-cdb3fbd2md
-- [O.496](Operations/_work/O.496-2026-09-14-13-55-52-e9b1a2c9md.md) — O.496-2026-09-14-13-55-52-e9b1a2c9md
-- [O.497](Operations/_work/O.497-2026-09-14-13-55-27-a58accb9md.md) — O.497-2026-09-14-13-55-27-a58accb9md
-- [O.498](Operations/_work/O.498-2026-09-14-13-54-06-79b5ead7md.md) — O.498-2026-09-14-13-54-06-79b5ead7md
-- [O.499](Operations/_work/O.499-2026-09-14-13-53-24-e85a2d31md.md) — O.499-2026-09-14-13-53-24-e85a2d31md
-- [O.500](Operations/_work/O.500-2026-09-14-14-06-04-9233e465md.md) — O.500-2026-09-14-14-06-04-9233e465md
-- [O.501](Operations/_work/O.501-2026-09-14-14-37-02-abecf09bmd.md) — O.501-2026-09-14-14-37-02-abecf09bmd
-- [O.502](Operations/_work/O.502-Markdown-link-fails-to-open-RP3-file.md) — O.502-Markdown-link-fails-to-open-RP3-file
-- [O.503](Operations/_work/O.503-2026-09-14-14-32-16-7808c39bmd.md) — O.503-2026-09-14-14-32-16-7808c39bmd
-- [O.504](Operations/_work/O.504-2026-09-14-14-30-23-1b190419md.md) — O.504-2026-09-14-14-30-23-1b190419md
-- [O.505](Operations/_work/O.505-2026-09-14-14-26-16-78ad097emd.md) — O.505-2026-09-14-14-26-16-78ad097emd
-- [O.506](Operations/_work/O.506-2026-09-14-14-26-11-3d7f0c06md.md) — O.506-2026-09-14-14-26-11-3d7f0c06md
-- [O.507](Operations/_work/O.507-Field-Ops-Demo-Script-Review-and-Preparation.md) — O.507-Field-Ops-Demo-Script-Review-and-Preparation
-- [O.508](Operations/_work/O.508-2026-09-14-14-25-25-4f7b7101md.md) — O.508-2026-09-14-14-25-25-4f7b7101md
-- [O.509](Operations/_work/O.509-2026-09-14-15-09-43-1f6b1fd6md.md) — O.509-2026-09-14-15-09-43-1f6b1fd6md
-- [O.510](Operations/_work/O.510-2026-09-14-15-08-47-09c87c26md.md) — O.510-2026-09-14-15-08-47-09c87c26md
-- [O.511](Operations/_work/O.511-2026-09-14-15-08-29-d93558d3md.md) — O.511-2026-09-14-15-08-29-d93558d3md
-- [O.512](Operations/_work/O.512-2026-09-14-14-58-09-10d48828md.md) — O.512-2026-09-14-14-58-09-10d48828md
-- [O.513](Operations/_work/O.513-2026-09-14-14-58-00-12c3b400md.md) — O.513-2026-09-14-14-58-00-12c3b400md
-- [O.514](Operations/_work/O.514-2026-09-14-14-57-08-545724c2md.md) — O.514-2026-09-14-14-57-08-545724c2md
-- [O.515](Operations/_work/O.515-2026-09-14-14-56-29-33c5a852md.md) — O.515-2026-09-14-14-56-29-33c5a852md
-- [O.516](Operations/_work/O.516-2026-09-14-14-54-20-f73e69a6md.md) — O.516-2026-09-14-14-54-20-f73e69a6md
-- [O.517](Operations/_work/O.517-Directives-for-internal-work-and-commit-process.md) — O.517-Directives-for-internal-work-and-commit-process
-- [O.518](Operations/_work/O.518-2026-09-14-14-51-15-b0673b57md.md) — O.518-2026-09-14-14-51-15-b0673b57md
-- [O.519](Operations/_work/O.519-2026-09-14-14-50-57-4f46c57fmd.md) — O.519-2026-09-14-14-50-57-4f46c57fmd
-- [O.520](Operations/_work/O.520-Defect-tracking-and-contractual-classification.md) — O.520-Defect-tracking-and-contractual-classification
-- [O.521](Operations/_work/O.521-2026-09-14-14-46-14-00421f96md.md) — O.521-2026-09-14-14-46-14-00421f96md
-- [O.522](Operations/_work/O.522-2026-09-14-14-44-28-a69bda7cmd.md) — O.522-2026-09-14-14-44-28-a69bda7cmd
-- [O.523](Operations/_work/O.523-Repo-review-pipeline-build-planning-architecture.md) — O.523-Repo-review-pipeline-build-planning-architecture
-- [O.524](Operations/_work/O.524-2026-09-14-14-40-55-35c2124emd.md) — O.524-2026-09-14-14-40-55-35c2124emd
-- [O.525](Operations/_work/O.525-2026-09-14-14-38-50-14af50ebmd.md) — O.525-2026-09-14-14-38-50-14af50ebmd
-- [O.526](Operations/_work/O.526-2026-09-14-15-34-17-50a49d79md.md) — O.526-2026-09-14-15-34-17-50a49d79md
-- [O.527](Operations/_work/O.527-2026-09-14-15-34-06-606352e6md.md) — O.527-2026-09-14-15-34-06-606352e6md
-- [O.528](Operations/_work/O.528-2026-09-14-15-33-49-b4a9a1f2md.md) — O.528-2026-09-14-15-33-49-b4a9a1f2md
-- [O.529](Operations/_work/O.529-2026-09-14-15-32-53-d4aa7b87md.md) — O.529-2026-09-14-15-32-53-d4aa7b87md
-- [O.530](Operations/_work/O.530-2026-09-14-15-25-32-77856fd5md.md) — O.530-2026-09-14-15-25-32-77856fd5md
-- [O.531](Operations/_work/O.531-2026-09-14-15-23-41-60ce737emd.md) — O.531-2026-09-14-15-23-41-60ce737emd
-- [O.532](Operations/_work/O.532-2026-09-14-15-22-20-e6138bf7md.md) — O.532-2026-09-14-15-22-20-e6138bf7md
-- [O.533](Operations/_work/O.533-2026-09-14-15-19-02-dd928abcmd.md) — O.533-2026-09-14-15-19-02-dd928abcmd
-- [O.534](Operations/_work/O.534-Critical-Video-Audio-Missing.md) — O.534-Critical-Video-Audio-Missing
-- [O.535](Operations/_work/O.535-2026-09-14-16-14-44-voice-notegpt-4o-audio.md) — O.535-2026-09-14-16-14-44-voice-notegpt-4o-audio
-- [O.536](Operations/_work/O.536-2026-09-14-16-28-11-voice-notegpt-4o-audio.md) — O.536-2026-09-14-16-28-11-voice-notegpt-4o-audio
-- [O.537](Operations/_work/O.537-2026-09-14-17-30-29-ff08dbb0md.md) — O.537-2026-09-14-17-30-29-ff08dbb0md
-- [O.538](Operations/_work/O.538-2026-09-14-17-13-27-404ab3eamd.md) — O.538-2026-09-14-17-13-27-404ab3eamd
-- [O.539](Operations/_work/O.539-2026-09-14-17-27-40-379a5e92md.md) — O.539-2026-09-14-17-27-40-379a5e92md
-- [O.540](Operations/_work/O.540-2026-09-14-17-27-33-1d6b1af1md.md) — O.540-2026-09-14-17-27-33-1d6b1af1md
-- [O.541](Operations/_work/O.541-2026-09-14-17-27-32-175ef9f6md.md) — O.541-2026-09-14-17-27-32-175ef9f6md
-- [O.542](Operations/_work/O.542-2026-09-14-17-26-53-aff8cb94md.md) — O.542-2026-09-14-17-26-53-aff8cb94md
-- [O.543](Operations/_work/O.543-2026-09-14-17-25-18-5948d846md.md) — O.543-2026-09-14-17-25-18-5948d846md
-- [O.544](Operations/_work/O.544-2026-09-14-17-24-49-b2f5908fmd.md) — O.544-2026-09-14-17-24-49-b2f5908fmd
-- [O.545](Operations/_work/O.545-2026-09-14-17-24-20-7d67b376md.md) — O.545-2026-09-14-17-24-20-7d67b376md
-- [O.546](Operations/_work/O.546-2026-09-14-17-22-30-1a1b6b2dmd.md) — O.546-2026-09-14-17-22-30-1a1b6b2dmd
-- [O.547](Operations/_work/O.547-2026-09-14-17-21-27-26bf14b6md.md) — O.547-2026-09-14-17-21-27-26bf14b6md
-- [O.548](Operations/_work/O.548-2026-09-14-17-21-14-9bdc24a4md.md) — O.548-2026-09-14-17-21-14-9bdc24a4md
-- [O.549](Operations/_work/O.549-2026-09-14-17-16-44-4f8292f6md.md) — O.549-2026-09-14-17-16-44-4f8292f6md
-- [O.550](Operations/_work/O.550-2026-09-14-17-04-30-2a416d60md.md) — O.550-2026-09-14-17-04-30-2a416d60md
-- [O.551](Operations/_work/O.551-2026-09-14-16-57-59-c0de2f21md.md) — O.551-2026-09-14-16-57-59-c0de2f21md
-- [O.552](Operations/_work/O.552-WhatsApp-digest-Kōdo-Engineering-2026-09-15.md) — O.552-WhatsApp-digest-Kōdo-Engineering-2026-09-15
-- [O.553](Operations/_work/O.553-no-subject.md) — O.553-no-subject
-- [O.554](Operations/_work/O.554-2026-09-15-08-39-26-80a65a72md.md) — O.554-2026-09-15-08-39-26-80a65a72md
-- [O.555](Operations/_work/O.555-2026-09-15-08-36-27-6aec9b57md.md) — O.555-2026-09-15-08-36-27-6aec9b57md
-- [O.556](Operations/_work/O.556-2026-09-15-08-35-37-a44a931amd.md) — O.556-2026-09-15-08-35-37-a44a931amd
-- [O.557](Operations/_work/O.557-2026-09-15-08-31-47-ce50b626md.md) — O.557-2026-09-15-08-31-47-ce50b626md
-- [O.558](Operations/_work/O.558-2026-09-15-08-31-47-9f6caeb7md.md) — O.558-2026-09-15-08-31-47-9f6caeb7md
-- [O.559](Operations/_work/O.559-2026-09-15-09-36-17-d72c85b0md.md) — O.559-2026-09-15-09-36-17-d72c85b0md
-- [O.560](Operations/_work/O.560-2026-09-15-09-27-58-974a0357md.md) — O.560-2026-09-15-09-27-58-974a0357md
-
-</details>
 
 ### Company In Progress
 
@@ -188,23 +75,26 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 - **Latest move at**: 2026-09-07T10:23:40.354071+00:00
 - **Latest move**: You responded to Review: Voice Note Import Services Agreement.
 - **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
-- **Latest move tick**: 1284
+- **Latest move tick**: 1285
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-14T14:43:12.860222+00:00
 - **Turn tick**: 1334
 - **Turn commit**: 296b0346
-- **Window**: 9 ticks · 18 h 2 m
+- **Window**: 10 ticks · 18 h 26 m
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 1
-- **Elsewhere**: 33
-- **Beneath**: 0 progressed, 31 created, 287 inspected without change
+- **Elsewhere**: 36
+- **Beneath**: 0 progressed, 34 created, 395 inspected without change
 
 | Scope | Tick | Item | Summary |
 |---|---:|---|---|
 | yours | 1337 | [Clipboard Import Services Agreement](Operations/_work/approvals/contract-proposal-clipboard-import-services-agreement.md) | The company settled it. No longer waiting on a decision. |
-| elsewhere | 1340 | [Operations](Operations/dashboard.md) | Load 112 → 142 active. |
+| elsewhere | 1343 | [Operations](Operations/dashboard.md) | Load 112 → 145 active. |
+| elsewhere | 1343 | [2026 09 15 09 36 17 D72c85b0](Operations/_work/O.559-2026-09-15-09-36-17-d72c85b0md.md) | Created. |
+| elsewhere | 1343 | [Manager Demo Flow and Audio Observations](Operations/_work/I.019-Manager-Demo-Flow-and-Audio-Observations.md) | Created. |
+| elsewhere | 1343 | [2026 09 15 09 27 58 974a0357](Operations/_work/O.560-2026-09-15-09-27-58-974a0357md.md) | Created. |
 | elsewhere | 1340 | [Compliance](Compliance/dashboard.md) | Load 9 → 10 active. |
 | elsewhere | 1340 | [Kōdo Engineering: Vision Master setup and dongle](Operations/_work/P.018-Kōdo-Engineering-Vision-Master-setup-and-dongle.md) | Created. |
 | elsewhere | 1340 | [Request for PSC code for Blocvey Ltd confirmation statement](Compliance/_work/C.038-Request-for-PSC-code-for-Blocvey-Ltd-confirmation-statement.md) | Created. |
@@ -255,7 +145,6 @@ Nothing presented and unanswered.
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1284](_pipeline/reports/tick-1284.md) | 8.3s | 0 | 0 | 0 | 0 |
 | [#1285](_pipeline/reports/tick-1285.md) | 15.4s | 28 | 0 | 0 | 0 |
 | [#1286](_pipeline/reports/tick-1286.md) | 17.1s | 0 | 0 | 0 | 0 |
 | [#1287](_pipeline/reports/tick-1287.md) | 7.1s | 0 | 0 | 0 | 0 |
@@ -315,6 +204,7 @@ Nothing presented and unanswered.
 | [#1341](_pipeline/reports/tick-1341.md) | 34.3s | 0 | 0 | 0 | 0 |
 | [#1342](_pipeline/reports/tick-1342.md) | 27.0s | 0 | 0 | 0 | 0 |
 | [#1343](_pipeline/reports/tick-1343.md) | 497.9s | 108 | 3 | 0 | 637 |
+| [#1344](_pipeline/reports/tick-1344.md) | 240.3s | 0 | 8 | 0 | 1732 |
 
 ## Health
 
@@ -322,10 +212,10 @@ Nothing presented and unanswered.
 |----------|--------|--------|---------|------|
 | [Accounts](Accounts/dashboard.md) | 🔄 | 2 | 0 | 13 |
 | [Compliance](Compliance/dashboard.md) | ⏸️ | 10 | 1 | 13 |
-| [Operations](Operations/dashboard.md) | ⚠️ | 145 | 0 | 454 |
-| [People](People/dashboard.md) | ⚠️ | 6 | 0 | 1 |
+| [Operations](Operations/dashboard.md) | ⚠️ | 152 | 0 | 454 |
+| [People](People/dashboard.md) | ⚠️ | 7 | 0 | 1 |
 | [Services](Services/dashboard.md) | 🔄 | 1 | 0 | 11 |
-| **Total** | | **164** | **1** | **492** |
+| **Total** | | **172** | **1** | **492** |
 
 ### Work Item Distribution
 
@@ -333,8 +223,8 @@ Nothing presented and unanswered.
 pie title Active Work Items by Function
     "Accounts" : 2
     "Compliance" : 10
-    "Operations" : 145
-    "People" : 6
+    "Operations" : 152
+    "People" : 7
     "Services" : 1
 ```
 
@@ -344,7 +234,7 @@ pie title Active Work Items by Function
 pie title Active Status Distribution
     "awaiting-approval" : 1
     "in-progress" : 13
-    "open" : 150
+    "open" : 158
     "submitted" : 1
 ```
 
@@ -497,14 +387,14 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1343
+**Total Ticks**: 1344
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-15 09:37 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-15 10:01 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-15 09:38 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-15 09:38 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 3 processed, 3 created |
+| processor-discover | 🟢 Yes | ✅ ok | — | 8 processed, 8 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
 | whatsapp | 🟢 Yes | ✅ ok | 2026-09-15 09:38 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
@@ -516,11 +406,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-15 10:01](_pipeline/logs/2026-09-15_10-01-51.md) | 240s | [✓](_pipeline/logs/2026-09-15_10-01-51.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-15_10-01-51.md#processor-discover) 8 processed, 8 created | — | $0.0002 | ~0.583g |
 | [2026-09-15 09:37](_pipeline/logs/2026-09-15_09-37-52.md) | 498s | [✓](_pipeline/logs/2026-09-15_09-37-52.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-15_09-37-52.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-15_09-37-52.md#processor-discover) 3 processed, 3 created | [✓](_pipeline/logs/2026-09-15_09-37-52.md#processor-progress) 0 progressed | $0.0001 | ~0.386g |
 | [2026-09-15 09:21](_pipeline/logs/2026-09-15_09-21-20.md) | 27s | [✓](_pipeline/logs/2026-09-15_09-21-20.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-15_09-21-20.md#processor-discover) 8 processed, 0 created | — | $0.0000 | ~0.011g |
 | [2026-09-15 09:05](_pipeline/logs/2026-09-15_09-05-07.md) | 34s | [✓](_pipeline/logs/2026-09-15_09-05-07.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-15_09-05-07.md#processor-discover) 10 processed, 0 created | — | $0.0000 | ~0.014g |
 | [2026-09-15 08:39](_pipeline/logs/2026-09-15_08-39-25.md) | 485s | [✓](_pipeline/logs/2026-09-15_08-39-25.md#icloud-email) 2 new, 2 synced | [✓](_pipeline/logs/2026-09-15_08-39-25.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-15_08-39-25.md#processor-discover) 9 processed, 9 created | [✓](_pipeline/logs/2026-09-15_08-39-25.md#processor-progress) 0 progressed | $0.0001 | ~0.613g |
-| [2026-09-14 17:48](_pipeline/logs/2026-09-14_17-48-00.md) | 618s | [✓](_pipeline/logs/2026-09-14_17-48-00.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-14_17-48-00.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-14_17-48-00.md#processor-discover) 15 processed, 15 created | [✓](_pipeline/logs/2026-09-14_17-48-00.md#processor-progress) 0 progressed | $0.0000 | ~0.258g |
 
 ### Source Topology
 
