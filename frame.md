@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1348` · 2026-09-15 10:25 UTC
+`FRAME #1349` · 2026-09-15 10:44 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1348** · 14 ticks · 19 h 50 m · `296b0346` · dashboards + tick reports
+**#1334 → #1349** · 15 ticks · 20 h 9 m · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -22,7 +22,14 @@
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1347 | [Operations](Operations/dashboard.md) | Load 112 → 169 active. |
+| 1348 | [Operations](Operations/dashboard.md) | Load 112 → 176 active. |
+| 1348 | [BlackEyeCollective invited you to BlackEyeCollective/RightStore-3](Operations/_work/O.583-BlackEyeCollective-invited-you-to-BlackEyeCollectiveRightSto.md) | Created. |
+| 1348 | [2026 09 15 11 14 02 221abe06](Operations/_work/O.584-2026-09-15-11-14-02-221abe06md.md) | Created. |
+| 1348 | [2026 09 15 11 13 46 315f8eaf](Operations/_work/O.585-2026-09-15-11-13-46-315f8eafmd.md) | Created. |
+| 1348 | [Missing GitHub Organization Access](Operations/_work/O.586-Missing-GitHub-Organization-Access.md) | Created. |
+| 1348 | [2026 09 15 11 10 41 A82848e6](Operations/_work/O.587-2026-09-15-11-10-41-a82848e6md.md) | Created. |
+| 1348 | [2026 09 15 11 10 16 3e4f69a4](Operations/_work/O.588-2026-09-15-11-10-16-3e4f69a4md.md) | Created. |
+| 1348 | [2026 09 15 11 05 19 6ceba73f](Operations/_work/O.589-2026-09-15-11-05-19-6ceba73fmd.md) | Created. |
 | 1347 | [People](People/dashboard.md) | Load 6 → 8 active. |
 | 1347 | [2026-09-15_11-03-57_96460087.md](Operations/_work/O.572-2026-09-15-11-03-57-96460087md.md) | Created. |
 | 1347 | [2026 09 15 11 03 11 A4a706b5](Operations/_work/O.573-2026-09-15-11-03-11-a4a706b5md.md) | Created. |
@@ -86,7 +93,7 @@
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 0 progressed, 60 created, 515 inspected without change.
+Beneath it: 0 progressed, 67 created, 515 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -101,9 +108,9 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███
+█▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁████
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 8 d 0 h   (frames #1289 → #1348)
+▁–█ tick-report activity · 60 reports · 8 d 0 h   (frames #1290 → #1349)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -210,13 +217,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 243 active · 676 done
+## ▦ Functions — 248 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 10 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 176 | 454 | `███▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 181 | 454 | `███▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 8 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -260,4 +267,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-10 13:14 | company | Cue published · contract |
 | 09-10 13:14 | company | Question prepared · contract |
 
-<sub>Rendered from the repo at frame #1348 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1349 · immediate mode, no client state</sub>
