@@ -4,18 +4,24 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1356` · 2026-09-15 13:44 UTC
+`FRAME #1357` · 2026-09-15 14:18 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1356** · 22 ticks · 23 h 9 m · `296b0346` · dashboards + tick reports
+**#1334 → #1357** · 23 ticks · 23 h 43 m · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | Why review |
 |---:|---|---|
+| 1350 | [AI agent help for new repo understanding](Operations/_work/O.601-AI-agent-help-for-new-repo-understanding.md) | Created. |
+| 1344 | [2026 09 15 09 59 51 0795b880](Operations/_work/O.561-2026-09-15-09-59-51-0795b880md.md) | Created. |
+| 1344 | [2026 09 15 09 57 39 A749bcd2](Operations/_work/O.562-2026-09-15-09-57-39-a749bcd2md.md) | Created. |
+| 1344 | [2026 09 15 09 48 03 79e307f0](Operations/_work/O.563-2026-09-15-09-48-03-79e307f0md.md) | Created. |
+| 1344 | [2026 09 15 09 44 45 B17e694f](Operations/_work/O.565-2026-09-15-09-44-45-b17e694fmd.md) | Created. |
+| 1344 | [2026 09 15 09 40 38 53cf2085](Operations/_work/O.566-2026-09-15-09-40-38-53cf2085md.md) | Created. |
 | 1337 | [Clipboard Import Services Agreement](Operations/_work/approvals/contract-proposal-clipboard-import-services-agreement.md) | The company settled it. No longer waiting on a decision. |
 
 **Elsewhere**
@@ -48,7 +54,6 @@
 | 1350 | [2026 09 15 11 49 16 91be49ab](Operations/_work/O.598-2026-09-15-11-49-16-91be49abmd.md) | Created. |
 | 1350 | [2026 09 15 11 48 45 5a55fe30](Operations/_work/O.599-2026-09-15-11-48-45-5a55fe30md.md) | Created. |
 | 1350 | [2026 09 15 11 48 13 3a70a4a6](Operations/_work/O.600-2026-09-15-11-48-13-3a70a4a6md.md) | Created. |
-| 1350 | [AI agent help for new repo understanding](Operations/_work/O.601-AI-agent-help-for-new-repo-understanding.md) | Created. |
 | 1349 | [RightStore D2S integration architecture proposal](Operations/_work/O.590-RightStore-D2S-integration-architecture-proposal.md) | Created. |
 | 1349 | [WhatsApp digest: Jatin Blocvey (2026-09-15)](Operations/_work/O.591-WhatsApp-digest-Jatin-Blocvey-2026-09-15.md) | Created. |
 | 1349 | [2026 09 15 11 41 48 641de69b](Operations/_work/O.592-2026-09-15-11-41-48-641de69bmd.md) | Created. |
@@ -80,13 +85,8 @@
 | 1346 | [Upstream and Downstream Integrations Concept](Operations/_work/I.021-Upstream-and-Downstream-Integrations-Concept.md) | Created. |
 | 1346 | [2026 09 15 10 25 17 Bb48d25e](Operations/_work/O.570-2026-09-15-10-25-17-bb48d25emd.md) | Created. |
 | 1346 | [2026 09 15 10 22 43 Af63c79f](Operations/_work/O.571-2026-09-15-10-22-43-af63c79fmd.md) | Created. |
-| 1344 | [2026 09 15 09 59 51 0795b880](Operations/_work/O.561-2026-09-15-09-59-51-0795b880md.md) | Created. |
-| 1344 | [2026 09 15 09 57 39 A749bcd2](Operations/_work/O.562-2026-09-15-09-57-39-a749bcd2md.md) | Created. |
 | 1344 | [Observation: Reduce call pauses for better flow](Operations/_work/I.020-Observation-Reduce-call-pauses-for-better-flow.md) | Created. |
-| 1344 | [2026 09 15 09 48 03 79e307f0](Operations/_work/O.563-2026-09-15-09-48-03-79e307f0md.md) | Created. |
 | 1344 | [Build HR Policy Assistant with Compliance Check](Operations/_work/O.564-Build-HR-Policy-Assistant-with-Compliance-Check.md) | Created. |
-| 1344 | [2026 09 15 09 44 45 B17e694f](Operations/_work/O.565-2026-09-15-09-44-45-b17e694fmd.md) | Created. |
-| 1344 | [2026 09 15 09 40 38 53cf2085](Operations/_work/O.566-2026-09-15-09-40-38-53cf2085md.md) | Created. |
 | 1344 | [Streamlining Manager Role in HR Processes](People/_work/H.008-Streamlining-Manager-Role-in-HR-Processes.md) | Created. |
 | 1343 | [2026 09 15 09 36 17 D72c85b0](Operations/_work/O.559-2026-09-15-09-36-17-d72c85b0md.md) | Created. |
 | 1343 | [Manager Demo Flow and Audio Observations](Operations/_work/I.019-Manager-Demo-Flow-and-Audio-Observations.md) | Created. |
@@ -124,7 +124,7 @@
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 0 progressed, 98 created, 987 inspected without change.
+Beneath it: 0 progressed, 98 created, 1156 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -139,9 +139,9 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███████▁█▄▄
+█▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███████▁█▄▄▁
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 8 d 3 h   (frames #1297 → #1356)
+▁–█ tick-report activity · 60 reports · 8 d 3 h   (frames #1298 → #1357)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -298,4 +298,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-10 13:14 | company | Cue published · contract |
 | 09-10 13:14 | company | Question prepared · contract |
 
-<sub>Rendered from the repo at frame #1356 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1357 · immediate mode, no client state</sub>
