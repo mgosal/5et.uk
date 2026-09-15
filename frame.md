@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1339` · 2026-09-14 16:48 UTC
+`FRAME #1340` · 2026-09-15 07:39 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1339** · 5 ticks · 2 h 13 m · `296b0346` · dashboards + tick reports
+**#1334 → #1340** · 6 ticks · 17 h 4 m · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -22,7 +22,22 @@
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1338 | [Operations](Operations/dashboard.md) | Load 112 → 119 active. |
+| 1339 | [Operations](Operations/dashboard.md) | Load 112 → 134 active. |
+| 1339 | [2026 09 14 17 30 29 Ff08dbb0](Operations/_work/O.537-2026-09-14-17-30-29-ff08dbb0md.md) | Created. |
+| 1339 | [2026 09 14 17 13 27 404ab3ea](Operations/_work/O.538-2026-09-14-17-13-27-404ab3eamd.md) | Created. |
+| 1339 | [2026 09 14 17 27 40 379a5e92](Operations/_work/O.539-2026-09-14-17-27-40-379a5e92md.md) | Created. |
+| 1339 | [2026 09 14 17 27 33 1d6b1af1](Operations/_work/O.540-2026-09-14-17-27-33-1d6b1af1md.md) | Created. |
+| 1339 | [2026 09 14 17 27 32 175ef9f6](Operations/_work/O.541-2026-09-14-17-27-32-175ef9f6md.md) | Created. |
+| 1339 | [2026 09 14 17 26 53 Aff8cb94](Operations/_work/O.542-2026-09-14-17-26-53-aff8cb94md.md) | Created. |
+| 1339 | [2026 09 14 17 25 18 5948d846](Operations/_work/O.543-2026-09-14-17-25-18-5948d846md.md) | Created. |
+| 1339 | [2026 09 14 17 24 49 B2f5908f](Operations/_work/O.544-2026-09-14-17-24-49-b2f5908fmd.md) | Created. |
+| 1339 | [2026 09 14 17 24 20 7d67b376](Operations/_work/O.545-2026-09-14-17-24-20-7d67b376md.md) | Created. |
+| 1339 | [2026 09 14 17 22 30 1a1b6b2d](Operations/_work/O.546-2026-09-14-17-22-30-1a1b6b2dmd.md) | Created. |
+| 1339 | [2026 09 14 17 21 27 26bf14b6](Operations/_work/O.547-2026-09-14-17-21-27-26bf14b6md.md) | Created. |
+| 1339 | [2026 09 14 17 21 14 9bdc24a4](Operations/_work/O.548-2026-09-14-17-21-14-9bdc24a4md.md) | Created. |
+| 1339 | [2026 09 14 17 16 44 4f8292f6](Operations/_work/O.549-2026-09-14-17-16-44-4f8292f6md.md) | Created. |
+| 1339 | [2026 09 14 17 04 30 2a416d60](Operations/_work/O.550-2026-09-14-17-04-30-2a416d60md.md) | Created. |
+| 1339 | [2026 09 14 16 57 59 C0de2f21](Operations/_work/O.551-2026-09-14-16-57-59-c0de2f21md.md) | Created. |
 | 1338 | [AI employee slide intro should not be silent](Operations/_work/I.016-AI-employee-slide-intro-should-not-be-silent.md) | Created. |
 | 1338 | [Observation: Intro duration and sound characteristics](Operations/_work/I.017-Observation-Intro-duration-and-sound-characteristics.md) | Created. |
 | 1338 | [Indexed Model vs. LLM: Muse-Glimmer](Operations/_work/I.018-Indexed-Model-vs-LLM-Muse-Glimmer.md) | Created. |
@@ -31,7 +46,7 @@
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 0 progressed, 7 created, 83 inspected without change.
+Beneath it: 0 progressed, 22 created, 181 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -46,16 +61,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁██▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇██
+███▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 7 d 6 h   (frames #1280 → #1339)
+▁–█ tick-report activity · 60 reports · 7 d 21 h   (frames #1281 → #1340)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 7 d 6 h |
+| Time since latest move | 7 d 21 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -155,13 +170,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 198 active · 676 done
+## ▦ Functions — 207 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
-| ⏸️ | [Compliance](Compliance/dashboard.md) | 9 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 134 | 454 | `██▁▁▁▁▁▁▁▁` |
+| ⏸️ | [Compliance](Compliance/dashboard.md) | 10 | 13 | `████▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 142 | 454 | `██▁▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -205,4 +220,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-10 13:14 | company | Cue published · contract |
 | 09-10 13:14 | company | Question prepared · contract |
 
-<sub>Rendered from the repo at frame #1339 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1340 · immediate mode, no client state</sub>
