@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1347.md" style="font-size:11px; color:#5f6368;">#1347</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1348.md" style="font-size:11px; color:#5f6368;">#1348</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -42,7 +42,7 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1347](_pipeline/reports/tick-1347.md)** · 2026-09-15 10:04 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1348](_pipeline/reports/tick-1348.md)** · 2026-09-15 10:25 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -75,30 +75,42 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 - **Latest move at**: 2026-09-07T10:23:40.354071+00:00
 - **Latest move**: You responded to Review: Voice Note Import Services Agreement.
 - **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
-- **Latest move tick**: 1288
+- **Latest move tick**: 1289
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-14T14:43:12.860222+00:00
 - **Turn tick**: 1334
 - **Turn commit**: 296b0346
-- **Window**: 13 ticks · 19 h 29 m
+- **Window**: 14 ticks · 19 h 50 m
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 1
-- **Elsewhere**: 51
-- **Beneath**: 0 progressed, 48 created, 515 inspected without change
+- **Elsewhere**: 63
+- **Beneath**: 0 progressed, 60 created, 515 inspected without change
 
 | Scope | Tick | Item | Summary |
 |---|---:|---|---|
 | yours | 1337 | [Clipboard Import Services Agreement](Operations/_work/approvals/contract-proposal-clipboard-import-services-agreement.md) | The company settled it. No longer waiting on a decision. |
-| elsewhere | 1346 | [Operations](Operations/dashboard.md) | Load 112 → 158 active. |
+| elsewhere | 1347 | [Operations](Operations/dashboard.md) | Load 112 → 169 active. |
+| elsewhere | 1347 | [People](People/dashboard.md) | Load 6 → 8 active. |
+| elsewhere | 1347 | [2026-09-15_11-03-57_96460087.md](Operations/_work/O.572-2026-09-15-11-03-57-96460087md.md) | Created. |
+| elsewhere | 1347 | [2026 09 15 11 03 11 A4a706b5](Operations/_work/O.573-2026-09-15-11-03-11-a4a706b5md.md) | Created. |
+| elsewhere | 1347 | [2026 09 15 11 02 41 B5051b12](Operations/_work/O.574-2026-09-15-11-02-41-b5051b12md.md) | Created. |
+| elsewhere | 1347 | [2026 09 15 11 01 28 C86892a5](Operations/_work/O.575-2026-09-15-11-01-28-c86892a5md.md) | Created. |
+| elsewhere | 1347 | [Paternity Leave Enquiry](People/_work/H.009-Paternity-Leave-Enquiry.md) | Created. |
+| elsewhere | 1347 | [2026 09 15 10 53 52 B4ac653b](Operations/_work/O.576-2026-09-15-10-53-52-b4ac653bmd.md) | Created. |
+| elsewhere | 1347 | [2026 09 15 10 47 59 B68b3916](Operations/_work/O.577-2026-09-15-10-47-59-b68b3916md.md) | Created. |
+| elsewhere | 1347 | [2026 09 15 10 44 57 B838782e](Operations/_work/O.578-2026-09-15-10-44-57-b838782emd.md) | Created. |
+| elsewhere | 1347 | [Email reply and access management decision](Operations/_work/O.579-Email-reply-and-access-management-decision.md) | Created. |
+| elsewhere | 1347 | [2026 09 15 10 42 18 8c5679c1](Operations/_work/O.580-2026-09-15-10-42-18-8c5679c1md.md) | Created. |
+| elsewhere | 1347 | [2026 09 15 10 39 45 6cfd6e2c](Operations/_work/O.581-2026-09-15-10-39-45-6cfd6e2cmd.md) | Created. |
+| elsewhere | 1347 | [Edit Rodrigo Sanchez calls recording](Operations/_work/O.582-Edit-Rodrigo-Sanchez-calls-recording.md) | Created. |
 | elsewhere | 1346 | [2026 09 15 10 38 45 73150aca](Operations/_work/O.567-2026-09-15-10-38-45-73150acamd.md) | Created. |
 | elsewhere | 1346 | [2026 09 15 10 36 12 Fe16f053](Operations/_work/O.568-2026-09-15-10-36-12-fe16f053md.md) | Created. |
 | elsewhere | 1346 | [2026 09 15 10 34 15 6c15eb36](Operations/_work/O.569-2026-09-15-10-34-15-6c15eb36md.md) | Created. |
 | elsewhere | 1346 | [Upstream and Downstream Integrations Concept](Operations/_work/I.021-Upstream-and-Downstream-Integrations-Concept.md) | Created. |
 | elsewhere | 1346 | [2026 09 15 10 25 17 Bb48d25e](Operations/_work/O.570-2026-09-15-10-25-17-bb48d25emd.md) | Created. |
 | elsewhere | 1346 | [2026 09 15 10 22 43 Af63c79f](Operations/_work/O.571-2026-09-15-10-22-43-af63c79fmd.md) | Created. |
-| elsewhere | 1344 | [People](People/dashboard.md) | Load 6 → 7 active. |
 | elsewhere | 1344 | [2026 09 15 09 59 51 0795b880](Operations/_work/O.561-2026-09-15-09-59-51-0795b880md.md) | Created. |
 | elsewhere | 1344 | [2026 09 15 09 57 39 A749bcd2](Operations/_work/O.562-2026-09-15-09-57-39-a749bcd2md.md) | Created. |
 | elsewhere | 1344 | [Observation: Reduce call pauses for better flow](Operations/_work/I.020-Observation-Reduce-call-pauses-for-better-flow.md) | Created. |
@@ -160,7 +172,6 @@ Nothing presented and unanswered.
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1288](_pipeline/reports/tick-1288.md) | 6.8s | 0 | 0 | 0 | 0 |
 | [#1289](_pipeline/reports/tick-1289.md) | 18.7s | 28 | 0 | 0 | 0 |
 | [#1290](_pipeline/reports/tick-1290.md) | 13.7s | 0 | 0 | 0 | 0 |
 | [#1291](_pipeline/reports/tick-1291.md) | 7.8s | 0 | 0 | 0 | 0 |
@@ -220,6 +231,7 @@ Nothing presented and unanswered.
 | [#1345](_pipeline/reports/tick-1345.md) | 17.3s | 0 | 0 | 0 | 0 |
 | [#1346](_pipeline/reports/tick-1346.md) | 603.0s | 120 | 6 | 0 | 516 |
 | [#1347](_pipeline/reports/tick-1347.md) | 300.2s | 0 | 12 | 0 | 1591 |
+| [#1348](_pipeline/reports/tick-1348.md) | 191.7s | 0 | 7 | 0 | 533 |
 
 ## Health
 
@@ -227,10 +239,10 @@ Nothing presented and unanswered.
 |----------|--------|--------|---------|------|
 | [Accounts](Accounts/dashboard.md) | 🔄 | 2 | 0 | 13 |
 | [Compliance](Compliance/dashboard.md) | ⏸️ | 10 | 1 | 13 |
-| [Operations](Operations/dashboard.md) | ⚠️ | 169 | 0 | 454 |
+| [Operations](Operations/dashboard.md) | ⚠️ | 176 | 0 | 454 |
 | [People](People/dashboard.md) | ⚠️ | 8 | 0 | 1 |
 | [Services](Services/dashboard.md) | 🔄 | 1 | 0 | 11 |
-| **Total** | | **190** | **1** | **492** |
+| **Total** | | **197** | **1** | **492** |
 
 ### Work Item Distribution
 
@@ -238,7 +250,7 @@ Nothing presented and unanswered.
 pie title Active Work Items by Function
     "Accounts" : 2
     "Compliance" : 10
-    "Operations" : 169
+    "Operations" : 176
     "People" : 8
     "Services" : 1
 ```
@@ -249,7 +261,7 @@ pie title Active Work Items by Function
 pie title Active Status Distribution
     "awaiting-approval" : 1
     "in-progress" : 13
-    "open" : 176
+    "open" : 183
     "submitted" : 1
 ```
 
@@ -402,14 +414,14 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1347
+**Total Ticks**: 1348
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-15 11:04 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-15 11:25 | 1 new, 1 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-15 10:38 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-15 10:38 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 12 processed, 12 created |
+| processor-discover | 🟢 Yes | ✅ ok | — | 7 processed, 7 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
 | whatsapp | 🟢 Yes | ✅ ok | 2026-09-15 10:38 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
@@ -421,11 +433,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-15 11:25](_pipeline/logs/2026-09-15_11-25-41.md) | 192s | [✓](_pipeline/logs/2026-09-15_11-25-41.md#icloud-email) 1 new, 1 synced | — | [✓](_pipeline/logs/2026-09-15_11-25-41.md#processor-discover) 7 processed, 7 created | — | $0.0000 | ~0.229g |
 | [2026-09-15 11:04](_pipeline/logs/2026-09-15_11-04-49.md) | 300s | [✓](_pipeline/logs/2026-09-15_11-04-49.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-15_11-04-49.md#processor-discover) 12 processed, 12 created | — | $0.0001 | ~0.560g |
 | [2026-09-15 10:38](_pipeline/logs/2026-09-15_10-38-51.md) | 603s | [✓](_pipeline/logs/2026-09-15_10-38-51.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-15_10-38-51.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-15_10-38-51.md#processor-discover) 6 processed, 6 created | [✓](_pipeline/logs/2026-09-15_10-38-51.md#processor-progress) 0 progressed | $0.0000 | ~0.399g |
 | [2026-09-15 10:22](_pipeline/logs/2026-09-15_10-22-11.md) | 17s | [✓](_pipeline/logs/2026-09-15_10-22-11.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-15_10-22-11.md#processor-discover) 4 processed, 0 created | — | $0.0000 | ~0.007g |
 | [2026-09-15 10:01](_pipeline/logs/2026-09-15_10-01-51.md) | 240s | [✓](_pipeline/logs/2026-09-15_10-01-51.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-15_10-01-51.md#processor-discover) 8 processed, 8 created | — | $0.0002 | ~0.583g |
-| [2026-09-15 09:37](_pipeline/logs/2026-09-15_09-37-52.md) | 498s | [✓](_pipeline/logs/2026-09-15_09-37-52.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-15_09-37-52.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-15_09-37-52.md#processor-discover) 3 processed, 3 created | [✓](_pipeline/logs/2026-09-15_09-37-52.md#processor-progress) 0 progressed | $0.0001 | ~0.386g |
 
 ### Source Topology
 

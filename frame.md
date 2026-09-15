@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1347` · 2026-09-15 10:04 UTC
+`FRAME #1348` · 2026-09-15 10:25 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1347** · 13 ticks · 19 h 29 m · `296b0346` · dashboards + tick reports
+**#1334 → #1348** · 14 ticks · 19 h 50 m · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -22,14 +22,26 @@
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1346 | [Operations](Operations/dashboard.md) | Load 112 → 158 active. |
+| 1347 | [Operations](Operations/dashboard.md) | Load 112 → 169 active. |
+| 1347 | [People](People/dashboard.md) | Load 6 → 8 active. |
+| 1347 | [2026-09-15_11-03-57_96460087.md](Operations/_work/O.572-2026-09-15-11-03-57-96460087md.md) | Created. |
+| 1347 | [2026 09 15 11 03 11 A4a706b5](Operations/_work/O.573-2026-09-15-11-03-11-a4a706b5md.md) | Created. |
+| 1347 | [2026 09 15 11 02 41 B5051b12](Operations/_work/O.574-2026-09-15-11-02-41-b5051b12md.md) | Created. |
+| 1347 | [2026 09 15 11 01 28 C86892a5](Operations/_work/O.575-2026-09-15-11-01-28-c86892a5md.md) | Created. |
+| 1347 | [Paternity Leave Enquiry](People/_work/H.009-Paternity-Leave-Enquiry.md) | Created. |
+| 1347 | [2026 09 15 10 53 52 B4ac653b](Operations/_work/O.576-2026-09-15-10-53-52-b4ac653bmd.md) | Created. |
+| 1347 | [2026 09 15 10 47 59 B68b3916](Operations/_work/O.577-2026-09-15-10-47-59-b68b3916md.md) | Created. |
+| 1347 | [2026 09 15 10 44 57 B838782e](Operations/_work/O.578-2026-09-15-10-44-57-b838782emd.md) | Created. |
+| 1347 | [Email reply and access management decision](Operations/_work/O.579-Email-reply-and-access-management-decision.md) | Created. |
+| 1347 | [2026 09 15 10 42 18 8c5679c1](Operations/_work/O.580-2026-09-15-10-42-18-8c5679c1md.md) | Created. |
+| 1347 | [2026 09 15 10 39 45 6cfd6e2c](Operations/_work/O.581-2026-09-15-10-39-45-6cfd6e2cmd.md) | Created. |
+| 1347 | [Edit Rodrigo Sanchez calls recording](Operations/_work/O.582-Edit-Rodrigo-Sanchez-calls-recording.md) | Created. |
 | 1346 | [2026 09 15 10 38 45 73150aca](Operations/_work/O.567-2026-09-15-10-38-45-73150acamd.md) | Created. |
 | 1346 | [2026 09 15 10 36 12 Fe16f053](Operations/_work/O.568-2026-09-15-10-36-12-fe16f053md.md) | Created. |
 | 1346 | [2026 09 15 10 34 15 6c15eb36](Operations/_work/O.569-2026-09-15-10-34-15-6c15eb36md.md) | Created. |
 | 1346 | [Upstream and Downstream Integrations Concept](Operations/_work/I.021-Upstream-and-Downstream-Integrations-Concept.md) | Created. |
 | 1346 | [2026 09 15 10 25 17 Bb48d25e](Operations/_work/O.570-2026-09-15-10-25-17-bb48d25emd.md) | Created. |
 | 1346 | [2026 09 15 10 22 43 Af63c79f](Operations/_work/O.571-2026-09-15-10-22-43-af63c79fmd.md) | Created. |
-| 1344 | [People](People/dashboard.md) | Load 6 → 7 active. |
 | 1344 | [2026 09 15 09 59 51 0795b880](Operations/_work/O.561-2026-09-15-09-59-51-0795b880md.md) | Created. |
 | 1344 | [2026 09 15 09 57 39 A749bcd2](Operations/_work/O.562-2026-09-15-09-57-39-a749bcd2md.md) | Created. |
 | 1344 | [Observation: Reduce call pauses for better flow](Operations/_work/I.020-Observation-Reduce-call-pauses-for-better-flow.md) | Created. |
@@ -74,7 +86,7 @@
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 0 progressed, 48 created, 515 inspected without change.
+Beneath it: 0 progressed, 60 created, 515 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -89,16 +101,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁██
+█▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 7 d 23 h   (frames #1288 → #1347)
+▁–█ tick-report activity · 60 reports · 8 d 0 h   (frames #1289 → #1348)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 7 d 23 h |
+| Time since latest move | 8 d 0 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -198,13 +210,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 236 active · 676 done
+## ▦ Functions — 243 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 10 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 169 | 454 | `███▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 176 | 454 | `███▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 8 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -248,4 +260,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-10 13:14 | company | Cue published · contract |
 | 09-10 13:14 | company | Question prepared · contract |
 
-<sub>Rendered from the repo at frame #1347 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1348 · immediate mode, no client state</sub>
