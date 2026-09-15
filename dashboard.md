@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1344.md" style="font-size:11px; color:#5f6368;">#1344</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1345.md" style="font-size:11px; color:#5f6368;">#1345</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -42,7 +42,7 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1344](_pipeline/reports/tick-1344.md)** · 2026-09-15 09:01 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1345](_pipeline/reports/tick-1345.md)** · 2026-09-15 09:22 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -75,23 +75,32 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 - **Latest move at**: 2026-09-07T10:23:40.354071+00:00
 - **Latest move**: You responded to Review: Voice Note Import Services Agreement.
 - **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
-- **Latest move tick**: 1285
+- **Latest move tick**: 1286
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-14T14:43:12.860222+00:00
 - **Turn tick**: 1334
 - **Turn commit**: 296b0346
-- **Window**: 10 ticks · 18 h 26 m
+- **Window**: 11 ticks · 18 h 47 m
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 1
-- **Elsewhere**: 36
-- **Beneath**: 0 progressed, 34 created, 395 inspected without change
+- **Elsewhere**: 45
+- **Beneath**: 0 progressed, 42 created, 395 inspected without change
 
 | Scope | Tick | Item | Summary |
 |---|---:|---|---|
 | yours | 1337 | [Clipboard Import Services Agreement](Operations/_work/approvals/contract-proposal-clipboard-import-services-agreement.md) | The company settled it. No longer waiting on a decision. |
-| elsewhere | 1343 | [Operations](Operations/dashboard.md) | Load 112 → 145 active. |
+| elsewhere | 1344 | [Operations](Operations/dashboard.md) | Load 112 → 152 active. |
+| elsewhere | 1344 | [People](People/dashboard.md) | Load 6 → 7 active. |
+| elsewhere | 1344 | [2026 09 15 09 59 51 0795b880](Operations/_work/O.561-2026-09-15-09-59-51-0795b880md.md) | Created. |
+| elsewhere | 1344 | [2026 09 15 09 57 39 A749bcd2](Operations/_work/O.562-2026-09-15-09-57-39-a749bcd2md.md) | Created. |
+| elsewhere | 1344 | [Observation: Reduce call pauses for better flow](Operations/_work/I.020-Observation-Reduce-call-pauses-for-better-flow.md) | Created. |
+| elsewhere | 1344 | [2026 09 15 09 48 03 79e307f0](Operations/_work/O.563-2026-09-15-09-48-03-79e307f0md.md) | Created. |
+| elsewhere | 1344 | [Build HR Policy Assistant with Compliance Check](Operations/_work/O.564-Build-HR-Policy-Assistant-with-Compliance-Check.md) | Created. |
+| elsewhere | 1344 | [2026 09 15 09 44 45 B17e694f](Operations/_work/O.565-2026-09-15-09-44-45-b17e694fmd.md) | Created. |
+| elsewhere | 1344 | [2026 09 15 09 40 38 53cf2085](Operations/_work/O.566-2026-09-15-09-40-38-53cf2085md.md) | Created. |
+| elsewhere | 1344 | [Streamlining Manager Role in HR Processes](People/_work/H.008-Streamlining-Manager-Role-in-HR-Processes.md) | Created. |
 | elsewhere | 1343 | [2026 09 15 09 36 17 D72c85b0](Operations/_work/O.559-2026-09-15-09-36-17-d72c85b0md.md) | Created. |
 | elsewhere | 1343 | [Manager Demo Flow and Audio Observations](Operations/_work/I.019-Manager-Demo-Flow-and-Audio-Observations.md) | Created. |
 | elsewhere | 1343 | [2026 09 15 09 27 58 974a0357](Operations/_work/O.560-2026-09-15-09-27-58-974a0357md.md) | Created. |
@@ -145,7 +154,6 @@ Nothing presented and unanswered.
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1285](_pipeline/reports/tick-1285.md) | 15.4s | 28 | 0 | 0 | 0 |
 | [#1286](_pipeline/reports/tick-1286.md) | 17.1s | 0 | 0 | 0 | 0 |
 | [#1287](_pipeline/reports/tick-1287.md) | 7.1s | 0 | 0 | 0 | 0 |
 | [#1288](_pipeline/reports/tick-1288.md) | 6.8s | 0 | 0 | 0 | 0 |
@@ -205,6 +213,7 @@ Nothing presented and unanswered.
 | [#1342](_pipeline/reports/tick-1342.md) | 27.0s | 0 | 0 | 0 | 0 |
 | [#1343](_pipeline/reports/tick-1343.md) | 497.9s | 108 | 3 | 0 | 637 |
 | [#1344](_pipeline/reports/tick-1344.md) | 240.3s | 0 | 8 | 0 | 1732 |
+| [#1345](_pipeline/reports/tick-1345.md) | 17.3s | 0 | 0 | 0 | 0 |
 
 ## Health
 
@@ -387,14 +396,14 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1344
+**Total Ticks**: 1345
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-15 10:01 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-15 10:22 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-15 09:38 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-15 09:38 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 8 processed, 8 created |
+| processor-discover | 🟢 Yes | ✅ ok | — | 4 processed, 0 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
 | whatsapp | 🟢 Yes | ✅ ok | 2026-09-15 09:38 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
@@ -406,11 +415,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-15 10:22](_pipeline/logs/2026-09-15_10-22-11.md) | 17s | [✓](_pipeline/logs/2026-09-15_10-22-11.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-15_10-22-11.md#processor-discover) 4 processed, 0 created | — | $0.0000 | ~0.007g |
 | [2026-09-15 10:01](_pipeline/logs/2026-09-15_10-01-51.md) | 240s | [✓](_pipeline/logs/2026-09-15_10-01-51.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-15_10-01-51.md#processor-discover) 8 processed, 8 created | — | $0.0002 | ~0.583g |
 | [2026-09-15 09:37](_pipeline/logs/2026-09-15_09-37-52.md) | 498s | [✓](_pipeline/logs/2026-09-15_09-37-52.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-15_09-37-52.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-15_09-37-52.md#processor-discover) 3 processed, 3 created | [✓](_pipeline/logs/2026-09-15_09-37-52.md#processor-progress) 0 progressed | $0.0001 | ~0.386g |
 | [2026-09-15 09:21](_pipeline/logs/2026-09-15_09-21-20.md) | 27s | [✓](_pipeline/logs/2026-09-15_09-21-20.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-15_09-21-20.md#processor-discover) 8 processed, 0 created | — | $0.0000 | ~0.011g |
 | [2026-09-15 09:05](_pipeline/logs/2026-09-15_09-05-07.md) | 34s | [✓](_pipeline/logs/2026-09-15_09-05-07.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-15_09-05-07.md#processor-discover) 10 processed, 0 created | — | $0.0000 | ~0.014g |
-| [2026-09-15 08:39](_pipeline/logs/2026-09-15_08-39-25.md) | 485s | [✓](_pipeline/logs/2026-09-15_08-39-25.md#icloud-email) 2 new, 2 synced | [✓](_pipeline/logs/2026-09-15_08-39-25.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-15_08-39-25.md#processor-discover) 9 processed, 9 created | [✓](_pipeline/logs/2026-09-15_08-39-25.md#processor-progress) 0 progressed | $0.0001 | ~0.613g |
 
 ### Source Topology
 
@@ -494,7 +503,7 @@ flowchart TD
 
 | Metric | Value |
 |--------|-------|
-| Notes | 1524 |
+| Notes | 1528 |
 | Themes | 23 |
 | Coverage | 10.9% |
 
