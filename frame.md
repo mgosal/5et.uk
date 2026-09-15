@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1352` · 2026-09-15 12:05 UTC
+`FRAME #1353` · 2026-09-15 12:23 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1352** · 18 ticks · 21 h 30 m · `296b0346` · dashboards + tick reports
+**#1334 → #1353** · 19 ticks · 21 h 48 m · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -22,7 +22,10 @@
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1351 | [Operations](Operations/dashboard.md) | Load 112 → 198 active. |
+| 1352 | [Operations](Operations/dashboard.md) | Load 112 → 201 active. |
+| 1352 | [2026 09 15 12 56 56 7712519e](Operations/_work/O.611-2026-09-15-12-56-56-7712519emd.md) | Created. |
+| 1352 | [2026 09 15 12 50 16 049f4977](Operations/_work/O.612-2026-09-15-12-50-16-049f4977md.md) | Created. |
+| 1352 | [Mac security warning: Python 3.10 unverified](Operations/_work/O.613-Mac-security-warning-Python-310-unverified.md) | Created. |
 | 1351 | [2026 09 15 12 38 22 60d58a56](Operations/_work/O.602-2026-09-15-12-38-22-60d58a56md.md) | Created. |
 | 1351 | [2026 09 15 12 37 41 C682ed94](Operations/_work/O.603-2026-09-15-12-37-41-c682ed94md.md) | Created. |
 | 1351 | [2026 09 15 12 34 38 B2da0d1f](Operations/_work/O.604-2026-09-15-12-34-38-b2da0d1fmd.md) | Created. |
@@ -115,7 +118,7 @@
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 0 progressed, 89 created, 819 inspected without change.
+Beneath it: 0 progressed, 92 created, 819 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -130,16 +133,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███████
+█▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███████▁
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 8 d 1 h   (frames #1293 → #1352)
+▁–█ tick-report activity · 60 reports · 8 d 2 h   (frames #1294 → #1353)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 8 d 1 h |
+| Time since latest move | 8 d 2 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -289,4 +292,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-10 13:14 | company | Cue published · contract |
 | 09-10 13:14 | company | Question prepared · contract |
 
-<sub>Rendered from the repo at frame #1352 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1353 · immediate mode, no client state</sub>

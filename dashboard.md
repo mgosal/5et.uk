@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1352.md" style="font-size:11px; color:#5f6368;">#1352</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1353.md" style="font-size:11px; color:#5f6368;">#1353</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -42,7 +42,7 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1352](_pipeline/reports/tick-1352.md)** · 2026-09-15 12:05 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1353](_pipeline/reports/tick-1353.md)** · 2026-09-15 12:23 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -75,23 +75,26 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 - **Latest move at**: 2026-09-07T10:23:40.354071+00:00
 - **Latest move**: You responded to Review: Voice Note Import Services Agreement.
 - **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
-- **Latest move tick**: 1293
+- **Latest move tick**: 1294
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-14T14:43:12.860222+00:00
 - **Turn tick**: 1334
 - **Turn commit**: 296b0346
-- **Window**: 18 ticks · 21 h 30 m
+- **Window**: 19 ticks · 21 h 48 m
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 1
-- **Elsewhere**: 92
-- **Beneath**: 0 progressed, 89 created, 819 inspected without change
+- **Elsewhere**: 95
+- **Beneath**: 0 progressed, 92 created, 819 inspected without change
 
 | Scope | Tick | Item | Summary |
 |---|---:|---|---|
 | yours | 1337 | [Clipboard Import Services Agreement](Operations/_work/approvals/contract-proposal-clipboard-import-services-agreement.md) | The company settled it. No longer waiting on a decision. |
-| elsewhere | 1351 | [Operations](Operations/dashboard.md) | Load 112 → 198 active. |
+| elsewhere | 1352 | [Operations](Operations/dashboard.md) | Load 112 → 201 active. |
+| elsewhere | 1352 | [2026 09 15 12 56 56 7712519e](Operations/_work/O.611-2026-09-15-12-56-56-7712519emd.md) | Created. |
+| elsewhere | 1352 | [2026 09 15 12 50 16 049f4977](Operations/_work/O.612-2026-09-15-12-50-16-049f4977md.md) | Created. |
+| elsewhere | 1352 | [Mac security warning: Python 3.10 unverified](Operations/_work/O.613-Mac-security-warning-Python-310-unverified.md) | Created. |
 | elsewhere | 1351 | [2026 09 15 12 38 22 60d58a56](Operations/_work/O.602-2026-09-15-12-38-22-60d58a56md.md) | Created. |
 | elsewhere | 1351 | [2026 09 15 12 37 41 C682ed94](Operations/_work/O.603-2026-09-15-12-37-41-c682ed94md.md) | Created. |
 | elsewhere | 1351 | [2026 09 15 12 34 38 B2da0d1f](Operations/_work/O.604-2026-09-15-12-34-38-b2da0d1fmd.md) | Created. |
@@ -201,7 +204,6 @@ Nothing presented and unanswered.
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1293](_pipeline/reports/tick-1293.md) | 647.0s | 28 | 0 | 0 | 0 |
 | [#1294](_pipeline/reports/tick-1294.md) | 7.6s | 0 | 0 | 0 | 0 |
 | [#1295](_pipeline/reports/tick-1295.md) | 6.4s | 0 | 0 | 0 | 0 |
 | [#1296](_pipeline/reports/tick-1296.md) | 162.6s | 28 | 0 | 0 | 0 |
@@ -261,6 +263,7 @@ Nothing presented and unanswered.
 | [#1350](_pipeline/reports/tick-1350.md) | 174.5s | 0 | 7 | 0 | 562 |
 | [#1351](_pipeline/reports/tick-1351.md) | 663.4s | 160 | 10 | 0 | 544 |
 | [#1352](_pipeline/reports/tick-1352.md) | 127.0s | 0 | 3 | 0 | 547 |
+| [#1353](_pipeline/reports/tick-1353.md) | 8.0s | 0 | 0 | 0 | 0 |
 
 ## Health
 
@@ -444,14 +447,14 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1352
+**Total Ticks**: 1353
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-15 13:05 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-15 13:23 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-15 12:38 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-15 12:38 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 3 processed, 3 created |
+| processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
 | whatsapp | 🟢 Yes | ✅ ok | 2026-09-15 12:38 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
@@ -463,11 +466,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-15 13:23](_pipeline/logs/2026-09-15_13-23-22.md) | 8s | [✓](_pipeline/logs/2026-09-15_13-23-22.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-15_13-23-22.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
 | [2026-09-15 13:05](_pipeline/logs/2026-09-15_13-05-19.md) | 127s | [✓](_pipeline/logs/2026-09-15_13-05-19.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-15_13-05-19.md#processor-discover) 3 processed, 3 created | — | $0.0001 | ~0.212g |
 | [2026-09-15 12:38](_pipeline/logs/2026-09-15_12-38-38.md) | 663s | [✓](_pipeline/logs/2026-09-15_12-38-38.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-15_12-38-38.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-15_12-38-38.md#processor-discover) 10 processed, 10 created | [✓](_pipeline/logs/2026-09-15_12-38-38.md#processor-progress) 0 progressed | $0.0001 | ~0.437g |
 | [2026-09-15 12:19](_pipeline/logs/2026-09-15_12-19-47.md) | 175s | [✓](_pipeline/logs/2026-09-15_12-19-47.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-15_12-19-47.md#processor-discover) 7 processed, 7 created | — | $0.0001 | ~0.235g |
 | [2026-09-15 11:44](_pipeline/logs/2026-09-15_11-44-40.md) | 509s | [✓](_pipeline/logs/2026-09-15_11-44-40.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-15_11-44-40.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-15_11-44-40.md#processor-discover) 5 processed, 5 created | [✓](_pipeline/logs/2026-09-15_11-44-40.md#processor-progress) 0 progressed | $0.0001 | ~0.579g |
-| [2026-09-15 11:25](_pipeline/logs/2026-09-15_11-25-41.md) | 192s | [✓](_pipeline/logs/2026-09-15_11-25-41.md#icloud-email) 1 new, 1 synced | — | [✓](_pipeline/logs/2026-09-15_11-25-41.md#processor-discover) 7 processed, 7 created | — | $0.0000 | ~0.229g |
 
 ### Source Topology
 
