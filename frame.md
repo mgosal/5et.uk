@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1350` · 2026-09-15 11:19 UTC
+`FRAME #1351` · 2026-09-15 11:38 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1350** · 16 ticks · 20 h 44 m · `296b0346` · dashboards + tick reports
+**#1334 → #1351** · 17 ticks · 21 h 3 m · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -22,7 +22,14 @@
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1349 | [Operations](Operations/dashboard.md) | Load 112 → 181 active. |
+| 1350 | [Operations](Operations/dashboard.md) | Load 112 → 188 active. |
+| 1350 | [2026 09 15 12 19 16 D7a3095f](Operations/_work/O.595-2026-09-15-12-19-16-d7a3095fmd.md) | Created. |
+| 1350 | [2026 09 15 12 17 22 Ab501841](Operations/_work/O.596-2026-09-15-12-17-22-ab501841md.md) | Created. |
+| 1350 | [2026 09 15 11 52 37 252c9cf4](Operations/_work/O.597-2026-09-15-11-52-37-252c9cf4md.md) | Created. |
+| 1350 | [2026 09 15 11 49 16 91be49ab](Operations/_work/O.598-2026-09-15-11-49-16-91be49abmd.md) | Created. |
+| 1350 | [2026 09 15 11 48 45 5a55fe30](Operations/_work/O.599-2026-09-15-11-48-45-5a55fe30md.md) | Created. |
+| 1350 | [2026 09 15 11 48 13 3a70a4a6](Operations/_work/O.600-2026-09-15-11-48-13-3a70a4a6md.md) | Created. |
+| 1350 | [AI agent help for new repo understanding](Operations/_work/O.601-AI-agent-help-for-new-repo-understanding.md) | Created. |
 | 1349 | [RightStore D2S integration architecture proposal](Operations/_work/O.590-RightStore-D2S-integration-architecture-proposal.md) | Created. |
 | 1349 | [WhatsApp digest: Jatin Blocvey (2026-09-15)](Operations/_work/O.591-WhatsApp-digest-Jatin-Blocvey-2026-09-15.md) | Created. |
 | 1349 | [2026 09 15 11 41 48 641de69b](Operations/_work/O.592-2026-09-15-11-41-48-641de69bmd.md) | Created. |
@@ -98,7 +105,7 @@
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 0 progressed, 72 created, 659 inspected without change.
+Beneath it: 0 progressed, 79 created, 659 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -113,16 +120,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁█████
+█▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁██████
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 8 d 0 h   (frames #1291 → #1350)
+▁–█ tick-report activity · 60 reports · 8 d 1 h   (frames #1292 → #1351)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 8 d 0 h |
+| Time since latest move | 8 d 1 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -222,13 +229,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 255 active · 676 done
+## ▦ Functions — 265 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 10 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 188 | 454 | `███▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 198 | 454 | `███▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 8 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -272,4 +279,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-10 13:14 | company | Cue published · contract |
 | 09-10 13:14 | company | Question prepared · contract |
 
-<sub>Rendered from the repo at frame #1350 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1351 · immediate mode, no client state</sub>
