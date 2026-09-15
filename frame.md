@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1342` · 2026-09-15 08:21 UTC
+`FRAME #1343` · 2026-09-15 08:37 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1342** · 8 ticks · 17 h 46 m · `296b0346` · dashboards + tick reports
+**#1334 → #1343** · 9 ticks · 18 h 2 m · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -71,16 +71,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂
+█▁▂▁▁▁▂▁▁▁▄▁▁▄▁▁▃▁▁▁▄▁▄▁█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂█
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 7 d 21 h   (frames #1283 → #1342)
+▁–█ tick-report activity · 60 reports · 7 d 22 h   (frames #1284 → #1343)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 7 d 21 h |
+| Time since latest move | 7 d 22 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -180,13 +180,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 207 active · 676 done
+## ▦ Functions — 210 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 10 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 142 | 454 | `██▁▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 145 | 454 | `██▁▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 6 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -230,4 +230,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-10 13:14 | company | Cue published · contract |
 | 09-10 13:14 | company | Question prepared · contract |
 
-<sub>Rendered from the repo at frame #1342 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1343 · immediate mode, no client state</sub>
