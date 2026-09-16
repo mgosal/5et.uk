@@ -669,7 +669,7 @@ a { color: inherit; }
   const STORAGE_QUEUE = "5et-threshold-queue";
 
   const FRAME_VER = "20260911.17";
-  window.__PIPELINE_ATOMS__ = [{"id": "2026-09-16-triage-what-are-these-questions-that--3", "label": "David Morasco's Presence"}, {"id": "2026-09-16-triage-what-are-these-questions-that--2", "label": "Claim Impact on Call"}, {"id": "2026-09-16-triage-what-are-these-questions-that--1", "label": "Questions on Steps"}, {"id": "2026-09-16-triage-yes-rightstore-is-reasonably-c-28", "label": "Business Implications of Positioning Change"}];
+  window.__PIPELINE_ATOMS__ = [{"id": "2026-09-16-triage-cto-document-components-3", "label": "Stronger Compliance Claims"}, {"id": "2026-09-16-triage-cto-document-components-2", "label": "Additional Product Requirements"}, {"id": "2026-09-16-triage-cto-document-components-1", "label": "Change in Positioning"}, {"id": "2026-09-16-triage-existing-workspace-provisionin-6", "label": "Branded Document Generation"}];
   const NETWORK_FRAME_URL = (function () {
     const base = location.pathname.replace(/[^/]+$/, "");
     return location.origin + base + "frame.html";
