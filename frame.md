@@ -4,25 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1382` · 2026-09-16 15:59 UTC
+`FRAME #1383` · 2026-09-16 16:32 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1382** · 48 ticks · 2 d 1 h · `296b0346` · dashboards + tick reports
+**#1334 → #1383** · 49 ticks · 2 d 1 h · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | Why review |
 |---:|---|---|
-| 1379 | [O 437 Build Conversational Initiative Path](Operations/_work/O.437-build-conversational-initiative-path.md) | Progressed. |
+| 1382 | [O 437 Build Conversational Initiative Path](Operations/_work/O.437-build-conversational-initiative-path.md) | Progressed. |
 | 1375 | [O 439 Build Contract Support Loop](Operations/_work/O.439-build-contract-support-loop.md) | Progressed. |
-| 1374 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. You answered. |
-| 1374 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. You answered. |
-| 1374 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. You answered. |
 | 1374 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. You answered. |
 | 1374 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. You answered. |
+| 1374 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. You answered. |
+| 1374 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. You answered. |
+| 1374 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. You answered. |
 
 **Elsewhere**
 
@@ -131,7 +131,7 @@
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 3 progressed, 105 created, 3891 inspected without change.
+Beneath it: 4 progressed, 105 created, 4131 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -146,16 +146,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███████▁█▄▄▁█▁▁▁▄▁▁█▁▁██▂▁▇▄▃█▂▂▇█▇▇█
+█▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███████▁█▄▄▁█▁▁▁▄▁▁█▁▁██▂▁▇▄▃█▂▂▇█▇▇█▆
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 9 d 5 h   (frames #1323 → #1382)
+▁–█ tick-report activity · 60 reports · 9 d 6 h   (frames #1324 → #1383)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 9 d 5 h |
+| Time since latest move | 9 d 6 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -305,4 +305,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-16 12:15 | company | Turn settled · A.005 |
 | 09-16 08:50 | company | Cue published · A.019 |
 
-<sub>Rendered from the repo at frame #1382 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1383 · immediate mode, no client state</sub>
