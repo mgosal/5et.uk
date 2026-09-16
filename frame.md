@@ -4,25 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1373` · 2026-09-16 11:54 UTC
+`FRAME #1374` · 2026-09-16 12:16 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1373** · 39 ticks · 1 d 21 h · `296b0346` · dashboards + tick reports
+**#1334 → #1374** · 40 ticks · 1 d 21 h · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | Why review |
 |---:|---|---|
-| 1366 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. |
-| 1366 | [A 011 Retail Receipt](Accounts/_work/A.011-Retail-Receipt.md) | The company asked you about this. |
-| 1366 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. |
-| 1366 | [A 005 Privacy Screen Protector](Accounts/_work/A.005-privacy-screen-protector.md) | The company asked you about this. |
 | 1366 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. |
+| 1366 | [A 011 Retail Receipt](Accounts/_work/A.011-Retail-Receipt.md) | The company asked you about this. |
 | 1366 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. |
+| 1366 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. |
 | 1366 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. |
+| 1366 | [A 005 Privacy Screen Protector](Accounts/_work/A.005-privacy-screen-protector.md) | The company asked you about this. |
+| 1366 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. |
 
 **Elsewhere**
 
@@ -35,44 +35,119 @@
 | 1368 | [Book Your Place On The Lunch Attendee Sheet For Mayfair AI, Tech + Related](Operations/_work/O.623-Book-Your-Place-On-The-Lunch-Attendee-Sheet-For-Mayfair-AI-T.md) | Created. |
 | 1365 | [Cloudflare AI bot control updates](Operations/_work/O.621-Cloudflare-AI-bot-control-updates.md) | Created. |
 | 1358 | [Review generated playbook against pipeline output](Operations/_work/O.620-Review-generated-playbook-against-pipeline-output.md) | Created. |
+| 1355 | [2026 09 15 13 42 41 Bc5c52a0](Operations/_work/O.619-2026-09-15-13-42-41-bc5c52a0md.md) | Created. |
+| 1354 | [2026 09 15 13 38 00 Cfd13788](Operations/_work/O.614-2026-09-15-13-38-00-cfd13788md.md) | Created. |
+| 1354 | [2026 09 15 13 35 27 63801b2a](Operations/_work/O.615-2026-09-15-13-35-27-63801b2amd.md) | Created. |
+| 1354 | [2026 09 15 13 34 47 D681ccfb](Operations/_work/O.616-2026-09-15-13-34-47-d681ccfbmd.md) | Created. |
+| 1354 | [2026 09 15 13 33 22 41ef592a](Operations/_work/O.617-2026-09-15-13-33-22-41ef592amd.md) | Created. |
+| 1354 | [2026 09 15 13 25 28 1149784e](Operations/_work/O.618-2026-09-15-13-25-28-1149784emd.md) | Created. |
+| 1352 | [2026 09 15 12 56 56 7712519e](Operations/_work/O.611-2026-09-15-12-56-56-7712519emd.md) | Created. |
+| 1352 | [2026 09 15 12 50 16 049f4977](Operations/_work/O.612-2026-09-15-12-50-16-049f4977md.md) | Created. |
+| 1352 | [Mac security warning: Python 3.10 unverified](Operations/_work/O.613-Mac-security-warning-Python-310-unverified.md) | Created. |
+| 1351 | [2026 09 15 12 38 22 60d58a56](Operations/_work/O.602-2026-09-15-12-38-22-60d58a56md.md) | Created. |
+| 1351 | [2026 09 15 12 37 41 C682ed94](Operations/_work/O.603-2026-09-15-12-37-41-c682ed94md.md) | Created. |
+| 1351 | [2026 09 15 12 34 38 B2da0d1f](Operations/_work/O.604-2026-09-15-12-34-38-b2da0d1fmd.md) | Created. |
+| 1351 | [2026 09 15 12 36 38 C79b1fc4](Operations/_work/O.605-2026-09-15-12-36-38-c79b1fc4md.md) | Created. |
+| 1351 | [2026 09 15 12 34 15 Ad0bfed2](Operations/_work/O.606-2026-09-15-12-34-15-ad0bfed2md.md) | Created. |
+| 1351 | [2026 09 15 12 33 33 46841c7f](Operations/_work/O.607-2026-09-15-12-33-33-46841c7fmd.md) | Created. |
+| 1351 | [2026 09 15 12 32 27 A67f7913](Operations/_work/O.608-2026-09-15-12-32-27-a67f7913md.md) | Created. |
+| 1351 | [2026 09 15 12 30 51 8863a685](Operations/_work/O.609-2026-09-15-12-30-51-8863a685md.md) | Created. |
 | 1351 | [Record of RightStore-3 Bootstrap Command](Operations/_work/I.022-Record-of-RightStore-3-Bootstrap-Command.md) | Created. |
+| 1351 | [2026 09 15 12 25 41 0a49aaa5](Operations/_work/O.610-2026-09-15-12-25-41-0a49aaa5md.md) | Created. |
+| 1350 | [2026 09 15 12 19 16 D7a3095f](Operations/_work/O.595-2026-09-15-12-19-16-d7a3095fmd.md) | Created. |
+| 1350 | [2026 09 15 12 17 22 Ab501841](Operations/_work/O.596-2026-09-15-12-17-22-ab501841md.md) | Created. |
+| 1350 | [2026 09 15 11 52 37 252c9cf4](Operations/_work/O.597-2026-09-15-11-52-37-252c9cf4md.md) | Created. |
+| 1350 | [2026 09 15 11 49 16 91be49ab](Operations/_work/O.598-2026-09-15-11-49-16-91be49abmd.md) | Created. |
+| 1350 | [2026 09 15 11 48 45 5a55fe30](Operations/_work/O.599-2026-09-15-11-48-45-5a55fe30md.md) | Created. |
+| 1350 | [2026 09 15 11 48 13 3a70a4a6](Operations/_work/O.600-2026-09-15-11-48-13-3a70a4a6md.md) | Created. |
 | 1349 | [RightStore D2S integration architecture proposal](Operations/_work/O.590-RightStore-D2S-integration-architecture-proposal.md) | Created. |
 | 1349 | [WhatsApp digest: Jatin Blocvey (2026-09-15)](Operations/_work/O.591-WhatsApp-digest-Jatin-Blocvey-2026-09-15.md) | Created. |
+| 1349 | [2026 09 15 11 41 48 641de69b](Operations/_work/O.592-2026-09-15-11-41-48-641de69bmd.md) | Created. |
+| 1349 | [SSL upload error with Beatrice](Operations/_work/O.593-SSL-upload-error-with-Beatrice.md) | Created. |
+| 1349 | [2026 09 15 11 27 29 A47113c9](Operations/_work/O.594-2026-09-15-11-27-29-a47113c9md.md) | Created. |
+| 1348 | [BlackEyeCollective invited you to BlackEyeCollective/RightStore-3](Operations/_work/O.583-BlackEyeCollective-invited-you-to-BlackEyeCollectiveRightSto.md) | Created. |
+| 1348 | [2026 09 15 11 14 02 221abe06](Operations/_work/O.584-2026-09-15-11-14-02-221abe06md.md) | Created. |
+| 1348 | [2026 09 15 11 13 46 315f8eaf](Operations/_work/O.585-2026-09-15-11-13-46-315f8eafmd.md) | Created. |
+| 1348 | [Missing GitHub Organization Access](Operations/_work/O.586-Missing-GitHub-Organization-Access.md) | Created. |
+| 1348 | [2026 09 15 11 10 41 A82848e6](Operations/_work/O.587-2026-09-15-11-10-41-a82848e6md.md) | Created. |
+| 1348 | [2026 09 15 11 10 16 3e4f69a4](Operations/_work/O.588-2026-09-15-11-10-16-3e4f69a4md.md) | Created. |
+| 1348 | [2026 09 15 11 05 19 6ceba73f](Operations/_work/O.589-2026-09-15-11-05-19-6ceba73fmd.md) | Created. |
 | 1347 | [People](People/dashboard.md) | Load 6 → 8 active. |
+| 1347 | [2026-09-15_11-03-57_96460087.md](Operations/_work/O.572-2026-09-15-11-03-57-96460087md.md) | Created. |
+| 1347 | [2026 09 15 11 03 11 A4a706b5](Operations/_work/O.573-2026-09-15-11-03-11-a4a706b5md.md) | Created. |
+| 1347 | [2026 09 15 11 02 41 B5051b12](Operations/_work/O.574-2026-09-15-11-02-41-b5051b12md.md) | Created. |
+| 1347 | [2026 09 15 11 01 28 C86892a5](Operations/_work/O.575-2026-09-15-11-01-28-c86892a5md.md) | Created. |
 | 1347 | [Paternity Leave Enquiry](People/_work/H.009-Paternity-Leave-Enquiry.md) | Created. |
+| 1347 | [2026 09 15 10 53 52 B4ac653b](Operations/_work/O.576-2026-09-15-10-53-52-b4ac653bmd.md) | Created. |
+| 1347 | [2026 09 15 10 47 59 B68b3916](Operations/_work/O.577-2026-09-15-10-47-59-b68b3916md.md) | Created. |
+| 1347 | [2026 09 15 10 44 57 B838782e](Operations/_work/O.578-2026-09-15-10-44-57-b838782emd.md) | Created. |
+| 1347 | [Email reply and access management decision](Operations/_work/O.579-Email-reply-and-access-management-decision.md) | Created. |
+| 1347 | [2026 09 15 10 42 18 8c5679c1](Operations/_work/O.580-2026-09-15-10-42-18-8c5679c1md.md) | Created. |
+| 1347 | [2026 09 15 10 39 45 6cfd6e2c](Operations/_work/O.581-2026-09-15-10-39-45-6cfd6e2cmd.md) | Created. |
+| 1347 | [Edit Rodrigo Sanchez calls recording](Operations/_work/O.582-Edit-Rodrigo-Sanchez-calls-recording.md) | Created. |
+| 1346 | [2026 09 15 10 38 45 73150aca](Operations/_work/O.567-2026-09-15-10-38-45-73150acamd.md) | Created. |
+| 1346 | [2026 09 15 10 36 12 Fe16f053](Operations/_work/O.568-2026-09-15-10-36-12-fe16f053md.md) | Created. |
+| 1346 | [2026 09 15 10 34 15 6c15eb36](Operations/_work/O.569-2026-09-15-10-34-15-6c15eb36md.md) | Created. |
 | 1346 | [Upstream and Downstream Integrations Concept](Operations/_work/I.021-Upstream-and-Downstream-Integrations-Concept.md) | Created. |
+| 1346 | [2026 09 15 10 25 17 Bb48d25e](Operations/_work/O.570-2026-09-15-10-25-17-bb48d25emd.md) | Created. |
+| 1346 | [2026 09 15 10 22 43 Af63c79f](Operations/_work/O.571-2026-09-15-10-22-43-af63c79fmd.md) | Created. |
 | 1344 | [Observation: Reduce call pauses for better flow](Operations/_work/I.020-Observation-Reduce-call-pauses-for-better-flow.md) | Created. |
 | 1344 | [Build HR Policy Assistant with Compliance Check](Operations/_work/O.564-Build-HR-Policy-Assistant-with-Compliance-Check.md) | Created. |
 | 1344 | [Streamlining Manager Role in HR Processes](People/_work/H.008-Streamlining-Manager-Role-in-HR-Processes.md) | Created. |
+| 1343 | [2026 09 15 09 36 17 D72c85b0](Operations/_work/O.559-2026-09-15-09-36-17-d72c85b0md.md) | Created. |
 | 1343 | [Manager Demo Flow and Audio Observations](Operations/_work/I.019-Manager-Demo-Flow-and-Audio-Observations.md) | Created. |
+| 1343 | [2026 09 15 09 27 58 974a0357](Operations/_work/O.560-2026-09-15-09-27-58-974a0357md.md) | Created. |
 | 1340 | [Compliance](Compliance/dashboard.md) | Load 9 → 10 active. |
 | 1340 | [Kōdo Engineering: Vision Master setup and dongle](Operations/_work/P.018-Kōdo-Engineering-Vision-Master-setup-and-dongle.md) | Created. |
 | 1340 | [Request for PSC code for Blocvey Ltd confirmation statement](Compliance/_work/C.038-Request-for-PSC-code-for-Blocvey-Ltd-confirmation-statement.md) | Created. |
 | 1340 | [WhatsApp digest: Kōdo Engineering (2026-09-15)](Operations/_work/O.552-WhatsApp-digest-Kōdo-Engineering-2026-09-15.md) | Created. |
+| 1340 | [(no subject)](Operations/_work/O.553-no-subject.md) | Created. |
+| 1340 | [2026 09 15 08 39 26 80a65a72](Operations/_work/O.554-2026-09-15-08-39-26-80a65a72md.md) | Created. |
+| 1340 | [2026 09 15 08 36 27 6aec9b57](Operations/_work/O.555-2026-09-15-08-36-27-6aec9b57md.md) | Created. |
+| 1340 | [2026 09 15 08 35 37 A44a931a](Operations/_work/O.556-2026-09-15-08-35-37-a44a931amd.md) | Created. |
+| 1340 | [2026 09 15 08 31 47 Ce50b626](Operations/_work/O.557-2026-09-15-08-31-47-ce50b626md.md) | Created. |
+| 1340 | [2026 09 15 08 31 47 9f6caeb7](Operations/_work/O.558-2026-09-15-08-31-47-9f6caeb7md.md) | Created. |
+| 1339 | [2026 09 14 17 30 29 Ff08dbb0](Operations/_work/O.537-2026-09-14-17-30-29-ff08dbb0md.md) | Created. |
+| 1339 | [2026 09 14 17 13 27 404ab3ea](Operations/_work/O.538-2026-09-14-17-13-27-404ab3eamd.md) | Created. |
+| 1339 | [2026 09 14 17 27 40 379a5e92](Operations/_work/O.539-2026-09-14-17-27-40-379a5e92md.md) | Created. |
+| 1339 | [2026 09 14 17 27 33 1d6b1af1](Operations/_work/O.540-2026-09-14-17-27-33-1d6b1af1md.md) | Created. |
+| 1339 | [2026 09 14 17 27 32 175ef9f6](Operations/_work/O.541-2026-09-14-17-27-32-175ef9f6md.md) | Created. |
+| 1339 | [2026 09 14 17 26 53 Aff8cb94](Operations/_work/O.542-2026-09-14-17-26-53-aff8cb94md.md) | Created. |
+| 1339 | [2026 09 14 17 25 18 5948d846](Operations/_work/O.543-2026-09-14-17-25-18-5948d846md.md) | Created. |
+| 1339 | [2026 09 14 17 24 49 B2f5908f](Operations/_work/O.544-2026-09-14-17-24-49-b2f5908fmd.md) | Created. |
+| 1339 | [2026 09 14 17 24 20 7d67b376](Operations/_work/O.545-2026-09-14-17-24-20-7d67b376md.md) | Created. |
+| 1339 | [2026 09 14 17 22 30 1a1b6b2d](Operations/_work/O.546-2026-09-14-17-22-30-1a1b6b2dmd.md) | Created. |
+| 1339 | [2026 09 14 17 21 27 26bf14b6](Operations/_work/O.547-2026-09-14-17-21-27-26bf14b6md.md) | Created. |
+| 1339 | [2026 09 14 17 21 14 9bdc24a4](Operations/_work/O.548-2026-09-14-17-21-14-9bdc24a4md.md) | Created. |
+| 1339 | [2026 09 14 17 16 44 4f8292f6](Operations/_work/O.549-2026-09-14-17-16-44-4f8292f6md.md) | Created. |
+| 1339 | [2026 09 14 17 04 30 2a416d60](Operations/_work/O.550-2026-09-14-17-04-30-2a416d60md.md) | Created. |
+| 1339 | [2026 09 14 16 57 59 C0de2f21](Operations/_work/O.551-2026-09-14-16-57-59-c0de2f21md.md) | Created. |
 | 1338 | [AI employee slide intro should not be silent](Operations/_work/I.016-AI-employee-slide-intro-should-not-be-silent.md) | Created. |
 | 1338 | [Observation: Intro duration and sound characteristics](Operations/_work/I.017-Observation-Intro-duration-and-sound-characteristics.md) | Created. |
 | 1338 | [Indexed Model vs. LLM: Muse-Glimmer](Operations/_work/I.018-Indexed-Model-vs-LLM-Muse-Glimmer.md) | Created. |
+| 1337 | [2026 09 14 16 14 44 Voice Note GPT 4o Audio](Operations/_work/O.535-2026-09-14-16-14-44-voice-notegpt-4o-audio.md) | Created. |
+| 1337 | [2026 09 14 16 28 11 Voice Note GPT 4o Audio](Operations/_work/O.536-2026-09-14-16-28-11-voice-notegpt-4o-audio.md) | Created. |
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 1 progressed, 104 created, 2450 inspected without change.
+Beneath it: 1 progressed, 104 created, 2690 inspected without change.
 
-⚑ **Needs you now** — A.005-privacy-screen-protector
+Nothing needs you. The company owes 4.
 
 ---
 
 ## ▶ Concurrent agency
 
-### YOU — **7 waiting** · COMPANY — **4 owed**
+### YOU — **0 waiting** · COMPANY — **4 owed**
 
 **Latest move:** You responded to Review: Voice Note Import Services Agreement. · 2026-09-07 10:23:40 UTC
 
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███████▁█▄▄▁█▁▁▁▄▁▁█▁▁██▂▁▇▄
+█▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███████▁█▄▄▁█▁▁▁▄▁▁█▁▁██▂▁▇▄▃
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 9 d 1 h   (frames #1314 → #1373)
+▁–█ tick-report activity · 60 reports · 9 d 1 h   (frames #1315 → #1374)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -81,7 +156,7 @@ grey routine · cyan durable pipeline output · purple LLM work
 | Tick reports since latest move | **60** |
 | Time since latest move | 9 d 1 h |
 | Company obligations | 4 (5 raw records) |
-| Waiting on you | 7 |
+| Waiting on you | 0 |
 
 ---
 
@@ -96,17 +171,9 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 ---
 
-## ⚑ Waiting on you — 7
+## ⚑ Waiting on you — 0
 
-| Since | Question |
-|---|---|
-| 09-16 08:49 | [A.005-privacy-screen-protector](Accounts/_work/A.005-privacy-screen-protector.md) |
-| 09-16 08:49 | [A.011-Retail-Receipt](Accounts/_work/A.011-Retail-Receipt.md) |
-| 09-16 08:49 | [A.014-Google-One-Subscription-Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) |
-| 09-16 08:50 | [A.016-Processing-fuel-receipt-for-business-travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) |
-| 09-16 08:50 | [A.017-incorporation-expense](Accounts/_work/A.017-incorporation-expense.md) |
-| 09-16 08:50 | [A.018-ico-data-protection-fee](Accounts/_work/A.018-ico-data-protection-fee.md) |
-| 09-16 08:50 | [A.019-google-play-subscription-may](Accounts/_work/A.019-google-play-subscription-may.md) |
+Nothing is waiting on you. The company may still have work to do.
 
 ---
 
@@ -228,13 +295,13 @@ grey routine · cyan durable pipeline output · purple LLM work
 
 | Time | Who | Event |
 |---|---|---|
+| 09-16 12:16 | company | Turn settled · A.019 |
+| 09-16 12:16 | company | Turn settled · A.018 |
+| 09-16 12:16 | company | Turn settled · A.017 |
+| 09-16 12:16 | company | Turn settled · A.016 |
+| 09-16 12:16 | company | Turn settled · A.014 |
+| 09-16 12:16 | company | Turn settled · A.011 |
+| 09-16 12:15 | company | Turn settled · A.005 |
 | 09-16 08:50 | company | Cue published · A.019 |
-| 09-16 08:50 | company | Cue published · A.018 |
-| 09-16 08:50 | company | Cue published · A.017 |
-| 09-16 08:50 | company | Cue published · A.016 |
-| 09-16 08:49 | company | Cue published · A.014 |
-| 09-16 08:49 | company | Cue published · A.011 |
-| 09-16 08:49 | company | Cue published · A.005 |
-| 09-16 08:42 | company | Question prepared · A.019 |
 
-<sub>Rendered from the repo at frame #1373 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1374 · immediate mode, no client state</sub>
