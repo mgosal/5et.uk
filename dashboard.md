@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1366.md" style="font-size:11px; color:#5f6368;">#1366</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1367.md" style="font-size:11px; color:#5f6368;">#1367</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -42,7 +42,7 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1366](_pipeline/reports/tick-1366.md)** · 2026-09-16 09:05 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1367](_pipeline/reports/tick-1367.md)** · 2026-09-16 09:20 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -82,14 +82,14 @@ First failure: `kie/gemini-2.5-flash: [500] Network error, please try again late
 - **Latest move at**: 2026-09-07T10:23:40.354071+00:00
 - **Latest move**: You responded to Review: Voice Note Import Services Agreement.
 - **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
-- **Latest move tick**: 1307
+- **Latest move tick**: 1308
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-14T14:43:12.860222+00:00
 - **Turn tick**: 1334
 - **Turn commit**: 296b0346
-- **Window**: 32 ticks · 1 d 18 h
+- **Window**: 33 ticks · 1 d 18 h
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 7
 - **Elsewhere**: 22
@@ -97,13 +97,13 @@ First failure: `kie/gemini-2.5-flash: [500] Network error, please try again late
 
 | Scope | Tick | Item | Summary |
 |---|---:|---|---|
-| yours | 1355 | [2026 09 15 13 42 41 Bc5c52a0](Operations/_work/O.619-2026-09-15-13-42-41-bc5c52a0md.md) | Created. |
-| yours | 1354 | [2026 09 15 13 38 00 Cfd13788](Operations/_work/O.614-2026-09-15-13-38-00-cfd13788md.md) | Created. |
-| yours | 1354 | [2026 09 15 13 35 27 63801b2a](Operations/_work/O.615-2026-09-15-13-35-27-63801b2amd.md) | Created. |
-| yours | 1354 | [2026 09 15 13 34 47 D681ccfb](Operations/_work/O.616-2026-09-15-13-34-47-d681ccfbmd.md) | Created. |
-| yours | 1354 | [2026 09 15 13 33 22 41ef592a](Operations/_work/O.617-2026-09-15-13-33-22-41ef592amd.md) | Created. |
-| yours | 1354 | [2026 09 15 13 25 28 1149784e](Operations/_work/O.618-2026-09-15-13-25-28-1149784emd.md) | Created. |
-| yours | 1352 | [2026 09 15 12 56 56 7712519e](Operations/_work/O.611-2026-09-15-12-56-56-7712519emd.md) | Created. |
+| yours | 1366 | [A 005 Privacy Screen Protector](Accounts/_work/A.005-privacy-screen-protector.md) | The company asked you about this. |
+| yours | 1366 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. |
+| yours | 1366 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. |
+| yours | 1366 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. |
+| yours | 1366 | [A 011 Retail Receipt](Accounts/_work/A.011-Retail-Receipt.md) | The company asked you about this. |
+| yours | 1366 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. |
+| yours | 1366 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. |
 | elsewhere | 1365 | [Operations](Operations/dashboard.md) | Load 112 → 209 active. |
 | elsewhere | 1365 | [Cloudflare AI bot control updates](Operations/_work/O.621-Cloudflare-AI-bot-control-updates.md) | Created. |
 | elsewhere | 1358 | [Review generated playbook against pipeline output](Operations/_work/O.620-Review-generated-playbook-against-pipeline-output.md) | Created. |
@@ -152,7 +152,6 @@ First failure: `kie/gemini-2.5-flash: [500] Network error, please try again late
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1307](_pipeline/reports/tick-1307.md) | 105.1s | 28 | 1 | 0 | 322 |
 | [#1308](_pipeline/reports/tick-1308.md) | 7.0s | 0 | 0 | 0 | 0 |
 | [#1309](_pipeline/reports/tick-1309.md) | 135.3s | 28 | 0 | 0 | 0 |
 | [#1310](_pipeline/reports/tick-1310.md) | 7.3s | 0 | 0 | 0 | 0 |
@@ -212,6 +211,7 @@ First failure: `kie/gemini-2.5-flash: [500] Network error, please try again late
 | [#1364](_pipeline/reports/tick-1364.md) | 8.4s | 0 | 0 | 0 | 0 |
 | [#1365](_pipeline/reports/tick-1365.md) | 1098.4s | 237 | 1 | 0 | 4647 |
 | [#1366](_pipeline/reports/tick-1366.md) | 7.9s | 0 | 0 | 0 | 0 |
+| [#1367](_pipeline/reports/tick-1367.md) | 6.2s | 0 | 0 | 0 | 0 |
 
 ## Health
 
@@ -398,11 +398,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1366
+**Total Ticks**: 1367
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-16 10:05 | 1 new, 1 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-16 10:20 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-16 09:30 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-16 09:30 | 0 copied, 0 noise, 0 hal |
 | processor-discover | 🟢 Yes | ✅ ok | — | 21 processed, 1 created |
@@ -417,11 +417,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-16 10:20](_pipeline/logs/2026-09-16_10-20-56.md) | 6s | [✓](_pipeline/logs/2026-09-16_10-20-56.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-16 10:05](_pipeline/logs/2026-09-16_10-05-09.md) | 8s | [✓](_pipeline/logs/2026-09-16_10-05-09.md#icloud-email) 1 new, 1 synced | — | — | — | $0.0000 | ~0.003g |
 | [2026-09-16 09:30](_pipeline/logs/2026-09-16_09-30-24.md) | 1098s | [✓](_pipeline/logs/2026-09-16_09-30-24.md#icloud-email) 1 new, 1 synced | [✓](_pipeline/logs/2026-09-16_09-30-24.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-16_09-30-24.md#processor-discover) 21 processed, 1 created | [✓](_pipeline/logs/2026-09-16_09-30-24.md#processor-progress) 0 progressed | $0.0004 | ~1.726g |
 | [2026-09-15 17:45](_pipeline/logs/2026-09-15_17-45-42.md) | 8s | [✓](_pipeline/logs/2026-09-15_17-45-42.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-15_17-45-42.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
 | [2026-09-15 17:29](_pipeline/logs/2026-09-15_17-29-59.md) | 9s | [✓](_pipeline/logs/2026-09-15_17-29-59.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-15_17-29-59.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.004g |
-| [2026-09-15 17:07](_pipeline/logs/2026-09-15_17-07-15.md) | 405s | [✓](_pipeline/logs/2026-09-15_17-07-15.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-15_17-07-15.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-15_17-07-15.md#processor-discover) 14 processed, 0 created | [✓](_pipeline/logs/2026-09-15_17-07-15.md#processor-progress) 0 progressed | $0.0000 | ~0.169g |
 
 ### Source Topology
 

@@ -4,25 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1366` · 2026-09-16 09:05 UTC
+`FRAME #1367` · 2026-09-16 09:20 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1366** · 32 ticks · 1 d 18 h · `296b0346` · dashboards + tick reports
+**#1334 → #1367** · 33 ticks · 1 d 18 h · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | Why review |
 |---:|---|---|
-| 1355 | [2026 09 15 13 42 41 Bc5c52a0](Operations/_work/O.619-2026-09-15-13-42-41-bc5c52a0md.md) | Created. |
-| 1354 | [2026 09 15 13 38 00 Cfd13788](Operations/_work/O.614-2026-09-15-13-38-00-cfd13788md.md) | Created. |
-| 1354 | [2026 09 15 13 35 27 63801b2a](Operations/_work/O.615-2026-09-15-13-35-27-63801b2amd.md) | Created. |
-| 1354 | [2026 09 15 13 34 47 D681ccfb](Operations/_work/O.616-2026-09-15-13-34-47-d681ccfbmd.md) | Created. |
-| 1354 | [2026 09 15 13 33 22 41ef592a](Operations/_work/O.617-2026-09-15-13-33-22-41ef592amd.md) | Created. |
-| 1354 | [2026 09 15 13 25 28 1149784e](Operations/_work/O.618-2026-09-15-13-25-28-1149784emd.md) | Created. |
-| 1352 | [2026 09 15 12 56 56 7712519e](Operations/_work/O.611-2026-09-15-12-56-56-7712519emd.md) | Created. |
+| 1366 | [A 005 Privacy Screen Protector](Accounts/_work/A.005-privacy-screen-protector.md) | The company asked you about this. |
+| 1366 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. |
+| 1366 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. |
+| 1366 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. |
+| 1366 | [A 011 Retail Receipt](Accounts/_work/A.011-Retail-Receipt.md) | The company asked you about this. |
+| 1366 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. |
+| 1366 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. |
 
 **Elsewhere**
 
@@ -66,9 +66,9 @@ Beneath it: 0 progressed, 100 created, 1733 inspected without change.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-██▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███████▁█▄▄▁█▁▁▁▄▁▁█▁
+█▁▄▁▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███████▁█▄▄▁█▁▁▁▄▁▁█▁▁
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 8 d 22 h   (frames #1307 → #1366)
+▁–█ tick-report activity · 60 reports · 8 d 22 h   (frames #1308 → #1367)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -233,4 +233,4 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 09-16 08:49 | company | Cue published · A.005 |
 | 09-16 08:42 | company | Question prepared · A.019 |
 
-<sub>Rendered from the repo at frame #1366 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1367 · immediate mode, no client state</sub>
