@@ -669,7 +669,7 @@ a { color: inherit; }
   const STORAGE_QUEUE = "5et-threshold-queue";
 
   const FRAME_VER = "20260911.17";
-  window.__PIPELINE_ATOMS__ = [{"id": "2026-09-16-drop-2026-09-16_11-42-49_338311b0", "label": "2026-09-16_11-42-49_338311b0.md"}, {"id": "2026-09-16-drop-2026-09-16_11-43-24_7c0a295a", "label": "2026-09-16_11-43-24_7c0a295a.md"}, {"id": "2026-09-16-triage-okay-let-s-do-everything-in-th-3", "label": "Parser Objective"}, {"id": "2026-09-16-triage-okay-let-s-do-everything-in-th-2", "label": "Parser Tooling"}];
+  window.__PIPELINE_ATOMS__ = [{"id": "2026-09-16-drop-2026-09-16_12-19-58_04c35472", "label": "2026-09-16_12-19-58_04c35472.md"}, {"id": "2026-09-16-drop-2026-09-16_11-42-49_338311b0", "label": "2026-09-16_11-42-49_338311b0.md"}, {"id": "2026-09-16-drop-2026-09-16_11-43-24_7c0a295a", "label": "2026-09-16_11-43-24_7c0a295a.md"}, {"id": "2026-09-16-triage-okay-let-s-do-everything-in-th-3", "label": "Parser Objective"}];
   const NETWORK_FRAME_URL = (function () {
     const base = location.pathname.replace(/[^/]+$/, "");
     return location.origin + base + "frame.html";
