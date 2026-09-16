@@ -4,25 +4,25 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1370` · 2026-09-16 10:57 UTC
+`FRAME #1371` · 2026-09-16 11:13 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1370** · 36 ticks · 1 d 20 h · `296b0346` · dashboards + tick reports
+**#1334 → #1371** · 37 ticks · 1 d 20 h · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
 | Tick | Item | Why review |
 |---:|---|---|
 | 1366 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. |
-| 1366 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. |
-| 1366 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. |
-| 1366 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. |
 | 1366 | [A 005 Privacy Screen Protector](Accounts/_work/A.005-privacy-screen-protector.md) | The company asked you about this. |
-| 1366 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. |
+| 1366 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. |
 | 1366 | [A 011 Retail Receipt](Accounts/_work/A.011-Retail-Receipt.md) | The company asked you about this. |
+| 1366 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. |
+| 1366 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. |
+| 1366 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. |
 
 **Elsewhere**
 
@@ -69,9 +69,9 @@ Beneath it: 1 progressed, 102 created, 2210 inspected without change.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁█▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███████▁█▄▄▁█▁▁▁▄▁▁█▁▁██▂
+██▁▄▄▄▁▅▁▁▅▁▁▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███████▁█▄▄▁█▁▁▁▄▁▁█▁▁██▂▁
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 9 d 0 h   (frames #1311 → #1370)
+▁–█ tick-report activity · 60 reports · 9 d 0 h   (frames #1312 → #1371)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -236,4 +236,4 @@ grey routine · cyan durable pipeline output · purple LLM work
 | 09-16 08:49 | company | Cue published · A.005 |
 | 09-16 08:42 | company | Question prepared · A.019 |
 
-<sub>Rendered from the repo at frame #1370 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1371 · immediate mode, no client state</sub>

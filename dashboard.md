@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1370.md" style="font-size:11px; color:#5f6368;">#1370</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1371.md" style="font-size:11px; color:#5f6368;">#1371</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -42,7 +42,7 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1370](_pipeline/reports/tick-1370.md)** · 2026-09-16 10:57 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1371](_pipeline/reports/tick-1371.md)** · 2026-09-16 11:13 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -80,14 +80,14 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 - **Latest move at**: 2026-09-07T10:23:40.354071+00:00
 - **Latest move**: You responded to Review: Voice Note Import Services Agreement.
 - **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
-- **Latest move tick**: 1311
+- **Latest move tick**: 1312
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-14T14:43:12.860222+00:00
 - **Turn tick**: 1334
 - **Turn commit**: 296b0346
-- **Window**: 36 ticks · 1 d 20 h
+- **Window**: 37 ticks · 1 d 20 h
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 7
 - **Elsewhere**: 25
@@ -96,12 +96,12 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 | Scope | Tick | Item | Summary |
 |---|---:|---|---|
 | yours | 1366 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. |
-| yours | 1366 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. |
-| yours | 1366 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. |
-| yours | 1366 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. |
 | yours | 1366 | [A 005 Privacy Screen Protector](Accounts/_work/A.005-privacy-screen-protector.md) | The company asked you about this. |
-| yours | 1366 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. |
+| yours | 1366 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. |
 | yours | 1366 | [A 011 Retail Receipt](Accounts/_work/A.011-Retail-Receipt.md) | The company asked you about this. |
+| yours | 1366 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. |
+| yours | 1366 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. |
+| yours | 1366 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. |
 | elsewhere | 1369 | [C 036 LLM Processing OF Personal Data Risk](Compliance/_work/C.036-LLM-processing-of-personal-data-risk.md) | Progressed. |
 | elsewhere | 1368 | [Operations](Operations/dashboard.md) | Load 112 → 211 active. |
 | elsewhere | 1368 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-16)](Operations/_work/O.622-WhatsApp-digest-JatinMandipKash-2026-09-16.md) | Created. |
@@ -153,7 +153,6 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1311](_pipeline/reports/tick-1311.md) | 6.7s | 0 | 0 | 0 | 0 |
 | [#1312](_pipeline/reports/tick-1312.md) | 835.0s | 34 | 8 | 0 | 2420 |
 | [#1313](_pipeline/reports/tick-1313.md) | 6.0s | 0 | 0 | 0 | 0 |
 | [#1314](_pipeline/reports/tick-1314.md) | 38.8s | 0 | 1 | 0 | 0 |
@@ -213,6 +212,7 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 | [#1368](_pipeline/reports/tick-1368.md) | 1363.1s | 239 | 2 | 0 | 1780 |
 | [#1369](_pipeline/reports/tick-1369.md) | 554.9s | 238 | 0 | 1 | 1998 |
 | [#1370](_pipeline/reports/tick-1370.md) | 39.5s | 0 | 0 | 0 | 0 |
+| [#1371](_pipeline/reports/tick-1371.md) | 7.6s | 0 | 0 | 0 | 0 |
 
 ## Health
 
@@ -399,14 +399,14 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1370
+**Total Ticks**: 1371
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-16 11:57 | 0 new, 0 synced |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-16 12:13 | 0 new, 0 synced |
 | github-sync | 🟢 Yes | ✅ ok | 2026-09-16 11:32 | 0 synced |
 | stream-deck | 🟢 Yes | ✅ ok | 2026-09-16 11:32 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 2 processed, 0 created |
+| processor-discover | 🟢 Yes | ✅ ok | — | 0 processed, 0 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 1 progressed |
 | whatsapp | 🟢 Yes | ✅ ok | 2026-09-16 11:32 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
@@ -418,11 +418,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-16 12:13](_pipeline/logs/2026-09-16_12-13-41.md) | 8s | [✓](_pipeline/logs/2026-09-16_12-13-41.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-16_12-13-41.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.003g |
 | [2026-09-16 11:57](_pipeline/logs/2026-09-16_11-57-26.md) | 40s | [✓](_pipeline/logs/2026-09-16_11-57-26.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-16_11-57-26.md#processor-discover) 2 processed, 0 created | — | $0.0000 | ~0.016g |
 | [2026-09-16 11:32](_pipeline/logs/2026-09-16_11-32-32.md) | 555s | [✓](_pipeline/logs/2026-09-16_11-32-32.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-16_11-32-32.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-16_11-32-32.md#processor-discover) 3 processed, 0 created | [✓](_pipeline/logs/2026-09-16_11-32-32.md#processor-progress) 1 progressed | $0.0002 | ~0.897g |
 | [2026-09-16 10:36](_pipeline/logs/2026-09-16_10-36-39.md) | 1363s | [✓](_pipeline/logs/2026-09-16_10-36-39.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-16_10-36-39.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-16_10-36-39.md#processor-discover) 14 processed, 2 created | [✓](_pipeline/logs/2026-09-16_10-36-39.md#processor-progress) 0 progressed | $0.0002 | ~1.070g |
 | [2026-09-16 10:20](_pipeline/logs/2026-09-16_10-20-56.md) | 6s | [✓](_pipeline/logs/2026-09-16_10-20-56.md#icloud-email) 0 new, 0 synced | — | — | — | $0.0000 | ~0.003g |
-| [2026-09-16 10:05](_pipeline/logs/2026-09-16_10-05-09.md) | 8s | [✓](_pipeline/logs/2026-09-16_10-05-09.md#icloud-email) 1 new, 1 synced | — | — | — | $0.0000 | ~0.003g |
 
 ### Source Topology
 
