@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1496` · 2026-09-24 13:35 UTC
+`FRAME #1497` · 2026-09-24 14:17 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1496** · 162 ticks · 9 d 23 h · `296b0346` · dashboards + tick reports
+**#1334 → #1497** · 163 ticks · 9 d 23 h · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -19,16 +19,17 @@
 | 1486 | [Seed Crystallisation · RP-4](Operations/_contracts/seed-crystallisation.REVIEW.md#rp-4) | blocking — Implement inductive analysis as contracted — Amend the method if necessary, then compile and verify every obligation |
 | 1382 | [O 437 Build Conversational Initiative Path](Operations/_work/O.437-build-conversational-initiative-path.md) | Progressed. |
 | 1375 | [O 439 Build Contract Support Loop](Operations/_work/O.439-build-contract-support-loop.md) | Progressed. |
+| 1374 | [A 011 Retail Receipt](Accounts/_work/A.011-Retail-Receipt.md) | The company asked you about this. You answered. |
+| 1374 | [A 005 Privacy Screen Protector](Accounts/_work/A.005-privacy-screen-protector.md) | The company asked you about this. You answered. |
 | 1374 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. You answered. |
 | 1374 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. You answered. |
-| 1374 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. You answered. |
-| 1374 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. You answered. |
 
 **Elsewhere**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1492 | [Operations](Operations/dashboard.md) | Load 112 → 243 active. |
+| 1496 | [Operations](Operations/dashboard.md) | Load 112 → 244 active. |
+| 1496 | [WhatsApp digest: Jatin Blocvey (2026-09-24)](Operations/_work/O.656-WhatsApp-digest-Jatin-Blocvey-2026-09-24.md) | Created. |
 | 1492 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-24)](Operations/_work/O.654-WhatsApp-digest-JatinMandipKash-2026-09-24.md) | Created. |
 | 1492 | [Accounts](Accounts/dashboard.md) | Load 2 → 3 active. |
 | 1379 | [GitHub PAT "5et-mobile-intake" expiring soon](Operations/_work/O.625-GitHub-PAT-5et-mobile-intake-expiring-soon.md) | Created. |
@@ -133,7 +134,7 @@
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 4 progressed, 107 created, 5483 inspected without change.
+Beneath it: 4 progressed, 108 created, 5756 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -148,9 +149,9 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▄▁▄▂▁▄▃▁▇▁▁▄▃▄▄▅▃▅▁▄▃▄▃▅▅▃▄▄██▂▂▄▃▅▂▄▁▄▂▄▁▄▁▄▁▄▂▄▄▂▅▁▄▂▅▃▄▁▅
+█▁▄▂▁▄▃▁▇▁▁▄▃▄▄▅▃▅▁▄▃▄▃▅▅▃▄▄██▂▂▄▃▅▂▄▁▄▂▄▁▄▁▄▁▄▂▄▄▂▅▁▄▂▅▃▄▁▅▃
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 17 d 3 h   (frames #1437 → #1496)
+▁–█ tick-report activity · 60 reports · 17 d 3 h   (frames #1438 → #1497)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -308,4 +309,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-16 12:15 | company | Turn settled · A.005 |
 | 09-16 08:50 | company | Cue published · A.019 |
 
-<sub>Rendered from the repo at frame #1496 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1497 · immediate mode, no client state</sub>
