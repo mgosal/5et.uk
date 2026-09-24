@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1491` · 2026-09-24 11:25 UTC
+`FRAME #1492` · 2026-09-24 11:41 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1491** · 157 ticks · 9 d 20 h · `296b0346` · dashboards + tick reports
+**#1334 → #1492** · 158 ticks · 9 d 21 h · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -19,10 +19,10 @@
 | 1486 | [Seed Crystallisation · RP-4](Operations/_contracts/seed-crystallisation.REVIEW.md#rp-4) | blocking — Implement inductive analysis as contracted — Amend the method if necessary, then compile and verify every obligation |
 | 1382 | [O 437 Build Conversational Initiative Path](Operations/_work/O.437-build-conversational-initiative-path.md) | Progressed. |
 | 1375 | [O 439 Build Contract Support Loop](Operations/_work/O.439-build-contract-support-loop.md) | Progressed. |
-| 1374 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. You answered. |
-| 1374 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. You answered. |
 | 1374 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. You answered. |
 | 1374 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. You answered. |
+| 1374 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. You answered. |
+| 1374 | [A 005 Privacy Screen Protector](Accounts/_work/A.005-privacy-screen-protector.md) | The company asked you about this. You answered. |
 
 **Elsewhere**
 
@@ -147,9 +147,9 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▄▂▁▄▄▁▄▂▁▄▃▁▇▁▁▄▃▄▄▅▃▅▁▄▃▄▃▅▅▃▄▄██▂▂▄▃▅▂▄▁▄▂▄▁▄▁▄▁▄▂▄▄▂▅▁▄▂
+█▄▂▁▄▄▁▄▂▁▄▃▁▇▁▁▄▃▄▄▅▃▅▁▄▃▄▃▅▅▃▄▄██▂▂▄▃▅▂▄▁▄▂▄▁▄▁▄▁▄▂▄▄▂▅▁▄▂▅
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 17 d 1 h   (frames #1432 → #1491)
+▁–█ tick-report activity · 60 reports · 17 d 1 h   (frames #1433 → #1492)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -256,13 +256,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 313 active · 676 done
+## ▦ Functions — 315 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
-| 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
+| 🔄 | [Accounts](Accounts/dashboard.md) | 3 | 13 | `██▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 10 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 242 | 454 | `███▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 243 | 454 | `███▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 8 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -307,4 +307,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-16 12:15 | company | Turn settled · A.005 |
 | 09-16 08:50 | company | Cue published · A.019 |
 
-<sub>Rendered from the repo at frame #1491 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1492 · immediate mode, no client state</sub>
