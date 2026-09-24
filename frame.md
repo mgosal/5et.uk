@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1383` · 2026-09-16 16:32 UTC
+`FRAME #1486` · 2026-09-24 08:30 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1383** · 49 ticks · 2 d 1 h · `296b0346` · dashboards + tick reports
+**#1334 → #1486** · 152 ticks · 9 d 17 h · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -18,11 +18,11 @@
 |---:|---|---|
 | 1382 | [O 437 Build Conversational Initiative Path](Operations/_work/O.437-build-conversational-initiative-path.md) | Progressed. |
 | 1375 | [O 439 Build Contract Support Loop](Operations/_work/O.439-build-contract-support-loop.md) | Progressed. |
-| 1374 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. You answered. |
 | 1374 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. You answered. |
+| 1374 | [A 011 Retail Receipt](Accounts/_work/A.011-Retail-Receipt.md) | The company asked you about this. You answered. |
 | 1374 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. You answered. |
-| 1374 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. You answered. |
-| 1374 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. You answered. |
+| 1374 | [A 005 Privacy Screen Protector](Accounts/_work/A.005-privacy-screen-protector.md) | The company asked you about this. You answered. |
+| 1374 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. You answered. |
 
 **Elsewhere**
 
@@ -146,16 +146,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▄▁▁▁▄█▁▄██▇▇▇███▂▂██▁███████▁█▄▄▁█▁▁▁▄▁▁█▁▁██▂▁▇▄▃█▂▂▇█▇▇█▆
+██▁▁▇▁▁▄▂▁▄▄▁▄▂▁▄▃▁▇▁▁▄▃▄▄▅▃▅▁▄▃▄▃▅▅▃▄▄██▂▂▄▃▅▂▄▁▄▂▄▁▄▁▄▁▄▂▄▄
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 9 d 6 h   (frames #1324 → #1383)
+▁–█ tick-report activity · 60 reports · 16 d 22 h   (frames #1427 → #1486)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 9 d 6 h |
+| Time since latest move | 16 d 22 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -211,6 +211,7 @@ Nothing is waiting on you. The company may still have work to do.
 | Contract | Point | Status |
 |---|---|---|
 | [voice-note-import-contract](Operations/_contracts/voice-note-import-contract.REVIEW.md) | RP-3: New evidence reopens the cost basis on which RP-1 was resolved | open |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-4: Implement inductive analysis as contracted | open — verification unblocked 2026-09-16. The inductive method was satisfied in the trial module all along, but `load_compiled()` checked `compiled/` first, so the trial module was unreachable and could never be verified. `trial_compiled/` is now collapsed into `compiled/`: the module carrying `run_inductive_analysis` and `CODE_CLUSTER_THRESHOLD = 0.80` **is** the compiled module, and trial is a contract status rather than a directory. First trial run 2026-09-16 reached the inductive path and was stopped by the RP-5 bound (18 themes amended, bound 10) — recorded in `_pipeline/compiled/_trial_evidence.json`. Awaiting π evidence. |
 | [calendar-import](projects/ema-sa/_contracts/calendar-import.REVIEW.md) | RP-1: OAuth scopes | open |
 | [disk-graph](Operations/_contracts/disk-graph.REVIEW.md) | RP-1: Root is the company disk, not the kernel disk | open |
 | [disk-graph](Operations/_contracts/disk-graph.REVIEW.md) | RP-2: Schedule | open |
@@ -229,7 +230,7 @@ Nothing is waiting on you. The company may still have work to do.
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-4: Human response reconciliation waits for the schedule | open |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-10: Distilled conversation seeds vs bulk LLM harvest | open — plan only; not in the compiled module |
 | [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-11: Shortcuts as propagation, not autonomous projects | open — plan only; section 5 unchanged until Director amends |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-8: Index seed counts do not match the themes | open |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-8: Index seed counts do not match the themes | open — **counter remedied**. `_count_seeds_in_theme()` now counts structurally (pipe-delimited rows inside the Seeds section). The second half — regenerating the index from the theme files rather than carrying a stale column — is **not done**; the `Seeds` column in research/README.md is still authored, not derived. Reconciled 2026-09-16. |
 | [botta](projects/botta/_contracts/botta.REVIEW.md) | RP-1: No one at BOTTA has been named | open |
 | [deal-artifact](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | RP-2: deal-page playbook index | open |
 | [deal-artifact](projects/ema-sa/_contracts/deal-artifact.REVIEW.md) | RP-3: Template bootstrap | open |
@@ -243,25 +244,24 @@ Nothing is waiting on you. The company may still have work to do.
 | [granola-import](projects/ema-sa/_contracts/granola-import.REVIEW.md) | RP-5: Shadow compare against ema-mcp gold | open |
 | [granola-sync](projects/ema-sa/_contracts/granola-sync.REVIEW.md) | RP-1: `granola.mcp` capability registration | open — does not block supervised trial |
 | [llm-interaction-import](Operations/_contracts/llm-interaction-import.REVIEW.md) | RP-1: Catch-up volume vs max_per_run | open |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-4: Implement inductive analysis as contracted | open — direction decided 2026-09-04 (option C); found already satisfied in the trial module, awaiting verification by supervised trial |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-1: Require a no-op for unchanged inputs | open — awaiting supervised trial |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-2: Validate source provenance before mutation | open — operator remedied 2026-08-25, awaiting supervised trial |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-3: Exclude generated outputs from research inputs | open — contract amended and operator remedied 2026-08-25, awaiting supervised trial |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-5: Bound autonomous mutation | open — awaiting supervised trial |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-6: Replace retry-on-breach with containment | open — awaiting supervised trial |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-9: Theme files grow without bound | open — awaiting supervised trial |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-1: Require a no-op for unchanged inputs | open — **remedied in code, awaiting trial evidence**. `inputs_fingerprint()` / `read_last_fingerprint()` / `write_fingerprint()` are implemented and called in `run()`. Reconciled 2026-09-16. |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-2: Validate source provenance before mutation | open — **remedied in code, awaiting trial evidence**. `validate_theme_seeds()` and `_known_note_ids()` are implemented and called before any theme write. Reconciled 2026-09-16. |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-3: Exclude generated outputs from research inputs | open — **remedied in code, awaiting trial evidence**. `is_canonical_theme()` / `canonical_themes()` gate every read and write; clause 3.1a carries the rule. Reconciled 2026-09-16. |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-5: Bound autonomous mutation | open — **all three asks remedied in code, awaiting trial evidence**. Reconciled 2026-09-16: reviewable-diffs-only is the `DRY_RUN` guard added 2026-09-16 (every phase computes, all seven write sites skip); mutation budgets are `enforce_run_bounds()` and clause 3A.2; the novelty check is `route_against_existing_themes()`, which routes a proposal overlapping an existing theme's seeds by ≥0.5 into an update rather than a creation — the defect RP-4 recorded as one seed cited across six themes. |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-6: Replace retry-on-breach with containment | open — **remedied in code, awaiting trial evidence**. `IntegrityBreach` stops the run and the fingerprint is not recorded, so the same inputs are not retried; clause 3A.4 carries the rule. Reconciled 2026-09-16. |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-9: Theme files grow without bound | open — **remedied in code, awaiting trial evidence**. `enforce_theme_bounds()` is implemented and called; clause 3A.3 carries the bound. Reconciled 2026-09-16. |
 | [pipeline](Operations/_contracts/pipeline.REVIEW.md) | RP-8: A contract could report success while delivering nothing | open — awaiting supervised trial |
-| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-7: Define supervised trial and promotion evidence | open — awaiting supervised trial |
+| [seed-crystallisation](Operations/_contracts/seed-crystallisation.REVIEW.md) | RP-7: Define supervised trial and promotion evidence | open — **satisfied 2026-09-16**. Clause 3B defines the evidence; the trial itself now exists as a schedule-enabled source that computes every phase and writes nothing, recording input fingerprint and counts to `_pipeline/compiled/_trial_evidence.json`. This RP was the blocker for RP-1, 2, 3, 5, 6 and 9 — all of which parked on a trial that had no runnable path until `trial_compiled/` was collapsed into `compiled/`. |
 
 ---
 
-## ▦ Functions — 281 active · 676 done
+## ▦ Functions — 312 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 2 | 13 | `█▁▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 10 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 213 | 454 | `███▁▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 241 | 454 | `███▁▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 8 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -288,7 +288,7 @@ Nothing is waiting on you. The company may still have work to do.
 | ✅ | [push-to-talk](projects/push-to-talk/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [right-store](projects/right-store/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
 | ✅ | [sole-trader-saas](projects/sole-trader-saas/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
-| ⏸️ | [store-dash](projects/store-dash/README.md) | 35 | 184 | `██▁▁▁▁▁▁▁▁` |
+| ⏸️ | [store-dash](projects/store-dash/README.md) | 38 | 184 | `██▁▁▁▁▁▁▁▁` |
 
 ---
 
@@ -305,4 +305,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-16 12:15 | company | Turn settled · A.005 |
 | 09-16 08:50 | company | Cue published · A.019 |
 
-<sub>Rendered from the repo at frame #1383 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1486 · immediate mode, no client state</sub>
