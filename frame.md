@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1501` · 2026-09-24 16:52 UTC
+`FRAME #1502` · 2026-09-25 08:41 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1501** · 167 ticks · 10 d 2 h · `296b0346` · dashboards + tick reports
+**#1334 → #1502** · 168 ticks · 10 d 18 h · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -21,13 +21,14 @@
 | 1375 | [O 439 Build Contract Support Loop](Operations/_work/O.439-build-contract-support-loop.md) | Progressed. |
 | 1374 | [A 011 Retail Receipt](Accounts/_work/A.011-Retail-Receipt.md) | The company asked you about this. You answered. |
 | 1374 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. You answered. |
+| 1374 | [A 005 Privacy Screen Protector](Accounts/_work/A.005-privacy-screen-protector.md) | The company asked you about this. You answered. |
 | 1374 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. You answered. |
-| 1374 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. You answered. |
 
 **Elsewhere**
 
 | Tick | Item | What happened |
 |---:|---|---|
+| 1501 | [AI Session for OurCOOP](projects/store-dash/_work/SD.336-AI-Session-for-OurCOOP.md) | Created. |
 | 1498 | [Operations](Operations/dashboard.md) | Load 112 → 245 active. |
 | 1498 | [WhatsApp digest: Kōdo Engineering (2026-09-24)](Operations/_work/O.657-WhatsApp-digest-Kōdo-Engineering-2026-09-24.md) | Created. |
 | 1496 | [WhatsApp digest: Jatin Blocvey (2026-09-24)](Operations/_work/O.656-WhatsApp-digest-Jatin-Blocvey-2026-09-24.md) | Created. |
@@ -135,7 +136,7 @@
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 4 progressed, 109 created, 6304 inspected without change.
+Beneath it: 4 progressed, 110 created, 6578 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -150,9 +151,9 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▄▃▁▇▁▁▄▃▄▄▅▃▅▁▄▃▄▃▅▅▃▄▄██▂▂▄▃▅▂▄▁▄▂▄▁▄▁▄▁▄▂▄▄▂▅▁▄▂▅▃▄▁▅▃▅▃▄▅
+█▃▁▇▁▁▄▃▄▄▅▃▅▁▄▃▄▃▅▅▃▄▄██▂▂▄▃▅▂▄▁▄▂▄▁▄▁▄▁▄▂▄▄▂▅▁▄▂▅▃▄▁▅▃▅▃▄▅▄
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 17 d 22 h   (frames #1442 → #1501)
+▁–█ tick-report activity · 60 reports · 17 d 22 h   (frames #1443 → #1502)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -310,4 +311,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-16 12:15 | company | Turn settled · A.005 |
 | 09-16 08:50 | company | Cue published · A.019 |
 
-<sub>Rendered from the repo at frame #1501 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1502 · immediate mode, no client state</sub>
