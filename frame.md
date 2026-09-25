@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1505` · 2026-09-25 10:31 UTC
+`FRAME #1506` · 2026-09-25 10:47 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1505** · 171 ticks · 10 d 19 h · `296b0346` · dashboards + tick reports
+**#1334 → #1506** · 172 ticks · 10 d 20 h · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -19,10 +19,10 @@
 | 1486 | [Seed Crystallisation · RP-4](Operations/_contracts/seed-crystallisation.REVIEW.md#rp-4) | blocking — Implement inductive analysis as contracted — Amend the method if necessary, then compile and verify every obligation |
 | 1382 | [O 437 Build Conversational Initiative Path](Operations/_work/O.437-build-conversational-initiative-path.md) | Progressed. |
 | 1375 | [O 439 Build Contract Support Loop](Operations/_work/O.439-build-contract-support-loop.md) | Progressed. |
+| 1374 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. You answered. |
+| 1374 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. You answered. |
 | 1374 | [A 011 Retail Receipt](Accounts/_work/A.011-Retail-Receipt.md) | The company asked you about this. You answered. |
 | 1374 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. You answered. |
-| 1374 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. You answered. |
-| 1374 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. You answered. |
 
 **Elsewhere**
 
@@ -153,9 +153,9 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▁▄▃▄▄▅▃▅▁▄▃▄▃▅▅▃▄▄██▂▂▄▃▅▂▄▁▄▂▄▁▄▁▄▁▄▂▄▄▂▅▁▄▂▅▃▄▁▅▃▅▃▄▅▄▁▇▁
+█▁▄▃▄▄▅▃▅▁▄▃▄▃▅▅▃▄▄██▂▂▄▃▅▂▄▁▄▂▄▁▄▁▄▁▄▂▄▄▂▅▁▄▂▅▃▄▁▅▃▅▃▄▅▄▁▇▁▄
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 18 d 0 h   (frames #1446 → #1505)
+▁–█ tick-report activity · 60 reports · 18 d 0 h   (frames #1447 → #1506)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
@@ -313,4 +313,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-16 12:15 | company | Turn settled · A.005 |
 | 09-16 08:50 | company | Cue published · A.019 |
 
-<sub>Rendered from the repo at frame #1505 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1506 · immediate mode, no client state</sub>
