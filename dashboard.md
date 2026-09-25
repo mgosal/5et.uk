@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1507.md" style="font-size:11px; color:#5f6368;">#1507</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1508.md" style="font-size:11px; color:#5f6368;">#1508</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -43,15 +43,295 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1507](_pipeline/reports/tick-1507.md)** · 2026-09-25 11:33 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1508](_pipeline/reports/tick-1508.md)** · 2026-09-25 11:50 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
 - No durable work-item changes in this tick.
 
+<details><summary>Inspected without change (275)</summary>
+
+- [A.005](Accounts/_work/A.005-privacy-screen-protector.md) — A.005-privacy-screen-protector
+- [A.011](Accounts/_work/A.011-Retail-Receipt.md) — A.011-Retail-Receipt
+- [A.014](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) — A.014-Google-One-Subscription-Receipt
+- [A.016](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) — A.016-Processing-fuel-receipt-for-business-travel
+- [A.017](Accounts/_work/A.017-incorporation-expense.md) — A.017-incorporation-expense
+- [A.018](Accounts/_work/A.018-ico-data-protection-fee.md) — A.018-ico-data-protection-fee
+- [A.019](Accounts/_work/A.019-google-play-subscription-may.md) — A.019-google-play-subscription-may
+- [A.026](Accounts/_work/A.026-Record-purchase-order-AOL223460870.md) — A.026-Record-purchase-order-AOL223460870
+- [A.027](Accounts/_work/A.027-year-end-tax-planning.md) — A.027-year-end-tax-planning
+- [C.015](Compliance/_work/C.015-virtual-office-service-addressmd.md) — C.015-virtual-office-service-addressmd
+- [C.017](Compliance/_work/C.017-ICO-Data-Protection-Fee-Direct-Debit-Confirmation.md) — C.017-ICO-Data-Protection-Fee-Direct-Debit-Confirmation
+- [C.021](Compliance/_work/C.021-BYOD-Policy-Review-and-Compliance.md) — C.021-BYOD-Policy-Review-and-Compliance
+- [C.028](Compliance/_work/C.028-Health-and-Safety-compliance-process-implementation.md) — C.028-Health-and-Safety-compliance-process-implementation
+- [C.029](Compliance/_work/C.029-EU-AI-Act-Article-52-Compliance.md) — C.029-EU-AI-Act-Article-52-Compliance
+- [C.034](Compliance/_work/C.034-Compliance-Employment-Rights-Act-s1-contract.md) — C.034-Compliance-Employment-Rights-Act-s1-contract
+- [C.036](Compliance/_work/C.036-LLM-processing-of-personal-data-risk.md) — C.036-LLM-processing-of-personal-data-risk
+- [C.037](Compliance/_work/C.037-Anonymous-User-Experience-and-Contract-Framework.md) — C.037-Anonymous-User-Experience-and-Contract-Framework
+- [C.038](Compliance/_work/C.038-Request-for-PSC-code-for-Blocvey-Ltd-confirmation-statement.md) — C.038-Request-for-PSC-code-for-Blocvey-Ltd-confirmation-statement
+- [I.004](Operations/_work/I.004-WhatsApp-digest-JatinMandipKash-2026-08-12.md) — I.004-WhatsApp-digest-JatinMandipKash-2026-08-12
+- [I.005](Operations/_work/I.005-InstantID-tool-exploration.md) — I.005-InstantID-tool-exploration
+- [I.006](Operations/_work/I.006-WhatsApp-digest-JatinMandipKash-2026-08-25.md) — I.006-WhatsApp-digest-JatinMandipKash-2026-08-25
+- [I.007](Operations/_work/I.007-StoreDash-WhatsApp-digest-2026-08-26.md) — I.007-StoreDash-WhatsApp-digest-2026-08-26
+- [I.008](Operations/_work/I.008-WhatsApp-digest-JatinMandipKash-2026-08-26.md) — I.008-WhatsApp-digest-JatinMandipKash-2026-08-26
+- [I.009](Operations/_work/I.009-Networking-event-invitation-AI-FinTech-drinks.md) — I.009-Networking-event-invitation-AI-FinTech-drinks
+- [I.010](Operations/_work/I.010-WhatsApp-digest-for-Kash-Khera.md) — I.010-WhatsApp-digest-for-Kash-Khera
+- [I.011](Operations/_work/I.011-Idea-Codify-processes-into-the-stack.md) — I.011-Idea-Codify-processes-into-the-stack
+- [I.012](Operations/_work/I.012-Disk-graph-vs-Finder-recent-view-pattern.md) — I.012-Disk-graph-vs-Finder-recent-view-pattern
+- [I.013](Operations/_work/I.013-Meeting-Transcript-Mandip-Jody-Belron-Demo-Videos.md) — I.013-Meeting-Transcript-Mandip-Jody-Belron-Demo-Videos
+- [I.014](Operations/_work/I.014-Incomplete-note-on-meeting-recording.md) — I.014-Incomplete-note-on-meeting-recording
+- [I.015](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) — I.015-Stream-Deck-voice-recording-observation
+- [I.016](Operations/_work/I.016-AI-employee-slide-intro-should-not-be-silent.md) — I.016-AI-employee-slide-intro-should-not-be-silent
+- [I.017](Operations/_work/I.017-Observation-Intro-duration-and-sound-characteristics.md) — I.017-Observation-Intro-duration-and-sound-characteristics
+- [I.018](Operations/_work/I.018-Indexed-Model-vs-LLM-Muse-Glimmer.md) — I.018-Indexed-Model-vs-LLM-Muse-Glimmer
+- [I.019](Operations/_work/I.019-Manager-Demo-Flow-and-Audio-Observations.md) — I.019-Manager-Demo-Flow-and-Audio-Observations
+- [I.020](Operations/_work/I.020-Observation-Reduce-call-pauses-for-better-flow.md) — I.020-Observation-Reduce-call-pauses-for-better-flow
+- [I.021](Operations/_work/I.021-Upstream-and-Downstream-Integrations-Concept.md) — I.021-Upstream-and-Downstream-Integrations-Concept
+- [I.022](Operations/_work/I.022-Record-of-RightStore-3-Bootstrap-Command.md) — I.022-Record-of-RightStore-3-Bootstrap-Command
+- [O.008](Operations/_work/O.008-Apple-Developer-Program-Enrollment.md) — O.008-Apple-Developer-Program-Enrollment
+- [O.009](Operations/_work/O.009-Migrate-Winston-app-to-Ema-Next.md) — O.009-Migrate-Winston-app-to-Ema-Next
+- [O.403](Operations/_work/O.403-Review-of-new-SDLC-process-flow.md) — O.403-Review-of-new-SDLC-process-flow
+- [O.424](Operations/_work/O.424-attention-event-experiment.md) — O.424-attention-event-experiment
+- [O.430](Operations/_work/O.430-stream-deck-attention-mode.md) — O.430-stream-deck-attention-mode
+- [O.437](Operations/_work/O.437-build-conversational-initiative-path.md) — O.437-build-conversational-initiative-path
+- [O.439](Operations/_work/O.439-build-contract-support-loop.md) — O.439-build-contract-support-loop
+- [O.440](Operations/_work/O.440-contract-support-seed-crystallisation.md) — O.440-contract-support-seed-crystallisation
+- [O.445](Operations/_work/O.445-complete-contract-support-loop.md) — O.445-complete-contract-support-loop
+- [O.447](Operations/_work/O.447-refine-cloud-connect-direction.md) — O.447-refine-cloud-connect-direction
+- [O.449](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) — O.449-AI-Agent-Development-Platforms-consultation
+- [O.456](Operations/_work/O.456-bootstrap-impact-cascade.md) — O.456-bootstrap-impact-cascade
+- [O.458](Operations/_work/O.458-Supply-chain-constraints-on-hardware-procurement.md) — O.458-Supply-chain-constraints-on-hardware-procurement
+- [O.459](Operations/_work/O.459-pipeline-commit-scope.md) — O.459-pipeline-commit-scope
+- [O.460](Operations/_work/O.460-ingest-filter-discarded-order-confirmation.md) — O.460-ingest-filter-discarded-order-confirmation
+- [O.461](Operations/_work/O.461-contract-review-capacity.md) — O.461-contract-review-capacity
+- [O.462](Operations/_work/O.462-Wire-Cortex-local-inference-path.md) — O.462-Wire-Cortex-local-inference-path
+- [O.463](Operations/_work/O.463-Inference-tier-field-and-tier-grouped-execution.md) — O.463-Inference-tier-field-and-tier-grouped-execution
+- [O.464](Operations/_work/O.464-Confidential-computing-index.md) — O.464-Confidential-computing-index
+- [O.465](Operations/_work/O.465-research-corpus-residual-repair.md) — O.465-research-corpus-residual-repair
+- [O.466](Operations/_work/O.466-make-dashboard-the-sole-frame-input.md) — O.466-make-dashboard-the-sole-frame-input
+- [O.467](Operations/_work/O.467-record-durable-human-moves-from-agent-sessions.md) — O.467-record-durable-human-moves-from-agent-sessions
+- [O.468](Operations/_work/O.468-Register-for-St-James-AI-Tech-Related-event.md) — O.468-Register-for-St-James-AI-Tech-Related-event
+- [O.471](Operations/_work/O.471-Automated-contract-review-phase.md) — O.471-Automated-contract-review-phase
+- [O.472](Operations/_work/O.472-harden-attention-reconciliation-and-pipeline-throughput.md) — O.472-harden-attention-reconciliation-and-pipeline-throughput
+- [O.473](Operations/_work/O.473-Bootstrap-bionic-ingest-pipeline.md) — O.473-Bootstrap-bionic-ingest-pipeline
+- [O.474](Operations/_work/O.474-Your-Flow-Pro-access-ends-soon.md) — O.474-Your-Flow-Pro-access-ends-soon
+- [O.475](Operations/_work/O.475-Just-scheduled-THE-GARAGE-BAND-Bromsgrove-Sports-Club---Tkts.md) — O.475-Just-scheduled-THE-GARAGE-BAND-Bromsgrove-Sports-Club---Tkts
+- [O.476](Operations/_work/O.476-Welcome-to-BrumAI---Birmingham-Artificial-Intelligence-Meetu.md) — O.476-Welcome-to-BrumAI---Birmingham-Artificial-Intelligence-Meetu
+- [O.477](Operations/_work/O.477-WhatsApp-digest-StoreDash-Discussions-2026-09-07.md) — O.477-WhatsApp-digest-StoreDash-Discussions-2026-09-07
+- [O.478](Operations/_work/O.478-WhatsApp-digest-JatinMandipKash-2026-09-08.md) — O.478-WhatsApp-digest-JatinMandipKash-2026-09-08
+- [O.479](Operations/_work/O.479-WhatsApp-digest-JatinMandipKash-2026-09-09.md) — O.479-WhatsApp-digest-JatinMandipKash-2026-09-09
+- [O.480](Operations/_work/O.480-WhatsApp-digest-JatinMandipKash-2026-09-10.md) — O.480-WhatsApp-digest-JatinMandipKash-2026-09-10
+- [O.481](Operations/_work/O.481-WhatsApp-digest-JatinMandipKash-2026-09-11.md) — O.481-WhatsApp-digest-JatinMandipKash-2026-09-11
+- [O.482](Operations/_work/O.482-One-click-Postgres-major-version-upgrades-email-forwarding-f.md) — O.482-One-click-Postgres-major-version-upgrades-email-forwarding-f
+- [O.483](Operations/_work/O.483-I-actually-like-this-mech-mechanism-I.md) — O.483-I-actually-like-this-mech-mechanism-I
+- [O.484](Operations/_work/O.484-WhatsApp-digest-Kash-Khera-2026-09-12.md) — O.484-WhatsApp-digest-Kash-Khera-2026-09-12
+- [O.485](Operations/_work/O.485-WhatsApp-digest-StoreDash-Discussions-2026-09-12.md) — O.485-WhatsApp-digest-StoreDash-Discussions-2026-09-12
+- [O.486](Operations/_work/O.486-Your-new-group-is-waiting-for-you.md) — O.486-Your-new-group-is-waiting-for-you
+- [O.487](Operations/_work/O.487-WhatsApp-digest-Kōdo-Engineering-2026-09-13.md) — O.487-WhatsApp-digest-Kōdo-Engineering-2026-09-13
+- [O.488](Operations/_work/O.488-BlackEyeCollective-has-invited-you-to-be-their-account-succe.md) — O.488-BlackEyeCollective-has-invited-you-to-be-their-account-succe
+- [O.489](Operations/_work/O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14.md) — O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14
+- [O.490](Operations/_work/O.490-WhatsApp-digest-JatinMandipKash-2026-09-14.md) — O.490-WhatsApp-digest-JatinMandipKash-2026-09-14
+- [O.491](Operations/_work/O.491-2026-09-14-11-07-59-voice-notegpt-4o-audio.md) — O.491-2026-09-14-11-07-59-voice-notegpt-4o-audio
+- [O.492](Operations/_work/O.492-2026-09-14-13-20-08-voice-notegpt-4o-audio.md) — O.492-2026-09-14-13-20-08-voice-notegpt-4o-audio
+- [O.493](Operations/_work/O.493-2026-09-14-13-57-41-a531c837md.md) — O.493-2026-09-14-13-57-41-a531c837md
+- [O.494](Operations/_work/O.494-2026-09-14-13-57-28-0da07365md.md) — O.494-2026-09-14-13-57-28-0da07365md
+- [O.495](Operations/_work/O.495-2026-09-14-13-56-36-cdb3fbd2md.md) — O.495-2026-09-14-13-56-36-cdb3fbd2md
+- [O.496](Operations/_work/O.496-2026-09-14-13-55-52-e9b1a2c9md.md) — O.496-2026-09-14-13-55-52-e9b1a2c9md
+- [O.497](Operations/_work/O.497-2026-09-14-13-55-27-a58accb9md.md) — O.497-2026-09-14-13-55-27-a58accb9md
+- [O.498](Operations/_work/O.498-2026-09-14-13-54-06-79b5ead7md.md) — O.498-2026-09-14-13-54-06-79b5ead7md
+- [O.499](Operations/_work/O.499-2026-09-14-13-53-24-e85a2d31md.md) — O.499-2026-09-14-13-53-24-e85a2d31md
+- [O.500](Operations/_work/O.500-2026-09-14-14-06-04-9233e465md.md) — O.500-2026-09-14-14-06-04-9233e465md
+- [O.501](Operations/_work/O.501-2026-09-14-14-37-02-abecf09bmd.md) — O.501-2026-09-14-14-37-02-abecf09bmd
+- [O.502](Operations/_work/O.502-Markdown-link-fails-to-open-RP3-file.md) — O.502-Markdown-link-fails-to-open-RP3-file
+- [O.503](Operations/_work/O.503-2026-09-14-14-32-16-7808c39bmd.md) — O.503-2026-09-14-14-32-16-7808c39bmd
+- [O.504](Operations/_work/O.504-2026-09-14-14-30-23-1b190419md.md) — O.504-2026-09-14-14-30-23-1b190419md
+- [O.505](Operations/_work/O.505-2026-09-14-14-26-16-78ad097emd.md) — O.505-2026-09-14-14-26-16-78ad097emd
+- [O.506](Operations/_work/O.506-2026-09-14-14-26-11-3d7f0c06md.md) — O.506-2026-09-14-14-26-11-3d7f0c06md
+- [O.507](Operations/_work/O.507-Field-Ops-Demo-Script-Review-and-Preparation.md) — O.507-Field-Ops-Demo-Script-Review-and-Preparation
+- [O.508](Operations/_work/O.508-2026-09-14-14-25-25-4f7b7101md.md) — O.508-2026-09-14-14-25-25-4f7b7101md
+- [O.509](Operations/_work/O.509-2026-09-14-15-09-43-1f6b1fd6md.md) — O.509-2026-09-14-15-09-43-1f6b1fd6md
+- [O.510](Operations/_work/O.510-2026-09-14-15-08-47-09c87c26md.md) — O.510-2026-09-14-15-08-47-09c87c26md
+- [O.511](Operations/_work/O.511-2026-09-14-15-08-29-d93558d3md.md) — O.511-2026-09-14-15-08-29-d93558d3md
+- [O.512](Operations/_work/O.512-2026-09-14-14-58-09-10d48828md.md) — O.512-2026-09-14-14-58-09-10d48828md
+- [O.513](Operations/_work/O.513-2026-09-14-14-58-00-12c3b400md.md) — O.513-2026-09-14-14-58-00-12c3b400md
+- [O.514](Operations/_work/O.514-2026-09-14-14-57-08-545724c2md.md) — O.514-2026-09-14-14-57-08-545724c2md
+- [O.515](Operations/_work/O.515-2026-09-14-14-56-29-33c5a852md.md) — O.515-2026-09-14-14-56-29-33c5a852md
+- [O.516](Operations/_work/O.516-2026-09-14-14-54-20-f73e69a6md.md) — O.516-2026-09-14-14-54-20-f73e69a6md
+- [O.517](Operations/_work/O.517-Directives-for-internal-work-and-commit-process.md) — O.517-Directives-for-internal-work-and-commit-process
+- [O.518](Operations/_work/O.518-2026-09-14-14-51-15-b0673b57md.md) — O.518-2026-09-14-14-51-15-b0673b57md
+- [O.519](Operations/_work/O.519-2026-09-14-14-50-57-4f46c57fmd.md) — O.519-2026-09-14-14-50-57-4f46c57fmd
+- [O.520](Operations/_work/O.520-Defect-tracking-and-contractual-classification.md) — O.520-Defect-tracking-and-contractual-classification
+- [O.521](Operations/_work/O.521-2026-09-14-14-46-14-00421f96md.md) — O.521-2026-09-14-14-46-14-00421f96md
+- [O.522](Operations/_work/O.522-2026-09-14-14-44-28-a69bda7cmd.md) — O.522-2026-09-14-14-44-28-a69bda7cmd
+- [O.523](Operations/_work/O.523-Repo-review-pipeline-build-planning-architecture.md) — O.523-Repo-review-pipeline-build-planning-architecture
+- [O.524](Operations/_work/O.524-2026-09-14-14-40-55-35c2124emd.md) — O.524-2026-09-14-14-40-55-35c2124emd
+- [O.525](Operations/_work/O.525-2026-09-14-14-38-50-14af50ebmd.md) — O.525-2026-09-14-14-38-50-14af50ebmd
+- [O.526](Operations/_work/O.526-2026-09-14-15-34-17-50a49d79md.md) — O.526-2026-09-14-15-34-17-50a49d79md
+- [O.527](Operations/_work/O.527-2026-09-14-15-34-06-606352e6md.md) — O.527-2026-09-14-15-34-06-606352e6md
+- [O.528](Operations/_work/O.528-2026-09-14-15-33-49-b4a9a1f2md.md) — O.528-2026-09-14-15-33-49-b4a9a1f2md
+- [O.529](Operations/_work/O.529-2026-09-14-15-32-53-d4aa7b87md.md) — O.529-2026-09-14-15-32-53-d4aa7b87md
+- [O.530](Operations/_work/O.530-2026-09-14-15-25-32-77856fd5md.md) — O.530-2026-09-14-15-25-32-77856fd5md
+- [O.531](Operations/_work/O.531-2026-09-14-15-23-41-60ce737emd.md) — O.531-2026-09-14-15-23-41-60ce737emd
+- [O.532](Operations/_work/O.532-2026-09-14-15-22-20-e6138bf7md.md) — O.532-2026-09-14-15-22-20-e6138bf7md
+- [O.533](Operations/_work/O.533-2026-09-14-15-19-02-dd928abcmd.md) — O.533-2026-09-14-15-19-02-dd928abcmd
+- [O.534](Operations/_work/O.534-Critical-Video-Audio-Missing.md) — O.534-Critical-Video-Audio-Missing
+- [O.535](Operations/_work/O.535-2026-09-14-16-14-44-voice-notegpt-4o-audio.md) — O.535-2026-09-14-16-14-44-voice-notegpt-4o-audio
+- [O.536](Operations/_work/O.536-2026-09-14-16-28-11-voice-notegpt-4o-audio.md) — O.536-2026-09-14-16-28-11-voice-notegpt-4o-audio
+- [O.537](Operations/_work/O.537-2026-09-14-17-30-29-ff08dbb0md.md) — O.537-2026-09-14-17-30-29-ff08dbb0md
+- [O.538](Operations/_work/O.538-2026-09-14-17-13-27-404ab3eamd.md) — O.538-2026-09-14-17-13-27-404ab3eamd
+- [O.539](Operations/_work/O.539-2026-09-14-17-27-40-379a5e92md.md) — O.539-2026-09-14-17-27-40-379a5e92md
+- [O.540](Operations/_work/O.540-2026-09-14-17-27-33-1d6b1af1md.md) — O.540-2026-09-14-17-27-33-1d6b1af1md
+- [O.541](Operations/_work/O.541-2026-09-14-17-27-32-175ef9f6md.md) — O.541-2026-09-14-17-27-32-175ef9f6md
+- [O.542](Operations/_work/O.542-2026-09-14-17-26-53-aff8cb94md.md) — O.542-2026-09-14-17-26-53-aff8cb94md
+- [O.543](Operations/_work/O.543-2026-09-14-17-25-18-5948d846md.md) — O.543-2026-09-14-17-25-18-5948d846md
+- [O.544](Operations/_work/O.544-2026-09-14-17-24-49-b2f5908fmd.md) — O.544-2026-09-14-17-24-49-b2f5908fmd
+- [O.545](Operations/_work/O.545-2026-09-14-17-24-20-7d67b376md.md) — O.545-2026-09-14-17-24-20-7d67b376md
+- [O.546](Operations/_work/O.546-2026-09-14-17-22-30-1a1b6b2dmd.md) — O.546-2026-09-14-17-22-30-1a1b6b2dmd
+- [O.547](Operations/_work/O.547-2026-09-14-17-21-27-26bf14b6md.md) — O.547-2026-09-14-17-21-27-26bf14b6md
+- [O.548](Operations/_work/O.548-2026-09-14-17-21-14-9bdc24a4md.md) — O.548-2026-09-14-17-21-14-9bdc24a4md
+- [O.549](Operations/_work/O.549-2026-09-14-17-16-44-4f8292f6md.md) — O.549-2026-09-14-17-16-44-4f8292f6md
+- [O.550](Operations/_work/O.550-2026-09-14-17-04-30-2a416d60md.md) — O.550-2026-09-14-17-04-30-2a416d60md
+- [O.551](Operations/_work/O.551-2026-09-14-16-57-59-c0de2f21md.md) — O.551-2026-09-14-16-57-59-c0de2f21md
+- [O.552](Operations/_work/O.552-WhatsApp-digest-Kōdo-Engineering-2026-09-15.md) — O.552-WhatsApp-digest-Kōdo-Engineering-2026-09-15
+- [O.553](Operations/_work/O.553-no-subject.md) — O.553-no-subject
+- [O.554](Operations/_work/O.554-2026-09-15-08-39-26-80a65a72md.md) — O.554-2026-09-15-08-39-26-80a65a72md
+- [O.555](Operations/_work/O.555-2026-09-15-08-36-27-6aec9b57md.md) — O.555-2026-09-15-08-36-27-6aec9b57md
+- [O.556](Operations/_work/O.556-2026-09-15-08-35-37-a44a931amd.md) — O.556-2026-09-15-08-35-37-a44a931amd
+- [O.557](Operations/_work/O.557-2026-09-15-08-31-47-ce50b626md.md) — O.557-2026-09-15-08-31-47-ce50b626md
+- [O.558](Operations/_work/O.558-2026-09-15-08-31-47-9f6caeb7md.md) — O.558-2026-09-15-08-31-47-9f6caeb7md
+- [O.559](Operations/_work/O.559-2026-09-15-09-36-17-d72c85b0md.md) — O.559-2026-09-15-09-36-17-d72c85b0md
+- [O.560](Operations/_work/O.560-2026-09-15-09-27-58-974a0357md.md) — O.560-2026-09-15-09-27-58-974a0357md
+- [O.561](Operations/_work/O.561-2026-09-15-09-59-51-0795b880md.md) — O.561-2026-09-15-09-59-51-0795b880md
+- [O.562](Operations/_work/O.562-2026-09-15-09-57-39-a749bcd2md.md) — O.562-2026-09-15-09-57-39-a749bcd2md
+- [O.563](Operations/_work/O.563-2026-09-15-09-48-03-79e307f0md.md) — O.563-2026-09-15-09-48-03-79e307f0md
+- [O.564](Operations/_work/O.564-Build-HR-Policy-Assistant-with-Compliance-Check.md) — O.564-Build-HR-Policy-Assistant-with-Compliance-Check
+- [O.565](Operations/_work/O.565-2026-09-15-09-44-45-b17e694fmd.md) — O.565-2026-09-15-09-44-45-b17e694fmd
+- [O.566](Operations/_work/O.566-2026-09-15-09-40-38-53cf2085md.md) — O.566-2026-09-15-09-40-38-53cf2085md
+- [O.567](Operations/_work/O.567-2026-09-15-10-38-45-73150acamd.md) — O.567-2026-09-15-10-38-45-73150acamd
+- [O.568](Operations/_work/O.568-2026-09-15-10-36-12-fe16f053md.md) — O.568-2026-09-15-10-36-12-fe16f053md
+- [O.569](Operations/_work/O.569-2026-09-15-10-34-15-6c15eb36md.md) — O.569-2026-09-15-10-34-15-6c15eb36md
+- [O.570](Operations/_work/O.570-2026-09-15-10-25-17-bb48d25emd.md) — O.570-2026-09-15-10-25-17-bb48d25emd
+- [O.571](Operations/_work/O.571-2026-09-15-10-22-43-af63c79fmd.md) — O.571-2026-09-15-10-22-43-af63c79fmd
+- [O.572](Operations/_work/O.572-2026-09-15-11-03-57-96460087md.md) — O.572-2026-09-15-11-03-57-96460087md
+- [O.573](Operations/_work/O.573-2026-09-15-11-03-11-a4a706b5md.md) — O.573-2026-09-15-11-03-11-a4a706b5md
+- [O.574](Operations/_work/O.574-2026-09-15-11-02-41-b5051b12md.md) — O.574-2026-09-15-11-02-41-b5051b12md
+- [O.575](Operations/_work/O.575-2026-09-15-11-01-28-c86892a5md.md) — O.575-2026-09-15-11-01-28-c86892a5md
+- [O.576](Operations/_work/O.576-2026-09-15-10-53-52-b4ac653bmd.md) — O.576-2026-09-15-10-53-52-b4ac653bmd
+- [O.577](Operations/_work/O.577-2026-09-15-10-47-59-b68b3916md.md) — O.577-2026-09-15-10-47-59-b68b3916md
+- [O.578](Operations/_work/O.578-2026-09-15-10-44-57-b838782emd.md) — O.578-2026-09-15-10-44-57-b838782emd
+- [O.579](Operations/_work/O.579-Email-reply-and-access-management-decision.md) — O.579-Email-reply-and-access-management-decision
+- [O.580](Operations/_work/O.580-2026-09-15-10-42-18-8c5679c1md.md) — O.580-2026-09-15-10-42-18-8c5679c1md
+- [O.581](Operations/_work/O.581-2026-09-15-10-39-45-6cfd6e2cmd.md) — O.581-2026-09-15-10-39-45-6cfd6e2cmd
+- [O.582](Operations/_work/O.582-Edit-Rodrigo-Sanchez-calls-recording.md) — O.582-Edit-Rodrigo-Sanchez-calls-recording
+- [O.583](Operations/_work/O.583-BlackEyeCollective-invited-you-to-BlackEyeCollectiveRightSto.md) — O.583-BlackEyeCollective-invited-you-to-BlackEyeCollectiveRightSto
+- [O.584](Operations/_work/O.584-2026-09-15-11-14-02-221abe06md.md) — O.584-2026-09-15-11-14-02-221abe06md
+- [O.585](Operations/_work/O.585-2026-09-15-11-13-46-315f8eafmd.md) — O.585-2026-09-15-11-13-46-315f8eafmd
+- [O.586](Operations/_work/O.586-Missing-GitHub-Organization-Access.md) — O.586-Missing-GitHub-Organization-Access
+- [O.587](Operations/_work/O.587-2026-09-15-11-10-41-a82848e6md.md) — O.587-2026-09-15-11-10-41-a82848e6md
+- [O.588](Operations/_work/O.588-2026-09-15-11-10-16-3e4f69a4md.md) — O.588-2026-09-15-11-10-16-3e4f69a4md
+- [O.589](Operations/_work/O.589-2026-09-15-11-05-19-6ceba73fmd.md) — O.589-2026-09-15-11-05-19-6ceba73fmd
+- [O.590](Operations/_work/O.590-RightStore-D2S-integration-architecture-proposal.md) — O.590-RightStore-D2S-integration-architecture-proposal
+- [O.591](Operations/_work/O.591-WhatsApp-digest-Jatin-Blocvey-2026-09-15.md) — O.591-WhatsApp-digest-Jatin-Blocvey-2026-09-15
+- [O.592](Operations/_work/O.592-2026-09-15-11-41-48-641de69bmd.md) — O.592-2026-09-15-11-41-48-641de69bmd
+- [O.593](Operations/_work/O.593-SSL-upload-error-with-Beatrice.md) — O.593-SSL-upload-error-with-Beatrice
+- [O.594](Operations/_work/O.594-2026-09-15-11-27-29-a47113c9md.md) — O.594-2026-09-15-11-27-29-a47113c9md
+- [O.595](Operations/_work/O.595-2026-09-15-12-19-16-d7a3095fmd.md) — O.595-2026-09-15-12-19-16-d7a3095fmd
+- [O.596](Operations/_work/O.596-2026-09-15-12-17-22-ab501841md.md) — O.596-2026-09-15-12-17-22-ab501841md
+- [O.597](Operations/_work/O.597-2026-09-15-11-52-37-252c9cf4md.md) — O.597-2026-09-15-11-52-37-252c9cf4md
+- [O.598](Operations/_work/O.598-2026-09-15-11-49-16-91be49abmd.md) — O.598-2026-09-15-11-49-16-91be49abmd
+- [O.599](Operations/_work/O.599-2026-09-15-11-48-45-5a55fe30md.md) — O.599-2026-09-15-11-48-45-5a55fe30md
+- [O.600](Operations/_work/O.600-2026-09-15-11-48-13-3a70a4a6md.md) — O.600-2026-09-15-11-48-13-3a70a4a6md
+- [O.601](Operations/_work/O.601-AI-agent-help-for-new-repo-understanding.md) — O.601-AI-agent-help-for-new-repo-understanding
+- [O.602](Operations/_work/O.602-2026-09-15-12-38-22-60d58a56md.md) — O.602-2026-09-15-12-38-22-60d58a56md
+- [O.603](Operations/_work/O.603-2026-09-15-12-37-41-c682ed94md.md) — O.603-2026-09-15-12-37-41-c682ed94md
+- [O.604](Operations/_work/O.604-2026-09-15-12-34-38-b2da0d1fmd.md) — O.604-2026-09-15-12-34-38-b2da0d1fmd
+- [O.605](Operations/_work/O.605-2026-09-15-12-36-38-c79b1fc4md.md) — O.605-2026-09-15-12-36-38-c79b1fc4md
+- [O.606](Operations/_work/O.606-2026-09-15-12-34-15-ad0bfed2md.md) — O.606-2026-09-15-12-34-15-ad0bfed2md
+- [O.607](Operations/_work/O.607-2026-09-15-12-33-33-46841c7fmd.md) — O.607-2026-09-15-12-33-33-46841c7fmd
+- [O.608](Operations/_work/O.608-2026-09-15-12-32-27-a67f7913md.md) — O.608-2026-09-15-12-32-27-a67f7913md
+- [O.609](Operations/_work/O.609-2026-09-15-12-30-51-8863a685md.md) — O.609-2026-09-15-12-30-51-8863a685md
+- [O.610](Operations/_work/O.610-2026-09-15-12-25-41-0a49aaa5md.md) — O.610-2026-09-15-12-25-41-0a49aaa5md
+- [O.611](Operations/_work/O.611-2026-09-15-12-56-56-7712519emd.md) — O.611-2026-09-15-12-56-56-7712519emd
+- [O.612](Operations/_work/O.612-2026-09-15-12-50-16-049f4977md.md) — O.612-2026-09-15-12-50-16-049f4977md
+- [O.613](Operations/_work/O.613-Mac-security-warning-Python-310-unverified.md) — O.613-Mac-security-warning-Python-310-unverified
+- [O.614](Operations/_work/O.614-2026-09-15-13-38-00-cfd13788md.md) — O.614-2026-09-15-13-38-00-cfd13788md
+- [O.615](Operations/_work/O.615-2026-09-15-13-35-27-63801b2amd.md) — O.615-2026-09-15-13-35-27-63801b2amd
+- [O.616](Operations/_work/O.616-2026-09-15-13-34-47-d681ccfbmd.md) — O.616-2026-09-15-13-34-47-d681ccfbmd
+- [O.617](Operations/_work/O.617-2026-09-15-13-33-22-41ef592amd.md) — O.617-2026-09-15-13-33-22-41ef592amd
+- [O.618](Operations/_work/O.618-2026-09-15-13-25-28-1149784emd.md) — O.618-2026-09-15-13-25-28-1149784emd
+- [O.619](Operations/_work/O.619-2026-09-15-13-42-41-bc5c52a0md.md) — O.619-2026-09-15-13-42-41-bc5c52a0md
+- [O.620](Operations/_work/O.620-Review-generated-playbook-against-pipeline-output.md) — O.620-Review-generated-playbook-against-pipeline-output
+- [O.621](Operations/_work/O.621-Cloudflare-AI-bot-control-updates.md) — O.621-Cloudflare-AI-bot-control-updates
+- [O.622](Operations/_work/O.622-WhatsApp-digest-JatinMandipKash-2026-09-16.md) — O.622-WhatsApp-digest-JatinMandipKash-2026-09-16
+- [O.623](Operations/_work/O.623-Book-Your-Place-On-The-Lunch-Attendee-Sheet-For-Mayfair-AI-T.md) — O.623-Book-Your-Place-On-The-Lunch-Attendee-Sheet-For-Mayfair-AI-T
+- [O.624](Operations/_work/O.624-WhatsApp-digest-JatinMandipKash-2026-09-16.md) — O.624-WhatsApp-digest-JatinMandipKash-2026-09-16
+- [O.625](Operations/_work/O.625-GitHub-PAT-5et-mobile-intake-expiring-soon.md) — O.625-GitHub-PAT-5et-mobile-intake-expiring-soon
+- [O.626](Operations/_work/O.626-WhatsApp-digest-JatinMandipKash-2026-09-18.md) — O.626-WhatsApp-digest-JatinMandipKash-2026-09-18
+- [O.627](Operations/_work/O.627-WhatsApp-digest-Kōdo-Engineering-2026-09-18.md) — O.627-WhatsApp-digest-Kōdo-Engineering-2026-09-18
+- [O.628](Operations/_work/O.628-WhatsApp-digest-Jatin-Blocvey-2026-09-18.md) — O.628-WhatsApp-digest-Jatin-Blocvey-2026-09-18
+- [O.629](Operations/_work/O.629-BrumAI---Birmingham-Artificial-Intelligence-Meetup-Waitlist.md) — O.629-BrumAI---Birmingham-Artificial-Intelligence-Meetup-Waitlist
+- [O.630](Operations/_work/O.630-WhatsApp-digest-Kash-Khera-2026-09-18.md) — O.630-WhatsApp-digest-Kash-Khera-2026-09-18
+- [O.631](Operations/_work/O.631-WhatsApp-digest-Kōdo-Engineering-2026-09-18.md) — O.631-WhatsApp-digest-Kōdo-Engineering-2026-09-18
+- [O.632](Operations/_work/O.632-Railway-mobile-app-improvements.md) — O.632-Railway-mobile-app-improvements
+- [O.633](Operations/_work/O.633-Railway-Sandboxes-use-your-ChatGPT-subscription-with-Railway.md) — O.633-Railway-Sandboxes-use-your-ChatGPT-subscription-with-Railway
+- [O.634](Operations/_work/O.634-Security-alert-for-mandipgoshalgmailcom.md) — O.634-Security-alert-for-mandipgoshalgmailcom
+- [O.635](Operations/_work/O.635-Secure-Your-Place-On-The-Lunch-Attendee-Sheet-for-September.md) — O.635-Secure-Your-Place-On-The-Lunch-Attendee-Sheet-for-September
+- [O.636](Operations/_work/O.636-WhatsApp-digest-JatinMandipKash-2026-09-20.md) — O.636-WhatsApp-digest-JatinMandipKash-2026-09-20
+- [O.637](Operations/_work/O.637-WhatsApp-digest-JatinMandipKash-2026-09-21.md) — O.637-WhatsApp-digest-JatinMandipKash-2026-09-21
+- [O.638](Operations/_work/O.638-WhatsApp-digest-JatinMandipKash-2026-09-21.md) — O.638-WhatsApp-digest-JatinMandipKash-2026-09-21
+- [O.639](Operations/_work/O.639-WhatsApp-digest-Jatin-Blocvey-2026-09-21.md) — O.639-WhatsApp-digest-Jatin-Blocvey-2026-09-21
+- [O.640](Operations/_work/O.640-WhatsApp-digest-Jatin-Blocvey-2026-09-21.md) — O.640-WhatsApp-digest-Jatin-Blocvey-2026-09-21
+- [O.641](Operations/_work/O.641-Final-Call-To-Book-Your-Place-On-The-Attendee-Sheet-This-Thu.md) — O.641-Final-Call-To-Book-Your-Place-On-The-Attendee-Sheet-This-Thu
+- [O.642](Operations/_work/O.642-WhatsApp-digest-JatinMandipKash-2026-09-22.md) — O.642-WhatsApp-digest-JatinMandipKash-2026-09-22
+- [O.643](Operations/_work/O.643-WhatsApp-digest-Kash-Khera-2026-09-22.md) — O.643-WhatsApp-digest-Kash-Khera-2026-09-22
+- [O.644](Operations/_work/O.644-Final-Call-To-Book-Your-Place-On-Thursdays-Guest-Sheet-for-L.md) — O.644-Final-Call-To-Book-Your-Place-On-Thursdays-Guest-Sheet-for-L
+- [O.645](Operations/_work/O.645-GitHub-Your-fine-grained-personal-access-token-is-about-to-e.md) — O.645-GitHub-Your-fine-grained-personal-access-token-is-about-to-e
+- [O.646](Operations/_work/O.646-Customer-account-confirmation.md) — O.646-Customer-account-confirmation
+- [O.647](Operations/_work/O.647-Notice-for-Security-Camera.md) — O.647-Notice-for-Security-Camera
+- [O.648](Operations/_work/O.648-Verify-Your-Email-for-a-New-Account.md) — O.648-Verify-Your-Email-for-a-New-Account
+- [O.649](Operations/_work/O.649-WhatsApp-digest-JatinMandipKash-2026-09-22.md) — O.649-WhatsApp-digest-JatinMandipKash-2026-09-22
+- [O.650](Operations/_work/O.650-WhatsApp-digest-Kōdo-Engineering-2026-09-22.md) — O.650-WhatsApp-digest-Kōdo-Engineering-2026-09-22
+- [O.651](Operations/_work/O.651-Trial-Plan-Alert.md) — O.651-Trial-Plan-Alert
+- [O.652](Operations/_work/O.652-WhatsApp-digest-JatinMandipKash-2026-09-23.md) — O.652-WhatsApp-digest-JatinMandipKash-2026-09-23
+- [O.653](Operations/_work/O.653-WhatsApp-digest-JatinMandipKash-2026-09-23.md) — O.653-WhatsApp-digest-JatinMandipKash-2026-09-23
+- [O.654](Operations/_work/O.654-WhatsApp-digest-JatinMandipKash-2026-09-24.md) — O.654-WhatsApp-digest-JatinMandipKash-2026-09-24
+- [O.655](Operations/_work/O.655-WhatsApp-digest-JatinMandipKash-2026-09-24.md) — O.655-WhatsApp-digest-JatinMandipKash-2026-09-24
+- [O.656](Operations/_work/O.656-WhatsApp-digest-Jatin-Blocvey-2026-09-24.md) — O.656-WhatsApp-digest-Jatin-Blocvey-2026-09-24
+- [O.657](Operations/_work/O.657-WhatsApp-digest-Kōdo-Engineering-2026-09-24.md) — O.657-WhatsApp-digest-Kōdo-Engineering-2026-09-24
+- [O.658](Operations/_work/O.658-WhatsApp-digest-JatinMandipKash-2026-09-25.md) — O.658-WhatsApp-digest-JatinMandipKash-2026-09-25
+- [O.659](Operations/_work/O.659-WhatsApp-digest-Jatin-Blocvey-2026-09-25.md) — O.659-WhatsApp-digest-Jatin-Blocvey-2026-09-25
+- [O.660](Operations/_work/O.660-WhatsApp-digest-JatinMandipKash-2026-09-25.md) — O.660-WhatsApp-digest-JatinMandipKash-2026-09-25
+- [P.003](Operations/_work/P.003-Integration-of-courier-services-into-SPINE.md) — P.003-Integration-of-courier-services-into-SPINE
+- [P.004](Operations/_work/P.004-RightStore-Nimbus-Proposal-V2-Review.md) — P.004-RightStore-Nimbus-Proposal-V2-Review
+- [P.005](Operations/_work/P.005-RightStore-by-Nimbus-deck-development.md) — P.005-RightStore-by-Nimbus-deck-development
+- [P.006](Operations/_work/P.006-IBIS-system-overview-for-Christie-Co.md) — P.006-IBIS-system-overview-for-Christie-Co
+- [P.007](Operations/_work/P.007-Project-prioritization-and-competitor-research.md) — P.007-Project-prioritization-and-competitor-research
+- [P.008](Operations/_work/P.008-StoreDash-client-and-investment-coordination.md) — P.008-StoreDash-client-and-investment-coordination
+- [P.009](Operations/_work/P.009-StoreDash-project-documentation-and-report-updates.md) — P.009-StoreDash-project-documentation-and-report-updates
+- [P.010](Operations/_work/P.010-SPINE-development-and-hardware-procurement.md) — P.010-SPINE-development-and-hardware-procurement
+- [P.011](Operations/_work/P.011-London-Crypto-Networking-Event-Attendance.md) — P.011-London-Crypto-Networking-Event-Attendance
+- [P.012](Operations/_work/P.012-Update-on-Charities-project-status.md) — P.012-Update-on-Charities-project-status
+- [P.013](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md) — P.013-St-James-AI-Networking-Event-Attendance
+- [P.014](Operations/_work/P.014-Project-roadmap-alignment-for-Christie.md) — P.014-Project-roadmap-alignment-for-Christie
+- [P.015](Operations/_work/P.015-AIFinTech-Mayfair-Networking-Lunch.md) — P.015-AIFinTech-Mayfair-Networking-Lunch
+- [P.016](Operations/_work/P.016-Import-Granola-Transcripts-for-Rasharp-Project.md) — P.016-Import-Granola-Transcripts-for-Rasharp-Project
+- [P.017](Operations/_work/P.017-Bellron-Project-Cursor-Work-Pipeline-Git-Commits.md) — P.017-Bellron-Project-Cursor-Work-Pipeline-Git-Commits
+- [P.018](Operations/_work/P.018-Kōdo-Engineering-Vision-Master-setup-and-dongle.md) — P.018-Kōdo-Engineering-Vision-Master-setup-and-dongle
+- [H.002](People/_work/H.002-tech-toast-attendee-outreach.md) — H.002-tech-toast-attendee-outreach
+- [H.003](People/_work/H.003-Review-compensation-and-workload-distribution.md) — H.003-Review-compensation-and-workload-distribution
+- [H.004](People/_work/H.004-People-Development-and-Learning-Framework.md) — H.004-People-Development-and-Learning-Framework
+- [H.005](People/_work/H.005-Onboarding-and-Integration-of-James-Lowman-CEO.md) — H.005-Onboarding-and-Integration-of-James-Lowman-CEO
+- [H.006](People/_work/H.006-CEO-recruitment-update-James-Lowman-withdrawal.md) — H.006-CEO-recruitment-update-James-Lowman-withdrawal
+- [H.007](People/_work/H.007-Potential-CEO-candidate-Ilann-Hepworth.md) — H.007-Potential-CEO-candidate-Ilann-Hepworth
+- [H.008](People/_work/H.008-Streamlining-Manager-Role-in-HR-Processes.md) — H.008-Streamlining-Manager-Role-in-HR-Processes
+- [H.009](People/_work/H.009-Paternity-Leave-Enquiry.md) — H.009-Paternity-Leave-Enquiry
+- [S.018](Services/_work/S.018-Nimbus-platform-access-and-subscription-management.md) — S.018-Nimbus-platform-access-and-subscription-management
+
+</details>
+
 ### Progression — ⛔ stalled
 
-**No work item has been advanced for 54 consecutive ticks** — 946 LLM call(s) failed; 195 item(s) blocked on approval or escalation.
+**No work item has been advanced for 55 consecutive ticks** — 990 LLM call(s) failed; 196 item(s) blocked on approval or escalation.
 
 First failure: `kie/gemini-2.5-flash: [422] The channel is not supported`
 
@@ -83,14 +363,14 @@ First failure: `kie/gemini-2.5-flash: [422] The channel is not supported`
 - **Latest move at**: 2026-09-07T10:23:40.354071+00:00
 - **Latest move**: You responded to Review: Voice Note Import Services Agreement.
 - **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
-- **Latest move tick**: 1448
+- **Latest move tick**: 1449
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-14T14:43:12.860222+00:00
 - **Turn tick**: 1334
 - **Turn commit**: 296b0346
-- **Window**: 173 ticks · 10 d 20 h
+- **Window**: 174 ticks · 10 d 21 h
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 7
 - **Elsewhere**: 109
@@ -101,10 +381,10 @@ First failure: `kie/gemini-2.5-flash: [422] The channel is not supported`
 | yours | 1486 | [Seed Crystallisation · RP-4](Operations/_contracts/seed-crystallisation.REVIEW.md#rp-4) | blocking — Implement inductive analysis as contracted — Amend the method if necessary, then compile and verify every obligation |
 | yours | 1382 | [O 437 Build Conversational Initiative Path](Operations/_work/O.437-build-conversational-initiative-path.md) | Progressed. |
 | yours | 1375 | [O 439 Build Contract Support Loop](Operations/_work/O.439-build-contract-support-loop.md) | Progressed. |
-| yours | 1374 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. You answered. |
-| yours | 1374 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. You answered. |
+| yours | 1374 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. You answered. |
+| yours | 1374 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. You answered. |
 | yours | 1374 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. You answered. |
-| yours | 1374 | [A 011 Retail Receipt](Accounts/_work/A.011-Retail-Receipt.md) | The company asked you about this. You answered. |
+| yours | 1374 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. You answered. |
 | elsewhere | 1504 | [Operations](Operations/dashboard.md) | Load 112 → 247 active. |
 | elsewhere | 1504 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-25)](Operations/_work/O.658-WhatsApp-digest-JatinMandipKash-2026-09-25.md) | Created. |
 | elsewhere | 1504 | [WhatsApp digest: Jatin Blocvey (2026-09-25)](Operations/_work/O.659-WhatsApp-digest-Jatin-Blocvey-2026-09-25.md) | Created. |
@@ -232,7 +512,6 @@ Nothing presented and unanswered.
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1448](_pipeline/reports/tick-1448.md) | 1250.1s | 257 | 0 | 0 | 0 |
 | [#1449](_pipeline/reports/tick-1449.md) | 120.3s | 0 | 0 | 0 | 0 |
 | [#1450](_pipeline/reports/tick-1450.md) | 1821.1s | 257 | 0 | 0 | 0 |
 | [#1451](_pipeline/reports/tick-1451.md) | 4652.6s | 257 | 0 | 0 | 0 |
@@ -292,6 +571,7 @@ Nothing presented and unanswered.
 | [#1505](_pipeline/reports/tick-1505.md) | 19.3s | 0 | 0 | 0 | 0 |
 | [#1506](_pipeline/reports/tick-1506.md) | 1840.3s | 276 | 0 | 0 | 0 |
 | [#1507](_pipeline/reports/tick-1507.md) | 67.2s | 0 | 0 | 0 | 0 |
+| [#1508](_pipeline/reports/tick-1508.md) | 3752.6s | 277 | 1 | 0 | 0 |
 
 ## Health
 
@@ -299,10 +579,10 @@ Nothing presented and unanswered.
 |----------|--------|--------|---------|------|
 | [Accounts](Accounts/dashboard.md) | 🔄 | 3 | 0 | 13 |
 | [Compliance](Compliance/dashboard.md) | ⏸️ | 10 | 1 | 13 |
-| [Operations](Operations/dashboard.md) | ⚠️ | 247 | 0 | 454 |
+| [Operations](Operations/dashboard.md) | ⚠️ | 248 | 0 | 454 |
 | [People](People/dashboard.md) | ⚠️ | 8 | 0 | 1 |
 | [Services](Services/dashboard.md) | 🔄 | 1 | 0 | 11 |
-| **Total** | | **269** | **1** | **492** |
+| **Total** | | **270** | **1** | **492** |
 
 ### Work Item Distribution
 
@@ -310,7 +590,7 @@ Nothing presented and unanswered.
 pie title Active Work Items by Function
     "Accounts" : 3
     "Compliance" : 10
-    "Operations" : 247
+    "Operations" : 248
     "People" : 8
     "Services" : 1
 ```
@@ -321,7 +601,7 @@ pie title Active Work Items by Function
 pie title Active Status Distribution
     "awaiting-approval" : 1
     "in-progress" : 13
-    "open" : 255
+    "open" : 256
     "submitted" : 1
 ```
 
@@ -482,16 +762,16 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1507
+**Total Ticks**: 1508
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-25 12:33 | 0 new, 0 synced |
-| github-sync | 🟢 Yes | ✅ ok | 2026-09-25 11:47 | 0 synced |
-| stream-deck | 🟢 Yes | ✅ ok | 2026-09-25 11:47 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 16 processed, 0 created |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-25 12:50 | 0 new, 0 synced |
+| github-sync | 🟢 Yes | ✅ ok | 2026-09-25 12:50 | 0 synced |
+| stream-deck | 🟢 Yes | ✅ ok | 2026-09-25 12:50 | 0 copied, 0 noise, 0 hal |
+| processor-discover | 🟢 Yes | ✅ ok | — | 8 processed, 1 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
-| whatsapp | 🟢 Yes | ✅ ok | 2026-09-25 11:47 | 0 processed, 0 failed |
+| whatsapp | 🟢 Yes | ✅ ok | 2026-09-25 12:50 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
 | hostinger | ⚪ No | — | — | — |
 | store-email | 🟢 Yes | — | — | — |
@@ -501,11 +781,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-25 12:50](_pipeline/logs/2026-09-25_12-50-21.md) | 3753s | [✓](_pipeline/logs/2026-09-25_12-50-21.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-25_12-50-21.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-25_12-50-21.md#processor-discover) 8 processed, 1 created | [✓](_pipeline/logs/2026-09-25_12-50-21.md#processor-progress) 0 progressed | $0.0000 | ~1.564g |
 | [2026-09-25 12:33](_pipeline/logs/2026-09-25_12-33-43.md) | 67s | [✓](_pipeline/logs/2026-09-25_12-33-43.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-25_12-33-43.md#processor-discover) 16 processed, 0 created | — | $0.0000 | ~0.028g |
 | [2026-09-25 11:47](_pipeline/logs/2026-09-25_11-47-33.md) | 1840s | [✓](_pipeline/logs/2026-09-25_11-47-33.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-25_11-47-33.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-25_11-47-33.md#processor-discover) 2 processed, 0 created | [✓](_pipeline/logs/2026-09-25_11-47-33.md#processor-progress) 0 progressed | $0.0000 | ~0.767g |
 | [2026-09-25 11:31](_pipeline/logs/2026-09-25_11-31-42.md) | 19s | [✓](_pipeline/logs/2026-09-25_11-31-42.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-25_11-31-42.md#processor-discover) 1 processed, 0 created | — | $0.0000 | ~0.008g |
 | [2026-09-25 10:42](_pipeline/logs/2026-09-25_10-42-29.md) | 2017s | [✓](_pipeline/logs/2026-09-25_10-42-29.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-25_10-42-29.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-25_10-42-29.md#processor-discover) 3 processed, 2 created | [✓](_pipeline/logs/2026-09-25_10-42-29.md#processor-progress) 0 progressed | $0.0000 | ~0.840g |
-| [2026-09-25 10:26](_pipeline/logs/2026-09-25_10-26-41.md) | 20s | [✓](_pipeline/logs/2026-09-25_10-26-41.md#icloud-email) 0 new, 0 synced | — | [✓](_pipeline/logs/2026-09-25_10-26-41.md#processor-discover) 0 processed, 0 created | — | $0.0000 | ~0.009g |
 
 ### Source Topology
 
@@ -548,7 +828,7 @@ flowchart TD
 | [Github Issue Sync](Operations/_contracts/github-issue-sync.README.md) | Operations | per-tick | — | ⚪ No |
 | [Icloud Email Import](Operations/_contracts/icloud-email-import.README.md) | Operations | per-tick | — | ⚪ No |
 | [Impact Cascade](Operations/_contracts/impact-cascade.README.md) | Operations | per-tick | 2026-08-25 11:40 | 🟢 Yes |
-| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-25 11:52 | 🟢 Yes |
+| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-25 13:26 | 🟢 Yes |
 | [Learn The User](Operations/_contracts/learn-the-user.README.md) | Operations | per-tick | — | ⚪ No |
 | [Seed Crystallisation](Operations/_contracts/seed-crystallisation.README.md) | Operations | per-tick | 2026-08-24 15:27 | 🟢 Yes |
 | [Stack Improvement](Operations/_contracts/stack-improvement.README.md) | Operations | weekly | — | ⚪ No |
@@ -590,7 +870,7 @@ flowchart TD
 
 | Metric | Value |
 |--------|-------|
-| Notes | 2249 |
+| Notes | 2256 |
 | Themes | 23 |
 | Coverage | 10.9% |
 
