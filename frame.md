@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1508` · 2026-09-25 11:50 UTC
+`FRAME #1509` · 2026-09-25 13:08 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1508** · 174 ticks · 10 d 21 h · `296b0346` · dashboards + tick reports
+**#1334 → #1509** · 175 ticks · 10 d 22 h · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -19,17 +19,17 @@
 | 1486 | [Seed Crystallisation · RP-4](Operations/_contracts/seed-crystallisation.REVIEW.md#rp-4) | blocking — Implement inductive analysis as contracted — Amend the method if necessary, then compile and verify every obligation |
 | 1382 | [O 437 Build Conversational Initiative Path](Operations/_work/O.437-build-conversational-initiative-path.md) | Progressed. |
 | 1375 | [O 439 Build Contract Support Loop](Operations/_work/O.439-build-contract-support-loop.md) | Progressed. |
-| 1374 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. You answered. |
-| 1374 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. You answered. |
-| 1374 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. You answered. |
+| 1374 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. You answered. |
 | 1374 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. You answered. |
+| 1374 | [A 011 Retail Receipt](Accounts/_work/A.011-Retail-Receipt.md) | The company asked you about this. You answered. |
+| 1374 | [A 005 Privacy Screen Protector](Accounts/_work/A.005-privacy-screen-protector.md) | The company asked you about this. You answered. |
 
 **Elsewhere**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1504 | [Operations](Operations/dashboard.md) | Load 112 → 247 active. |
-| 1504 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-25)](Operations/_work/O.658-WhatsApp-digest-JatinMandipKash-2026-09-25.md) | Created. |
+| 1508 | [Operations](Operations/dashboard.md) | Load 112 → 248 active. |
+| 1508 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-25)](Operations/_work/O.658-WhatsApp-digest-JatinMandipKash-2026-09-25.md) | Created. |
 | 1504 | [WhatsApp digest: Jatin Blocvey (2026-09-25)](Operations/_work/O.659-WhatsApp-digest-Jatin-Blocvey-2026-09-25.md) | Created. |
 | 1501 | [AI Session for OurCOOP](projects/store-dash/_work/SD.336-AI-Session-for-OurCOOP.md) | Created. |
 | 1498 | [WhatsApp digest: Kōdo Engineering (2026-09-24)](Operations/_work/O.657-WhatsApp-digest-Kōdo-Engineering-2026-09-24.md) | Created. |
@@ -138,7 +138,7 @@
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 4 progressed, 112 created, 7404 inspected without change.
+Beneath it: 4 progressed, 113 created, 7681 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -153,16 +153,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▃▄▄▅▃▅▁▄▃▄▃▅▅▃▄▄██▂▂▄▃▅▂▄▁▄▂▄▁▄▁▄▁▄▂▄▄▂▅▁▄▂▅▃▄▁▅▃▅▃▄▅▄▁▇▁▄▃▅
+█▄▄▅▃▅▁▄▃▄▃▅▅▃▄▄██▂▂▄▃▅▂▄▁▄▂▄▁▄▁▄▁▄▂▄▄▂▅▁▄▂▅▃▄▁▅▃▅▃▄▅▄▁▇▁▄▃▅█
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 18 d 2 h   (frames #1449 → #1508)
+▁–█ tick-report activity · 60 reports · 18 d 3 h   (frames #1450 → #1509)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 18 d 2 h |
+| Time since latest move | 18 d 3 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -262,13 +262,13 @@ Nothing is waiting on you. The company may still have work to do.
 
 ---
 
-## ▦ Functions — 321 active · 676 done
+## ▦ Functions — 324 active · 676 done
 
 | | Function | Active | Done | Load |
 |---|---|---:|---:|---|
 | 🔄 | [Accounts](Accounts/dashboard.md) | 3 | 13 | `██▁▁▁▁▁▁▁▁` |
 | ⏸️ | [Compliance](Compliance/dashboard.md) | 10 | 13 | `████▁▁▁▁▁▁` |
-| ⚠️ | [Operations](Operations/dashboard.md) | 248 | 454 | `████▁▁▁▁▁▁` |
+| ⚠️ | [Operations](Operations/dashboard.md) | 251 | 454 | `████▁▁▁▁▁▁` |
 | ⚠️ | [People](People/dashboard.md) | 8 | 1 | `█████████▁` |
 | 🔄 | [Services](Services/dashboard.md) | 1 | 11 | `█▁▁▁▁▁▁▁▁▁` |
 | ✅ | [5et.aiguy.cloud](projects/5et.aiguy.cloud/README.md) | 0 | 0 | `▁▁▁▁▁▁▁▁▁▁` |
@@ -313,4 +313,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-16 12:15 | company | Turn settled · A.005 |
 | 09-16 08:50 | company | Cue published · A.019 |
 
-<sub>Rendered from the repo at frame #1508 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1509 · immediate mode, no client state</sub>
