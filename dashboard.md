@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1539.md" style="font-size:11px; color:#5f6368;">#1539</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1540.md" style="font-size:11px; color:#5f6368;">#1540</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -43,7 +43,7 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1539](_pipeline/reports/tick-1539.md)** · 2026-09-30 15:08 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1540](_pipeline/reports/tick-1540.md)** · 2026-09-30 16:20 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -348,7 +348,7 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ### Progression — ⛔ stalled
 
-**No work item has been advanced for 82 consecutive ticks** — 1562 LLM call(s) failed; 211 item(s) blocked on approval or escalation.
+**No work item has been advanced for 83 consecutive ticks** — 1574 LLM call(s) failed; 211 item(s) blocked on approval or escalation.
 
 First failure: `kie/gemini-2.5-flash: [422] The channel is not supported`
 
@@ -380,18 +380,18 @@ First failure: `kie/gemini-2.5-flash: [422] The channel is not supported`
 - **Latest move at**: 2026-09-07T10:23:40.354071+00:00
 - **Latest move**: You responded to Review: Voice Note Import Services Agreement.
 - **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
-- **Latest move tick**: 1480
+- **Latest move tick**: 1481
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-14T14:43:12.860222+00:00
 - **Turn tick**: 1334
 - **Turn commit**: 296b0346
-- **Window**: 205 ticks · 16 d 0 h
+- **Window**: 206 ticks · 16 d 1 h
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 7
 - **Elsewhere**: 125
-- **Beneath**: 4 progressed, 131 created, 15225 inspected without change
+- **Beneath**: 4 progressed, 131 created, 15519 inspected without change
 
 | Scope | Tick | Item | Summary |
 |---|---:|---|---|
@@ -399,9 +399,9 @@ First failure: `kie/gemini-2.5-flash: [422] The channel is not supported`
 | yours | 1382 | [O 437 Build Conversational Initiative Path](Operations/_work/O.437-build-conversational-initiative-path.md) | Progressed. |
 | yours | 1375 | [O 439 Build Contract Support Loop](Operations/_work/O.439-build-contract-support-loop.md) | Progressed. |
 | yours | 1374 | [A 005 Privacy Screen Protector](Accounts/_work/A.005-privacy-screen-protector.md) | The company asked you about this. You answered. |
-| yours | 1374 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. You answered. |
 | yours | 1374 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. You answered. |
-| yours | 1374 | [A 011 Retail Receipt](Accounts/_work/A.011-Retail-Receipt.md) | The company asked you about this. You answered. |
+| yours | 1374 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. You answered. |
+| yours | 1374 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. You answered. |
 | elsewhere | 1534 | [Operations](Operations/dashboard.md) | Load 112 → 265 active. |
 | elsewhere | 1534 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-30)](Operations/_work/O.677-WhatsApp-digest-JatinMandipKash-2026-09-30.md) | Created. |
 | elsewhere | 1533 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-29)](Operations/_work/O.676-WhatsApp-digest-JatinMandipKash-2026-09-29.md) | Created. |
@@ -545,7 +545,6 @@ Nothing presented and unanswered.
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1480](_pipeline/reports/tick-1480.md) | 9.2s | 0 | 0 | 0 | 0 |
 | [#1481](_pipeline/reports/tick-1481.md) | 1358.9s | 269 | 0 | 0 | 0 |
 | [#1482](_pipeline/reports/tick-1482.md) | 8.0s | 0 | 0 | 0 | 0 |
 | [#1483](_pipeline/reports/tick-1483.md) | 1431.7s | 269 | 0 | 0 | 0 |
@@ -605,6 +604,7 @@ Nothing presented and unanswered.
 | [#1537](_pipeline/reports/tick-1537.md) | 4756.8s | 294 | 0 | 0 | 0 |
 | [#1538](_pipeline/reports/tick-1538.md) | 3397.8s | 294 | 0 | 0 | 0 |
 | [#1539](_pipeline/reports/tick-1539.md) | 3372.5s | 294 | 0 | 0 | 0 |
+| [#1540](_pipeline/reports/tick-1540.md) | 3031.2s | 294 | 0 | 0 | 0 |
 
 ## Health
 
@@ -963,16 +963,16 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1539
+**Total Ticks**: 1540
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-30 16:08 | 0 new, 0 synced |
-| github-sync | 🟢 Yes | ✅ ok | 2026-09-30 16:08 | 0 synced |
-| stream-deck | 🟢 Yes | ✅ ok | 2026-09-30 16:08 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 19 processed, 0 created |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-09-30 17:20 | 0 new, 0 synced |
+| github-sync | 🟢 Yes | ✅ ok | 2026-09-30 17:20 | 0 synced |
+| stream-deck | 🟢 Yes | ✅ ok | 2026-09-30 17:20 | 0 copied, 0 noise, 0 hal |
+| processor-discover | 🟢 Yes | ✅ ok | — | 6 processed, 0 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
-| whatsapp | 🟢 Yes | ✅ ok | 2026-09-30 16:08 | 0 processed, 0 failed |
+| whatsapp | 🟢 Yes | ✅ ok | 2026-09-30 17:20 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
 | hostinger | ⚪ No | — | — | — |
 | store-email | 🟢 Yes | — | — | — |
@@ -982,11 +982,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-09-30 17:20](_pipeline/logs/2026-09-30_17-20-28.md) | 3031s | [✓](_pipeline/logs/2026-09-30_17-20-28.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-30_17-20-28.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-30_17-20-28.md#processor-discover) 6 processed, 0 created | [✓](_pipeline/logs/2026-09-30_17-20-28.md#processor-progress) 0 progressed | $0.0000 | ~1.263g |
 | [2026-09-30 16:08](_pipeline/logs/2026-09-30_16-08-29.md) | 3373s | [✓](_pipeline/logs/2026-09-30_16-08-29.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-30_16-08-29.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-30_16-08-29.md#processor-discover) 19 processed, 0 created | [✓](_pipeline/logs/2026-09-30_16-08-29.md#processor-progress) 0 progressed | $0.0000 | ~1.405g |
 | [2026-09-30 14:56](_pipeline/logs/2026-09-30_14-56-12.md) | 3398s | [✓](_pipeline/logs/2026-09-30_14-56-12.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-30_14-56-12.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-30_14-56-12.md#processor-discover) 20 processed, 0 created | [✓](_pipeline/logs/2026-09-30_14-56-12.md#processor-progress) 0 progressed | $0.0000 | ~1.416g |
 | [2026-09-30 13:21](_pipeline/logs/2026-09-30_13-21-20.md) | 4757s | [✓](_pipeline/logs/2026-09-30_13-21-20.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-30_13-21-20.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-30_13-21-20.md#processor-discover) 7 processed, 0 created | [✓](_pipeline/logs/2026-09-30_13-21-20.md#processor-progress) 0 progressed | $0.0000 | ~1.982g |
 | [2026-09-30 12:19](_pipeline/logs/2026-09-30_12-19-38.md) | 2768s | [✓](_pipeline/logs/2026-09-30_12-19-38.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-30_12-19-38.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-30_12-19-38.md#processor-discover) 4 processed, 0 created | [✓](_pipeline/logs/2026-09-30_12-19-38.md#processor-progress) 0 progressed | $0.0000 | ~1.153g |
-| [2026-09-30 11:10](_pipeline/logs/2026-09-30_11-10-08.md) | 3231s | [✓](_pipeline/logs/2026-09-30_11-10-08.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-30_11-10-08.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-30_11-10-08.md#processor-discover) 2 processed, 0 created | [✓](_pipeline/logs/2026-09-30_11-10-08.md#processor-progress) 0 progressed | $0.0000 | ~1.346g |
 
 ### Source Topology
 
@@ -1029,7 +1029,7 @@ flowchart TD
 | [Github Issue Sync](Operations/_contracts/github-issue-sync.README.md) | Operations | per-tick | — | ⚪ No |
 | [Icloud Email Import](Operations/_contracts/icloud-email-import.README.md) | Operations | per-tick | — | ⚪ No |
 | [Impact Cascade](Operations/_contracts/impact-cascade.README.md) | Operations | per-tick | 2026-08-25 11:40 | 🟢 Yes |
-| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-30 16:15 | 🟢 Yes |
+| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-30 17:27 | 🟢 Yes |
 | [Learn The User](Operations/_contracts/learn-the-user.README.md) | Operations | per-tick | — | ⚪ No |
 | [Seed Crystallisation](Operations/_contracts/seed-crystallisation.README.md) | Operations | per-tick | 2026-08-24 15:27 | 🟢 Yes |
 | [Stack Improvement](Operations/_contracts/stack-improvement.README.md) | Operations | weekly | — | ⚪ No |
@@ -1071,7 +1071,7 @@ flowchart TD
 
 | Metric | Value |
 |--------|-------|
-| Notes | 2544 |
+| Notes | 2550 |
 | Themes | 24 |
 | Coverage | 10.9% |
 
