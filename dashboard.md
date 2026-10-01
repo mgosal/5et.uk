@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1540.md" style="font-size:11px; color:#5f6368;">#1540</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1541.md" style="font-size:11px; color:#5f6368;">#1541</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -43,13 +43,13 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1540](_pipeline/reports/tick-1540.md)** · 2026-09-30 16:20 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1541](_pipeline/reports/tick-1541.md)** · 2026-10-01 08:18 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
 - No durable work-item changes in this tick.
 
-<details><summary>Inspected without change (292)</summary>
+<details><summary>Inspected without change (295)</summary>
 
 - [A.005](Accounts/_work/A.005-privacy-screen-protector.md) — A.005-privacy-screen-protector
 - [A.011](Accounts/_work/A.011-Retail-Receipt.md) — A.011-Retail-Receipt
@@ -318,6 +318,9 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 - [O.675](Operations/_work/O.675-Final-Call-To-Book-Your-Place-On-Next-Thursdays-Breakfast-Gu.md) — O.675-Final-Call-To-Book-Your-Place-On-Next-Thursdays-Breakfast-Gu
 - [O.676](Operations/_work/O.676-WhatsApp-digest-JatinMandipKash-2026-09-29.md) — O.676-WhatsApp-digest-JatinMandipKash-2026-09-29
 - [O.677](Operations/_work/O.677-WhatsApp-digest-JatinMandipKash-2026-09-30.md) — O.677-WhatsApp-digest-JatinMandipKash-2026-09-30
+- [O.678](Operations/_work/O.678-WhatsApp-digest-JatinMandipKash-2026-09-30.md) — O.678-WhatsApp-digest-JatinMandipKash-2026-09-30
+- [O.679](Operations/_work/O.679-GitHub-Claude-is-requesting-updated-permissions.md) — O.679-GitHub-Claude-is-requesting-updated-permissions
+- [O.680](Operations/_work/O.680-WhatsApp-digest-Kash-Khera-2026-10-01.md) — O.680-WhatsApp-digest-Kash-Khera-2026-10-01
 - [P.003](Operations/_work/P.003-Integration-of-courier-services-into-SPINE.md) — P.003-Integration-of-courier-services-into-SPINE
 - [P.004](Operations/_work/P.004-RightStore-Nimbus-Proposal-V2-Review.md) — P.004-RightStore-Nimbus-Proposal-V2-Review
 - [P.005](Operations/_work/P.005-RightStore-by-Nimbus-deck-development.md) — P.005-RightStore-by-Nimbus-deck-development
@@ -348,7 +351,7 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ### Progression — ⛔ stalled
 
-**No work item has been advanced for 83 consecutive ticks** — 1574 LLM call(s) failed; 211 item(s) blocked on approval or escalation.
+**No work item has been advanced for 84 consecutive ticks** — 1584 LLM call(s) failed; 214 item(s) blocked on approval or escalation.
 
 First failure: `kie/gemini-2.5-flash: [422] The channel is not supported`
 
@@ -380,28 +383,28 @@ First failure: `kie/gemini-2.5-flash: [422] The channel is not supported`
 - **Latest move at**: 2026-09-07T10:23:40.354071+00:00
 - **Latest move**: You responded to Review: Voice Note Import Services Agreement.
 - **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
-- **Latest move tick**: 1481
+- **Latest move tick**: 1482
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-14T14:43:12.860222+00:00
 - **Turn tick**: 1334
 - **Turn commit**: 296b0346
-- **Window**: 206 ticks · 16 d 1 h
+- **Window**: 207 ticks · 16 d 17 h
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 7
 - **Elsewhere**: 125
-- **Beneath**: 4 progressed, 131 created, 15519 inspected without change
+- **Beneath**: 4 progressed, 131 created, 15813 inspected without change
 
 | Scope | Tick | Item | Summary |
 |---|---:|---|---|
 | yours | 1486 | [Seed Crystallisation · RP-4](Operations/_contracts/seed-crystallisation.REVIEW.md#rp-4) | blocking — Implement inductive analysis as contracted — Amend the method if necessary, then compile and verify every obligation |
 | yours | 1382 | [O 437 Build Conversational Initiative Path](Operations/_work/O.437-build-conversational-initiative-path.md) | Progressed. |
 | yours | 1375 | [O 439 Build Contract Support Loop](Operations/_work/O.439-build-contract-support-loop.md) | Progressed. |
-| yours | 1374 | [A 005 Privacy Screen Protector](Accounts/_work/A.005-privacy-screen-protector.md) | The company asked you about this. You answered. |
+| yours | 1374 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. You answered. |
+| yours | 1374 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. You answered. |
 | yours | 1374 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. You answered. |
 | yours | 1374 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. You answered. |
-| yours | 1374 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. You answered. |
 | elsewhere | 1534 | [Operations](Operations/dashboard.md) | Load 112 → 265 active. |
 | elsewhere | 1534 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-30)](Operations/_work/O.677-WhatsApp-digest-JatinMandipKash-2026-09-30.md) | Created. |
 | elsewhere | 1533 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-29)](Operations/_work/O.676-WhatsApp-digest-JatinMandipKash-2026-09-29.md) | Created. |
@@ -545,7 +548,6 @@ Nothing presented and unanswered.
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1481](_pipeline/reports/tick-1481.md) | 1358.9s | 269 | 0 | 0 | 0 |
 | [#1482](_pipeline/reports/tick-1482.md) | 8.0s | 0 | 0 | 0 | 0 |
 | [#1483](_pipeline/reports/tick-1483.md) | 1431.7s | 269 | 0 | 0 | 0 |
 | [#1484](_pipeline/reports/tick-1484.md) | 47.6s | 0 | 0 | 0 | 0 |
@@ -605,6 +607,7 @@ Nothing presented and unanswered.
 | [#1538](_pipeline/reports/tick-1538.md) | 3397.8s | 294 | 0 | 0 | 0 |
 | [#1539](_pipeline/reports/tick-1539.md) | 3372.5s | 294 | 0 | 0 | 0 |
 | [#1540](_pipeline/reports/tick-1540.md) | 3031.2s | 294 | 0 | 0 | 0 |
+| [#1541](_pipeline/reports/tick-1541.md) | 3949.0s | 297 | 3 | 0 | 0 |
 
 ## Health
 
@@ -612,10 +615,10 @@ Nothing presented and unanswered.
 |----------|--------|--------|---------|------|
 | [Accounts](Accounts/dashboard.md) | 🔄 | 3 | 0 | 13 |
 | [Compliance](Compliance/dashboard.md) | ⏸️ | 10 | 1 | 13 |
-| [Operations](Operations/dashboard.md) | ⚠️ | 265 | 0 | 454 |
+| [Operations](Operations/dashboard.md) | ⚠️ | 268 | 0 | 454 |
 | [People](People/dashboard.md) | ⚠️ | 8 | 0 | 1 |
 | [Services](Services/dashboard.md) | 🔄 | 1 | 0 | 11 |
-| **Total** | | **287** | **1** | **492** |
+| **Total** | | **290** | **1** | **492** |
 
 ### Work Item Distribution
 
@@ -623,7 +626,7 @@ Nothing presented and unanswered.
 pie title Active Work Items by Function
     "Accounts" : 3
     "Compliance" : 10
-    "Operations" : 265
+    "Operations" : 268
     "People" : 8
     "Services" : 1
 ```
@@ -634,7 +637,7 @@ pie title Active Work Items by Function
 pie title Active Status Distribution
     "awaiting-approval" : 1
     "in-progress" : 13
-    "open" : 273
+    "open" : 276
     "submitted" : 1
 ```
 
@@ -728,251 +731,256 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Function | Item | Reason | Link |
 |----------|------|--------|------|
-| Accounts | The Fox & Hounds, Whittlebury — Business | Open 126 days | [A.011](Accounts/_work/A.011-Retail-Receipt.md) |
-| Accounts | Record purchase order AOL223460870 | Open 36 days | [A.026](Accounts/_work/A.026-Record-purchase-order-AOL223460870.md) |
-| Compliance | Register for Corporation Tax | Open 138 days | [C.004.1](Compliance/_work/C.004.1-Register-for-corporation-tax.md) |
-| Compliance | Assess VAT registration requirement | Open 138 days | [C.004.2](Compliance/_work/C.004.2-Assess-VAT-registration.md) |
-| Compliance | virtual-office-service-address.md | Open 130 days | [C.015](Compliance/_work/C.015-virtual-office-service-addressmd.md) |
-| Compliance | ICO Data Protection Fee Direct Debit Con | Open 98 days | [C.017](Compliance/_work/C.017-ICO-Data-Protection-Fee-Direct-Debit-Confirmation.md) |
-| Compliance | BYOD Policy Review and Compliance | Open 96 days | [C.021](Compliance/_work/C.021-BYOD-Policy-Review-and-Compliance.md) |
-| Compliance | Health and Safety compliance process imp | Open 93 days | [C.028](Compliance/_work/C.028-Health-and-Safety-compliance-process-implementation.md) |
-| Compliance | EU AI Act Article 52 Compliance | Open 93 days | [C.029](Compliance/_work/C.029-EU-AI-Act-Article-52-Compliance.md) |
-| Compliance | Compliance: Employment Rights Act s.1 co | Open 93 days | [C.034](Compliance/_work/C.034-Compliance-Employment-Rights-Act-s1-contract.md) |
-| Compliance | LLM processing of personal data — risk | Open 35 days | [C.036](Compliance/_work/C.036-LLM-processing-of-personal-data-risk.md) |
+| Accounts | The Fox & Hounds, Whittlebury — Business | Open 127 days | [A.011](Accounts/_work/A.011-Retail-Receipt.md) |
+| Accounts | Record purchase order AOL223460870 | Open 37 days | [A.026](Accounts/_work/A.026-Record-purchase-order-AOL223460870.md) |
+| Compliance | Register for Corporation Tax | Open 139 days | [C.004.1](Compliance/_work/C.004.1-Register-for-corporation-tax.md) |
+| Compliance | Assess VAT registration requirement | Open 139 days | [C.004.2](Compliance/_work/C.004.2-Assess-VAT-registration.md) |
+| Compliance | virtual-office-service-address.md | Open 131 days | [C.015](Compliance/_work/C.015-virtual-office-service-addressmd.md) |
+| Compliance | ICO Data Protection Fee Direct Debit Con | Open 99 days | [C.017](Compliance/_work/C.017-ICO-Data-Protection-Fee-Direct-Debit-Confirmation.md) |
+| Compliance | BYOD Policy Review and Compliance | Open 97 days | [C.021](Compliance/_work/C.021-BYOD-Policy-Review-and-Compliance.md) |
+| Compliance | Health and Safety compliance process imp | Open 94 days | [C.028](Compliance/_work/C.028-Health-and-Safety-compliance-process-implementation.md) |
+| Compliance | EU AI Act Article 52 Compliance | Open 94 days | [C.029](Compliance/_work/C.029-EU-AI-Act-Article-52-Compliance.md) |
+| Compliance | Compliance: Employment Rights Act s.1 co | Open 94 days | [C.034](Compliance/_work/C.034-Compliance-Employment-Rights-Act-s1-contract.md) |
+| Compliance | LLM processing of personal data — risk | Open 36 days | [C.036](Compliance/_work/C.036-LLM-processing-of-personal-data-risk.md) |
 | Compliance | Anonymous User Experience and Contract F | Awaiting input | [C.037](Compliance/_work/C.037-Anonymous-User-Experience-and-Contract-Framework.md) |
-| Compliance | Request for PSC code for Blocvey Ltd con | Open 15 days | [C.038](Compliance/_work/C.038-Request-for-PSC-code-for-Blocvey-Ltd-confirmation-statement.md) |
-| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 48 days | [I.004](Operations/_work/I.004-WhatsApp-digest-JatinMandipKash-2026-08-12.md) |
-| Operations | InstantID tool exploration | Open 47 days | [I.005](Operations/_work/I.005-InstantID-tool-exploration.md) |
-| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 36 days | [I.006](Operations/_work/I.006-WhatsApp-digest-JatinMandipKash-2026-08-25.md) |
-| Operations | StoreDash WhatsApp digest (2026-08-26) | Open 35 days | [I.007](Operations/_work/I.007-StoreDash-WhatsApp-digest-2026-08-26.md) |
-| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 35 days | [I.008](Operations/_work/I.008-WhatsApp-digest-JatinMandipKash-2026-08-26.md) |
-| Operations | Networking event invitation: AI & FinTec | Open 32 days | [I.009](Operations/_work/I.009-Networking-event-invitation-AI-FinTech-drinks.md) |
-| Operations | WhatsApp digest for Kash Khera | Open 19 days | [I.010](Operations/_work/I.010-WhatsApp-digest-for-Kash-Khera.md) |
-| Operations | Idea: Codify processes into the stack | Open 16 days | [I.011](Operations/_work/I.011-Idea-Codify-processes-into-the-stack.md) |
-| Operations | Disk graph vs Finder recent view pattern | Open 16 days | [I.012](Operations/_work/I.012-Disk-graph-vs-Finder-recent-view-pattern.md) |
-| Operations | Meeting Transcript: Mandip, Jody, Belron | Open 16 days | [I.013](Operations/_work/I.013-Meeting-Transcript-Mandip-Jody-Belron-Demo-Videos.md) |
-| Operations | Incomplete note on meeting recording | Open 16 days | [I.014](Operations/_work/I.014-Incomplete-note-on-meeting-recording.md) |
-| Operations | Stream Deck voice recording observation | Open 16 days | [I.015](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) |
-| Operations | AI employee slide intro should not be si | Open 16 days | [I.016](Operations/_work/I.016-AI-employee-slide-intro-should-not-be-silent.md) |
-| Operations | Observation: Intro duration and sound ch | Open 16 days | [I.017](Operations/_work/I.017-Observation-Intro-duration-and-sound-characteristics.md) |
-| Operations | Indexed Model vs. LLM: Muse-Glimmer | Open 16 days | [I.018](Operations/_work/I.018-Indexed-Model-vs-LLM-Muse-Glimmer.md) |
-| Operations | Manager Demo Flow and Audio Observations | Open 15 days | [I.019](Operations/_work/I.019-Manager-Demo-Flow-and-Audio-Observations.md) |
-| Operations | Observation: Reduce call pauses for bett | Open 15 days | [I.020](Operations/_work/I.020-Observation-Reduce-call-pauses-for-better-flow.md) |
-| Operations | Upstream and Downstream Integrations Con | Open 15 days | [I.021](Operations/_work/I.021-Upstream-and-Downstream-Integrations-Concept.md) |
-| Operations | Record of RightStore-3 Bootstrap Command | Open 15 days | [I.022](Operations/_work/I.022-Record-of-RightStore-3-Bootstrap-Command.md) |
-| Operations | Apple Developer Program Enrollment | Open 86 days | [O.008](Operations/_work/O.008-Apple-Developer-Program-Enrollment.md) |
-| Operations | Migrate Winston app to Ema Next | Open 82 days | [O.009](Operations/_work/O.009-Migrate-Winston-app-to-Ema-Next.md) |
-| Operations | Review of new SDLC process flow | Open 40 days | [O.403](Operations/_work/O.403-Review-of-new-SDLC-process-flow.md) |
-| Operations | Attention Event Experiment | Open 37 days | [O.424](Operations/_work/O.424-attention-event-experiment.md) |
-| Operations | Stream Deck Attention Mode | Open 37 days | [O.430](Operations/_work/O.430-stream-deck-attention-mode.md) |
-| Operations | Build Conversational Initiative Path | Open 37 days | [O.437](Operations/_work/O.437-build-conversational-initiative-path.md) |
-| Operations | Build Contract Support Loop | Open 37 days | [O.439](Operations/_work/O.439-build-contract-support-loop.md) |
-| Operations | Contract Support: Seed Crystallisation | Open 37 days | [O.440](Operations/_work/O.440-contract-support-seed-crystallisation.md) |
-| Operations | Complete Contract-Support Loop | Open 36 days | [O.445](Operations/_work/O.445-complete-contract-support-loop.md) |
-| Operations | Refine Cloud Connect Direction | Open 37 days | [O.447](Operations/_work/O.447-refine-cloud-connect-direction.md) |
-| Operations | Set Up Paid Consulting Engagement — Alph | Open 36 days | [O.449](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) |
-| Operations | Bootstrap Impact Cascade | Open 36 days | [O.456](Operations/_work/O.456-bootstrap-impact-cascade.md) |
-| Operations | Supply chain constraints on hardware pro | Open 36 days | [O.458](Operations/_work/O.458-Supply-chain-constraints-on-hardware-procurement.md) |
-| Operations | Pipeline commits only its own work | Open 36 days | [O.459](Operations/_work/O.459-pipeline-commit-scope.md) |
-| Operations | Ingest filter discarded an order confirm | Open 36 days | [O.460](Operations/_work/O.460-ingest-filter-discarded-order-confirmation.md) |
-| Operations | Who reviews contracts | Open 36 days | [O.461](Operations/_work/O.461-contract-review-capacity.md) |
-| Operations | Wire Cortex local inference path | Open 35 days | [O.462](Operations/_work/O.462-Wire-Cortex-local-inference-path.md) |
-| Operations | Inference tier field and tier-grouped ex | Open 35 days | [O.463](Operations/_work/O.463-Inference-tier-field-and-tier-grouped-execution.md) |
-| Operations | Confidential computing index | Open 35 days | [O.464](Operations/_work/O.464-Confidential-computing-index.md) |
-| Operations | Research Corpus Residual Repair | Open 35 days | [O.465](Operations/_work/O.465-research-corpus-residual-repair.md) |
-| Operations | Make dashboard.md the sole frame input | Open 35 days | [O.466](Operations/_work/O.466-make-dashboard-the-sole-frame-input.md) |
-| Operations | Record durable human moves from agent se | Open 35 days | [O.467](Operations/_work/O.467-record-durable-human-moves-from-agent-sessions.md) |
-| Operations | Register for St. James AI, Tech + Relate | Open 33 days | [O.468](Operations/_work/O.468-Register-for-St-James-AI-Tech-Related-event.md) |
-| Operations | Automated Contract Review Phase | Open 29 days | [O.471](Operations/_work/O.471-Automated-contract-review-phase.md) |
-| Operations | Harden attention reconciliation and pipe | Open 29 days | [O.472](Operations/_work/O.472-harden-attention-reconciliation-and-pipeline-throughput.md) |
-| Operations | Bootstrap bionic ingest pipeline | Open 20 days | [O.473](Operations/_work/O.473-Bootstrap-bionic-ingest-pipeline.md) |
-| Operations | Your Flow Pro access ends soon ⏳ | Open 19 days | [O.474](Operations/_work/O.474-Your-Flow-Pro-access-ends-soon.md) |
-| Operations | 📅  Just scheduled: THE GARAGE BAND @ Bro | Open 19 days | [O.475](Operations/_work/O.475-Just-scheduled-THE-GARAGE-BAND-Bromsgrove-Sports-Club---Tkts.md) |
-| Operations | Welcome to BrumAI - Birmingham Artificia | Open 19 days | [O.476](Operations/_work/O.476-Welcome-to-BrumAI---Birmingham-Artificial-Intelligence-Meetu.md) |
-| Operations | WhatsApp digest: StoreDash Discussions ( | Open 19 days | [O.477](Operations/_work/O.477-WhatsApp-digest-StoreDash-Discussions-2026-09-07.md) |
-| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 19 days | [O.478](Operations/_work/O.478-WhatsApp-digest-JatinMandipKash-2026-09-08.md) |
-| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 19 days | [O.479](Operations/_work/O.479-WhatsApp-digest-JatinMandipKash-2026-09-09.md) |
-| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 19 days | [O.480](Operations/_work/O.480-WhatsApp-digest-JatinMandipKash-2026-09-10.md) |
-| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 19 days | [O.481](Operations/_work/O.481-WhatsApp-digest-JatinMandipKash-2026-09-11.md) |
-| Operations | One-click Postgres major version upgrade | Open 18 days | [O.482](Operations/_work/O.482-One-click-Postgres-major-version-upgrades-email-forwarding-f.md) |
-| Operations | I actually like this mech mechanism. I.. | Open 18 days | [O.483](Operations/_work/O.483-I-actually-like-this-mech-mechanism-I.md) |
-| Operations | WhatsApp digest: Kash Khera (2026-09-12) | Open 16 days | [O.484](Operations/_work/O.484-WhatsApp-digest-Kash-Khera-2026-09-12.md) |
-| Operations | WhatsApp digest: StoreDash Discussions ( | Open 16 days | [O.485](Operations/_work/O.485-WhatsApp-digest-StoreDash-Discussions-2026-09-12.md) |
-| Operations | 📣  Your new group is waiting for you | Open 16 days | [O.486](Operations/_work/O.486-Your-new-group-is-waiting-for-you.md) |
-| Operations | WhatsApp digest: Kōdo Engineering (2026- | Open 16 days | [O.487](Operations/_work/O.487-WhatsApp-digest-Kōdo-Engineering-2026-09-13.md) |
-| Operations | BlackEyeCollective has invited you to be | Open 16 days | [O.488](Operations/_work/O.488-BlackEyeCollective-has-invited-you-to-be-their-account-succe.md) |
-| Operations | WhatsApp digest: Jatin Blocvey (2026-09- | Open 16 days | [O.489](Operations/_work/O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14.md) |
-| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 16 days | [O.490](Operations/_work/O.490-WhatsApp-digest-JatinMandipKash-2026-09-14.md) |
-| Operations | 2026-09-14_11-07-59_voice-note.gpt-4o-au | Open 16 days | [O.491](Operations/_work/O.491-2026-09-14-11-07-59-voice-notegpt-4o-audio.md) |
-| Operations | 2026-09-14_13-20-08_voice-note.gpt-4o-au | Open 16 days | [O.492](Operations/_work/O.492-2026-09-14-13-20-08-voice-notegpt-4o-audio.md) |
-| Operations | 2026-09-14_13-57-41_a531c837.md | Open 16 days | [O.493](Operations/_work/O.493-2026-09-14-13-57-41-a531c837md.md) |
-| Operations | 2026-09-14_13-57-28_0da07365.md | Open 16 days | [O.494](Operations/_work/O.494-2026-09-14-13-57-28-0da07365md.md) |
-| Operations | 2026-09-14_13-56-36_cdb3fbd2.md | Open 16 days | [O.495](Operations/_work/O.495-2026-09-14-13-56-36-cdb3fbd2md.md) |
-| Operations | 2026-09-14_13-55-52_e9b1a2c9.md | Open 16 days | [O.496](Operations/_work/O.496-2026-09-14-13-55-52-e9b1a2c9md.md) |
-| Operations | 2026-09-14_13-55-27_a58accb9.md | Open 16 days | [O.497](Operations/_work/O.497-2026-09-14-13-55-27-a58accb9md.md) |
-| Operations | 2026-09-14_13-54-06_79b5ead7.md | Open 16 days | [O.498](Operations/_work/O.498-2026-09-14-13-54-06-79b5ead7md.md) |
-| Operations | 2026-09-14_13-53-24_e85a2d31.md | Open 16 days | [O.499](Operations/_work/O.499-2026-09-14-13-53-24-e85a2d31md.md) |
-| Operations | 2026-09-14_14-06-04_9233e465.md | Open 16 days | [O.500](Operations/_work/O.500-2026-09-14-14-06-04-9233e465md.md) |
-| Operations | 2026-09-14_14-37-02_abecf09b.md | Open 16 days | [O.501](Operations/_work/O.501-2026-09-14-14-37-02-abecf09bmd.md) |
-| Operations | Markdown link fails to open RP3 file | Open 16 days | [O.502](Operations/_work/O.502-Markdown-link-fails-to-open-RP3-file.md) |
-| Operations | 2026-09-14_14-32-16_7808c39b.md | Open 16 days | [O.503](Operations/_work/O.503-2026-09-14-14-32-16-7808c39bmd.md) |
-| Operations | 2026-09-14_14-30-23_1b190419.md | Open 16 days | [O.504](Operations/_work/O.504-2026-09-14-14-30-23-1b190419md.md) |
-| Operations | 2026-09-14_14-26-16_78ad097e.md | Open 16 days | [O.505](Operations/_work/O.505-2026-09-14-14-26-16-78ad097emd.md) |
-| Operations | 2026-09-14_14-26-11_3d7f0c06.md | Open 16 days | [O.506](Operations/_work/O.506-2026-09-14-14-26-11-3d7f0c06md.md) |
-| Operations | Field Ops Demo Script Review and Prepara | Open 16 days | [O.507](Operations/_work/O.507-Field-Ops-Demo-Script-Review-and-Preparation.md) |
-| Operations | 2026-09-14_14-25-25_4f7b7101.md | Open 16 days | [O.508](Operations/_work/O.508-2026-09-14-14-25-25-4f7b7101md.md) |
-| Operations | 2026-09-14_15-09-43_1f6b1fd6.md | Open 16 days | [O.509](Operations/_work/O.509-2026-09-14-15-09-43-1f6b1fd6md.md) |
-| Operations | 2026-09-14_15-08-47_09c87c26.md | Open 16 days | [O.510](Operations/_work/O.510-2026-09-14-15-08-47-09c87c26md.md) |
-| Operations | 2026-09-14_15-08-29_d93558d3.md | Open 16 days | [O.511](Operations/_work/O.511-2026-09-14-15-08-29-d93558d3md.md) |
-| Operations | 2026-09-14_14-58-09_10d48828.md | Open 16 days | [O.512](Operations/_work/O.512-2026-09-14-14-58-09-10d48828md.md) |
-| Operations | 2026-09-14_14-58-00_12c3b400.md | Open 16 days | [O.513](Operations/_work/O.513-2026-09-14-14-58-00-12c3b400md.md) |
-| Operations | 2026-09-14_14-57-08_545724c2.md | Open 16 days | [O.514](Operations/_work/O.514-2026-09-14-14-57-08-545724c2md.md) |
-| Operations | 2026-09-14_14-56-29_33c5a852.md | Open 16 days | [O.515](Operations/_work/O.515-2026-09-14-14-56-29-33c5a852md.md) |
-| Operations | 2026-09-14_14-54-20_f73e69a6.md | Open 16 days | [O.516](Operations/_work/O.516-2026-09-14-14-54-20-f73e69a6md.md) |
-| Operations | Directives for internal work and commit  | Open 16 days | [O.517](Operations/_work/O.517-Directives-for-internal-work-and-commit-process.md) |
-| Operations | 2026-09-14_14-51-15_b0673b57.md | Open 16 days | [O.518](Operations/_work/O.518-2026-09-14-14-51-15-b0673b57md.md) |
-| Operations | 2026-09-14_14-50-57_4f46c57f.md | Open 16 days | [O.519](Operations/_work/O.519-2026-09-14-14-50-57-4f46c57fmd.md) |
-| Operations | Defect tracking and contractual classifi | Open 16 days | [O.520](Operations/_work/O.520-Defect-tracking-and-contractual-classification.md) |
-| Operations | 2026-09-14_14-46-14_00421f96.md | Open 16 days | [O.521](Operations/_work/O.521-2026-09-14-14-46-14-00421f96md.md) |
-| Operations | 2026-09-14_14-44-28_a69bda7c.md | Open 16 days | [O.522](Operations/_work/O.522-2026-09-14-14-44-28-a69bda7cmd.md) |
-| Operations | Repo review, pipeline build, planning ar | Open 16 days | [O.523](Operations/_work/O.523-Repo-review-pipeline-build-planning-architecture.md) |
-| Operations | 2026-09-14_14-40-55_35c2124e.md | Open 16 days | [O.524](Operations/_work/O.524-2026-09-14-14-40-55-35c2124emd.md) |
-| Operations | 2026-09-14_14-38-50_14af50eb.md | Open 16 days | [O.525](Operations/_work/O.525-2026-09-14-14-38-50-14af50ebmd.md) |
-| Operations | 2026-09-14_15-34-17_50a49d79.md | Open 16 days | [O.526](Operations/_work/O.526-2026-09-14-15-34-17-50a49d79md.md) |
-| Operations | 2026-09-14_15-34-06_606352e6.md | Open 16 days | [O.527](Operations/_work/O.527-2026-09-14-15-34-06-606352e6md.md) |
-| Operations | 2026-09-14_15-33-49_b4a9a1f2.md | Open 16 days | [O.528](Operations/_work/O.528-2026-09-14-15-33-49-b4a9a1f2md.md) |
-| Operations | 2026-09-14_15-32-53_d4aa7b87.md | Open 16 days | [O.529](Operations/_work/O.529-2026-09-14-15-32-53-d4aa7b87md.md) |
-| Operations | 2026-09-14_15-25-32_77856fd5.md | Open 16 days | [O.530](Operations/_work/O.530-2026-09-14-15-25-32-77856fd5md.md) |
-| Operations | 2026-09-14_15-23-41_60ce737e.md | Open 16 days | [O.531](Operations/_work/O.531-2026-09-14-15-23-41-60ce737emd.md) |
-| Operations | 2026-09-14_15-22-20_e6138bf7.md | Open 16 days | [O.532](Operations/_work/O.532-2026-09-14-15-22-20-e6138bf7md.md) |
-| Operations | 2026-09-14_15-19-02_dd928abc.md | Open 16 days | [O.533](Operations/_work/O.533-2026-09-14-15-19-02-dd928abcmd.md) |
-| Operations | Critical Video Audio Missing | Open 16 days | [O.534](Operations/_work/O.534-Critical-Video-Audio-Missing.md) |
-| Operations | 2026-09-14_16-14-44_voice-note.gpt-4o-au | Open 16 days | [O.535](Operations/_work/O.535-2026-09-14-16-14-44-voice-notegpt-4o-audio.md) |
-| Operations | 2026-09-14_16-28-11_voice-note.gpt-4o-au | Open 16 days | [O.536](Operations/_work/O.536-2026-09-14-16-28-11-voice-notegpt-4o-audio.md) |
-| Operations | 2026-09-14_17-30-29_ff08dbb0.md | Open 16 days | [O.537](Operations/_work/O.537-2026-09-14-17-30-29-ff08dbb0md.md) |
-| Operations | 2026-09-14_17-13-27_404ab3ea.md | Open 16 days | [O.538](Operations/_work/O.538-2026-09-14-17-13-27-404ab3eamd.md) |
-| Operations | 2026-09-14_17-27-40_379a5e92.md | Open 16 days | [O.539](Operations/_work/O.539-2026-09-14-17-27-40-379a5e92md.md) |
-| Operations | 2026-09-14_17-27-33_1d6b1af1.md | Open 16 days | [O.540](Operations/_work/O.540-2026-09-14-17-27-33-1d6b1af1md.md) |
-| Operations | 2026-09-14_17-27-32_175ef9f6.md | Open 16 days | [O.541](Operations/_work/O.541-2026-09-14-17-27-32-175ef9f6md.md) |
-| Operations | 2026-09-14_17-26-53_aff8cb94.md | Open 16 days | [O.542](Operations/_work/O.542-2026-09-14-17-26-53-aff8cb94md.md) |
-| Operations | 2026-09-14_17-25-18_5948d846.md | Open 16 days | [O.543](Operations/_work/O.543-2026-09-14-17-25-18-5948d846md.md) |
-| Operations | 2026-09-14_17-24-49_b2f5908f.md | Open 16 days | [O.544](Operations/_work/O.544-2026-09-14-17-24-49-b2f5908fmd.md) |
-| Operations | 2026-09-14_17-24-20_7d67b376.md | Open 16 days | [O.545](Operations/_work/O.545-2026-09-14-17-24-20-7d67b376md.md) |
-| Operations | 2026-09-14_17-22-30_1a1b6b2d.md | Open 16 days | [O.546](Operations/_work/O.546-2026-09-14-17-22-30-1a1b6b2dmd.md) |
-| Operations | 2026-09-14_17-21-27_26bf14b6.md | Open 16 days | [O.547](Operations/_work/O.547-2026-09-14-17-21-27-26bf14b6md.md) |
-| Operations | 2026-09-14_17-21-14_9bdc24a4.md | Open 16 days | [O.548](Operations/_work/O.548-2026-09-14-17-21-14-9bdc24a4md.md) |
-| Operations | 2026-09-14_17-16-44_4f8292f6.md | Open 16 days | [O.549](Operations/_work/O.549-2026-09-14-17-16-44-4f8292f6md.md) |
-| Operations | 2026-09-14_17-04-30_2a416d60.md | Open 16 days | [O.550](Operations/_work/O.550-2026-09-14-17-04-30-2a416d60md.md) |
-| Operations | 2026-09-14_16-57-59_c0de2f21.md | Open 16 days | [O.551](Operations/_work/O.551-2026-09-14-16-57-59-c0de2f21md.md) |
-| Operations | WhatsApp digest: Kōdo Engineering (2026- | Open 15 days | [O.552](Operations/_work/O.552-WhatsApp-digest-Kōdo-Engineering-2026-09-15.md) |
-| Operations | (no subject) | Open 15 days | [O.553](Operations/_work/O.553-no-subject.md) |
-| Operations | 2026-09-15_08-39-26_80a65a72.md | Open 15 days | [O.554](Operations/_work/O.554-2026-09-15-08-39-26-80a65a72md.md) |
-| Operations | 2026-09-15_08-36-27_6aec9b57.md | Open 15 days | [O.555](Operations/_work/O.555-2026-09-15-08-36-27-6aec9b57md.md) |
-| Operations | 2026-09-15_08-35-37_a44a931a.md | Open 15 days | [O.556](Operations/_work/O.556-2026-09-15-08-35-37-a44a931amd.md) |
-| Operations | 2026-09-15_08-31-47_ce50b626.md | Open 15 days | [O.557](Operations/_work/O.557-2026-09-15-08-31-47-ce50b626md.md) |
-| Operations | 2026-09-15_08-31-47_9f6caeb7.md | Open 15 days | [O.558](Operations/_work/O.558-2026-09-15-08-31-47-9f6caeb7md.md) |
-| Operations | 2026-09-15_09-36-17_d72c85b0.md | Open 15 days | [O.559](Operations/_work/O.559-2026-09-15-09-36-17-d72c85b0md.md) |
-| Operations | 2026-09-15_09-27-58_974a0357.md | Open 15 days | [O.560](Operations/_work/O.560-2026-09-15-09-27-58-974a0357md.md) |
-| Operations | 2026-09-15_09-59-51_0795b880.md | Open 15 days | [O.561](Operations/_work/O.561-2026-09-15-09-59-51-0795b880md.md) |
-| Operations | 2026-09-15_09-57-39_a749bcd2.md | Open 15 days | [O.562](Operations/_work/O.562-2026-09-15-09-57-39-a749bcd2md.md) |
-| Operations | 2026-09-15_09-48-03_79e307f0.md | Open 15 days | [O.563](Operations/_work/O.563-2026-09-15-09-48-03-79e307f0md.md) |
-| Operations | Build HR Policy Assistant with Complianc | Open 15 days | [O.564](Operations/_work/O.564-Build-HR-Policy-Assistant-with-Compliance-Check.md) |
-| Operations | 2026-09-15_09-44-45_b17e694f.md | Open 15 days | [O.565](Operations/_work/O.565-2026-09-15-09-44-45-b17e694fmd.md) |
-| Operations | 2026-09-15_09-40-38_53cf2085.md | Open 15 days | [O.566](Operations/_work/O.566-2026-09-15-09-40-38-53cf2085md.md) |
-| Operations | 2026-09-15_10-38-45_73150aca.md | Open 15 days | [O.567](Operations/_work/O.567-2026-09-15-10-38-45-73150acamd.md) |
-| Operations | 2026-09-15_10-36-12_fe16f053.md | Open 15 days | [O.568](Operations/_work/O.568-2026-09-15-10-36-12-fe16f053md.md) |
-| Operations | 2026-09-15_10-34-15_6c15eb36.md | Open 15 days | [O.569](Operations/_work/O.569-2026-09-15-10-34-15-6c15eb36md.md) |
-| Operations | 2026-09-15_10-25-17_bb48d25e.md | Open 15 days | [O.570](Operations/_work/O.570-2026-09-15-10-25-17-bb48d25emd.md) |
-| Operations | 2026-09-15_10-22-43_af63c79f.md | Open 15 days | [O.571](Operations/_work/O.571-2026-09-15-10-22-43-af63c79fmd.md) |
-| Operations | 2026-09-15_11-03-57_96460087.md | Open 15 days | [O.572](Operations/_work/O.572-2026-09-15-11-03-57-96460087md.md) |
-| Operations | 2026-09-15_11-03-11_a4a706b5.md | Open 15 days | [O.573](Operations/_work/O.573-2026-09-15-11-03-11-a4a706b5md.md) |
-| Operations | 2026-09-15_11-02-41_b5051b12.md | Open 15 days | [O.574](Operations/_work/O.574-2026-09-15-11-02-41-b5051b12md.md) |
-| Operations | 2026-09-15_11-01-28_c86892a5.md | Open 15 days | [O.575](Operations/_work/O.575-2026-09-15-11-01-28-c86892a5md.md) |
-| Operations | 2026-09-15_10-53-52_b4ac653b.md | Open 15 days | [O.576](Operations/_work/O.576-2026-09-15-10-53-52-b4ac653bmd.md) |
-| Operations | 2026-09-15_10-47-59_b68b3916.md | Open 15 days | [O.577](Operations/_work/O.577-2026-09-15-10-47-59-b68b3916md.md) |
-| Operations | 2026-09-15_10-44-57_b838782e.md | Open 15 days | [O.578](Operations/_work/O.578-2026-09-15-10-44-57-b838782emd.md) |
-| Operations | Email reply and access management decisi | Open 15 days | [O.579](Operations/_work/O.579-Email-reply-and-access-management-decision.md) |
-| Operations | 2026-09-15_10-42-18_8c5679c1.md | Open 15 days | [O.580](Operations/_work/O.580-2026-09-15-10-42-18-8c5679c1md.md) |
-| Operations | 2026-09-15_10-39-45_6cfd6e2c.md | Open 15 days | [O.581](Operations/_work/O.581-2026-09-15-10-39-45-6cfd6e2cmd.md) |
-| Operations | Edit Rodrigo Sanchez calls recording | Open 15 days | [O.582](Operations/_work/O.582-Edit-Rodrigo-Sanchez-calls-recording.md) |
-| Operations | BlackEyeCollective invited you to BlackE | Open 15 days | [O.583](Operations/_work/O.583-BlackEyeCollective-invited-you-to-BlackEyeCollectiveRightSto.md) |
-| Operations | 2026-09-15_11-14-02_221abe06.md | Open 15 days | [O.584](Operations/_work/O.584-2026-09-15-11-14-02-221abe06md.md) |
-| Operations | 2026-09-15_11-13-46_315f8eaf.md | Open 15 days | [O.585](Operations/_work/O.585-2026-09-15-11-13-46-315f8eafmd.md) |
-| Operations | Missing GitHub Organization Access | Open 15 days | [O.586](Operations/_work/O.586-Missing-GitHub-Organization-Access.md) |
-| Operations | 2026-09-15_11-10-41_a82848e6.md | Open 15 days | [O.587](Operations/_work/O.587-2026-09-15-11-10-41-a82848e6md.md) |
-| Operations | 2026-09-15_11-10-16_3e4f69a4.md | Open 15 days | [O.588](Operations/_work/O.588-2026-09-15-11-10-16-3e4f69a4md.md) |
-| Operations | 2026-09-15_11-05-19_6ceba73f.md | Open 15 days | [O.589](Operations/_work/O.589-2026-09-15-11-05-19-6ceba73fmd.md) |
-| Operations | RightStore D2S integration architecture  | Open 15 days | [O.590](Operations/_work/O.590-RightStore-D2S-integration-architecture-proposal.md) |
-| Operations | WhatsApp digest: Jatin Blocvey (2026-09- | Open 15 days | [O.591](Operations/_work/O.591-WhatsApp-digest-Jatin-Blocvey-2026-09-15.md) |
-| Operations | 2026-09-15_11-41-48_641de69b.md | Open 15 days | [O.592](Operations/_work/O.592-2026-09-15-11-41-48-641de69bmd.md) |
-| Operations | SSL upload error with Beatrice | Open 15 days | [O.593](Operations/_work/O.593-SSL-upload-error-with-Beatrice.md) |
-| Operations | 2026-09-15_11-27-29_a47113c9.md | Open 15 days | [O.594](Operations/_work/O.594-2026-09-15-11-27-29-a47113c9md.md) |
-| Operations | 2026-09-15_12-19-16_d7a3095f.md | Open 15 days | [O.595](Operations/_work/O.595-2026-09-15-12-19-16-d7a3095fmd.md) |
-| Operations | 2026-09-15_12-17-22_ab501841.md | Open 15 days | [O.596](Operations/_work/O.596-2026-09-15-12-17-22-ab501841md.md) |
-| Operations | 2026-09-15_11-52-37_252c9cf4.md | Open 15 days | [O.597](Operations/_work/O.597-2026-09-15-11-52-37-252c9cf4md.md) |
-| Operations | 2026-09-15_11-49-16_91be49ab.md | Open 15 days | [O.598](Operations/_work/O.598-2026-09-15-11-49-16-91be49abmd.md) |
-| Operations | 2026-09-15_11-48-45_5a55fe30.md | Open 15 days | [O.599](Operations/_work/O.599-2026-09-15-11-48-45-5a55fe30md.md) |
-| Operations | 2026-09-15_11-48-13_3a70a4a6.md | Open 15 days | [O.600](Operations/_work/O.600-2026-09-15-11-48-13-3a70a4a6md.md) |
-| Operations | AI agent help for new repo understanding | Open 15 days | [O.601](Operations/_work/O.601-AI-agent-help-for-new-repo-understanding.md) |
-| Operations | 2026-09-15_12-38-22_60d58a56.md | Open 15 days | [O.602](Operations/_work/O.602-2026-09-15-12-38-22-60d58a56md.md) |
-| Operations | 2026-09-15_12-37-41_c682ed94.md | Open 15 days | [O.603](Operations/_work/O.603-2026-09-15-12-37-41-c682ed94md.md) |
-| Operations | 2026-09-15_12-34-38_b2da0d1f.md | Open 15 days | [O.604](Operations/_work/O.604-2026-09-15-12-34-38-b2da0d1fmd.md) |
-| Operations | 2026-09-15_12-36-38_c79b1fc4.md | Open 15 days | [O.605](Operations/_work/O.605-2026-09-15-12-36-38-c79b1fc4md.md) |
-| Operations | 2026-09-15_12-34-15_ad0bfed2.md | Open 15 days | [O.606](Operations/_work/O.606-2026-09-15-12-34-15-ad0bfed2md.md) |
-| Operations | 2026-09-15_12-33-33_46841c7f.md | Open 15 days | [O.607](Operations/_work/O.607-2026-09-15-12-33-33-46841c7fmd.md) |
-| Operations | 2026-09-15_12-32-27_a67f7913.md | Open 15 days | [O.608](Operations/_work/O.608-2026-09-15-12-32-27-a67f7913md.md) |
-| Operations | 2026-09-15_12-30-51_8863a685.md | Open 15 days | [O.609](Operations/_work/O.609-2026-09-15-12-30-51-8863a685md.md) |
-| Operations | 2026-09-15_12-25-41_0a49aaa5.md | Open 15 days | [O.610](Operations/_work/O.610-2026-09-15-12-25-41-0a49aaa5md.md) |
-| Operations | 2026-09-15_12-56-56_7712519e.md | Open 15 days | [O.611](Operations/_work/O.611-2026-09-15-12-56-56-7712519emd.md) |
-| Operations | 2026-09-15_12-50-16_049f4977.md | Open 15 days | [O.612](Operations/_work/O.612-2026-09-15-12-50-16-049f4977md.md) |
-| Operations | Mac security warning: Python 3.10 unveri | Open 15 days | [O.613](Operations/_work/O.613-Mac-security-warning-Python-310-unverified.md) |
-| Operations | 2026-09-15_13-38-00_cfd13788.md | Open 15 days | [O.614](Operations/_work/O.614-2026-09-15-13-38-00-cfd13788md.md) |
-| Operations | 2026-09-15_13-35-27_63801b2a.md | Open 15 days | [O.615](Operations/_work/O.615-2026-09-15-13-35-27-63801b2amd.md) |
-| Operations | 2026-09-15_13-34-47_d681ccfb.md | Open 15 days | [O.616](Operations/_work/O.616-2026-09-15-13-34-47-d681ccfbmd.md) |
-| Operations | 2026-09-15_13-33-22_41ef592a.md | Open 15 days | [O.617](Operations/_work/O.617-2026-09-15-13-33-22-41ef592amd.md) |
-| Operations | 2026-09-15_13-25-28_1149784e.md | Open 15 days | [O.618](Operations/_work/O.618-2026-09-15-13-25-28-1149784emd.md) |
-| Operations | 2026-09-15_13-42-41_bc5c52a0.md | Open 15 days | [O.619](Operations/_work/O.619-2026-09-15-13-42-41-bc5c52a0md.md) |
-| Operations | Review generated playbook against pipeli | Open 15 days | [O.620](Operations/_work/O.620-Review-generated-playbook-against-pipeline-output.md) |
-| Operations | Integration of courier services into SPI | Open 64 days | [P.003](Operations/_work/P.003-Integration-of-courier-services-into-SPINE.md) |
-| Operations | RightStore Nimbus Proposal V2 Review | Open 61 days | [P.004](Operations/_work/P.004-RightStore-Nimbus-Proposal-V2-Review.md) |
-| Operations | RightStore by Nimbus deck development | Open 61 days | [P.005](Operations/_work/P.005-RightStore-by-Nimbus-deck-development.md) |
-| Operations | IBIS system overview for Christie & Co | Open 57 days | [P.006](Operations/_work/P.006-IBIS-system-overview-for-Christie-Co.md) |
-| Operations | Project prioritization and competitor re | Open 57 days | [P.007](Operations/_work/P.007-Project-prioritization-and-competitor-research.md) |
-| Operations | StoreDash client and investment coordina | Open 41 days | [P.008](Operations/_work/P.008-StoreDash-client-and-investment-coordination.md) |
-| Operations | StoreDash project documentation and repo | Open 35 days | [P.009](Operations/_work/P.009-StoreDash-project-documentation-and-report-updates.md) |
-| Operations | SPINE development and hardware procureme | Open 35 days | [P.010](Operations/_work/P.010-SPINE-development-and-hardware-procurement.md) |
-| Operations | London Crypto Networking Event Attendanc | Open 29 days | [P.011](Operations/_work/P.011-London-Crypto-Networking-Event-Attendance.md) |
-| Operations | Update on Charities project status | Open 28 days | [P.012](Operations/_work/P.012-Update-on-Charities-project-status.md) |
-| Operations | St. James AI Networking Event Attendance | Open 23 days | [P.013](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md) |
-| Operations | Project roadmap alignment for Christie | Open 16 days | [P.014](Operations/_work/P.014-Project-roadmap-alignment-for-Christie.md) |
-| Operations | AI/FinTech Mayfair Networking Lunch | Open 16 days | [P.015](Operations/_work/P.015-AIFinTech-Mayfair-Networking-Lunch.md) |
-| Operations | Import Granola Transcripts for Rasharp P | Open 16 days | [P.016](Operations/_work/P.016-Import-Granola-Transcripts-for-Rasharp-Project.md) |
-| Operations | Bellron Project: Cursor Work, Pipeline,  | Open 16 days | [P.017](Operations/_work/P.017-Bellron-Project-Cursor-Work-Pipeline-Git-Commits.md) |
-| Operations | Kōdo Engineering: Vision Master setup an | Open 15 days | [P.018](Operations/_work/P.018-Kōdo-Engineering-Vision-Master-setup-and-dongle.md) |
-| People | H.002 — Tech Toast Attendee Outreach | Open 85 days | [H.002](People/_work/H.002-tech-toast-attendee-outreach.md) |
-| People | Review compensation and workload distrib | Open 82 days | [H.003](People/_work/H.003-Review-compensation-and-workload-distribution.md) |
-| People | People Development and Learning Framewor | Open 78 days | [H.004](People/_work/H.004-People-Development-and-Learning-Framework.md) |
-| People | Onboarding and Integration of James Lowm | Open 77 days | [H.005](People/_work/H.005-Onboarding-and-Integration-of-James-Lowman-CEO.md) |
-| People | CEO recruitment update: James Lowman wit | Open 62 days | [H.006](People/_work/H.006-CEO-recruitment-update-James-Lowman-withdrawal.md) |
-| People | Potential CEO candidate: Ilann Hepworth | Open 62 days | [H.007](People/_work/H.007-Potential-CEO-candidate-Ilann-Hepworth.md) |
-| People | Streamlining Manager Role in HR Processe | Open 15 days | [H.008](People/_work/H.008-Streamlining-Manager-Role-in-HR-Processes.md) |
-| People | Paternity Leave Enquiry | Open 15 days | [H.009](People/_work/H.009-Paternity-Leave-Enquiry.md) |
-| Services | Nimbus platform access and subscription  | Open 93 days | [S.018](Services/_work/S.018-Nimbus-platform-access-and-subscription-management.md) |
+| Compliance | Request for PSC code for Blocvey Ltd con | Open 16 days | [C.038](Compliance/_work/C.038-Request-for-PSC-code-for-Blocvey-Ltd-confirmation-statement.md) |
+| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 49 days | [I.004](Operations/_work/I.004-WhatsApp-digest-JatinMandipKash-2026-08-12.md) |
+| Operations | InstantID tool exploration | Open 48 days | [I.005](Operations/_work/I.005-InstantID-tool-exploration.md) |
+| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 37 days | [I.006](Operations/_work/I.006-WhatsApp-digest-JatinMandipKash-2026-08-25.md) |
+| Operations | StoreDash WhatsApp digest (2026-08-26) | Open 36 days | [I.007](Operations/_work/I.007-StoreDash-WhatsApp-digest-2026-08-26.md) |
+| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 36 days | [I.008](Operations/_work/I.008-WhatsApp-digest-JatinMandipKash-2026-08-26.md) |
+| Operations | Networking event invitation: AI & FinTec | Open 33 days | [I.009](Operations/_work/I.009-Networking-event-invitation-AI-FinTech-drinks.md) |
+| Operations | WhatsApp digest for Kash Khera | Open 20 days | [I.010](Operations/_work/I.010-WhatsApp-digest-for-Kash-Khera.md) |
+| Operations | Idea: Codify processes into the stack | Open 17 days | [I.011](Operations/_work/I.011-Idea-Codify-processes-into-the-stack.md) |
+| Operations | Disk graph vs Finder recent view pattern | Open 17 days | [I.012](Operations/_work/I.012-Disk-graph-vs-Finder-recent-view-pattern.md) |
+| Operations | Meeting Transcript: Mandip, Jody, Belron | Open 17 days | [I.013](Operations/_work/I.013-Meeting-Transcript-Mandip-Jody-Belron-Demo-Videos.md) |
+| Operations | Incomplete note on meeting recording | Open 17 days | [I.014](Operations/_work/I.014-Incomplete-note-on-meeting-recording.md) |
+| Operations | Stream Deck voice recording observation | Open 17 days | [I.015](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) |
+| Operations | AI employee slide intro should not be si | Open 17 days | [I.016](Operations/_work/I.016-AI-employee-slide-intro-should-not-be-silent.md) |
+| Operations | Observation: Intro duration and sound ch | Open 17 days | [I.017](Operations/_work/I.017-Observation-Intro-duration-and-sound-characteristics.md) |
+| Operations | Indexed Model vs. LLM: Muse-Glimmer | Open 17 days | [I.018](Operations/_work/I.018-Indexed-Model-vs-LLM-Muse-Glimmer.md) |
+| Operations | Manager Demo Flow and Audio Observations | Open 16 days | [I.019](Operations/_work/I.019-Manager-Demo-Flow-and-Audio-Observations.md) |
+| Operations | Observation: Reduce call pauses for bett | Open 16 days | [I.020](Operations/_work/I.020-Observation-Reduce-call-pauses-for-better-flow.md) |
+| Operations | Upstream and Downstream Integrations Con | Open 16 days | [I.021](Operations/_work/I.021-Upstream-and-Downstream-Integrations-Concept.md) |
+| Operations | Record of RightStore-3 Bootstrap Command | Open 16 days | [I.022](Operations/_work/I.022-Record-of-RightStore-3-Bootstrap-Command.md) |
+| Operations | Apple Developer Program Enrollment | Open 87 days | [O.008](Operations/_work/O.008-Apple-Developer-Program-Enrollment.md) |
+| Operations | Migrate Winston app to Ema Next | Open 83 days | [O.009](Operations/_work/O.009-Migrate-Winston-app-to-Ema-Next.md) |
+| Operations | Review of new SDLC process flow | Open 41 days | [O.403](Operations/_work/O.403-Review-of-new-SDLC-process-flow.md) |
+| Operations | Attention Event Experiment | Open 38 days | [O.424](Operations/_work/O.424-attention-event-experiment.md) |
+| Operations | Stream Deck Attention Mode | Open 38 days | [O.430](Operations/_work/O.430-stream-deck-attention-mode.md) |
+| Operations | Build Conversational Initiative Path | Open 38 days | [O.437](Operations/_work/O.437-build-conversational-initiative-path.md) |
+| Operations | Build Contract Support Loop | Open 38 days | [O.439](Operations/_work/O.439-build-contract-support-loop.md) |
+| Operations | Contract Support: Seed Crystallisation | Open 38 days | [O.440](Operations/_work/O.440-contract-support-seed-crystallisation.md) |
+| Operations | Complete Contract-Support Loop | Open 37 days | [O.445](Operations/_work/O.445-complete-contract-support-loop.md) |
+| Operations | Refine Cloud Connect Direction | Open 38 days | [O.447](Operations/_work/O.447-refine-cloud-connect-direction.md) |
+| Operations | Set Up Paid Consulting Engagement — Alph | Open 37 days | [O.449](Operations/_work/O.449-AI-Agent-Development-Platforms-consultation.md) |
+| Operations | Bootstrap Impact Cascade | Open 37 days | [O.456](Operations/_work/O.456-bootstrap-impact-cascade.md) |
+| Operations | Supply chain constraints on hardware pro | Open 37 days | [O.458](Operations/_work/O.458-Supply-chain-constraints-on-hardware-procurement.md) |
+| Operations | Pipeline commits only its own work | Open 37 days | [O.459](Operations/_work/O.459-pipeline-commit-scope.md) |
+| Operations | Ingest filter discarded an order confirm | Open 37 days | [O.460](Operations/_work/O.460-ingest-filter-discarded-order-confirmation.md) |
+| Operations | Who reviews contracts | Open 37 days | [O.461](Operations/_work/O.461-contract-review-capacity.md) |
+| Operations | Wire Cortex local inference path | Open 36 days | [O.462](Operations/_work/O.462-Wire-Cortex-local-inference-path.md) |
+| Operations | Inference tier field and tier-grouped ex | Open 36 days | [O.463](Operations/_work/O.463-Inference-tier-field-and-tier-grouped-execution.md) |
+| Operations | Confidential computing index | Open 36 days | [O.464](Operations/_work/O.464-Confidential-computing-index.md) |
+| Operations | Research Corpus Residual Repair | Open 36 days | [O.465](Operations/_work/O.465-research-corpus-residual-repair.md) |
+| Operations | Make dashboard.md the sole frame input | Open 36 days | [O.466](Operations/_work/O.466-make-dashboard-the-sole-frame-input.md) |
+| Operations | Record durable human moves from agent se | Open 36 days | [O.467](Operations/_work/O.467-record-durable-human-moves-from-agent-sessions.md) |
+| Operations | Register for St. James AI, Tech + Relate | Open 34 days | [O.468](Operations/_work/O.468-Register-for-St-James-AI-Tech-Related-event.md) |
+| Operations | Automated Contract Review Phase | Open 30 days | [O.471](Operations/_work/O.471-Automated-contract-review-phase.md) |
+| Operations | Harden attention reconciliation and pipe | Open 30 days | [O.472](Operations/_work/O.472-harden-attention-reconciliation-and-pipeline-throughput.md) |
+| Operations | Bootstrap bionic ingest pipeline | Open 21 days | [O.473](Operations/_work/O.473-Bootstrap-bionic-ingest-pipeline.md) |
+| Operations | Your Flow Pro access ends soon ⏳ | Open 20 days | [O.474](Operations/_work/O.474-Your-Flow-Pro-access-ends-soon.md) |
+| Operations | 📅  Just scheduled: THE GARAGE BAND @ Bro | Open 20 days | [O.475](Operations/_work/O.475-Just-scheduled-THE-GARAGE-BAND-Bromsgrove-Sports-Club---Tkts.md) |
+| Operations | Welcome to BrumAI - Birmingham Artificia | Open 20 days | [O.476](Operations/_work/O.476-Welcome-to-BrumAI---Birmingham-Artificial-Intelligence-Meetu.md) |
+| Operations | WhatsApp digest: StoreDash Discussions ( | Open 20 days | [O.477](Operations/_work/O.477-WhatsApp-digest-StoreDash-Discussions-2026-09-07.md) |
+| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 20 days | [O.478](Operations/_work/O.478-WhatsApp-digest-JatinMandipKash-2026-09-08.md) |
+| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 20 days | [O.479](Operations/_work/O.479-WhatsApp-digest-JatinMandipKash-2026-09-09.md) |
+| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 20 days | [O.480](Operations/_work/O.480-WhatsApp-digest-JatinMandipKash-2026-09-10.md) |
+| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 20 days | [O.481](Operations/_work/O.481-WhatsApp-digest-JatinMandipKash-2026-09-11.md) |
+| Operations | One-click Postgres major version upgrade | Open 19 days | [O.482](Operations/_work/O.482-One-click-Postgres-major-version-upgrades-email-forwarding-f.md) |
+| Operations | I actually like this mech mechanism. I.. | Open 19 days | [O.483](Operations/_work/O.483-I-actually-like-this-mech-mechanism-I.md) |
+| Operations | WhatsApp digest: Kash Khera (2026-09-12) | Open 17 days | [O.484](Operations/_work/O.484-WhatsApp-digest-Kash-Khera-2026-09-12.md) |
+| Operations | WhatsApp digest: StoreDash Discussions ( | Open 17 days | [O.485](Operations/_work/O.485-WhatsApp-digest-StoreDash-Discussions-2026-09-12.md) |
+| Operations | 📣  Your new group is waiting for you | Open 17 days | [O.486](Operations/_work/O.486-Your-new-group-is-waiting-for-you.md) |
+| Operations | WhatsApp digest: Kōdo Engineering (2026- | Open 17 days | [O.487](Operations/_work/O.487-WhatsApp-digest-Kōdo-Engineering-2026-09-13.md) |
+| Operations | BlackEyeCollective has invited you to be | Open 17 days | [O.488](Operations/_work/O.488-BlackEyeCollective-has-invited-you-to-be-their-account-succe.md) |
+| Operations | WhatsApp digest: Jatin Blocvey (2026-09- | Open 17 days | [O.489](Operations/_work/O.489-WhatsApp-digest-Jatin-Blocvey-2026-09-14.md) |
+| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 17 days | [O.490](Operations/_work/O.490-WhatsApp-digest-JatinMandipKash-2026-09-14.md) |
+| Operations | 2026-09-14_11-07-59_voice-note.gpt-4o-au | Open 17 days | [O.491](Operations/_work/O.491-2026-09-14-11-07-59-voice-notegpt-4o-audio.md) |
+| Operations | 2026-09-14_13-20-08_voice-note.gpt-4o-au | Open 17 days | [O.492](Operations/_work/O.492-2026-09-14-13-20-08-voice-notegpt-4o-audio.md) |
+| Operations | 2026-09-14_13-57-41_a531c837.md | Open 17 days | [O.493](Operations/_work/O.493-2026-09-14-13-57-41-a531c837md.md) |
+| Operations | 2026-09-14_13-57-28_0da07365.md | Open 17 days | [O.494](Operations/_work/O.494-2026-09-14-13-57-28-0da07365md.md) |
+| Operations | 2026-09-14_13-56-36_cdb3fbd2.md | Open 17 days | [O.495](Operations/_work/O.495-2026-09-14-13-56-36-cdb3fbd2md.md) |
+| Operations | 2026-09-14_13-55-52_e9b1a2c9.md | Open 17 days | [O.496](Operations/_work/O.496-2026-09-14-13-55-52-e9b1a2c9md.md) |
+| Operations | 2026-09-14_13-55-27_a58accb9.md | Open 17 days | [O.497](Operations/_work/O.497-2026-09-14-13-55-27-a58accb9md.md) |
+| Operations | 2026-09-14_13-54-06_79b5ead7.md | Open 17 days | [O.498](Operations/_work/O.498-2026-09-14-13-54-06-79b5ead7md.md) |
+| Operations | 2026-09-14_13-53-24_e85a2d31.md | Open 17 days | [O.499](Operations/_work/O.499-2026-09-14-13-53-24-e85a2d31md.md) |
+| Operations | 2026-09-14_14-06-04_9233e465.md | Open 17 days | [O.500](Operations/_work/O.500-2026-09-14-14-06-04-9233e465md.md) |
+| Operations | 2026-09-14_14-37-02_abecf09b.md | Open 17 days | [O.501](Operations/_work/O.501-2026-09-14-14-37-02-abecf09bmd.md) |
+| Operations | Markdown link fails to open RP3 file | Open 17 days | [O.502](Operations/_work/O.502-Markdown-link-fails-to-open-RP3-file.md) |
+| Operations | 2026-09-14_14-32-16_7808c39b.md | Open 17 days | [O.503](Operations/_work/O.503-2026-09-14-14-32-16-7808c39bmd.md) |
+| Operations | 2026-09-14_14-30-23_1b190419.md | Open 17 days | [O.504](Operations/_work/O.504-2026-09-14-14-30-23-1b190419md.md) |
+| Operations | 2026-09-14_14-26-16_78ad097e.md | Open 17 days | [O.505](Operations/_work/O.505-2026-09-14-14-26-16-78ad097emd.md) |
+| Operations | 2026-09-14_14-26-11_3d7f0c06.md | Open 17 days | [O.506](Operations/_work/O.506-2026-09-14-14-26-11-3d7f0c06md.md) |
+| Operations | Field Ops Demo Script Review and Prepara | Open 17 days | [O.507](Operations/_work/O.507-Field-Ops-Demo-Script-Review-and-Preparation.md) |
+| Operations | 2026-09-14_14-25-25_4f7b7101.md | Open 17 days | [O.508](Operations/_work/O.508-2026-09-14-14-25-25-4f7b7101md.md) |
+| Operations | 2026-09-14_15-09-43_1f6b1fd6.md | Open 17 days | [O.509](Operations/_work/O.509-2026-09-14-15-09-43-1f6b1fd6md.md) |
+| Operations | 2026-09-14_15-08-47_09c87c26.md | Open 17 days | [O.510](Operations/_work/O.510-2026-09-14-15-08-47-09c87c26md.md) |
+| Operations | 2026-09-14_15-08-29_d93558d3.md | Open 17 days | [O.511](Operations/_work/O.511-2026-09-14-15-08-29-d93558d3md.md) |
+| Operations | 2026-09-14_14-58-09_10d48828.md | Open 17 days | [O.512](Operations/_work/O.512-2026-09-14-14-58-09-10d48828md.md) |
+| Operations | 2026-09-14_14-58-00_12c3b400.md | Open 17 days | [O.513](Operations/_work/O.513-2026-09-14-14-58-00-12c3b400md.md) |
+| Operations | 2026-09-14_14-57-08_545724c2.md | Open 17 days | [O.514](Operations/_work/O.514-2026-09-14-14-57-08-545724c2md.md) |
+| Operations | 2026-09-14_14-56-29_33c5a852.md | Open 17 days | [O.515](Operations/_work/O.515-2026-09-14-14-56-29-33c5a852md.md) |
+| Operations | 2026-09-14_14-54-20_f73e69a6.md | Open 17 days | [O.516](Operations/_work/O.516-2026-09-14-14-54-20-f73e69a6md.md) |
+| Operations | Directives for internal work and commit  | Open 17 days | [O.517](Operations/_work/O.517-Directives-for-internal-work-and-commit-process.md) |
+| Operations | 2026-09-14_14-51-15_b0673b57.md | Open 17 days | [O.518](Operations/_work/O.518-2026-09-14-14-51-15-b0673b57md.md) |
+| Operations | 2026-09-14_14-50-57_4f46c57f.md | Open 17 days | [O.519](Operations/_work/O.519-2026-09-14-14-50-57-4f46c57fmd.md) |
+| Operations | Defect tracking and contractual classifi | Open 17 days | [O.520](Operations/_work/O.520-Defect-tracking-and-contractual-classification.md) |
+| Operations | 2026-09-14_14-46-14_00421f96.md | Open 17 days | [O.521](Operations/_work/O.521-2026-09-14-14-46-14-00421f96md.md) |
+| Operations | 2026-09-14_14-44-28_a69bda7c.md | Open 17 days | [O.522](Operations/_work/O.522-2026-09-14-14-44-28-a69bda7cmd.md) |
+| Operations | Repo review, pipeline build, planning ar | Open 17 days | [O.523](Operations/_work/O.523-Repo-review-pipeline-build-planning-architecture.md) |
+| Operations | 2026-09-14_14-40-55_35c2124e.md | Open 17 days | [O.524](Operations/_work/O.524-2026-09-14-14-40-55-35c2124emd.md) |
+| Operations | 2026-09-14_14-38-50_14af50eb.md | Open 17 days | [O.525](Operations/_work/O.525-2026-09-14-14-38-50-14af50ebmd.md) |
+| Operations | 2026-09-14_15-34-17_50a49d79.md | Open 17 days | [O.526](Operations/_work/O.526-2026-09-14-15-34-17-50a49d79md.md) |
+| Operations | 2026-09-14_15-34-06_606352e6.md | Open 17 days | [O.527](Operations/_work/O.527-2026-09-14-15-34-06-606352e6md.md) |
+| Operations | 2026-09-14_15-33-49_b4a9a1f2.md | Open 17 days | [O.528](Operations/_work/O.528-2026-09-14-15-33-49-b4a9a1f2md.md) |
+| Operations | 2026-09-14_15-32-53_d4aa7b87.md | Open 17 days | [O.529](Operations/_work/O.529-2026-09-14-15-32-53-d4aa7b87md.md) |
+| Operations | 2026-09-14_15-25-32_77856fd5.md | Open 17 days | [O.530](Operations/_work/O.530-2026-09-14-15-25-32-77856fd5md.md) |
+| Operations | 2026-09-14_15-23-41_60ce737e.md | Open 17 days | [O.531](Operations/_work/O.531-2026-09-14-15-23-41-60ce737emd.md) |
+| Operations | 2026-09-14_15-22-20_e6138bf7.md | Open 17 days | [O.532](Operations/_work/O.532-2026-09-14-15-22-20-e6138bf7md.md) |
+| Operations | 2026-09-14_15-19-02_dd928abc.md | Open 17 days | [O.533](Operations/_work/O.533-2026-09-14-15-19-02-dd928abcmd.md) |
+| Operations | Critical Video Audio Missing | Open 17 days | [O.534](Operations/_work/O.534-Critical-Video-Audio-Missing.md) |
+| Operations | 2026-09-14_16-14-44_voice-note.gpt-4o-au | Open 17 days | [O.535](Operations/_work/O.535-2026-09-14-16-14-44-voice-notegpt-4o-audio.md) |
+| Operations | 2026-09-14_16-28-11_voice-note.gpt-4o-au | Open 17 days | [O.536](Operations/_work/O.536-2026-09-14-16-28-11-voice-notegpt-4o-audio.md) |
+| Operations | 2026-09-14_17-30-29_ff08dbb0.md | Open 17 days | [O.537](Operations/_work/O.537-2026-09-14-17-30-29-ff08dbb0md.md) |
+| Operations | 2026-09-14_17-13-27_404ab3ea.md | Open 17 days | [O.538](Operations/_work/O.538-2026-09-14-17-13-27-404ab3eamd.md) |
+| Operations | 2026-09-14_17-27-40_379a5e92.md | Open 17 days | [O.539](Operations/_work/O.539-2026-09-14-17-27-40-379a5e92md.md) |
+| Operations | 2026-09-14_17-27-33_1d6b1af1.md | Open 17 days | [O.540](Operations/_work/O.540-2026-09-14-17-27-33-1d6b1af1md.md) |
+| Operations | 2026-09-14_17-27-32_175ef9f6.md | Open 17 days | [O.541](Operations/_work/O.541-2026-09-14-17-27-32-175ef9f6md.md) |
+| Operations | 2026-09-14_17-26-53_aff8cb94.md | Open 17 days | [O.542](Operations/_work/O.542-2026-09-14-17-26-53-aff8cb94md.md) |
+| Operations | 2026-09-14_17-25-18_5948d846.md | Open 17 days | [O.543](Operations/_work/O.543-2026-09-14-17-25-18-5948d846md.md) |
+| Operations | 2026-09-14_17-24-49_b2f5908f.md | Open 17 days | [O.544](Operations/_work/O.544-2026-09-14-17-24-49-b2f5908fmd.md) |
+| Operations | 2026-09-14_17-24-20_7d67b376.md | Open 17 days | [O.545](Operations/_work/O.545-2026-09-14-17-24-20-7d67b376md.md) |
+| Operations | 2026-09-14_17-22-30_1a1b6b2d.md | Open 17 days | [O.546](Operations/_work/O.546-2026-09-14-17-22-30-1a1b6b2dmd.md) |
+| Operations | 2026-09-14_17-21-27_26bf14b6.md | Open 17 days | [O.547](Operations/_work/O.547-2026-09-14-17-21-27-26bf14b6md.md) |
+| Operations | 2026-09-14_17-21-14_9bdc24a4.md | Open 17 days | [O.548](Operations/_work/O.548-2026-09-14-17-21-14-9bdc24a4md.md) |
+| Operations | 2026-09-14_17-16-44_4f8292f6.md | Open 17 days | [O.549](Operations/_work/O.549-2026-09-14-17-16-44-4f8292f6md.md) |
+| Operations | 2026-09-14_17-04-30_2a416d60.md | Open 17 days | [O.550](Operations/_work/O.550-2026-09-14-17-04-30-2a416d60md.md) |
+| Operations | 2026-09-14_16-57-59_c0de2f21.md | Open 17 days | [O.551](Operations/_work/O.551-2026-09-14-16-57-59-c0de2f21md.md) |
+| Operations | WhatsApp digest: Kōdo Engineering (2026- | Open 16 days | [O.552](Operations/_work/O.552-WhatsApp-digest-Kōdo-Engineering-2026-09-15.md) |
+| Operations | (no subject) | Open 16 days | [O.553](Operations/_work/O.553-no-subject.md) |
+| Operations | 2026-09-15_08-39-26_80a65a72.md | Open 16 days | [O.554](Operations/_work/O.554-2026-09-15-08-39-26-80a65a72md.md) |
+| Operations | 2026-09-15_08-36-27_6aec9b57.md | Open 16 days | [O.555](Operations/_work/O.555-2026-09-15-08-36-27-6aec9b57md.md) |
+| Operations | 2026-09-15_08-35-37_a44a931a.md | Open 16 days | [O.556](Operations/_work/O.556-2026-09-15-08-35-37-a44a931amd.md) |
+| Operations | 2026-09-15_08-31-47_ce50b626.md | Open 16 days | [O.557](Operations/_work/O.557-2026-09-15-08-31-47-ce50b626md.md) |
+| Operations | 2026-09-15_08-31-47_9f6caeb7.md | Open 16 days | [O.558](Operations/_work/O.558-2026-09-15-08-31-47-9f6caeb7md.md) |
+| Operations | 2026-09-15_09-36-17_d72c85b0.md | Open 16 days | [O.559](Operations/_work/O.559-2026-09-15-09-36-17-d72c85b0md.md) |
+| Operations | 2026-09-15_09-27-58_974a0357.md | Open 16 days | [O.560](Operations/_work/O.560-2026-09-15-09-27-58-974a0357md.md) |
+| Operations | 2026-09-15_09-59-51_0795b880.md | Open 16 days | [O.561](Operations/_work/O.561-2026-09-15-09-59-51-0795b880md.md) |
+| Operations | 2026-09-15_09-57-39_a749bcd2.md | Open 16 days | [O.562](Operations/_work/O.562-2026-09-15-09-57-39-a749bcd2md.md) |
+| Operations | 2026-09-15_09-48-03_79e307f0.md | Open 16 days | [O.563](Operations/_work/O.563-2026-09-15-09-48-03-79e307f0md.md) |
+| Operations | Build HR Policy Assistant with Complianc | Open 16 days | [O.564](Operations/_work/O.564-Build-HR-Policy-Assistant-with-Compliance-Check.md) |
+| Operations | 2026-09-15_09-44-45_b17e694f.md | Open 16 days | [O.565](Operations/_work/O.565-2026-09-15-09-44-45-b17e694fmd.md) |
+| Operations | 2026-09-15_09-40-38_53cf2085.md | Open 16 days | [O.566](Operations/_work/O.566-2026-09-15-09-40-38-53cf2085md.md) |
+| Operations | 2026-09-15_10-38-45_73150aca.md | Open 16 days | [O.567](Operations/_work/O.567-2026-09-15-10-38-45-73150acamd.md) |
+| Operations | 2026-09-15_10-36-12_fe16f053.md | Open 16 days | [O.568](Operations/_work/O.568-2026-09-15-10-36-12-fe16f053md.md) |
+| Operations | 2026-09-15_10-34-15_6c15eb36.md | Open 16 days | [O.569](Operations/_work/O.569-2026-09-15-10-34-15-6c15eb36md.md) |
+| Operations | 2026-09-15_10-25-17_bb48d25e.md | Open 16 days | [O.570](Operations/_work/O.570-2026-09-15-10-25-17-bb48d25emd.md) |
+| Operations | 2026-09-15_10-22-43_af63c79f.md | Open 16 days | [O.571](Operations/_work/O.571-2026-09-15-10-22-43-af63c79fmd.md) |
+| Operations | 2026-09-15_11-03-57_96460087.md | Open 16 days | [O.572](Operations/_work/O.572-2026-09-15-11-03-57-96460087md.md) |
+| Operations | 2026-09-15_11-03-11_a4a706b5.md | Open 16 days | [O.573](Operations/_work/O.573-2026-09-15-11-03-11-a4a706b5md.md) |
+| Operations | 2026-09-15_11-02-41_b5051b12.md | Open 16 days | [O.574](Operations/_work/O.574-2026-09-15-11-02-41-b5051b12md.md) |
+| Operations | 2026-09-15_11-01-28_c86892a5.md | Open 16 days | [O.575](Operations/_work/O.575-2026-09-15-11-01-28-c86892a5md.md) |
+| Operations | 2026-09-15_10-53-52_b4ac653b.md | Open 16 days | [O.576](Operations/_work/O.576-2026-09-15-10-53-52-b4ac653bmd.md) |
+| Operations | 2026-09-15_10-47-59_b68b3916.md | Open 16 days | [O.577](Operations/_work/O.577-2026-09-15-10-47-59-b68b3916md.md) |
+| Operations | 2026-09-15_10-44-57_b838782e.md | Open 16 days | [O.578](Operations/_work/O.578-2026-09-15-10-44-57-b838782emd.md) |
+| Operations | Email reply and access management decisi | Open 16 days | [O.579](Operations/_work/O.579-Email-reply-and-access-management-decision.md) |
+| Operations | 2026-09-15_10-42-18_8c5679c1.md | Open 16 days | [O.580](Operations/_work/O.580-2026-09-15-10-42-18-8c5679c1md.md) |
+| Operations | 2026-09-15_10-39-45_6cfd6e2c.md | Open 16 days | [O.581](Operations/_work/O.581-2026-09-15-10-39-45-6cfd6e2cmd.md) |
+| Operations | Edit Rodrigo Sanchez calls recording | Open 16 days | [O.582](Operations/_work/O.582-Edit-Rodrigo-Sanchez-calls-recording.md) |
+| Operations | BlackEyeCollective invited you to BlackE | Open 16 days | [O.583](Operations/_work/O.583-BlackEyeCollective-invited-you-to-BlackEyeCollectiveRightSto.md) |
+| Operations | 2026-09-15_11-14-02_221abe06.md | Open 16 days | [O.584](Operations/_work/O.584-2026-09-15-11-14-02-221abe06md.md) |
+| Operations | 2026-09-15_11-13-46_315f8eaf.md | Open 16 days | [O.585](Operations/_work/O.585-2026-09-15-11-13-46-315f8eafmd.md) |
+| Operations | Missing GitHub Organization Access | Open 16 days | [O.586](Operations/_work/O.586-Missing-GitHub-Organization-Access.md) |
+| Operations | 2026-09-15_11-10-41_a82848e6.md | Open 16 days | [O.587](Operations/_work/O.587-2026-09-15-11-10-41-a82848e6md.md) |
+| Operations | 2026-09-15_11-10-16_3e4f69a4.md | Open 16 days | [O.588](Operations/_work/O.588-2026-09-15-11-10-16-3e4f69a4md.md) |
+| Operations | 2026-09-15_11-05-19_6ceba73f.md | Open 16 days | [O.589](Operations/_work/O.589-2026-09-15-11-05-19-6ceba73fmd.md) |
+| Operations | RightStore D2S integration architecture  | Open 16 days | [O.590](Operations/_work/O.590-RightStore-D2S-integration-architecture-proposal.md) |
+| Operations | WhatsApp digest: Jatin Blocvey (2026-09- | Open 16 days | [O.591](Operations/_work/O.591-WhatsApp-digest-Jatin-Blocvey-2026-09-15.md) |
+| Operations | 2026-09-15_11-41-48_641de69b.md | Open 16 days | [O.592](Operations/_work/O.592-2026-09-15-11-41-48-641de69bmd.md) |
+| Operations | SSL upload error with Beatrice | Open 16 days | [O.593](Operations/_work/O.593-SSL-upload-error-with-Beatrice.md) |
+| Operations | 2026-09-15_11-27-29_a47113c9.md | Open 16 days | [O.594](Operations/_work/O.594-2026-09-15-11-27-29-a47113c9md.md) |
+| Operations | 2026-09-15_12-19-16_d7a3095f.md | Open 16 days | [O.595](Operations/_work/O.595-2026-09-15-12-19-16-d7a3095fmd.md) |
+| Operations | 2026-09-15_12-17-22_ab501841.md | Open 16 days | [O.596](Operations/_work/O.596-2026-09-15-12-17-22-ab501841md.md) |
+| Operations | 2026-09-15_11-52-37_252c9cf4.md | Open 16 days | [O.597](Operations/_work/O.597-2026-09-15-11-52-37-252c9cf4md.md) |
+| Operations | 2026-09-15_11-49-16_91be49ab.md | Open 16 days | [O.598](Operations/_work/O.598-2026-09-15-11-49-16-91be49abmd.md) |
+| Operations | 2026-09-15_11-48-45_5a55fe30.md | Open 16 days | [O.599](Operations/_work/O.599-2026-09-15-11-48-45-5a55fe30md.md) |
+| Operations | 2026-09-15_11-48-13_3a70a4a6.md | Open 16 days | [O.600](Operations/_work/O.600-2026-09-15-11-48-13-3a70a4a6md.md) |
+| Operations | AI agent help for new repo understanding | Open 16 days | [O.601](Operations/_work/O.601-AI-agent-help-for-new-repo-understanding.md) |
+| Operations | 2026-09-15_12-38-22_60d58a56.md | Open 16 days | [O.602](Operations/_work/O.602-2026-09-15-12-38-22-60d58a56md.md) |
+| Operations | 2026-09-15_12-37-41_c682ed94.md | Open 16 days | [O.603](Operations/_work/O.603-2026-09-15-12-37-41-c682ed94md.md) |
+| Operations | 2026-09-15_12-34-38_b2da0d1f.md | Open 16 days | [O.604](Operations/_work/O.604-2026-09-15-12-34-38-b2da0d1fmd.md) |
+| Operations | 2026-09-15_12-36-38_c79b1fc4.md | Open 16 days | [O.605](Operations/_work/O.605-2026-09-15-12-36-38-c79b1fc4md.md) |
+| Operations | 2026-09-15_12-34-15_ad0bfed2.md | Open 16 days | [O.606](Operations/_work/O.606-2026-09-15-12-34-15-ad0bfed2md.md) |
+| Operations | 2026-09-15_12-33-33_46841c7f.md | Open 16 days | [O.607](Operations/_work/O.607-2026-09-15-12-33-33-46841c7fmd.md) |
+| Operations | 2026-09-15_12-32-27_a67f7913.md | Open 16 days | [O.608](Operations/_work/O.608-2026-09-15-12-32-27-a67f7913md.md) |
+| Operations | 2026-09-15_12-30-51_8863a685.md | Open 16 days | [O.609](Operations/_work/O.609-2026-09-15-12-30-51-8863a685md.md) |
+| Operations | 2026-09-15_12-25-41_0a49aaa5.md | Open 16 days | [O.610](Operations/_work/O.610-2026-09-15-12-25-41-0a49aaa5md.md) |
+| Operations | 2026-09-15_12-56-56_7712519e.md | Open 16 days | [O.611](Operations/_work/O.611-2026-09-15-12-56-56-7712519emd.md) |
+| Operations | 2026-09-15_12-50-16_049f4977.md | Open 16 days | [O.612](Operations/_work/O.612-2026-09-15-12-50-16-049f4977md.md) |
+| Operations | Mac security warning: Python 3.10 unveri | Open 16 days | [O.613](Operations/_work/O.613-Mac-security-warning-Python-310-unverified.md) |
+| Operations | 2026-09-15_13-38-00_cfd13788.md | Open 16 days | [O.614](Operations/_work/O.614-2026-09-15-13-38-00-cfd13788md.md) |
+| Operations | 2026-09-15_13-35-27_63801b2a.md | Open 16 days | [O.615](Operations/_work/O.615-2026-09-15-13-35-27-63801b2amd.md) |
+| Operations | 2026-09-15_13-34-47_d681ccfb.md | Open 16 days | [O.616](Operations/_work/O.616-2026-09-15-13-34-47-d681ccfbmd.md) |
+| Operations | 2026-09-15_13-33-22_41ef592a.md | Open 16 days | [O.617](Operations/_work/O.617-2026-09-15-13-33-22-41ef592amd.md) |
+| Operations | 2026-09-15_13-25-28_1149784e.md | Open 16 days | [O.618](Operations/_work/O.618-2026-09-15-13-25-28-1149784emd.md) |
+| Operations | 2026-09-15_13-42-41_bc5c52a0.md | Open 16 days | [O.619](Operations/_work/O.619-2026-09-15-13-42-41-bc5c52a0md.md) |
+| Operations | Review generated playbook against pipeli | Open 16 days | [O.620](Operations/_work/O.620-Review-generated-playbook-against-pipeline-output.md) |
+| Operations | Cloudflare AI bot control updates | Open 15 days | [O.621](Operations/_work/O.621-Cloudflare-AI-bot-control-updates.md) |
+| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 15 days | [O.622](Operations/_work/O.622-WhatsApp-digest-JatinMandipKash-2026-09-16.md) |
+| Operations | Book Your Place On The Lunch Attendee Sh | Open 15 days | [O.623](Operations/_work/O.623-Book-Your-Place-On-The-Lunch-Attendee-Sheet-For-Mayfair-AI-T.md) |
+| Operations | WhatsApp digest: Jatin/Mandip/Kash (2026 | Open 15 days | [O.624](Operations/_work/O.624-WhatsApp-digest-JatinMandipKash-2026-09-16.md) |
+| Operations | GitHub PAT "5et-mobile-intake" expiring  | Open 15 days | [O.625](Operations/_work/O.625-GitHub-PAT-5et-mobile-intake-expiring-soon.md) |
+| Operations | Integration of courier services into SPI | Open 65 days | [P.003](Operations/_work/P.003-Integration-of-courier-services-into-SPINE.md) |
+| Operations | RightStore Nimbus Proposal V2 Review | Open 62 days | [P.004](Operations/_work/P.004-RightStore-Nimbus-Proposal-V2-Review.md) |
+| Operations | RightStore by Nimbus deck development | Open 62 days | [P.005](Operations/_work/P.005-RightStore-by-Nimbus-deck-development.md) |
+| Operations | IBIS system overview for Christie & Co | Open 58 days | [P.006](Operations/_work/P.006-IBIS-system-overview-for-Christie-Co.md) |
+| Operations | Project prioritization and competitor re | Open 58 days | [P.007](Operations/_work/P.007-Project-prioritization-and-competitor-research.md) |
+| Operations | StoreDash client and investment coordina | Open 42 days | [P.008](Operations/_work/P.008-StoreDash-client-and-investment-coordination.md) |
+| Operations | StoreDash project documentation and repo | Open 36 days | [P.009](Operations/_work/P.009-StoreDash-project-documentation-and-report-updates.md) |
+| Operations | SPINE development and hardware procureme | Open 36 days | [P.010](Operations/_work/P.010-SPINE-development-and-hardware-procurement.md) |
+| Operations | London Crypto Networking Event Attendanc | Open 30 days | [P.011](Operations/_work/P.011-London-Crypto-Networking-Event-Attendance.md) |
+| Operations | Update on Charities project status | Open 29 days | [P.012](Operations/_work/P.012-Update-on-Charities-project-status.md) |
+| Operations | St. James AI Networking Event Attendance | Open 24 days | [P.013](Operations/_work/P.013-St-James-AI-Networking-Event-Attendance.md) |
+| Operations | Project roadmap alignment for Christie | Open 17 days | [P.014](Operations/_work/P.014-Project-roadmap-alignment-for-Christie.md) |
+| Operations | AI/FinTech Mayfair Networking Lunch | Open 17 days | [P.015](Operations/_work/P.015-AIFinTech-Mayfair-Networking-Lunch.md) |
+| Operations | Import Granola Transcripts for Rasharp P | Open 17 days | [P.016](Operations/_work/P.016-Import-Granola-Transcripts-for-Rasharp-Project.md) |
+| Operations | Bellron Project: Cursor Work, Pipeline,  | Open 17 days | [P.017](Operations/_work/P.017-Bellron-Project-Cursor-Work-Pipeline-Git-Commits.md) |
+| Operations | Kōdo Engineering: Vision Master setup an | Open 16 days | [P.018](Operations/_work/P.018-Kōdo-Engineering-Vision-Master-setup-and-dongle.md) |
+| People | H.002 — Tech Toast Attendee Outreach | Open 86 days | [H.002](People/_work/H.002-tech-toast-attendee-outreach.md) |
+| People | Review compensation and workload distrib | Open 83 days | [H.003](People/_work/H.003-Review-compensation-and-workload-distribution.md) |
+| People | People Development and Learning Framewor | Open 79 days | [H.004](People/_work/H.004-People-Development-and-Learning-Framework.md) |
+| People | Onboarding and Integration of James Lowm | Open 78 days | [H.005](People/_work/H.005-Onboarding-and-Integration-of-James-Lowman-CEO.md) |
+| People | CEO recruitment update: James Lowman wit | Open 63 days | [H.006](People/_work/H.006-CEO-recruitment-update-James-Lowman-withdrawal.md) |
+| People | Potential CEO candidate: Ilann Hepworth | Open 63 days | [H.007](People/_work/H.007-Potential-CEO-candidate-Ilann-Hepworth.md) |
+| People | Streamlining Manager Role in HR Processe | Open 16 days | [H.008](People/_work/H.008-Streamlining-Manager-Role-in-HR-Processes.md) |
+| People | Paternity Leave Enquiry | Open 16 days | [H.009](People/_work/H.009-Paternity-Leave-Enquiry.md) |
+| Services | Nimbus platform access and subscription  | Open 94 days | [S.018](Services/_work/S.018-Nimbus-platform-access-and-subscription-management.md) |
 
 ## Detail
 
 ### Pipeline
 
-**Total Ticks**: 1540
+**Total Ticks**: 1541
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-09-30 17:20 | 0 new, 0 synced |
-| github-sync | 🟢 Yes | ✅ ok | 2026-09-30 17:20 | 0 synced |
-| stream-deck | 🟢 Yes | ✅ ok | 2026-09-30 17:20 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 6 processed, 0 created |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-10-01 09:18 | 1 new, 1 synced |
+| github-sync | 🟢 Yes | ✅ ok | 2026-10-01 09:18 | 0 synced |
+| stream-deck | 🟢 Yes | ✅ ok | 2026-10-01 09:18 | 0 copied, 0 noise, 0 hal |
+| processor-discover | 🟢 Yes | ✅ ok | — | 9 processed, 3 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
-| whatsapp | 🟢 Yes | ✅ ok | 2026-09-30 17:20 | 0 processed, 0 failed |
+| whatsapp | 🟢 Yes | ✅ ok | 2026-10-01 09:18 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
 | hostinger | ⚪ No | — | — | — |
 | store-email | 🟢 Yes | — | — | — |
@@ -982,11 +990,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-10-01 09:18](_pipeline/logs/2026-10-01_09-18-31.md) | 3949s | [✓](_pipeline/logs/2026-10-01_09-18-31.md#icloud-email) 1 new, 1 synced | [✓](_pipeline/logs/2026-10-01_09-18-31.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-10-01_09-18-31.md#processor-discover) 9 processed, 3 created | [✓](_pipeline/logs/2026-10-01_09-18-31.md#processor-progress) 0 progressed | $0.0000 | ~1.645g |
 | [2026-09-30 17:20](_pipeline/logs/2026-09-30_17-20-28.md) | 3031s | [✓](_pipeline/logs/2026-09-30_17-20-28.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-30_17-20-28.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-30_17-20-28.md#processor-discover) 6 processed, 0 created | [✓](_pipeline/logs/2026-09-30_17-20-28.md#processor-progress) 0 progressed | $0.0000 | ~1.263g |
 | [2026-09-30 16:08](_pipeline/logs/2026-09-30_16-08-29.md) | 3373s | [✓](_pipeline/logs/2026-09-30_16-08-29.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-30_16-08-29.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-30_16-08-29.md#processor-discover) 19 processed, 0 created | [✓](_pipeline/logs/2026-09-30_16-08-29.md#processor-progress) 0 progressed | $0.0000 | ~1.405g |
 | [2026-09-30 14:56](_pipeline/logs/2026-09-30_14-56-12.md) | 3398s | [✓](_pipeline/logs/2026-09-30_14-56-12.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-30_14-56-12.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-30_14-56-12.md#processor-discover) 20 processed, 0 created | [✓](_pipeline/logs/2026-09-30_14-56-12.md#processor-progress) 0 progressed | $0.0000 | ~1.416g |
 | [2026-09-30 13:21](_pipeline/logs/2026-09-30_13-21-20.md) | 4757s | [✓](_pipeline/logs/2026-09-30_13-21-20.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-30_13-21-20.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-30_13-21-20.md#processor-discover) 7 processed, 0 created | [✓](_pipeline/logs/2026-09-30_13-21-20.md#processor-progress) 0 progressed | $0.0000 | ~1.982g |
-| [2026-09-30 12:19](_pipeline/logs/2026-09-30_12-19-38.md) | 2768s | [✓](_pipeline/logs/2026-09-30_12-19-38.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-09-30_12-19-38.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-09-30_12-19-38.md#processor-discover) 4 processed, 0 created | [✓](_pipeline/logs/2026-09-30_12-19-38.md#processor-progress) 0 progressed | $0.0000 | ~1.153g |
 
 ### Source Topology
 
@@ -1029,7 +1037,7 @@ flowchart TD
 | [Github Issue Sync](Operations/_contracts/github-issue-sync.README.md) | Operations | per-tick | — | ⚪ No |
 | [Icloud Email Import](Operations/_contracts/icloud-email-import.README.md) | Operations | per-tick | — | ⚪ No |
 | [Impact Cascade](Operations/_contracts/impact-cascade.README.md) | Operations | per-tick | 2026-08-25 11:40 | 🟢 Yes |
-| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-09-30 17:27 | 🟢 Yes |
+| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-10-01 09:41 | 🟢 Yes |
 | [Learn The User](Operations/_contracts/learn-the-user.README.md) | Operations | per-tick | — | ⚪ No |
 | [Seed Crystallisation](Operations/_contracts/seed-crystallisation.README.md) | Operations | per-tick | 2026-08-24 15:27 | 🟢 Yes |
 | [Stack Improvement](Operations/_contracts/stack-improvement.README.md) | Operations | weekly | — | ⚪ No |
@@ -1071,7 +1079,7 @@ flowchart TD
 
 | Metric | Value |
 |--------|-------|
-| Notes | 2550 |
+| Notes | 2555 |
 | Themes | 24 |
 | Coverage | 10.9% |
 
