@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1541` · 2026-10-01 08:18 UTC
+`FRAME #1542` · 2026-10-01 09:39 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1541** · 207 ticks · 16 d 17 h · `296b0346` · dashboards + tick reports
+**#1334 → #1542** · 208 ticks · 16 d 19 h · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -19,17 +19,18 @@
 | 1486 | [Seed Crystallisation · RP-4](Operations/_contracts/seed-crystallisation.REVIEW.md#rp-4) | blocking — Implement inductive analysis as contracted — Amend the method if necessary, then compile and verify every obligation |
 | 1382 | [O 437 Build Conversational Initiative Path](Operations/_work/O.437-build-conversational-initiative-path.md) | Progressed. |
 | 1375 | [O 439 Build Contract Support Loop](Operations/_work/O.439-build-contract-support-loop.md) | Progressed. |
-| 1374 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. You answered. |
-| 1374 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. You answered. |
+| 1374 | [A 011 Retail Receipt](Accounts/_work/A.011-Retail-Receipt.md) | The company asked you about this. You answered. |
+| 1374 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. You answered. |
 | 1374 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. You answered. |
-| 1374 | [A 016 Processing Fuel Receipt FOR Business Travel](Accounts/_work/A.016-Processing-fuel-receipt-for-business-travel.md) | The company asked you about this. You answered. |
+| 1374 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. You answered. |
 
 **Elsewhere**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1534 | [Operations](Operations/dashboard.md) | Load 112 → 265 active. |
-| 1534 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-30)](Operations/_work/O.677-WhatsApp-digest-JatinMandipKash-2026-09-30.md) | Created. |
+| 1541 | [Operations](Operations/dashboard.md) | Load 112 → 268 active. |
+| 1541 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-30)](Operations/_work/O.677-WhatsApp-digest-JatinMandipKash-2026-09-30.md) | Created. |
+| 1541 | [WhatsApp digest: Kash Khera (2026-10-01)](Operations/_work/O.680-WhatsApp-digest-Kash-Khera-2026-10-01.md) | Created. |
 | 1533 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-29)](Operations/_work/O.676-WhatsApp-digest-JatinMandipKash-2026-09-29.md) | Created. |
 | 1529 | [Final Call To Book Your Place On Next Thursday's Breakfast Guest List A.I., F...](Operations/_work/O.675-Final-Call-To-Book-Your-Place-On-Next-Thursdays-Breakfast-Gu.md) | Created. |
 | 1524 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-28)](Operations/_work/O.672-WhatsApp-digest-JatinMandipKash-2026-09-28.md) | Created. |
@@ -154,7 +155,7 @@
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 4 progressed, 131 created, 15813 inspected without change.
+Beneath it: 4 progressed, 133 created, 16110 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -169,16 +170,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▄▂▄▄▂▅▁▄▂▅▃▄▁▅▃▅▃▄▅▄▁▇▁▄▃▅█▂▅▄█▁▄▄▄▅▁▄▁▄▄▅▄▄▄▄▅▄▄▄▅▅▄▄▄▄▄▄█
+█▄▂▄▄▂▅▁▄▂▅▃▄▁▅▃▅▃▄▅▄▁▇▁▄▃▅█▂▅▄█▁▄▄▄▅▁▄▁▄▄▅▄▄▄▄▅▄▄▄▅▅▄▄▄▄▄▄█▄
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 23 d 23 h   (frames #1482 → #1541)
+▁–█ tick-report activity · 60 reports · 24 d 0 h   (frames #1483 → #1542)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 23 d 23 h |
+| Time since latest move | 24 d 0 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -329,4 +330,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-16 12:15 | company | Turn settled · A.005 |
 | 09-16 08:50 | company | Cue published · A.019 |
 
-<sub>Rendered from the repo at frame #1541 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1542 · immediate mode, no client state</sub>
