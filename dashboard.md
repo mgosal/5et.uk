@@ -8,7 +8,7 @@
   <a href="Services/dashboard.md" style="display:inline-block; background-color:#f1f3f4; color:#3c4043; padding:6px 14px; text-decoration:none; border-radius:16px; font-weight:500; font-size:14px; ">🔌 Services</a>
 </div>
 <div style="margin-bottom: 16px; border-bottom: 1px solid #e0e0e0; padding-bottom: 12px; font-size: 14px;">
-  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1550.md" style="font-size:11px; color:#5f6368;">#1550</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
+  <a href="_pipeline/index.md">Pipeline</a> <a href="_pipeline/reports/tick-1551.md" style="font-size:11px; color:#5f6368;">#1551</a> · <a href="_tools/README.md">Tools</a> · <a href="_knowledge/roadmap.md">Roadmap</a> · <a href="_knowledge/philosophy.md">Philosophy</a> · <a href="_knowledge/research/README.md">Research</a>
 </div>
 
 <div style="font-size: 13px; color: #5f6368; margin-bottom: 24px;">
@@ -43,7 +43,7 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ## Last Tick
 
-**[Tick #1550](_pipeline/reports/tick-1550.md)** · 2026-10-02 11:24 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
+**[Tick #1551](_pipeline/reports/tick-1551.md)** · 2026-10-02 14:43 UTC · scheduled · **Diagnostics**: normal · **Historical rescan**: no
 
 ### Work Items
 
@@ -354,7 +354,7 @@ One hop from company scope to a unit or nested dashboard. Omitted when no `proje
 
 ### Progression — ⛔ stalled
 
-**No work item has been advanced for 93 consecutive ticks** — 1690 LLM call(s) failed; 216 item(s) blocked on approval or escalation.
+**No work item has been advanced for 94 consecutive ticks** — 1702 LLM call(s) failed; 216 item(s) blocked on approval or escalation.
 
 First failure: `kie/gemini-2.5-flash: [422] The channel is not supported`
 
@@ -386,29 +386,30 @@ First failure: `kie/gemini-2.5-flash: [422] The channel is not supported`
 - **Latest move at**: 2026-09-07T10:23:40.354071+00:00
 - **Latest move**: You responded to Review: Voice Note Import Services Agreement.
 - **Latest move evidence**: Yeah, there's got a little recommendation on this as well.
-- **Latest move tick**: 1491
+- **Latest move tick**: 1492
 
 ### Since Your Last Turn
 
 - **Turn at**: 2026-09-14T14:43:12.860222+00:00
 - **Turn tick**: 1334
 - **Turn commit**: 296b0346
-- **Window**: 216 ticks · 17 d 20 h
+- **Window**: 217 ticks · 18 d 0 h
 - **Evidence**: dashboards + tick reports
 - **Your threads**: 7
-- **Elsewhere**: 128
-- **Beneath**: 4 progressed, 136 created, 18493 inspected without change
+- **Elsewhere**: 129
+- **Beneath**: 4 progressed, 137 created, 18793 inspected without change
 
 | Scope | Tick | Item | Summary |
 |---|---:|---|---|
 | yours | 1486 | [Seed Crystallisation · RP-4](Operations/_contracts/seed-crystallisation.REVIEW.md#rp-4) | blocking — Implement inductive analysis as contracted — Amend the method if necessary, then compile and verify every obligation |
 | yours | 1382 | [O 437 Build Conversational Initiative Path](Operations/_work/O.437-build-conversational-initiative-path.md) | Progressed. |
 | yours | 1375 | [O 439 Build Contract Support Loop](Operations/_work/O.439-build-contract-support-loop.md) | Progressed. |
-| yours | 1374 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. You answered. |
+| yours | 1374 | [A 005 Privacy Screen Protector](Accounts/_work/A.005-privacy-screen-protector.md) | The company asked you about this. You answered. |
 | yours | 1374 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. You answered. |
-| yours | 1374 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. You answered. |
-| yours | 1374 | [A 011 Retail Receipt](Accounts/_work/A.011-Retail-Receipt.md) | The company asked you about this. You answered. |
-| elsewhere | 1548 | [Operations](Operations/dashboard.md) | Load 112 → 270 active. |
+| yours | 1374 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. You answered. |
+| yours | 1374 | [A 019 Google Play Subscription MAY](Accounts/_work/A.019-google-play-subscription-may.md) | The company asked you about this. You answered. |
+| elsewhere | 1550 | [Operations](Operations/dashboard.md) | Load 112 → 271 active. |
+| elsewhere | 1550 | [WhatsApp digest: Kōdo Engineering (2026-10-02)](Operations/_work/O.683-WhatsApp-digest-Kōdo-Engineering-2026-10-02.md) | Created. |
 | elsewhere | 1548 | [An hour of your time on what we're building](projects/store-dash/_work/SD.339-An-hour-of-your-time-on-what-were-building.md) | Created. |
 | elsewhere | 1548 | [Important updates to our Terms of Service and Privacy Policy](Operations/_work/O.682-Important-updates-to-our-Terms-of-Service-and-Privacy-Policy.md) | Created. |
 | elsewhere | 1545 | [WhatsApp digest: Kash Khera (2026-10-01)](Operations/_work/O.680-WhatsApp-digest-Kash-Khera-2026-10-01.md) | Created. |
@@ -554,7 +555,6 @@ Nothing presented and unanswered.
 
 | Tick | Compute | Inspected | Created | Progressed | LLM tokens |
 |---:|---:|---:|---:|---:|---:|
-| [#1491](_pipeline/reports/tick-1491.md) | 29.3s | 0 | 0 | 0 | 0 |
 | [#1492](_pipeline/reports/tick-1492.md) | 1477.1s | 271 | 1 | 0 | 0 |
 | [#1493](_pipeline/reports/tick-1493.md) | 80.6s | 0 | 0 | 0 | 0 |
 | [#1494](_pipeline/reports/tick-1494.md) | 1544.6s | 272 | 0 | 0 | 0 |
@@ -614,6 +614,7 @@ Nothing presented and unanswered.
 | [#1548](_pipeline/reports/tick-1548.md) | 3464.6s | 299 | 2 | 0 | 0 |
 | [#1549](_pipeline/reports/tick-1549.md) | 3461.6s | 299 | 0 | 0 | 0 |
 | [#1550](_pipeline/reports/tick-1550.md) | 10982.7s | 300 | 1 | 0 | 0 |
+| [#1551](_pipeline/reports/tick-1551.md) | 3212.3s | 300 | 0 | 0 | 0 |
 
 ## Health
 
@@ -977,16 +978,16 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 ### Pipeline
 
-**Total Ticks**: 1550
+**Total Ticks**: 1551
 
 | Source | Enabled | Status | Last Run | Detail |
 |--------|---------|--------|----------|--------|
-| icloud-email | 🟢 Yes | ✅ ok | 2026-10-02 12:24 | 0 new, 0 synced |
-| github-sync | 🟢 Yes | ✅ ok | 2026-10-02 12:24 | 0 synced |
-| stream-deck | 🟢 Yes | ✅ ok | 2026-10-02 12:24 | 0 copied, 0 noise, 0 hal |
-| processor-discover | 🟢 Yes | ✅ ok | — | 3 processed, 1 created |
+| icloud-email | 🟢 Yes | ✅ ok | 2026-10-02 15:43 | 0 new, 0 synced |
+| github-sync | 🟢 Yes | ✅ ok | 2026-10-02 15:43 | 0 synced |
+| stream-deck | 🟢 Yes | ✅ ok | 2026-10-02 15:43 | 0 copied, 0 noise, 0 hal |
+| processor-discover | 🟢 Yes | ✅ ok | — | 6 processed, 0 created |
 | processor-progress | 🟢 Yes | ✅ ok | — | 0 progressed |
-| whatsapp | 🟢 Yes | ✅ ok | 2026-10-02 12:24 | 0 processed, 0 failed |
+| whatsapp | 🟢 Yes | ✅ ok | 2026-10-02 15:43 | 0 processed, 0 failed |
 | companies-house | ⚪ No | — | — | — |
 | hostinger | ⚪ No | — | — | — |
 | store-email | 🟢 Yes | — | — | — |
@@ -996,11 +997,11 @@ Grouped by what each is waiting on. The first two groups are yours.
 
 | Run | Duration | icloud-email | github-sync | processor-discover | processor-progress | Cost | Carbon |
 |-----|----------|--------------|-------------|--------------------|--------------------|------|--------|
+| [2026-10-02 15:43](_pipeline/logs/2026-10-02_15-43-01.md) | 3212s | [✓](_pipeline/logs/2026-10-02_15-43-01.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-10-02_15-43-01.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-10-02_15-43-01.md#processor-discover) 6 processed, 0 created | [✓](_pipeline/logs/2026-10-02_15-43-01.md#processor-progress) 0 progressed | $0.0000 | ~1.338g |
 | [2026-10-02 12:24](_pipeline/logs/2026-10-02_12-24-19.md) | 10983s | [✓](_pipeline/logs/2026-10-02_12-24-19.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-10-02_12-24-19.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-10-02_12-24-19.md#processor-discover) 3 processed, 1 created | [✓](_pipeline/logs/2026-10-02_12-24-19.md#processor-progress) 0 progressed | $0.0000 | ~4.576g |
 | [2026-10-02 10:45](_pipeline/logs/2026-10-02_10-45-31.md) | 3462s | [✓](_pipeline/logs/2026-10-02_10-45-31.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-10-02_10-45-31.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-10-02_10-45-31.md#processor-discover) 8 processed, 0 created | [✓](_pipeline/logs/2026-10-02_10-45-31.md#processor-progress) 0 progressed | $0.0000 | ~1.442g |
 | [2026-10-02 09:32](_pipeline/logs/2026-10-02_09-32-09.md) | 3465s | [✓](_pipeline/logs/2026-10-02_09-32-09.md#icloud-email) 2 new, 2 synced | [✓](_pipeline/logs/2026-10-02_09-32-09.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-10-02_09-32-09.md#processor-discover) 5 processed, 2 created | [✓](_pipeline/logs/2026-10-02_09-32-09.md#processor-progress) 0 progressed | $0.0000 | ~1.444g |
 | [2026-10-01 17:21](_pipeline/logs/2026-10-01_17-21-09.md) | 56542s | [✓](_pipeline/logs/2026-10-01_17-21-09.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-10-01_17-21-09.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-10-01_17-21-09.md#processor-discover) 2 processed, 0 created | [✓](_pipeline/logs/2026-10-01_17-21-09.md#processor-progress) 0 progressed | $0.0000 | ~23.559g |
-| [2026-10-01 15:47](_pipeline/logs/2026-10-01_15-47-23.md) | 4064s | [✓](_pipeline/logs/2026-10-01_15-47-23.md#icloud-email) 0 new, 0 synced | [✓](_pipeline/logs/2026-10-01_15-47-23.md#github-sync) 0 synced | [✓](_pipeline/logs/2026-10-01_15-47-23.md#processor-discover) 4 processed, 0 created | [✓](_pipeline/logs/2026-10-01_15-47-23.md#processor-progress) 0 progressed | $0.0000 | ~1.694g |
 
 ### Source Topology
 
@@ -1043,7 +1044,7 @@ flowchart TD
 | [Github Issue Sync](Operations/_contracts/github-issue-sync.README.md) | Operations | per-tick | — | ⚪ No |
 | [Icloud Email Import](Operations/_contracts/icloud-email-import.README.md) | Operations | per-tick | — | ⚪ No |
 | [Impact Cascade](Operations/_contracts/impact-cascade.README.md) | Operations | per-tick | 2026-08-25 11:40 | 🟢 Yes |
-| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-10-02 13:37 | 🟢 Yes |
+| [Information Triage](Operations/_contracts/information-triage.README.md) | Operations | per-tick | 2026-10-02 15:49 | 🟢 Yes |
 | [Learn The User](Operations/_contracts/learn-the-user.README.md) | Operations | per-tick | — | ⚪ No |
 | [Seed Crystallisation](Operations/_contracts/seed-crystallisation.README.md) | Operations | per-tick | 2026-08-24 15:27 | 🟢 Yes |
 | [Stack Improvement](Operations/_contracts/stack-improvement.README.md) | Operations | weekly | — | ⚪ No |
@@ -1085,7 +1086,7 @@ flowchart TD
 
 | Metric | Value |
 |--------|-------|
-| Notes | 2609 |
+| Notes | 2615 |
 | Themes | 24 |
 | Coverage | 10.9% |
 
