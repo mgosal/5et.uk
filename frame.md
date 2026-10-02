@@ -4,13 +4,13 @@
 
 > Document view: [dashboard.md](dashboard.md) · HUD view: [app/director.html](app/director.html)
 
-`FRAME #1548` · 2026-10-02 08:32 UTC
+`FRAME #1549` · 2026-10-02 09:45 UTC
 
 ---
 
 ## ⟳ Since your last turn
 
-**#1334 → #1548** · 214 ticks · 17 d 17 h · `296b0346` · dashboards + tick reports
+**#1334 → #1549** · 215 ticks · 17 d 19 h · `296b0346` · dashboards + tick reports
 
 **Your threads**
 
@@ -20,15 +20,17 @@
 | 1382 | [O 437 Build Conversational Initiative Path](Operations/_work/O.437-build-conversational-initiative-path.md) | Progressed. |
 | 1375 | [O 439 Build Contract Support Loop](Operations/_work/O.439-build-contract-support-loop.md) | Progressed. |
 | 1374 | [A 005 Privacy Screen Protector](Accounts/_work/A.005-privacy-screen-protector.md) | The company asked you about this. You answered. |
-| 1374 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. You answered. |
+| 1374 | [A 014 Google ONE Subscription Receipt](Accounts/_work/A.014-Google-One-Subscription-Receipt.md) | The company asked you about this. You answered. |
 | 1374 | [A 018 ICO Data Protection FEE](Accounts/_work/A.018-ico-data-protection-fee.md) | The company asked you about this. You answered. |
-| 1374 | [A 011 Retail Receipt](Accounts/_work/A.011-Retail-Receipt.md) | The company asked you about this. You answered. |
+| 1374 | [A 017 Incorporation Expense](Accounts/_work/A.017-incorporation-expense.md) | The company asked you about this. You answered. |
 
 **Elsewhere**
 
 | Tick | Item | What happened |
 |---:|---|---|
-| 1545 | [Operations](Operations/dashboard.md) | Load 112 → 269 active. |
+| 1548 | [Operations](Operations/dashboard.md) | Load 112 → 270 active. |
+| 1548 | [An hour of your time on what we're building](projects/store-dash/_work/SD.339-An-hour-of-your-time-on-what-were-building.md) | Created. |
+| 1548 | [Important updates to our Terms of Service and Privacy Policy](Operations/_work/O.682-Important-updates-to-our-Terms-of-Service-and-Privacy-Policy.md) | Created. |
 | 1545 | [WhatsApp digest: Kash Khera (2026-10-01)](Operations/_work/O.680-WhatsApp-digest-Kash-Khera-2026-10-01.md) | Created. |
 | 1541 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-30)](Operations/_work/O.677-WhatsApp-digest-JatinMandipKash-2026-09-30.md) | Created. |
 | 1533 | [WhatsApp digest: Jatin/Mandip/Kash (2026-09-29)](Operations/_work/O.676-WhatsApp-digest-JatinMandipKash-2026-09-29.md) | Created. |
@@ -155,7 +157,7 @@
 | 1336 | [Stream Deck voice recording observation](Operations/_work/I.015-Stream-Deck-voice-recording-observation.md) | Created. |
 | 1335 | [Critical Video Audio Missing](Operations/_work/O.534-Critical-Video-Audio-Missing.md) | Created. |
 
-Beneath it: 4 progressed, 134 created, 17895 inspected without change.
+Beneath it: 4 progressed, 136 created, 18194 inspected without change.
 
 Nothing needs you. The company owes 4.
 
@@ -170,16 +172,16 @@ Nothing needs you. The company owes 4.
 **Company owes next:** [Turn reconciliation — EA.001](_pipeline/turns/2026-09-07-15-00-13-chief-of-staff-call.md) — Monitor repository commits for evidence of Ema integration to determine if a specific task needs to be opened or appended to existing Ema-related work items.
 
 ```
-█▁▄▂▅▃▄▁▅▃▅▃▄▅▄▁▇▁▄▃▅█▂▅▄█▁▄▄▄▅▁▄▁▄▄▅▄▄▄▄▅▄▄▄▅▅▄▄▄▄▄▄█▄▄▄▅▄▄▇
+█▄▂▅▃▄▁▅▃▅▃▄▅▄▁▇▁▄▃▅█▂▅▄█▁▄▄▄▅▁▄▁▄▄▅▄▄▄▄▅▄▄▄▅▅▄▄▄▄▄▄█▄▄▄▅▄▄▇▄
 █ latest move · 10:23
-▁–█ tick-report activity · 60 reports · 24 d 23 h   (frames #1489 → #1548)
+▁–█ tick-report activity · 60 reports · 25 d 0 h   (frames #1490 → #1549)
 grey routine · cyan durable pipeline output · purple LLM work
 ```
 
 | | |
 |---|---:|
 | Tick reports since latest move | **60** |
-| Time since latest move | 24 d 23 h |
+| Time since latest move | 25 d 0 h |
 | Company obligations | 4 (5 raw records) |
 | Waiting on you | 0 |
 
@@ -330,4 +332,4 @@ Nothing is waiting on you. The company may still have work to do.
 | 09-16 12:15 | company | Turn settled · A.005 |
 | 09-16 08:50 | company | Cue published · A.019 |
 
-<sub>Rendered from the repo at frame #1548 · immediate mode, no client state</sub>
+<sub>Rendered from the repo at frame #1549 · immediate mode, no client state</sub>
